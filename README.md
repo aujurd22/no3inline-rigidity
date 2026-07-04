@@ -6,7 +6,20 @@ An optimized exhaustive search for **missing-center** solutions to the No-Three-
 
 Place **2n points** on an **n×n grid** such that no three are collinear. The No-Three-In-Line problem asks for the maximum number of points D(n) achievable. It is known that D(n) = 2n for all n ≤ 46 (with the sole exception of n = 71, where this remains open).
 
-**New perspective**: For each solution achieving 2n points, check whether the grid center is a circumcenter of some triple of points. A "missing-center" solution (or **"center-free"** solution) has **no** triple whose circumcircle is centered at the grid center. This is a novel invariant not previously studied in the literature.
+**New perspective**: For each solution achieving 2n points, check whether the grid center is a circumcenter of some triple of points. A "missing-center" solution (or **"center-free"** solution) has **no** triple whose circumcircle is centered at the grid center.
+
+**Detection method**: Instead of computing circumcenters directly (which requires rational arithmetic), we use an equivalent integer criterion:
+
+> Grid center is a circumcenter of some triple ⇔ three grid points share the same squared Euclidean distance from the center
+
+The squared distance from grid center \(C\) to point \((x,y)\) is:
+\[
+d(x,y) = (2x-(n-1))^2 + (2y-(n-1))^2
+\]
+
+If three points have the same \(d\) value, they lie on a circle centered at \(C\), making \(C\) their circumcenter. Conversely, if \(C\) is the circumcenter of three points, those points are equidistant from \(C\) and thus share the same \(d\) value. **The equivalence is exact** — no floating-point approximation is involved.
+
+This is a novel invariant not previously studied in the literature.
 
 ## Key Findings
 
@@ -184,6 +197,8 @@ Given points A = (r1, c1) and B = (r2, c2), dr = r2-r1, dc = c2-c1:
 This works for **all slopes** (1/2, 2/3, 5/7, and every rational slope), not just axis-aligned or 45° diagonals. The integer-arithmetic formulation is exact — there are no floating-point approximations.
 
 **Why no O(k²) loop is needed**: Every collinear triple (rₐ,cₐ)-(rᵦ,cᵦ)-(rᵧ,cᵧ) has a unique pair with the two *largest* row indices. When those two points are both placed, their line equation is added to `forbid` for all future rows. By the time the third point is considered, its column is already blocked. The induction is complete — no collinear triple can escape.
+
+**Formal correctness**: The algorithm's correctness relies on the inductive invariant: after placing points in rows \(0, \ldots, r\), the forbid mask `forbid[s]` for any \(s > r\) contains the blocking columns for ALL collinear pairs \((p_i, p_j)\) with \(i < j \le r\). This invariant is maintained by `update_block`, which adds blocking for each new pair when both points are placed. Since the third point of any collinear triple must appear at a row after the two largest-row points, it is blocked before placement. The invariant holds for all rows by induction on \(r\). Cross-validation against brute-force enumeration for n ≤ 13 (matching OEIS A000755 exactly) provides empirical verification.
 
 **Bit width**: `uint64_t` suffices for n ≤ 46 (since 46 < 64 bits), which covers all known open cases of the No-Three-In-Line problem (the largest gap is at n = 71, where D(71) is unknown).
 
@@ -365,7 +380,9 @@ d(x,y) = (2x-(n-1))^2 + (2y-(n-1))^2 = (2R(x)_x-(n-1))^2 + (2R(x)_y-(n-1))^2
 
 **Corollary**: Missing-center solutions cannot have C₄ symmetry. This is verified for all n ≤ 19.
 
-### Direction 5: The Even n Threshold — Solved ✓
+### Direction 5: The Even n Threshold — Empirically Characterized
+
+**Important caveat**: This threshold is an **empirical finding** based on exhaustive search up to n=13 and D₄-inequivalent analysis up to n=19. It has not been proven mathematically. The matrix analysis explains why the threshold exists (interaction between ring capacity and collinearity), but does not constitute a proof that n=12 is the exact transition point.
 
 The threshold at n=12 is caused by the interaction between distance-ring capacity and the collinearity constraint. The matrix M[i][j] analysis shows that the ring constraint alone is satisfiable at n=8, but the collinearity constraint eliminates all such assignments. At n=12, the 19 rings provide enough geometric diversity for both constraints to be satisfied simultaneously.
 
