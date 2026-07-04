@@ -203,7 +203,11 @@ A complementary approach: instead of row-by-row search, first specify a **distan
 
 **Key result**: Given a valid ring assignment (e.g., from known RLE data), the solver finds a placement in <0.1s (n=12) or ~1s (n=14). However, **finding a valid ring assignment is the hard part** — even small changes to a working assignment make it infeasible.
 
-This solver is primarily an **analytical tool** for studying which ring assignments admit solutions. Usage:
+This solver is primarily an **analytical tool** for studying which ring assignments admit solutions. 
+
+**Key negative result**: Both single and double ring-replacement tests fail (0/180 for n=14). The ring assignment is extremely fragile — every ring is simultaneously essential for the placement to satisfy collinearity and distance constraints. This rules out "construct from a subset of rings" strategies.
+
+Usage:
 ```
 g++ -O3 -march=native -std=c++17 ring_guided_solver.cpp -o ring_guided_solver
 ring_guided_solver <n> 1 <ring_file>
@@ -281,7 +285,10 @@ The batch file auto-detects MSVC if MinGW is not found.
 │   ├── analyze_cycles.py        # Column-pairing cycle decomposition analysis
 │   ├── symmetry_analysis.py     # D₄ symmetry classification of solutions
 │   ├── find_hidden_symmetries.py# GL(2,p) affine transformation search
-│   ├── prep_construction.py     # Construction preparation: universal rings/columns
+│   ├── analyze_d2_spectrum.py   # Circumcircle spectrum (Direction 2)
+│   ├── analyze_d2_deep.py       # Deep D2: cross-solution spectrum comparison
+│   ├── construct_n14.py         # Construction tests: ring replacement analysis
+│   ├── analyze_assignments.py   # Ring assignment pattern analysis
 │   └── ring_solver/             # Ring-guided construction solver
 │       ├── ring_guided_solver.cpp  # C++ solver: given ring assignment → placement
 │       ├── ring_solver.py          # Python ring-by-ring search prototype
@@ -326,9 +333,15 @@ Prove that missing-center solutions exist for all sufficiently large n by **expl
 
 ### Direction 2: Circumcircle Spectrum
 
-Map **every** grid point's role as a circumcenter. For a solution with 2n points, the C(2n, 3) triples each determine a circumcenter (which may or may not be another grid point). The "circumcircle spectrum" characterizes which grid points serve as circumcenters.
+Map **every** grid point's role as a circumcenter. For a solution with 2n points, the C(2n, 3) triples each determine a circumcenter (which may or may not be another grid point).
 
-**Open questions**: Does every solution have a unique "circumcenter signature"? Are two solutions with identical circumcenter spectra isomorphic under grid symmetries?
+**Key results (n=12 analysis)**:
+- Missing-center and has-center solutions have nearly identical spectrum sizes (~1870 unique centers)
+- The only consistent difference is the absence of the grid center itself in missing-center spectra
+- Pairwise sharing between solutions is only ~6% — each solution's spectrum is highly individual
+- 83% of circumcenters are at non-integer coordinates
+
+**Conclusion**: No exploitable pattern was found. The circumcenter spectrum does not provide a constructive handle for the missing-center problem.
 
 ### Direction 3: The Even n Threshold — Solved ✓
 
