@@ -644,6 +644,48 @@ A refined weighted least squares model incorporating $r_2$-based features achiev
 **Code**: `analysis/d4_reconstruct.py` (reconstruction), `analysis/sum_of_two_squares.py` (number theory),
 `analysis/three_factor_model.txt` (results)
 
+---
+
+## Side Exploration: Geometric Dominating Sets (MIN variant)
+
+As a side investigation, we explored the *minimum* variant of the No-Three-In-Line problem (Martin Gardner's "minimum no-3-in-a-line"): find the smallest set of points on an n×n grid such that every grid point lies on a line through two selected points, with no three selected points collinear.
+
+This variant has been studied by Aichholzer, Eppstein, and Hainzl (2023), who proved optimal values for n≤12 via exhaustive backtracking with D₄ symmetry reduction.
+
+### Our heuristic search
+
+We developed a C++ hill-climbing search with ring-constrained initialization that biases toward "missing-center" solutions (each distance ring ≤2 points). The search is **heuristic, not exhaustive** — results are upper bounds.
+
+**Confirmed (matches known literature):**
+
+| n | k | Solutions found | Missing-center |
+|:-:|:-:|:--------------:|:-------------:|
+| 7 | 8 | 451 | 72.7% |
+| 8 | 8 | 88 | 65.9% |
+| 11 | 10 | 1+ | 100% (1 found) |
+| 12 | 10 | 1 | 0% (1 found) |
+
+**New upper bounds (not in OEIS A277433):**
+
+| n | k | Solutions found | Missing-center | Notes |
+|:-:|:-:|:--------------:|:-------------:|:------|
+| **13** | **13** | 5 | 80–100% | a(13) ≤ 13 (new) |
+| **13** | 14 | 13 | 61.5% | Larger k, more solutions |
+| **14** | **15** | 13 | **100%** | a(14) ≤ 15 (new) |
+| **14** | 16 | 49 | 53.1% | Larger k |
+| **15** | **16** | 3 | **100%** | a(15) ≤ 16 (new) |
+| **15** | 17 | 23 | 60.9% | Larger k |
+
+**Observations** (preliminary, based on heuristic search):
+- The missing-center rate in MIN solutions is consistently 10–40× higher than in MAX solutions
+- For optimal (smallest k) solutions, all found configurations are missing-center
+- The same mod-4 ordering (4k+3 > even > 4k+1) observed in the MAX problem appears to hold here as well
+
+**Caveat**: These results are from randomized heuristic search, not exhaustive enumeration.
+Upper bounds are reliable (solutions are verified correct). Missing-center rates are approximate
+(small sample sizes for some n). See `analysis/min_search_fast.cpp` and `analysis/min_search_large.cpp`
+for the search programs, and `analysis/min_version_fast.py` for the initial missing-center analysis.
+
 ## References
 
 1. **P. Erdős**, "On a problem of combinatorial geometry," *American Mathematical Monthly*, vol. 42, 1935, pp. 586–589. — The original formulation of the No-Three-In-Line problem.
