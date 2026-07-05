@@ -576,6 +576,33 @@ This reduces the search space from $\binom{m^2}{m}$ (combinatorial explosion) to
 
 **Code**: `analysis/c4_cycles.cpp`, `analysis/c4_cycles_ext.cpp` — C++ cycle decomposition explorer; `analysis/c4_actual_orbits.py` — Flammenkamp orbit extraction.
 
+### Direction B: Ring Collision Graph — Sum-of-Two-Squares Structure
+
+The **ring collision graph** connects two distance rings if they contain points that form a collinear triple. Understanding this graph is key to explaining why the collinearity constraint eliminates certain orbit selections.
+
+We computed the collision graph for $n=12$ to $n=30$ and correlated each ring's collision degree (percentage of other rings it conflicts with) with its population size, $r_2(d)$ (number of representations as sum of two squares), and 4k+1 prime factor count.
+
+**Key findings**:
+
+1. **Collision degree is primarily driven by population size**, not by $r_2(d)$ or 4k+1 primes directly:
+
+| Ring population | Avg collision degree (n=12→30) |
+|:--------------:|:------------------------------:|
+| pop=4 | 35–62% |
+| pop=8 | 44–75% |
+| pop=12 | 74–97% |
+| pop=16 | 80–100% |
+
+2. **The $d^2=32$ ring (pop=16) is 100% collision across all n** — it conflicts with every other ring. This is because $32=2^5$ has many integer lattice points at radius $\sqrt{32}$, and these points participate in collinear triples with points from every other ring.
+
+3. **Collision degree monotonically decreases as n grows** — because more rings mean more pairwise diversity, reducing the proportional collision frequency.
+
+4. **$r_2(d)$ matters indirectly**: more representations → larger population → more collisions. The $r_2(d)=2$ rings consistently have slightly higher collision degree than $r_2(d)=0$ or $r_2(d)=4$ rings, but the population size accounts for ~80% of the variance.
+
+**Conclusion**: The original hypothesis is partially correct — the sum-of-two-squares structure predicts collision degree **through** population size, but there is no independent 4k+1 prime factor effect. The practical implication for the missing-center problem: **rings with pop≥12 are "dangerous"** because they collide with nearly all other rings, making it difficult to find co-usable pairs.
+
+**Code**: `analysis/direction_b_ring_collision.py` — ring collision graph builder and correlation analysis.
+
 ### Direction 5: The Even n Threshold — Empirically Characterized
 
 **Important caveat**: This threshold is an **empirical finding** based on exhaustive search up to n=13 and D₄-inequivalent analysis up to n=19. It has not been proven mathematically. The matrix analysis explains why the threshold exists (interaction between ring capacity and collinearity), but does not constitute a proof that n=12 is the exact transition point.
