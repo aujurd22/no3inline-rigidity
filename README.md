@@ -778,7 +778,7 @@ A refined weighted least squares model incorporating $r_2$-based features achiev
 | rings (total) | **−0.14** | More rings → fewer missing solutions (dilution effect) |
 | max 4k+1 prime factors | **+5.01** | **Dominant factor** — more representable distances drive missing-center abundance |
 | r₂=0 count | −0.01 | Negligible (impossible rings don't affect usable geometry) |
-| **$R^2$** | **0.880** | Number theory appears to explain 88% of variance |
+| **$R^2$** | **0.880** | Raw R² (Adjusted $R^2 \approx 0.835$) — number theory appears to explain most variance |
 
 **⚠️ Caveat**: This model is fitted on 13 data points (n=7—19) with 3 features, carrying a risk of overfitting. The "max 4k+1 prime factors" feature correlates with n itself, so it may partly proxy for grid size rather than being an independent causal factor. This is an **exploratory model** based on small-n data; its predictive power for larger n is untested. Cross-validation on rot2 data for n=21—29 would be valuable future work.
 
