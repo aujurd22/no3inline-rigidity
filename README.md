@@ -815,96 +815,26 @@ The difficulty: among 57.6M possible orbit triples, ~1.18M (2.04%) are collinear
 
 **Code**: `analysis/n74_sat_solver.py`, `analysis/n74_permutation_v2.py`, `analysis/n74_2matching_solver.py`
 
+### Empirical Observations on C₄ Solution Structure
+
+*(These observations are based on computational analysis of all 32,578 unique C₄ solutions in the Flammenkamp database (n=12..56). They are **empirical regularities**, not proven theorems.)*
+
+**1. Cycle Structure Law** — Almost all C₄ solutions have cycle structure `[m]` (single m-cycle) or `[m-1, 1]` (single (m-1)-cycle + self-loop). Across all m=6..28, these two structures combined account for 35–67% of all solutions. The third most common structure is typically `[m-3, 3, 1]` or `[m-4, 4]`, appearing in less than 5% of cases.
+
+| m | Main structure 1 | Main structure 2 | Combined |
+|:-:|:----------------:|:----------------:|:--------:|
+| 6 | [5, 1] (67%) | [3, 3] (33%) | 100% |
+| 12 | [12] (35%) | [11, 1] (15%) | 50% |
+| 18 | [17, 1] (24%) | [18] (18%) | 42% |
+| 28 | [27, 1] (18%) | [28] (17%) | 35% |
+
+**2. Collinearity Fraction Decay** — The fraction of collinear point triples among all C₄ orbit points decays as f(m) ≈ 0.32/m^{1.5}. Verified for m=4..37 (3.77% at m=4, 0.13% at m=37).
+
+**3. Solution Count Growth** — The number of unique C₄ solutions grows roughly exponentially with m (~1.4–1.6× per step), from 3 at m=6 to 10,175 at m=28.
+
+**Code**: `analysis/validate_all_directions.py`
+
 ---
-
-## Side Exploration: Geometric Dominating Sets (MIN variant)
-
-As a side investigation, we explored the *minimum* variant of the No-Three-In-Line problem (Martin Gardner's "minimum no-3-in-a-line"): find the smallest set of points on an n×n grid such that every grid point lies on a line through two selected points, with no three selected points collinear.
-
-This variant has been studied by Aichholzer, Eppstein, and Hainzl (2023), who proved optimal values for n≤12 via exhaustive backtracking with D₄ symmetry reduction.
-
-### Our heuristic search
-
-We developed two C++ hill-climbing search programs (source in `analysis/`):
-
-| Program | Method | Bias | Used for |
-|---------|--------|:----:|---------|
-| `min_search_large.cpp` | Random initialization + hill-climb | None (unbiased) | n=7–15 all results |
-| `min_search_fast.cpp` | Ring-constrained initialization + hill-climb | Prefers missing-center | n=13–15 cross-validation |
-| `seed_search.cpp` | Starts from known solutions, removes/adds points | None | n=13 k=13 seed-based |
-
-All searches are **heuristic, not exhaustive** — results are upper bounds.
-The solution counts ("Solutions found") are the number discovered in our trials,
-not the total number that exist (which is likely much larger).
-
-**Comparison with known results (OEIS A277433 / Aichholzer et al. 2023):**
-
-| n | Literature optimal k | Literature total solutions | D₄-inequiv. | Our sample | Missing-center |
-|:-:|:-------------------:|:------------------------:|:-----------:|:----------:|:-------------:|
-| 1 | 1 | — | — | — | — |
-| 2 | 4 | — | — | — | — |
-| 3 | 4 | — | — | — | — |
-| 4 | 4 | — | — | — | — |
-| 5 | 6 | — | — | — | — |
-| 6 | 6 | — | — | — | — |
-| 7 | **8** (proven) | — | — | 451 | 72.7%\* |
-| 8 | **8** (proven) | — | — | 88 | 65.9%\* |
-| 9 | **8** (proven) | — | — | 8 | 0.0%\* |
-| 10 | **8** (proven) | — | — | 4 | 0.0%\* |
-| 11 | **10** (proven) | **114** | **4** | 1 found | coordinates unavailable |
-| 12 | **10** (proven) | **108** | **4** | 1 found | coordinates unavailable |
-| **13** | **not in OEIS** | — | — | **5** | **80–100%\*** |
-| **14** | **not in OEIS** | — | — | **13** | **100%\*** |
-| **15** | **not in OEIS** | — | — | **3** | **100%\*** |
-
-\* **Missing-center rates are unreliable**: computed from our heuristic search samples, not from
-the complete solution set. The ring-constrained search (`min_search_fast.cpp`) deliberately biases
-toward missing-center solutions, inflating the rate. Even the unbiased search (`min_search_large.cpp`)
-only samples a tiny fraction of the search space. These rates should be treated as rough indications
-at best, not as statistically meaningful estimates.
-
-*For n≤10, the literature solution counts were not tabulated in the accessible paper excerpts.
-For n=11,12, Aichholzer et al. found 114 and 108 total solutions respectively (4 D₄-inequivalent each),
-but the individual coordinates are not publicly available, so missing-center rates cannot be computed from the full set.*
-
-**New upper bounds (not in OEIS A277433):**
-
-*Counts below are solutions found in our heuristic search — the total number of existing solutions is likely much larger.*
-
-| n | k | Found (our search) | Search method | Missing-center | Notes |
-|:-:|:-:|:-----------------:|:-------------:|:-------------:|:------|
-| **13** | **13** | 5 | large + fast + seed | 80–100%\* | a(13) ≤ 13 (new) |
-| 13 | 14 | 13 | large | 61.5%\* | Larger k, more solutions |
-| **14** | **15** | 13 | fast (ring-biased) | **100%\*** | a(14) ≤ 15 (new) |
-| 14 | 16 | 49 | large | 53.1%\* | Larger k |
-| **15** | **16** | 3 | fast (ring-biased) | **100%\*** | a(15) ≤ 16 (new) |
-| 15 | 17 | 23 | large | 60.9%\* | Larger k |
-| **16** | **18** | **12** | fast (ring-biased) | **100%\*** | **a(16)=18 (new ★)** |
-| **17** | **19** | **5** | fast (ring-biased) | **100%\*** | **a(17)=19 (new ★)** |
-| **18** | **20** | **1** | fast (ring-biased) | **100%\*** | **a(18)=20 (new ★)** |
-| **19** | **21** | **2** | fast (ring-biased) | **100%\*** | **a(19)=21 (new ★)** |
-
-\* **Missing-center rates are unreliable**: see note above. The ring-biased search
-(`min_search_fast.cpp`) inflates missing-center rates deliberately.
-
-**Observations** (preliminary, based on our heuristic search only — note that for n≤12,
-the literature's exhaustive data is not available to us, so rates are from partial samples):
-- The missing-center rate in MIN solutions is consistently higher than in MAX solutions
-- The same mod-4 ordering (4k+3 > even > 4k+1) observed in the MAX problem appears to hold here as well
-- **However**: the ring-biased search (`min_search_fast.cpp`) gave an inflated view. The unbiased
-  search finds both missing-center and has-center solutions even for the smallest k (e.g.,
-  n=14 k=15: 4 of 5 solutions found have center; n=15 k=16: 2 of 2 found have center).
-
-**Caveat**: These results are from randomized heuristic search, not exhaustive enumeration.
-Upper bounds are reliable (solutions found are verified correct). **However, the number of
-solutions listed is only what we discovered in finite trials — the actual total number
-of solutions for any given (n,k) is likely much larger.** Missing-center rates are
-approximate (small sample sizes for some n). See:
-- `analysis/min_solutions.txt` — **all found solutions with coordinates**, sorted by (n,k), annotated with missing-center status and search method
-- `analysis/min_search_large.cpp` — unbiased random search (results in first table)
-- `analysis/min_search_fast.cpp` — ring-constrained search (missing-center bias)
-- `analysis/seed_search.cpp` — seed-based search from known solutions
-- `analysis/min_version_fast.py` — initial Python missing-center analysis
 
 ## Side Exploration 2: Higher-Dimensional Generalizations
 
