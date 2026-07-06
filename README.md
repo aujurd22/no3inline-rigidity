@@ -842,7 +842,7 @@ The difficulty: among 57.6M possible orbit triples, ~1.18M (2.04%) are collinear
 
 ---
 
-## Side Exploration 2: Higher-Dimensional Generalizations
+## Side Exploration: Higher-Dimensional Generalizations
 
 We extended the No-Three-In-Line problem to higher dimensions (3D and beyond), building on the foundational work of Pór and Wood (2004).
 
