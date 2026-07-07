@@ -278,13 +278,25 @@ Every 2-per-row solution defines a 2‑regular bipartite graph between rows and 
 | 17 | 357 | **117× (17,) — 33%** | (17,) ≫ (2,15) > (3,14) |
 | 18 | 345 | **114× (18,) — 33%** | (18,) ≫ (2,16) > (3,15) |
 | 19 | 2,363 | **745× (19,) — 32%** | (19,) ≫ (2,17) > (3,16) |
+| **20** | **2,297** | **695× (20,) — 30%** | (20,) ≫ (2,18) > (3,17) |
+| 21 | 190 | **80× (21,) — 42%** | (21,) ≫ (2,2,17) > (4,17) |
+| 22 | 21 | 4× (2,2,18), 4× (22,) | (22,) = (2,2,18) > (2,2,9,9) |
+| 23 | 234 | **98× (23,) — 42%** | (23,) ≫ (2,2,19) > (8,15) |
+| 24 | 54 | **18× (12,12) — 33%** | (12,12) > (24,) > (2,2,20) |
+| 25 | 561 | **216× (25,) — 38%** | (25,) ≫ (2,2,21) > (4,21) |
+| 26 | 106 | **26× (26,) — 24%** | (26,) > (13,13) > (2,2,11,11) |
+| 27 | 777 | **281× (27,) — 36%** | (27,) ≫ (2,2,23) > (6,21) |
+| 28 | 306 | **71× (14,14) — 23%** | (14,14) > (28,) > (4,12,12) |
+| 29 | 2,136 | **795× (29,) — 37%** | (29,) ≫ (2,2,25) > (4,25) |
+| 30 | 534 | **105× (15,15) — 20%** | (15,15) > (30,) > (2,2,26) |
+| 31 | 1 | 1× (5,13,13) | (5,13,13) |
 
 The pattern is consistent across all catalogued n ≥ 12:
-1. **Single Hamiltonian cycle** `(n,)` — most common by far
-2. **Decomposition into 2‑cycle + (n−2)-cycle** — second most common
-3. **Decomposition into 3‑cycle + (n−3)-cycle** — third most common
+1. **Single Hamiltonian cycle** `(n,)` — most common by far for most odd n
+2. **Split cycles** — even n often favor `(n/2, n/2)` decompositions (n=14, 24, 26, 28, 30)
+3. **Near-Hamiltonian** — `(2, n-2)` or `(2,2,n-4)` are the most common non-trivial types
 
-This holds for n=12–19 (D₄-inequivalent data) but has not been verified for larger n where iden-class solutions are untracked.
+This holds for all D₄-inequivalent data from n=12 to n=30 where missing-center solutions exist.
 
 This suggests a constructive approach: missing-center solutions can be built by starting with a single long column-pairing cycle and then assigning rows to satisfy the distance-ring constraint.
 
