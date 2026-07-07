@@ -537,14 +537,16 @@ The theorem is verified across all 26 even n values from n=6 to n=56 in the [Fla
 | 52 | 5,062 | 100% | 26 | 4 | 4 | ✅ |
 | 54 | 7,696 | 100% | 27 | 4 | 8 | ✅ |
 | 56 | 10,441 | 100% | 28 | 4 | 4 | ✅ |
-| 58 | 19 | 100% | 29 | 4 | 4 or 8 | ✅ |
-| 60 | 32 | 100% | 30 | 4 | 4 or 8 | ✅ |
-| 62 | 5 | 100% | 31 | 4 | 4 or 8 | ✅ |
-| 64 | 25 | 100% | 32 | 4 | 4 or 8 | ✅ |
+| 58 | 19 | 100% | 29 | 4 | 4^ | ✅ |
+| 60 | 32 | 100% | 30 | 4 | 8^ | ✅ |
+| 62 | 5 | 100% | 31 | 4 | 8^ | ✅ |
+| 64 | 25 | 100% | 32 | 4 | 8^ | ✅ |
 | 66 | 2 | 100% | 33 | 4 | 4 | ✅ |
-| 68 | 2 | 100% | 34 | 4 | 4 or 8 | ✅ |
+| 68 | 2 | 100% | 34 | 4 | 4 | ✅ |
 | 70 | 1 | 100% | 35 | 4 | 4 | ✅ |
 | **72** | **1** | **100%** | **36** | **4** | **8** | **✅** |
+
+^ Most common value; the actual solutions include both pop=4 and pop=8 configurations.
 
 Every single rot4 solution across all entries — n=6 (3 solutions) through n=72 (1 solution, Heule 2026) — has the center as a circumcenter. **Zero exceptions in 33,634 tested solutions** (sum of all rot4 counts in the table).
 
