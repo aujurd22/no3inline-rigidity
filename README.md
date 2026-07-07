@@ -163,7 +163,7 @@ n=44: 1,016 → n=46: 1,366 → n=48: 2,124 → n=50: 3,381 → n=52: 5,062 → 
 The growth rate is ≈1.5× per 2-step increment, with no sign of slowing. This provides strong evidence for **D(n)=2n for all even n**, though a formal proof remains open. n=71 is the only n ≤ 72 with no known 2n-point solution. No rot4 solution is known for n=74 as of 2026-06-25.
 
 **Key observations**:
-- **Even n**: n=8 and n=10 have **zero** missing-center solutions. n≥12 all have missing-center solutions: 52 (n=12), 11 (n=14), 103 (n=16), 345 (n=18) — confirming a genuine geometric threshold.
+- **Even n**: n=8 and n=10 have **zero** missing-center solutions. Missing-center solutions appear at n=12 and persist through n=30 (52 → 11 → 103 → 345 → 21 → 54 → 106 → 306 → 534), confirming a genuine geometric threshold. At n≥32, catalogued solutions revert to zero missing-center, as only rot4 and dia2 symmetry classes survive (rot2 vanishes at n=31). See Direction 7 for analysis.
 - **Odd n**: Missing counts grow dramatically: 1 → 1 → 6 → 46 → 354 → 357 → 2,363, with a notable near-plateau at n=15→17 (354→357).
 - Missing/Total ratio varies with n mod 4 and primality, but no simple parity classification fully explains the pattern (regression analysis shows mod4 has a modest effect, coefficient ≈ 0.77, while primality dominates at ≈ 2.95).
 
@@ -701,9 +701,39 @@ The transition occurs at **≈78.9 constraints per variable** — a density valu
 
 ### Direction 7: The Even n Threshold — Empirically Characterized
 
-**Important caveat**: This threshold is an **empirical finding** based on exhaustive search up to n=13 and D₄-inequivalent analysis up to n=19. It has not been proven mathematically. The matrix analysis explains why the threshold exists (interaction between ring capacity and collinearity), but does not constitute a proof that n=12 is the exact transition point.
+The even-$n$ missing-center threshold is now confirmed across a far wider range thanks to the Flammenkamp D₄-inequivalent database (n=8 to n=44):
 
-The threshold at n=12 is caused by the interaction between distance-ring capacity and the collinearity constraint. The matrix M[i][j] analysis shows that the ring constraint alone is satisfiable at n=8, but the collinearity constraint eliminates all such assignments. At n=12, the 19 rings provide enough geometric diversity for both constraints to be satisfied simultaneously.
+| n | Total | Missing | Rate | Available symmetry classes |
+|---|-------|---------|------|---------------------------|
+| 8 | 57 | 0 | 0.0% | iden, rot2, dia1, rot4, ort1 |
+| 10 | 156 | 0 | 0.0% | iden, rot2, dia1, dia2, full, rot4 |
+| 12 | 566 | 8 | 1.4% | iden, rot2, dia1, dia2, rot4 |
+| 14 | 1,366 | 11 | 0.8% | iden, rot2, dia1, dia2, rot4 |
+| 16 | 5,900 | 103 | 1.7% | iden, rot2, dia1, dia2, rot4 |
+| 18 | 19,204 | 345 | 1.8% | iden, rot2, dia1, dia2, rot4 |
+| 20 | 118,057 | 2,297 | 1.9% | iden, rot2, dia1, dia2, rot4 |
+| 22 | 1,275 | 21 | 1.6% | rot2, dia1, dia2, rot4 |
+| 24 | 2,920 | 54 | 1.8% | rot2, dia1, dia2, rot4 |
+| 26 | 4,949 | 106 | 2.1% | rot2, dia1, ort1, rot4 |
+| 28 | 12,203 | 306 | 2.5% | rot2, dia1, ort1, rot4 |
+| 30 | 24,925 | 534 | 2.1% | rot2, dia1, dia2, rot4 |
+| 32 | 175 | **0** | 0.0% | dia1, dia2, rot4 |
+| 34 | 172 | **0** | 0.0% | rot4 |
+| 36 | 282 | **0** | 0.0% | dia2, rot4 |
+| 38 | 338 | **0** | 0.0% | dia2, rot4 |
+| 40 | 541 | **0** | 0.0% | rot4 |
+| 42 | 747 | **0** | 0.0% | dia2, rot4 |
+| 44 | 1,017 | **0** | 0.0% | dia2, rot4 |
+
+**Three-phase evolution**:
+
+1. **Below threshold (n=8–10)**: Zero missing-center — the collinearity constraint eliminates all ring assignments despite the ring-capacity matrix being satisfiable alone.
+
+2. **Active region (n=12–30)**: Missing-center solutions appear and persist across the full range. The rate oscillates between 0.8% and 2.5%. The iden class (non-symmetric) contributes the majority of missing-center solutions up to n=20; beyond that, rot2 drives the count.
+
+3. **Extinction in catalogued classes (n≥32)**: Missing-center solutions vanish entirely from known catalogued solutions. This coincides with the disappearance of the rot2 and iden symmetry classes — only rot4 and dia2 survive. rot4 solutions always have the center as circumcenter (by the C₄ theorem), and dia2 solutions in the database also universally have the center as circumcenter, though a formal proof for dia2 is not yet established.
+
+**Caveat**: The zero missing-center count for n≥32 applies only to catalogued symmetry classes in the Flammenkamp database. The iden class (largest source of missing-center solutions at small n) is not tracked beyond n=20, so the possibility of iden-class missing-center solutions at larger n remains open. The threshold is an **empirical finding** — it has not been proven mathematically.
 
 ### Z3 Solver Cross-Validation (analysis/z3_solver.py, analysis/z3_solver_v2.py)
 
