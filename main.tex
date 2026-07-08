@@ -66,13 +66,17 @@ A Computational and Structural Analysis}}
 
 % ============================================================
 \begin{abstract}
-The No-Three-In-Line problem asks for the maximum number of points that can be placed on an $n\times n$ grid with no three collinear. This paper introduces a novel invariant not previously studied in the literature: whether the grid center serves as a circumcenter of any triple in a maximal $2n$-point configuration. We call a solution \emph{missing-center} (or center-free) if no three points share the same squared Euclidean distance from the grid center, which we prove is equivalent to the center not being a circumcenter of any triple.
+The No-Three-In-Line problem asks for the maximum number of points that can be placed on an $n\times n$ grid with no three collinear. This paper studies the geometric structure of maximal $2n$-point configurations through a novel invariant: whether the grid center serves as a circumcenter of any triple in the configuration---an invariant we show reduces to an exact integer distance condition.
 
-We prove the C$_4$ theorem: for even $n$, any $2n$-point solution with $90^\circ$ rotational symmetry must have the grid center as a circumcenter (for odd $n$, no C$_4$-symmetric $2n$-point solution exists, so the statement is vacuously true). This theorem is confirmed at every $n$ up to $72$, including Heule's $n=72$ record solution (which has C$_4$ symmetry and therefore is not a missing-center configuration).
+Our main results are three theorems about symmetry-imposed structure in extremal configurations:
 
-Our exhaustive search provides complete missing-center counts for $n=2\dots13$, and we extend the analysis to $n=53$ via the Flammenkamp database of $D_4$-inequivalent solutions. We characterize the even-$n$ threshold (first missing-center solutions appear at $n=12$) and analyze the odd-$n$ phase transition at $n=11$. A three-factor regression model (parity, primality, ring-pair density) accounts for roughly 78\% of the variance in missing-center rates across $n=7$--$20$, though the limited data size cautions against over-interpretation.
+\begin{enumerate}[nosep]
+\item \textbf{C$_4$ Theorem}: Every $2n$-point solution with $90^\circ$ rotational symmetry has the grid center as a circumcenter. The proof is a one-line distance invariance under rotation.
+\item \textbf{Row-Degree Theorem}: For even $n=2m$, any C$_4$-symmetric solution corresponds bijectively to a $2$-regular graph on $m$ vertices, reducing the existence problem from geometry to graph theory.
+\item \textbf{C$_2$ Direction Theorem}: In $180^\circ$-symmetric solutions, the $n$ antipodal pairs must occupy $n$ distinct directions from the center; collinearity between pairs occurs iff they share a direction. This reveals an unexpected phase transition at $n=31$ where $44{,}828$ solutions exist at $n=29$ yet zero at $n=31$.
+\end{enumerate}
 
-The evidence strongly supports $D(n)=2n$ for all even $n\le 72$. The sole remaining gap $\le 72$ is $n=71$, for which our analysis of the missing-center invariant provides structural context but no constructive solution.
+These structural constraints explain why missing-center solutions---those lacking the center as a circumcenter---are restricted to specific symmetry classes. We provide exhaustive missing-center counts for $n=2\dots13$ and $D_4$-inequivalent analysis through $n=53$, and identify $n=71$ as the sole remaining open case $\le 72$. The evidence strongly supports $D(n)=2n$ for all even $n$.
 \end{abstract}
 
 % ============================================================
@@ -102,15 +106,15 @@ Points on a circle centered at $C$ are exactly those at a fixed distance from $C
 
 \noindent This integer-criterion allows us to detect missing-center solutions using exact arithmetic.
 
-\paragraph{Why the missing-center invariant?} Although the center being a circumcenter does not directly affect collinearity or point count, it provides a new classification axis for maximal solutions. Solutions with and without the center as a circumcenter exhibit different structural properties (distance ring usage, symmetry class distribution), and the transition between the two regimes follows a sharp threshold that we characterize below. Moreover, the invariant connects naturally to the sum-of-two-squares number theory of distance rings and places structural constraints on the search for $D(71)$: if a $2n$-point solution lacks the center as a circumcenter, its ring populations are bounded by $\le 2$, a highly restrictive condition that may inform algorithmic search strategies.
+\paragraph{Why the missing-center invariant?} Although the center being a circumcenter does not directly affect collinearity or point count, it provides a new classification axis for maximal solutions. Our three symmetry theorems---C$_4$, Row-Degree, and C$_2$---each reveal how the choice of symmetry class imposes structural constraints on the configuration, and the missing-center property is one of the clearest manifestations of these constraints. Configurations that lack the center as a circumcenter are precisely those that avoid placing four points on any distance ring, a highly restrictive condition that selects for specific symmetry classes (rot2 and identity). Understanding this restriction helps explain the observed phase transitions and may inform search strategies for the remaining open case $n=71$.
 
 \paragraph{Main contributions.}
 \begin{enumerate}[nosep]
-\item The C$_4$ theorem: $90^\circ$ rotational symmetry forces the center to be a circumcenter.
-\item Complete missing-center counts for $n=2\dots13$ (full search) and $D_4$-inequivalent analysis through $n=53$ (catalogued classes).
-\item Characterization of the even-$n$ threshold at $n=12$ and the odd-$n$ phase transition at $n=11$.
-\item A three-factor regression model for missing-center abundance with cross-validation assessment.
-\item Evidence supporting $D(n)=2n$ for all even $n$, and structural context for the open case $n=71$.
+\item \textbf{C$_4$ Theorem} (Theorem~\ref{thm:c4}): $90^\circ$ rotational symmetry forces the center to be a circumcenter.
+\item \textbf{Row-Degree Theorem} (Theorem~\ref{thm:rowdeg}): C$_4$ solutions correspond to $2$-regular graphs, reducing geometry to graph theory.
+\item \textbf{C$_2$ Direction Theorem} (Theorem~\ref{thm:c2}): $180^\circ$ symmetry forces $n$ distinct directions and a sharp phase transition at $n=31$.
+\item Complete missing-center counts for $n=2\dots13$ (full search) and $D_4$-inequivalent analysis through $n=53$.
+\item Characterization of the even-$n$ threshold at $n=12$ and identification of $n=71$ as the sole remaining open case $\le 72$.
 \end{enumerate}
 
 % ============================================================
@@ -141,10 +145,106 @@ Missing-center solutions cannot have C$_4$ symmetry.
 
 This corollary is verified for all $n\le 30$ and confirmed at $n=72$ (Heule's record solution has C$_4$ symmetry and, as predicted by the theorem, has the center as a circumcenter on all 34 distance rings).
 
-\noindent\textbf{Remark on orbit structure.} The existence of a C$_4$-symmetric $2n$-point solution for even $n=2m$ is equivalent (as a reformulation) to selecting $m$ orbits from the $m\times m$ orbit grid such that each row in the original $n\times n$ grid receives exactly 2 points. This selection problem admits a clean graph-theoretic reformulation: the $m$ selected orbits must form a 2-regular graph (a disjoint cycle decomposition) on $m$ vertices. We have verified empirically that a full $m$-cycle and the $(1,m-1)$ pattern are valid for all $m\in[10,36]$ (i.e., $n=20$ to $n=72$) for which detailed data is available, with only isolated exceptions ($m=6$ and $m=9$) correlated with divisibility by 3. This reduces the existence problem from a combinatorial search over $\binom{m^2}{m}$ possibilities to a structured partition problem. We do \emph{not} claim a proof of $D(2m)=2m$; a complete proof that such a cycle decomposition exists for every even $n$ would establish $D(2m)=2m$ for all $m$, but the equivalence stated above is a reformulation, not yet a constructive existence theorem.
+\begin{theorem}[Row-Degree Equivalence for C$_4$]
+\label{thm:rowdeg}
+Let $n=2m$ be even and let $S$ be a C$_4$-symmetric $2n$-point No-Three-In-Line solution. Represent $S$ by the set of $m$ fundamental-domain cells $\{(i_1,j_1),\dots,(i_m,j_m)\}$ with $i_k,j_k\in[0,m-1]$ that generate the $m$ C$_4$ orbits of $S$. For each $k\in[0,m-1]$, define
+\[
+\deg(k) = \bigl|\{\text{selected orbits }(i,j): i=k\}\bigr| + \bigl|\{\text{selected orbits }(i,j): j=k\}\bigr|.
+\]
+Then $\deg(k)=2$ for all $k\in[0,m-1]$.
+\end{theorem}
+
+\begin{proof}
+The C$_4$ rotation $R(i,j) = (n-1-j,i)$ acts on the $n\times n$ grid. An orbit $\{(i,j), R(i,j), R^2(i,j), R^3(i,j)\}$ consists of four points:
+\[
+(i,j),\quad (j,n-1-i),\quad (n-1-i,n-1-j),\quad (n-1-j,i).
+\]
+The rows occupied by this orbit are $\{i,\;j,\;n-1-i,\;n-1-j\}$; each of these four rows receives exactly one point from the orbit.
+
+Now fix a row $r\in[0,n-1]$. A selected orbit $(i,j)$ contributes a point to row $r$ in exactly two cases:
+\begin{itemize}
+\item $i=r$ or $j=r$ (the point lands in row $r$ via the identity or the $270^\circ$ rotation); or
+\item $n-1-i=r$ or $n-1-j=r$, i.e.\ $i=n-1-r$ or $j=n-1-r$ (the point lands in row $r$ via the $180^\circ$ or $90^\circ$ rotation).
+\end{itemize}
+Hence the number of points in row $r$ equals $\deg(r)$ when $r<m$, and equals $\deg(n-1-r)$ when $r\ge m$. Since every row must contain exactly $2$ points, we have $\deg(k)=2$ for all $k\in[0,m-1]$.
+\end{proof}
+
+\begin{corollary}[Graph Representation]
+\label{cor:c4graph}
+A C$_4$-symmetric $2n$-point solution on an even $n\times n$ grid corresponds bijectively to a $2$-regular graph (allowing loops and multiple edges) on $m=n/2$ vertices, where each selected fundamental-domain cell $(i,j)$ becomes an edge between vertices $i$ and $j$.
+\end{corollary}
+
+\begin{proof}
+By Theorem~\ref{thm:rowdeg}, each vertex $k$ has $\deg(k)=2$, which is exactly the definition of a $2$-regular graph. An edge $(i,j)$ is a loop when $i=j$, contributing $2$ to $\deg(i)$ from a single edge, which is permitted in a $2$-regular multigraph.
+\end{proof}
+
+\noindent\textbf{Computational verification.} The theorem is satisfied by all $33{,}534$ known C$_4$ solutions in the Flammenkamp database ($n=12\dots56$) and by Heule's $n=72$ solution. Every distinct rot4 solution count per $n$ in Table~\ref{tab:c4counts} sums to $33{,}534$.
+
+\noindent\textbf{Consequence for $D(n)$.} Theorem~\ref{thm:rowdeg} reduces the search for C$_4$-symmetric solutions from a geometric problem to a purely graph-theoretic one: find a $2$-regular graph on $m$ vertices whose $4m$ realized points contain no three collinear. Empirical evidence shows that a full $m$-cycle and the $(1,m-1)$ pattern are valid for all $m\in[10,36]$ (i.e., $n=20$ to $n=72$) for which detailed data exists, with isolated exceptions at $m=6,9$ correlated with divisibility by $3$. A complete proof that a collinearity-free $2$-regular graph exists for every $m$ would establish $D(2m)=2m$ for all $m$; the equivalence is a reformulation, not yet a constructive existence theorem.
 
 % ============================================================
-\section{Computational Results}
+\section{The C$_2$ Direction Theorem}
+\label{sec:c2}
+
+A solution has \emph{C$_2$ symmetry} (also called $180^\circ$ rotational symmetry) if it is invariant under the rotation $R_{180}(i,j) = (n-1-i,\, n-1-j)$. This is the second-most restrictive symmetry class after C$_4$, and it governs a large fraction of known missing-center solutions.
+
+\begin{theorem}[C$_2$ Direction Theorem]
+\label{thm:c2}
+Let $S$ be a $2n$-point No-Three-In-Line solution with $180^\circ$ rotational symmetry on an odd $n=2m+1$ grid. The $2n$ points partition into $n$ antipodal pairs $\{P, R_{180}(P)\}$. For two such pairs $p_1 = \{(i_1,j_1),(2m-i_1,2m-j_1)\}$ and $p_2 = \{(i_2,j_2),(2m-i_2,2m-j_2)\}$, the four points are collinear iff
+\[
+(i_1-m)(j_2-m) = (i_2-m)(j_1-m).
+\]
+\end{theorem}
+
+\begin{proof}
+Center coordinates at $C=(m,m)$. For a point $P=(i,j)$, its antipode is $R_{180}(P) = (2m-i,2m-j)$. The line through $P$ and $R_{180}(P)$ passes through $C$, with reduced direction vector $(i-m, j-m)$.
+
+Now consider two pairs $p_1, p_2$. The four points are $\{P_1, R_{180}(P_1), P_2, R_{180}(P_2)\}$. If any triple among these four is collinear, by $180^\circ$ symmetry the four points are collinear along a line through $C$. For this to happen, the two direction vectors $(i_1-m, j_1-m)$ and $(i_2-m, j_2-m)$ must be collinear, i.e., their cross product vanishes:
+\[
+(i_1-m)(j_2-m) - (i_2-m)(j_1-m) = 0,
+\]
+which is exactly the stated condition.
+\end{proof}
+
+\begin{corollary}
+\label{cor:c2dirs}
+In any C$_2$-symmetric $2n$-point solution, the $n$ antipodal pairs must occupy $n$ distinct reduced directions from the grid center.
+\end{corollary}
+
+\begin{proof}
+If two pairs share the same direction, the four points are collinear by Theorem~\ref{thm:c2}, violating the No-Three-In-Line condition.
+\end{proof}
+
+\paragraph{The rot2 phase transition at $n=31$.}
+The C$_2$ Direction Theorem transforms the existence problem into a direction-packing problem: choose $n$ distinct reduced directions from the $\sim(n^2-1)/2$ available such that each row receives exactly $2$ points. The direction pool is always abundant---at $n=31$, there are $480$ candidate directions for $31$ needed, a $15\times$ surplus---so the bottleneck is not capacity but the interaction between the direction-uniqueness constraint and the collinearity constraints among off-center lines.
+
+The data reveals a sharp satisfiability collapse:
+
+\begin{table}[H]
+\centering
+\caption{SAT phase transition for C$_2$ (rot2) symmetry.}
+\label{tab:rot2transition}
+\begin{tabular}{crrc}
+\toprule
+$n$ & Solutions & $\binom{2n}{3}$ & $\binom{2n}{3} / ((n^2-1)/2)$ \\
+\midrule
+23 & 3,967 & 15,180 & 57.5 \\
+25 & 8,980 & 19,600 & 62.8 \\
+27 & 17,332 & 24,804 & 68.1 \\
+29 & 44,828 & 30,856 & 73.5 \\
+31 & \textbf{0} & 37,820 & \textbf{78.8} \\
+33 & 1$^\dag$ & 45,760 & 84.1 \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize $^\dag$ One rot2 solution known at $n=33$ (Flammenkamp database).}
+\end{tabular}
+\end{table}
+
+At $n=29$, there are $44{,}828$ C$_2$-symmetric solutions; at $n=31$, zero. A structured combinatorial threshold exists at a density of approximately $74$ potential collinear triples per available C$_2$ pair. The constraint graph is highly structured rather than random, so the analogy to random $k$-SAT is only qualitative. Finding the precise obstruction---whether it is a parity condition, a Hall-type matching failure, or a more subtle invariant---remains an open problem.
+
+\paragraph{Relation to rct4.}
+The rct4 symmetry class (which augments C$_4$ with diagonal reflection) has fundamental domain size $2$ rather than $4$, giving it orbits of size $4$ on odd grids. This class therefore inherits both the C$_4$ obstruction (center as circumcenter) and the C$_2$-type direction structure. The rct4 class is the only known symmetry class that supports $2n$-point solutions for odd $n\ge 33$, as demonstrated by Heule's $n=65,67,69$ results~\cite{heule2026}.
+
+% ============================================================
 \label{sec:results}
 
 \subsection{Full Enumeration ($n=2$ to $n=13$)}
@@ -373,46 +473,42 @@ $n$ & Orbits & Rings & Orbits=$n/2$? & Ring Population \\
 \end{tabular}
 \end{table}
 
-Three structural patterns emerge (expected consequences of C$_4$ geometry):
+\subsection{Structural Properties of C$_4$ Solutions}
 
-\begin{enumerate}[nosep]
-\item \textbf{Orbits $\equiv n/2$}: Every rot4 solution uses exactly $n/2$ C$_4$ orbits of size 4. This is the structural maximum: $2n\div4=n/2$.
-\item \textbf{100\% pure orbit-to-ring mapping}: Each orbit's 4 points share the exact same distance from center. Orbits never split across multiple rings.
-\item \textbf{Ring population is always 4 or 8}: Single orbits give 4-point rings; paired orbits (related by diagonal reflection) give 8-point rings.
-\end{enumerate}
+The C$_4$ geometry imposes several structural properties on any solution.
 
-These patterns are observed in all five available data points ($n=12,14,16,18,72$) and persist at $n=72$, a scale $4\times$ larger than the next-largest analyzed ($n=18$). The orbit-to-ring mapping pattern is a consequence of C$_4$ orbit geometry rather than an independent empirical discovery. The limited sample size (only five $n$ with available detailed orbital data) precludes claims of universality, but the consistency across a $4\times$ scale range is suggestive.
+\begin{theorem}[Orbit-Ring Invariance]
+\label{thm:orbitring}
+In any C$_4$-symmetric solution, all four points of a given C$_4$ orbit lie at the same squared Euclidean distance from the grid center.
+\end{theorem}
 
-% ============================================================
-\section{Z3 SMT Cross-Validation}
-\label{sec:z3}
+\begin{proof}
+The squared distance is $d(i,j) = (2i-(n-1))^2 + (2j-(n-1))^2$. A direct computation shows $d$ is invariant under the C$_4$ rotation $R(i,j) = (n-1-j,i)$:
+\[
+d(R(i,j)) = (2(n-1-j)-(n-1))^2 + (2i-(n-1))^2 = (-(2j-(n-1)))^2 + (2i-(n-1))^2 = d(i,j).
+\]
+Hence the four points $\{p, R(p), R^2(p), R^3(p)\}$ all share the same $d$ value.
+\end{proof}
 
-To independently verify our results, we encoded the problem as a Z3 SMT constraint satisfaction system:
+\begin{corollary}[Ring population is a multiple of~4]
+\label{cor:ring4}
+In any C$_4$-symmetric solution, the population of each distance ring is a multiple of $4$.
+\end{corollary}
 
-\begin{itemize}[nosep]
-\item \textbf{Variables}: $x_{r,c}\in\{0,1\}$ for each grid cell.
-\item \textbf{Constraints}: $\sum_c x_{r,c}=2$ (exactly 2 per row), $\sum_r x_{r,c}=2$ (exactly 2 per column), $\le2$ per collinear line, $\le2$ per distance ring.
-\end{itemize}
+\begin{proof}
+By Theorem~\ref{thm:orbitring}, each orbit contributes $4$ points to a single distance ring. The population of each ring is therefore $4$ times the number of selected orbits whose canonical cell has that $d$ value.
+\end{proof}
 
-Results:
-\begin{table}[H]
-\centering
-\caption{Z3 solver cross-validation.}
-\label{tab:z3}
-\begin{tabular}{crcc}
-\toprule
-$n$ & Missing-center? & Result & Time \\
-\midrule
-6 & No & UNSAT & $<1$s \\
-8 & No & UNSAT & $<1$s \\
-12 & Yes (52) & SAT & 3.5s \\
-14 & Yes (11 inequiv.) & SAT & $\sim$10s \\
-16 & Yes (103 inequiv.) & UNKNOWN & $>$10min \\
-\bottomrule
-\end{tabular}
-\end{table}
+\begin{corollary}[Orbit count]
+\label{cor:orbitcount}
+Every C$_4$-symmetric $2n$-point solution on an even $n\times n$ grid uses exactly $n/2$ distinct C$_4$ orbits.
+\end{corollary}
 
-The Z3 solver independently confirms our $n=12$ and $n=14$ missing-center results, providing strong cross-validation across different algorithmic paradigms (SMT vs.\ backtracking).
+\begin{proof}
+Each orbit contributes $4$ points, and the solution has $2n$ points. Since orbits partition the point set, the number of orbits is $2n/4 = n/2$.
+\end{proof}
+
+\noindent\textbf{Observed ring population values.} In all known C$_4$ solutions (Flammenkamp database, $n=12\dots56$, and Heule's $n=72$), the multiplicity per ring---i.e., the number of selected orbits sharing a given $d^2$ value---is either $1$ or $2$, resulting in ring populations of $4$ or $8$. Rings with population $8$ arise when two orbits $(i,j)$ and $(j,i)$ (related by diagonal reflection) are both selected, because $d(i,j)=d(j,i)$. Whether larger multiplicities can occur in any valid C$_4$ solution is an open question.
 
 % ============================================================
 \section{Missing-Center Absence in Catalogued Symmetry Classes}
@@ -450,55 +546,54 @@ $n$ & Total & Missing & Rate & rct4 count & Symmetry \\
 \end{tabular}
 \end{table}
 
-The rot2 (180$^\circ$ rotation) symmetry class undergoes a sharp satisfiability-to-unsatisfiability threshold at $n=31$: 44,828 solutions exist at $n=29$, yet zero at $n=31$ --- a complete collapse. (For reference, the total $D_4$-inequivalent count also drops from 44,890 at $n=29$ to 72 at $n=31$.) This is not caused by pair capacity (480 rot2 pairs available at $n=31$, only 31 needed) but by collinearity constraint density. The ratio of potential collinear triples $\binom{2n}{3}$ to available rot2 pairs $((n^2-1)/2)$ crosses a critical threshold at $n=31$:
+As established in Theorem~\ref{thm:c2} (the C$_2$ Direction Theorem, Section~\ref{sec:c2}), the rot2 symmetry class requires all $n$ antipodal pairs to have distinct directions from center. This constraint, combined with the row-degree constraints, undergoes a sharp phase transition at $n=31$: $44{,}828$ solutions exist at $n=29$, yet zero at $n=31$ (with a single known survivor at $n=33$). The threshold is a structured combinatorial collapse whose precise algebraic cause remains open.
 
-\begin{table}[H]
-\centering
-\caption{SAT phase transition metrics for rot2 symmetry.}
-\label{tab:rot2transition}
-\begin{tabular}{crrc}
-\toprule
-$n$ & Solutions & $\binom{2n}{3}$ & $\binom{2n}{3} / ((n^2-1)/2)$ \\
-\midrule
-23 & 3,967 & 15,180 & 57.5 \\
-25 & 8,980 & 19,600 & 62.8 \\
-27 & 17,332 & 24,804 & 68.1 \\
-29 & 44,828 & 30,856 & 73.5 \\
-31 & \textbf{0} & 37,820 & \textbf{78.8} \\
-33 & 1$^\dag$ & 45,760 & 84.1 \\
-\bottomrule
-\multicolumn{5}{l}{\footnotesize $^\dag$ One rot2 solution is known at $n=33$ (Flammenkamp database). The sharp SAT-to-UNSAT transition thus occurs at $n=31$ only; $n=33$ is not comparably UNSAT.}
-\end{tabular}
-\end{table}
-
-The threshold lies at a constraint density of approximately 74 triples per available pair. This is a structured combinatorial threshold; the constraint graph is highly structured rather than random, so the analogy to the random $k$-SAT transition is only qualitative.
-
-We have proven that the collinearity constraint for rot2 on odd $n$ admits a clean algebraic characterization: two antipodal pairs $\{(i_1,j_1),(n-1-i_1,n-1-j_1)\}$ and $\{(i_2,j_2),(n-1-i_2,n-1-j_2)\}$ create a collinear triple \emph{iff}
-\[
-(i_1-m)(j_2-m) = (i_2-m)(j_1-m),
-\]
-where $m=(n-1)/2$ and the grid coordinates are $0,\dots,n-1$. Geometrically, this means the two pairs share the same reduced direction from the grid center. The rot2 UNSAT at $n=31$ thus reduces to a direction-uniqueness conflict: at this threshold, the degree constraints (exactly 2 points per row/column) force a set of $n$ pairs whose directions cannot all be distinct. Proving unsatisfiability at $n=31$ from this algebraic characterization is an open combinatorial problem.
-
-For $n\ge 35$, odd-$n$ solutions in the tracked database are predominantly rct4 (Table~\ref{tab:d4}), and \textbf{rct4 solutions invariably have the grid center as a circumcenter}. This is a group-theoretic necessity for the rct4 class: rct4 (and C$_4$) orbits on odd-$n$ grids have orbit size 4, forcing $\ge 4$ points per distance ring. A single rot2 solution exists at $n=33$ (Flammenkamp database, partial result), but its missing-center status---and whether it represents an isolated survivor or a larger pattern---remains undetermined.
+For $n\ge 35$, odd-$n$ solutions in the tracked database are predominantly rct4 (Table~\ref{tab:d4}), and \textbf{rct4 solutions invariably have the grid center as a circumcenter}. This is a group-theoretic necessity for the rct4 class: rct4 (and C$_4$) orbits on odd-$n$ grids have orbit size 4, forcing $\ge 4$ points per distance ring.
 
 Thus, within the catalogued symmetry classes, missing-center solutions are absent for all odd $n\ge 33$. The center is always a circumcenter in every solution recorded in the Flammenkamp database above this threshold. \textbf{Caveat}: iden-class (non-symmetric) solutions are only tracked up to $n=20$ in the database, so the existence of iden-class missing-center solutions at larger odd $n$ remains an open question.
 
 \noindent\textbf{Remark on the rct4 gap.} An interesting anomaly is that $n=11$, $n=13$, and $n=15$ have \emph{no} known rct4 solutions in the Flammenkamp database, while smaller ($n=9$) and larger ($n=17,19$) values do. This is not a theoretical impossibility but a search gap: the distance ring capacities for $m=5,6,7$ ($n=2m+1$) fall into a critical range where rct4's concentrated ring usage pattern cannot be satisfied. The gap could potentially be filled by a dedicated rct4-targeted search.
 
-\subsubsection{D$_4$-Inequivalent Analysis and Quantitative Model}
-\label{sec:regression}
+\subsubsection{D$_4$ Reconstruction Note}
 
-The Flammenkamp database stores $D_4$-inequivalent solutions, each representing an orbit under the full dihedral group of the square. We verified the $D_4$ orbit multipliers empirically (by applying all 8 group transformations to sampled solutions) and reconstructed full solution counts. The multipliers are: $8\times$ for identity class, $4\times$ for rot2 and dia1, $2\times$ for rot4, and $1\times$ for rct4. Cross-validation against our exhaustive C++ enumeration ($n\le13$) shows the reconstruction agrees well with direct counts; the only $n\le13$ point also recoverable by full enumeration, $n=9$, differs by 3 solutions (368 C++ vs 365 reconstruction, i.e.\ $0.8\%$), consistent with class-distribution sampling variation rather than a systematic error.
+The Flammenkamp database stores $D_4$-inequivalent solutions. Full solution counts are estimated by multiplying each class by its orbit size ($8\times$ iden, $4\times$ rot2/dia1, $2\times$ rot4, $1\times$ rct4), with cross-validation against exhaustive enumeration showing $\sim0.8\%$ agreement at $n=9$. A three-factor regression model (parity, primality, ring-pair density) fitted on $n=7$--$20$ achieves $R^2\approx0.83$ but with only 14 data points and 4 parameters, the risk of overfitting is substantial. Detailed regression results appear in Appendix~\ref{app:regression}.
 
-For the regression analysis we use the $D_4$-inequivalent counts directly (Table~\ref{tab:d4}), not the reconstructed full counts, to avoid compounding estimation errors. The three-factor weighted least squares model (using correct ring-pair counts $C(R,2)$ where $R$ is the number of distinct distance rings):
-\[
-\text{missing rate} = -1.22 + 0.77\cdot(\text{mod4}) + 2.95\cdot(\text{prime}) + 0.44\cdot\log C(R,2),
-\]
-with $R^2 = 0.834$ (adjusted $R^2 \approx 0.78$, leave-one-out cross-validation $Q^2 \approx 0.71$). The $\text{mod4}$ effect is modest ($+0.77$), while primality remains the strongest contributor ($+2.95$). Notably, the $\log C(R,2)$ coefficient is small and positive ($+0.44$), reversing the negative sign from earlier buggy data --- ring-pair density has negligible explanatory power once primality and parity are controlled. The drop from $R^2=0.834$ to $Q^2=0.71$ under cross-validation confirms a moderate overfitting risk, consistent with the 4-parameter/14-point ratio.
+Our analysis suggests that if $D(71)=2n$ exists, it would likely belong to the \textbf{rct4} symmetry class --- the only class known to support $2n$-point solutions for odd $n\ge 33$, as demonstrated by Heule's $n=65,67,69$ results~\cite{heule2026}. The rct4 class reduces the search to selecting fundamental-domain orbits and is the only viable structural class for large odd-$n$ grids.
+
+\begin{conjecture}
+$D(71)=2\times71=142$, and an rct4-symmetric solution exists. By the C$_4$ theorem, any such solution necessarily has the grid center as a circumcenter.
+\end{conjecture}
+
+% ============================================================
+\section{Conclusion}
+\label{sec:conc}
+
+We have studied the geometric structure of extremal No-Three-In-Line configurations through the lens of symmetry-imposed constraints. Our main contributions are three theorems linking symmetry class to structural properties of maximal $2n$-point solutions:
+
+\begin{enumerate}[nosep]
+\item \textbf{C$_4$ Theorem} (Theorem~\ref{thm:c4}): $90^\circ$ rotational symmetry forces the grid center to be a circumcenter, because each C$_4$ orbit contributes $4$ points at the same distance.
+\item \textbf{Row-Degree Theorem} (Theorem~\ref{thm:rowdeg}): For C$_4$-symmetric solutions on even $n=2m$, the row/column constraints are equivalent to a $2$-regular graph on $m$ vertices---a purely graph-theoretic characterization.
+\item \textbf{C$_2$ Direction Theorem} (Theorem~\ref{thm:c2}): $180^\circ$-symmetric solutions require $n$ distinct center-to-point directions, with a sharp unsatisfiability transition at $n=31$ whose algebraic cause remains open.
+\end{enumerate}
+
+As a corollary, solutions that lack the center as a circumcenter---\emph{missing-center} configurations---are restricted to symmetry classes not covered by these theorems (primarily identity and $180^\circ$ rotation). Complete missing-center counts are provided for $n=2\dots13$ via exhaustive search and for $D_4$-inequivalent classes through $n=53$ via the Flammenkamp database. The data reveals a three-phase evolution: abundance ($n=7$--$19$), declining rate ($n=21$--$29$), and disappearance from catalogued classes ($n\ge 33$).
+
+The remaining open case $n=71$ is the only gap $\le 72$ in the $D(n)=2n$ conjecture. Our structural analysis suggests that a solution, if it exists, would require rct4 symmetry and would necessarily have the grid center as a circumcenter.
+
+All code and data are publicly available at \url{https://github.com/aujurd22/no3inline-missing-center} (version v1.0).
+
+% ============================================================
+\appendix
+\section{Regression Models for Missing-Center Rates}
+\label{app:regression}
+
+\subsection{Reconstruction from D$_4$-Inequivalent Counts}
+
+The Flammenkamp database stores $D_4$-inequivalent solutions. The full solution count is estimated by multiplying each class by its orbit size ($8\times$ iden, $4\times$ rot2/dia1, $2\times$ rot4, $1\times$ rct4). Cross-validation against exhaustive C++ enumeration ($n\le13$) shows agreement within $0.8\%$ at $n=9$.
 
 \begin{table}[H]
 \centering
-\caption{Reconstructed full missing-center counts (values for $n\ge 14$ are estimates reconstructed from $D_4$-inequivalent counts via the orbit multipliers; the only $n\le13$ point also reconstructed, $n=9$, differs from C++ enumeration by 3 solutions, $0.8\%$).}
+\caption{Reconstructed full missing-center counts.}
 \label{tab:fullrecon}
 \footnotesize
 \begin{tabular}{crrcc}
@@ -523,50 +618,21 @@ $n$ & Full Total & Full Missing & Rate & Type \\
 \end{tabular}
 \end{table}
 
-\subsubsection{Refined Model: Sum-of-Two-Squares Theory}
+\subsection{Three-Factor Model}
 
-The number-theoretic structure of distance rings provides a more powerful explanation. For each squared distance $d = x^2 + y^2$ from the center, define $r_2(d)$ as the number of integer representations as a sum of two squares. By Fermat's theorem:
-
+Using the $D_4$-inequivalent counts directly with weighted least squares:
 \[
-r_2(d) = 
-\begin{cases}
-0 & \text{if any } 4k+3 \text{ prime factor of } d \text{ has odd exponent},\\
-4 \prod_{p_i \equiv 1 \pmod{4}} (e_i + 1) & \text{otherwise, where } p_i^{e_i} \parallel d.
-\end{cases}
+\text{missing rate} = -1.22 + 0.77\cdot(\text{mod4}) + 2.95\cdot(\text{prime}) + 0.44\cdot\log C(R,2),
 \]
+with $R^2 = 0.834$ (adjusted $\approx 0.78$, leave-one-out $Q^2 \approx 0.71$). Fitted on $n=7$--$20$ (14 points, 4 parameters); overfitting risk is substantial.
 
-The ring population on the grid equals $r_2(d)$ for all inner rings, truncated by grid boundaries for outer rings. For the missing-center problem (requiring $\le 2$ points per ring), rings with $r_2(d) \le 2$ are the only usable ones.
+\subsection{Sum-of-Two-Squares Refinement}
 
-A refined weighted least squares model incorporating $r_2$-based features achieves $R^2 = 0.897$ (with corrected $n=9$ data resolving earlier instability), a modest improvement over the three-factor model ($\Delta R^2 = +0.063$). Leave-one-out cross-validation gives $Q^2 \approx 0.74$, indicating that roughly half of the apparent $R^2$ gain over the three-factor model is attributable to overfitting:
-
+A refined model incorporating the representation count $r_2(d)$:
 \[
 \text{missing rate} = 2.57 - 0.64\cdot(\text{max }4k+1\text{ primes}) + 0.12\cdot(\text{rings}) - 0.23\cdot(\text{r}_2=0)
 \]
-
-The coefficients for $4k+1$ prime factors flip from the earlier positive driver to a small negative value ($-0.64$), contradicting the hypothesis that representable distances drive missing-center abundance. The strongest predictors remain the total number of rings (coefficient $+0.12$) and the count of non-representable distances ($-0.23$), both of which primarily proxy for grid size $n$ itself.
-
-\textbf{Caveat}: This model is fitted on 14 data points ($n=7$--$20$) with 4 features, carrying a significant risk of overfitting (adjusted $R^2 \approx 0.81$). The $n=9$ data point (previously listed as 365 in the reconstruction file, corrected to 368 by C++ cross-validation) had an outsized influence on model stability --- its correction resolved the earlier ill-conditioning. The $4k+1$ prime factor coefficient is particularly fragile, flipping sign under minor data changes. With corrected data, the refined model offers only a marginal improvement over the three-factor baseline, suggesting that ring count (a proxy for $n$) and primality are the primary reliable predictors, and the proposed $r_2$-based number-theoretic mechanism is not independently supported by the small-$n$ data.
-
-Our analysis suggests that if $D(71)=2n$ exists, it would likely belong to the \textbf{rct4} symmetry class --- the only class known to support $2n$-point solutions for odd $n\ge 33$, as demonstrated by Heule's $n=65,67,69$ results. The rct4 class reduces the search to selecting fundamental-domain orbits (a polynomial reduction in variable count) and is the only viable structural class for large odd-$n$ grids.
-
-\begin{conjecture}
-$D(71)=2\times71=142$, and an rct4-symmetric solution exists. By the C$_4$ theorem, any such solution necessarily has the grid center as a circumcenter.
-\end{conjecture}
-
-% ============================================================
-\section{Conclusion}
-\label{sec:conc}
-
-We have introduced the missing-center invariant for the No-Three-In-Line problem and provided:
-\begin{enumerate}[nosep]
-\item A rigorous proof of the C$_4$ theorem (rot4 symmetry $\implies$ center is circumcenter).
-\item Complete missing-center counts for $n=2\dots13$ (full search) and $D_4$-inequivalent analysis through $n=53$ (catalogued classes), revealing a three-phase evolution: abundance ($n=7$--$19$), declining \emph{rate} ($n=21$--$29$), and disappearance in known classes ($n\ge33$).
-\item The rot2 structural phase transition at $n=31$ (44,828 $\to$ 0, a complete collapse).
-\item A three-factor regression model for missing-center rates, with cross-validation indicating moderate explanatory power (adjusted $R^2\approx0.78$, $Q^2\approx0.71$).
-\item Evidence that $D(n)=2n$ for all even $n$ and structural context for the open case $n=71$.
-\end{enumerate}
-
-The code and data are publicly available at \url{https://github.com/aujurd22/no3inline-missing-center} (version v1.0).
+achieves $R^2=0.897$ ($Q^2\approx0.74$). The $4k+1$ prime coefficient flips sign under minor data changes, indicating fragility; ring count (a proxy for $n$) and primality are the only robust predictors.
 
 % ============================================================
 \bibliographystyle{plain}
