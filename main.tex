@@ -580,6 +580,28 @@ As a corollary, solutions that lack the center as a circumcenter---\emph{missing
 
 The remaining open case $n=71$ is the only gap $\le 72$ in the $D(n)=2n$ conjecture. Our structural analysis suggests that a solution, if it exists, would require rct4 symmetry and would necessarily have the grid center as a circumcenter.
 
+% ============================================================
+\section*{Open Problems}
+\label{sec:open}
+
+We conclude with three open problems that emerge naturally from this work.
+
+\paragraph{1. The cycle structure conjecture.}
+Theorem~\ref{thm:rowdeg} characterizes C$_4$-symmetric solutions as $2$-regular graphs on $m=n/2$ vertices. Among the $21{,}601$ known C$_4$ solutions for $n=12\dots56$, the two simplest cycle structures---a single $m$-cycle and a $(1,m-1)$ decomposition (one self-loop plus an $(m-1)$-cycle)---together account for $36.4\%$ of all solutions, and this fraction is stable across the entire range. Moreover, these two patterns are known to yield valid solutions for every tested $m\ge 10$.
+
+\begin{conjecture}[Cycle Universality]
+\label{conj:cycle}
+For every even $n=2m\ge 20$, the $m$-cycle and $(1,m-1)$ cycle patterns produce C$_4$-symmetric $2n$-point No-Three-In-Line solutions. Equivalently, there exists a $2$-regular graph on $m$ vertices---specifically the cycle $C_m$ or the cycle-with-loop $C_{m-1}\cup L_1$---whose $4m$ realized points under the C$_4$ orbit map contain no three collinear.
+\end{conjecture}
+
+A proof of Conjecture~\ref{conj:cycle} would provide an explicit infinite family of $2n$-point solutions, establishing $D(2m)=2m$ constructively for all $m$.
+
+\paragraph{2. The rot2 unsatisfiability proof.}
+Theorem~\ref{thm:c2} reduces the C$_2$ existence problem to a direction-packing problem. The collapse at $n=31$---from $44{,}828$ solutions to zero---is sharp and unexplained. The constraint density crosses $74$ triples per available pair at the threshold, but the constraint graph is structured rather than random, so a random-$k$-SAT analogy is only qualitative. An algebraic or number-theoretic proof of the $n=31$ threshold (or the existence of a single obstruction invariant) would be a significant advance.
+
+\paragraph{3. Missing-center solutions: finite or infinite?}
+The missing-center property is destroyed by C$_4$ and rct4 symmetry, and the rot2 class becomes UNSAT at $n=31$. However, identity-class (non-symmetric) solutions---the largest source of missing-center configurations at small $n$---are only tracked to $n=20$ in public databases, and partial data reveals at least $17$ identity-class missing-center solutions at $n=21$. Whether missing-center solutions exist for arbitrarily large $n$, or whether every sufficiently large $2n$-point solution must have the grid center as a circumcenter, remains the most fundamental open question raised by this work.
+
 All code and data are publicly available at \url{https://github.com/aujurd22/no3inline-missing-center} (version v1.0).
 
 % ============================================================

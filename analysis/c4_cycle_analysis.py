@@ -1,138 +1,130 @@
-"""
-Direction A, Step 3: Graph interpretation of C4 orbit selections
-
-Each orbit selection corresponds to a 2-regular graph on m vertices.
-Vertices = row-pairs {0,...,m-1}
-Edges = orbits (i,j) meaning row-pair i connected to row-pair j
-Each vertex degree = 2 (each row-pair covered by exactly 2 orbits)
-
-A 2-regular graph decomposes into disjoint cycles.
-The cycle lengths sum to m.
-
-Key question: which cycle decompositions yield collinear-free orbit sets?
-"""
-import urllib.request
+#!/usr/bin/env python3
+"""Analyze C4 graph patterns: cycle structure distribution across all even n."""
+import os, sys
+sys.path.insert(0, '.')
 from collections import Counter
 
-ALPHABET = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-char_to_val = {c: i for i, c in enumerate(ALPHABET)}
+ALPH = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz#$%&@?!()[]<>{}=*+|-/~^_:;,.|'
+VAL = {c: i for i, c in enumerate(ALPH)}
+CACHE = os.path.join(os.path.dirname(__file__), 'flammenkamp_cache')
 
-def R(p, n):
-    return (n-1-p[1], p[0])
+def load_solutions(n):
+    """Load all C4 rot4 solutions for n."""
+    sols = []
+    for ext in ['', '.few']:
+        p = os.path.join(CACHE, f'n{n}_rot4{ext}')
+        if not os.path.exists(p):
+            continue
+        with open(p) as f:
+            for line in f:
+                line = line.rstrip()
+                if not line:
+                    continue
+                pre = line[0]
+                body = line[1:] if pre in '.:/-ocx+*' else line
+                if len(body) < 2 * n:
+                    continue
+                pts = []
+                ok = True
+                for r in range(n):
+                    c1 = VAL.get(body[2*r])
+                    c2 = VAL.get(body[2*r+1])
+                    if c1 is None or c2 is None or c1 >= n or c2 >= n:
+                        ok = False
+                        break
+                    pts.append((r, c1))
+                    pts.append((r, c2))
+                if ok:
+                    sols.append(pts)
+    return sols
 
-def decode(line):
-    line = line.strip()
-    if not line: return None
-    rest = line[1:]
-    n = len(rest)//2
-    pts = []
-    for r in range(n):
-        pts.append((r, char_to_val[rest[2*r]]))
-        pts.append((r, char_to_val[rest[2*r+1]]))
-    return n, pts
-
-def find_orbits(n, pts):
-    m = n // 2
-    point_set = set(pts)
-    remaining = set(point_set)
+def extract_orbits(pts, n):
+    N = n // 2
+    used = set()
     orbits = []
-    while remaining:
-        p = remaining.pop()
-        orbit = {p}
-        for _ in range(3):
-            p = R(p, n)
-            remaining.discard(p)
-            orbit.add(p)
-        canon = None
-        for pt in orbit:
-            if pt[0] < m and pt[1] < m:
-                canon = pt
+    for p in pts:
+        if p in used:
+            continue
+        r, c = p
+        # Generate all 4 C4 orbit points
+        orbit = [(r,c), (c, n-1-r), (n-1-r, n-1-c), (n-1-c, r)]
+        used.update(orbit)
+        # Find the canonical cell in the fundamental domain [0,N)×[0,N)
+        for cell in orbit:
+            if cell[0] < N and cell[1] < N:
+                orbits.append(cell)
                 break
-        if canon is None:
-            canon = min(orbit)
-        orbits.append(canon)
-    return m, orbits
+    return orbits
 
-def decompose_cycles(orbits):
-    """Decompose orbit selection into cycles"""
-    m = len(orbits)
-    adj = {r: [] for r in range(m)}
-    for (a, b) in orbits:
-        adj[a].append(b)
-        adj[b].append(a)
-    
+def cycle_decomposition(edges, m):
+    """Given edges of a 2-regular graph on m vertices, return cycle lengths."""
+    adj = {i: [] for i in range(m)}
+    for i, j in edges:
+        adj[i].append(j)
+        adj[j].append(i)
     visited = set()
     cycles = []
-    for r in range(m):
-        if r in visited: continue
-        cycle = [r]
-        visited.add(r)
-        prev = r
-        curr = adj[r][0]  # first neighbor
-        while curr != r:
-            cycle.append(curr)
-            visited.add(curr)
-            nxt = adj[curr][0] if adj[curr][0] != prev else adj[curr][1]
-            prev, curr = curr, nxt
-        # Check if this is a 1-cycle (loop) — both neighbors are self
-        if cycle == [r]:
-            cycles.append((1, r))
-        else:
-            cycles.append((len(cycle), cycle))
-    
-    return cycles
+    for v in range(m):
+        if v in visited:
+            continue
+        # Walk the cycle
+        cyc = [v]
+        visited.add(v)
+        prev = v
+        cur = adj[v][0]
+        while cur != v:
+            cyc.append(cur)
+            visited.add(cur)
+            nxt = adj[cur][0] if adj[cur][1] == prev else adj[cur][1]
+            prev, cur = cur, nxt
+        cycles.append(len(cyc))
+    return tuple(sorted(cycles))
 
-print("=" * 75)
-print("C4 Orbit Selections as Cycle Decompositions")
-print("=" * 75)
+print(f"{'n':>4} {'m':>3} {'sols':>6} {'graphs':>6} {'cycle_types':>40}")
+print("="*60)
 
-for n in [12, 14, 16, 18, 20, 30]:
-    url = f'https://wwwhomes.uni-bielefeld.de/achim/no3in/download/configurations/n{n}_rot4'
-    try:
-        with urllib.request.urlopen(url, timeout=15) as f:
-            lines = f.read().decode().strip().split(chr(10))
-            lines = [l for l in lines if l.strip() and 'html' not in l.lower()[:10]]
-    except:
+results = {}
+for n in range(12, 58, 2):
+    pts_list = load_solutions(n)
+    if not pts_list:
         continue
+    m = n // 2
+    # Count distinct cycle decompositions
+    cyc_counter = Counter()
+    for pts in pts_list:
+        orbits = extract_orbits(pts, n)
+        if len(orbits) != m:
+            continue
+        edges = [(min(i,j), max(i,j)) for (i,j) in orbits]
+        cyc = cycle_decomposition(edges, m)
+        cyc_counter[cyc] += 1
     
-    print(f"\n--- n={n} (m={n//2}, {len(lines)} rot4 solutions) ---")
-    cycle_types = Counter()
+    num_graphs = len(cyc_counter)
+    top_cyc = cyc_counter.most_common(3)
+    cyc_str = ", ".join([f"{c[0]}×{c[1]}" for c in top_cyc[:2]])
     
-    for li, line in enumerate(lines):
-        result = decode(line)
-        if result is None: continue
-        n_actual, pts = result
-        if n_actual != n: continue
-        
-        m, orbits = find_orbits(n, pts)
-        cycles = decompose_cycles(orbits)
-        
-        # Canonical signature: sorted tuple of cycle lengths
-        sig = tuple(sorted([c[0] for c in cycles]))
-        cycle_types[sig] += 1
-        
-        if li < 3:
-            print(f"  Sol #{li}: cycles={cycles}")
-    
-    print(f"  Cycle type distribution:")
-    for sig, count in sorted(cycle_types.items()):
-        print(f"    {sig}: {count} solutions ({count/len(lines)*100:.0f}%)")
+    print(f"{n:>4} {m:>3} {len(pts_list):>6} {num_graphs:>6}  {cyc_str}")
+    results[n] = {
+        'm': m, 'total_sols': len(pts_list),
+        'num_graphs': num_graphs,
+        'top_cycles': top_cyc
+    }
 
-print("\n\n" + "=" * 75)
-print("KEY INSIGHT: C4 orbit selection = 2-regular graph on m vertices")
-print("              = disjoint cycle decomposition of m")
-print("              = partition of m into cycle lengths")
-print("=" * 75)
-print()
-print("Examples of valid decompositions observed:")
-print("  n=12: (5,1) = 1-loop + 5-cycle, (3,3) = two 3-cycles")
-print("  n=14: (6,1) = 1-loop + 6-cycle, (4,3) etc.")
-print("  n=16: (5,3), (4,4), (4,3,1), (3,3,2), etc.")
-print("  n=18: (5,4), (9), (8,1), (7,2), (5,3,1) etc.")
-print("  n=20: (9,1), (8,2), (7,3), (6,4), (5,5), (5,3,2), (4,4,2) etc.")
-print()
-print("The full m-cycle (m) is the simplest pattern but FAILS for all m>3.")
-print("This is the superdiagonal construction: (0,1),(1,2),...,(m-2,m-1),(m-1,0).")
-print()
-print("Open question: which cycle decompositions are collinear-free?")
-print("Is there always at least one valid decomposition for every m?")
+# Summary: what fraction have full m-cycle?
+print("\n=== CYCLE PATTERN SUMMARY ===")
+full_m_cycle = 0
+hamiltonian = 0 # includes (m-1, 1) i.e. almost full cycle
+for n, r in results.items():
+    m = r['m']
+    cycs = r['top_cycles']
+    for cyc, count in cycs:
+        if cyc == (m,):
+            full_m_cycle += count
+        elif len(cyc) == 2 and min(cyc) == 1:
+            hamiltonian += count
+
+total = sum(r['total_sols'] for r in results.values())
+print(f"Total C4 solutions analyzed: {total}")
+print(f"Full m-cycle solutions: {full_m_cycle} ({full_m_cycle/total*100:.1f}%)")
+print(f"(m-1,1) near-cycle solutions: {hamiltonian} ({hamiltonian/total*100:.1f}%)")
+print(f"Combined: {(full_m_cycle+hamiltonian)/total*100:.1f}% of all known C4 solutions")
