@@ -1,0 +1,230 @@
+{
+  "results": [
+    {
+      "N": 6,
+      "total_cells": 36,
+      "total_triples": 7140,
+      "sampled": 20000,
+      "hyperedges_found": 5585,
+      "edge_density": 0.27925,
+      "est_total_hyperedges": 1993
+    },
+    {
+      "N": 7,
+      "total_cells": 49,
+      "total_triples": 18424,
+      "sampled": 20000,
+      "hyperedges_found": 4593,
+      "edge_density": 0.22965,
+      "est_total_hyperedges": 4231
+    },
+    {
+      "N": 8,
+      "total_cells": 64,
+      "total_triples": 41664,
+      "sampled": 20000,
+      "hyperedges_found": 3879,
+      "edge_density": 0.19395,
+      "est_total_hyperedges": 8080
+    },
+    {
+      "N": 9,
+      "total_cells": 81,
+      "total_triples": 85320,
+      "sampled": 20000,
+      "hyperedges_found": 3296,
+      "edge_density": 0.1648,
+      "est_total_hyperedges": 14060
+    },
+    {
+      "N": 10,
+      "total_cells": 100,
+      "total_triples": 161700,
+      "sampled": 20000,
+      "hyperedges_found": 2851,
+      "edge_density": 0.14255,
+      "est_total_hyperedges": 23050
+    },
+    {
+      "N": 11,
+      "total_cells": 121,
+      "total_triples": 287980,
+      "sampled": 20000,
+      "hyperedges_found": 2403,
+      "edge_density": 0.12015,
+      "est_total_hyperedges": 34600
+    },
+    {
+      "N": 12,
+      "total_cells": 144,
+      "total_triples": 487344,
+      "sampled": 20000,
+      "hyperedges_found": 2239,
+      "edge_density": 0.11195,
+      "est_total_hyperedges": 54558
+    },
+    {
+      "N": 13,
+      "total_cells": 169,
+      "total_triples": 790244,
+      "sampled": 20000,
+      "hyperedges_found": 1987,
+      "edge_density": 0.09935,
+      "est_total_hyperedges": 78510
+    },
+    {
+      "N": 14,
+      "total_cells": 196,
+      "total_triples": 1235780,
+      "sampled": 20000,
+      "hyperedges_found": 1720,
+      "edge_density": 0.086,
+      "est_total_hyperedges": 106277
+    },
+    {
+      "N": 15,
+      "total_cells": 225,
+      "total_triples": 1873200,
+      "sampled": 20000,
+      "hyperedges_found": 1541,
+      "edge_density": 0.07705,
+      "est_total_hyperedges": 144330
+    },
+    {
+      "N": 16,
+      "total_cells": 256,
+      "total_triples": 2763520,
+      "sampled": 20000,
+      "hyperedges_found": 1434,
+      "edge_density": 0.0717,
+      "est_total_hyperedges": 198144
+    },
+    {
+      "N": 17,
+      "total_cells": 289,
+      "total_triples": 3981264,
+      "sampled": 20000,
+      "hyperedges_found": 1229,
+      "edge_density": 0.06145,
+      "est_total_hyperedges": 244648
+    },
+    {
+      "N": 18,
+      "total_cells": 324,
+      "total_triples": 5616324,
+      "sampled": 20000,
+      "hyperedges_found": 1165,
+      "edge_density": 0.05825,
+      "est_total_hyperedges": 327150
+    },
+    {
+      "N": 19,
+      "total_cells": 361,
+      "total_triples": 7775940,
+      "sampled": 20000,
+      "hyperedges_found": 1091,
+      "edge_density": 0.05455,
+      "est_total_hyperedges": 424177
+    },
+    {
+      "N": 20,
+      "total_cells": 400,
+      "total_triples": 10586800,
+      "sampled": 20000,
+      "hyperedges_found": 1023,
+      "edge_density": 0.05115,
+      "est_total_hyperedges": 541514
+    },
+    {
+      "N": 21,
+      "total_cells": 441,
+      "total_triples": 14197260,
+      "sampled": 20000,
+      "hyperedges_found": 911,
+      "edge_density": 0.04555,
+      "est_total_hyperedges": 646685
+    },
+    {
+      "N": 22,
+      "total_cells": 484,
+      "total_triples": 18779684,
+      "sampled": 20000,
+      "hyperedges_found": 844,
+      "edge_density": 0.0422,
+      "est_total_hyperedges": 792502
+    },
+    {
+      "N": 23,
+      "total_cells": 529,
+      "total_triples": 24532904,
+      "sampled": 20000,
+      "hyperedges_found": 839,
+      "edge_density": 0.04195,
+      "est_total_hyperedges": 1029155
+    },
+    {
+      "N": 24,
+      "total_cells": 576,
+      "total_triples": 31684800,
+      "sampled": 20000,
+      "hyperedges_found": 732,
+      "edge_density": 0.0366,
+      "est_total_hyperedges": 1159663
+    },
+    {
+      "N": 25,
+      "total_cells": 625,
+      "total_triples": 40495000,
+      "sampled": 20000,
+      "hyperedges_found": 709,
+      "edge_density": 0.03545,
+      "est_total_hyperedges": 1435547
+    },
+    {
+      "N": 26,
+      "total_cells": 676,
+      "total_triples": 51257700,
+      "sampled": 20000,
+      "hyperedges_found": 676,
+      "edge_density": 0.0338,
+      "est_total_hyperedges": 1732510
+    },
+    {
+      "N": 27,
+      "total_cells": 729,
+      "total_triples": 64304604,
+      "sampled": 20000,
+      "hyperedges_found": 592,
+      "edge_density": 0.0296,
+      "est_total_hyperedges": 1903416
+    },
+    {
+      "N": 28,
+      "total_cells": 784,
+      "total_triples": 80007984,
+      "sampled": 20000,
+      "hyperedges_found": 576,
+      "edge_density": 0.0288,
+      "est_total_hyperedges": 2304229
+    },
+    {
+      "N": 29,
+      "total_cells": 841,
+      "total_triples": 98783860,
+      "sampled": 20000,
+      "hyperedges_found": 552,
+      "edge_density": 0.0276,
+      "est_total_hyperedges": 2726434
+    }
+  ],
+  "fit": {
+    "a": 1.4745266254829552,
+    "b": -1.4958456928908943,
+    "log_density_regression": "log(dens) = 1.47 + -1.496\u00d7log(N)"
+  },
+  "extrapolation_n76": {
+    "N": 38,
+    "density": 0.018935042671303085,
+    "expected_hyperedges_in_solution": 159.73601997511284
+  }
+}
