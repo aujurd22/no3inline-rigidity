@@ -299,7 +299,7 @@ The empirical threshold lies at ≈74 triples per available pair — the constra
 
 Extended via [mvr/no-three-in-line](https://github.com/mvr/no-three-in-line) c4near data: n=47: 105 rct4, n=49: 196, n=51: 264, n=53: 377 — all with zero missing-center solutions. The sub-exponential growth continues (∼1.4× per 2-step increment).
 
-The rct4 solution count grows slowly (∼O(n) rather than exponential). For **rot4** (even n) solutions, every distance ring carries a population that is a **multiple of 4** (empirically 4, 8, 12, or 16 across all 21,601 rot4 solutions for n=12–72) — a parallel **symmetry argument** (distinct from, but analogous to, the C₄ theorem): each C₄-orbit is a square of 4 vertices equidistant from the centre, so it contributes exactly 4 points to a single distance ring. *Correction (2026-07-08): this "multiple of 4" law is specific to even-n rot4; it does **not** extend to rct4, whose size-2 midline orbits yield ring populations such as 2 or 6 (all 326 odd-n rct4 solutions show populations in {2,4,6,8,12}).*
+The rct4 solution count grows slowly (∼O(n) rather than exponential). For **rot4** (even n) solutions, every distance ring carries a population that is a **multiple of 4** (empirically 4, 8, 12, or 16 across all 21,601 rot4 solutions for n=12–72) — a parallel **symmetry argument** (distinct from, but analogous to, the C₄ theorem): each C₄-orbit is a square of 4 vertices equidistant from the centre, so it contributes exactly 4 points to a single distance ring. This "multiple of 4" law is specific to even-n rot4; it does **not** extend to rct4, whose size-2 midline orbits yield ring populations such as 2 or 6 (all 326 odd-n rct4 solutions show populations in {2,4,6,8,12}).
 
 **Observation for n=71**: All known solutions for odd n≥33 (and Heule's n=65, 67, 69) in the database are **rct4** — full D₄ symmetry, *not* C₄. (Recall the C₄ theorem applies only to even n; odd n cannot have C₄-symmetric 2n solutions.) If D(71)=2n, the solution would likely be rct4 as well. By the same D₄ group-theoretic argument that governs rct4 (not the C₄ theorem), such a solution would necessarily have the center as a circumcenter. This is consistent with the pattern: no missing-center solutions have been found in any known symmetry class beyond n=31. The caveat applies: iden-class solutions beyond n=20 are not tracked in the database.
 
@@ -780,7 +780,7 @@ These failures are *algorithmic limitations, not a proof of non-existence* (2n s
 
 **3. Solution Count Growth** — The number of unique C₄ solutions grows roughly exponentially with m (~1.4–1.6× per step), from 3 at m=6 to 10,175 at m=28.
 
-### 3.15 Lemma‑1 Reduction, Conflict Hypergraph & GPU Exact Solver
+### 3.15 C₂ Direction Reduction, Conflict Hypergraph & GPU Exact Solver
 
 *(Detailed in `analysis/spectral_struct_n0mod4.md`. Honest scope labels: PROVEN / EMPIRICAL / COMPUTATIONAL EVIDENCE.)*
 
@@ -794,7 +794,7 @@ These failures are *algorithmic limitations, not a proof of non-existence* (2n s
 
 **Direction availability is not the bottleneck (EMPIRICAL).** "Forbidden directions" (used by zero sampled solutions) collapse to 0% once the sample is large (n=44: 0%, n=56: 0%); the high % at n=60,64,68,72 is a `.few`‑cache sampling artefact (only 1–32 solutions stored), not a structural limit.
 
-**Lemma‑1 structure is universal within the rot4 sample (EMPIRICAL, `struct_n0mod4.py`).** For every sampled `n ≡ 0 (mod 4)` rot4 solution (n=12..72), orbit count = exactly `n`, central directions are all distinct, and the 90° closure `(a,b)↔(b,−a)` holds — 100% pass.
+**The n≡0(mod4) structural property is universal within the rot4 sample (EMPIRICAL, `struct_n0mod4.py`).** For every sampled `n ≡ 0 (mod 4)` rot4 solution (n=12..72), orbit count = exactly `n`, central directions are all distinct, and the 90° closure `(a,b)↔(b,−a)` holds — 100% pass.
 
 **GPU exact solver (COMPUTATIONAL EVIDENCE).** Two independent GPU approaches were developed:
 

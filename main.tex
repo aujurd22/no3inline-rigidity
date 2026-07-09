@@ -171,7 +171,7 @@ Hence the number of points in row $r$ equals $\deg(r)$ when $r<m$, and equals $\
 
 \begin{corollary}[Graph Representation]
 \label{cor:c4graph}
-A C$_4$-symmetric $2n$-point solution on an even $n\times n$ grid corresponds bijectively to a $2$-regular graph (allowing loops and multiple edges) on $m=n/2$ vertices, where each selected fundamental-domain cell $(i,j)$ becomes an edge between vertices $i$ and $j$.
+Under the row/column saturation constraint (each row and column must contain exactly $2$ points), a C$_4$-symmetric $2n$-point solution on an even $n\times n$ grid corresponds bijectively to a $2$-regular graph (allowing loops and multiple edges) on $m=n/2$ vertices, where each selected fundamental-domain cell $(i,j)$ becomes an edge between vertices $i$ and $j$.
 \end{corollary}
 
 \begin{proof}
@@ -190,14 +190,14 @@ A solution has \emph{C$_2$ symmetry} (also called $180^\circ$ rotational symmetr
 
 \begin{theorem}[C$_2$ Direction Theorem]
 \label{thm:c2}
-Let $S$ be a $2n$-point No-Three-In-Line solution with $180^\circ$ rotational symmetry on an odd $n=2m+1$ grid. The $2n$ points partition into $n$ antipodal pairs $\{P, R_{180}(P)\}$. For two such pairs $p_1 = \{(i_1,j_1),(2m-i_1,2m-j_1)\}$ and $p_2 = \{(i_2,j_2),(2m-i_2,2m-j_2)\}$, the four points are collinear iff
+Let $S$ be a $2n$-point No-Three-In-Line solution with $180^\circ$ rotational symmetry on an $n\times n$ grid (for $n=2m+1$ odd; the even case follows by scaling). The $2n$ points partition into $n$ antipodal pairs $\{P, R_{180}(P)\}$. For two such pairs $p_1 = \{(i_1,j_1),(2m-i_1,2m-j_1)\}$ and $p_2 = \{(i_2,j_2),(2m-i_2,2m-j_2)\}$, the four points are collinear iff
 \[
 (i_1-m)(j_2-m) = (i_2-m)(j_1-m).
 \]
 \end{theorem}
 
 \begin{proof}
-Center coordinates at $C=(m,m)$. For a point $P=(i,j)$, its antipode is $R_{180}(P) = (2m-i,2m-j)$. The line through $P$ and $R_{180}(P)$ passes through $C$, with reduced direction vector $(i-m, j-m)$.
+For odd $n=2m+1$, center coordinates are $C=(m,m)$. For a point $P=(i,j)$, its antipode is $R_{180}(P) = (2m-i,2m-j)$. The line through $P$ and $R_{180}(P)$ passes through $C$, with reduced direction vector $(i-m, j-m)$. (For even $n$, the center lies at half-integer coordinates; scaling by $2$ gives an equivalent integer formulation with the same collinearity condition.)
 
 Now consider two pairs $p_1, p_2$. The four points are $\{P_1, R_{180}(P_1), P_2, R_{180}(P_2)\}$. If any triple among these four is collinear, by $180^\circ$ symmetry the four points are collinear along a line through $C$. For this to happen, the two direction vectors $(i_1-m, j_1-m)$ and $(i_2-m, j_2-m)$ must be collinear, i.e., their cross product vanishes:
 \[
