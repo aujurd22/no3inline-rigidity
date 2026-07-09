@@ -149,6 +149,34 @@ The difficulty: among $C(703, 3) \approx 57.7$M possible orbit triples (counting
 
 **Code**: `analysis/n74_sat_solver.py`, `analysis/n74_permutation_v2.py`, `analysis/n74_2matching_solver.py`
 
+### 2.6 Low-Slope Parity Theorem (auxiliary direction model)
+
+This theorem lives in the auxiliary **direction model** \(H_n^{\text{dir}}\) used by the hypergraph framework, not in the raw grid. In that model each grid point \(P=(r,c)\) carries a *centre-direction*
+\[
+\operatorname{dir}(P)=\operatorname{reduced}\bigl(2r-(n-1),\,2c-(n-1)\bigr)
+\]
+(reduce by \(\gcd\), normalise to a half-plane), and we declare a point *low-slope* when its direction lies in
+\[
+\mathrm{LOW}=\{(1,0),(0,1),(2,1),(1,2),(2,-1),(1,-2),(3,2),(2,3),(3,-2),(2,-3)\}.
+\]
+A *low-slope configuration* is three low-slope points that are collinear off-centre with their joining direction also in LOW. The sub-hypergraph \(H_n^{\text{dir}}[L]\) records these.
+
+> **Theorem 2.6 (Low-Slope Parity).**
+> Let \(n\) be even. Then **no** grid point of the \(n\times n\) grid has its centre-direction in LOW, so \(H_n^{\text{dir}}[L]\) is *trivially empty* for every even \(n\).
+> Conversely, for every **odd** \(n\ge 5\), \(H_n^{\text{dir}}[L]\) is **non-empty**; an explicit witness is the vertical-line triple
+> \[
+> (m{+}2,m{-}1),\;(m{+}2,m),\;(m{+}2,m{+}1)\qquad\text{with }n=2m{+}1.
+> \]
+
+**Proof (even \(n\) — parity).** Write \(n=2m\). For any cell \((r,c)\) the numerator \((2r-(2m-1),\,2c-(2m-1))\) has both coordinates **odd**. Reducing by the \(\gcd\) leaves both coordinates odd (the \(\gcd\) of two odd numbers is odd), so the reduced direction \((a,b)\) satisfies: \(a,b\) both odd. But every direction in LOW has at least one even coordinate — \((1,0),(0,1)\) have a zero; \((2,\pm1),(1,\pm2),(3,\pm2),(2,\pm3)\) are all odd–even. Hence no reduced direction can land in LOW, so the low-slope point set is empty and \(H_n^{\text{dir}}[L]\) is vacuous. ∎
+
+**Proof (odd \(n\ge 5\) — explicit).** Write \(n=2m+1\) with \(m\ge 2\). The centre is \((m,m)\). The three points have offsets \((2,-1),(2,0),(2,1)\), giving centre-directions \((2,-1),(1,0),(2,1)\in\mathrm{LOW}\); they are collinear on the vertical line \(x=m+2\) with joining direction \((0,1)\in\mathrm{LOW}\). For \(m\ge 2\) (\(n\ge 5\)) all three points lie in grid, are distinct, and are not on a through-centre line. ∎
+
+**Computational verification (exhaustive, not sampled).** `analysis/low_slope_threshold.py` enumerates every grid point/orbit for \(n=5\ldots 60\):
+all even \(n\in\{6,8,\ldots,60\}\) are EMPTY (low-slope point count = 0, confirmed independently by `count_low_pts`); all odd \(n\in\{5,7,\ldots,59\}\) are FOUND, with the first counterexample being exactly the vertical triple above. `count_low_pts` returns 0 for \(n=6,8,12,20,60\) and \(16,28,44,104,320\) for \(n=5,7,11,21,61\), matching the parity proof.
+
+*Scope note.* This is a clean structural theorem **of the auxiliary direction model**; it does not by itself settle the main \(D(n)=2n\) question. Its substantive lesson is a parity caution: the absence of low-slope collinearity is an *even-\(n\)-only* phenomenon (a parity coincidence), not a general asymptotic sparsity — odd \(n\) already admit rich low-slope collinearity from \(n=5\) upward. Any "sparse constraint" argument must therefore be qualified to even \(n\).
+
 ## 3. Empirical Findings
 
 All material in this section is **computational observation**, not proof. Headings and tables report what exhaustive search and the Flammenkamp / mvr databases actually contain.
