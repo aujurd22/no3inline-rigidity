@@ -952,7 +952,7 @@ Every 2n-point NTIL solution can be decomposed into two per-row functions: **π(
 
 **Theorem Th-10 (列非排列)**. Neither π nor σ is a permutation for n ≥ 6. Column 0 is always left-exclusive (L), column n-1 is always right-exclusive (R). The columns partition into L ∪ B ∪ R with |L| = |R|. *Verified: 211,386 solutions, zero counterexamples.*
 
-### 6.2 ★★★ Motzkin Path Theorem (Th-17)
+### 6.2 Motzkin Path Theorem (Th-17)
 
 **The NTIL column-sharing signature (L→+1, B→0, R→-1) constitutes a valid Motzkin path** — starts at 0, ends at 0, never negative.
 
@@ -967,7 +967,7 @@ Every 2n-point NTIL solution can be decomposed into two per-row functions: **π(
 
 *Verified: 205,869 solutions, zero counterexamples.*
 
-### 6.3 ★★★ Motzkin Height Identity (Th-19)
+### 6.3 Motzkin Height Identity (Th-19)
 
 **h(c) = count_π(≤c) − (c+1)**
 
@@ -979,9 +979,9 @@ All known high-n NTIL solutions belong to exactly three symmetry types:
 
 | Type | Symmetry Group | C4 Identity | C4 Set Symmetry | n Range | Trend |
 |------|---------------|-------------|----------------|---------|-------|
-| **rot4** | D₄ (order 8) | ✅ | ✅ | Even, all | n ≥ 54 sole survivor |
-| **rct4** | C₂ (order 2) | ✅ | ❌ | Odd, 9..53+ | Extends to n=53+ (mvr) |
-| **General** | None | ❌ | ❌ | ≤32 | Extinct by n=33 |
+| **rot4** | D₄ (order 8) | Yes | Yes | Even, all | n ≥ 54 sole survivor |
+| **rct4** | C₂ (order 2) | Yes | No | Odd, 9..53+ | Extends to n=53+ (mvr) |
+| **General** | None | No | No | ≤32 | Extinct by n=33 |
 
 **Key finding**: For n ≥ 33, **100% of all known solutions satisfy the C4 identity** (though not necessarily C4 set symmetry — rct4 only has C₂ set symmetry).
 
