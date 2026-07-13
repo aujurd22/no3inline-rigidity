@@ -22,7 +22,9 @@ This work originates from the classical **No-Three-In-Line** problem (§The Prob
 ## The Problem
 Place **2n points** on an **n×n grid** such that no three are collinear. The No-Three-In-Line problem asks for the maximum number of points D(n) achievable. 2n-point solutions have been found for all n ≤ 52 (classical result), and for n = 65, 67, 69, 70, 72 via SAT solvers (Heule, 2026). n = 71 is the only n ≤ 72 with no known 2n-point solution — D(71) remains unresolved.
 
-**Our contribution is not about finding more solutions.** Rather, we uncover the *algebraic rigidity* that symmetry imposes on extremal configurations. The project began with a concrete question — for each known 2n-point solution, is the grid center ever a circumcenter of some triple? — whose answer (the C₄ theorem, §2.1: C₄-symmetric solutions *never* miss the center) turned out to be the first rung of a ladder. Symmetry forces collinearity-excluding structure of increasing algebraic depth: linear Sidon laws on the fundamental domain (FDR, §2.10), irreducible quadratic constraints beyond any Sidon filter (the quadratic gap, R7, §2.12), and finally a *complete quadratic characterization* of all C₄-symmetric NTIL solutions (R8, §2.14). The central open problem is whether a C₄-symmetric 2n-point solution exists at **n=74 (m=37)** (§2.13). The missing-center question is the historical entry point, not the destination.
+> **Prior work.** The classical NTIL problem originates with Dudeney (1917). Flammenkamp (1992–2026) established the symmetry classification (rot4, rot2, iden, dia1, dia2, ort1, ort2, rct4, full) and computed extensive solution counts. Prellberg (2026, arXiv:2602.07751) extended D(n)=2n to n≤60 using CP-SAT with a symmetry-reduced model on the fundamental domain H_n. Heule (2026) pushed to n=72 via SAT, finding the first n=70 (rot4) and n=72 (rot4) solutions. The H_n fundamental domain and rotational symmetry reduction used in §2.2–2.4 follow Prellberg's formulation. Our contribution is *not* about finding more solutions; we uncover the *algebraic rigidity* that symmetry imposes, proving structural theorems (SIRH, FDR, R8-G, T15) that go beyond the computational record.
+
+**Our contribution.** Rather than searching for new solutions, we uncover the *algebraic rigidity* that symmetry imposes on extremal configurations. The project began with a concrete question — for each known 2n-point solution, is the grid center ever a circumcenter of some triple? — whose answer (the C₄ theorem, §2.1: C₄-symmetric solutions *never* miss the center) turned out to be the first rung of a ladder. Symmetry forces collinearity-excluding structure of increasing algebraic depth: linear Sidon laws on the fundamental domain (FDR, §2.10), irreducible quadratic constraints beyond any Sidon filter (the quadratic gap, R7, §2.12), and finally a *complete quadratic characterization* of all C₄-symmetric NTIL solutions (R8, §2.14). The central open problem is whether a C₄-symmetric 2n-point solution exists at **n=74 (m=37)** (§2.13). The missing-center question is the historical entry point, not the destination.
 
 **Detection method**: Instead of computing circumcenters directly (which requires rational arithmetic), we use an equivalent integer criterion:
 
@@ -1305,21 +1307,15 @@ Every 2n-point NTIL solution can be decomposed into two per-row functions: **π(
 
 A precise algebraic bridge between the Motzkin path height and the cumulative distribution of π values. *Verified: 22,847 solutions, zero counterexamples.*
 
-### 6.4 Symmetry Classification
+### 6.4 Symmetry Classification (Flammenkamp, prior work)
 
-All known high-n NTIL solutions belong to exactly three symmetry types:
+The D₄ symmetry classes of the n×n grid (iden, rot2, rot4, dia1, dia2, ort1, ort2, full) are standard in the NTIL literature (Flammenkamp 1992–2026). The rct4 class (rotational symmetry except on the long diagonals) was introduced by Flammenkamp (1997). We reproduce the classification for reference; the original source is [Flammenkamp's symmetry remarks](https://wwwhomes.uni-bielefeld.de/achim/no3in/symmetry_remarks.html).
 
-| Type | Symmetry Group | C4 Identity | C4 Set Symmetry | n Range | Trend |
-|------|---------------|-------------|----------------|---------|-------|
-| **rot4** | D₄ (order 8) | ✅ | ✅ | Even, all | n ≥ 54 sole survivor |
-| **rct4** | C₂ (order 2) | ✅ | ❌ | Odd, 9..53+ | Extends to n=53+ (mvr) |
-| **General** | None | ❌ | ❌ | ≤32 | Extinct by n=33 |
+The empirical observation below — that for n ≥ 33, all known solutions satisfy the C4 identity (π(i) + π(n-1-i) = n-1 − σ(i) + σ(n-1-i) = ...) — is our original computational finding, consistent with Flammenkamp's classification but not previously documented.
 
-**Key finding**: For n ≥ 33, **100% of all known solutions satisfy the C4 identity** (though not necessarily C4 set symmetry — rct4 only has C₂ set symmetry).
+### 6.5 rct4 Structure Theorems (R1-R7, Flammenkamp's class, our theorems)
 
-### 6.5 rct4 Structure Theorems (R1-R7)
-
-Odd-n solutions satisfying the C4 identity but NOT C4 set symmetry:
+The rct4 pseudo-symmetry class was introduced by Flammenkamp (1997). The following structural theorems are our original contributions characterizing rct4 solutions in the (π,σ) framework:
 
 | Theorem | Statement |
 |---------|-----------|
