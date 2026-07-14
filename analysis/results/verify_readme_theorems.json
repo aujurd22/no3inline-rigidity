@@ -1,0 +1,83 @@
+{
+  "T15.2_3cycle_determinant": {
+    "identity_holds": true,
+    "zero_iff_degenerate": true,
+    "examples": [
+      {
+        "x": 3,
+        "y": 3,
+        "z": 3,
+        "det": 0,
+        "formula": -0.0,
+        "note": "degenerate -> det=0"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "z": 2,
+        "det": -7,
+        "formula": -7.0,
+        "note": "non-degenerate -> det!=0"
+      }
+    ]
+  },
+  "C6_C4_rotational_Costas": {
+    "principle": "C4 4-orbit = square/parallelogram => two distinct ordered pairs share a displacement",
+    "samples": [
+      {
+        "orbit_size_4": true,
+        "shared_displacement": true,
+        "displacement": [
+          -3,
+          1
+        ],
+        "distinct_ordered_pairs": true,
+        "violates_costas": true
+      },
+      {
+        "orbit_size_4": true,
+        "shared_displacement": true,
+        "displacement": [
+          -3,
+          3
+        ],
+        "distinct_ordered_pairs": true,
+        "violates_costas": true
+      },
+      {
+        "orbit_size_4": true,
+        "shared_displacement": true,
+        "displacement": [
+          -5,
+          -3
+        ],
+        "distinct_ordered_pairs": true,
+        "violates_costas": true
+      },
+      {
+        "orbit_size_4": true,
+        "shared_displacement": true,
+        "displacement": [
+          -7,
+          3
+        ],
+        "distinct_ordered_pairs": true,
+        "violates_costas": true
+      }
+    ],
+    "all_violate": true
+  },
+  "FDR_ab_sidon_derivation": {
+    "identity": "a-b = -2(x-y)",
+    "holds_for_all_tested": true,
+    "n_range": "2..38 even"
+  },
+  "R8G_per_line_atmost2": {
+    "principle": "G-symmetric NTIL <=> every board line meets the lifted set in <=2 points (per-line weighted at-most-2)",
+    "good_sel_max_line_occ": 1,
+    "good_sel_has_collinear3": false,
+    "bad_sel_max_line_occ": 4,
+    "bad_sel_has_collinear3": true,
+    "equivalence_holds_on_sample": true
+  }
+}

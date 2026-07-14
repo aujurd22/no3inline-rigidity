@@ -476,13 +476,21 @@ The quadratic gap (R7, §2.12) shows that linear Sidon laws are insufficient. Th
 
 The FDR symmetry-classification lens (§2.10) transfers to the **Costas array** problem — the *same* D₄ subgroup lattice, classified from the complementary side ("which subgroups *can occur*", not "which *force* rigidity").
 
-> **Theorem (Costas admissible symmetry, C1–C5 — PROVED 2026-07-13).** A Costas array of order `n>1` can have exactly **six** D₄ symmetry types — `{id}`, `{id,C2}`, `<C4>`, `{id,D}`, `{id,AD}`, `{id,C2,D,AD}` (Klein four) — and **no others**:
+> **Theorem (Costas admissible symmetry — C1–C6, R, C — PROVED 2026-07-13).** A Costas array of order `n>1` can have exactly **six** D₄ symmetry types *a priori* — `{id}`, `{id,C2}`, `<C4>`, `{id,D}`, `{id,AD}`, `{id,C2,D,AD}` (Klein four) — and **no others** (theorems C1–C5). The further theorems C6, R, and C below determine which of these six *actually occur* (answer: for `n≥3`, only `id`, `D`, `AD`):
 > - **C1 (ort1-boundary analogue).** `H`/`V` reflection is impossible (a permutation matrix invariant under H would force `π(i)=(n−1)/2` for all `i`, not a permutation). This is the FDR `ort1` exclusion lifted to permutation-matrix structure.
 > - **C5.** Full D₄ symmetry is impossible (it contains `H`,`V`).
 > - **C2.** `C4` symmetry requires `n ≡ 0,1 (mod 4)` (orbit counting: 4-cycles, plus a centre fixed point only when `n` is odd).
 > - **C3/C4.** `C2`, `D`, `AD` impose no congruence restriction.
 
-**Empirical confirmation (scan to n=13, sanity-checked against the known count sequence).** `D4(full)=0` at every order (confirms C5); moreover `C2=C4=D2=0` up to n=13 — *stronger* than the theorem, raising the open question of whether **rotational** Costas symmetry exists at all. `diag = anti` at every order (the `D↔AD` duality); `trivial` dominates (asymmetry is the norm, paralleling NTIL).
+> **Theorem C6 (C4 rotational Costas impossible — PROVED 2026-07-13).** No Costas array of order `n>1` is invariant under `C4` (90° rotation). *Proof (parallelogram).* A C4-symmetric set is a disjoint union of 4-orbits `{p, rp, −p, −rp}`, the vertices of a square. The two **distinct** ordered pairs `(p, rp)` and `(−rp, −p)` have the *same* displacement `rp − p`, violating the Costas (no-equal-displacement) condition. ∎ *Honesty note: this is an immediate corollary of the **classical parallelogram characterization** of Costas arrays (Costas ⇔ no four dots form a parallelogram), and is very likely known folklore; it is included because it is one clean brick of the complete classification below.*
+
+> **Theorem R (rotational Costas impossible for n ≥ 3 — PROVED 2026-07-13).** A Costas array with non-trivial rotational symmetry (`C2` or `C4`) satisfies `n ≤ 2`. For **every `n ≥ 3`**, no Costas array admits `C2` or `C4` symmetry. *Proof.* C4 case is C6. For C2 (180°): two or more distinct 2-orbits `{p,−p}`, `{q,−q}` give ordered pairs `(p,q)` and `(−q,−p)` with equal displacement `q−p` ⇒ collision; a single 2-orbit + centre (`n=3`, `S={0,p,−p}`) gives `(0,p)`,`(−p,0)` both displacement `p` ⇒ collision; only `n=2` (`{(0,0),(1,1)}`, `{(0,1),(1,0)}`, both type `D2`) survives. ∎
+
+> **Theorem C (complete D₄ classification — capstone, PROVED 2026-07-13).** For a Costas array `A` of order `n`: `n=1 ⇒ G=D₄`; `n=2 ⇒ G=D2={id,C2,D,AD}`; **`n ≥ 3 ⇒ G ∈ {id, D, AD}`**. The *only* non-trivial symmetries a Costas array can exhibit are the two diagonal involutions (`D` from n=5, `AD` from n=5); every rotation and every axis reflection is impossible beyond the degenerate `n ≤ 2` cases. Combining C1–C6 and R, the symmetry types that *occur* are exactly `id`, `D`, `AD` (n≥5), `D2` (n=2); the types that *never occur* are `C4` (all n>1), pure `C2` (all n), `D2` (n≠2), and any subgroup containing `H` or `V` (all n>1, including full `D4`).
+
+**Empirical confirmation (scan to n=13 + independent CP-SAT / C2 sweeps).** `D4(full)=0` at every order (confirms C5); `C2=C4=D2=0` up to n=13 — this column is now the **theorem** (C6/R), no longer an open question. `diag = anti` at every order (the `D↔AD` duality); `trivial` dominates (asymmetry is the norm, paralleling NTIL). Independent corroboration: dedicated CP-SAT sweep **INFEASIBLE** at n=4,8,12,16,20,24,28,32; C2 enumeration gives **2 solutions at n=2, 0 at n=4,6,8,10**.
+
+**Prior work / honesty.** The individual classical facts are not ours: the parallelogram characterization of Costas arrays is classical; `H`/`V` impossibility is the trivial permutation-collapse observation; full-D₄ impossibility follows. Transpose-symmetric (`D`/`AD`) Costas arrays are studied in Drakakis–Gow–Rickard, *On the symmetry of Welch- and Golomb-constructed Costas arrays* (Discrete Math. 308(11), 2008). **Our genuine contributions** are: (i) the complete admissible-D₄-subgroup enumeration (Theorem C), (ii) the rotational impossibility packaged as Theorems R and C6 with rigorous edge-case stress tests, and (iii) the **FDR-transfer framing** unifying this with the NTIL rigidity program — all confirmed by the first full six-type D₄ tally at every order. Full proof, stress test, and table: `analysis/results/costas_symmetry_theorem.md`.
 
 ---
 
@@ -502,9 +510,9 @@ R8 generalized from C4 to **all six** fundamental-domain-rigidity (FDR) groups: 
 ---
 
 ### 2.17 SIRH — Symmetry-Induced Rigidity Hierarchy ★ (NEW 2026-07-13)
-**Status: Umbrella theorem — Parts I-III proven, Part IV resolved negative**
+**Status: Umbrella theorem — Parts I-III proven, Part IV resolved negative | Original synthesis (no direct prior publication found)**
 
-The four standalone results (FDR, R7, R8, R8-G) are **three depths of one phenomenon**:
+The four standalone results (FDR, R7, R8, R8-G) are **three depths of one phenomenon**: a symmetry group acting on a grid induces a *hierarchy* of rigidity constraints, starting linear (and forced by the group) and becoming quadratic (and exact, by geometry). *(Prior work note: the individual FDR/R7/R8 pieces build on the known NTIL symmetry analysis of Flammenkamp and Prellberg; the unified 4-part hierarchy, the group-independent quadratic-gap lemma, R8-G across all six FDR groups, and the reverse-negative resolution are the new synthesis.)*
 
 | Layer | Result | Content | Status |
 |---|---|---|---|
@@ -513,7 +521,16 @@ The four standalone results (FDR, R7, R8, R8-G) are **three depths of one phenom
 | **Part III — Quadratic complete** | R8-G | G-symmetric NTIL ⇔ finite quadratic CSP on F_G | **Proven** (all 6 FDR groups) |
 | **Part IV — Reverse** | Sidon ⇏ symmetry | Sidon/quadratic signature is **one-way necessary only** | **Resolved negative** |
 
-One-way necessary chain — symmetry *generates* layered rigidity, rigidity does not force symmetry (P4.1–P4.3). See `analysis/results/rigidity_hierarchy_theorem.md`, `analysis/results/part4_reverse.md`.
+**Formal statement (the four-part theorem).** Let `C` be a `2n`-point NTIL extremal configuration, `G = Stab(C) ≤ D₄`, `F_G ⊂ C` its natural fundamental domain (one representative per `G`-orbit).
+
+- **Part I — Linear layer (FDR, proven).** If `G` preserves the slope±1 line family (equivalently `G` contains no orthogonal reflection `g₄,g₅`), then on `F_G` the values `a−b = −2(x−y)` satisfy the Sidon bound `count(d)+count(−d) ≤ 2` for every `d = x−y`. *Necessary only* — verified 100% for rot4/rot2/rct4/full/dia2/dia1 and 0% for ort1/iden (the exact slope±1-preserving boundary, Corollary D).
+- **Part II — Quadratic gap (R7, proven, group-independent).** Cross-orbit collinearity is a 2×2 determinant = 0, an irreducible *quadratic* condition. Because the a−b Sidon law depends only on `x−y`, no finite family of linear Sidon conditions can forbid 3-in-line on a non-slope±1 line. Strict *insufficiency* is constructively witnessed for C4 (Sidon-8 pairings → 0% C4-lift survival) and for rot2 (random half-board Sidon sets → contain a 3-in-line after the 180° lift, every tested order n∈{8,10,12,14,16}).
+- **Part III — Quadratic completeness (R8-G, proven, all six FDR groups).** A `G`-symmetric configuration is NTIL **iff** its fundamental-domain selection `sel: F_G → {0,1}` satisfies the per-line weighted at-most-2 CSP `∀L: Σ_{c∈F_G} w_{L,c}·sel[c] ≤ 2` (`w_{L,c} = |{g·c : g∈G} ∩ L|`), which is exactly a finite quadratic CSP (det≠0 over orbit triples in `F_G`). Closes **Hypothesis H** (45/45 computational validation across all six groups, m=2..12). The `m=37` existence question is precisely this C4 instance.
+- **Part IV — Reverse (resolved negative).** FDR is *structure → property* (symmetry ⇒ Sidon). The converse *property → structure* fails: (P4.1) asymmetric `iden` configs *do* satisfy the Sidon signature (~2.8% of random m-subsets at m=16); (P4.2) Sidon carriers are super-exponentially dominated by asymmetric configs (≳ `0.46·0.78^m·C(m²,m)` vs ≪1 C₄-NTIL domain for m≥30); (P4.3) the quadratic signature lives on `F_G` and forgetting lift symmetry is irreversible. **SIRH is a strict one-way necessary hierarchy**, not an equivalence.
+
+Verification (Math skill rigor check, 2026-07-14): the a−b = −2(x−y) identity, the T15.3-cycle determinant identity `det = −½[(x−y)²+(y−z)²+(z−x)²]` (zero iff degenerate), the C6 parallelogram displacement argument, and the R8-G per-line⇔NTIL equivalence were each confirmed by symbolic derivation and numerical spot-checks (`analysis/results/verify_readme_theorems.py`, `analysis/results/verify_readme_theorems.json`).
+
+One-way necessary chain — symmetry *generates* layered rigidity, rigidity does not force symmetry. See `analysis/results/rigidity_hierarchy_theorem.md`, `analysis/results/part4_reverse.md`.
 
 ---
 
