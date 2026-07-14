@@ -1,0 +1,68 @@
+[build] 1369 cells, 1264378 lines in 97.7s
+[loop] done in 23.7s
+|V|=1369  nX=30,992,032  max_co3=1,132  avg(pos)=99.30  median(pos)=56.0  #pairs>0=936,326
+(cross-check nX should be 30,992,032)
+
+==== TAIL E_tau (induced graph of pairs with co3 > tau) ====
+  tau= 100: edges=  282,716  max_deg=   584  components=    1
+  tau= 200: edges=  154,062  max_deg=   328  components=    1
+  tau= 400: edges=   11,190  max_deg=    71  components=   21
+  tau= 800: edges=      666  max_deg=     1  components=  703
+
+==== HISTOGRAM of positive co3 (pair counts) ====
+  [   1-  10] :    31,342 ############################################################
+  [  11-  25] :   194,610 ############################################################
+  [  26-  50] :   212,360 ############################################################
+  [  51- 100] :   215,298 ############################################################
+  [ 101- 200] :   128,654 ############################################################
+  [ 201- 400] :   142,872 ############################################################
+  [ 401- 800] :    10,524 ############################################################
+  [ 801-   +] :       666 ####
+
+==== GEOMETRIC CLASSIFICATION of pairs with co3 > 200 ====
+  total high pairs (co3>200) = 154,062
+  offset category : same_row=24,642  same_col=24,642  diagonal=19,764  knight(other)=85,014
+  share centre-ray (collinear w/ centre) = 2,142 (1.4%)
+  C4-rotation-related about centre        = 684 (0.4%)
+  offset gcd(|dx|,|dy|) >= 2               = 97,247 (63.1%)
+
+  top pairs (co3>=600), showing (co3, cellA,(a,b), cellB,(a,b), d(a,b)):
+    co3= 1132  A=(35, 36)  B=(36, 35)  d=(1, -1)
+    co3= 1124  A=(34, 36)  B=(36, 34)  d=(2, -2)
+    co3= 1124  A=(34, 35)  B=(35, 34)  d=(1, -1)
+    co3= 1116  A=(33, 36)  B=(36, 33)  d=(3, -3)
+    co3= 1116  A=(33, 35)  B=(35, 33)  d=(2, -2)
+    co3= 1116  A=(33, 34)  B=(34, 33)  d=(1, -1)
+    co3= 1108  A=(32, 36)  B=(36, 32)  d=(4, -4)
+    co3= 1108  A=(32, 35)  B=(35, 32)  d=(3, -3)
+    co3= 1108  A=(32, 34)  B=(34, 32)  d=(2, -2)
+    co3= 1108  A=(32, 33)  B=(33, 32)  d=(1, -1)
+    co3= 1100  A=(31, 36)  B=(36, 31)  d=(5, -5)
+    co3= 1100  A=(31, 35)  B=(35, 31)  d=(4, -4)
+    co3= 1100  A=(31, 34)  B=(34, 31)  d=(3, -3)
+    co3= 1100  A=(31, 33)  B=(33, 31)  d=(2, -2)
+    co3= 1100  A=(31, 32)  B=(32, 31)  d=(1, -1)
+    co3= 1092  A=(30, 36)  B=(36, 30)  d=(6, -6)
+    co3= 1092  A=(30, 35)  B=(35, 30)  d=(5, -5)
+    co3= 1092  A=(30, 34)  B=(34, 30)  d=(4, -4)
+    co3= 1092  A=(30, 33)  B=(33, 30)  d=(3, -3)
+    co3= 1092  A=(30, 32)  B=(32, 30)  d=(2, -2)
+
+==== HOTTEST CELLS in co3>200 graph (top 15 by degree) ====
+  cell (36,33) : high-co3-degree=328
+  cell (33,36) : high-co3-degree=328
+  cell (30,31) : high-co3-degree=324
+  cell (31,30) : high-co3-degree=324
+  cell (33,34) : high-co3-degree=324
+  cell (34,33) : high-co3-degree=324
+  cell (32,33) : high-co3-degree=323
+  cell (33,32) : high-co3-degree=323
+  cell (34,35) : high-co3-degree=322
+  cell (36,34) : high-co3-degree=322
+  cell (34,36) : high-co3-degree=322
+  cell (35,34) : high-co3-degree=322
+  cell (35,33) : high-co3-degree=321
+  cell (31,32) : high-co3-degree=321
+  cell (36,28) : high-co3-degree=321
+
+[done] total 122.1s
