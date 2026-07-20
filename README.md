@@ -1452,6 +1452,142 @@ Non-C4 solutions have bounded k = |L| ≤ 14 (observed max), while Motzkin paths
 
 ---
 
+## 7. m=37 Attack — External-Agent Theory, Gaussian-Resource Decomposition & Search Bottom (2026-07-19/20)
+
+> **Status & provenance.** This section consolidates (a) the *correct* structural
+> theory produced by a parallel autonomous agent studying `even_n_existence`
+> (read-only external source; not modified), and (b) the findings of our own
+> 10-hour autonomous study. Every claim is labelled by confidence level:
+> **[THEOREM]** = algebraically proven and independently re-verified in this repo;
+> **[COMPUTATIONAL CERTIFICATE]** = machine-checked over an exhaustive finite
+> search, but not independently reproduced here;
+> **[OBSERVATION]** = empirical, from finite computation;
+> **[OPEN]** = unresolved.
+> An independent re-verification of the core algebraic identities (Gaussian norm
+> identity, delete-window spectrum, antiparallel-orbit disjointness, q=1 diagonal
+> labels) is in `analysis/verify_theory_identities.py` — all four pass with max
+> absolute error 0.0. *(Math-skill discipline: computational closures are labelled
+> as such and are NOT promoted to theorems.)*
+
+### 7.1 Setup recap (m=37, n=74)
+rot4 NTIL ⇔ 2-regular pseudograph on the m=37 directed cells (u,v)∈{0..36}²,
+each lifted by C₄ to 4 grid points; no three of the 2n=74 points collinear.
+The four `V=40` basins are the strict 2-swap local minima (40 bad collinear
+triples) identified by the ising-style framework; all m≤36 have known rot4
+solutions, **m=37 is [OPEN]**.
+
+### 7.2 Gaussian-resource closed form [THEOREM]
+Centralise a cell to odd coordinates `X=2u−73`, `Y=2v−73`. For a primitive
+direction `ν=(a,b)`, its C₄ line-orbit touches the two resource labels
+`r=|aX+bY|`, `s=|bX−aY|`. Writing `α=a+bi`, `z=X+iY`, the signed resources are
+`α·z̄ = (aX+bY)+i(bX−aY)`. The Gaussian norm identity holds exactly:
+
+```
+r² + s² = (a²+b²)(X²+Y²)
+```
+
+Independently re-verified over 42 primitive/axis directions × 1369 cells
+(max abs error 0.0). Consequence: every direction resource shares one cell
+radius and scales by the Gaussian norm `a²+b²`, so the per-direction capacity
+problems are not independent arbitrary graphs. Compound directions are integer
+linear transforms of older ones (e.g. (1+2i)²=−3+4i), so q-layers add Gaussian
+prime directions plus sign-correlated composites of old ones.
+
+### 7.3 Delete-window spectrum [THEOREM]
+Deleting k edges from the 37-vertex 2-factor splits into s contiguous segments
+of lengths `ℓ₁…ℓ_s` (Σℓ_i=k). Let `W_r` be the number of cyclic windows covering
+r consecutive deleted edges. Then `W_r = Σ_i (ℓ_i−r+1)_+`, and the segment-length
+multiset is recovered by the discrete second difference
+
+```
+t_r = W_r − 2·W_{r+1} + W_{r+2}
+```
+
+Hence `(A,B,C)=(W_2,W_3,W_4)` are not auxiliary statistics but the discrete
+2nd-integral coordinates of the segment distribution. Re-verified over 20000
+random compositions (error 0). This turns "delete k edges" into an exact finite
+enumeration of segment profiles, avoiding the `(37 choose k)` blow-up. A fully
+deleted length-L factor cycle contributes `W_r=L` for r≤L (the extra `(A,B,C)=(4,4,4)`
+correction for the length-4 components of `v40_03/04`).
+
+### 7.4 q=1 double-resource model [THEOREM]
+Each cell (u,v) consumes two explicit integer resource bins `d=|u−v|`,
+`s=73−u−v` (the diagonal conjugate graph). The q=1 non-axis line capacity is
+exactly `Σ w_t(u,v) ≤ 2` for t=0..71, where `w_t` is the per-cell occupancy of
+the diagonal line `x−y=−t`. Re-verified: the 4 C₄ rotations of (u,v) land on
+diagonal labels `{+d,+s,−d,−s}` for all 1369 cells (error 0). General short-direction
+layers (q≤36) are each a weighted bipartite degree-≤2 constraint (Gaussian-integer
+closed form of §7.2); `q=36` is the finite completeness endpoint (any 3-point line
+has primitive step (p,q) with `max(|p|,|q|)≤36`). The four V=40 basins are q=1-safe
+but already heavily saturated (25–28 of 72 boxes at capacity 2).
+
+### 7.5 Multigraph correction: antiparallel orbits [FACT, formerly a bug]
+The old model forbade `x_uv + x_vu ≤ 1`. This is **wrong**: `(u,v)` and `(v,u)`
+lift to two *disjoint* C₄ orbits (8 distinct points) and can co-exist as a digon
+(2-cycle). Independently re-verified over all 1332 unordered pairs: 0
+intersections, each pair occupies 4 rows + 4 columns, 2 points per row/col,
+internally collinearity-free. **Consequence:** all earlier k=11/k=12 infeasibility
+certificates that used the simple-undirected-graph constraint were withdrawn; the
+corrected multigraph re-derivation (§7.6) supersedes them.
+
+### 7.6 Corrected k=0..12 closure → escape radius ≥ 13 [COMPUTATIONAL CERTIFICATE]
+Using the corrected multigraph model (parallel edges allowed) with the layered
+decomposition (segment branches → local star capacity → exact multigraph f-factor
+→ q=1 Gaussian resource), the external agent reports:
+- k=0..11: all 2,097,591,716+ masks at k=5..11 have q=0 f-factor infeasible;
+  k=11 has only 2 q=0 exceptions, both q=1 infeasible.
+- k=12: the full `4·(37 choose 12) = 7,409,931,984` delete masks are covered; the
+  funnel `7.4e9 → 156.6e6` (hit all old defects) `→ 285` (q=0 feasible) `→ 4`
+  (q=1 fail) `→ 0` (all 4 fail at q=2). Hence **no exact NTIL repair of distance 12
+  exists from any of the four V=40 basins.**
+- Combined: the four V=40 basins have normalised escape radius ≥ 13.
+
+**Labelling & caveat [MATH-SKILL DISCIPLINE]:** This is a *machine certificate*
+with audit JSONs, **not a hand proof, and not independently reproduced** in this
+repo. Most importantly it is a statement about *proximity to the four known V=40
+local minima*, **not** about global existence of an m=37 solution. A non-empty
+zero-set's local connectivity does not imply the set is non-empty; m=37 has **no
+known zero solution**, so §7.6 does not decide the problem.
+
+### 7.7 Our finding — orbit-generator counterexample (n=42) [OBSERVATION]
+In the 10h study, the full orbit generator was exercised over 21701 outputs; one
+(n=42, m=21, solution #101) was flagged and CP-SAT confirmed it as a genuine valid
+NTIL (0 collinear triples). Recorded as `orbit_generator_counterexample_n42.json`.
+*(The 10h output files were produced by a background agent and are not all present
+in this repo; this figure is from that study's summary, pending file recovery —
+treat as [OBSERVATION], not yet re-verified in-repo.)*
+
+### 7.8 C₄ entropy–energy constant ≈ −1.93 [OBSERVATION]
+The entropy–energy figure of merit for continuous-method existence arguments:
+generic 2-permutation ≈ −0.43, C₂ ≈ −1.43, **C₄ ≈ −1.93**. All negative; C₄
+symmetry makes the problem harder (entropy drops ~4× while E[Z] stays the same
+order), so LLL / lopsided-LLL-style continuous existence proofs are not directly
+available for rot4.
+
+### 7.9 m=37 search bottom — 7 strategies, non-convergent [OBSERVATION]
+Seven independent search strategies (v1–v7) built on the Gaussian/double-resource
+model were run against m=37. All stall with 160–300 residual collinear triples and
+never reach 0. **Root cause (Bug 3, structural):** the Gaussian resource model is
+*necessary but not sufficient* — C₄ rotation does not preserve the resource value,
+so cross-quadrant collinear triples spread across bins and the capacity-2 bound
+cannot catch them. (Bugs 1–2, the weight on s=0 and the missing negative-slope
+directions, were fixed and re-validated against known solutions.) Conclusion: the
+search-method front has hit a wall; the open route is theoretical (LLL / lopsided
+LLL / Container method), supported by the empirically very sparse conflict
+hypergraph (§2.13, `conflict_hypergraph_params.json`).
+
+### 7.10 m=37 status [OPEN]
+m=37 remains **[OPEN]**. What is established:
+- All m=3..36 have rot4 solutions (the m=23–26 "no solution" was a loader bug,
+  since fixed).
+- From the four V=40 basins, no distance-≤12 exact repair exists (§7.6,
+  computational).
+- Every direct search to date diverges at 160–300 collinear triples (§7.9).
+
+What is **not** established: whether a distance-≥13 escape (or a solution in a
+completely different basin) exists. The question *"does every even n admit 2n points
+with no three collinear?"* is **unresolved** for n=74 and in general.
+
 ## Usage
 ### Build
 

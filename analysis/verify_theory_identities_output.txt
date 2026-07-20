@@ -1,0 +1,9 @@
+[T1] Gaussian norm identity: max abs error over 42 dirs x 1369 cells = 0.0
+[T2] Delete-window spectrum t_r = W_r-2W(r+1)+W(r+2): max rounding err = 0 (20000 random compositions OK)
+[T3] Antiparallel orbits (u,v)/(v,u) disjoint: 1332 pairs checked, intersections = 0
+[T4] q=1 diagonal labels = {+d,+s,-d,-s}: 1369 cells checked, mismatches = 0
+
+ALL CORE IDENTITIES VERIFIED (error-free).
+Note: k=12 computational CLOSURE -> 'escape radius >= 13' is a
+machine certificate from the external agent (audit files present);
+it is NOT independently reproduced here and is labelled as such.
