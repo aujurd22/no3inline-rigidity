@@ -7,3 +7,5 @@ ALL CORE IDENTITIES VERIFIED (error-free).
 Note: k=12 computational CLOSURE -> 'escape radius >= 13' is a
 machine certificate from the external agent (audit files present);
 it is NOT independently reproduced here and is labelled as such.
+[T5] signed-NAE3 complementary-pair indicator = quadratic Ising term: max abs err = 0.0 over 100000 random (a,s) in {+-1}^3 (0 = verified).
+[T5b] each forbidden pair blocks exactly 2 of 8 spin assignments (partition verified: {2: 8}).

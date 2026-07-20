@@ -1455,9 +1455,10 @@ Non-C4 solutions have bounded k = |L| ≤ 14 (observed max), while Motzkin paths
 ## 7. m=37 Attack — External-Agent Theory, Gaussian-Resource Decomposition & Search Bottom (2026-07-19/20)
 
 > **Status & provenance.** This section consolidates (a) the *correct* structural
-> theory produced by a parallel autonomous agent studying `even_n_existence`
-> (read-only external source; not modified), and (b) the findings of our own
-> 10-hour autonomous study. Every claim is labelled by confidence level:
+> theory produced by parallel autonomous agents studying `even_n_existence`
+> (theoretical arm) and `ising_m37` (experimental search arm) — both read-only
+> external sources, not modified — and (b) the findings of our own 10-hour
+> autonomous study. Every claim is labelled by confidence level:
 > **[THEOREM]** = algebraically proven and independently re-verified in this repo;
 > **[COMPUTATIONAL CERTIFICATE]** = machine-checked over an exhaustive finite
 > search, but not independently reproduced here;
@@ -1581,12 +1582,111 @@ m=37 remains **[OPEN]**. What is established:
 - All m=3..36 have rot4 solutions (the m=23–26 "no solution" was a loader bug,
   since fixed).
 - From the four V=40 basins, no distance-≤12 exact repair exists (§7.6,
-  computational).
+  computational); the V=40 basins themselves, the directed-cell LNS closures, and the
+  matching-shell rigidity certificates are detailed in §7.11 (`ising_m37` arm).
 - Every direct search to date diverges at 160–300 collinear triples (§7.9).
 
 What is **not** established: whether a distance-≥13 escape (or a solution in a
 completely different basin) exists. The question *"does every even n admit 2n points
 with no three collinear?"* is **unresolved** for n=74 and in general.
+
+### 7.11 Ising / signed-NAE experimental search arm (`ising_m37`) — V=40 record & local rigidity [COMPUTATIONAL CERTIFICATE / OBSERVATION]
+
+> **Provenance & labelling.** A *second* read-only external agent directory
+> (`ising_m37`, independent of `even_n_existence`) is the *experimental* arm that
+> actually **produced** the four `V=40` basins and most of the funnel-closure data
+> quoted in §7.6. It reframes the fixed-2-factor orientation problem as a signed
+> NAE-3 / quadratic-Ising optimisation and then runs exact CP-SAT / SAT local
+> searches. Everything below is the source agent's *machine certificate* (audit
+> JSONs + `.py` scripts present in that dir); it is **not independently reproduced
+> in this repo** and is labelled accordingly. *(Math-skill discipline: these are
+> computational closures, NOT promoted to theorems; they describe proximity to the
+> four known V=40 local minima, never global existence.)*
+
+#### 7.11.1 signed-NAE-3 ⇔ quadratic Ising reduction [THEOREM]
+Forbidden orientation patterns enter in complementary pairs `(a, −a)`; the violation
+indicator sum is exactly quadratic — linear and cubic terms cancel, leaving only the
+`ZZ` coupling:
+```
+1[s=a] + 1[s=−a] = (1 + a_i a_j s_i s_j + a_i a_k s_i s_k + a_j a_k s_j s_k)/4
+```
+Independently re-verified here (`analysis/verify_theory_identities.py` **[T5]**: max
+abs err 0.0 over 100000 random `(a,s)∈{±1}³`; each forbidden pair blocks exactly 2
+of 8 spin assignments). Consequence: the inner (fixed-2-factor) orientation problem is
+an exact signed-MaxCut, solvable to `OPTIMAL` in seconds.
+
+#### 7.11.2 Clause count is NOT a proxy [OBSERVATION]
+Three baselines solved exactly: `m=36` known solution → `V=0` (0 bad triples);
+`m=37` 408-clause factor → `V=16 OPTIMAL` (**64** geometric bad triples);
+`m=37` "newest" 404-clause factor → `V=17 OPTIMAL` (**68** bad triples — a
+*regression*, not a breakthrough). A standard MaxCut SDP gives a strict positive
+lower bound (≥13) on both m=37 factors, confirming they cannot be 0, but no uniform
+positive bound across all 2-factors yet. Lesson: optimising clause/trial count
+navigates a wide, ridge-and-dead-end `V=16` plateau spanning clause counts 410–564.
+
+#### 7.11.3 Weighted-geometry correction (a modelling bug, corrected) [FACT]
+The legacy 3-cell Boolean objective *over-penalises* a bad triple shared by two C₄
+orbits (it repeats the triple for every arbitrary third orbit). The corrected program
+counts each geometric bad triple exactly once (true multiplicity of C(occupancy,3)).
+Applying the correction dropped the best fixed-factor record from 64 → **48** bad
+triples.
+
+#### 7.11.4 V=40 record [COMPUTATIONAL CERTIFICATE]
+Repairing the 48-factor by *allowing one old defect to survive* ("max-cover-minus-1")
+yields a verified fixed factor with **40** geometric bad triples (10 C₄ defect orbits,
+0 diagonal defects, 0 slope ±1 defects). The `V=40` result is checked three
+independent ways: line-key enumeration, brute-force 148-point triple determinants, and
+a second exact CP-SAT solve (`OPTIMAL 40`). Best known rot4 m=37 record to date.
+
+#### 7.11.5 Four V=40 basins + 25-edge cold core [OBSERVATION]
+Exact archive now holds **four distinct V=40 factors** with cycle types `37`, `4+33`,
+`4+16+17` (so V=40 needs no specific cycle type or 2-orbit defect). They share a
+**25-edge / 21-directed-cell cold core** but **no common exact defect orbit**. Within
+and between basins, all tested escape mechanisms failed to reach 36:
+- shortest safe path between two basins = edge-distance 4, but intermediate factors
+  have exact minimum **60** (a 60 energy pass between basins);
+- multi-start beam (4145 / 8077 distinct safe factors), factor crossover (650692
+  symmetric-difference subsets → best 48), joint factor-spin annealing (72000
+  proposals → only returns known 40/44), consensus-core escape (breaking the 25-edge
+  core raises the floor to 48+). **No V=36 found by any local mechanism.**
+
+#### 7.11.6 Directed-cell exact LNS [COMPUTATIONAL CERTIFICATE]
+The recommended local *master problem* deletes k factor edges and lets CP-SAT choose
+arbitrary replacement directed cells (residual degree + FDR diagonal capacity + exact
+`C(occ,3)` line cost), targeting `≤36`. Across selected 7–13 edge neighbourhoods,
+**120** target-36 models were run: **119 proved `INFEASIBLE`**, 1 (`v40_02`, 13-edge)
+stayed `UNKNOWN` (600 s, retained a 40 incumbent + 36 lower bound). Fine print:
+- 12-edge / 24-endpoint wide neighbourhoods: **all 4 basins closed (INFEASIBLE)**;
+- 13-edge / 26-endpoint wide neighbourhoods: **3 of 4 closed**; `v40_02` open.
+This is the strongest *local* rigidity evidence around V=40 to date — but still only
+proves that *these* large neighbourhoods cannot drop to 36.
+
+#### 7.11.7 Matching-shell rigidity (the open `v40_02` 13-edge) [COMPUTATIONAL CERTIFICATE]
+The open `v40_02` 13-edge neighbourhood was decomposed into a perfect-matching master
++ a 13-bit exact orientation subproblem, then **fully enumerated** at switch distances
+2–6 (every FDR-feasible matching scored `OPTIMAL`, not a time-bound):
+
+| dist d | FDR-feasible matchings | exact min value |
+|---:|---:|---:|
+| 2 | 12 | 64 |
+| 3 | 42 | 56 |
+| 4 | 278 | 60 |
+| 5 | 1679 | 56 |
+| 6 | 10089 | 56 |
+
+Distance 6 closed via 8 mutually-exclusive partner partitions, all `INFEASIBLE`.
+Conclusion: **any V=36 configuration in this neighbourhood must replace ≥7 of the 13
+original matching edges (retain ≤6)** — a *matching-shell barrier*, not mere search
+stagnation (local energy must first rise ≥16). FDR diagonal capacity alone discards
+98–99% of raw swaps at d=2..4. Open: distances 7–13 of `v40_02`, or a 36/0 config far
+from the four known basins.
+
+#### 7.11.8 Status of this arm
+`V=40` is a robust record (4 basins, 3 cycle types, three-way verified), and both the
+directed-cell LNS and matching-shell enumerations give genuine *local* lower-bound
+certificates. But none of it decides global existence: the four basins are local minima
+with no known zero nearby, and the only unclosed local window is `v40_02` at
+match-distance ≥7. The open questions mirror §7.6/§7.10 — **m=37 remains [OPEN]**.
 
 ## Usage
 ### Build

@@ -117,3 +117,29 @@ print("\nALL CORE IDENTITIES VERIFIED (error-free).")
 print("Note: k=12 computational CLOSURE -> 'escape radius >= 13' is a")
 print("machine certificate from the external agent (audit files present);")
 print("it is NOT independently reproduced here and is labelled as such.")
+
+# ---------------------------------------------------------------------------
+# T5 [THEOREM, ising_m37 §7.11.1] signed-NAE-3 clause  <=>  quadratic Ising
+# A forbidden orientation pattern a=(a_i,a_j,a_k) and its negation -a enter as
+# a complementary pair; the violation indicator sum is exactly quadratic:
+#   1[s=a] + 1[s=-a] = (1 + a_i a_j s_i s_j + a_i a_k s_i s_k + a_j a_k s_j s_k)/4
+# (linear & cubic terms cancel, only the quadratic (ZZ) coupling survives).
+# ---------------------------------------------------------------------------
+import itertools as _it
+err5 = 0.0
+for _ in range(100000):
+    a = tuple(random.choice((-1, 1)) for _ in range(3))
+    s = tuple(random.choice((-1, 1)) for _ in range(3))
+    lhs = (1 if s == a else 0) + (1 if s == tuple(-x for x in a) else 0)
+    rhs = (1 + a[0]*a[1]*s[0]*s[1] + a[0]*a[2]*s[0]*s[2] + a[1]*a[2]*s[1]*s[2]) / 4.0
+    err5 = max(err5, abs(lhs - rhs))
+print(f"[T5] signed-NAE3 complementary-pair indicator = quadratic Ising term: "
+      f"max abs err = {err5} over 100000 random (a,s) in {{+-1}}^3 (0 = verified).")
+viol_counts = {}
+for a in set(_it.product((-1, 1), repeat=3)):
+    v = sum(1 for s in _it.product((-1, 1), repeat=3)
+            if s == a or s == tuple(-x for x in a))
+    viol_counts[v] = viol_counts.get(v, 0) + 1
+assert viol_counts == {2: 8}, viol_counts
+print(f"[T5b] each forbidden pair blocks exactly 2 of 8 spin assignments "
+      f"(partition verified: {viol_counts}).")
