@@ -1,6 +1,6 @@
 # No-Three-In-Line: Audited C4 Structure, a Verified `n=74` Solution, and the All-Even Question
 
-> **Research status: 2026-07-22.** This is an AI-assisted computational
+> **Research status: 2026-07-26.** This is an AI-assisted computational
 > research notebook. It contains elementary proofs, exact finite encodings,
 > machine-checked local certificates, empirical laws, conjectures, and historical
 > failed approaches. Those categories are kept separate below.
@@ -9,6 +9,9 @@
 > `n=74` on 2026-07-20. It was added to Achim Flammenkamp's database on
 > 2026-07-21 and independently verified in this repository on 2026-07-22.
 > Consequently, the former headline “`m=37` / `n=74` is open” is obsolete.
+> The subsequent known-answer audit corrected the old search baseline, proved
+> new local blocker-graph lemmas, and produced an `m=38` near-miss with exactly
+> five C4 defect orbits. No `n=76` solution has been found here.
 >
 > The main theoretical question studied here is now: **does every even `n`
 > admit `2n` grid points with no three collinear?** The data through `n=74`
@@ -16,7 +19,7 @@
 
 [Interactive overview](visualization/overview.html) ·
 [verified `n=74` certificate](analysis/results/n74_rot4_prellberg_verified_2026-07-22.md) ·
-[latest joint audit](analysis/results/latest_joint_audit_2026-07-22.md)
+[latest joint audit](analysis/results/latest_joint_audit_2026-07-26.md)
 
 ![Interactive overview preview](visualization/preview.png)
 
@@ -105,6 +108,21 @@ distance 35. This is
 the clearest explanation for the failure of increasingly expensive local searches:
 the correct solution lay in a different basin, not just beyond one more switch.
 
+The stronger archived pre-solution baseline was actually six independently
+recounted `V=20` states, each with 20 bad triples or five C4 defect orbits.
+Every one of them contains a loop, so the later loop-free V40 search space
+excluded both the best historical near-misses and the true solution. Compared
+with this one known true solution, a V20 state shares only 0--3 oriented cells
+and 2--4 unoriented factor edges; the unoriented replacement distance is
+33--35. This does not rule out a different true solution closer to V20, but it
+does rule out treating these six states as small perturbations of the known
+answer.
+
+Moreover, every projective root direction involved in a V20 conflict also
+appears in the true solution. The distinction is not “good slope versus bad
+slope”: within each reused direction fibre, the true solution keeps the root
+supports disjoint. This matching condition is the useful exact language.
+
 ## 4. Audited structural results
 
 ### 4.1 Saturation and the two-permutation decomposition — **PROVED**
@@ -188,6 +206,9 @@ useful clauses and preprocessing rules. They do not characterize every conflict.
 | [Hyperbola-layer completion obstruction](analysis/even_n_existence_tools/HYPERBOLA_LAYER_COMPLETION_OBSTRUCTION.md) | **EXACT FINITE** | tested arbitrary completions fail for `p=13,...,37` in that construction family | negative evidence for that family only |
 | [Finite-plane supersaturation](analysis/even_n_existence_tools/FINITE_PLANE_SUPERSATURATION.md) | **PROVED, LIMITED** | supplies modular collinearity pressure in the `n=p-1` setting | supporting lemma; a stronger local formulation supersedes its original role |
 | [Pair-codegree repulsion](analysis/results/pair_codegree_37/README.md) | **EMPIRICAL** | across archived C4 solutions, `log2(P(u,v)/(P(u)P(v)))` is approximately affine in normalized conflict codegree, with slope near `-0.169` | promising diversity score and possible clue toward a correlation theorem |
+| [Root-direction support matching](analysis/results/latest_joint_audit_2026-07-26.md#2-v20-versus-the-known-true-solution) | **PROVED REFORMULATION** | a direction may be reused; NTIL requires the selected root supports inside each direction fibre to form a matching | corrects the failed “avoid bad slopes” intuition |
+| [Orientation-flip blocker graph](analysis/results/latest_joint_audit_2026-07-26.md#4-orientation-flip-blocker-graph) | **PROVED / EXACT FINITE** | a single legal orientation flip has blocker rank at most two; its exact release cost is forced vertices plus vertex cover in a graph of maximum degree four | gives a cheap exact prefilter and a candidate interface to joint-cover absorbers |
+| [Low-shell coupled-cycle obstruction](analysis/results/latest_joint_audit_2026-07-26.md#7-a-finite-obstruction-to-safe-single-cycle-repair) | **EXACT FINITE** | at `H=4,n=10`, safe single-cycle descent has isolated states, while small coupled cycle networks still repair all 40 tested states | replaces a false single-cycle theorem by a charge/Graver absorber target |
 
 Two cautions apply to the table:
 
@@ -229,10 +250,12 @@ the robust repulsion trend, not the exact decimal.
 
 ### 6.3 The historical score-60 basin
 
-Before the true `n=74` solution became public, the best repository incumbent had
-60 bad three-point lines. For one fixed undirected 2-factor, CP-SAT proved that
-60 was the optimal orientation objective. Its 60 bad lines form 15 C4 orbits;
-an exact minimum conflict hitting set has eight fundamental edges.
+One historically emphasized `n=74` incumbent had 60 bad three-point lines.
+It was not the best archived near-miss: the six V20 states in Section 3 are
+strictly better. For this score-60 incumbent's fixed undirected 2-factor,
+CP-SAT proved that 60 was the optimal orientation objective. Its 60 bad lines
+form 15 C4 orbits; an exact minimum conflict hitting set has eight fundamental
+edges.
 
 Exact selected-cell balls of radius 8 through 12 around that incumbent are
 infeasible. Radius 13 returned `UNKNOWN`. Therefore the strict conclusion is:
@@ -265,6 +288,87 @@ because the solver produced false UNSAT answers. Six named `V=20` fixed-factor
 instances were independently cross-checked and may still be used within their
 stated scope; see
 [`validate_solver_report.md`](analysis/even_n_existence_tools/validate_solver_report.md).
+
+### 6.6 Exact local rigidity of the known `n=74` solution
+
+Hide `k` fundamental cells of the true solution, retain the other orbits,
+enumerate every directed-pseudograph `f`-factor completion of the degree
+deficits, and then check the complete geometry. The full `k=1,2,3` shells all
+have the original cells as their unique zero-defect completion. Therefore any
+different C4 solution has selected-cell replacement distance at least four
+from this solution.
+
+An audit found a duplicate-retained-cell bug in an earlier `k=3` candidate
+counter. Two apparent `E=1` alternatives were invalid; the remaining historical
+records reduce to three legal single-orientation flips with energies 2, 2, and
+3. The uniqueness certificate is unaffected because the correction only
+removes non-solutions. The old safe-candidate histograms are withdrawn pending
+a clean recount.
+
+### 6.7 Orientation-flip blocker graphs
+
+Reverse one legal non-loop, non-digon fundamental cell of a C4 solution. Record
+the old orbit owners in every newly created defect orbit. Each blocker set has
+size one or two, and an extra deletion set makes the reversed orbit safe
+exactly when it hits all blocker sets. After forced singleton owners are
+removed, the minimum release cost is an ordinary minimum vertex cover.
+
+The resulting blocker graph has maximum degree at most four: there are only
+four rotation phases, and two different neighbours in one phase would make
+three original points collinear. For the verified `n=74` solution, the 36
+legal flips have transversal sizes 1 through 8, with mean 4.972 and median 5.
+Across 163 cached true solutions, non-forest and non-bipartite blocker graphs
+occur, so those stronger early conjectures are false. The observed cycle-rank
+bound is empirical; only rank at most two and maximum degree at most four have
+been proved.
+
+### 6.8 Known-answer trade barriers and capacity closure
+
+The difference between a V20 state and the known true solution is a
+degree-balanced red-blue trade. For the six V20 basins it decomposes into
+8--11 minimal atoms. Exhaustive dynamic programming over the orders of each
+fixed atom decomposition shows that the energy must first rise from `E=5` to
+between 38 and 50 before reaching zero. These barriers are exact inside the
+stated decompositions, not in the full difference space.
+
+Five thousand additional balanced cross-trades per basin were checked against
+the full geometry; their best energies were 18--23 and none had `E<=5`. The
+complete transformations release 148--184 saturated long-fibre blocker pairs,
+with minimum joint old-cell hitting sets of size 25--27. These facts explain
+why energy-descending cell-local search repeatedly loses the known correct
+route. The next computational primitive should be a degree-balanced,
+capacity-closed destroy/recreate move on roughly 20--35 cells.
+
+### 6.9 The current `m=38` near-miss and exchange gap
+
+Ordered insertion into the true `m=37` factor produced an independently
+checked `m=38` candidate with cycle type `32+5+1`, 20 bad triples, and exactly
+five C4 defect orbits (`E=5`). This improves the repository's previous
+`m=38` near-miss from `E=9` to `E=5`; it is **not** an `n=76` solution.
+
+Exact CP-SAT searches exclude every zero-defect state at replacement radii
+zero through eight around this seed. Radius eight was split into 46 exhaustive
+branches according to the retention of its two inserted cells, all infeasible
+under the same validated line-cut model. Thus its certified exchange gap is at
+least nine.
+
+The known true-to-V20 paths and all low-energy states of their fixed atom
+sublattices were also lifted at all 38 insertion positions. Two route
+selections each checked 360,848 candidates; none improved `E=5`, and no
+non-truth `m=37` skeleton even tied it. This is a strong finite rejection of
+that particular transfer scheme, not a non-existence result for `n=76`.
+
+### 6.10 A finite obstruction to safe single-cycle repair
+
+After correcting three false-negative bugs in an `H=4` repair engine, a
+whole-path exact model found eight of 40 verified `n=10` states isolated in
+the graph of single alternating-cycle moves that keep the lower direction
+shells clean. Coupled multi-cycle moves repair all 40, and two states require
+cycle rank three in the tested formulation. Therefore the proposed universal
+safe-single-cycle descent statement is false. A lower-risk successor is the
+charge matrix of cycles against saturated fibres and low-rank
+Graver-style coupled absorbers; the observed `g(H)=H-1` staircase remains a
+conjecture.
 
 ## 7. Withdrawn or downgraded directions
 
@@ -317,11 +421,34 @@ about whether an NTIL state exists or whether a path can stay feasible. One draf
 also incorrectly asserted that every invertible linear map preserves Hamming
 adjacency; that is false in general.
 
-### 7.7 Radial layers, heat maps, and higher-dimensional volume — **DESCRIPTIVE**
+### 7.7 Radial layers, heat maps, physical analogies, and 3D volume — **DESCRIPTIVE**
 
 These views are useful for feature discovery, but no audited implication from a
-radial profile, density image, or 3D visualization to 2D NTIL existence has been
-proved. They should be used to generate hypotheses and then tested out of sample.
+radial profile, density image, jamming/full-spark analogy, ballistic-network
+picture, or 3D visualization to 2D NTIL existence has been proved. They should
+be used to generate hypotheses and then tested out of sample.
+
+The circular one-factorization colour rule suggested by the flower-like plots
+failed such a held-out test: agreement was only about one to two per cent on
+true solutions and V20 near-misses, with no useful separation.
+
+### 7.8 Loop-free V40 baseline — **WITHDRAWN AS A PROJECT RECORD**
+
+The later `m37_continue` factor space allowed only simple loop-free 2-factors.
+All six V20 near-misses and the true `n=74` solution contain a loop, so this
+space excluded the most relevant known states from the outset. Its internal
+V40-to-V36 improvement is not a new project record and must not replace the
+V20 baseline. This correction is distinct from the valid, separately audited
+local V40 exclusions in Section 6.4.
+
+### 7.9 Projective, Sidon, and determinant-gas language — **PROVISIONAL**
+
+These reformulations clarify the geometry but currently do not construct a
+solution or prove non-existence. The rigorous part is the root-direction
+support-matching condition in Section 5. The missing step is a C4-equivariant
+global object—such as a proper-slope drawing, terrace, or two-factor
+distribution—that satisfies all fibres simultaneously. A new vocabulary is
+not evidence for that step.
 
 ## 8. What the literature contributes
 
@@ -372,45 +499,46 @@ repulsion, or correlation estimate, not merely a re-run of the `k>=3` proof.
 
 ## 9. Recommended research programme
 
-The discovery of the true `n=74` solution changes the priority order. More local
-search around score60 should stop. The new solution is a ground-truth sample that
-can distinguish structural signals from artefacts of failed basins.
+The known-answer audit changes the priority order again. More local search
+around score60, V20, or the `m=38,E=5` seed should stop unless it uses a
+qualitatively different macro move. The true solution is a ground-truth sample,
+but the held-out tests show that visual similarity, direction counts, and high
+cell overlap are poor guides.
 
-### Priority A — Autopsy the true `n=74` solution
+### Priority A — Finish the true-solution basin geometry
 
-Measure every serious repository statistic on the verified solution, on the
-`n=72` solution, on archived smaller solutions, and on matched near-misses:
+The exact `k=1,2,3` completion shells are unique. Extend this calculation to
+`k=4,5,...`, using the new blocker graphs to prune deletion masks. The targets
+are:
 
-- pair-codegree and cavity scores;
-- line-length and primitive-direction spectra;
-- deletion-shadow degrees and Hall slack;
-- modular carry profiles for several small and medium primes;
-- cycle lengths, loops, orientation words, and switch neighbourhoods;
-- radial/heat-map features, used only as held-out predictors.
+- the first genuinely different zero-defect completion;
+- the distribution of joint blocker-cover costs;
+- minimal `f`-factor or Tutte cuts for infeasible retained cores;
+- comparison with `n=72`, smaller exact solution spaces, and matched
+  near-misses.
 
-For every statistic, perform an out-of-sample test: can it rank the true solution
-above near-misses without being fitted to `n=74`? Discard features that fail. This
-is the fastest way to find out which accumulated ideas contain genuine signal.
+This turns “the true solution is rigid” into a measurable exchange-radius
+profile rather than another fitted visual statistic.
 
-### Priority B — Turn capacity collapse into a theorem
+### Priority B — Join blocker covers to capacity-closed `f`-factors
 
-Fix a retained core `F`. Remove every candidate orbit blocked by a secant of `F`
-and ask whether the remaining loop-and-digon pseudograph has the required degree
-deficits. This produces an exact `f`-factor problem before new-new collinearities
-are considered.
+For a family of proposed replacement orbits, combine their maximum-degree-four
+blocker graphs and seek one shared deletion cover. Then require the released
+candidate multigraph to contain the needed loop-and-digon `f`-factor. This is
+the precise interface between the local orientation theorem and a macro
+absorber.
 
-The target theorem should identify a small, checkable obstruction—local star
-deficit, a Tutte `f`-factor cut, or a Hall-type weighted cut—that explains an
-infeasible fixed core. Computationally:
+The target theorem should control three layers:
 
-1. hide controlled subsets of the true `n=74` solution and measure completion
-   thresholds;
-2. run the same test on score60 and V40 negative controls;
-3. extract minimal cut certificates from infeasible instances;
-4. generalize recurring certificates into a deterministic lemma.
+1. a small or logarithmic blocker graph for each proposed orbit;
+2. substantial overlap among the vertex covers of many such graphs;
+3. enough Hall/Tutte slack after the joint cover to complete all degree
+   deficits without creating excessive new-new conflicts.
 
-This route connects the strongest exact local method in the repository with a
-mathematical object that can scale beyond one board size.
+Computational search should generate complete degree-balanced macro states,
+contract capacity-closure components, and allow 20--35-cell reconstruction.
+Exact defect energy should be a terminal check or secondary score, not the
+sole local objective.
 
 ### Priority C — Build the missing `k=2` correlation estimate
 
@@ -433,7 +561,20 @@ credible progression is:
 This is the highest-upside theoretical route because it attacks the precise
 place where the now-solved `k>=3` theory breaks.
 
-### Priority D — Test a genuine `n -> n+2` border absorber
+### Priority D — Test low-rank charge/Graver absorbers
+
+For a state with clean low direction shells, form the matrix whose rows are
+saturated fibres and whose columns are alternating cycles; a column records
+the cycle's net occupancy change on every fibre. A single cycle may overload a
+fibre even when a small signed sum of cycles is safe.
+
+The `H=4,n=10` finite obstruction proves that simultaneous coupling is
+sometimes genuinely necessary. The next step is to test whether the minimum
+coupled cycle rank is bounded as `n` grows for fixed shell height `H`. Stop
+pursuing a height-only theorem if that rank grows with `n`; in that case move
+to multiscale or block absorbers.
+
+### Priority E — Reassess `n -> n+2` as a long absorber
 
 For the all-even conjecture, attempt an induction that embeds an `n x n` solution
 inside an `(n+2) x (n+2)` board, deletes a controlled number of old points, and
@@ -441,12 +582,15 @@ repairs the four new row/column deficits by alternating cycles. The repair must
 be checked against every old secant, so the deletion-shadow `f`-factor is the
 right first layer.
 
-The useful question is not whether a single hand-designed extension works, but
-whether the number of required deletions stays bounded or grows slowly across a
-large archive. If it grows proportionally to `n`, abandon constant-size induction
-and return to the probabilistic programme.
+The two calibrated lifts `m=36 -> 37` and `m=37 -> 38` both produced
+low-energy states with certified exchange gap at least nine. Thus a
+constant-radius patch is already disfavoured on the available training cases.
+The useful question is whether the required coupled exchange grows
+logarithmically, sublinearly, or linearly across a larger archive. If it grows
+proportionally to `n`, abandon local induction and return to the probabilistic
+programme.
 
-### Priority E — A modular zero-carry inverse theorem
+### Priority F — A modular zero-carry inverse theorem
 
 For several primes `p` and direction shells `Q`, count triples whose integer
 determinant is `kp`. If true solutions systematically suppress the `k=0` mass,
@@ -469,6 +613,7 @@ It should not displace Priorities B and C if the goal is a general theorem.
 | path | purpose |
 |---|---|
 | [`analysis/results/n74_rot4_prellberg_verified_2026-07-22.md`](analysis/results/n74_rot4_prellberg_verified_2026-07-22.md) | explicit `n=74` coordinates and independent verification |
+| [`analysis/results/latest_joint_audit_2026-07-26.md`](analysis/results/latest_joint_audit_2026-07-26.md) | corrected V20 baseline, true-solution rigidity, blocker-graph theorem, trade barriers, `m=38,E=5`, and finite H4 obstruction |
 | [`analysis/results/pair_codegree_37/`](analysis/results/pair_codegree_37/) | pair-codegree experiments, score60 certificate, Hamming balls, small-`m` exact data |
 | [`analysis/even_n_existence_tools/`](analysis/even_n_existence_tools/) | all-even structural lemmas, corrected C4 model, finite obstruction tools |
 | [`analysis/results/score60_reduced_lns_frontier_2026-07-22.md`](analysis/results/score60_reduced_lns_frontier_2026-07-22.md) | final scoped report on the historical score60 basin |
@@ -480,6 +625,9 @@ Build helpers are provided in [`Makefile`](Makefile) and
 [`compile.bat`](compile.bat). Solver output must always be checked against the
 full integer-board collinearity predicate. `FEASIBLE`, `OPTIMAL`, `INFEASIBLE`,
 and `UNKNOWN` have different logical meanings and must not be interchanged.
+The 2026-07-26 joint audit is a compact scoped report; not all of its raw
+scripts and JSON outputs have yet been mirrored from the local research
+worktree into this GitHub-facing repository.
 
 ## 11. References
 
@@ -518,7 +666,7 @@ and `UNKNOWN` have different logical meanings and must not be interchanged.
 
 9. Achim Flammenkamp, [No-Three-in-Line database and live record
    log](https://wwwhomes.uni-bielefeld.de/achim/no3in/readme.html), accessed
-   2026-07-22.
+   2026-07-26.
 
 10. OEIS [A272651](https://oeis.org/A272651), maximal number `D(n)`;
     [A000755](https://oeis.org/A000755), total numbers of extremal
