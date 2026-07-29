@@ -196,7 +196,7 @@ useful clauses and preprocessing rules. They do not characterize every conflict.
 
 ### 4.5 A cubic spectral trace identity — **PROVED**
 
-Let $S=\{r_i=(x_i,y_i):1\leq i\leq N\}$ lie on an $n\times n$
+Let $S=(r_i)_{i=1}^{N}$, with $r_i=(x_i,y_i)$, lie on an $n\times n$
 integer board, set
 
 $$
@@ -208,17 +208,17 @@ $\zeta=\exp(2\pi i/Q)$, define the Hermitian matrices
 
 $$
 K_t(i,j)=\zeta^{\,t\omega(r_i,r_j)}
-\qquad (0\leq t<Q).
+\qquad (0\leq t\leq Q-1).
 $$
 
-If $C_{\rm col}$ denotes the number of unordered collinear triples in $S$,
+If $C_{\mathrm{col}}$ denotes the number of unordered collinear triples in $S$,
 then
 
 $$
 \boxed{
-C_{\rm col}
+C_{\mathrm{col}}
 =\frac16\left[
-\frac1Q\sum_{t=0}^{Q-1}\operatorname{tr}(K_t^3)
+\frac1Q\sum_{t=0}^{Q-1}\mathrm{tr}(K_t^3)
 -(3N^2-2N)
 \right].
 }
@@ -239,7 +239,7 @@ unordered triple of distinct collinear points has six orders.
 
 Thus NTIL is exactly the statement that the averaged third spectral moment
 equals the repeated-index baseline.  For $N=2n$, that baseline is
-$12n^2-4n$: 65,416 for `n=74` and 69,008 for `n=76`.  A 20-bad-triple
+$12n^2-4n$: 65,416 at $n=74$ and 69,008 at $n=76$.  A 20-bad-triple
 near-miss adds exactly 120.
 
 Translation of all points changes each $K_t$ only by diagonal unitary
@@ -287,7 +287,7 @@ If $d_c(v)$ is the degree of vertex $v$ in colour $c$, there is also the
 exact identity
 
 $$
-C_{\rm col}=\frac13\sum_c\sum_v {d_c(v)\choose2}.
+C_{\mathrm{col}}=\frac13\sum_c\sum_v \binom{d_c(v)}{2}.
 $$
 
 This turns construction into a degree-constrained rainbow palette-packing

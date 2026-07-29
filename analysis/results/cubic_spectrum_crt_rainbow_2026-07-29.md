@@ -10,7 +10,7 @@ reformulation, on its own, proves that an extremal configuration exists.
 
 ## 1. A filtered cubic trace counts collinear triples exactly
 
-Let $S=\{r_i=(x_i,y_i):1\leq i\leq N\}$ lie on an $L\times L$ integer
+Let $S=(r_i)_{i=1}^{N}$, with $r_i=(x_i,y_i)$, lie on an $L\times L$ integer
 board, and write
 
 $$
@@ -22,16 +22,16 @@ $\zeta=\exp(2\pi i/Q)$, and define the $N\times N$ matrix
 
 $$
 K_t(i,j)=\zeta^{\,t\omega(r_i,r_j)}
-\qquad (0\leq t<Q).
+\qquad (0\leq t\leq Q-1).
 $$
 
-Then the number $C_{\rm col}$ of unordered collinear triples is
+Then the number $C_{\mathrm{col}}$ of unordered collinear triples is
 
 $$
 \boxed{
-C_{\rm col}
+C_{\mathrm{col}}
 =\frac16\left[
-\frac1Q\sum_{t=0}^{Q-1}\operatorname{tr}(K_t^3)
+\frac1Q\sum_{t=0}^{Q-1}\mathrm{tr}(K_t^3)
 -(3N^2-2N)
 \right].
 }
@@ -40,7 +40,7 @@ $$
 Indeed,
 
 $$
-\operatorname{tr}(K_t^3)
+\mathrm{tr}(K_t^3)
 =\sum_{i,j,k}
 \zeta^{\,t[
 \omega(r_i,r_j)+\omega(r_j,r_k)+\omega(r_k,r_i)]}.
@@ -66,7 +66,7 @@ have a repeated index.  Every unordered triple of three distinct points
 occurs in six orders, which proves the formula.
 
 The matrices are Hermitian, since $\omega(r_j,r_i)=-\omega(r_i,r_j)$.
-Consequently $\operatorname{tr}(K_t^3)$ is the third moment of the real
+Consequently $\mathrm{tr}(K_t^3)$ is the third moment of the real
 eigenvalue multiset of $K_t$.  Translation of every point changes $K_t$
 only by diagonal unitary similarity, so each spectrum is translation
 invariant.
@@ -74,7 +74,7 @@ invariant.
 For an extremal NTIL set $N=2L$, the no-collinearity condition is exactly
 
 $$
-\frac1Q\sum_t\operatorname{tr}(K_t^3)=12L^2-4L.
+\frac1Q\sum_t\mathrm{tr}(K_t^3)=12L^2-4L.
 $$
 
 The baselines are 65,416 for $L=74$ and 69,008 for $L=76$.  A near-miss
@@ -133,8 +133,8 @@ $v$ in colour $c$.  Then
 
 $$
 \boxed{
-C_{\rm col}
-=\frac13\sum_c\sum_v {d_c(v)\choose2}.
+C_{\mathrm{col}}
+=\frac13\sum_c\sum_v \binom{d_c(v)}{2}.
 }
 $$
 
