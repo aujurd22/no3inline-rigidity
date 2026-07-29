@@ -1,6 +1,6 @@
 # No-Three-In-Line: Audited C4 Structure, a Verified `n=74` Solution, and the All-Even Question
 
-> **Research status: 2026-07-26.** This is an AI-assisted computational
+> **Research status: 2026-07-29.** This is an AI-assisted computational
 > research notebook. It contains elementary proofs, exact finite encodings,
 > machine-checked local certificates, empirical laws, conjectures, and historical
 > failed approaches. Those categories are kept separate below.
@@ -12,6 +12,8 @@
 > The subsequent known-answer audit corrected the old search baseline, proved
 > new local blocker-graph lemmas, and produced an `m=38` near-miss with exactly
 > five C4 defect orbits. No `n=76` solution has been found here.
+> The latest update adds an exact cubic spectral identity, an equivalent CRT
+> anti-Ramsey formulation, and an exact audit of a small V20 neutral plateau.
 >
 > The main theoretical question studied here is now: **does every even `n`
 > admit `2n` grid points with no three collinear?** The data through `n=74`
@@ -19,7 +21,8 @@
 
 [Interactive overview](visualization/overview.html) ·
 [verified `n=74` certificate](analysis/results/n74_rot4_prellberg_verified_2026-07-22.md) ·
-[latest joint audit](analysis/results/latest_joint_audit_2026-07-26.md)
+[latest joint audit](analysis/results/latest_joint_audit_2026-07-26.md) ·
+[cubic spectrum and CRT rainbow formulation](analysis/results/cubic_spectrum_crt_rainbow_2026-07-29.md)
 
 ![Interactive overview preview](visualization/preview.png)
 
@@ -191,6 +194,110 @@ These Type-1/Type-2 obstructions are proved in
 [`allbad_triple_theorem.md`](analysis/results/allbad_triple_theorem.md). They are
 useful clauses and preprocessing rules. They do not characterize every conflict.
 
+### 4.5 A cubic spectral trace identity — **PROVED**
+
+Let \(S=\{r_i=(x_i,y_i):1\leq i\leq N\}\) lie on an \(n\times n\)
+integer board, set
+
+\[
+\omega(r_i,r_j)=x_i y_j-y_i x_j,
+\]
+
+and choose an integer \(Q>(n-1)^2\).  With
+\(\zeta=\exp(2\pi i/Q)\), define the Hermitian matrices
+
+\[
+K_t(i,j)=\zeta^{\,t\omega(r_i,r_j)}
+\qquad (0\leq t<Q).
+\]
+
+If \(C_{\rm col}\) denotes the number of unordered collinear triples in \(S\),
+then
+
+\[
+\boxed{
+C_{\rm col}
+=\frac16\left[
+\frac1Q\sum_{t=0}^{Q-1}\operatorname{tr}(K_t^3)
+-(3N^2-2N)
+\right].
+}
+\]
+
+To see this, expand the trace.  The phase attached to an ordered triple is
+
+\[
+\omega(r_i,r_j)+\omega(r_j,r_k)+\omega(r_k,r_i)
+=\det(r_j-r_i,r_k-r_i).
+\]
+
+Averaging over \(t\) is the root-of-unity filter for determinant zero modulo
+\(Q\).  Since the absolute determinant of three board points is at most
+\((n-1)^2\), the stated bound on \(Q\) makes modular zero equivalent to integer
+zero.  There are \(3N^2-2N\) ordered triples with a repeated index, while each
+unordered triple of distinct collinear points has six orders.
+
+Thus NTIL is exactly the statement that the averaged third spectral moment
+equals the repeated-index baseline.  For \(N=2n\), that baseline is
+\(12n^2-4n\): 65,416 for `n=74` and 69,008 for `n=76`.  A 20-bad-triple
+near-miss adds exactly 120.
+
+Translation of all points changes each \(K_t\) only by diagonal unitary
+similarity, so the spectra are translation invariant.  This is a genuine
+three-point spectral encoding, but not yet an existence theorem: the complete
+average is essentially Fourier inversion of the determinant histogram.  The
+open task is to bound the cubic moments from degree-two saturation, C4
+symmetry, or a suitable random two-factor measure without reconstructing that
+histogram.  The full derivation and checks are in
+[`cubic_spectrum_crt_rainbow_2026-07-29.md`](analysis/results/cubic_spectrum_crt_rainbow_2026-07-29.md).
+
+### 4.6 CRT pair colours and the rainbow-clique equivalence — **PROVED**
+
+Choose distinct primes \(p,q\geq n\) with
+
+\[
+pq>(n-1)^2.
+\]
+
+Colour each selected point pair \(\{i,j\}\) by the pair of affine lines it
+determines in the two finite planes:
+
+\[
+c(i,j)=\bigl(\ell_p(i,j),\ell_q(i,j)\bigr).
+\]
+
+Then
+
+\[
+\boxed{
+S\text{ is NTIL}
+\quad\Longleftrightarrow\quad
+\text{all selected point pairs have different colours}.
+}
+\]
+
+Indeed, two distinct pairs of the same colour put their endpoints on one line
+modulo both \(p\) and \(q\).  The determinant of any three relevant endpoints
+is divisible by \(pq\), and the board determinant bound forces it to be zero
+over the integers.  Conversely, the three pairs of an integer-collinear triple
+have the same colour.  Hence an NTIL configuration is a rainbow clique in a
+fixed edge-colouring of the board.
+
+If \(d_c(v)\) is the degree of vertex \(v\) in colour \(c\), there is also the
+exact identity
+
+\[
+C_{\rm col}=\frac13\sum_c\sum_v {d_c(v)\choose2}.
+\]
+
+This turns construction into a degree-constrained rainbow palette-packing
+problem.  It strengthens the direction-fibre support-matching language:
+directions may be reused, but the complete pair of modular affine-line labels
+may not collide.  The formulation is exact and bitset-friendly, although its
+finite-plane bucket implementation was only about as fast as direct integer
+line hashing; its main value is structural and incremental rather than an
+asymptotic speedup.
+
 ## 5. Audited repository results beyond the basic model
 
 | result | status | reliable conclusion | research value |
@@ -209,6 +316,8 @@ useful clauses and preprocessing rules. They do not characterize every conflict.
 | [Root-direction support matching](analysis/results/latest_joint_audit_2026-07-26.md#2-v20-versus-the-known-true-solution) | **PROVED REFORMULATION** | a direction may be reused; NTIL requires the selected root supports inside each direction fibre to form a matching | corrects the failed “avoid bad slopes” intuition |
 | [Orientation-flip blocker graph](analysis/results/latest_joint_audit_2026-07-26.md#4-orientation-flip-blocker-graph) | **PROVED / EXACT FINITE** | a single legal orientation flip has blocker rank at most two; its exact release cost is forced vertices plus vertex cover in a graph of maximum degree four | gives a cheap exact prefilter and a candidate interface to joint-cover absorbers |
 | [Low-shell coupled-cycle obstruction](analysis/results/latest_joint_audit_2026-07-26.md#7-a-finite-obstruction-to-safe-single-cycle-repair) | **EXACT FINITE** | at `H=4,n=10`, safe single-cycle descent has isolated states, while small coupled cycle networks still repair all 40 tested states | replaces a false single-cycle theorem by a charge/Graver absorber target |
+| [Cubic spectrum and CRT rainbow equivalence](analysis/results/cubic_spectrum_crt_rainbow_2026-07-29.md) | **PROVED / VERIFIED DATA** | collinear triples equal a filtered cubic matrix-trace moment and, independently, the collision energy of exact CRT pair colours | supplies spectral and anti-Ramsey interfaces without claiming that either already proves existence |
+| [V20 neutral plateau](analysis/results/v20_neutral_plateau_2026-07-29.md) | **EXACT FINITE** | one flip from `v20_06` gives a seventh non-D4-equivalent V20 state, but the complete raw-20 one-flip component has only two states and exits at raw energy at least 28 | rules out a large hidden flat orientation plateau as the explanation of V20 stagnation |
 
 Two cautions apply to the table:
 
@@ -370,6 +479,41 @@ charge matrix of cycles against saturated fibres and low-rank
 Graver-style coupled absorbers; the observed `g(H)=H-1` staircase remains a
 conjecture.
 
+### 6.11 Determinant-spectrum pressure test
+
+The nonzero determinant histogram and several smoothed spectral kernels were
+tested on 249 configurations: true states, one/two/four orientation flips,
+random C4 factors, all six archived V20 states, and the two current `m=38,E=5`
+states.  Across one-flip controls, the best feature had absolute Spearman
+correlation only about 0.367 with the true repairing move.
+
+In 12 one-flip recovery tests, the best kernel ranked the repair first in
+`0/12`, in its top three in `2/12`, and in its top five in `6/12` cases
+(median rank 5.5).  On the eight real V20/E5 near-misses, the exact best move
+was in the spectral top five only `3/8` times.  The histogram therefore has
+weak but repeatable value as a top-five prefilter or diversity tie-breaker; it
+is not reliable enough to replace exact blocker/palette evaluation.
+
+This negative result also clarifies the cubic identity in Section 4.5.  An
+exact third-moment formula does not imply that a low-dimensional summary of
+the nonzero determinant spectrum identifies the right local move.  The full
+test protocol and held-out counts are in
+[`determinant_spectrum_pressure_test_2026-07-29.md`](analysis/results/determinant_spectrum_pressure_test_2026-07-29.md).
+
+### 6.12 The V20 neutral orientation plateau
+
+Reversing `(23,3)` to `(3,23)` in archived state `v20_06` produces a seventh
+raw-20 configuration not D4-equivalent to the six archived states.  Exact
+single-orientation-flip enumeration shows that these two states form the
+entire neutral component: two vertices, one edge.  The 70 boundary states in
+their combined one-flip neighbourhood have minimum raw energy 28.
+
+The extra state is a genuine finite discovery, but it does not create a new
+basin or a broad zero-drift manifold.  Escaping V20 still requires changing
+the undirected factor or coupling several orientations.  Coordinates and the
+complete boundary histogram are recorded in
+[`v20_neutral_plateau_2026-07-29.md`](analysis/results/v20_neutral_plateau_2026-07-29.md).
+
 ## 7. Withdrawn or downgraded directions
 
 This section is deliberately explicit so historical files are not accidentally
@@ -497,9 +641,25 @@ corresponding line-count estimates, the light-line tail becomes harmonic at
 mathematical bottleneck: a proof for `k=2` needs an additional cancellation,
 repulsion, or correlation estimate, not merely a re-run of the `k>=3` proof.
 
+### 8.5 Anti-Ramsey context
+
+The CRT theorem in Section 4.6 places NTIL inside anti-Ramsey theory: the
+selected points must induce a clique whose every edge has a different colour.
+Erdős, Simonovits, and Sós introduced the anti-Ramsey programme, and Alon,
+Jiang, Miller, and Pritikin developed general rainbow-subgraph results under
+local colour constraints.
+
+Those theorems do not directly settle this problem.  Here the ambient
+edge-colouring is the highly structured product of two affine-line systems,
+and the selected vertices must also obey two-points-per-row, two-points-per-
+column, and often C4 symmetry.  The promising interface is therefore not a
+black-box rainbow-clique bound, but a theorem showing that a degree-two
+two-factor measure leaves enough unused CRT palette to complete a large
+rainbow selection.
+
 ## 9. Recommended research programme
 
-The known-answer audit changes the priority order again. More local search
+The known-answer and spectral/CRT audits change the priority order again. More local search
 around score60, V20, or the `m=38,E=5` seed should stop unless it uses a
 qualitatively different macro move. The true solution is a ground-truth sample,
 but the held-out tests show that visual similarity, direction counts, and high
@@ -590,17 +750,29 @@ logarithmically, sublinearly, or linearly across a larger archive. If it grows
 proportionally to `n`, abandon local induction and return to the probabilistic
 programme.
 
-### Priority F — A modular zero-carry inverse theorem
+### Priority F — Couple CRT palette propagation to macro trades
 
-For several primes `p` and direction shells `Q`, count triples whose integer
-determinant is `kp`. If true solutions systematically suppress the `k=0` mass,
-try to prove that such suppression forces Fourier concentration or a low-entropy
-permutation structure. Then combine that inverse structure with the conic and
-hyperbola obstructions.
+Maintain the exact pair-colour palette of the retained point set during a
+20--35-cell destroy/recreate move.  A candidate replacement orbit should be
+rejected immediately if any of its old-new or new-new pairs reuses a retained
+CRT colour.  The surviving candidates must then satisfy the loop-and-digon
+`f`-factor deficits.
 
-Stop if the argument merely reproduces the audited determinant-product `1:2`
-barrier. The goal is an inverse theorem with structural output, not another
-global valuation sum.
+This produces a concrete hybrid primitive:
+
+1. delete a capacity-closed set suggested by overlapping blocker covers;
+2. compute the retained CRT palette as bitsets or sorted colour IDs;
+3. build an orbit compatibility graph whose edges mean both palette
+   compatibility and degree compatibility;
+4. solve the remaining coloured `f`-factor/set-packing problem exactly;
+5. use the cubic trace or determinant spectrum only as a secondary ordering
+   heuristic.
+
+The theoretical target is a palette-slack lemma for a random or weighted
+degree-two factor: after deleting \(s\) well-chosen orbits, enough candidate
+orbits retain mutually fresh colours to satisfy every deficit.  This is more
+specific than the earlier modular zero-carry proposal and directly matches the
+observed macro-exchange barrier.
 
 ### Side target — odd orders 71 and 73
 
@@ -614,6 +786,10 @@ It should not displace Priorities B and C if the goal is a general theorem.
 |---|---|
 | [`analysis/results/n74_rot4_prellberg_verified_2026-07-22.md`](analysis/results/n74_rot4_prellberg_verified_2026-07-22.md) | explicit `n=74` coordinates and independent verification |
 | [`analysis/results/latest_joint_audit_2026-07-26.md`](analysis/results/latest_joint_audit_2026-07-26.md) | corrected V20 baseline, true-solution rigidity, blocker-graph theorem, trade barriers, `m=38,E=5`, and finite H4 obstruction |
+| [`analysis/results/cubic_spectrum_crt_rainbow_2026-07-29.md`](analysis/results/cubic_spectrum_crt_rainbow_2026-07-29.md) | proof of the cubic trace identity, exact CRT/rainbow equivalence, finite cross-checks, and solver interpretation |
+| [`analysis/results/determinant_spectrum_pressure_test_2026-07-29.md`](analysis/results/determinant_spectrum_pressure_test_2026-07-29.md) | held-out test showing that nonzero determinant spectra are weak move prefilters, not reliable objectives |
+| [`analysis/results/v20_neutral_plateau_2026-07-29.md`](analysis/results/v20_neutral_plateau_2026-07-29.md) | seventh V20 coordinates and exhaustive two-state neutral-component audit |
+| [`analysis/verify_crt_rainbow.py`](analysis/verify_crt_rainbow.py) | exact, dependency-free CRT palette verifier cross-checked against integer line hashing |
 | [`analysis/results/pair_codegree_37/`](analysis/results/pair_codegree_37/) | pair-codegree experiments, score60 certificate, Hamming balls, small-`m` exact data |
 | [`analysis/even_n_existence_tools/`](analysis/even_n_existence_tools/) | all-even structural lemmas, corrected C4 model, finite obstruction tools |
 | [`analysis/results/score60_reduced_lns_frontier_2026-07-22.md`](analysis/results/score60_reduced_lns_frontier_2026-07-22.md) | final scoped report on the historical score60 basin |
@@ -625,7 +801,8 @@ Build helpers are provided in [`Makefile`](Makefile) and
 [`compile.bat`](compile.bat). Solver output must always be checked against the
 full integer-board collinearity predicate. `FEASIBLE`, `OPTIMAL`, `INFEASIBLE`,
 and `UNKNOWN` have different logical meanings and must not be interchanged.
-The 2026-07-26 joint audit is a compact scoped report; not all of its raw
+The 2026-07-26 joint audit and 2026-07-29 spectral/CRT note are compact scoped
+reports; not all of their raw
 scripts and JSON outputs have yet been mirrored from the local research
 worktree into this GitHub-facing repository.
 
@@ -672,6 +849,16 @@ worktree into this GitHub-facing repository.
     [A000755](https://oeis.org/A000755), total numbers of extremal
     configurations in the enumerated small cases; and
     [A000769](https://oeis.org/A000769), numbers up to square symmetry.
+
+11. P. Erdős, M. Simonovits, and V. T. Sós, “Anti-Ramsey Theorems,” in
+    *Infinite and Finite Sets*, Colloquia Mathematica Societatis János Bolyai
+    10, North-Holland, 1975, pp. 633–643.
+    [repository record](https://real.mtak.hu/110457/)
+
+12. N. Alon, T. Jiang, Z. Miller, and D. Pritikin, “Properly Colored
+    Subgraphs and Rainbow Subgraphs in Edge-Colorings with Local Constraints,”
+    *Random Structures & Algorithms* 23(4), 409–433, 2003.
+    [doi:10.1002/rsa.10102](https://doi.org/10.1002/rsa.10102)
 
 ## 12. Citation and licence
 
