@@ -30,10 +30,10 @@
 
 Let
 
-\[
+$$
 D(n)=\max\{|S|:S\subseteq\{0,\ldots,n-1\}^2,
 \text{ and no three points of }S\text{ are collinear}\}.
-\]
+$$
 
 Every row and every column contains at most two selected points, so
 `D(n) <= 2n`. The classical no-three-in-line question asks when equality is
@@ -148,9 +148,9 @@ A C4-symmetric extremal set therefore consists of exactly `m` such orbits. The
 `m` selected cells in the northwest fundamental square can be read as directed
 edges on `m` vertices. Row/column saturation becomes
 
-\[
+$$
 \deg^+(v)+\deg^-(v)=2.
-\]
+$$
 
 After directions are forgotten, the object is a 2-regular **pseudograph**. The
 correct model must allow:
@@ -196,25 +196,25 @@ useful clauses and preprocessing rules. They do not characterize every conflict.
 
 ### 4.5 A cubic spectral trace identity — **PROVED**
 
-Let \(S=\{r_i=(x_i,y_i):1\leq i\leq N\}\) lie on an \(n\times n\)
+Let $S=\{r_i=(x_i,y_i):1\leq i\leq N\}$ lie on an $n\times n$
 integer board, set
 
-\[
+$$
 \omega(r_i,r_j)=x_i y_j-y_i x_j,
-\]
+$$
 
-and choose an integer \(Q>(n-1)^2\).  With
-\(\zeta=\exp(2\pi i/Q)\), define the Hermitian matrices
+and choose an integer $Q>(n-1)^2$.  With
+$\zeta=\exp(2\pi i/Q)$, define the Hermitian matrices
 
-\[
+$$
 K_t(i,j)=\zeta^{\,t\omega(r_i,r_j)}
 \qquad (0\leq t<Q).
-\]
+$$
 
-If \(C_{\rm col}\) denotes the number of unordered collinear triples in \(S\),
+If $C_{\rm col}$ denotes the number of unordered collinear triples in $S$,
 then
 
-\[
+$$
 \boxed{
 C_{\rm col}
 =\frac16\left[
@@ -222,27 +222,27 @@ C_{\rm col}
 -(3N^2-2N)
 \right].
 }
-\]
+$$
 
 To see this, expand the trace.  The phase attached to an ordered triple is
 
-\[
+$$
 \omega(r_i,r_j)+\omega(r_j,r_k)+\omega(r_k,r_i)
 =\det(r_j-r_i,r_k-r_i).
-\]
+$$
 
-Averaging over \(t\) is the root-of-unity filter for determinant zero modulo
-\(Q\).  Since the absolute determinant of three board points is at most
-\((n-1)^2\), the stated bound on \(Q\) makes modular zero equivalent to integer
-zero.  There are \(3N^2-2N\) ordered triples with a repeated index, while each
+Averaging over $t$ is the root-of-unity filter for determinant zero modulo
+$Q$.  Since the absolute determinant of three board points is at most
+$(n-1)^2$, the stated bound on $Q$ makes modular zero equivalent to integer
+zero.  There are $3N^2-2N$ ordered triples with a repeated index, while each
 unordered triple of distinct collinear points has six orders.
 
 Thus NTIL is exactly the statement that the averaged third spectral moment
-equals the repeated-index baseline.  For \(N=2n\), that baseline is
-\(12n^2-4n\): 65,416 for `n=74` and 69,008 for `n=76`.  A 20-bad-triple
+equals the repeated-index baseline.  For $N=2n$, that baseline is
+$12n^2-4n$: 65,416 for `n=74` and 69,008 for `n=76`.  A 20-bad-triple
 near-miss adds exactly 120.
 
-Translation of all points changes each \(K_t\) only by diagonal unitary
+Translation of all points changes each $K_t$ only by diagonal unitary
 similarity, so the spectra are translation invariant.  This is a genuine
 three-point spectral encoding, but not yet an existence theorem: the complete
 average is essentially Fourier inversion of the determinant histogram.  The
@@ -253,42 +253,42 @@ histogram.  The full derivation and checks are in
 
 ### 4.6 CRT pair colours and the rainbow-clique equivalence — **PROVED**
 
-Choose distinct primes \(p,q\geq n\) with
+Choose distinct primes $p,q\geq n$ with
 
-\[
+$$
 pq>(n-1)^2.
-\]
+$$
 
-Colour each selected point pair \(\{i,j\}\) by the pair of affine lines it
+Colour each selected point pair $\{i,j\}$ by the pair of affine lines it
 determines in the two finite planes:
 
-\[
+$$
 c(i,j)=\bigl(\ell_p(i,j),\ell_q(i,j)\bigr).
-\]
+$$
 
 Then
 
-\[
+$$
 \boxed{
 S\text{ is NTIL}
 \quad\Longleftrightarrow\quad
 \text{all selected point pairs have different colours}.
 }
-\]
+$$
 
 Indeed, two distinct pairs of the same colour put their endpoints on one line
-modulo both \(p\) and \(q\).  The determinant of any three relevant endpoints
-is divisible by \(pq\), and the board determinant bound forces it to be zero
+modulo both $p$ and $q$.  The determinant of any three relevant endpoints
+is divisible by $pq$, and the board determinant bound forces it to be zero
 over the integers.  Conversely, the three pairs of an integer-collinear triple
 have the same colour.  Hence an NTIL configuration is a rainbow clique in a
 fixed edge-colouring of the board.
 
-If \(d_c(v)\) is the degree of vertex \(v\) in colour \(c\), there is also the
+If $d_c(v)$ is the degree of vertex $v$ in colour $c$, there is also the
 exact identity
 
-\[
+$$
 C_{\rm col}=\frac13\sum_c\sum_v {d_c(v)\choose2}.
-\]
+$$
 
 This turns construction into a degree-constrained rainbow palette-packing
 problem.  It strengthens the direction-fibre support-matching language:
@@ -346,11 +346,11 @@ For compatible fundamental cells `u,v`, let `D(u,v)` count the rotated
 third-cell conflict mechanisms containing the pair. In archived solutions for
 `m=18,...,28`, the observed relation is
 
-\[
+$$
 \log_2\frac{P(u,v)}{P(u)P(v)}
 \approx c_m-\alpha\frac{D(u,v)}m,
 \qquad \alpha\approx0.169.
-\]
+$$
 
 The archive is biased toward configurations found by existing solvers, so this
 is an empirical law under an unknown sampling measure. The early suggestion
@@ -769,7 +769,7 @@ This produces a concrete hybrid primitive:
    heuristic.
 
 The theoretical target is a palette-slack lemma for a random or weighted
-degree-two factor: after deleting \(s\) well-chosen orbits, enough candidate
+degree-two factor: after deleting $s$ well-chosen orbits, enough candidate
 orbits retain mutually fresh colours to satisfy every deficit.  This is more
 specific than the earlier modular zero-carry proposal and directly matches the
 observed macro-exchange barrier.
