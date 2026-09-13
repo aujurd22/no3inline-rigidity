@@ -860,7 +860,34 @@ worktree into this GitHub-facing repository.
     *Random Structures & Algorithms* 23(4), 409–433, 2003.
     [doi:10.1002/rsa.10102](https://doi.org/10.1002/rsa.10102)
 
-## 12. Citation and licence
+## 12. Research updates (Aug-Sep 2026)
+
+Second research campaign (nocturnal autonomous sessions). Curated summaries in
+[`research/`](research/); new tools under [`analysis/`](analysis/); Lean formalization in
+[`lean/`](lean/).
+
+- **Records audit** - independent verification of the n=76 rot4 / n=71,73 rct4 records and
+  ~860 new 2026 solutions; the six-class census rigidity identity verified *predictively*
+  at m=38. See [research/RECORDS_AUDIT_2026.md](research/RECORDS_AUDIT_2026.md).
+- **Splice covering lemma (9/9 classes)** - the height-1 clean C4 first shell is now proved
+  for every even m (nine residue classes mod 18), machine-checked to m=50,000.
+  See [research/SPLICE_COVERING.md](research/SPLICE_COVERING.md).
+- **Four-tight exception** - the half-turn 4-tight universality conjecture has a
+  counterexample *inside the authoritative corpus* (n=8 rot2, min|F1|=8, min|F2|=4);
+  mechanism: parity confinement. Refined conjectures T-prime-F2 / canon-F1 / T41-A,
+  plus a coverage-discipline lesson (lexicographic glob + time-box silently truncated
+  the census). See [research/FOUR_TIGHT_EXCEPTION.md](research/FOUR_TIGHT_EXCEPTION.md)
+  and [data/n8_rot2_counterexample.txt](data/n8_rot2_counterexample.txt).
+- **Lean 4 formalization** - slope-±1 collinearity iff intercept multiset <= 2
+  (Theorems 1a/1b, complete proofs; computer-assisted facts isolated as axioms with
+  Python oracles). Compiles with Lean 4.33.1, zero errors, zero sorries.
+  See [lean/NTIL.lean](lean/NTIL.lean).
+- **New tools** - [`analysis/census/fourtight.py`](analysis/census/fourtight.py),
+  [`analysis/tools/decode_few.py`](analysis/tools/decode_few.py),
+  [`analysis/tools/audit_batch.py`](analysis/tools/audit_batch.py),
+  [`analysis/tools/parity_lift_lazy.py`](analysis/tools/parity_lift_lazy.py).
+
+## 13. Citation and licence
 
 ```bibtex
 @software{du2026_no3inline_rigidity,
