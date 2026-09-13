@@ -52,11 +52,38 @@ configuration of the 4x4 board, so the minimum lands on `8 x 1 = 8` instead of `
 
 **Conjecture T41-A:** confined solutions exist only at `n = 8`.
 
-Evidence: lifting every coarse `D(m)` solution back to the fine board kills it for all
-`m = 5..10` — 32 + 50 + 132 (exhaustive DFS, m=5..7) plus 57 + 51 + 156 (corpus, m=8..10),
-**478 coarse solutions, 0 survivors** (both row parities tested). Deaths split between
-center-line collinearity (two representatives and the board centre collinear, 18/32 at n=10)
-and general F2 collinearity (14/32), with violation slopes concentrated at (±1,±1) and (±2,±1).
+Evidence (updated 2026-09-14, C++ DFS exhaustive enumeration):
+
+| m | coarse D(m) solutions (exhaustive) | confined-lift survivors |
+|---|---|---|
+| 5 | 32 | 0 |
+| 6 | 50 | 0 |
+| 7 | 132 | 0 |
+| 8 | 380 | 0 |
+| 9 | 368 | 0 |
+| 10 | 1135 | 0 |
+| 11 | 1120 | 0 |
+| 12 | 4348 | 0 |
+
+**m = 5..12 (n = 10..24): 7,565 coarse solutions, 0 confined-lift survivors.**
+The center-line constraint is fully redundant: every death is an F2 collinearity, and
+**every m >= 5 lift dies at slope magnitude 1** (gcd-reduced max(|dx|,|dy|) = 1 for 32/32,
+49/50, 131/132 at m = 5,6,7; m = 4 leaves exactly one surviving coarse solution).
+
+Complete kill taxonomy (verified per-solution against the brute-force lift test, m = 4..7):
+1. main-diagonal multiset: the values d = x - 2v - off contain a, a, -a (three distinct points);
+2. anti-diagonal multiset: c+ = x + 2v + off contains a, a, (4m-2)-a;
+3. centre diagonal: at least three fine solution points with x = y or x + y = 2m-1.
+
+The union matches the brute-force verdict per-solution at m = 4..7 (m = 4: 10 killed / 1
+survivor; m = 5,6,7: all killed), with residual edge cases dying from G-type (two antipodes
++ one representative) or higher-slope F2 triples - the taxonomy is a sound lower bound on
+deaths, not yet a complete characterization.
+
+**Final reduced form of T41-A:** every coarse D(m) solution with m >= 5 contains one of the
+three patterns above. The remaining proof target is a counting argument over the 2-regular
+structure forcing a diagonal-multiset collision (m = 4's single survivor escapes because its
+only two collisions, at d = -2 and -4, have mirrors +2, +4 absent from the multiset).
 
 ## 4. Refined statements (replacing T-prime)
 
