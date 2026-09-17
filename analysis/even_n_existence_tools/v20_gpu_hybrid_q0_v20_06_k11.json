@@ -1,0 +1,129 @@
+{
+  "component_count": 4,
+  "enumeration_mode": "explicit_masks",
+  "target_selected": 11,
+  "explicit_mask_count": 23,
+  "distinct_shape_masks": 23,
+  "defect_hitting_masks": 23,
+  "factor_feasible_masks": 1,
+  "all_factor_infeasible": false,
+  "total_factor_search_nodes": 95,
+  "maximum_factor_search_nodes": 11,
+  "root_zero_option_by_deficit": {
+    "1": 0,
+    "2": 0
+  },
+  "search_node_histogram": {
+    "2": 5,
+    "3": 8,
+    "4": 4,
+    "5": 2,
+    "7+": 4
+  },
+  "sample_hitting_masks": [
+    288695366,
+    289219650,
+    556286917,
+    556287877,
+    556288901,
+    556319621,
+    556859847,
+    557124420,
+    557335429,
+    562692965
+  ],
+  "feasible_masks": [
+    69007155274
+  ],
+  "first_feasible_mask": 69007155274,
+  "first_feasible_cells": [
+    [
+      0,
+      16
+    ],
+    [
+      10,
+      18
+    ],
+    [
+      14,
+      6
+    ],
+    [
+      17,
+      8
+    ],
+    [
+      26,
+      8
+    ],
+    [
+      3,
+      23
+    ],
+    [
+      11,
+      27
+    ],
+    [
+      25,
+      1
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      12,
+      32
+    ],
+    [
+      35,
+      34
+    ]
+  ],
+  "base": "v20_06",
+  "gpu_certificate": "v20_gpu_root_prefilter_v20_06_k11.json",
+  "gpu_root_nonzero_by_adjacency": [
+    0,
+    9,
+    10,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "method": "CUDA exhaustive fixed-weight mask scan and exact root-option filter, followed by C++ exact deficit f-factor DFS",
+  "elapsed_s": 0.6362
+}

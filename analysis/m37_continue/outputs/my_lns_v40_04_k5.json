@@ -1,0 +1,304 @@
+{
+  "parameters": {
+    "bases": "v40_04",
+    "k": 5,
+    "iterations": 4,
+    "indices": "",
+    "target": 36,
+    "target_exact": false,
+    "time_limit": 30.0,
+    "solver_workers": 8,
+    "branch_parts": 1,
+    "branch_index": 0,
+    "branch_path": "",
+    "max_retained_original": null,
+    "modes": "0,1,2,3,4",
+    "out": "my_lns_v40_04_k5.json"
+  },
+  "runs": [
+    {
+      "base": "v40_04",
+      "base_sources": [
+        "partial_hitting_40_slack2.json:exact1",
+        "safe_path_relink_d2.json:exact2",
+        "joint_factor_sa_12x6000.json:exact1"
+      ],
+      "covered_defects": 10,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          19,
+          23,
+          25,
+          34,
+          35
+        ],
+        "removed_edges": [
+          [
+            10,
+            15
+          ],
+          [
+            12,
+            36
+          ],
+          [
+            14,
+            27
+          ],
+          [
+            24,
+            34
+          ],
+          [
+            26,
+            29
+          ]
+        ],
+        "affected_vertices": [
+          10,
+          12,
+          14,
+          15,
+          24,
+          26,
+          27,
+          29,
+          34,
+          36
+        ],
+        "residual_degree_histogram": {
+          "1": 10
+        },
+        "directed_cell_variables": 86,
+        "fixed_point_count": 128,
+        "potential_point_count": 472,
+        "raw_line_keys": 86590,
+        "active_line_costs": 1540,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 212,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 0.274,
+        "solve_s": 0.031,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v40_04",
+      "base_sources": [
+        "partial_hitting_40_slack2.json:exact1",
+        "safe_path_relink_d2.json:exact2",
+        "joint_factor_sa_12x6000.json:exact1"
+      ],
+      "covered_defects": 8,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          5,
+          31,
+          34,
+          35,
+          36
+        ],
+        "removed_edges": [
+          [
+            2,
+            36
+          ],
+          [
+            20,
+            27
+          ],
+          [
+            24,
+            34
+          ],
+          [
+            26,
+            29
+          ],
+          [
+            29,
+            35
+          ]
+        ],
+        "affected_vertices": [
+          2,
+          20,
+          24,
+          26,
+          27,
+          29,
+          34,
+          35,
+          36
+        ],
+        "residual_degree_histogram": {
+          "1": 8,
+          "2": 1
+        },
+        "directed_cell_variables": 70,
+        "fixed_point_count": 128,
+        "potential_point_count": 408,
+        "raw_line_keys": 63392,
+        "active_line_costs": 1252,
+        "fixed_line_constant": 4,
+        "diagonal_constraints": 212,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 0.211,
+        "solve_s": 0.017,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v40_04",
+      "base_sources": [
+        "partial_hitting_40_slack2.json:exact1",
+        "safe_path_relink_d2.json:exact2",
+        "joint_factor_sa_12x6000.json:exact1"
+      ],
+      "covered_defects": 2,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          2,
+          3,
+          13,
+          14,
+          31
+        ],
+        "removed_edges": [
+          [
+            1,
+            19
+          ],
+          [
+            1,
+            31
+          ],
+          [
+            6,
+            31
+          ],
+          [
+            7,
+            28
+          ],
+          [
+            20,
+            27
+          ]
+        ],
+        "affected_vertices": [
+          1,
+          6,
+          7,
+          19,
+          20,
+          27,
+          28,
+          31
+        ],
+        "residual_degree_histogram": {
+          "2": 2,
+          "1": 6
+        },
+        "directed_cell_variables": 56,
+        "fixed_point_count": 128,
+        "potential_point_count": 352,
+        "raw_line_keys": 52048,
+        "active_line_costs": 618,
+        "fixed_line_constant": 20,
+        "diagonal_constraints": 212,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 0.146,
+        "solve_s": 0.007,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v40_04",
+      "base_sources": [
+        "partial_hitting_40_slack2.json:exact1",
+        "safe_path_relink_d2.json:exact2",
+        "joint_factor_sa_12x6000.json:exact1"
+      ],
+      "covered_defects": 9,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          3,
+          23,
+          25,
+          34,
+          35
+        ],
+        "removed_edges": [
+          [
+            1,
+            31
+          ],
+          [
+            12,
+            36
+          ],
+          [
+            14,
+            27
+          ],
+          [
+            24,
+            34
+          ],
+          [
+            26,
+            29
+          ]
+        ],
+        "affected_vertices": [
+          1,
+          12,
+          14,
+          24,
+          26,
+          27,
+          29,
+          31,
+          34,
+          36
+        ],
+        "residual_degree_histogram": {
+          "1": 10
+        },
+        "directed_cell_variables": 90,
+        "fixed_point_count": 128,
+        "potential_point_count": 488,
+        "raw_line_keys": 90166,
+        "active_line_costs": 1750,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 216,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 0.283,
+        "solve_s": 0.024,
+        "best_bound": 37
+      }
+    }
+  ],
+  "best_candidate": null
+}

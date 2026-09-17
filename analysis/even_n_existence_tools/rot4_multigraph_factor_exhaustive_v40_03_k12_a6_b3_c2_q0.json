@@ -1,0 +1,184 @@
+{
+  "component_count": 2,
+  "run_lengths": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    5
+  ],
+  "distinct_shape_masks": 14023680,
+  "defect_hitting_masks": 249140,
+  "factor_feasible_masks": 1,
+  "all_factor_infeasible": false,
+  "total_factor_search_nodes": 249150,
+  "maximum_factor_search_nodes": 11,
+  "root_zero_option_by_deficit": {
+    "1": 83497,
+    "2": 165642
+  },
+  "search_node_histogram": {
+    "1": 249139,
+    "7+": 1
+  },
+  "sample_hitting_masks": [
+    511069184,
+    9807086364,
+    9807201052,
+    9815575568,
+    9815673872,
+    1299467280,
+    1299598336,
+    9823866128,
+    9823996944,
+    10067233808
+  ],
+  "first_feasible_mask": 78534237328,
+  "first_feasible_cells": [
+    [
+      20,
+      7
+    ],
+    [
+      35,
+      7
+    ],
+    [
+      14,
+      8
+    ],
+    [
+      5,
+      22
+    ],
+    [
+      22,
+      16
+    ],
+    [
+      3,
+      25
+    ],
+    [
+      20,
+      24
+    ],
+    [
+      26,
+      29
+    ],
+    [
+      29,
+      6
+    ],
+    [
+      5,
+      34
+    ],
+    [
+      28,
+      28
+    ],
+    [
+      2,
+      17
+    ]
+  ],
+  "base": "v40_03",
+  "cycle_edge_orders": [
+    [
+      0,
+      28,
+      27,
+      14,
+      10,
+      11,
+      24,
+      25,
+      35,
+      23,
+      8,
+      9,
+      2,
+      3,
+      13,
+      12,
+      29,
+      22,
+      21,
+      15,
+      16,
+      34,
+      30,
+      4,
+      5,
+      6,
+      7,
+      36,
+      18,
+      17,
+      31,
+      32,
+      1
+    ],
+    [
+      19,
+      26,
+      33,
+      20
+    ]
+  ],
+  "first_feasible_removed_indices": [
+    4,
+    7,
+    10,
+    11,
+    12,
+    14,
+    16,
+    24,
+    27,
+    30,
+    33,
+    36
+  ],
+  "method": {
+    "deletion_run_lengths": [
+      5,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "normalization": "all exact old-orientation reselections forbidden",
+    "multigraph": "both (u,v) and (v,u) allowed simultaneously",
+    "geometry": "candidate cells filtered by exact retained-base blocker masks",
+    "factor": "exact deficit-0/1/2 f-factor DFS; loops consume 2 and opposite orientations may form a digon",
+    "line_capacities": "none (q=0 shadow factor)"
+  },
+  "stderr_progress_tail": [
+    "hit=50000 feasible=1 nodes=50010",
+    "hit=60000 feasible=1 nodes=60010",
+    "hit=70000 feasible=1 nodes=70010",
+    "hit=80000 feasible=1 nodes=80010",
+    "hit=90000 feasible=1 nodes=90010",
+    "hit=100000 feasible=1 nodes=100010",
+    "hit=110000 feasible=1 nodes=110010",
+    "hit=120000 feasible=1 nodes=120010",
+    "hit=130000 feasible=1 nodes=130010",
+    "hit=140000 feasible=1 nodes=140010",
+    "hit=150000 feasible=1 nodes=150010",
+    "hit=160000 feasible=1 nodes=160010",
+    "hit=170000 feasible=1 nodes=170010",
+    "hit=180000 feasible=1 nodes=180010",
+    "hit=190000 feasible=1 nodes=190010",
+    "hit=200000 feasible=1 nodes=200010",
+    "hit=210000 feasible=1 nodes=210010",
+    "hit=220000 feasible=1 nodes=220010",
+    "hit=230000 feasible=1 nodes=230010",
+    "hit=240000 feasible=1 nodes=240010"
+  ],
+  "elapsed_s": 4.2
+}

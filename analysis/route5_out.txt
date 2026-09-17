@@ -1,0 +1,13 @@
+=== Part A: exact line-set Burnside under C4 ===
+N,|X|,|X/C4|,Fix(r90),Fix(r180),Fix(r270),L_c(through center),BurnsideCheck(|X|+2Fix90+Fix180)/4
+20,36510,9169,0,166,0,166,9169  (check=OK)
+28,139966,35069,0,310,0,310,35069  (check=OK)
+36,383370,95971,0,514,0,514,95971  (check=OK)
+44,854022,213705,0,798,0,798,213705  (check=OK)
+52,1667254,417085,0,1086,0,1086,417085  (check=OK)
+60,2954314,738943,0,1458,0,1458,738943  (check=OK)
+74,6836558,1709702,0,2250,0,2250,1709702  (check=OK)
+
+=== Part B: (X) orientation-triple Burnside: 64 index triples -> 22 orbits -> 16 genuine ===
+Number of C4-orbits of (r1,r2,r3): 16 (expected 22)
+Degenerate orbits (identically-zero det): 0 (expected 6). Genuine forms = 16 (expected 16). [heuristic poly test]

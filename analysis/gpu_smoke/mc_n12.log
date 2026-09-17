@@ -1,0 +1,5 @@
+n=12  M=72 orbits  ND=58 directions
+batch 100/100  tested=500000  found=0  batch_found=0  gpu=0.000s (cum 0.0s)
+
+FINAL: n=12  candidates_tested=500000  solutions_found=0  total_gpu_time=0.0s
+hit rate: 0.0000%  (1/500000)

@@ -1,0 +1,11 @@
+{
+  "definition": "sum projected m37 enrichment over third-cell line mechanisms",
+  "constraints": 1264378,
+  "compatible_pair_updates": 9361580,
+  "direct_pair_updates": 24784,
+  "distinct_direct_bad_pairs": 6756,
+  "weighted_min": 0.0,
+  "weighted_max": 1041.765625,
+  "weighted_nonzero_pairs": 933444,
+  "seconds": 11.39136815071106
+}

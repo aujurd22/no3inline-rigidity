@@ -1,0 +1,34 @@
+{
+  "parameters": {
+    "q": 1,
+    "time_limit": 60.0,
+    "workers": 2,
+    "out": "rot4_direction_moment_q1.json"
+  },
+  "status": "OPTIMAL",
+  "branches": 350,
+  "conflicts": 57,
+  "wall_s": 0.023,
+  "cell_second_constant": 135050,
+  "cell_fourth_constant": 443531210,
+  "directions": [
+    {
+      "normal": [
+        1,
+        -1
+      ],
+      "resource_count": 74,
+      "capacity_two_resources": 73,
+      "capacity_one_resources": 1,
+      "fourth_Q_coefficient": 48,
+      "fourth_T_coefficient": 0
+    }
+  ],
+  "shared_moments": {
+    "Q": 178435685,
+    "T": 0
+  },
+  "occupied_resource_counts": {
+    "1,-1": 40
+  }
+}

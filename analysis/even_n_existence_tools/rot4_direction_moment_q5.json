@@ -1,0 +1,225 @@
+{
+  "parameters": {
+    "q": 5,
+    "time_limit": 600.0,
+    "workers": 4,
+    "out": "rot4_direction_moment_q5.json"
+  },
+  "status": "UNKNOWN",
+  "branches": 272136,
+  "conflicts": 49182,
+  "wall_s": 600.59,
+  "cell_second_constant": 135050,
+  "cell_fourth_constant": 443531210,
+  "directions": [
+    {
+      "normal": [
+        1,
+        -5
+      ],
+      "resource_count": 220,
+      "capacity_two_resources": 215,
+      "capacity_one_resources": 5,
+      "fourth_Q_coefficient": 1200,
+      "fourth_T_coefficient": 1920
+    },
+    {
+      "normal": [
+        1,
+        -4
+      ],
+      "resource_count": 183,
+      "capacity_two_resources": 179,
+      "capacity_one_resources": 4,
+      "fourth_Q_coefficient": 768,
+      "fourth_T_coefficient": 960
+    },
+    {
+      "normal": [
+        1,
+        -3
+      ],
+      "resource_count": 147,
+      "capacity_two_resources": 144,
+      "capacity_one_resources": 3,
+      "fourth_Q_coefficient": 432,
+      "fourth_T_coefficient": 384
+    },
+    {
+      "normal": [
+        1,
+        -2
+      ],
+      "resource_count": 110,
+      "capacity_two_resources": 108,
+      "capacity_one_resources": 2,
+      "fourth_Q_coefficient": 192,
+      "fourth_T_coefficient": 96
+    },
+    {
+      "normal": [
+        1,
+        -1
+      ],
+      "resource_count": 74,
+      "capacity_two_resources": 73,
+      "capacity_one_resources": 1,
+      "fourth_Q_coefficient": 48,
+      "fourth_T_coefficient": 0
+    },
+    {
+      "normal": [
+        1,
+        2
+      ],
+      "resource_count": 110,
+      "capacity_two_resources": 108,
+      "capacity_one_resources": 2,
+      "fourth_Q_coefficient": 192,
+      "fourth_T_coefficient": -96
+    },
+    {
+      "normal": [
+        1,
+        3
+      ],
+      "resource_count": 147,
+      "capacity_two_resources": 144,
+      "capacity_one_resources": 3,
+      "fourth_Q_coefficient": 432,
+      "fourth_T_coefficient": -384
+    },
+    {
+      "normal": [
+        1,
+        4
+      ],
+      "resource_count": 183,
+      "capacity_two_resources": 179,
+      "capacity_one_resources": 4,
+      "fourth_Q_coefficient": 768,
+      "fourth_T_coefficient": -960
+    },
+    {
+      "normal": [
+        1,
+        5
+      ],
+      "resource_count": 220,
+      "capacity_two_resources": 215,
+      "capacity_one_resources": 5,
+      "fourth_Q_coefficient": 1200,
+      "fourth_T_coefficient": -1920
+    },
+    {
+      "normal": [
+        2,
+        -5
+      ],
+      "resource_count": 254,
+      "capacity_two_resources": 244,
+      "capacity_one_resources": 10,
+      "fourth_Q_coefficient": 4800,
+      "fourth_T_coefficient": 3360
+    },
+    {
+      "normal": [
+        2,
+        -3
+      ],
+      "resource_count": 182,
+      "capacity_two_resources": 176,
+      "capacity_one_resources": 6,
+      "fourth_Q_coefficient": 1728,
+      "fourth_T_coefficient": 480
+    },
+    {
+      "normal": [
+        2,
+        3
+      ],
+      "resource_count": 182,
+      "capacity_two_resources": 176,
+      "capacity_one_resources": 6,
+      "fourth_Q_coefficient": 1728,
+      "fourth_T_coefficient": -480
+    },
+    {
+      "normal": [
+        2,
+        5
+      ],
+      "resource_count": 254,
+      "capacity_two_resources": 244,
+      "capacity_one_resources": 10,
+      "fourth_Q_coefficient": 4800,
+      "fourth_T_coefficient": -3360
+    },
+    {
+      "normal": [
+        3,
+        -5
+      ],
+      "resource_count": 289,
+      "capacity_two_resources": 274,
+      "capacity_one_resources": 15,
+      "fourth_Q_coefficient": 10800,
+      "fourth_T_coefficient": 3840
+    },
+    {
+      "normal": [
+        3,
+        -4
+      ],
+      "resource_count": 253,
+      "capacity_two_resources": 241,
+      "capacity_one_resources": 12,
+      "fourth_Q_coefficient": 6912,
+      "fourth_T_coefficient": 1344
+    },
+    {
+      "normal": [
+        3,
+        4
+      ],
+      "resource_count": 253,
+      "capacity_two_resources": 241,
+      "capacity_one_resources": 12,
+      "fourth_Q_coefficient": 6912,
+      "fourth_T_coefficient": -1344
+    },
+    {
+      "normal": [
+        3,
+        5
+      ],
+      "resource_count": 289,
+      "capacity_two_resources": 274,
+      "capacity_one_resources": 15,
+      "fourth_Q_coefficient": 10800,
+      "fourth_T_coefficient": -3840
+    },
+    {
+      "normal": [
+        4,
+        -5
+      ],
+      "resource_count": 323,
+      "capacity_two_resources": 303,
+      "capacity_one_resources": 20,
+      "fourth_Q_coefficient": 19200,
+      "fourth_T_coefficient": 2880
+    },
+    {
+      "normal": [
+        4,
+        5
+      ],
+      "resource_count": 323,
+      "capacity_two_resources": 303,
+      "capacity_one_resources": 20,
+      "fourth_Q_coefficient": 19200,
+      "fourth_T_coefficient": -2880
+    }
+  ]
+}

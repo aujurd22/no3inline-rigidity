@@ -1,0 +1,25 @@
+{
+  "parameters": {
+    "base": "v40_02",
+    "size": 12,
+    "adjacency_count": 7,
+    "triple_count": 6,
+    "quadruple_count": null,
+    "direction_q": 1,
+    "hard_direction_q": 0,
+    "time_limit": 60.0,
+    "out": "rot4_overflow_lp_v40_02_k12_a7_b6_q1.json"
+  },
+  "status": "OPTIMAL",
+  "success": true,
+  "objective": 0.0,
+  "original_variable_count": 1480,
+  "overflow_variable_count": 72,
+  "constraint_count": 13121,
+  "elapsed_s": 0.224,
+  "fractional_variable_count": 163,
+  "max_fractionality": 0.49526108112609657,
+  "active_overflow_lines": [],
+  "nonzero_constraint_dual_count": 0,
+  "largest_constraint_duals": []
+}

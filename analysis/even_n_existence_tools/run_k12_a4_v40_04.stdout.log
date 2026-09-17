@@ -1,0 +1,12 @@
+v40_04 (5, 1, 1, 1, 1, 1, 1, 1): hit=210892 q0=1
+v40_04 (4, 2, 1, 1, 1, 1, 1, 1): hit=1580044 q0=0
+v40_04 (3, 3, 1, 1, 1, 1, 1, 1): hit=1200683 q0=1
+v40_04 (3, 2, 2, 1, 1, 1, 1, 1): hit=6761052 q0=7
+v40_04 (2, 2, 2, 2, 1, 1, 1, 1): hit=2672640 q0=9
+{
+  "base_profile_cases": 5,
+  "distinct_shape_masks": 528395472,
+  "defect_hitting_masks": 12425311,
+  "q0_factor_feasible_masks": 18
+}
+C:\Users\djr82\Documents\Codex\2026-07-13\d-djr82-documents-workbuddy-2026-07-2\work\even_n_existence\rot4_k12_a4_v40_04_corrected_multigraph_q0_sweep.json

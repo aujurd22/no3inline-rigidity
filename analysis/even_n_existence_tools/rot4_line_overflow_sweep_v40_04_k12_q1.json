@@ -1,0 +1,207 @@
+{
+  "parameters": {
+    "base": "v40_04",
+    "adjacencies": "0,1,2,3,4,5,6,7,8,9,10,11",
+    "size": 12,
+    "q_max": 1,
+    "time_limit": 600.0,
+    "workers": 4,
+    "out": "rot4_line_overflow_sweep_v40_04_k12_q1.json"
+  },
+  "started_at": "2026-07-19 17:13:02",
+  "layers": [
+    {
+      "adjacency_count": 0,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "OPTIMAL",
+          "objective": 1,
+          "best_bound": 1.0,
+          "wall_s": 2.122,
+          "classification": "CLOSED_OVERFLOW",
+          "evidence": "rot4_line_overflow_v40_04_k12_a0_q1.json"
+        }
+      ],
+      "classification": "CLOSED_OVERFLOW",
+      "closing_q": 1
+    },
+    {
+      "adjacency_count": 1,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 0.557,
+          "classification": "SURVIVES",
+          "evidence": "rot4_line_overflow_v40_04_k12_a1_q1.json"
+        }
+      ],
+      "classification": "SURVIVES",
+      "closing_q": null
+    },
+    {
+      "adjacency_count": 2,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 1.333,
+          "classification": "SURVIVES",
+          "evidence": "rot4_line_overflow_v40_04_k12_a2_q1.json"
+        }
+      ],
+      "classification": "SURVIVES",
+      "closing_q": null
+    },
+    {
+      "adjacency_count": 3,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 1.736,
+          "classification": "SURVIVES",
+          "evidence": "rot4_line_overflow_v40_04_k12_a3_q1.json"
+        }
+      ],
+      "classification": "SURVIVES",
+      "closing_q": null
+    },
+    {
+      "adjacency_count": 4,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 2.028,
+          "classification": "SURVIVES",
+          "evidence": "rot4_line_overflow_v40_04_k12_a4_q1.json"
+        }
+      ],
+      "classification": "SURVIVES",
+      "closing_q": null
+    },
+    {
+      "adjacency_count": 5,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 19.403,
+          "classification": "SURVIVES",
+          "evidence": "rot4_line_overflow_v40_04_k12_a5_q1.json"
+        }
+      ],
+      "classification": "SURVIVES",
+      "closing_q": null
+    },
+    {
+      "adjacency_count": 6,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 78.109,
+          "classification": "SURVIVES",
+          "evidence": "rot4_line_overflow_v40_04_k12_a6_q1.json"
+        }
+      ],
+      "classification": "SURVIVES",
+      "closing_q": null
+    },
+    {
+      "adjacency_count": 7,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 9.585,
+          "classification": "SURVIVES",
+          "evidence": "rot4_line_overflow_v40_04_k12_a7_q1.json"
+        }
+      ],
+      "classification": "SURVIVES",
+      "closing_q": null
+    },
+    {
+      "adjacency_count": 8,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "FEASIBLE",
+          "objective": 2,
+          "best_bound": 0.0,
+          "wall_s": 600.13,
+          "classification": "UNRESOLVED",
+          "evidence": "rot4_line_overflow_v40_04_k12_a8_q1.json"
+        }
+      ],
+      "classification": "UNRESOLVED",
+      "closing_q": null
+    },
+    {
+      "adjacency_count": 9,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 506.132,
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_04_k12_a9_q1.json"
+        }
+      ],
+      "classification": "CLOSED_F0",
+      "closing_q": 1
+    },
+    {
+      "adjacency_count": 10,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 249.738,
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_04_k12_a10_q1.json"
+        }
+      ],
+      "classification": "CLOSED_F0",
+      "closing_q": 1
+    },
+    {
+      "adjacency_count": 11,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 218.371,
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_04_k12_a11_q1.json"
+        }
+      ],
+      "classification": "CLOSED_F0",
+      "closing_q": 1
+    }
+  ],
+  "finished_at": "2026-07-19 17:41:42"
+}

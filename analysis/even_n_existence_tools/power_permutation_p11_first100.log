@@ -1,0 +1,19 @@
+{"progress": 25, "p": 11, "exponent": 3, "mode": "vertical", "status_counts": {"INFEASIBLE": 25}, "elapsed_seconds": 18.138229999982286}
+{"progress": 50, "p": 11, "exponent": 3, "mode": "vertical", "status_counts": {"INFEASIBLE": 50}, "elapsed_seconds": 37.03785570000764}
+{"progress": 75, "p": 11, "exponent": 3, "mode": "vertical", "status_counts": {"INFEASIBLE": 74, "UNKNOWN": 1}, "elapsed_seconds": 65.08121809997829}
+{"progress": 100, "p": 11, "exponent": 3, "mode": "vertical", "status_counts": {"INFEASIBLE": 98, "UNKNOWN": 2}, "elapsed_seconds": 92.4222710999893}
+{
+  "summary": true,
+  "p": 11,
+  "tested": 100,
+  "exponents": [
+    3,
+    7
+  ],
+  "status_counts": {
+    "INFEASIBLE": 98,
+    "UNKNOWN": 2
+  },
+  "hits": 0,
+  "elapsed_seconds": 92.4223305999767
+}

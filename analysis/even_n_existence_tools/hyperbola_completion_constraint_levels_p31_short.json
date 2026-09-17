@@ -1,0 +1,77 @@
+[
+  {
+    "a": 1,
+    "2": "OPTIMAL",
+    "1": "INFEASIBLE"
+  },
+  {
+    "a": 2,
+    "2": "INFEASIBLE",
+    "1": "INFEASIBLE"
+  },
+  {
+    "a": 3,
+    "2": "OPTIMAL",
+    "1": "INFEASIBLE"
+  },
+  {
+    "a": 4,
+    "2": "INFEASIBLE",
+    "1": "INFEASIBLE"
+  },
+  {
+    "a": 5,
+    "2": "OPTIMAL",
+    "1": "INFEASIBLE"
+  },
+  {
+    "a": 6,
+    "2": "OPTIMAL",
+    "1": "INFEASIBLE"
+  },
+  {
+    "a": 7,
+    "2": "INFEASIBLE",
+    "1": "INFEASIBLE"
+  },
+  {
+    "a": 8,
+    "2": "OPTIMAL",
+    "1": "INFEASIBLE"
+  },
+  {
+    "a": 9,
+    "2": "INFEASIBLE",
+    "1": "INFEASIBLE"
+  },
+  {
+    "a": 10,
+    "2": "OPTIMAL",
+    "1": "INFEASIBLE"
+  },
+  {
+    "a": 11,
+    "2": "OPTIMAL",
+    "1": "INFEASIBLE"
+  },
+  {
+    "a": 12,
+    "2": "OPTIMAL",
+    "1": "INFEASIBLE"
+  },
+  {
+    "a": 13,
+    "2": "OPTIMAL",
+    "1": "INFEASIBLE"
+  },
+  {
+    "a": 14,
+    "2": "OPTIMAL",
+    "1": "INFEASIBLE"
+  },
+  {
+    "a": 15,
+    "2": "OPTIMAL",
+    "1": "INFEASIBLE"
+  }
+]

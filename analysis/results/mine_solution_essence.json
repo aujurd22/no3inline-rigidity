@@ -1,0 +1,4768 @@
+{
+ "per_n_summary": {
+  "6": {
+   "m": 3,
+   "n_solutions": 3,
+   "n_valid": 3,
+   "single_cycle": 3,
+   "slope_constant": 1,
+   "cycle_hist": {
+    "1": 3
+   },
+   "sample_formulas": {
+    "linear_shift_k=2": 1
+   },
+   "sample_slope_dist_keys": {
+    "2": 6,
+    "1": 3
+   }
+  },
+  "8": {
+   "m": 4,
+   "n_solutions": 4,
+   "n_valid": 4,
+   "single_cycle": 4,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "1": 4
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "2": 8,
+    "3": 5,
+    "1": 3
+   }
+  },
+  "10": {
+   "m": 5,
+   "n_solutions": 6,
+   "n_valid": 6,
+   "single_cycle": 4,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "2": 2,
+    "1": 4
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "0": 2,
+    "3": 15,
+    "4": 4,
+    "2": 3,
+    "1": 6
+   }
+  },
+  "12": {
+   "m": 6,
+   "n_solutions": 4,
+   "n_valid": 4,
+   "single_cycle": 0,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "2": 4
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "3": 6,
+    "0": 3,
+    "2": 2,
+    "1": 5,
+    "5": 5,
+    "4": 3
+   }
+  },
+  "14": {
+   "m": 7,
+   "n_solutions": 13,
+   "n_valid": 13,
+   "single_cycle": 9,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "2": 4,
+    "1": 9
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "3": 16,
+    "6": 12,
+    "5": 12,
+    "2": 18,
+    "4": 24,
+    "0": 3,
+    "1": 6
+   }
+  },
+  "16": {
+   "m": 8,
+   "n_solutions": 13,
+   "n_valid": 13,
+   "single_cycle": 7,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "1": 7,
+    "2": 5,
+    "3": 1
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "6": 18,
+    "3": 13,
+    "5": 12,
+    "4": 19,
+    "1": 15,
+    "7": 10,
+    "2": 11,
+    "0": 6
+   }
+  },
+  "18": {
+   "m": 9,
+   "n_solutions": 7,
+   "n_valid": 7,
+   "single_cycle": 2,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "2": 4,
+    "1": 2,
+    "3": 1
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "3": 13,
+    "5": 7,
+    "1": 5,
+    "4": 6,
+    "2": 5,
+    "7": 8,
+    "8": 11,
+    "6": 5,
+    "0": 3
+   }
+  },
+  "20": {
+   "m": 10,
+   "n_solutions": 16,
+   "n_valid": 16,
+   "single_cycle": 3,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "2": 12,
+    "1": 3,
+    "3": 1
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "5": 21,
+    "8": 15,
+    "0": 7,
+    "9": 20,
+    "6": 14,
+    "1": 16,
+    "7": 21,
+    "3": 10,
+    "4": 17,
+    "2": 19
+   }
+  },
+  "22": {
+   "m": 11,
+   "n_solutions": 8,
+   "n_valid": 8,
+   "single_cycle": 3,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "2": 5,
+    "1": 3
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "4": 11,
+    "3": 13,
+    "7": 8,
+    "5": 6,
+    "2": 7,
+    "1": 3,
+    "9": 11,
+    "6": 9,
+    "8": 10,
+    "0": 4,
+    "10": 6
+   }
+  },
+  "24": {
+   "m": 12,
+   "n_solutions": 23,
+   "n_valid": 23,
+   "single_cycle": 9,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "1": 9,
+    "3": 2,
+    "2": 12
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "5": 26,
+    "2": 20,
+    "7": 25,
+    "9": 34,
+    "6": 26,
+    "4": 30,
+    "10": 24,
+    "8": 18,
+    "11": 38,
+    "0": 4,
+    "3": 21,
+    "1": 10
+   }
+  },
+  "26": {
+   "m": 13,
+   "n_solutions": 36,
+   "n_valid": 36,
+   "single_cycle": 11,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "2": 18,
+    "1": 11,
+    "3": 7
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "5": 38,
+    "8": 34,
+    "3": 40,
+    "4": 40,
+    "11": 37,
+    "7": 40,
+    "9": 34,
+    "12": 40,
+    "6": 40,
+    "2": 37,
+    "1": 28,
+    "0": 16,
+    "10": 44
+   }
+  },
+  "28": {
+   "m": 14,
+   "n_solutions": 58,
+   "n_valid": 58,
+   "single_cycle": 11,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "2": 29,
+    "1": 11,
+    "3": 13,
+    "4": 5
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "6": 67,
+    "10": 73,
+    "13": 46,
+    "5": 69,
+    "3": 54,
+    "2": 47,
+    "11": 59,
+    "7": 50,
+    "4": 54,
+    "0": 32,
+    "9": 63,
+    "8": 77,
+    "1": 65,
+    "12": 56
+   }
+  },
+  "30": {
+   "m": 15,
+   "n_solutions": 92,
+   "n_valid": 92,
+   "single_cycle": 26,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "3": 21,
+    "2": 44,
+    "1": 26,
+    "4": 1
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "4": 90,
+    "3": 91,
+    "10": 99,
+    "9": 82,
+    "13": 108,
+    "8": 94,
+    "2": 80,
+    "14": 97,
+    "0": 36,
+    "7": 109,
+    "11": 115,
+    "6": 116,
+    "5": 97,
+    "12": 101,
+    "1": 65
+   }
+  },
+  "32": {
+   "m": 16,
+   "n_solutions": 101,
+   "n_valid": 101,
+   "single_cycle": 24,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "3": 16,
+    "2": 57,
+    "1": 24,
+    "4": 4
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "4": 93,
+    "12": 115,
+    "9": 126,
+    "8": 120,
+    "15": 105,
+    "13": 108,
+    "6": 128,
+    "11": 107,
+    "10": 90,
+    "0": 45,
+    "5": 117,
+    "2": 96,
+    "3": 85,
+    "14": 117,
+    "7": 87,
+    "1": 77
+   }
+  },
+  "34": {
+   "m": 17,
+   "n_solutions": 172,
+   "n_valid": 172,
+   "single_cycle": 42,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "3": 49,
+    "2": 71,
+    "1": 42,
+    "4": 10
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "12": 172,
+    "9": 202,
+    "6": 193,
+    "5": 187,
+    "14": 192,
+    "8": 195,
+    "4": 183,
+    "2": 139,
+    "16": 195,
+    "7": 169,
+    "15": 195,
+    "13": 169,
+    "0": 83,
+    "3": 162,
+    "10": 190,
+    "1": 130,
+    "11": 168
+   }
+  },
+  "36": {
+   "m": 18,
+   "n_solutions": 281,
+   "n_valid": 281,
+   "single_cycle": 50,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "2": 131,
+    "3": 81,
+    "1": 50,
+    "4": 16,
+    "5": 3
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "4": 275,
+    "9": 299,
+    "16": 305,
+    "1": 207,
+    "15": 330,
+    "5": 269,
+    "11": 266,
+    "8": 336,
+    "12": 288,
+    "10": 291,
+    "14": 312,
+    "13": 313,
+    "6": 297,
+    "0": 147,
+    "3": 287,
+    "2": 235,
+    "7": 304,
+    "17": 297
+   }
+  },
+  "38": {
+   "m": 19,
+   "n_solutions": 337,
+   "n_valid": 337,
+   "single_cycle": 71,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "4": 22,
+    "2": 152,
+    "1": 71,
+    "3": 91,
+    "5": 1
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "4": 325,
+    "8": 342,
+    "5": 365,
+    "15": 406,
+    "7": 343,
+    "2": 290,
+    "18": 332,
+    "16": 371,
+    "10": 364,
+    "0": 169,
+    "1": 285,
+    "13": 325,
+    "12": 376,
+    "9": 397,
+    "11": 359,
+    "17": 353,
+    "3": 288,
+    "14": 355,
+    "6": 358
+   }
+  },
+  "40": {
+   "m": 20,
+   "n_solutions": 541,
+   "n_valid": 541,
+   "single_cycle": 99,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "2": 247,
+    "3": 162,
+    "4": 29,
+    "1": 99,
+    "5": 3,
+    "6": 1
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "2": 477,
+    "9": 568,
+    "15": 604,
+    "13": 542,
+    "8": 571,
+    "12": 594,
+    "17": 584,
+    "6": 598,
+    "5": 514,
+    "4": 519,
+    "14": 555,
+    "1": 389,
+    "0": 274,
+    "7": 498,
+    "3": 513,
+    "19": 582,
+    "11": 578,
+    "10": 636,
+    "16": 599,
+    "18": 625
+   }
+  },
+  "42": {
+   "m": 21,
+   "n_solutions": 746,
+   "n_valid": 746,
+   "single_cycle": 138,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "3": 217,
+    "5": 9,
+    "4": 61,
+    "2": 321,
+    "1": 138
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "10": 807,
+    "8": 805,
+    "3": 690,
+    "14": 852,
+    "19": 824,
+    "11": 836,
+    "5": 770,
+    "2": 584,
+    "18": 791,
+    "17": 756,
+    "6": 822,
+    "9": 838,
+    "1": 576,
+    "0": 384,
+    "7": 740,
+    "12": 819,
+    "16": 752,
+    "13": 714,
+    "15": 801,
+    "20": 761
+   }
+  },
+  "44": {
+   "m": 22,
+   "n_solutions": 1016,
+   "n_valid": 1016,
+   "single_cycle": 206,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "2": 417,
+    "3": 296,
+    "4": 89,
+    "1": 206,
+    "5": 7,
+    "6": 1
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "5": 976,
+    "14": 1067,
+    "17": 1081,
+    "8": 1162,
+    "21": 1044,
+    "7": 1015,
+    "2": 788,
+    "16": 1061,
+    "12": 1105,
+    "1": 756,
+    "10": 1173,
+    "0": 503,
+    "4": 1005,
+    "9": 1082,
+    "19": 1052,
+    "18": 1107,
+    "20": 1128,
+    "3": 907,
+    "11": 1064,
+    "6": 1065
+   }
+  },
+  "54": {
+   "m": 27,
+   "n_solutions": 200,
+   "n_valid": 200,
+   "single_cycle": 29,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "1": 29,
+    "4": 21,
+    "2": 91,
+    "3": 50,
+    "5": 8,
+    "6": 1
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "5": 213,
+    "3": 166,
+    "13": 219,
+    "23": 220,
+    "6": 238,
+    "16": 229,
+    "21": 184,
+    "10": 204,
+    "4": 199,
+    "24": 207,
+    "26": 199,
+    "19": 204,
+    "8": 211,
+    "2": 155,
+    "18": 223,
+    "9": 199,
+    "12": 241,
+    "14": 218,
+    "7": 177,
+    "25": 207
+   }
+  },
+  "56": {
+   "m": 28,
+   "n_solutions": 200,
+   "n_valid": 200,
+   "single_cycle": 35,
+   "slope_constant": 0,
+   "cycle_hist": {
+    "1": 35,
+    "3": 50,
+    "2": 93,
+    "4": 20,
+    "5": 2
+   },
+   "sample_formulas": {},
+   "sample_slope_dist_keys": {
+    "24": 227,
+    "17": 207,
+    "2": 163,
+    "4": 186,
+    "7": 191,
+    "12": 225,
+    "16": 229,
+    "27": 188,
+    "23": 180,
+    "19": 196,
+    "3": 180,
+    "10": 224,
+    "21": 208,
+    "14": 249,
+    "13": 196,
+    "20": 222,
+    "18": 223,
+    "22": 225,
+    "15": 190,
+    "26": 204
+   }
+  }
+ },
+ "global": {
+  "formula_hits": {
+   "3:linear_shift_k=2": 1
+  },
+  "single_cycle_rate_by_m": {
+   "3": 1.0,
+   "4": 1.0,
+   "5": 0.6666666666666666,
+   "6": 0.0,
+   "7": 0.6923076923076923,
+   "8": 0.5384615384615384,
+   "9": 0.2857142857142857,
+   "10": 0.1875,
+   "11": 0.375,
+   "12": 0.391304347826087,
+   "13": 0.3055555555555556,
+   "14": 0.1896551724137931,
+   "15": 0.2826086956521739,
+   "16": 0.2376237623762376,
+   "17": 0.2441860465116279,
+   "18": 0.17793594306049823,
+   "19": 0.21068249258160238,
+   "20": 0.18299445471349354,
+   "21": 0.18498659517426275,
+   "22": 0.20275590551181102,
+   "27": 0.145,
+   "28": 0.175
+  },
+  "slope_const_rate_by_m": {
+   "3": 0.3333333333333333,
+   "4": 0.0,
+   "5": 0.0,
+   "6": 0.0,
+   "7": 0.0,
+   "8": 0.0,
+   "9": 0.0,
+   "10": 0.0,
+   "11": 0.0,
+   "12": 0.0,
+   "13": 0.0,
+   "14": 0.0,
+   "15": 0.0,
+   "16": 0.0,
+   "17": 0.0,
+   "18": 0.0,
+   "19": 0.0,
+   "20": 0.0,
+   "21": 0.0,
+   "22": 0.0,
+   "27": 0.0,
+   "28": 0.0
+  },
+  "total_solutions": 3877,
+  "m_range": [
+   3,
+   28
+  ]
+ },
+ "samples": [
+  {
+   "n": 6,
+   "m": 3,
+   "idx": 0,
+   "cells": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     2
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    3
+   ],
+   "slope_dist": {
+    "2": 3
+   },
+   "invariants": {
+    "trace": 310,
+    "theory_trace": 17.5,
+    "trace_match": false,
+    "sum_x2": 5,
+    "sum_y2": 5,
+    "sum_xy": 2,
+    "sum_x2plusy2": 10,
+    "sum_diff2": 6,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": [
+    "linear_shift_k=2"
+   ]
+  },
+  {
+   "n": 6,
+   "m": 3,
+   "idx": 1,
+   "cells": [
+    [
+     2,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    3
+   ],
+   "slope_dist": {
+    "1": 2,
+    "2": 1
+   },
+   "invariants": {
+    "trace": 310,
+    "theory_trace": 17.5,
+    "trace_match": false,
+    "sum_x2": 8,
+    "sum_y2": 2,
+    "sum_xy": 2,
+    "sum_x2plusy2": 10,
+    "sum_diff2": 6,
+    "sidon_ok": true,
+    "sidon_maxcount": 1
+   },
+   "formulas": []
+  },
+  {
+   "n": 6,
+   "m": 3,
+   "idx": 2,
+   "cells": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    3
+   ],
+   "slope_dist": {
+    "2": 2,
+    "1": 1
+   },
+   "invariants": {
+    "trace": 310,
+    "theory_trace": 17.5,
+    "trace_match": false,
+    "sum_x2": 9,
+    "sum_y2": 1,
+    "sum_xy": 2,
+    "sum_x2plusy2": 10,
+    "sum_diff2": 6,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 8,
+   "m": 4,
+   "idx": 0,
+   "cells": [
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     0,
+     3
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    4
+   ],
+   "slope_dist": {
+    "2": 2,
+    "3": 2
+   },
+   "invariants": {
+    "trace": 840,
+    "theory_trace": 42.0,
+    "trace_match": false,
+    "sum_x2": 17,
+    "sum_y2": 11,
+    "sum_xy": 5,
+    "sum_x2plusy2": 28,
+    "sum_diff2": 18,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 8,
+   "m": 4,
+   "idx": 1,
+   "cells": [
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     0,
+     3
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    4
+   ],
+   "slope_dist": {
+    "2": 2,
+    "1": 1,
+    "3": 1
+   },
+   "invariants": {
+    "trace": 840,
+    "theory_trace": 42.0,
+    "trace_match": false,
+    "sum_x2": 14,
+    "sum_y2": 14,
+    "sum_xy": 5,
+    "sum_x2plusy2": 28,
+    "sum_diff2": 18,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 8,
+   "m": 4,
+   "idx": 2,
+   "cells": [
+    [
+     3,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     0,
+     2
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    4
+   ],
+   "slope_dist": {
+    "1": 1,
+    "3": 1,
+    "2": 2
+   },
+   "invariants": {
+    "trace": 840,
+    "theory_trace": 42.0,
+    "trace_match": false,
+    "sum_x2": 22,
+    "sum_y2": 6,
+    "sum_xy": 5,
+    "sum_x2plusy2": 28,
+    "sum_diff2": 18,
+    "sidon_ok": true,
+    "sidon_maxcount": 1
+   },
+   "formulas": []
+  },
+  {
+   "n": 8,
+   "m": 4,
+   "idx": 3,
+   "cells": [
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    4
+   ],
+   "slope_dist": {
+    "2": 2,
+    "1": 1,
+    "3": 1
+   },
+   "invariants": {
+    "trace": 840,
+    "theory_trace": 42.0,
+    "trace_match": false,
+    "sum_x2": 26,
+    "sum_y2": 2,
+    "sum_xy": 5,
+    "sum_x2plusy2": 28,
+    "sum_diff2": 18,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 10,
+   "m": 5,
+   "idx": 0,
+   "cells": [
+    [
+     0,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     1,
+     4
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    4
+   ],
+   "slope_dist": {
+    "0": 1,
+    "3": 3,
+    "4": 1
+   },
+   "invariants": {
+    "trace": 1770,
+    "theory_trace": 82.5,
+    "trace_match": false,
+    "sum_x2": 35,
+    "sum_y2": 25,
+    "sum_xy": 21,
+    "sum_x2plusy2": 60,
+    "sum_diff2": 18,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 10,
+   "m": 5,
+   "idx": 1,
+   "cells": [
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     4,
+     4
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    4
+   ],
+   "slope_dist": {
+    "2": 2,
+    "3": 1,
+    "1": 1,
+    "0": 1
+   },
+   "invariants": {
+    "trace": 1770,
+    "theory_trace": 82.5,
+    "trace_match": false,
+    "sum_x2": 35,
+    "sum_y2": 25,
+    "sum_xy": 21,
+    "sum_x2plusy2": 60,
+    "sum_diff2": 18,
+    "sidon_ok": true,
+    "sidon_maxcount": 1
+   },
+   "formulas": []
+  },
+  {
+   "n": 10,
+   "m": 5,
+   "idx": 2,
+   "cells": [
+    [
+     4,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     0,
+     3
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    5
+   ],
+   "slope_dist": {
+    "1": 2,
+    "3": 3
+   },
+   "invariants": {
+    "trace": 1770,
+    "theory_trace": 82.5,
+    "trace_match": false,
+    "sum_x2": 42,
+    "sum_y2": 18,
+    "sum_xy": 13,
+    "sum_x2plusy2": 60,
+    "sum_diff2": 34,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 10,
+   "m": 5,
+   "idx": 3,
+   "cells": [
+    [
+     4,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     0,
+     3
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    5
+   ],
+   "slope_dist": {
+    "1": 1,
+    "4": 1,
+    "3": 3
+   },
+   "invariants": {
+    "trace": 1770,
+    "theory_trace": 82.5,
+    "trace_match": false,
+    "sum_x2": 45,
+    "sum_y2": 15,
+    "sum_xy": 13,
+    "sum_x2plusy2": 60,
+    "sum_diff2": 34,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 10,
+   "m": 5,
+   "idx": 4,
+   "cells": [
+    [
+     3,
+     0
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     4,
+     2
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    5
+   ],
+   "slope_dist": {
+    "2": 1,
+    "1": 2,
+    "3": 2
+   },
+   "invariants": {
+    "trace": 1770,
+    "theory_trace": 82.5,
+    "trace_match": false,
+    "sum_x2": 51,
+    "sum_y2": 9,
+    "sum_xy": 13,
+    "sum_x2plusy2": 60,
+    "sum_diff2": 34,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 10,
+   "m": 5,
+   "idx": 5,
+   "cells": [
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    5
+   ],
+   "slope_dist": {
+    "4": 2,
+    "3": 3
+   },
+   "invariants": {
+    "trace": 1770,
+    "theory_trace": 82.5,
+    "trace_match": false,
+    "sum_x2": 29,
+    "sum_y2": 31,
+    "sum_xy": 13,
+    "sum_x2plusy2": 60,
+    "sum_diff2": 34,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 12,
+   "m": 6,
+   "idx": 0,
+   "cells": [
+    [
+     3,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     4
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    5
+   ],
+   "slope_dist": {
+    "3": 2,
+    "0": 1,
+    "2": 1,
+    "1": 1,
+    "5": 1
+   },
+   "invariants": {
+    "trace": 3212,
+    "theory_trace": 143.0,
+    "trace_match": false,
+    "sum_x2": 69,
+    "sum_y2": 41,
+    "sum_xy": 43,
+    "sum_x2plusy2": 110,
+    "sum_diff2": 24,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 12,
+   "m": 6,
+   "idx": 1,
+   "cells": [
+    [
+     2,
+     0
+    ],
+    [
+     5,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     5
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    3,
+    3
+   ],
+   "slope_dist": {
+    "4": 2,
+    "1": 1,
+    "5": 1,
+    "3": 2
+   },
+   "invariants": {
+    "trace": 3212,
+    "theory_trace": 143.0,
+    "trace_match": false,
+    "sum_x2": 59,
+    "sum_y2": 51,
+    "sum_xy": 29,
+    "sum_x2plusy2": 110,
+    "sum_diff2": 52,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 12,
+   "m": 6,
+   "idx": 2,
+   "cells": [
+    [
+     5,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     4,
+     4
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    5
+   ],
+   "slope_dist": {
+    "1": 1,
+    "5": 2,
+    "2": 1,
+    "3": 1,
+    "0": 1
+   },
+   "invariants": {
+    "trace": 3212,
+    "theory_trace": 143.0,
+    "trace_match": false,
+    "sum_x2": 79,
+    "sum_y2": 31,
+    "sum_xy": 29,
+    "sum_x2plusy2": 110,
+    "sum_diff2": 52,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 12,
+   "m": 6,
+   "idx": 3,
+   "cells": [
+    [
+     3,
+     0
+    ],
+    [
+     5,
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     1,
+     5
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    5
+   ],
+   "slope_dist": {
+    "3": 1,
+    "1": 2,
+    "5": 1,
+    "0": 1,
+    "4": 1
+   },
+   "invariants": {
+    "trace": 3212,
+    "theory_trace": 143.0,
+    "trace_match": false,
+    "sum_x2": 61,
+    "sum_y2": 49,
+    "sum_xy": 29,
+    "sum_x2plusy2": 110,
+    "sum_diff2": 52,
+    "sidon_ok": true,
+    "sidon_maxcount": 1
+   },
+   "formulas": []
+  },
+  {
+   "n": 14,
+   "m": 7,
+   "idx": 0,
+   "cells": [
+    [
+     4,
+     0
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     6,
+     6
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    6
+   ],
+   "slope_dist": {
+    "3": 1,
+    "6": 1,
+    "5": 2,
+    "2": 1,
+    "4": 1,
+    "0": 1
+   },
+   "invariants": {
+    "trace": 5278,
+    "theory_trace": 227.5,
+    "trace_match": false,
+    "sum_x2": 79,
+    "sum_y2": 103,
+    "sum_xy": 58,
+    "sum_x2plusy2": 182,
+    "sum_diff2": 66,
+    "sidon_ok": true,
+    "sidon_maxcount": 1
+   },
+   "formulas": []
+  },
+  {
+   "n": 14,
+   "m": 7,
+   "idx": 1,
+   "cells": [
+    [
+     4,
+     0
+    ],
+    [
+     5,
+     0
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     6,
+     6
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    6
+   ],
+   "slope_dist": {
+    "3": 1,
+    "2": 2,
+    "5": 1,
+    "1": 1,
+    "4": 1,
+    "0": 1
+   },
+   "invariants": {
+    "trace": 5278,
+    "theory_trace": 227.5,
+    "trace_match": false,
+    "sum_x2": 99,
+    "sum_y2": 83,
+    "sum_xy": 58,
+    "sum_x2plusy2": 182,
+    "sum_diff2": 66,
+    "sidon_ok": true,
+    "sidon_maxcount": 1
+   },
+   "formulas": []
+  },
+  {
+   "n": 14,
+   "m": 7,
+   "idx": 2,
+   "cells": [
+    [
+     2,
+     1
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    7
+   ],
+   "slope_dist": {
+    "6": 2,
+    "4": 3,
+    "3": 1,
+    "2": 1
+   },
+   "invariants": {
+    "trace": 5278,
+    "theory_trace": 227.5,
+    "trace_match": false,
+    "sum_x2": 69,
+    "sum_y2": 113,
+    "sum_xy": 63,
+    "sum_x2plusy2": 182,
+    "sum_diff2": 56,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 14,
+   "m": 7,
+   "idx": 3,
+   "cells": [
+    [
+     3,
+     0
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    7
+   ],
+   "slope_dist": {
+    "4": 2,
+    "3": 2,
+    "1": 1,
+    "2": 1,
+    "6": 1
+   },
+   "invariants": {
+    "trace": 5278,
+    "theory_trace": 227.5,
+    "trace_match": false,
+    "sum_x2": 76,
+    "sum_y2": 106,
+    "sum_xy": 63,
+    "sum_x2plusy2": 182,
+    "sum_diff2": 56,
+    "sidon_ok": true,
+    "sidon_maxcount": 1
+   },
+   "formulas": []
+  },
+  {
+   "n": 14,
+   "m": 7,
+   "idx": 4,
+   "cells": [
+    [
+     3,
+     0
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    7
+   ],
+   "slope_dist": {
+    "4": 2,
+    "3": 2,
+    "6": 2,
+    "2": 1
+   },
+   "invariants": {
+    "trace": 5278,
+    "theory_trace": 227.5,
+    "trace_match": false,
+    "sum_x2": 79,
+    "sum_y2": 103,
+    "sum_xy": 63,
+    "sum_x2plusy2": 182,
+    "sum_diff2": 56,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 14,
+   "m": 7,
+   "idx": 5,
+   "cells": [
+    [
+     3,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    7
+   ],
+   "slope_dist": {
+    "4": 3,
+    "6": 2,
+    "3": 1,
+    "2": 1
+   },
+   "invariants": {
+    "trace": 5278,
+    "theory_trace": 227.5,
+    "trace_match": false,
+    "sum_x2": 63,
+    "sum_y2": 119,
+    "sum_xy": 63,
+    "sum_x2plusy2": 182,
+    "sum_diff2": 56,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 14,
+   "m": 7,
+   "idx": 6,
+   "cells": [
+    [
+     3,
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     2,
+     6
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    7
+   ],
+   "slope_dist": {
+    "4": 3,
+    "1": 1,
+    "3": 1,
+    "2": 1,
+    "6": 1
+   },
+   "invariants": {
+    "trace": 5278,
+    "theory_trace": 227.5,
+    "trace_match": false,
+    "sum_x2": 60,
+    "sum_y2": 122,
+    "sum_xy": 63,
+    "sum_x2plusy2": 182,
+    "sum_diff2": 56,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 14,
+   "m": 7,
+   "idx": 7,
+   "cells": [
+    [
+     5,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     6,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     1,
+     6
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    7
+   ],
+   "slope_dist": {
+    "2": 1,
+    "5": 3,
+    "1": 1,
+    "4": 1,
+    "3": 1
+   },
+   "invariants": {
+    "trace": 5278,
+    "theory_trace": 227.5,
+    "trace_match": false,
+    "sum_x2": 79,
+    "sum_y2": 103,
+    "sum_xy": 49,
+    "sum_x2plusy2": 182,
+    "sum_diff2": 84,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 14,
+   "m": 7,
+   "idx": 8,
+   "cells": [
+    [
+     3,
+     0
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     6,
+     1
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     6,
+     4
+    ],
+    [
+     3,
+     5
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    6
+   ],
+   "slope_dist": {
+    "4": 2,
+    "3": 1,
+    "2": 2,
+    "0": 1,
+    "5": 1
+   },
+   "invariants": {
+    "trace": 5278,
+    "theory_trace": 227.5,
+    "trace_match": false,
+    "sum_x2": 119,
+    "sum_y2": 63,
+    "sum_xy": 54,
+    "sum_x2plusy2": 182,
+    "sum_diff2": 74,
+    "sidon_ok": true,
+    "sidon_maxcount": 1
+   },
+   "formulas": []
+  },
+  {
+   "n": 14,
+   "m": 7,
+   "idx": 9,
+   "cells": [
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     3,
+     6
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    7
+   ],
+   "slope_dist": {
+    "6": 3,
+    "5": 3,
+    "3": 1
+   },
+   "invariants": {
+    "trace": 5278,
+    "theory_trace": 227.5,
+    "trace_match": false,
+    "sum_x2": 63,
+    "sum_y2": 119,
+    "sum_xy": 51,
+    "sum_x2plusy2": 182,
+    "sum_diff2": 80,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 14,
+   "m": 7,
+   "idx": 10,
+   "cells": [
+    [
+     5,
+     0
+    ],
+    [
+     6,
+     1
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     6,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     2,
+     4
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    3,
+    4
+   ],
+   "slope_dist": {
+    "2": 4,
+    "4": 3
+   },
+   "invariants": {
+    "trace": 5278,
+    "theory_trace": 227.5,
+    "trace_match": false,
+    "sum_x2": 127,
+    "sum_y2": 55,
+    "sum_xy": 45,
+    "sum_x2plusy2": 182,
+    "sum_diff2": 92,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 14,
+   "m": 7,
+   "idx": 11,
+   "cells": [
+    [
+     0,
+     1
+    ],
+    [
+     6,
+     1
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     6,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    7
+   ],
+   "slope_dist": {
+    "1": 1,
+    "2": 3,
+    "4": 3
+   },
+   "invariants": {
+    "trace": 5278,
+    "theory_trace": 227.5,
+    "trace_match": false,
+    "sum_x2": 110,
+    "sum_y2": 72,
+    "sum_xy": 57,
+    "sum_x2plusy2": 182,
+    "sum_diff2": 68,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 14,
+   "m": 7,
+   "idx": 12,
+   "cells": [
+    [
+     4,
+     0
+    ],
+    [
+     6,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     5,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     5
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    7
+   ],
+   "slope_dist": {
+    "3": 4,
+    "1": 1,
+    "5": 2
+   },
+   "invariants": {
+    "trace": 5278,
+    "theory_trace": 227.5,
+    "trace_match": false,
+    "sum_x2": 127,
+    "sum_y2": 55,
+    "sum_xy": 44,
+    "sum_x2plusy2": 182,
+    "sum_diff2": 94,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 16,
+   "m": 8,
+   "idx": 0,
+   "cells": [
+    [
+     3,
+     1
+    ],
+    [
+     6,
+     1
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     7,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     7,
+     6
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    8
+   ],
+   "slope_dist": {
+    "6": 1,
+    "3": 3,
+    "5": 1,
+    "4": 1,
+    "1": 1,
+    "7": 1
+   },
+   "invariants": {
+    "trace": 8080,
+    "theory_trace": 340.0,
+    "trace_match": false,
+    "sum_x2": 184,
+    "sum_y2": 96,
+    "sum_xy": 95,
+    "sum_x2plusy2": 280,
+    "sum_diff2": 90,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 16,
+   "m": 8,
+   "idx": 1,
+   "cells": [
+    [
+     7,
+     0
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     7,
+     4
+    ],
+    [
+     5,
+     5
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     1,
+     6
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    7
+   ],
+   "slope_dist": {
+    "1": 2,
+    "6": 2,
+    "2": 1,
+    "5": 2,
+    "0": 1
+   },
+   "invariants": {
+    "trace": 8080,
+    "theory_trace": 340.0,
+    "trace_match": false,
+    "sum_x2": 145,
+    "sum_y2": 135,
+    "sum_xy": 76,
+    "sum_x2plusy2": 280,
+    "sum_diff2": 128,
+    "sidon_ok": true,
+    "sidon_maxcount": 1
+   },
+   "formulas": []
+  },
+  {
+   "n": 16,
+   "m": 8,
+   "idx": 2,
+   "cells": [
+    [
+     2,
+     0
+    ],
+    [
+     7,
+     0
+    ],
+    [
+     6,
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     6,
+     3
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     7,
+     4
+    ],
+    [
+     1,
+     5
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    8
+   ],
+   "slope_dist": {
+    "6": 1,
+    "1": 2,
+    "3": 1,
+    "5": 2,
+    "7": 1,
+    "4": 1
+   },
+   "invariants": {
+    "trace": 8080,
+    "theory_trace": 340.0,
+    "trace_match": false,
+    "sum_x2": 204,
+    "sum_y2": 76,
+    "sum_xy": 83,
+    "sum_x2plusy2": 280,
+    "sum_diff2": 114,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 16,
+   "m": 8,
+   "idx": 3,
+   "cells": [
+    [
+     4,
+     0
+    ],
+    [
+     5,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     7,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     6,
+     6
+    ],
+    [
+     1,
+     7
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    7
+   ],
+   "slope_dist": {
+    "4": 1,
+    "3": 1,
+    "7": 2,
+    "5": 1,
+    "2": 1,
+    "0": 1,
+    "6": 1
+   },
+   "invariants": {
+    "trace": 8080,
+    "theory_trace": 340.0,
+    "trace_match": false,
+    "sum_x2": 149,
+    "sum_y2": 131,
+    "sum_xy": 94,
+    "sum_x2plusy2": 280,
+    "sum_diff2": 92,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 16,
+   "m": 8,
+   "idx": 4,
+   "cells": [
+    [
+     6,
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     5,
+     3
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     3,
+     7
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    8
+   ],
+   "slope_dist": {
+    "2": 1,
+    "1": 1,
+    "6": 2,
+    "7": 2,
+    "5": 1,
+    "4": 1
+   },
+   "invariants": {
+    "trace": 8080,
+    "theory_trace": 340.0,
+    "trace_match": false,
+    "sum_x2": 113,
+    "sum_y2": 167,
+    "sum_xy": 72,
+    "sum_x2plusy2": 280,
+    "sum_diff2": 136,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 16,
+   "m": 8,
+   "idx": 5,
+   "cells": [
+    [
+     6,
+     0
+    ],
+    [
+     7,
+     0
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     5,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     6,
+     4
+    ],
+    [
+     3,
+     7
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    7
+   ],
+   "slope_dist": {
+    "2": 1,
+    "1": 1,
+    "4": 2,
+    "0": 1,
+    "6": 2,
+    "3": 1
+   },
+   "invariants": {
+    "trace": 8080,
+    "theory_trace": 340.0,
+    "trace_match": false,
+    "sum_x2": 185,
+    "sum_y2": 95,
+    "sum_xy": 73,
+    "sum_x2plusy2": 280,
+    "sum_diff2": 134,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 16,
+   "m": 8,
+   "idx": 6,
+   "cells": [
+    [
+     6,
+     0
+    ],
+    [
+     7,
+     0
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     6,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     7
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    7
+   ],
+   "slope_dist": {
+    "2": 2,
+    "1": 1,
+    "4": 2,
+    "0": 1,
+    "3": 1,
+    "6": 1
+   },
+   "invariants": {
+    "trace": 8080,
+    "theory_trace": 340.0,
+    "trace_match": false,
+    "sum_x2": 169,
+    "sum_y2": 111,
+    "sum_xy": 73,
+    "sum_x2plusy2": 280,
+    "sum_diff2": 134,
+    "sidon_ok": true,
+    "sidon_maxcount": 1
+   },
+   "formulas": []
+  },
+  {
+   "n": 16,
+   "m": 8,
+   "idx": 7,
+   "cells": [
+    [
+     6,
+     0
+    ],
+    [
+     7,
+     0
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     6,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     3,
+     7
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    8
+   ],
+   "slope_dist": {
+    "2": 1,
+    "1": 2,
+    "5": 1,
+    "3": 1,
+    "6": 1,
+    "4": 2
+   },
+   "invariants": {
+    "trace": 8080,
+    "theory_trace": 340.0,
+    "trace_match": false,
+    "sum_x2": 161,
+    "sum_y2": 119,
+    "sum_xy": 70,
+    "sum_x2plusy2": 280,
+    "sum_diff2": 140,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 16,
+   "m": 8,
+   "idx": 8,
+   "cells": [
+    [
+     6,
+     0
+    ],
+    [
+     7,
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     5,
+     3
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     3,
+     7
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    8
+   ],
+   "slope_dist": {
+    "2": 1,
+    "1": 2,
+    "6": 2,
+    "7": 1,
+    "5": 1,
+    "4": 1
+   },
+   "invariants": {
+    "trace": 8080,
+    "theory_trace": 340.0,
+    "trace_match": false,
+    "sum_x2": 162,
+    "sum_y2": 118,
+    "sum_xy": 72,
+    "sum_x2plusy2": 280,
+    "sum_diff2": 136,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 16,
+   "m": 8,
+   "idx": 9,
+   "cells": [
+    [
+     2,
+     0
+    ],
+    [
+     6,
+     0
+    ],
+    [
+     7,
+     1
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     7,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     5
+    ]
+   ],
+   "ncycles": 3,
+   "cycle_lengths": [
+    1,
+    3,
+    4
+   ],
+   "slope_dist": {
+    "6": 1,
+    "2": 2,
+    "4": 2,
+    "3": 1,
+    "1": 1,
+    "0": 1
+   },
+   "invariants": {
+    "trace": 8080,
+    "theory_trace": 340.0,
+    "trace_match": false,
+    "sum_x2": 209,
+    "sum_y2": 71,
+    "sum_xy": 81,
+    "sum_x2plusy2": 280,
+    "sum_diff2": 118,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 16,
+   "m": 8,
+   "idx": 10,
+   "cells": [
+    [
+     6,
+     0
+    ],
+    [
+     7,
+     0
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     7,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     6,
+     4
+    ],
+    [
+     2,
+     5
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    8
+   ],
+   "slope_dist": {
+    "2": 1,
+    "1": 2,
+    "4": 2,
+    "3": 2,
+    "6": 1
+   },
+   "invariants": {
+    "trace": 8080,
+    "theory_trace": 340.0,
+    "trace_match": false,
+    "sum_x2": 204,
+    "sum_y2": 76,
+    "sum_xy": 70,
+    "sum_x2plusy2": 280,
+    "sum_diff2": 140,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 16,
+   "m": 8,
+   "idx": 11,
+   "cells": [
+    [
+     3,
+     1
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     6,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     6,
+     4
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     2,
+     7
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    8
+   ],
+   "slope_dist": {
+    "6": 2,
+    "4": 2,
+    "5": 3,
+    "7": 1
+   },
+   "invariants": {
+    "trace": 8080,
+    "theory_trace": 340.0,
+    "trace_match": false,
+    "sum_x2": 135,
+    "sum_y2": 145,
+    "sum_xy": 74,
+    "sum_x2plusy2": 280,
+    "sum_diff2": 132,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 16,
+   "m": 8,
+   "idx": 12,
+   "cells": [
+    [
+     5,
+     0
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     7,
+     2
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     6,
+     6
+    ],
+    [
+     1,
+     7
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    7
+   ],
+   "slope_dist": {
+    "3": 2,
+    "4": 2,
+    "7": 2,
+    "0": 1,
+    "6": 1
+   },
+   "invariants": {
+    "trace": 8080,
+    "theory_trace": 340.0,
+    "trace_match": false,
+    "sum_x2": 161,
+    "sum_y2": 119,
+    "sum_xy": 80,
+    "sum_x2plusy2": 280,
+    "sum_diff2": 120,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 18,
+   "m": 9,
+   "idx": 0,
+   "cells": [
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     8,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     8,
+     7
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    4,
+    5
+   ],
+   "slope_dist": {
+    "3": 3,
+    "5": 1,
+    "1": 1,
+    "4": 1,
+    "2": 1,
+    "7": 1,
+    "8": 1
+   },
+   "invariants": {
+    "trace": 11730,
+    "theory_trace": 484.5,
+    "trace_match": false,
+    "sum_x2": 220,
+    "sum_y2": 188,
+    "sum_xy": 120,
+    "sum_x2plusy2": 408,
+    "sum_diff2": 168,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 18,
+   "m": 9,
+   "idx": 1,
+   "cells": [
+    [
+     5,
+     0
+    ],
+    [
+     6,
+     0
+    ],
+    [
+     8,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     5,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     8,
+     4
+    ],
+    [
+     7,
+     6
+    ],
+    [
+     1,
+     7
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    9
+   ],
+   "slope_dist": {
+    "4": 1,
+    "3": 1,
+    "2": 2,
+    "8": 2,
+    "7": 1,
+    "5": 1,
+    "6": 1
+   },
+   "invariants": {
+    "trace": 11730,
+    "theory_trace": 484.5,
+    "trace_match": false,
+    "sum_x2": 277,
+    "sum_y2": 131,
+    "sum_xy": 118,
+    "sum_x2plusy2": 408,
+    "sum_diff2": 172,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 18,
+   "m": 9,
+   "idx": 2,
+   "cells": [
+    [
+     4,
+     0
+    ],
+    [
+     7,
+     1
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     7,
+     6
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     3,
+     8
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    4,
+    5
+   ],
+   "slope_dist": {
+    "5": 3,
+    "3": 3,
+    "7": 2,
+    "8": 1
+   },
+   "invariants": {
+    "trace": 11730,
+    "theory_trace": 484.5,
+    "trace_match": false,
+    "sum_x2": 153,
+    "sum_y2": 255,
+    "sum_xy": 117,
+    "sum_x2plusy2": 408,
+    "sum_diff2": 174,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 18,
+   "m": 9,
+   "idx": 3,
+   "cells": [
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     8,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     7,
+     7
+    ],
+    [
+     0,
+     8
+    ]
+   ],
+   "ncycles": 3,
+   "cycle_lengths": [
+    1,
+    3,
+    5
+   ],
+   "slope_dist": {
+    "3": 2,
+    "5": 1,
+    "1": 1,
+    "4": 2,
+    "8": 2,
+    "0": 1
+   },
+   "invariants": {
+    "trace": 11730,
+    "theory_trace": 484.5,
+    "trace_match": false,
+    "sum_x2": 216,
+    "sum_y2": 192,
+    "sum_xy": 120,
+    "sum_x2plusy2": 408,
+    "sum_diff2": 168,
+    "sidon_ok": true,
+    "sidon_maxcount": 1
+   },
+   "formulas": []
+  },
+  {
+   "n": 18,
+   "m": 9,
+   "idx": 4,
+   "cells": [
+    [
+     1,
+     0
+    ],
+    [
+     8,
+     0
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     7,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     7,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     2,
+     8
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    9
+   ],
+   "slope_dist": {
+    "8": 2,
+    "1": 1,
+    "5": 1,
+    "6": 2,
+    "4": 1,
+    "7": 1,
+    "3": 1
+   },
+   "invariants": {
+    "trace": 11730,
+    "theory_trace": 484.5,
+    "trace_match": false,
+    "sum_x2": 229,
+    "sum_y2": 179,
+    "sum_xy": 126,
+    "sum_x2plusy2": 408,
+    "sum_diff2": 156,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 18,
+   "m": 9,
+   "idx": 5,
+   "cells": [
+    [
+     6,
+     0
+    ],
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     6,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     7,
+     7
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    8
+   ],
+   "slope_dist": {
+    "3": 3,
+    "1": 2,
+    "2": 1,
+    "7": 1,
+    "4": 1,
+    "0": 1
+   },
+   "invariants": {
+    "trace": 11730,
+    "theory_trace": 484.5,
+    "trace_match": false,
+    "sum_x2": 264,
+    "sum_y2": 144,
+    "sum_xy": 119,
+    "sum_x2plusy2": 408,
+    "sum_diff2": 170,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 18,
+   "m": 9,
+   "idx": 6,
+   "cells": [
+    [
+     3,
+     1
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     7,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     8
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    8
+   ],
+   "slope_dist": {
+    "7": 2,
+    "6": 2,
+    "8": 3,
+    "2": 1,
+    "0": 1
+   },
+   "invariants": {
+    "trace": 11730,
+    "theory_trace": 484.5,
+    "trace_match": false,
+    "sum_x2": 140,
+    "sum_y2": 268,
+    "sum_xy": 120,
+    "sum_x2plusy2": 408,
+    "sum_diff2": 168,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 20,
+   "m": 10,
+   "idx": 0,
+   "cells": [
+    [
+     5,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     8,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     9,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     9,
+     7
+    ],
+    [
+     0,
+     8
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    9
+   ],
+   "slope_dist": {
+    "5": 1,
+    "8": 3,
+    "0": 1,
+    "9": 1,
+    "6": 2,
+    "1": 1,
+    "7": 1
+   },
+   "invariants": {
+    "trace": 16340,
+    "theory_trace": 665.0,
+    "trace_match": false,
+    "sum_x2": 306,
+    "sum_y2": 264,
+    "sum_xy": 205,
+    "sum_x2plusy2": 570,
+    "sum_diff2": 160,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 20,
+   "m": 10,
+   "idx": 1,
+   "cells": [
+    [
+     5,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     8,
+     1
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     8,
+     5
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     9,
+     7
+    ],
+    [
+     2,
+     9
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    4,
+    6
+   ],
+   "slope_dist": {
+    "5": 1,
+    "8": 2,
+    "3": 1,
+    "6": 1,
+    "4": 1,
+    "1": 2,
+    "7": 2
+   },
+   "invariants": {
+    "trace": 16340,
+    "theory_trace": 665.0,
+    "trace_match": false,
+    "sum_x2": 328,
+    "sum_y2": 242,
+    "sum_xy": 198,
+    "sum_x2plusy2": 570,
+    "sum_diff2": 174,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 20,
+   "m": 10,
+   "idx": 2,
+   "cells": [
+    [
+     8,
+     0
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     8,
+     3
+    ],
+    [
+     9,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     9,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    9
+   ],
+   "slope_dist": {
+    "2": 2,
+    "7": 3,
+    "0": 1,
+    "5": 2,
+    "4": 1,
+    "1": 1
+   },
+   "invariants": {
+    "trace": 16340,
+    "theory_trace": 665.0,
+    "trace_match": false,
+    "sum_x2": 356,
+    "sum_y2": 214,
+    "sum_xy": 184,
+    "sum_x2plusy2": 570,
+    "sum_diff2": 202,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 20,
+   "m": 10,
+   "idx": 3,
+   "cells": [
+    [
+     4,
+     0
+    ],
+    [
+     8,
+     1
+    ],
+    [
+     7,
+     2
+    ],
+    [
+     8,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     9,
+     6
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     1,
+     9
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    4,
+    6
+   ],
+   "slope_dist": {
+    "6": 1,
+    "3": 1,
+    "5": 2,
+    "4": 1,
+    "1": 2,
+    "2": 1,
+    "7": 1,
+    "8": 1
+   },
+   "invariants": {
+    "trace": 16340,
+    "theory_trace": 665.0,
+    "trace_match": false,
+    "sum_x2": 329,
+    "sum_y2": 241,
+    "sum_xy": 170,
+    "sum_x2plusy2": 570,
+    "sum_diff2": 230,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 20,
+   "m": 10,
+   "idx": 4,
+   "cells": [
+    [
+     5,
+     0
+    ],
+    [
+     9,
+     1
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     7,
+     6
+    ],
+    [
+     9,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     8
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    10
+   ],
+   "slope_dist": {
+    "5": 1,
+    "2": 2,
+    "9": 2,
+    "3": 1,
+    "7": 2,
+    "4": 1,
+    "8": 1
+   },
+   "invariants": {
+    "trace": 16340,
+    "theory_trace": 665.0,
+    "trace_match": false,
+    "sum_x2": 270,
+    "sum_y2": 300,
+    "sum_xy": 164,
+    "sum_x2plusy2": 570,
+    "sum_diff2": 242,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 20,
+   "m": 10,
+   "idx": 5,
+   "cells": [
+    [
+     5,
+     0
+    ],
+    [
+     9,
+     1
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     7,
+     6
+    ],
+    [
+     9,
+     6
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     8
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    10
+   ],
+   "slope_dist": {
+    "5": 1,
+    "2": 2,
+    "7": 3,
+    "9": 2,
+    "4": 1,
+    "8": 1
+   },
+   "invariants": {
+    "trace": 16340,
+    "theory_trace": 665.0,
+    "trace_match": false,
+    "sum_x2": 291,
+    "sum_y2": 279,
+    "sum_xy": 164,
+    "sum_x2plusy2": 570,
+    "sum_diff2": 242,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 20,
+   "m": 10,
+   "idx": 6,
+   "cells": [
+    [
+     6,
+     0
+    ],
+    [
+     8,
+     0
+    ],
+    [
+     7,
+     1
+    ],
+    [
+     9,
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     9,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     4,
+     8
+    ]
+   ],
+   "ncycles": 1,
+   "cycle_lengths": [
+    10
+   ],
+   "slope_dist": {
+    "4": 3,
+    "2": 3,
+    "1": 1,
+    "9": 1,
+    "3": 1,
+    "7": 1
+   },
+   "invariants": {
+    "trace": 16340,
+    "theory_trace": 665.0,
+    "trace_match": false,
+    "sum_x2": 376,
+    "sum_y2": 194,
+    "sum_xy": 165,
+    "sum_x2plusy2": 570,
+    "sum_diff2": 240,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 20,
+   "m": 10,
+   "idx": 7,
+   "cells": [
+    [
+     9,
+     0
+    ],
+    [
+     6,
+     1
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     8,
+     2
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     9,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     3,
+     8
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    5,
+    5
+   ],
+   "slope_dist": {
+    "1": 1,
+    "5": 2,
+    "8": 1,
+    "4": 1,
+    "9": 1,
+    "2": 1,
+    "7": 2,
+    "6": 1
+   },
+   "invariants": {
+    "trace": 16340,
+    "theory_trace": 665.0,
+    "trace_match": false,
+    "sum_x2": 322,
+    "sum_y2": 248,
+    "sum_xy": 150,
+    "sum_x2plusy2": 570,
+    "sum_diff2": 270,
+    "sidon_ok": true,
+    "sidon_maxcount": 1
+   },
+   "formulas": []
+  },
+  {
+   "n": 20,
+   "m": 10,
+   "idx": 8,
+   "cells": [
+    [
+     9,
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     7,
+     2
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     9,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     8,
+     8
+    ]
+   ],
+   "ncycles": 3,
+   "cycle_lengths": [
+    1,
+    3,
+    6
+   ],
+   "slope_dist": {
+    "1": 2,
+    "5": 2,
+    "9": 1,
+    "2": 2,
+    "7": 1,
+    "6": 1,
+    "0": 1
+   },
+   "invariants": {
+    "trace": 16340,
+    "theory_trace": 665.0,
+    "trace_match": false,
+    "sum_x2": 318,
+    "sum_y2": 252,
+    "sum_xy": 192,
+    "sum_x2plusy2": 570,
+    "sum_diff2": 186,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 20,
+   "m": 10,
+   "idx": 9,
+   "cells": [
+    [
+     8,
+     0
+    ],
+    [
+     9,
+     0
+    ],
+    [
+     7,
+     1
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     9,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     4,
+     8
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    9
+   ],
+   "slope_dist": {
+    "2": 3,
+    "1": 1,
+    "4": 2,
+    "0": 1,
+    "9": 2,
+    "7": 1
+   },
+   "invariants": {
+    "trace": 16340,
+    "theory_trace": 665.0,
+    "trace_match": false,
+    "sum_x2": 373,
+    "sum_y2": 197,
+    "sum_xy": 177,
+    "sum_x2plusy2": 570,
+    "sum_diff2": 216,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 20,
+   "m": 10,
+   "idx": 10,
+   "cells": [
+    [
+     6,
+     0
+    ],
+    [
+     7,
+     0
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     9,
+     5
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     1,
+     9
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    4,
+    6
+   ],
+   "slope_dist": {
+    "4": 1,
+    "3": 3,
+    "9": 2,
+    "6": 2,
+    "7": 1,
+    "8": 1
+   },
+   "invariants": {
+    "trace": 16340,
+    "theory_trace": 665.0,
+    "trace_match": false,
+    "sum_x2": 270,
+    "sum_y2": 300,
+    "sum_xy": 160,
+    "sum_x2plusy2": 570,
+    "sum_diff2": 250,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 20,
+   "m": 10,
+   "idx": 11,
+   "cells": [
+    [
+     9,
+     0
+    ],
+    [
+     6,
+     1
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     8,
+     2
+    ],
+    [
+     5,
+     3
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     8,
+     7
+    ],
+    [
+     4,
+     9
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    4,
+    6
+   ],
+   "slope_dist": {
+    "1": 1,
+    "5": 2,
+    "8": 2,
+    "4": 2,
+    "3": 1,
+    "7": 1,
+    "9": 1
+   },
+   "invariants": {
+    "trace": 16340,
+    "theory_trace": 665.0,
+    "trace_match": false,
+    "sum_x2": 312,
+    "sum_y2": 258,
+    "sum_xy": 160,
+    "sum_x2plusy2": 570,
+    "sum_diff2": 250,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 20,
+   "m": 10,
+   "idx": 12,
+   "cells": [
+    [
+     4,
+     0
+    ],
+    [
+     5,
+     0
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     7,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     8,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     3,
+     9
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    9
+   ],
+   "slope_dist": {
+    "6": 4,
+    "5": 2,
+    "1": 1,
+    "9": 1,
+    "0": 1,
+    "8": 1
+   },
+   "invariants": {
+    "trace": 16340,
+    "theory_trace": 665.0,
+    "trace_match": false,
+    "sum_x2": 246,
+    "sum_y2": 324,
+    "sum_xy": 175,
+    "sum_x2plusy2": 570,
+    "sum_diff2": 220,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 20,
+   "m": 10,
+   "idx": 13,
+   "cells": [
+    [
+     6,
+     2
+    ],
+    [
+     8,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     8,
+     7
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     3,
+     9
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    3,
+    7
+   ],
+   "slope_dist": {
+    "6": 2,
+    "4": 1,
+    "3": 2,
+    "9": 3,
+    "5": 1,
+    "2": 1
+   },
+   "invariants": {
+    "trace": 16340,
+    "theory_trace": 665.0,
+    "trace_match": false,
+    "sum_x2": 225,
+    "sum_y2": 345,
+    "sum_xy": 176,
+    "sum_x2plusy2": 570,
+    "sum_diff2": 218,
+    "sidon_ok": true,
+    "sidon_maxcount": 2
+   },
+   "formulas": []
+  },
+  {
+   "n": 20,
+   "m": 10,
+   "idx": 14,
+   "cells": [
+    [
+     3,
+     1
+    ],
+    [
+     7,
+     1
+    ],
+    [
+     7,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     8,
+     8
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     2,
+     9
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    9
+   ],
+   "slope_dist": {
+    "8": 1,
+    "4": 1,
+    "5": 2,
+    "1": 1,
+    "9": 2,
+    "2": 1,
+    "0": 1,
+    "7": 1
+   },
+   "invariants": {
+    "trace": 16340,
+    "theory_trace": 665.0,
+    "trace_match": false,
+    "sum_x2": 236,
+    "sum_y2": 334,
+    "sum_xy": 172,
+    "sum_x2plusy2": 570,
+    "sum_diff2": 226,
+    "sidon_ok": true,
+    "sidon_maxcount": 1
+   },
+   "formulas": []
+  },
+  {
+   "n": 20,
+   "m": 10,
+   "idx": 15,
+   "cells": [
+    [
+     9,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     7,
+     1
+    ],
+    [
+     7,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     8,
+     8
+    ],
+    [
+     2,
+     9
+    ]
+   ],
+   "ncycles": 2,
+   "cycle_lengths": [
+    1,
+    9
+   ],
+   "slope_dist": {
+    "1": 2,
+    "8": 1,
+    "4": 1,
+    "5": 2,
+    "9": 1,
+    "2": 1,
+    "0": 1,
+    "7": 1
+   },
+   "invariants": {
+    "trace": 16340,
+    "theory_trace": 665.0,
+    "trace_match": false,
+    "sum_x2": 317,
+    "sum_y2": 253,
+    "sum_xy": 172,
+    "sum_x2plusy2": 570,
+    "sum_diff2": 226,
+    "sidon_ok": true,
+    "sidon_maxcount": 1
+   },
+   "formulas": []
+  }
+ ]
+}

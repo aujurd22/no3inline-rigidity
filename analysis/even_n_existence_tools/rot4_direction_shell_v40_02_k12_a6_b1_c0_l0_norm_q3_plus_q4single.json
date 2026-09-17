@@ -1,0 +1,93 @@
+{
+  "parameters": {
+    "base": "v40_02",
+    "size": 12,
+    "adjacency_count": 6,
+    "triple_count": 1,
+    "quadruple_count": 0,
+    "loop_count": 0,
+    "flip_count": null,
+    "hard_q": 3,
+    "shell_q": 4,
+    "subset_size": 1,
+    "time_limit": 240.0,
+    "workers": 4,
+    "out": "rot4_direction_shell_v40_02_k12_a6_b1_c0_l0_norm_q3_plus_q4single.json"
+  },
+  "hard_line_count": 906,
+  "shell_line_count": 808,
+  "shell_directions": {
+    "1,-4": 175,
+    "1,4": 175,
+    "3,-4": 229,
+    "3,4": 229
+  },
+  "layers": [
+    {
+      "directions": [
+        [
+          1,
+          -4
+        ]
+      ],
+      "line_count": 1081,
+      "new_line_count": 175,
+      "status": "UNKNOWN",
+      "classification": "UNRESOLVED",
+      "branches": 557980,
+      "conflicts": 9995,
+      "wall_s": 240.133,
+      "elapsed_s": 240.144
+    },
+    {
+      "directions": [
+        [
+          1,
+          4
+        ]
+      ],
+      "line_count": 1081,
+      "new_line_count": 175,
+      "status": "UNKNOWN",
+      "classification": "UNRESOLVED",
+      "branches": 599894,
+      "conflicts": 7888,
+      "wall_s": 240.08,
+      "elapsed_s": 240.087
+    },
+    {
+      "directions": [
+        [
+          3,
+          -4
+        ]
+      ],
+      "line_count": 1135,
+      "new_line_count": 229,
+      "status": "UNKNOWN",
+      "classification": "UNRESOLVED",
+      "branches": 1205708,
+      "conflicts": 4669,
+      "wall_s": 240.178,
+      "elapsed_s": 240.182
+    },
+    {
+      "directions": [
+        [
+          3,
+          4
+        ]
+      ],
+      "line_count": 1135,
+      "new_line_count": 229,
+      "status": "UNKNOWN",
+      "classification": "UNRESOLVED",
+      "branches": 3874097,
+      "conflicts": 1497810,
+      "wall_s": 240.072,
+      "elapsed_s": 240.077
+    }
+  ],
+  "closed_subset_count": 0,
+  "surviving_subset_count": 0
+}

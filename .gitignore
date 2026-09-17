@@ -17,3 +17,8 @@ main.bbl
 main.blg
 main.log
 main.out
+.workbuddy/
+*.pkl
+*.npy
+analysis/_*_out.txt
+analysis/even_n_existence_tools/v20_*_k14_gpu.json

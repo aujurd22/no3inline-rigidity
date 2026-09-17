@@ -1,0 +1,31 @@
+{
+  "k": 4,
+  "p": 2,
+  "n": 8,
+  "u": 0,
+  "v": 0,
+  "multiplier": 1,
+  "base_permutation": [
+    0,
+    1
+  ],
+  "status": "INFEASIBLE",
+  "variables": 32,
+  "degree_constraints": 16,
+  "relevant_line_constraints": 51,
+  "relevant_line_length_histogram": {
+    "3": 26,
+    "4": 18,
+    "5": 2,
+    "6": 2,
+    "7": 2,
+    "8": 1
+  },
+  "all_grid_line_statistics": {
+    "primitive_directions_with_possible_three_point_lines": 16,
+    "lines_with_at_least_three_grid_points": 174,
+    "line_enumeration_seconds": 0.00025350000942125916
+  },
+  "line_build_seconds": 0.0006819000118412077,
+  "solve_seconds": 0.05487580003682524
+}

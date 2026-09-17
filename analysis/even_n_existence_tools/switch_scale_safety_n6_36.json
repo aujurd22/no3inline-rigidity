@@ -1,0 +1,280 @@
+{
+  "results": [
+    {
+      "n": 6,
+      "point_count": 12,
+      "legal_switches": 18,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 18
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 18,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "3": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "by_matching": [
+        {
+          "matching": 0,
+          "legal_switches": 9,
+          "minimum_new_scale_histogram": {
+            "1": 9
+          }
+        },
+        {
+          "matching": 1,
+          "legal_switches": 9,
+          "minimum_new_scale_histogram": {
+            "1": 9
+          }
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "point_count": 24,
+      "legal_switches": 110,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 110
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 110,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "3": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "by_matching": [
+        {
+          "matching": 0,
+          "legal_switches": 55,
+          "minimum_new_scale_histogram": {
+            "1": 55
+          }
+        },
+        {
+          "matching": 1,
+          "legal_switches": 55,
+          "minimum_new_scale_histogram": {
+            "1": 55
+          }
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "point_count": 48,
+      "legal_switches": 504,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 476,
+        "2": 28
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 504,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 28,
+          "fraction_of_legal": 0.05555555555555555
+        },
+        "3": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "by_matching": [
+        {
+          "matching": 0,
+          "legal_switches": 252,
+          "minimum_new_scale_histogram": {
+            "1": 228,
+            "2": 24
+          }
+        },
+        {
+          "matching": 1,
+          "legal_switches": 252,
+          "minimum_new_scale_histogram": {
+            "1": 248,
+            "2": 4
+          }
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "point_count": 72,
+      "legal_switches": 1190,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 1092,
+        "2": 76,
+        "3": 16,
+        "4": 6
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 1190,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 98,
+          "fraction_of_legal": 0.08235294117647059
+        },
+        "3": {
+          "safe_switches": 22,
+          "fraction_of_legal": 0.018487394957983194
+        },
+        "4": {
+          "safe_switches": 6,
+          "fraction_of_legal": 0.005042016806722689
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "by_matching": [
+        {
+          "matching": 0,
+          "legal_switches": 595,
+          "minimum_new_scale_histogram": {
+            "1": 546,
+            "2": 38,
+            "3": 8,
+            "4": 3
+          }
+        },
+        {
+          "matching": 1,
+          "legal_switches": 595,
+          "minimum_new_scale_histogram": {
+            "1": 546,
+            "2": 38,
+            "3": 8,
+            "4": 3
+          }
+        }
+      ]
+    }
+  ]
+}

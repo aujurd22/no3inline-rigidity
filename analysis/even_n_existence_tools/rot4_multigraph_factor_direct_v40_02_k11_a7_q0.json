@@ -1,0 +1,92 @@
+{
+  "component_count": 1,
+  "enumeration_mode": "fixed_adjacency",
+  "target_selected": 11,
+  "target_adjacency": 7,
+  "distinct_shape_masks": 2553000,
+  "defect_hitting_masks": 13990,
+  "factor_feasible_masks": 0,
+  "all_factor_infeasible": true,
+  "total_factor_search_nodes": 13990,
+  "maximum_factor_search_nodes": 1,
+  "root_zero_option_by_deficit": {
+    "1": 5018,
+    "2": 8972
+  },
+  "search_node_histogram": {
+    "1": 13990
+  },
+  "sample_hitting_masks": [
+    536956687,
+    536960781,
+    536968207,
+    536968252,
+    536968396,
+    536968717,
+    536968718,
+    536968732,
+    536968748,
+    536968780
+  ],
+  "feasible_masks": [],
+  "first_feasible_mask": 0,
+  "first_feasible_cells": [],
+  "base": "v40_02",
+  "cycle_edge_orders": [
+    [
+      0,
+      27,
+      24,
+      15,
+      16,
+      34,
+      30,
+      5,
+      4,
+      19,
+      20,
+      33,
+      13,
+      12,
+      3,
+      2,
+      9,
+      8,
+      23,
+      35,
+      26,
+      25,
+      11,
+      10,
+      14,
+      29,
+      28,
+      21,
+      22,
+      6,
+      7,
+      36,
+      18,
+      17,
+      31,
+      32,
+      1
+    ]
+  ],
+  "first_feasible_removed_indices": [],
+  "method": {
+    "k": 11,
+    "A": 7,
+    "required_full_cycle_length": null,
+    "cycle_handling": "direct local (selected-edge-count, adjacency-count) generation; empty, partially selected, and fully selected cycles are distinct",
+    "normalization": "all exact old-orientation reselections forbidden",
+    "multigraph": "both (u,v) and (v,u) allowed simultaneously",
+    "geometry": "candidate cells filtered by exact retained-base blocker masks",
+    "factor": "exact deficit-0/1/2 f-factor DFS; loops consume 2 and opposite orientations may form a digon",
+    "line_capacities": "none (q=0 shadow factor)"
+  },
+  "stderr_progress_tail": [
+    "hit=10000 feasible=0 nodes=10000"
+  ],
+  "elapsed_s": 1.42
+}

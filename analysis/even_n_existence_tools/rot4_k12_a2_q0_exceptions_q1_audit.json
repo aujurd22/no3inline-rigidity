@@ -1,0 +1,3307 @@
+{
+  "A_values": [
+    2
+  ],
+  "q1_line_orbit_count": 72,
+  "q0_source_records": [
+    {
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a2_b0_c0_r2-2-1-1-1-1-1-1-1-1_q0.json",
+      "base": "v40_01",
+      "A": 2,
+      "profile": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "q0_factor_feasible_masks": 6,
+      "recorded_mask_count": 6
+    },
+    {
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a2_b1_c0_r3-1-1-1-1-1-1-1-1-1_q0.json",
+      "base": "v40_01",
+      "A": 2,
+      "profile": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "q0_factor_feasible_masks": 3,
+      "recorded_mask_count": 3
+    },
+    {
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_02_k12_a2_b0_c0_r2-2-1-1-1-1-1-1-1-1_q0.json",
+      "base": "v40_02",
+      "A": 2,
+      "profile": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "q0_factor_feasible_masks": 10,
+      "recorded_mask_count": 10
+    },
+    {
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a2_b0_c0_r2-2-1-1-1-1-1-1-1-1_q0.json",
+      "base": "v40_03",
+      "A": 2,
+      "profile": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "q0_factor_feasible_masks": 25,
+      "recorded_mask_count": 25
+    },
+    {
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a2_b1_c0_r3-1-1-1-1-1-1-1-1-1_q0.json",
+      "base": "v40_03",
+      "A": 2,
+      "profile": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "q0_factor_feasible_masks": 7,
+      "recorded_mask_count": 7
+    },
+    {
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a2_b0_c0_r2-2-1-1-1-1-1-1-1-1_q0.json",
+      "base": "v40_04",
+      "A": 2,
+      "profile": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "q0_factor_feasible_masks": 37,
+      "recorded_mask_count": 37
+    },
+    {
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a2_b1_c0_r3-1-1-1-1-1-1-1-1-1_q0.json",
+      "base": "v40_04",
+      "A": 2,
+      "profile": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "q0_factor_feasible_masks": 10,
+      "recorded_mask_count": 10
+    }
+  ],
+  "unique_q0_exception_mask_count": 98,
+  "q1_status_histogram": {
+    "INFEASIBLE": 96,
+    "OPTIMAL": 2
+  },
+  "all_q0_exceptions_q1_infeasible": false,
+  "records": [
+    {
+      "base": "v40_01",
+      "mask": 16479459456,
+      "removed_indices": [
+        7,
+        11,
+        12,
+        15,
+        22,
+        25,
+        26,
+        28,
+        30,
+        31,
+        32,
+        33
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0275,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_01",
+      "mask": 69227029560,
+      "removed_indices": [
+        3,
+        4,
+        5,
+        10,
+        13,
+        15,
+        22,
+        25,
+        26,
+        27,
+        28,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0248,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_01",
+      "mask": 69346534981,
+      "removed_indices": [
+        0,
+        2,
+        6,
+        9,
+        10,
+        13,
+        21,
+        22,
+        24,
+        26,
+        29,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0279,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_01",
+      "mask": 73790433568,
+      "removed_indices": [
+        5,
+        8,
+        11,
+        13,
+        15,
+        22,
+        25,
+        26,
+        27,
+        29,
+        32,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0278,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_01",
+      "mask": 74964837412,
+      "removed_indices": [
+        2,
+        5,
+        10,
+        13,
+        15,
+        22,
+        26,
+        28,
+        29,
+        30,
+        32,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0255,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_01",
+      "mask": 75770143770,
+      "removed_indices": [
+        1,
+        3,
+        4,
+        10,
+        13,
+        15,
+        22,
+        26,
+        29,
+        31,
+        32,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.026,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_01",
+      "mask": 78061314564,
+      "removed_indices": [
+        2,
+        9,
+        13,
+        16,
+        20,
+        22,
+        23,
+        26,
+        27,
+        29,
+        33,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0235,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_01",
+      "mask": 78362443800,
+      "removed_indices": [
+        3,
+        4,
+        18,
+        22,
+        23,
+        25,
+        26,
+        27,
+        28,
+        29,
+        33,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0252,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_01",
+      "mask": 103700571908,
+      "removed_indices": [
+        2,
+        8,
+        9,
+        10,
+        13,
+        16,
+        19,
+        24,
+        26,
+        29,
+        35,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0276,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_02",
+      "mask": 38859319436,
+      "removed_indices": [
+        2,
+        3,
+        7,
+        11,
+        13,
+        17,
+        20,
+        21,
+        26,
+        27,
+        32,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0248,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_02",
+      "mask": 69588747526,
+      "removed_indices": [
+        1,
+        2,
+        8,
+        10,
+        20,
+        22,
+        23,
+        24,
+        25,
+        28,
+        29,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0235,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_02",
+      "mask": 69588747782,
+      "removed_indices": [
+        1,
+        2,
+        9,
+        10,
+        20,
+        22,
+        23,
+        24,
+        25,
+        28,
+        29,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0247,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_02",
+      "mask": 70628943392,
+      "removed_indices": [
+        5,
+        9,
+        10,
+        13,
+        20,
+        22,
+        23,
+        24,
+        28,
+        29,
+        30,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0245,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_02",
+      "mask": 78261748768,
+      "removed_indices": [
+        5,
+        10,
+        15,
+        16,
+        17,
+        22,
+        23,
+        27,
+        28,
+        29,
+        33,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0227,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_02",
+      "mask": 78329872416,
+      "removed_indices": [
+        5,
+        16,
+        17,
+        20,
+        22,
+        23,
+        26,
+        27,
+        28,
+        29,
+        33,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0244,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_02",
+      "mask": 86735070256,
+      "removed_indices": [
+        4,
+        5,
+        10,
+        13,
+        20,
+        22,
+        23,
+        24,
+        28,
+        29,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0357,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_02",
+      "mask": 86767568432,
+      "removed_indices": [
+        4,
+        5,
+        9,
+        10,
+        22,
+        23,
+        24,
+        25,
+        28,
+        29,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0257,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_02",
+      "mask": 95442599968,
+      "removed_indices": [
+        5,
+        15,
+        17,
+        20,
+        22,
+        23,
+        27,
+        28,
+        29,
+        33,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0284,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_02",
+      "mask": 126740340869,
+      "removed_indices": [
+        0,
+        2,
+        7,
+        13,
+        20,
+        22,
+        25,
+        31,
+        32,
+        34,
+        35,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0285,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 17338274964,
+      "removed_indices": [
+        2,
+        4,
+        7,
+        10,
+        12,
+        16,
+        20,
+        21,
+        22,
+        24,
+        27,
+        34
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0278,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 19808131082,
+      "removed_indices": [
+        1,
+        3,
+        11,
+        12,
+        19,
+        21,
+        23,
+        26,
+        27,
+        28,
+        31,
+        34
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0286,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 51613031105,
+      "removed_indices": [
+        0,
+        6,
+        7,
+        9,
+        11,
+        12,
+        14,
+        21,
+        22,
+        26,
+        34,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0253,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 51759830164,
+      "removed_indices": [
+        2,
+        4,
+        7,
+        10,
+        12,
+        14,
+        21,
+        24,
+        26,
+        27,
+        34,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0339,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 51759830180,
+      "removed_indices": [
+        2,
+        5,
+        7,
+        10,
+        12,
+        14,
+        21,
+        24,
+        26,
+        27,
+        34,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0281,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 51759846917,
+      "removed_indices": [
+        0,
+        2,
+        9,
+        10,
+        12,
+        15,
+        21,
+        24,
+        26,
+        27,
+        34,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.024,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 51760338116,
+      "removed_indices": [
+        2,
+        6,
+        7,
+        10,
+        12,
+        19,
+        21,
+        24,
+        26,
+        27,
+        34,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.022,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 52012254372,
+      "removed_indices": [
+        2,
+        5,
+        7,
+        10,
+        18,
+        19,
+        21,
+        26,
+        27,
+        28,
+        34,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0235,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 56860614784,
+      "removed_indices": [
+        7,
+        13,
+        19,
+        21,
+        24,
+        26,
+        27,
+        28,
+        29,
+        32,
+        34,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.029,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 73461274634,
+      "removed_indices": [
+        1,
+        3,
+        11,
+        12,
+        17,
+        21,
+        23,
+        25,
+        27,
+        28,
+        32,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0244,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 77620091208,
+      "removed_indices": [
+        3,
+        6,
+        8,
+        11,
+        12,
+        15,
+        18,
+        23,
+        25,
+        28,
+        33,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0216,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 77620123752,
+      "removed_indices": [
+        3,
+        5,
+        6,
+        11,
+        12,
+        16,
+        18,
+        23,
+        25,
+        28,
+        33,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0223,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 77620320680,
+      "removed_indices": [
+        3,
+        5,
+        7,
+        8,
+        11,
+        12,
+        19,
+        23,
+        25,
+        28,
+        33,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0221,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 77621893960,
+      "removed_indices": [
+        3,
+        6,
+        8,
+        9,
+        11,
+        12,
+        21,
+        23,
+        25,
+        28,
+        33,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0223,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 78662080844,
+      "removed_indices": [
+        2,
+        3,
+        6,
+        8,
+        11,
+        12,
+        21,
+        23,
+        28,
+        30,
+        33,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0232,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 78676925444,
+      "removed_indices": [
+        2,
+        10,
+        11,
+        12,
+        15,
+        17,
+        23,
+        24,
+        28,
+        30,
+        33,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0232,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 79895279872,
+      "removed_indices": [
+        8,
+        11,
+        12,
+        13,
+        16,
+        21,
+        25,
+        27,
+        28,
+        31,
+        33,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0221,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 79912046852,
+      "removed_indices": [
+        2,
+        8,
+        12,
+        16,
+        21,
+        24,
+        25,
+        27,
+        28,
+        31,
+        33,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0222,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 81982396488,
+      "removed_indices": [
+        3,
+        6,
+        11,
+        12,
+        19,
+        23,
+        25,
+        26,
+        28,
+        32,
+        33,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0242,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 82954959940,
+      "removed_indices": [
+        2,
+        6,
+        10,
+        11,
+        12,
+        13,
+        23,
+        28,
+        30,
+        32,
+        33,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0251,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 86119569492,
+      "removed_indices": [
+        2,
+        4,
+        6,
+        11,
+        12,
+        14,
+        21,
+        24,
+        26,
+        27,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0287,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 86312492106,
+      "removed_indices": [
+        1,
+        3,
+        6,
+        10,
+        11,
+        12,
+        21,
+        23,
+        27,
+        28,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0256,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 86312622722,
+      "removed_indices": [
+        1,
+        7,
+        9,
+        11,
+        12,
+        17,
+        21,
+        23,
+        27,
+        28,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0279,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 86313277464,
+      "removed_indices": [
+        3,
+        4,
+        11,
+        12,
+        18,
+        19,
+        21,
+        23,
+        27,
+        28,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0223,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 94523710016,
+      "removed_indices": [
+        6,
+        9,
+        11,
+        12,
+        14,
+        16,
+        18,
+        19,
+        25,
+        33,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0262,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 94902426648,
+      "removed_indices": [
+        3,
+        4,
+        10,
+        11,
+        12,
+        21,
+        23,
+        27,
+        28,
+        33,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0237,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 94902442004,
+      "removed_indices": [
+        2,
+        4,
+        11,
+        12,
+        14,
+        21,
+        23,
+        27,
+        28,
+        33,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0241,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 94902687768,
+      "removed_indices": [
+        3,
+        4,
+        11,
+        12,
+        18,
+        21,
+        23,
+        27,
+        28,
+        33,
+        34,
+        36
+      ],
+      "q1_status": "OPTIMAL",
+      "wall_s": 0.0323,
+      "branches": 0,
+      "conflicts": 0,
+      "solution": {
+        "removed_indices": [
+          3,
+          4,
+          11,
+          12,
+          18,
+          21,
+          23,
+          27,
+          28,
+          33,
+          34,
+          36
+        ],
+        "removed_edges": [
+          [
+            1,
+            31
+          ],
+          [
+            2,
+            20
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            6,
+            17
+          ],
+          [
+            9,
+            35
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            12,
+            36
+          ],
+          [
+            16,
+            28
+          ],
+          [
+            16,
+            30
+          ],
+          [
+            24,
+            34
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            29,
+            35
+          ]
+        ],
+        "chosen_cells": [
+          [
+            30,
+            1
+          ],
+          [
+            28,
+            2
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            16,
+            6
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            12,
+            34
+          ],
+          [
+            13,
+            35
+          ],
+          [
+            29,
+            16
+          ],
+          [
+            26,
+            17
+          ],
+          [
+            20,
+            24
+          ],
+          [
+            36,
+            25
+          ],
+          [
+            31,
+            35
+          ]
+        ],
+        "bad_line_count": 88,
+        "bad_lines": [
+          [
+            1,
+            -12,
+            -407
+          ],
+          [
+            1,
+            -12,
+            -396
+          ],
+          [
+            1,
+            -8,
+            -450
+          ],
+          [
+            1,
+            -8,
+            -61
+          ],
+          [
+            1,
+            -2,
+            -88
+          ],
+          [
+            1,
+            -2,
+            -77
+          ],
+          [
+            1,
+            -2,
+            -39
+          ],
+          [
+            1,
+            -2,
+            -34
+          ],
+          [
+            1,
+            -2,
+            4
+          ],
+          [
+            1,
+            -2,
+            15
+          ],
+          [
+            1,
+            2,
+            61
+          ],
+          [
+            1,
+            2,
+            99
+          ],
+          [
+            1,
+            2,
+            120
+          ],
+          [
+            1,
+            2,
+            158
+          ],
+          [
+            1,
+            3,
+            77
+          ],
+          [
+            1,
+            3,
+            215
+          ],
+          [
+            1,
+            4,
+            173
+          ],
+          [
+            1,
+            4,
+            192
+          ],
+          [
+            1,
+            9,
+            318
+          ],
+          [
+            1,
+            9,
+            412
+          ],
+          [
+            1,
+            10,
+            101
+          ],
+          [
+            1,
+            10,
+            702
+          ],
+          [
+            2,
+            -15,
+            -486
+          ],
+          [
+            2,
+            -15,
+            -463
+          ],
+          [
+            2,
+            -1,
+            -12
+          ],
+          [
+            2,
+            -1,
+            26
+          ],
+          [
+            2,
+            -1,
+            47
+          ],
+          [
+            2,
+            -1,
+            85
+          ],
+          [
+            2,
+            1,
+            58
+          ],
+          [
+            2,
+            1,
+            69
+          ],
+          [
+            2,
+            1,
+            107
+          ],
+          [
+            2,
+            1,
+            112
+          ],
+          [
+            2,
+            1,
+            150
+          ],
+          [
+            2,
+            1,
+            161
+          ],
+          [
+            2,
+            3,
+            161
+          ],
+          [
+            2,
+            3,
+            204
+          ],
+          [
+            2,
+            5,
+            138
+          ],
+          [
+            2,
+            5,
+            373
+          ],
+          [
+            3,
+            -2,
+            15
+          ],
+          [
+            3,
+            -2,
+            58
+          ],
+          [
+            3,
+            -1,
+            4
+          ],
+          [
+            3,
+            -1,
+            142
+          ],
+          [
+            3,
+            5,
+            268
+          ],
+          [
+            3,
+            5,
+            316
+          ],
+          [
+            4,
+            -5,
+            -169
+          ],
+          [
+            4,
+            -5,
+            96
+          ],
+          [
+            4,
+            -1,
+            100
+          ],
+          [
+            4,
+            -1,
+            119
+          ],
+          [
+            5,
+            -3,
+            49
+          ],
+          [
+            5,
+            -3,
+            97
+          ],
+          [
+            5,
+            -2,
+            -8
+          ],
+          [
+            5,
+            -2,
+            227
+          ],
+          [
+            5,
+            4,
+            196
+          ],
+          [
+            5,
+            4,
+            461
+          ],
+          [
+            5,
+            21,
+            487
+          ],
+          [
+            5,
+            21,
+            1411
+          ],
+          [
+            6,
+            -7,
+            -227
+          ],
+          [
+            6,
+            -7,
+            154
+          ],
+          [
+            7,
+            6,
+            284
+          ],
+          [
+            7,
+            6,
+            665
+          ],
+          [
+            8,
+            1,
+            134
+          ],
+          [
+            8,
+            1,
+            523
+          ],
+          [
+            8,
+            11,
+            612
+          ],
+          [
+            8,
+            11,
+            775
+          ],
+          [
+            9,
+            -1,
+            245
+          ],
+          [
+            9,
+            -1,
+            339
+          ],
+          [
+            10,
+            -1,
+            28
+          ],
+          [
+            10,
+            -1,
+            629
+          ],
+          [
+            11,
+            -8,
+            28
+          ],
+          [
+            11,
+            -8,
+            191
+          ],
+          [
+            12,
+            1,
+            469
+          ],
+          [
+            12,
+            1,
+            480
+          ],
+          [
+            14,
+            -17,
+            -561
+          ],
+          [
+            14,
+            -17,
+            342
+          ],
+          [
+            15,
+            -16,
+            -217
+          ],
+          [
+            15,
+            -16,
+            144
+          ],
+          [
+            15,
+            2,
+            609
+          ],
+          [
+            15,
+            2,
+            632
+          ],
+          [
+            16,
+            15,
+            951
+          ],
+          [
+            16,
+            15,
+            1312
+          ],
+          [
+            17,
+            14,
+            680
+          ],
+          [
+            17,
+            14,
+            1583
+          ],
+          [
+            17,
+            24,
+            1313
+          ],
+          [
+            17,
+            24,
+            1680
+          ],
+          [
+            21,
+            -5,
+            122
+          ],
+          [
+            21,
+            -5,
+            1046
+          ],
+          [
+            24,
+            -17,
+            72
+          ],
+          [
+            24,
+            -17,
+            439
+          ]
+        ],
+        "exact": false,
+        "points": null
+      }
+    },
+    {
+      "base": "v40_03",
+      "mask": 94902950024,
+      "removed_indices": [
+        3,
+        7,
+        11,
+        12,
+        19,
+        21,
+        23,
+        27,
+        28,
+        33,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.025,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 94906619984,
+      "removed_indices": [
+        4,
+        6,
+        11,
+        12,
+        21,
+        22,
+        23,
+        27,
+        28,
+        33,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0262,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 96915689804,
+      "removed_indices": [
+        2,
+        3,
+        6,
+        8,
+        12,
+        21,
+        23,
+        28,
+        31,
+        33,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0352,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_03",
+      "mask": 97855735888,
+      "removed_indices": [
+        4,
+        6,
+        11,
+        19,
+        21,
+        23,
+        27,
+        30,
+        31,
+        33,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0342,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 2367772772,
+      "removed_indices": [
+        2,
+        5,
+        6,
+        11,
+        12,
+        14,
+        16,
+        21,
+        24,
+        26,
+        27,
+        31
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0227,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 2904561765,
+      "removed_indices": [
+        0,
+        2,
+        5,
+        6,
+        11,
+        12,
+        21,
+        24,
+        26,
+        27,
+        29,
+        31
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0226,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 3290716848,
+      "removed_indices": [
+        4,
+        5,
+        7,
+        9,
+        11,
+        12,
+        14,
+        18,
+        21,
+        26,
+        30,
+        31
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.025,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 3424737380,
+      "removed_indices": [
+        2,
+        5,
+        6,
+        11,
+        12,
+        14,
+        16,
+        21,
+        26,
+        27,
+        30,
+        31
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0237,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 7653109024,
+      "removed_indices": [
+        5,
+        8,
+        10,
+        11,
+        13,
+        16,
+        19,
+        21,
+        27,
+        30,
+        31,
+        32
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0228,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 7653109280,
+      "removed_indices": [
+        5,
+        9,
+        10,
+        11,
+        13,
+        16,
+        19,
+        21,
+        27,
+        30,
+        31,
+        32
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0221,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 10897939008,
+      "removed_indices": [
+        6,
+        9,
+        11,
+        12,
+        14,
+        16,
+        20,
+        23,
+        24,
+        27,
+        31,
+        33
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0227,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 11168389264,
+      "removed_indices": [
+        4,
+        7,
+        11,
+        12,
+        20,
+        21,
+        23,
+        24,
+        27,
+        28,
+        31,
+        33
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0226,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 11168454672,
+      "removed_indices": [
+        4,
+        11,
+        12,
+        16,
+        20,
+        21,
+        23,
+        24,
+        27,
+        28,
+        31,
+        33
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0225,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 34399939120,
+      "removed_indices": [
+        4,
+        5,
+        9,
+        11,
+        13,
+        14,
+        16,
+        18,
+        21,
+        22,
+        25,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.023,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 34601256996,
+      "removed_indices": [
+        2,
+        5,
+        11,
+        14,
+        16,
+        18,
+        21,
+        22,
+        25,
+        26,
+        27,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.024,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 34740126228,
+      "removed_indices": [
+        2,
+        4,
+        9,
+        14,
+        18,
+        19,
+        21,
+        23,
+        25,
+        26,
+        28,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0253,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 34740126276,
+      "removed_indices": [
+        2,
+        6,
+        9,
+        14,
+        18,
+        19,
+        21,
+        23,
+        25,
+        26,
+        28,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0257,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 34740126340,
+      "removed_indices": [
+        2,
+        7,
+        9,
+        14,
+        18,
+        19,
+        21,
+        23,
+        25,
+        26,
+        28,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0233,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 36513868576,
+      "removed_indices": [
+        5,
+        8,
+        9,
+        11,
+        13,
+        14,
+        16,
+        18,
+        21,
+        22,
+        31,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.032,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 36710733988,
+      "removed_indices": [
+        2,
+        5,
+        7,
+        11,
+        12,
+        14,
+        16,
+        21,
+        26,
+        27,
+        31,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0219,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 36711175396,
+      "removed_indices": [
+        2,
+        5,
+        6,
+        7,
+        10,
+        12,
+        19,
+        21,
+        26,
+        27,
+        31,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0262,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 36727444644,
+      "removed_indices": [
+        2,
+        5,
+        7,
+        10,
+        12,
+        14,
+        21,
+        24,
+        26,
+        27,
+        31,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0216,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 36727951588,
+      "removed_indices": [
+        2,
+        5,
+        6,
+        7,
+        12,
+        19,
+        21,
+        24,
+        26,
+        27,
+        31,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0209,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 37650438817,
+      "removed_indices": [
+        0,
+        5,
+        7,
+        9,
+        11,
+        12,
+        18,
+        21,
+        26,
+        30,
+        31,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0228,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 39026697732,
+      "removed_indices": [
+        2,
+        9,
+        10,
+        13,
+        18,
+        19,
+        21,
+        25,
+        26,
+        28,
+        32,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0238,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 39026699776,
+      "removed_indices": [
+        9,
+        10,
+        11,
+        13,
+        18,
+        19,
+        21,
+        25,
+        26,
+        28,
+        32,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0295,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 39030892032,
+      "removed_indices": [
+        9,
+        10,
+        13,
+        18,
+        19,
+        21,
+        22,
+        25,
+        26,
+        28,
+        32,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0309,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 39093889024,
+      "removed_indices": [
+        11,
+        13,
+        14,
+        16,
+        18,
+        19,
+        21,
+        25,
+        27,
+        28,
+        32,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0243,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 39102204032,
+      "removed_indices": [
+        7,
+        11,
+        14,
+        18,
+        19,
+        21,
+        23,
+        25,
+        27,
+        28,
+        32,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0228,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 39160915456,
+      "removed_indices": [
+        9,
+        10,
+        13,
+        18,
+        19,
+        21,
+        25,
+        26,
+        27,
+        28,
+        32,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0234,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 39563308544,
+      "removed_indices": [
+        9,
+        10,
+        11,
+        13,
+        19,
+        21,
+        25,
+        26,
+        28,
+        29,
+        32,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0227,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 41828229152,
+      "removed_indices": [
+        5,
+        13,
+        19,
+        21,
+        24,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0243,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 43397218944,
+      "removed_indices": [
+        7,
+        9,
+        16,
+        18,
+        19,
+        21,
+        23,
+        25,
+        27,
+        28,
+        33,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0219,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 45242472576,
+      "removed_indices": [
+        7,
+        11,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        27,
+        31,
+        33,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0282,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 51601035396,
+      "removed_indices": [
+        2,
+        7,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        24,
+        25,
+        34,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0259,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 51651633216,
+      "removed_indices": [
+        6,
+        13,
+        14,
+        16,
+        18,
+        19,
+        21,
+        23,
+        25,
+        26,
+        34,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0239,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 52921827620,
+      "removed_indices": [
+        2,
+        5,
+        8,
+        16,
+        17,
+        21,
+        22,
+        25,
+        28,
+        30,
+        34,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0237,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 54025404768,
+      "removed_indices": [
+        5,
+        6,
+        8,
+        14,
+        17,
+        19,
+        21,
+        26,
+        28,
+        31,
+        34,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.024,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 54091927844,
+      "removed_indices": [
+        2,
+        5,
+        8,
+        12,
+        14,
+        16,
+        21,
+        27,
+        28,
+        31,
+        34,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0238,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 54293700964,
+      "removed_indices": [
+        2,
+        5,
+        6,
+        8,
+        13,
+        19,
+        21,
+        26,
+        29,
+        31,
+        34,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0246,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 54560164448,
+      "removed_indices": [
+        5,
+        6,
+        9,
+        11,
+        17,
+        19,
+        26,
+        28,
+        29,
+        31,
+        34,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.023,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 58793722148,
+      "removed_indices": [
+        2,
+        5,
+        8,
+        16,
+        21,
+        22,
+        28,
+        29,
+        31,
+        32,
+        34,
+        35
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0295,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 70433384996,
+      "removed_indices": [
+        2,
+        5,
+        9,
+        11,
+        13,
+        19,
+        21,
+        25,
+        26,
+        29,
+        30,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.025,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 70957165152,
+      "removed_indices": [
+        5,
+        6,
+        9,
+        11,
+        13,
+        14,
+        21,
+        22,
+        24,
+        26,
+        31,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0291,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 76640491560,
+      "removed_indices": [
+        3,
+        5,
+        11,
+        12,
+        16,
+        21,
+        27,
+        28,
+        30,
+        31,
+        32,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0245,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 87281437220,
+      "removed_indices": [
+        2,
+        5,
+        9,
+        11,
+        16,
+        21,
+        22,
+        25,
+        28,
+        30,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0243,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 89122756657,
+      "removed_indices": [
+        0,
+        4,
+        5,
+        11,
+        12,
+        14,
+        16,
+        21,
+        30,
+        31,
+        34,
+        36
+      ],
+      "q1_status": "OPTIMAL",
+      "wall_s": 0.0456,
+      "branches": 0,
+      "conflicts": 0,
+      "solution": {
+        "removed_indices": [
+          0,
+          4,
+          5,
+          11,
+          12,
+          14,
+          16,
+          21,
+          30,
+          31,
+          34,
+          36
+        ],
+        "removed_edges": [
+          [
+            0,
+            30
+          ],
+          [
+            2,
+            23
+          ],
+          [
+            2,
+            36
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            6,
+            17
+          ],
+          [
+            7,
+            28
+          ],
+          [
+            8,
+            25
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            20,
+            26
+          ],
+          [
+            20,
+            27
+          ],
+          [
+            24,
+            34
+          ],
+          [
+            29,
+            35
+          ]
+        ],
+        "chosen_cells": [
+          [
+            0,
+            34
+          ],
+          [
+            2,
+            17
+          ],
+          [
+            28,
+            2
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            13,
+            6
+          ],
+          [
+            35,
+            7
+          ],
+          [
+            24,
+            8
+          ],
+          [
+            20,
+            22
+          ],
+          [
+            30,
+            20
+          ],
+          [
+            29,
+            23
+          ],
+          [
+            26,
+            25
+          ],
+          [
+            27,
+            36
+          ]
+        ],
+        "bad_line_count": 64,
+        "bad_lines": [
+          [
+            1,
+            -9,
+            -433
+          ],
+          [
+            1,
+            -9,
+            -151
+          ],
+          [
+            1,
+            -4,
+            -145
+          ],
+          [
+            1,
+            -4,
+            -74
+          ],
+          [
+            1,
+            -3,
+            -116
+          ],
+          [
+            1,
+            -3,
+            -109
+          ],
+          [
+            1,
+            -3,
+            -102
+          ],
+          [
+            1,
+            -3,
+            -44
+          ],
+          [
+            1,
+            -3,
+            -37
+          ],
+          [
+            1,
+            -3,
+            -30
+          ],
+          [
+            1,
+            2,
+            91
+          ],
+          [
+            1,
+            2,
+            128
+          ],
+          [
+            1,
+            3,
+            137
+          ],
+          [
+            1,
+            3,
+            155
+          ],
+          [
+            2,
+            -1,
+            18
+          ],
+          [
+            2,
+            -1,
+            55
+          ],
+          [
+            2,
+            3,
+            127
+          ],
+          [
+            2,
+            3,
+            162
+          ],
+          [
+            2,
+            3,
+            203
+          ],
+          [
+            2,
+            3,
+            238
+          ],
+          [
+            3,
+            -4,
+            -113
+          ],
+          [
+            3,
+            -4,
+            40
+          ],
+          [
+            3,
+            -2,
+            -19
+          ],
+          [
+            3,
+            -2,
+            16
+          ],
+          [
+            3,
+            -2,
+            57
+          ],
+          [
+            3,
+            -2,
+            92
+          ],
+          [
+            3,
+            -1,
+            64
+          ],
+          [
+            3,
+            -1,
+            82
+          ],
+          [
+            3,
+            1,
+            103
+          ],
+          [
+            3,
+            1,
+            110
+          ],
+          [
+            3,
+            1,
+            117
+          ],
+          [
+            3,
+            1,
+            175
+          ],
+          [
+            3,
+            1,
+            182
+          ],
+          [
+            3,
+            1,
+            189
+          ],
+          [
+            3,
+            5,
+            170
+          ],
+          [
+            3,
+            5,
+            414
+          ],
+          [
+            3,
+            13,
+            549
+          ],
+          [
+            3,
+            13,
+            619
+          ],
+          [
+            4,
+            1,
+            147
+          ],
+          [
+            4,
+            1,
+            218
+          ],
+          [
+            4,
+            3,
+            179
+          ],
+          [
+            4,
+            3,
+            332
+          ],
+          [
+            5,
+            -3,
+            -49
+          ],
+          [
+            5,
+            -3,
+            195
+          ],
+          [
+            6,
+            7,
+            446
+          ],
+          [
+            6,
+            7,
+            503
+          ],
+          [
+            7,
+            -6,
+            8
+          ],
+          [
+            7,
+            -6,
+            65
+          ],
+          [
+            9,
+            -26,
+            -1202
+          ],
+          [
+            9,
+            -26,
+            -39
+          ],
+          [
+            9,
+            -20,
+            -680
+          ],
+          [
+            9,
+            -20,
+            -123
+          ],
+          [
+            9,
+            1,
+            224
+          ],
+          [
+            9,
+            1,
+            506
+          ],
+          [
+            11,
+            -14,
+            -216
+          ],
+          [
+            11,
+            -14,
+            -3
+          ],
+          [
+            13,
+            -3,
+            330
+          ],
+          [
+            13,
+            -3,
+            400
+          ],
+          [
+            14,
+            11,
+            806
+          ],
+          [
+            14,
+            11,
+            1019
+          ],
+          [
+            20,
+            9,
+            780
+          ],
+          [
+            20,
+            9,
+            1337
+          ],
+          [
+            26,
+            9,
+            696
+          ],
+          [
+            26,
+            9,
+            1859
+          ]
+        ],
+        "exact": false,
+        "points": null
+      }
+    },
+    {
+      "base": "v40_04",
+      "mask": 89259052328,
+      "removed_indices": [
+        3,
+        5,
+        8,
+        10,
+        11,
+        16,
+        22,
+        27,
+        30,
+        31,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0212,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 93686143024,
+      "removed_indices": [
+        4,
+        5,
+        11,
+        12,
+        16,
+        21,
+        28,
+        30,
+        31,
+        32,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0214,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 94223013920,
+      "removed_indices": [
+        5,
+        11,
+        12,
+        16,
+        21,
+        28,
+        29,
+        30,
+        31,
+        32,
+        34,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0241,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_04",
+      "mask": 131042710544,
+      "removed_indices": [
+        4,
+        10,
+        12,
+        16,
+        22,
+        23,
+        25,
+        31,
+        33,
+        34,
+        35,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0273,
+      "branches": 0,
+      "conflicts": 0
+    }
+  ]
+}

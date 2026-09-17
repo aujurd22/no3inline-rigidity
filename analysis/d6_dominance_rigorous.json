@@ -1,0 +1,135 @@
+{
+  "D6": [
+    [
+      3,
+      -1
+    ],
+    [
+      1,
+      -3
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      -1
+    ]
+  ],
+  "note": "genuine = 3 distinct orbits each contributing a point to a common grid line",
+  "rows": [
+    {
+      "n": 12,
+      "orbits": 72,
+      "genuine_total": 4978,
+      "genuine_counted": 4978,
+      "all": {
+        "D": 3134,
+        "S": 1844
+      },
+      "center": {
+        "D": 40
+      },
+      "offcentre": {
+        "D": 3094,
+        "S": 1844
+      }
+    },
+    {
+      "n": 16,
+      "orbits": 128,
+      "genuine_total": 18760,
+      "genuine_counted": 18760,
+      "all": {
+        "D": 9924,
+        "S": 8836
+      },
+      "center": {
+        "D": 116
+      },
+      "offcentre": {
+        "D": 9808,
+        "S": 8836
+      }
+    },
+    {
+      "n": 20,
+      "orbits": 200,
+      "genuine_total": 51386,
+      "genuine_counted": 51386,
+      "all": {
+        "D": 21326,
+        "S": 30060
+      },
+      "center": {
+        "D": 244
+      },
+      "offcentre": {
+        "D": 21082,
+        "S": 30060
+      }
+    },
+    {
+      "n": 24,
+      "orbits": 288,
+      "genuine_total": 116080,
+      "genuine_counted": 116080,
+      "all": {
+        "D": 42608,
+        "S": 73472
+      },
+      "center": {
+        "D": 456
+      },
+      "offcentre": {
+        "D": 42152,
+        "S": 73472
+      }
+    },
+    {
+      "n": 28,
+      "orbits": 392,
+      "genuine_total": 230070,
+      "genuine_counted": 230070,
+      "all": {
+        "D": 75326,
+        "S": 154744
+      },
+      "center": {
+        "D": 768,
+        "S": 8
+      },
+      "offcentre": {
+        "D": 74558,
+        "S": 154736
+      }
+    },
+    {
+      "n": 32,
+      "orbits": 512,
+      "genuine_total": 414712,
+      "genuine_counted": 414712,
+      "all": {
+        "D": 115588,
+        "S": 299124
+      },
+      "center": {
+        "D": 1160,
+        "S": 8
+      },
+      "offcentre": {
+        "D": 114428,
+        "S": 299116
+      }
+    }
+  ]
+}

@@ -1,0 +1,2952 @@
+{
+  "method": "corrected direct fixed-(k,A) multigraph q=0 enumeration",
+  "k_range": [
+    5,
+    10
+  ],
+  "bases": [
+    "v40_01",
+    "v40_02",
+    "v40_03",
+    "v40_04"
+  ],
+  "workers": 4,
+  "per_k": [
+    {
+      "k": 5,
+      "expected_all_masks": 1743588,
+      "audited_all_masks": 1743588,
+      "coverage_exact": true,
+      "defect_hitting_masks": 3,
+      "q0_factor_feasible_masks": 0
+    },
+    {
+      "k": 6,
+      "expected_all_masks": 9299136,
+      "audited_all_masks": 9299136,
+      "coverage_exact": true,
+      "defect_hitting_masks": 330,
+      "q0_factor_feasible_masks": 0
+    },
+    {
+      "k": 7,
+      "expected_all_masks": 41181888,
+      "audited_all_masks": 41181888,
+      "coverage_exact": true,
+      "defect_hitting_masks": 8914,
+      "q0_factor_feasible_masks": 0
+    },
+    {
+      "k": 8,
+      "expected_all_masks": 154432080,
+      "audited_all_masks": 154432080,
+      "coverage_exact": true,
+      "defect_hitting_masks": 126193,
+      "q0_factor_feasible_masks": 0
+    },
+    {
+      "k": 9,
+      "expected_all_masks": 497614480,
+      "audited_all_masks": 497614480,
+      "coverage_exact": true,
+      "defect_hitting_masks": 1161333,
+      "q0_factor_feasible_masks": 0
+    },
+    {
+      "k": 10,
+      "expected_all_masks": 1393320544,
+      "audited_all_masks": 1393320544,
+      "coverage_exact": true,
+      "defect_hitting_masks": 7695676,
+      "q0_factor_feasible_masks": 0
+    }
+  ],
+  "records": [
+    {
+      "base": "v40_01",
+      "A": 0,
+      "distinct_shape_masks": 232841,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.753,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k5_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k5_a0_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_02",
+      "A": 0,
+      "distinct_shape_masks": 232841,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.752,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k5_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k5_a0_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_03",
+      "A": 0,
+      "distinct_shape_masks": 232870,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.706,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k5_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k5_a0_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_04",
+      "A": 0,
+      "distinct_shape_masks": 232870,
+      "defect_hitting_masks": 3,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.657,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k5_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k5_a0_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_01",
+      "A": 1,
+      "distinct_shape_masks": 166315,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.891,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k5_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k5_a1_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_02",
+      "A": 1,
+      "distinct_shape_masks": 166315,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.864,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k5_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k5_a1_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_03",
+      "A": 1,
+      "distinct_shape_masks": 166199,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.858,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k5_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k5_a1_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_04",
+      "A": 1,
+      "distinct_shape_masks": 166199,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.847,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k5_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k5_a1_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_01",
+      "A": 2,
+      "distinct_shape_masks": 34410,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.707,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k5_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k5_a2_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_02",
+      "A": 2,
+      "distinct_shape_masks": 34410,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.714,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k5_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k5_a2_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_03",
+      "A": 2,
+      "distinct_shape_masks": 34584,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.707,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k5_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k5_a2_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_04",
+      "A": 2,
+      "distinct_shape_masks": 34584,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.707,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k5_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k5_a2_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_01",
+      "A": 3,
+      "distinct_shape_masks": 2294,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.778,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k5_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k5_a3_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_02",
+      "A": 3,
+      "distinct_shape_masks": 2294,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.775,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k5_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k5_a3_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_03",
+      "A": 3,
+      "distinct_shape_masks": 2178,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.852,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k5_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k5_a3_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_04",
+      "A": 3,
+      "distinct_shape_masks": 2178,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.761,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k5_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k5_a3_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_01",
+      "A": 4,
+      "distinct_shape_masks": 37,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.724,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k5_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k5_a4_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_02",
+      "A": 4,
+      "distinct_shape_masks": 37,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.714,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k5_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k5_a4_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_03",
+      "A": 4,
+      "distinct_shape_masks": 66,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.688,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k5_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k5_a4_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_04",
+      "A": 4,
+      "distinct_shape_masks": 66,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.718,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k5_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k5_a4_q0.json"
+      ],
+      "k": 5
+    },
+    {
+      "base": "v40_01",
+      "A": 0,
+      "distinct_shape_masks": 878787,
+      "defect_hitting_masks": 39,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.064,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k6_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k6_a0_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_02",
+      "A": 0,
+      "distinct_shape_masks": 878787,
+      "defect_hitting_masks": 9,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.06,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k6_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k6_a0_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_03",
+      "A": 0,
+      "distinct_shape_masks": 879164,
+      "defect_hitting_masks": 21,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.156,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k6_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k6_a0_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_04",
+      "A": 0,
+      "distinct_shape_masks": 879164,
+      "defect_hitting_masks": 96,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.749,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k6_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k6_a0_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_01",
+      "A": 1,
+      "distinct_shape_masks": 1013985,
+      "defect_hitting_masks": 20,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.122,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k6_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k6_a1_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_02",
+      "A": 1,
+      "distinct_shape_masks": 1013985,
+      "defect_hitting_masks": 14,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.107,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k6_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k6_a1_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_03",
+      "A": 1,
+      "distinct_shape_masks": 1012506,
+      "defect_hitting_masks": 31,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.994,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k6_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k6_a1_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_04",
+      "A": 1,
+      "distinct_shape_masks": 1012506,
+      "defect_hitting_masks": 64,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.815,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k6_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k6_a1_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_01",
+      "A": 2,
+      "distinct_shape_masks": 375550,
+      "defect_hitting_masks": 12,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.831,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k6_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k6_a2_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_02",
+      "A": 2,
+      "distinct_shape_masks": 375550,
+      "defect_hitting_masks": 1,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.813,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k6_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k6_a2_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_03",
+      "A": 2,
+      "distinct_shape_masks": 377696,
+      "defect_hitting_masks": 8,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.768,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k6_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k6_a2_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_04",
+      "A": 2,
+      "distinct_shape_masks": 377696,
+      "defect_hitting_masks": 10,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.686,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k6_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k6_a2_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_01",
+      "A": 3,
+      "distinct_shape_masks": 53650,
+      "defect_hitting_masks": 4,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.651,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k6_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k6_a3_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_02",
+      "A": 3,
+      "distinct_shape_masks": 53650,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.677,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k6_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k6_a3_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_03",
+      "A": 3,
+      "distinct_shape_masks": 52316,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.673,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k6_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k6_a3_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_04",
+      "A": 3,
+      "distinct_shape_masks": 52316,
+      "defect_hitting_masks": 1,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.669,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k6_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k6_a3_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_01",
+      "A": 4,
+      "distinct_shape_masks": 2775,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.716,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k6_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k6_a4_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_02",
+      "A": 4,
+      "distinct_shape_masks": 2775,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.671,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k6_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k6_a4_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_03",
+      "A": 4,
+      "distinct_shape_masks": 3036,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.703,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k6_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k6_a4_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_04",
+      "A": 4,
+      "distinct_shape_masks": 3036,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.678,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k6_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k6_a4_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_01",
+      "A": 5,
+      "distinct_shape_masks": 37,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.6,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k6_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k6_a5_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_02",
+      "A": 5,
+      "distinct_shape_masks": 37,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.615,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k6_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k6_a5_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_03",
+      "A": 5,
+      "distinct_shape_masks": 66,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.639,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k6_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k6_a5_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_04",
+      "A": 5,
+      "distinct_shape_masks": 66,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.614,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k6_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k6_a5_q0.json"
+      ],
+      "k": 6
+    },
+    {
+      "base": "v40_01",
+      "A": 0,
+      "distinct_shape_masks": 2510820,
+      "defect_hitting_masks": 766,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.748,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k7_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k7_a0_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_02",
+      "A": 0,
+      "distinct_shape_masks": 2510820,
+      "defect_hitting_masks": 216,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.725,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k7_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k7_a0_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_03",
+      "A": 0,
+      "distinct_shape_masks": 2513720,
+      "defect_hitting_masks": 523,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.221,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k7_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k7_a0_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_04",
+      "A": 0,
+      "distinct_shape_masks": 2513720,
+      "defect_hitting_masks": 1216,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.659,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k7_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k7_a0_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_01",
+      "A": 1,
+      "distinct_shape_masks": 4393935,
+      "defect_hitting_masks": 784,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 2.345,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k7_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k7_a1_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_02",
+      "A": 1,
+      "distinct_shape_masks": 4393935,
+      "defect_hitting_masks": 441,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 2.392,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k7_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k7_a1_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_03",
+      "A": 1,
+      "distinct_shape_masks": 4383060,
+      "defect_hitting_masks": 997,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.557,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k7_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k7_a1_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_04",
+      "A": 1,
+      "distinct_shape_masks": 4383060,
+      "defect_hitting_masks": 1637,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.892,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k7_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k7_a1_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_01",
+      "A": 2,
+      "distinct_shape_masks": 2636361,
+      "defect_hitting_masks": 504,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.504,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k7_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k7_a2_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_02",
+      "A": 2,
+      "distinct_shape_masks": 2636361,
+      "defect_hitting_masks": 177,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.439,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k7_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k7_a2_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_03",
+      "A": 2,
+      "distinct_shape_masks": 2650890,
+      "defect_hitting_masks": 530,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.123,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k7_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k7_a2_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_04",
+      "A": 2,
+      "distinct_shape_masks": 2650890,
+      "defect_hitting_masks": 698,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.659,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k7_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k7_a2_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_01",
+      "A": 3,
+      "distinct_shape_masks": 675990,
+      "defect_hitting_masks": 183,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.82,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k7_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k7_a3_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_02",
+      "A": 3,
+      "distinct_shape_masks": 675990,
+      "defect_hitting_masks": 16,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.829,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k7_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k7_a3_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_03",
+      "A": 3,
+      "distinct_shape_masks": 668624,
+      "defect_hitting_masks": 71,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.742,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k7_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k7_a3_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_04",
+      "A": 3,
+      "distinct_shape_masks": 668624,
+      "defect_hitting_masks": 105,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.631,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k7_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k7_a3_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_01",
+      "A": 4,
+      "distinct_shape_masks": 75110,
+      "defect_hitting_masks": 25,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.649,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k7_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k7_a4_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_02",
+      "A": 4,
+      "distinct_shape_masks": 75110,
+      "defect_hitting_masks": 2,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.624,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k7_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k7_a4_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_03",
+      "A": 4,
+      "distinct_shape_masks": 75284,
+      "defect_hitting_masks": 9,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.631,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k7_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k7_a4_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_04",
+      "A": 4,
+      "distinct_shape_masks": 75284,
+      "defect_hitting_masks": 10,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.635,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k7_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k7_a4_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_01",
+      "A": 5,
+      "distinct_shape_masks": 3219,
+      "defect_hitting_masks": 3,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.645,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k7_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k7_a5_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_02",
+      "A": 5,
+      "distinct_shape_masks": 3219,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.629,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k7_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k7_a5_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_03",
+      "A": 5,
+      "distinct_shape_masks": 3828,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.663,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k7_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k7_a5_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_04",
+      "A": 5,
+      "distinct_shape_masks": 3828,
+      "defect_hitting_masks": 1,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.661,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k7_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k7_a5_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_01",
+      "A": 6,
+      "distinct_shape_masks": 37,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.757,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k7_a6_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k7_a6_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_02",
+      "A": 6,
+      "distinct_shape_masks": 37,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.73,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k7_a6_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k7_a6_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_03",
+      "A": 6,
+      "distinct_shape_masks": 66,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.756,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k7_a6_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k7_a6_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_04",
+      "A": 6,
+      "distinct_shape_masks": 66,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.73,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k7_a6_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k7_a6_q0.json"
+      ],
+      "k": 7
+    },
+    {
+      "base": "v40_01",
+      "A": 0,
+      "distinct_shape_masks": 5476185,
+      "defect_hitting_masks": 6457,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 3.414,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k8_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k8_a0_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_02",
+      "A": 0,
+      "distinct_shape_masks": 5476185,
+      "defect_hitting_masks": 2073,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 3.4,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k8_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k8_a0_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_03",
+      "A": 0,
+      "distinct_shape_masks": 5490859,
+      "defect_hitting_masks": 5003,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.995,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k8_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k8_a0_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_04",
+      "A": 0,
+      "distinct_shape_masks": 5490859,
+      "defect_hitting_masks": 8350,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.809,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k8_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k8_a0_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_01",
+      "A": 1,
+      "distinct_shape_masks": 13939380,
+      "defect_hitting_masks": 11107,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 7.134,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k8_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k8_a1_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_02",
+      "A": 1,
+      "distinct_shape_masks": 13939380,
+      "defect_hitting_masks": 5932,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 7.152,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k8_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k8_a1_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_03",
+      "A": 1,
+      "distinct_shape_masks": 13888688,
+      "defect_hitting_masks": 13364,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 3.514,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k8_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k8_a1_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_04",
+      "A": 1,
+      "distinct_shape_masks": 13888688,
+      "defect_hitting_masks": 18129,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.796,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k8_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k8_a1_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_01",
+      "A": 2,
+      "distinct_shape_masks": 12727260,
+      "defect_hitting_masks": 9521,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 6.533,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k8_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k8_a2_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_02",
+      "A": 2,
+      "distinct_shape_masks": 12727260,
+      "defect_hitting_masks": 4584,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 6.521,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k8_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k8_a2_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_03",
+      "A": 2,
+      "distinct_shape_masks": 12784332,
+      "defect_hitting_masks": 11473,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 3.432,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k8_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k8_a2_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_04",
+      "A": 2,
+      "distinct_shape_masks": 12784332,
+      "defect_hitting_masks": 13845,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.921,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k8_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k8_a2_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_01",
+      "A": 3,
+      "distinct_shape_masks": 5303025,
+      "defect_hitting_masks": 4412,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 2.189,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k8_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k8_a3_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_02",
+      "A": 3,
+      "distinct_shape_masks": 5303025,
+      "defect_hitting_masks": 1265,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 2.127,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k8_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k8_a3_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_03",
+      "A": 3,
+      "distinct_shape_masks": 5288206,
+      "defect_hitting_masks": 3564,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.526,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k8_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k8_a3_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_04",
+      "A": 3,
+      "distinct_shape_masks": 5288206,
+      "defect_hitting_masks": 4351,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.645,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k8_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k8_a3_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_01",
+      "A": 4,
+      "distinct_shape_masks": 1060605,
+      "defect_hitting_masks": 1049,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.865,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k8_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k8_a4_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_02",
+      "A": 4,
+      "distinct_shape_masks": 1060605,
+      "defect_hitting_masks": 195,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.844,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k8_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k8_a4_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_03",
+      "A": 4,
+      "distinct_shape_masks": 1049411,
+      "defect_hitting_masks": 572,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.786,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k8_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k8_a4_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_04",
+      "A": 4,
+      "distinct_shape_masks": 1049411,
+      "defect_hitting_masks": 617,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.624,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k8_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k8_a4_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_01",
+      "A": 5,
+      "distinct_shape_masks": 97902,
+      "defect_hitting_masks": 162,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.751,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k8_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k8_a5_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_02",
+      "A": 5,
+      "distinct_shape_masks": 97902,
+      "defect_hitting_masks": 10,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.729,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k8_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k8_a5_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_03",
+      "A": 5,
+      "distinct_shape_masks": 101904,
+      "defect_hitting_masks": 62,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.733,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k8_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k8_a5_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_04",
+      "A": 5,
+      "distinct_shape_masks": 101904,
+      "defect_hitting_masks": 74,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.735,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k8_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k8_a5_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_01",
+      "A": 6,
+      "distinct_shape_masks": 3626,
+      "defect_hitting_masks": 14,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.739,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k8_a6_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k8_a6_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_02",
+      "A": 6,
+      "distinct_shape_masks": 3626,
+      "defect_hitting_masks": 1,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.777,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k8_a6_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k8_a6_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_03",
+      "A": 6,
+      "distinct_shape_masks": 4554,
+      "defect_hitting_masks": 2,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.732,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k8_a6_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k8_a6_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_04",
+      "A": 6,
+      "distinct_shape_masks": 4554,
+      "defect_hitting_masks": 5,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.718,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k8_a6_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k8_a6_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_01",
+      "A": 7,
+      "distinct_shape_masks": 37,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.664,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k8_a7_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k8_a7_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_02",
+      "A": 7,
+      "distinct_shape_masks": 37,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.704,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k8_a7_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k8_a7_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_03",
+      "A": 7,
+      "distinct_shape_masks": 66,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.648,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k8_a7_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k8_a7_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_04",
+      "A": 7,
+      "distinct_shape_masks": 66,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.64,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k8_a7_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k8_a7_q0.json"
+      ],
+      "k": 8
+    },
+    {
+      "base": "v40_01",
+      "A": 0,
+      "distinct_shape_masks": 9126975,
+      "defect_hitting_masks": 30689,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 6.375,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k9_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k9_a0_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_02",
+      "A": 0,
+      "distinct_shape_masks": 9126975,
+      "defect_hitting_masks": 10759,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 6.334,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k9_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k9_a0_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_03",
+      "A": 0,
+      "distinct_shape_masks": 9178334,
+      "defect_hitting_masks": 25527,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 2.725,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k9_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k9_a0_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_04",
+      "A": 0,
+      "distinct_shape_masks": 9178334,
+      "defect_hitting_masks": 35282,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.832,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k9_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k9_a0_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_01",
+      "A": 1,
+      "distinct_shape_masks": 32857110,
+      "defect_hitting_masks": 81704,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 19.745,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k9_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k9_a1_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_02",
+      "A": 1,
+      "distinct_shape_masks": 32857110,
+      "defect_hitting_masks": 43377,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 19.58,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k9_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k9_a1_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_03",
+      "A": 1,
+      "distinct_shape_masks": 32703033,
+      "defect_hitting_masks": 95783,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 8.231,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k9_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k9_a1_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_04",
+      "A": 1,
+      "distinct_shape_masks": 32703033,
+      "defect_hitting_masks": 113503,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.134,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k9_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k9_a1_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_01",
+      "A": 2,
+      "distinct_shape_masks": 43809480,
+      "defect_hitting_masks": 98287,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 27.074,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k9_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k9_a2_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_02",
+      "A": 2,
+      "distinct_shape_masks": 43809480,
+      "defect_hitting_masks": 53997,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 27.053,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k9_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k9_a2_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_03",
+      "A": 2,
+      "distinct_shape_masks": 43926872,
+      "defect_hitting_masks": 124580,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 12.013,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k9_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k9_a2_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_04",
+      "A": 2,
+      "distinct_shape_masks": 43926872,
+      "defect_hitting_masks": 136133,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.262,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k9_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k9_a2_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_01",
+      "A": 3,
+      "distinct_shape_masks": 27878760,
+      "defect_hitting_masks": 63178,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 12.003,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k9_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k9_a3_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_02",
+      "A": 3,
+      "distinct_shape_masks": 27878760,
+      "defect_hitting_masks": 27850,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 12.457,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k9_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k9_a3_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_03",
+      "A": 3,
+      "distinct_shape_masks": 27924116,
+      "defect_hitting_masks": 67383,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 6.197,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k9_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k9_a3_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_04",
+      "A": 3,
+      "distinct_shape_masks": 27924116,
+      "defect_hitting_masks": 74070,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.951,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k9_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k9_a3_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_01",
+      "A": 4,
+      "distinct_shape_masks": 9090900,
+      "defect_hitting_masks": 22072,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 3.105,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k9_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k9_a4_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_02",
+      "A": 4,
+      "distinct_shape_masks": 9090900,
+      "defect_hitting_masks": 7529,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 3.338,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k9_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k9_a4_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_03",
+      "A": 4,
+      "distinct_shape_masks": 9019560,
+      "defect_hitting_masks": 17798,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 2.164,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k9_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k9_a4_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_04",
+      "A": 4,
+      "distinct_shape_masks": 9019560,
+      "defect_hitting_masks": 19140,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.722,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k9_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k9_a4_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_01",
+      "A": 5,
+      "distinct_shape_masks": 1515150,
+      "defect_hitting_masks": 4667,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.938,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k9_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k9_a5_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_02",
+      "A": 5,
+      "distinct_shape_masks": 1515150,
+      "defect_hitting_masks": 1009,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.032,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k9_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k9_a5_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_03",
+      "A": 5,
+      "distinct_shape_masks": 1515701,
+      "defect_hitting_masks": 2882,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.886,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k9_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k9_a5_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_04",
+      "A": 5,
+      "distinct_shape_masks": 1515701,
+      "defect_hitting_masks": 2802,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.658,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k9_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k9_a5_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_01",
+      "A": 6,
+      "distinct_shape_masks": 121212,
+      "defect_hitting_masks": 628,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.648,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k9_a6_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k9_a6_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_02",
+      "A": 6,
+      "distinct_shape_masks": 121212,
+      "defect_hitting_masks": 75,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.626,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k9_a6_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k9_a6_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_03",
+      "A": 6,
+      "distinct_shape_masks": 130724,
+      "defect_hitting_masks": 262,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.632,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k9_a6_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k9_a6_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_04",
+      "A": 6,
+      "distinct_shape_masks": 130724,
+      "defect_hitting_masks": 292,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.714,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k9_a6_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k9_a6_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_01",
+      "A": 7,
+      "distinct_shape_masks": 3996,
+      "defect_hitting_masks": 39,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.685,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k9_a7_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k9_a7_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_02",
+      "A": 7,
+      "distinct_shape_masks": 3996,
+      "defect_hitting_masks": 4,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.737,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k9_a7_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k9_a7_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_03",
+      "A": 7,
+      "distinct_shape_masks": 5214,
+      "defect_hitting_masks": 12,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.763,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k9_a7_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k9_a7_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_04",
+      "A": 7,
+      "distinct_shape_masks": 5214,
+      "defect_hitting_masks": 20,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.662,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k9_a7_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k9_a7_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_01",
+      "A": 8,
+      "distinct_shape_masks": 37,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.66,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k9_a8_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k9_a8_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_02",
+      "A": 8,
+      "distinct_shape_masks": 37,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.67,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k9_a8_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k9_a8_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_03",
+      "A": 8,
+      "distinct_shape_masks": 66,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.67,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k9_a8_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k9_a8_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_04",
+      "A": 8,
+      "distinct_shape_masks": 66,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.613,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k9_a8_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k9_a8_q0.json"
+      ],
+      "k": 9
+    },
+    {
+      "base": "v40_01",
+      "A": 0,
+      "distinct_shape_masks": 11560835,
+      "defect_hitting_masks": 90969,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 9.727,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k10_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k10_a0_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_02",
+      "A": 0,
+      "distinct_shape_masks": 11560835,
+      "defect_hitting_masks": 33884,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 9.16,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k10_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k10_a0_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_03",
+      "A": 0,
+      "distinct_shape_masks": 11688116,
+      "defect_hitting_masks": 78843,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 3.768,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k10_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k10_a0_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_04",
+      "A": 0,
+      "distinct_shape_masks": 11688116,
+      "defect_hitting_masks": 97622,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.224,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k10_a0_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k10_a0_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_01",
+      "A": 1,
+      "distinct_shape_masks": 57804175,
+      "defect_hitting_masks": 357468,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 41.357,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k10_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k10_a1_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_02",
+      "A": 1,
+      "distinct_shape_masks": 57804175,
+      "defect_hitting_masks": 190822,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 39.756,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k10_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k10_a1_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_03",
+      "A": 1,
+      "distinct_shape_masks": 57507186,
+      "defect_hitting_masks": 409943,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 16.892,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k10_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k10_a1_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_04",
+      "A": 1,
+      "distinct_shape_masks": 57507186,
+      "defect_hitting_masks": 444925,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 2.786,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k10_a1_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k10_a1_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_01",
+      "A": 2,
+      "distinct_shape_masks": 109523700,
+      "defect_hitting_masks": 607034,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 78.779,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k10_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k10_a2_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_02",
+      "A": 2,
+      "distinct_shape_masks": 109523700,
+      "defect_hitting_masks": 356804,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 78.594,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k10_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k10_a2_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_03",
+      "A": 2,
+      "distinct_shape_masks": 109550496,
+      "defect_hitting_masks": 778108,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 33.844,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k10_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k10_a2_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_04",
+      "A": 2,
+      "distinct_shape_masks": 109550496,
+      "defect_hitting_masks": 786327,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 4.217,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k10_a2_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k10_a2_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_01",
+      "A": 3,
+      "distinct_shape_masks": 102222120,
+      "defect_hitting_masks": 551146,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 55.197,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k10_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k10_a3_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_02",
+      "A": 3,
+      "distinct_shape_masks": 102222120,
+      "defect_hitting_masks": 297458,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 54.95,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k10_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k10_a3_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_03",
+      "A": 3,
+      "distinct_shape_masks": 102561536,
+      "defect_hitting_masks": 664381,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 26.735,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k10_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k10_a3_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_04",
+      "A": 3,
+      "distinct_shape_masks": 102561536,
+      "defect_hitting_masks": 669503,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 3.567,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k10_a3_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k10_a3_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_01",
+      "A": 4,
+      "distinct_shape_masks": 51111060,
+      "defect_hitting_masks": 279041,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 23.439,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k10_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k10_a4_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_02",
+      "A": 4,
+      "distinct_shape_masks": 51111060,
+      "defect_hitting_masks": 131217,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 22.845,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k10_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k10_a4_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_03",
+      "A": 4,
+      "distinct_shape_masks": 50971976,
+      "defect_hitting_masks": 284171,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 12.406,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k10_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k10_a4_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_04",
+      "A": 4,
+      "distinct_shape_masks": 50971976,
+      "defect_hitting_masks": 290301,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.846,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k10_a4_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k10_a4_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_01",
+      "A": 5,
+      "distinct_shape_masks": 13939380,
+      "defect_hitting_masks": 83670,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 5.346,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k10_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k10_a5_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_02",
+      "A": 5,
+      "distinct_shape_masks": 13939380,
+      "defect_hitting_masks": 31924,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 5.303,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k10_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k10_a5_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_03",
+      "A": 5,
+      "distinct_shape_masks": 13832544,
+      "defect_hitting_masks": 69077,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 3.343,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k10_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k10_a5_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_04",
+      "A": 5,
+      "distinct_shape_masks": 13832544,
+      "defect_hitting_masks": 67536,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.89,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k10_a5_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k10_a5_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_01",
+      "A": 6,
+      "distinct_shape_masks": 2020200,
+      "defect_hitting_masks": 15653,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.18,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k10_a6_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k10_a6_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_02",
+      "A": 6,
+      "distinct_shape_masks": 2020200,
+      "defect_hitting_masks": 4241,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.216,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k10_a6_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k10_a6_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_03",
+      "A": 6,
+      "distinct_shape_masks": 2051984,
+      "defect_hitting_masks": 10142,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 1.067,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k10_a6_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k10_a6_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_04",
+      "A": 6,
+      "distinct_shape_masks": 2051984,
+      "defect_hitting_masks": 9406,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.747,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k10_a6_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k10_a6_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_01",
+      "A": 7,
+      "distinct_shape_masks": 144300,
+      "defect_hitting_masks": 1752,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.684,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k10_a7_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k10_a7_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_02",
+      "A": 7,
+      "distinct_shape_masks": 144300,
+      "defect_hitting_masks": 313,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.669,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k10_a7_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k10_a7_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_03",
+      "A": 7,
+      "distinct_shape_masks": 160424,
+      "defect_hitting_masks": 876,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.748,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k10_a7_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k10_a7_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_04",
+      "A": 7,
+      "distinct_shape_masks": 160424,
+      "defect_hitting_masks": 940,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.767,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k10_a7_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k10_a7_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_01",
+      "A": 8,
+      "distinct_shape_masks": 4329,
+      "defect_hitting_masks": 85,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.714,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k10_a8_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k10_a8_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_02",
+      "A": 8,
+      "distinct_shape_masks": 4329,
+      "defect_hitting_masks": 11,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.747,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k10_a8_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k10_a8_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_03",
+      "A": 8,
+      "distinct_shape_masks": 5808,
+      "defect_hitting_masks": 35,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.68,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k10_a8_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k10_a8_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_04",
+      "A": 8,
+      "distinct_shape_masks": 5808,
+      "defect_hitting_masks": 47,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.669,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k10_a8_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k10_a8_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_01",
+      "A": 9,
+      "distinct_shape_masks": 37,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.629,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k10_a9_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k10_a9_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_02",
+      "A": 9,
+      "distinct_shape_masks": 37,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.614,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k10_a9_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k10_a9_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_03",
+      "A": 9,
+      "distinct_shape_masks": 66,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.657,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k10_a9_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k10_a9_q0.json"
+      ],
+      "k": 10
+    },
+    {
+      "base": "v40_04",
+      "A": 9,
+      "distinct_shape_masks": 66,
+      "defect_hitting_masks": 1,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.595,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k10_a9_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k10_a9_q0.json"
+      ],
+      "k": 10
+    }
+  ],
+  "totals": {
+    "all_masks": 2097591716,
+    "defect_hitting_masks": 8992449,
+    "q0_factor_feasible_masks": 0
+  },
+  "elapsed_s": 220.51
+}

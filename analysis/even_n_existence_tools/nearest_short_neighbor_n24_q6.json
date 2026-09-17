@@ -1,0 +1,11 @@
+{
+  "n": 24,
+  "q": 6,
+  "meaning": "all primitive direction scales below q are protected",
+  "direction_count": 38,
+  "line_constraint_count": 3730,
+  "required_removed_count": null,
+  "status": "UNKNOWN",
+  "wall_time_seconds": 180.02829060000002,
+  "best_overlap_bound": 39.0
+}

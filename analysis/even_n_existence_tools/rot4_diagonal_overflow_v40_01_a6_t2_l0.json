@@ -1,0 +1,21 @@
+{
+  "parameters": {
+    "base": "v40_01",
+    "size": 11,
+    "adjacency_count": 6,
+    "triple_count": 2,
+    "loop_count": 0,
+    "reselected_count": null,
+    "deficit_two_edge_count": null,
+    "time_limit": 600.0,
+    "workers": 8,
+    "out": "rot4_diagonal_overflow_v40_01_a6_t2_l0.json"
+  },
+  "status": "INFEASIBLE",
+  "objective": null,
+  "best_bound": 0.0,
+  "branches": 2990240,
+  "conflicts": 1263569,
+  "wall_s": 86.557,
+  "elapsed_s": 86.563
+}

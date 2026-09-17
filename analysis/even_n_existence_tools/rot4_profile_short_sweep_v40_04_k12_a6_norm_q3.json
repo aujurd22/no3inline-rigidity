@@ -1,0 +1,78 @@
+{
+  "parameters": {
+    "base": "v40_04",
+    "size": 12,
+    "adjacency_count": 6,
+    "profile_file": "rot4_segment_profiles_cycles17_16_4_k12.json",
+    "direction_q": 3,
+    "time_limit": 300.0,
+    "workers": 4,
+    "out": "rot4_profile_short_sweep_v40_04_k12_a6_norm_q3.json"
+  },
+  "expected_profiles": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      4
+    ]
+  ],
+  "layers": [
+    {
+      "triple": 0,
+      "quadruple": 0,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 66.97,
+      "evidence": "rot4_short_v40_04_k12_a6_b0_c0_norm_q3hard.json"
+    },
+    {
+      "triple": 1,
+      "quadruple": 0,
+      "classification": "UNRESOLVED",
+      "status": "UNKNOWN",
+      "wall_s": 300.079,
+      "evidence": "rot4_short_v40_04_k12_a6_b1_c0_norm_q3hard.json"
+    }
+  ],
+  "closed_profile_count": 1,
+  "complete_closure": false
+}

@@ -1,0 +1,48 @@
+{
+  "n": 52,
+  "timeout": 300,
+  "levels": [
+    "baseline",
+    "light",
+    "medium",
+    "aggressive",
+    "very_agg"
+  ],
+  "results": [
+    {
+      "level": "baseline",
+      "exclude": 0,
+      "status": "TIMEOUT(300s)",
+      "time_s": 300.28758120536804,
+      "rle": ""
+    },
+    {
+      "level": "light",
+      "exclude": 3,
+      "status": "TIMEOUT(300s)",
+      "time_s": 300.23230814933777,
+      "rle": ""
+    },
+    {
+      "level": "medium",
+      "exclude": 6,
+      "status": "TIMEOUT(300s)",
+      "time_s": 300.2148838043213,
+      "rle": ""
+    },
+    {
+      "level": "aggressive",
+      "exclude": 10,
+      "status": "TIMEOUT(300s)",
+      "time_s": 300.20558166503906,
+      "rle": ""
+    },
+    {
+      "level": "very_agg",
+      "exclude": 20,
+      "status": "TIMEOUT(300s)",
+      "time_s": 258.5745997428894,
+      "rle": ""
+    }
+  ]
+}

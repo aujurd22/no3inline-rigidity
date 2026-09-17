@@ -1,0 +1,129 @@
+{
+  "component_count": 4,
+  "enumeration_mode": "explicit_masks",
+  "target_selected": 13,
+  "line_capacity_count": 72,
+  "explicit_mask_count": 5474,
+  "distinct_shape_masks": 5474,
+  "defect_hitting_masks": 5474,
+  "factor_feasible_masks": 23,
+  "all_factor_infeasible": false,
+  "total_factor_search_nodes": 19591,
+  "maximum_factor_search_nodes": 24,
+  "root_zero_option_by_deficit": {
+    "1": 0,
+    "2": 0
+  },
+  "search_node_histogram": {
+    "1": 29,
+    "2": 1928,
+    "3": 1359,
+    "4": 877,
+    "5": 568,
+    "6": 313,
+    "7+": 400
+  },
+  "sample_hitting_masks": [
+    44387269,
+    53979234,
+    170214357,
+    174408533,
+    174408645,
+    204817349,
+    555247047,
+    555362663,
+    556227172,
+    556287943
+  ],
+  "feasible_masks": [
+    6121611842,
+    6121644546,
+    6122136066,
+    18796294787,
+    18845163972,
+    22243746304,
+    40347656706,
+    44598610472,
+    52099707169,
+    52216107333,
+    52251885713,
+    52285313057,
+    57482996288,
+    57483000320,
+    57484043328,
+    60067717120,
+    60161082629,
+    60706697217,
+    65201799232,
+    86858834561,
+    94124426272,
+    96524959808,
+    120802390117
+  ],
+  "first_feasible_mask": 6121611842,
+  "first_feasible_cells": [
+    [
+      7,
+      12
+    ],
+    [
+      31,
+      12
+    ],
+    [
+      34,
+      13
+    ],
+    [
+      25,
+      17
+    ],
+    [
+      19,
+      19
+    ],
+    [
+      16,
+      20
+    ],
+    [
+      3,
+      23
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      4,
+      27
+    ],
+    [
+      31,
+      6
+    ],
+    [
+      33,
+      24
+    ],
+    [
+      0,
+      34
+    ],
+    [
+      36,
+      7
+    ]
+  ],
+  "base": "v20_06",
+  "source_certificate": "v20_gpu_hybrid_q0_v20_06_k13.json",
+  "source_field": "feasible_masks",
+  "source_root_nonzero_by_adjacency": null,
+  "method": {
+    "name": "CUDA exhaustive fixed-weight mask scan and exact root-option filter, followed by C++ exact deficit f-factor DFS",
+    "k": 13,
+    "normalization": "all exact old-orientation reselections forbidden",
+    "line_capacities": "all primitive non-axis directions with q<=1"
+  },
+  "elapsed_s": 0.9339
+}

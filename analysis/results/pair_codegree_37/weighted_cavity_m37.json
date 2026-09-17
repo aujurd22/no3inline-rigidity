@@ -1,0 +1,338 @@
+{
+  "definition": "sum of projected m37 one-cell enrichment over dangerous third-cell mechanisms",
+  "samples": 100000,
+  "train_samples": 50000,
+  "test_samples": 50000,
+  "oriented_cells": 74,
+  "direct_bad_pairs_seen": 0,
+  "co3_crosscheck_mismatches": 0,
+  "random_orientation": {
+    "raw_correlation": 0.5340291054094788,
+    "raw_correlation_test": 0.5314033114317394,
+    "raw_lowest_1pct_mean_min_bad": [
+      50.458,
+      28
+    ],
+    "variants": {
+      "combined_projection": {
+        "weighted_correlation_all": 0.5553737385197307,
+        "weighted_correlation_test": 0.552589808029293,
+        "raw_plus_weighted_correlation_test": 0.5603870329028364,
+        "train_coefficients_intercept_raw_weighted": [
+          -224.37946722319074,
+          -0.005845678008680681,
+          0.011424763224642386
+        ],
+        "lowest_1pct_mean_min_bad": [
+          49.785,
+          28
+        ],
+        "maxsat_energy": 48502.75355252291,
+        "maxsat_lower_tail": 5e-05
+      },
+      "pure_cross_m_trend": {
+        "weighted_correlation_all": 0.5521583527941033,
+        "weighted_correlation_test": 0.5492445480190934,
+        "raw_plus_weighted_correlation_test": 0.5540680758617526,
+        "train_coefficients_intercept_raw_weighted": [
+          -222.62909298389474,
+          -0.004746042755538487,
+          0.01028753362323079
+        ],
+        "lowest_1pct_mean_min_bad": [
+          49.85,
+          28
+        ],
+        "maxsat_energy": 48500.156706360925,
+        "maxsat_lower_tail": 5e-05
+      },
+      "recent_template": {
+        "weighted_correlation_all": 0.5562216446751888,
+        "weighted_correlation_test": 0.5534350796164293,
+        "raw_plus_weighted_correlation_test": 0.5610467590638614,
+        "train_coefficients_intercept_raw_weighted": [
+          -224.11035131399376,
+          -0.005573593746980876,
+          0.011132456786838482
+        ],
+        "lowest_1pct_mean_min_bad": [
+          49.844,
+          28
+        ],
+        "maxsat_energy": 48570.6855166038,
+        "maxsat_lower_tail": 5e-05
+      },
+      "inverse_conflict_degree": {
+        "weighted_correlation_all": 0.5408631132431333,
+        "weighted_correlation_test": 0.5385814107468763,
+        "raw_plus_weighted_correlation_test": 0.5427079038480646,
+        "train_coefficients_intercept_raw_weighted": [
+          -214.7821540070457,
+          -0.0069411032196236774,
+          0.012508758881413572
+        ],
+        "lowest_1pct_mean_min_bad": [
+          50.181,
+          28
+        ],
+        "maxsat_energy": 47775.232781954604,
+        "maxsat_lower_tail": 3e-05
+      }
+    },
+    "all_variants_correlation_test": 0.5646381695100696,
+    "all_variants_train_coefficients": [
+      -221.9967597166122,
+      -0.0012107502386061798,
+      0.04588853198558119,
+      -0.01934587765768477,
+      -0.013030424165680178,
+      -0.006853628965070513
+    ],
+    "all_variants_order": [
+      "intercept",
+      "raw",
+      "combined_projection",
+      "pure_cross_m_trend",
+      "recent_template",
+      "inverse_conflict_degree"
+    ]
+  },
+  "maxsat_orientation": {
+    "violations": 18,
+    "raw_energy": 48560.0,
+    "weighted_energy": {
+      "combined_projection": 48502.75355252291,
+      "pure_cross_m_trend": 48500.156706360925,
+      "recent_template": 48570.6855166038,
+      "inverse_conflict_degree": 47775.232781954604
+    },
+    "raw_lower_tail": 5e-05,
+    "weighted_lower_tail": {
+      "combined_projection": 5e-05,
+      "pure_cross_m_trend": 5e-05,
+      "recent_template": 5e-05,
+      "inverse_conflict_degree": 3e-05
+    }
+  },
+  "saved_candidate_factors": {
+    "rows": [
+      {
+        "name": "best_14_13_10_edges.json",
+        "violations": 96,
+        "raw": 59660.0,
+        "weighted": {
+          "combined_projection": 58175.40733733634,
+          "pure_cross_m_trend": 58314.970257985144,
+          "recent_template": 58191.62634193441,
+          "inverse_conflict_degree": 57803.54880947437
+        },
+        "direct_bad_pairs": 3
+      },
+      {
+        "name": "best_23_14_edges.json",
+        "violations": 98,
+        "raw": 58596.0,
+        "weighted": {
+          "combined_projection": 57228.63664175831,
+          "pure_cross_m_trend": 57354.57387999164,
+          "recent_template": 57260.58963431071,
+          "inverse_conflict_degree": 56926.51884329283
+        },
+        "direct_bad_pairs": 1
+      },
+      {
+        "name": "best_24_13_edges.json",
+        "violations": 88,
+        "raw": 57200.0,
+        "weighted": {
+          "combined_projection": 56130.73286172155,
+          "pure_cross_m_trend": 56305.21354726975,
+          "recent_template": 56164.44137638279,
+          "inverse_conflict_degree": 55711.32674155453
+        },
+        "direct_bad_pairs": 3
+      },
+      {
+        "name": "best_25_12_edges.json",
+        "violations": 93,
+        "raw": 59892.0,
+        "weighted": {
+          "combined_projection": 58093.56287869329,
+          "pure_cross_m_trend": 58189.83830916212,
+          "recent_template": 58152.71091400282,
+          "inverse_conflict_degree": 57754.034108215346
+        },
+        "direct_bad_pairs": 3
+      },
+      {
+        "name": "best_27_10_edges.json",
+        "violations": 90,
+        "raw": 59320.0,
+        "weighted": {
+          "combined_projection": 56735.34732439947,
+          "pure_cross_m_trend": 56916.787047644924,
+          "recent_template": 56775.53226441443,
+          "inverse_conflict_degree": 56966.10377594445
+        },
+        "direct_bad_pairs": 3
+      },
+      {
+        "name": "best_28_9_edges.json",
+        "violations": 81,
+        "raw": 57002.0,
+        "weighted": {
+          "combined_projection": 55111.32669569265,
+          "pure_cross_m_trend": 55287.806894100075,
+          "recent_template": 55118.65533246918,
+          "inverse_conflict_degree": 55091.500856797276
+        },
+        "direct_bad_pairs": 6
+      },
+      {
+        "name": "best_31_6_edges.json",
+        "violations": 94,
+        "raw": 58516.0,
+        "weighted": {
+          "combined_projection": 57387.11055473092,
+          "pure_cross_m_trend": 57559.633499669195,
+          "recent_template": 57437.2529907615,
+          "inverse_conflict_degree": 56736.82719718389
+        },
+        "direct_bad_pairs": 3
+      },
+      {
+        "name": "best_37_edges.json",
+        "violations": 92,
+        "raw": 58056.0,
+        "weighted": {
+          "combined_projection": 56753.04245668507,
+          "pure_cross_m_trend": 56932.40154739453,
+          "recent_template": 56807.03672280139,
+          "inverse_conflict_degree": 56311.56126952984
+        },
+        "direct_bad_pairs": 1
+      },
+      {
+        "name": "best72_maxsat_cells",
+        "violations": 18,
+        "raw": 48560.0,
+        "weighted": {
+          "combined_projection": 48502.75355252291,
+          "pure_cross_m_trend": 48500.156706360925,
+          "recent_template": 48570.6855166038,
+          "inverse_conflict_degree": 47775.232781954604
+        },
+        "direct_bad_pairs": 0
+      }
+    ],
+    "correlations_all": {
+      "count": 9,
+      "raw": 0.9767914879998526,
+      "weighted": {
+        "combined_projection": 0.9835511225144347,
+        "pure_cross_m_trend": 0.9853561837725051,
+        "recent_template": 0.9830104701612441,
+        "inverse_conflict_degree": 0.9849614072908994
+      }
+    },
+    "correlations_without_best72": {
+      "count": 8,
+      "raw": 0.6730453528099136,
+      "weighted": {
+        "combined_projection": 0.865069947570876,
+        "pure_cross_m_trend": 0.8665607122741584,
+        "recent_template": 0.865161375473582,
+        "inverse_conflict_degree": 0.8022252373363219
+      }
+    },
+    "small_sample_robustness_without_best72": {
+      "raw": {
+        "pearson": 0.6730453528099136,
+        "spearman": 0.6190476190476191,
+        "leave_one_out_mean": 0.6631865095462003,
+        "leave_one_out_min": 0.43434158008703383,
+        "leave_one_out_max": 0.7613870389617272,
+        "leave_one_out_values": [
+          0.6199818379424359,
+          0.7613870389617272,
+          0.6463766022118486,
+          0.719948861753515,
+          0.7453277701226425,
+          0.43434158008703383,
+          0.6867065466392799,
+          0.6914218386511191
+        ]
+      },
+      "combined_projection": {
+        "pearson": 0.865069947570876,
+        "spearman": 0.8333333333333335,
+        "leave_one_out_mean": 0.8551770794159532,
+        "leave_one_out_min": 0.6826985159997797,
+        "leave_one_out_max": 0.9392201028122871,
+        "leave_one_out_values": [
+          0.8506532684016692,
+          0.9392201028122871,
+          0.8539767699108524,
+          0.9187306923388662,
+          0.8640790367908776,
+          0.6826985159997797,
+          0.8605995954366891,
+          0.871458653636605
+        ]
+      },
+      "pure_cross_m_trend": {
+        "pearson": 0.8665607122741584,
+        "spearman": 0.8333333333333335,
+        "leave_one_out_mean": 0.8561041130970846,
+        "leave_one_out_min": 0.680007145940993,
+        "leave_one_out_max": 0.9455860903420995,
+        "leave_one_out_values": [
+          0.8529576079618182,
+          0.9455860903420995,
+          0.8556012548510273,
+          0.9148493941993798,
+          0.8659665180301338,
+          0.680007145940993,
+          0.8617343915327059,
+          0.8721305019185186
+        ]
+      },
+      "recent_template": {
+        "pearson": 0.865161375473582,
+        "spearman": 0.8333333333333335,
+        "leave_one_out_mean": 0.854803187488725,
+        "leave_one_out_min": 0.677872167051879,
+        "leave_one_out_max": 0.94060537873291,
+        "leave_one_out_values": [
+          0.8493955114821214,
+          0.94060537873291,
+          0.8540500495820866,
+          0.9209484742407198,
+          0.8642593295433342,
+          0.677872167051879,
+          0.8605277917110835,
+          0.8707667975656644
+        ]
+      },
+      "inverse_conflict_degree": {
+        "pearson": 0.8022252373363219,
+        "spearman": 0.6666666666666669,
+        "leave_one_out_mean": 0.791226560291515,
+        "leave_one_out_min": 0.5898828324858613,
+        "leave_one_out_max": 0.8647004204971817,
+        "leave_one_out_values": [
+          0.7743950912706198,
+          0.8647004204971817,
+          0.7880686042410376,
+          0.8535709696766159,
+          0.8297336579233507,
+          0.5898828324858613,
+          0.8114563718861197,
+          0.8180045343513322
+        ]
+      }
+    },
+    "warning": "small heterogeneous convenience sample; correlations are diagnostic only"
+  },
+  "ruling": "promote weighted cavity proxy"
+}

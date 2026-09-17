@@ -1,0 +1,160 @@
+{
+  "k14": {
+    "tag": "k14",
+    "n": 23,
+    "min_edges": 2,
+    "max_edges": 2,
+    "min_vars": 2,
+    "max_vars": 2,
+    "edge_distribution": {
+      "2": 23
+    },
+    "var_distribution": {
+      "2": 23
+    },
+    "examples": [
+      {
+        "bid": "v20_01",
+        "mask": 8929978983,
+        "comp_idx": 0,
+        "edges": 2,
+        "vars": 2,
+        "cycle": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "bid": "v20_01",
+        "mask": 99346809573,
+        "comp_idx": 0,
+        "edges": 2,
+        "vars": 2,
+        "cycle": [
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ]
+      },
+      {
+        "bid": "v20_01",
+        "mask": 133433689350,
+        "comp_idx": 0,
+        "edges": 2,
+        "vars": 2,
+        "cycle": [
+          [
+            9,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            9,
+            0
+          ]
+        ]
+      }
+    ]
+  },
+  "k15": {
+    "tag": "k15",
+    "n": 16,
+    "min_edges": 2,
+    "max_edges": 2,
+    "min_vars": 2,
+    "max_vars": 2,
+    "edge_distribution": {
+      "2": 16
+    },
+    "var_distribution": {
+      "2": 16
+    },
+    "examples": [
+      {
+        "bid": "v20_02",
+        "mask": 75365587979,
+        "comp_idx": 0,
+        "edges": 2,
+        "vars": 2,
+        "cycle": [
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "bid": "v20_02",
+        "mask": 75365586959,
+        "comp_idx": 0,
+        "edges": 2,
+        "vars": 2,
+        "cycle": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "bid": "v20_02",
+        "mask": 75365587019,
+        "comp_idx": 0,
+        "edges": 2,
+        "vars": 2,
+        "cycle": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ]
+  }
+}

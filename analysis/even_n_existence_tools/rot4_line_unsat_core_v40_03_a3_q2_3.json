@@ -1,0 +1,20 @@
+{
+  "parameters": {
+    "base": "v40_03",
+    "size": 11,
+    "adjacency_count": 3,
+    "hard_q": 2,
+    "full_q": 3,
+    "time_limit": 1200.0,
+    "validation_time": 1200.0,
+    "workers": 4,
+    "out": "rot4_line_unsat_core_v40_03_a3_q2_3.json"
+  },
+  "status": "UNKNOWN",
+  "hard_line_count": 284,
+  "new_line_count": 622,
+  "branches": 271827,
+  "conflicts": 163015,
+  "wall_s": 1200.024,
+  "elapsed_s": 1200.027
+}

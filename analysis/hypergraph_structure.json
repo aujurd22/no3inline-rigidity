@@ -1,0 +1,226 @@
+{
+  "results": [
+    {
+      "n": 12,
+      "m": 72,
+      "total_hyperedges": 691,
+      "hypertypes": {
+        "D": 691,
+        "L": 0,
+        "S": 0
+      },
+      "safe_directions": 0,
+      "safe_fraction": 0.0,
+      "heavy_danger": {
+        "(3, -1)": 52,
+        "(3, 1)": 53,
+        "(1, 1)": 743,
+        "(1, -1)": 650,
+        "(1, -3)": 63,
+        "(1, 3)": 48
+      },
+      "danger_distribution": {
+        "min": 1,
+        "p25": 4,
+        "p50": 9,
+        "p75": 22,
+        "p90": 52,
+        "max": 743,
+        "mean": 44.1063829787234
+      },
+      "codegree": {
+        "min": 4,
+        "max": 58,
+        "mean": 20.323529411764707,
+        "nonzero_pairs": 34,
+        "total_pairs": 2556,
+        "pair_density": 0.013302034428794992
+      }
+    },
+    {
+      "n": 16,
+      "m": 128,
+      "total_hyperedges": 2746,
+      "hypertypes": {
+        "D": 2592,
+        "L": 0,
+        "S": 154
+      },
+      "safe_directions": 0,
+      "safe_fraction": 0.0,
+      "heavy_danger": {
+        "(3, -1)": 288,
+        "(3, 1)": 295,
+        "(1, 1)": 2493,
+        "(1, -1)": 2251,
+        "(1, -3)": 226,
+        "(1, 3)": 207
+      },
+      "danger_distribution": {
+        "min": 1,
+        "p25": 4,
+        "p50": 18,
+        "p75": 56,
+        "p90": 110,
+        "max": 2493,
+        "mean": 92.56179775280899
+      },
+      "codegree": {
+        "min": 5,
+        "max": 110,
+        "mean": 36.13157894736842,
+        "nonzero_pairs": 76,
+        "total_pairs": 8128,
+        "pair_density": 0.009350393700787402
+      }
+    },
+    {
+      "n": 20,
+      "m": 200,
+      "total_hyperedges": 6325,
+      "hypertypes": {
+        "D": 6115,
+        "L": 0,
+        "S": 210
+      },
+      "safe_directions": 0,
+      "safe_fraction": 0.0,
+      "heavy_danger": {
+        "(3, -1)": 396,
+        "(3, 1)": 403,
+        "(1, 1)": 6209,
+        "(1, -1)": 5694,
+        "(1, -3)": 336,
+        "(1, 3)": 305
+      },
+      "danger_distribution": {
+        "min": 1,
+        "p25": 9,
+        "p50": 27,
+        "p75": 62,
+        "p90": 110,
+        "max": 6209,
+        "mean": 129.08163265306123
+      },
+      "codegree": {
+        "min": 7,
+        "max": 178,
+        "mean": 57.5,
+        "nonzero_pairs": 110,
+        "total_pairs": 19900,
+        "pair_density": 0.005527638190954774
+      }
+    },
+    {
+      "n": 24,
+      "m": 288,
+      "total_hyperedges": 14456,
+      "hypertypes": {
+        "D": 13614,
+        "L": 0,
+        "S": 842
+      },
+      "safe_directions": 0,
+      "safe_fraction": 0.0,
+      "heavy_danger": {
+        "(3, -1)": 1186,
+        "(3, 1)": 1208,
+        "(1, 1)": 13113,
+        "(1, -1)": 12189,
+        "(1, -3)": 794,
+        "(1, 3)": 774
+      },
+      "danger_distribution": {
+        "min": 1,
+        "p25": 9,
+        "p50": 38,
+        "p75": 110,
+        "p90": 233,
+        "max": 13113,
+        "mean": 205.53554502369667
+      },
+      "codegree": {
+        "min": 8,
+        "max": 262,
+        "mean": 82.13636363636364,
+        "nonzero_pairs": 176,
+        "total_pairs": 41328,
+        "pair_density": 0.004258614014711576
+      }
+    },
+    {
+      "n": 28,
+      "m": 392,
+      "total_hyperedges": 30077,
+      "hypertypes": {
+        "D": 26813,
+        "L": 0,
+        "S": 3264
+      },
+      "safe_directions": 0,
+      "safe_fraction": 0.0,
+      "heavy_danger": {
+        "(3, -1)": 2837,
+        "(3, 1)": 2883,
+        "(1, 1)": 24626,
+        "(1, -1)": 23123,
+        "(1, -3)": 1663,
+        "(1, 3)": 1675
+      },
+      "danger_distribution": {
+        "min": 1,
+        "p25": 18,
+        "p50": 59,
+        "p75": 182,
+        "p90": 335,
+        "max": 24626,
+        "mean": 310.07216494845363
+      },
+      "codegree": {
+        "min": 9,
+        "max": 362,
+        "mean": 111.3962962962963,
+        "nonzero_pairs": 270,
+        "total_pairs": 76636,
+        "pair_density": 0.003523148389790699
+      }
+    },
+    {
+      "n": 32,
+      "m": 512,
+      "total_hyperedges": 47836,
+      "hypertypes": {
+        "D": 44012,
+        "L": 0,
+        "S": 3824
+      },
+      "safe_directions": 0,
+      "safe_fraction": 0.0,
+      "heavy_danger": {
+        "(3, -1)": 3337,
+        "(3, 1)": 3383,
+        "(1, 1)": 42158,
+        "(1, -1)": 39842,
+        "(1, -3)": 2033,
+        "(1, 3)": 2025
+      },
+      "danger_distribution": {
+        "min": 1,
+        "p25": 16,
+        "p50": 73,
+        "p75": 190,
+        "p90": 328,
+        "max": 42158,
+        "mean": 363.3113924050633
+      },
+      "codegree": {
+        "min": 11,
+        "max": 478,
+        "mean": 145.84146341463415,
+        "nonzero_pairs": 328,
+        "total_pairs": 130816,
+        "pair_density": 0.0025073385518590997
+      }
+    }
+  ]
+}

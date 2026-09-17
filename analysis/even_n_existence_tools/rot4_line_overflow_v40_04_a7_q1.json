@@ -1,0 +1,23 @@
+{
+  "parameters": {
+    "base": "v40_04",
+    "size": 11,
+    "adjacency_count": 7,
+    "triple_count": null,
+    "loop_count": null,
+    "reselected_count": null,
+    "deficit_two_edge_count": null,
+    "direction_q": 1,
+    "hard_direction_q": 0,
+    "time_limit": 1200.0,
+    "workers": 4,
+    "out": "rot4_line_overflow_v40_04_a7_q1.json"
+  },
+  "status": "INFEASIBLE",
+  "objective": null,
+  "best_bound": 0.0,
+  "branches": 5883787,
+  "conflicts": 2409574,
+  "wall_s": 156.59,
+  "elapsed_s": 156.595
+}

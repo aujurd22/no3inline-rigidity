@@ -1,0 +1,183 @@
+{
+  "component_count": 3,
+  "enumeration_mode": "fixed_adjacency",
+  "target_selected": 11,
+  "target_adjacency": 0,
+  "distinct_shape_masks": 6418655,
+  "defect_hitting_masks": 1330360,
+  "factor_feasible_masks": 2,
+  "all_factor_infeasible": false,
+  "total_factor_search_nodes": 1330487,
+  "maximum_factor_search_nodes": 12,
+  "root_zero_option_by_deficit": {
+    "1": 1330322,
+    "2": 0
+  },
+  "search_node_histogram": {
+    "1": 1330322,
+    "2": 9,
+    "3": 11,
+    "4": 5,
+    "5": 4,
+    "6": 3,
+    "7+": 6
+  },
+  "sample_hitting_masks": [
+    34427000218,
+    38721967498,
+    34427001242,
+    38721968522,
+    34427016601,
+    38721983881,
+    34427016602,
+    38721983882,
+    34427017625,
+    38721984905
+  ],
+  "feasible_masks": [
+    24236790145,
+    673548628
+  ],
+  "first_feasible_mask": 24236790145,
+  "first_feasible_cells": [
+    [
+      28,
+      12
+    ],
+    [
+      13,
+      23
+    ],
+    [
+      17,
+      8
+    ],
+    [
+      16,
+      0
+    ],
+    [
+      18,
+      6
+    ],
+    [
+      31,
+      19
+    ],
+    [
+      27,
+      24
+    ],
+    [
+      21,
+      3
+    ],
+    [
+      15,
+      4
+    ],
+    [
+      35,
+      22
+    ],
+    [
+      36,
+      25
+    ]
+  ],
+  "base": "v20_02",
+  "cycle_edge_orders": [
+    [
+      0,
+      14,
+      15,
+      22,
+      21,
+      20,
+      18,
+      19,
+      34,
+      3,
+      2,
+      17,
+      9,
+      8,
+      30,
+      27,
+      23,
+      24,
+      36,
+      11,
+      10,
+      29,
+      28,
+      31,
+      1
+    ],
+    [
+      4,
+      32,
+      33,
+      35,
+      16,
+      12,
+      13,
+      7,
+      6,
+      26,
+      5
+    ],
+    [
+      25
+    ]
+  ],
+  "first_feasible_removed_indices": [
+    0,
+    7,
+    8,
+    12,
+    21,
+    23,
+    26,
+    29,
+    31,
+    32,
+    34
+  ],
+  "method": {
+    "k": 11,
+    "A": 0,
+    "required_full_cycle_length": null,
+    "cycle_handling": "direct local (selected-edge-count, adjacency-count) generation; empty, partially selected, and fully selected cycles are distinct",
+    "normalization": "all exact old-orientation reselections forbidden",
+    "multigraph": "both (u,v) and (v,u) allowed simultaneously",
+    "geometry": "candidate cells filtered by exact retained-base blocker masks",
+    "factor": "exact deficit-0/1/2 f-factor DFS; loops consume 2 and opposite orientations may form a digon",
+    "line_capacities": "none (q=0 shadow factor)",
+    "archive": "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\v20_basin_archive.json",
+    "hitting": "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\v20_defect_hitting_v20_02.json"
+  },
+  "stderr_progress_tail": [
+    "hit=1140000 feasible=2 nodes=1140107",
+    "hit=1150000 feasible=2 nodes=1150107",
+    "hit=1160000 feasible=2 nodes=1160107",
+    "hit=1170000 feasible=2 nodes=1170107",
+    "hit=1180000 feasible=2 nodes=1180107",
+    "hit=1190000 feasible=2 nodes=1190107",
+    "hit=1200000 feasible=2 nodes=1200107",
+    "hit=1210000 feasible=2 nodes=1210107",
+    "hit=1220000 feasible=2 nodes=1220107",
+    "hit=1230000 feasible=2 nodes=1230118",
+    "hit=1240000 feasible=2 nodes=1240124",
+    "hit=1250000 feasible=2 nodes=1250124",
+    "hit=1260000 feasible=2 nodes=1260124",
+    "hit=1270000 feasible=2 nodes=1270126",
+    "hit=1280000 feasible=2 nodes=1280126",
+    "hit=1290000 feasible=2 nodes=1290127",
+    "hit=1300000 feasible=2 nodes=1300127",
+    "hit=1310000 feasible=2 nodes=1310127",
+    "hit=1320000 feasible=2 nodes=1320127",
+    "hit=1330000 feasible=2 nodes=1330127"
+  ],
+  "elapsed_s": 8.563
+}

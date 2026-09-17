@@ -1,0 +1,107 @@
+{
+  "D0_L0": [
+    {
+      "config": "D0_L0",
+      "sample": 0,
+      "D": 0,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 46.7,
+      "n_polys": 1244
+    },
+    {
+      "config": "D0_L0",
+      "sample": 1,
+      "D": 0,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 44.9,
+      "n_polys": 1250
+    },
+    {
+      "config": "D0_L0",
+      "sample": 2,
+      "D": 0,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 49.0,
+      "n_polys": 1248
+    }
+  ],
+  "D1_L0": [
+    {
+      "config": "D1_L0",
+      "sample": 0,
+      "D": 1,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 54.1,
+      "n_polys": 1358
+    },
+    {
+      "config": "D1_L0",
+      "sample": 1,
+      "D": 1,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 88.0,
+      "n_polys": 1732
+    },
+    {
+      "config": "D1_L0",
+      "sample": 2,
+      "D": 1,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 80.5,
+      "n_polys": 1606
+    }
+  ],
+  "D1_L1": [
+    {
+      "config": "D1_L1",
+      "sample": 0,
+      "D": 1,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 72.0,
+      "n_polys": 1284
+    },
+    {
+      "config": "D1_L1",
+      "sample": 1,
+      "D": 1,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 65.3,
+      "n_polys": 1138
+    },
+    {
+      "config": "D1_L1",
+      "sample": 2,
+      "D": 1,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 50.1,
+      "n_polys": 1184
+    }
+  ]
+}

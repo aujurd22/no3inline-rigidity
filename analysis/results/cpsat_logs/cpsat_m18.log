@@ -1,0 +1,5 @@
+[gen] m=18: reps=324 line_cons=70798 2F_on=True build=6.0s
+[build] adding 70798 per-line constraints...
+[build] model complete (2s)
+[solve] start timelimit=120.0s workers=8 live_ckpt=False
+[solve] status=UNKNOWN found=0 solve_time=120.1s

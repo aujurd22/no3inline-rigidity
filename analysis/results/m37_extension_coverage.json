@@ -1,0 +1,14 @@
+{
+  "m_target": 37,
+  "base": "m=36 known solution (n72_rot4.few, Heule 2026-06-25)",
+  "method_check_m36_pair0_coverage_incl_actual": 1296,
+  "method_check_m36_pair0_coverage_excl_actual": 1295,
+  "method_check_expect_excl_actual": 1295,
+  "m37_37th_pair_coverage_all_rot_incl_self": 1369,
+  "m37_grid_positions": 1369,
+  "m37_coverage_all_rot_note": "与m=36全禁同构(含候选自身被禁)，无区分力，不能据此外推压死",
+  "m37_fixed_base_rotation_total_candidates": 5476,
+  "m37_fixed_base_rotation_forbidden": 3208,
+  "m37_fixed_base_rotation_safe": 2268,
+  "interpretation": "固定36对真实旋转(r=0)后，第37对仍有 safe 个(位置×旋转)候选不共线=>该m=36基底可一阶扩展，不能证否m=37；若 safe=0=>该基底压死，指向impossible。此测试仅单一基底、必要非充分。"
+}

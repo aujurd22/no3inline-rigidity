@@ -1,0 +1,60 @@
+{
+  "parameters": {
+    "base": "v40_03",
+    "size": 12,
+    "adjacency_count": 7,
+    "triple_count": 2,
+    "quadruple_count": 0,
+    "cycle_length": 4,
+    "cycle_deletion_counts": "0,1,2,3,4",
+    "direction_q": 3,
+    "time_limit": 60.0,
+    "workers": 1,
+    "out": "rot4_cycle_split_v40_03_k12_a7_b2_c0_cycle4_norm_q3.json"
+  },
+  "expected_cycle_deletion_counts": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "layers": [
+    {
+      "cycle_deletion_count": 0,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 15.697,
+      "evidence": "rot4_short_v40_03_k12_a7_b2_c0_cycle4d0_norm_q3hard.json"
+    },
+    {
+      "cycle_deletion_count": 1,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 32.968,
+      "evidence": "rot4_short_v40_03_k12_a7_b2_c0_cycle4d1_norm_q3hard.json"
+    },
+    {
+      "cycle_deletion_count": 2,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 27.2,
+      "evidence": "rot4_short_v40_03_k12_a7_b2_c0_cycle4d2_norm_q3hard.json"
+    },
+    {
+      "cycle_deletion_count": 3,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 126.281,
+      "evidence": "rot4_short_v40_03_k12_a7_b2_c0_cycle4d3_norm_q3hard.json"
+    },
+    {
+      "cycle_deletion_count": 4,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 0.198,
+      "evidence": "rot4_short_v40_03_k12_a7_b2_c0_cycle4d4_norm_q3hard.json"
+    }
+  ],
+  "complete_closure": true
+}

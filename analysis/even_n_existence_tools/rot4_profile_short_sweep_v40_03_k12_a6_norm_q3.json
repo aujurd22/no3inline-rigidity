@@ -1,0 +1,150 @@
+{
+  "parameters": {
+    "base": "v40_03",
+    "size": 12,
+    "adjacency_count": 6,
+    "profile_file": "rot4_segment_profiles_cycles33_4_k12.json",
+    "direction_q": 3,
+    "time_limit": 300.0,
+    "workers": 4,
+    "out": "rot4_profile_short_sweep_v40_03_k12_a6_norm_q3.json"
+  },
+  "expected_profiles": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      4
+    ]
+  ],
+  "layers": [
+    {
+      "triple": 0,
+      "quadruple": 0,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 87.521,
+      "evidence": "rot4_short_v40_03_k12_a6_b0_c0_norm_q3hard.json"
+    },
+    {
+      "triple": 1,
+      "quadruple": 0,
+      "classification": "UNRESOLVED",
+      "status": "UNKNOWN",
+      "wall_s": 300.162,
+      "evidence": "rot4_short_v40_03_k12_a6_b1_c0_norm_q3hard.json"
+    },
+    {
+      "triple": 2,
+      "quadruple": 0,
+      "classification": "UNRESOLVED",
+      "status": "UNKNOWN",
+      "wall_s": 300.167,
+      "evidence": "rot4_short_v40_03_k12_a6_b2_c0_norm_q3hard.json"
+    },
+    {
+      "triple": 2,
+      "quadruple": 1,
+      "classification": "UNRESOLVED",
+      "status": "UNKNOWN",
+      "wall_s": 300.122,
+      "evidence": "rot4_short_v40_03_k12_a6_b2_c1_norm_q3hard.json"
+    },
+    {
+      "triple": 3,
+      "quadruple": 0,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 95.031,
+      "evidence": "rot4_short_v40_03_k12_a6_b3_c0_norm_q3hard.json"
+    },
+    {
+      "triple": 3,
+      "quadruple": 1,
+      "classification": "UNRESOLVED",
+      "status": "UNKNOWN",
+      "wall_s": 300.114,
+      "evidence": "rot4_short_v40_03_k12_a6_b3_c1_norm_q3hard.json"
+    },
+    {
+      "triple": 3,
+      "quadruple": 2,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 139.893,
+      "evidence": "rot4_short_v40_03_k12_a6_b3_c2_norm_q3hard.json"
+    },
+    {
+      "triple": 4,
+      "quadruple": 2,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 117.564,
+      "evidence": "rot4_short_v40_03_k12_a6_b4_c2_norm_q3hard.json"
+    },
+    {
+      "triple": 4,
+      "quadruple": 3,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 36.934,
+      "evidence": "rot4_short_v40_03_k12_a6_b4_c3_norm_q3hard.json"
+    },
+    {
+      "triple": 4,
+      "quadruple": 4,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 45.548,
+      "evidence": "rot4_short_v40_03_k12_a6_b4_c4_norm_q3hard.json"
+    },
+    {
+      "triple": 5,
+      "quadruple": 4,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 26.012,
+      "evidence": "rot4_short_v40_03_k12_a6_b5_c4_norm_q3hard.json"
+    }
+  ],
+  "closed_profile_count": 7,
+  "complete_closure": false
+}

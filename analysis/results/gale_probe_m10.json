@@ -1,0 +1,14 @@
+{
+  "m": 10,
+  "N_lifted": 40,
+  "gale_dim": 37,
+  "true_solution_min_sv_sampled": 0.8571938024937464,
+  "constructed_collinear_triple_sv": 0.9280268590630546,
+  "constructed_collinear_detected_dependent": false,
+  "nontrivial_triple_sv_in_collinear_set": 0.9538925929509134,
+  "local_equivalence_holds_on_data": false,
+  "constraint_count_m10_gale_triples": 9880,
+  "constraint_count_m37_primal_Xhyperedges": 30992032,
+  "constraint_count_m37_gale_triples": 529396,
+  "conclusion": "EMPIRICAL NEGATIVE on the naive local re-description: the (X)-free solution's Gale points show NO dependent triple (min SV=8.57e-01, consistent with bad_X=0), BUT a deliberately constructed collinear primal triple (0,1,2) did NOT yield a rank-2/dependent Gale triple (SV=9.28e-01, rank 3). So the simple local equivalence '3 primal collinear <=> 3 Gale points linearly dependent' does NOT hold for this point type. Gale's actual content is GLOBAL Radon/Tverberg convex-partition theory (0 in conv-hull of Gale points of a subset <=> its complement's primal points have intersecting convex hulls), which does NOT reduce to a local forbidden-triple constraint set for the structured 2-factor search. Net assessment: Gale is theoretically pretty but of LOW practical leverage for the m=37 siege - it does not shrink the constraint count (C(4m,3) triples either way; ~540k at m=37 vs 31M primal (X)-hyperedges, fewer only because primal collisions merge) and offers no cleaner local check. Recommended disposition: drop Gale as a computational lever; keep only as optional language for a global convex-body existence argument (not pursued now)."
+}

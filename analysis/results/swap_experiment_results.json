@@ -1,0 +1,208 @@
+{
+  "timestamp": "2026-07-17 22:14:29",
+  "total": 11,
+  "improvements": 0,
+  "results": [
+    {
+      "from": "v40_01",
+      "to": "v40_02",
+      "cycle_idx": 0,
+      "cycle_len": 8,
+      "cycle_path": [
+        1,
+        14,
+        22,
+        15,
+        2,
+        23,
+        3,
+        19
+      ],
+      "original_value": 40,
+      "sa_violations": 15,
+      "geo_bad": 60
+    },
+    {
+      "from": "v40_01",
+      "to": "v40_03",
+      "cycle_idx": 0,
+      "cycle_len": 14,
+      "cycle_path": [
+        1,
+        14,
+        22,
+        15,
+        34,
+        6,
+        17,
+        28,
+        16,
+        13,
+        11,
+        23,
+        3,
+        19
+      ],
+      "original_value": 40,
+      "sa_violations": 10,
+      "geo_bad": 40
+    },
+    {
+      "from": "v40_01",
+      "to": "v40_04",
+      "cycle_idx": 0,
+      "cycle_len": 14,
+      "cycle_path": [
+        1,
+        14,
+        22,
+        15,
+        34,
+        6,
+        17,
+        28,
+        16,
+        13,
+        11,
+        23,
+        3,
+        19
+      ],
+      "original_value": 40,
+      "sa_violations": 10,
+      "geo_bad": 40
+    },
+    {
+      "from": "v40_01",
+      "to": "v40_04",
+      "cycle_idx": 1,
+      "cycle_len": 4,
+      "cycle_path": [
+        2,
+        20,
+        27,
+        36
+      ],
+      "original_value": 40,
+      "sa_violations": 21,
+      "geo_bad": 84
+    },
+    {
+      "from": "v40_01",
+      "to": "v40_04",
+      "cycle_idx": 2,
+      "cycle_len": 4,
+      "cycle_path": [
+        3,
+        29,
+        26,
+        25
+      ],
+      "original_value": 40,
+      "sa_violations": 28,
+      "geo_bad": 112
+    },
+    {
+      "from": "v40_02",
+      "to": "v40_03",
+      "cycle_idx": 0,
+      "cycle_len": 10,
+      "cycle_path": [
+        2,
+        15,
+        34,
+        6,
+        17,
+        28,
+        16,
+        13,
+        11,
+        23
+      ],
+      "original_value": 40,
+      "sa_violations": 20,
+      "geo_bad": 80
+    },
+    {
+      "from": "v40_02",
+      "to": "v40_04",
+      "cycle_idx": 0,
+      "cycle_len": 4,
+      "cycle_path": [
+        2,
+        20,
+        27,
+        36
+      ],
+      "original_value": 40,
+      "sa_violations": 16,
+      "geo_bad": 64
+    },
+    {
+      "from": "v40_02",
+      "to": "v40_04",
+      "cycle_idx": 1,
+      "cycle_len": 10,
+      "cycle_path": [
+        2,
+        15,
+        34,
+        6,
+        17,
+        28,
+        16,
+        13,
+        11,
+        23
+      ],
+      "original_value": 40,
+      "sa_violations": 20,
+      "geo_bad": 80
+    },
+    {
+      "from": "v40_02",
+      "to": "v40_04",
+      "cycle_idx": 2,
+      "cycle_len": 4,
+      "cycle_path": [
+        3,
+        29,
+        26,
+        25
+      ],
+      "original_value": 40,
+      "sa_violations": 28,
+      "geo_bad": 112
+    },
+    {
+      "from": "v40_03",
+      "to": "v40_04",
+      "cycle_idx": 0,
+      "cycle_len": 4,
+      "cycle_path": [
+        2,
+        20,
+        27,
+        36
+      ],
+      "original_value": 40,
+      "sa_violations": 12,
+      "geo_bad": 48
+    },
+    {
+      "from": "v40_03",
+      "to": "v40_04",
+      "cycle_idx": 1,
+      "cycle_len": 4,
+      "cycle_path": [
+        3,
+        29,
+        26,
+        25
+      ],
+      "original_value": 40,
+      "sa_violations": 19,
+      "geo_bad": 76
+    }
+  ]
+}

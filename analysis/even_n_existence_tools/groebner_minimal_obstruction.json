@@ -1,0 +1,11 @@
+{
+  "basin": "v20_01",
+  "mus_cells": 21,
+  "minimal_cells": 3,
+  "minimal_cell_indices": [
+    6,
+    22,
+    26
+  ],
+  "time": 8.409169912338257
+}

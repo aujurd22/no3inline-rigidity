@@ -1,0 +1,46 @@
+{
+  "parameters": {
+    "evaluate_top": 120,
+    "restarts": 4,
+    "workers": 8,
+    "exact_top": 4,
+    "exact_time": 90.0,
+    "out": "exhaustive_hitting_repair.json"
+  },
+  "selected_indices": [
+    20,
+    24,
+    25,
+    29,
+    31
+  ],
+  "selected_original_edges": [
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      36
+    ],
+    [
+      13,
+      29
+    ],
+    [
+      16,
+      28
+    ],
+    [
+      20,
+      26
+    ]
+  ],
+  "total_matchings": 945,
+  "diagonal_safe_matchings": 0,
+  "evaluated": 0,
+  "warm_top50": [],
+  "weighted_top50": [],
+  "best_feasible": null,
+  "exact": []
+}

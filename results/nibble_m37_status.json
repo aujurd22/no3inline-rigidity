@@ -1,0 +1,10 @@
+{
+  "m": 37,
+  "seed": 12345,
+  "elapsed": 2086.0630440711975,
+  "restarts": 7,
+  "fails": 0,
+  "nodes_total": 1402126,
+  "best_nodes": 200324,
+  "found": false
+}

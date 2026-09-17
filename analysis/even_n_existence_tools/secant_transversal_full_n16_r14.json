@@ -1,0 +1,19 @@
+{
+  "n": 16,
+  "q": 16,
+  "meaning": "primitive direction scales strictly below q are protected",
+  "stage": "full",
+  "required_removed_count": 14,
+  "forced_added_cell": null,
+  "old_point_count": 32,
+  "empty_cell_count": 224,
+  "old2_secant_constraint_count": 1220,
+  "relevant_secant_incidence_count": 1220,
+  "old1_conditional_line_constraint_count": 5888,
+  "old1_direction_count": 70,
+  "old1_encoding": "pairwise",
+  "new3_line_constraint_count": 2108,
+  "status": "UNKNOWN",
+  "wall_time_seconds": 60.020448300000005,
+  "best_removed_count_bound": 0.0
+}

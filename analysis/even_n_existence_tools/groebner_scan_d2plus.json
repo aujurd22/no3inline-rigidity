@@ -1,0 +1,573 @@
+{
+  "D2_L0": [
+    {
+      "config": "D2_L0",
+      "sample": 0,
+      "D": 2,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 60.5,
+      "n_polys": 1298
+    },
+    {
+      "config": "D2_L0",
+      "sample": 1,
+      "D": 2,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 63.9,
+      "n_polys": 1260
+    },
+    {
+      "config": "D2_L0",
+      "sample": 2,
+      "D": 2,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 79.0,
+      "n_polys": 1214
+    },
+    {
+      "config": "D2_L0",
+      "sample": 3,
+      "D": 2,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 78.7,
+      "n_polys": 1434
+    },
+    {
+      "config": "D2_L0",
+      "sample": 4,
+      "D": 2,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 67.9,
+      "n_polys": 1388
+    }
+  ],
+  "D2_L1": [
+    {
+      "config": "D2_L1",
+      "sample": 0,
+      "D": 2,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 116.4,
+      "n_polys": 1820
+    },
+    {
+      "config": "D2_L1",
+      "sample": 1,
+      "D": 2,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 95.6,
+      "n_polys": 1712
+    },
+    {
+      "config": "D2_L1",
+      "sample": 2,
+      "D": 2,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 63.7,
+      "n_polys": 1248
+    },
+    {
+      "config": "D2_L1",
+      "sample": 3,
+      "D": 2,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 100.5,
+      "n_polys": 1574
+    },
+    {
+      "config": "D2_L1",
+      "sample": 4,
+      "D": 2,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 113.8,
+      "n_polys": 1606
+    }
+  ],
+  "D2_L2": [
+    {
+      "config": "D2_L2",
+      "sample": 0,
+      "D": 2,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 46.9,
+      "n_polys": 1054
+    },
+    {
+      "config": "D2_L2",
+      "sample": 1,
+      "D": 2,
+      "L": 2,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 69.9,
+      "n_polys": 1372
+    },
+    {
+      "config": "D2_L2",
+      "sample": 2,
+      "D": 2,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 52.1,
+      "n_polys": 1182
+    },
+    {
+      "config": "D2_L2",
+      "sample": 3,
+      "D": 2,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 64.9,
+      "n_polys": 1386
+    },
+    {
+      "config": "D2_L2",
+      "sample": 4,
+      "D": 2,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 37.5,
+      "n_polys": 1004
+    }
+  ],
+  "D3_L0": [
+    {
+      "config": "D3_L0",
+      "sample": 0,
+      "D": 3,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 198.6,
+      "n_polys": 2476
+    },
+    {
+      "config": "D3_L0",
+      "sample": 1,
+      "D": 3,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 223.5,
+      "n_polys": 2604
+    }
+  ],
+  "D3_L1": [
+    {
+      "D": 3,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 300.11421298980713,
+      "n_polys": 2648
+    },
+    {
+      "D": 3,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 265.5683264732361,
+      "n_polys": 2656
+    },
+    {
+      "D": 3,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 232.9727442264557,
+      "n_polys": 2640
+    },
+    {
+      "D": 3,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 217.84541130065918,
+      "n_polys": 2678
+    },
+    {
+      "D": 3,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 222.9152979850769,
+      "n_polys": 2636
+    }
+  ],
+  "D3_L2": [
+    {
+      "D": 3,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 143.09860372543335,
+      "n_polys": 2320
+    },
+    {
+      "D": 3,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 111.9365963935852,
+      "n_polys": 2002
+    },
+    {
+      "D": 3,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 87.2965669631958,
+      "n_polys": 1822
+    },
+    {
+      "D": 3,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 105.29123950004578,
+      "n_polys": 1746
+    },
+    {
+      "D": 3,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 137.3429696559906,
+      "n_polys": 2046
+    }
+  ],
+  "D3_L3": [
+    {
+      "D": 3,
+      "L": 2,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 175.56246376037598,
+      "n_polys": 2344
+    },
+    {
+      "D": 3,
+      "L": 2,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 104.86379384994507,
+      "n_polys": 1600
+    },
+    {
+      "D": 3,
+      "L": 2,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 134.42660975456238,
+      "n_polys": 2080
+    },
+    {
+      "D": 3,
+      "L": 2,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 104.05938696861267,
+      "n_polys": 1696
+    },
+    {
+      "D": 3,
+      "L": 2,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 119.20818829536438,
+      "n_polys": 1896
+    }
+  ],
+  "D4_L0": [
+    {
+      "D": 4,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 373.2143738269806,
+      "n_polys": 3340
+    },
+    {
+      "D": 4,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 333.32418060302734,
+      "n_polys": 3086
+    },
+    {
+      "D": 4,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 438.38912296295166,
+      "n_polys": 3552
+    },
+    {
+      "D": 4,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 287.66252541542053,
+      "n_polys": 2938
+    },
+    {
+      "D": 4,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 348.6278440952301,
+      "n_polys": 3116
+    }
+  ],
+  "D4_L1": [
+    {
+      "D": 4,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 374.6392915248871,
+      "n_polys": 3342
+    },
+    {
+      "D": 4,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 241.99236845970154,
+      "n_polys": 2610
+    },
+    {
+      "D": 4,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 216.50976610183716,
+      "n_polys": 2494
+    },
+    {
+      "D": 4,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 332.5566749572754,
+      "n_polys": 3236
+    },
+    {
+      "D": 3,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 211.9852032661438,
+      "n_polys": 2516
+    }
+  ],
+  "D4_L2": [
+    {
+      "D": 3,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 159.69351768493652,
+      "n_polys": 2120
+    },
+    {
+      "D": 4,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 169.81428408622742,
+      "n_polys": 2192
+    },
+    {
+      "D": 4,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 156.72464394569397,
+      "n_polys": 2108
+    },
+    {
+      "D": 4,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 202.82847118377686,
+      "n_polys": 2418
+    },
+    {
+      "D": 4,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 269.13635206222534,
+      "n_polys": 2836
+    }
+  ],
+  "D5_L0": [
+    {
+      "D": 5,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 294.1486370563507,
+      "n_polys": 3084
+    },
+    {
+      "D": 5,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 346.1260116100311,
+      "n_polys": 3312
+    },
+    {
+      "D": 5,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 449.39343333244324,
+      "n_polys": 3718
+    },
+    {
+      "D": 5,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 343.2732937335968,
+      "n_polys": 3248
+    },
+    {
+      "D": 5,
+      "L": 0,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 262.6616704463959,
+      "n_polys": 2850
+    }
+  ],
+  "D5_L1": [
+    {
+      "D": 5,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 183.85620713233948,
+      "n_polys": 2382
+    },
+    {
+      "D": 5,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 199.82038593292236,
+      "n_polys": 2390
+    },
+    {
+      "D": 5,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 223.56260800361633,
+      "n_polys": 2602
+    },
+    {
+      "D": 5,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 265.06809067726135,
+      "n_polys": 2896
+    },
+    {
+      "D": 5,
+      "L": 1,
+      "n_edges": 37,
+      "gb_unsat": true,
+      "gb_size": 1,
+      "gb_time": 185.70854997634888,
+      "n_polys": 2358
+    }
+  ]
+}

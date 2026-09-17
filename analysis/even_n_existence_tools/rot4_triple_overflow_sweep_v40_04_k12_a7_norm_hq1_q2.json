@@ -1,0 +1,25 @@
+{
+  "parameters": {
+    "base": "v40_04",
+    "size": 12,
+    "adjacency_count": 7,
+    "triple_counts": "2,3,4,5,6",
+    "direction_q": 2,
+    "hard_direction_q": 1,
+    "forbid_exact_reselection": true,
+    "time_limit": 300.0,
+    "workers": 4,
+    "out": "rot4_triple_overflow_sweep_v40_04_k12_a7_norm_hq1_q2.json"
+  },
+  "layers": [
+    {
+      "triple_count": 2,
+      "classification": "UNRESOLVED",
+      "status": "UNKNOWN",
+      "objective": null,
+      "best_bound": 0.0,
+      "wall_s": 300.287,
+      "evidence": "rot4_line_overflow_v40_04_k12_a7_b2_norm_hq1_q2.json"
+    }
+  ]
+}

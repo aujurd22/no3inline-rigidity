@@ -1,0 +1,7258 @@
+{
+  "params": {
+    "steps": 600,
+    "judge_every": 3,
+    "T0": 80.0,
+    "T1": 3.0,
+    "seed": 20260721,
+    "max_judge": 150
+  },
+  "elapsed_seconds": 1533.1724796295166,
+  "walk_summary": {
+    "v20_01": {
+      "start_bad": 316,
+      "steps": 600,
+      "reachable_states": 407,
+      "judged": 150,
+      "best_bad_reached": 256
+    },
+    "v20_02": {
+      "start_bad": 236,
+      "steps": 600,
+      "reachable_states": 392,
+      "judged": 150,
+      "best_bad_reached": 236
+    },
+    "v20_03": {
+      "start_bad": 264,
+      "steps": 600,
+      "reachable_states": 390,
+      "judged": 150,
+      "best_bad_reached": 240
+    },
+    "v20_04": {
+      "start_bad": 328,
+      "steps": 600,
+      "reachable_states": 392,
+      "judged": 150,
+      "best_bad_reached": 260
+    },
+    "v20_05": {
+      "start_bad": 336,
+      "steps": 600,
+      "reachable_states": 403,
+      "judged": 150,
+      "best_bad_reached": 268
+    },
+    "v20_06": {
+      "start_bad": 240,
+      "steps": 600,
+      "reachable_states": 403,
+      "judged": 150,
+      "best_bad_reached": 240
+    }
+  },
+  "subproblem_verdicts": [
+    {
+      "from_basin": "v20_01",
+      "step": 3,
+      "bad_triples": 376,
+      "defect_orbits": 94,
+      "verdict": "unsat",
+      "n_clauses": 1632
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 6,
+      "bad_triples": 400,
+      "defect_orbits": 100,
+      "verdict": "unsat",
+      "n_clauses": 1764
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 9,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 1968
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 12,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2130
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 15,
+      "bad_triples": 524,
+      "defect_orbits": 131,
+      "verdict": "unsat",
+      "n_clauses": 2256
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 18,
+      "bad_triples": 508,
+      "defect_orbits": 127,
+      "verdict": "unsat",
+      "n_clauses": 2196
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 21,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2040
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 24,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2124
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 27,
+      "bad_triples": 524,
+      "defect_orbits": 131,
+      "verdict": "unsat",
+      "n_clauses": 2214
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 30,
+      "bad_triples": 572,
+      "defect_orbits": 143,
+      "verdict": "unsat",
+      "n_clauses": 2160
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 33,
+      "bad_triples": 532,
+      "defect_orbits": 133,
+      "verdict": "unsat",
+      "n_clauses": 2190
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 36,
+      "bad_triples": 564,
+      "defect_orbits": 141,
+      "verdict": "unsat",
+      "n_clauses": 2184
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 39,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2166
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 42,
+      "bad_triples": 508,
+      "defect_orbits": 127,
+      "verdict": "unsat",
+      "n_clauses": 2250
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 45,
+      "bad_triples": 568,
+      "defect_orbits": 142,
+      "verdict": "unsat",
+      "n_clauses": 2532
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 48,
+      "bad_triples": 504,
+      "defect_orbits": 126,
+      "verdict": "unsat",
+      "n_clauses": 2676
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 51,
+      "bad_triples": 680,
+      "defect_orbits": 170,
+      "verdict": "unsat",
+      "n_clauses": 3054
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 54,
+      "bad_triples": 604,
+      "defect_orbits": 151,
+      "verdict": "unsat",
+      "n_clauses": 3006
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 57,
+      "bad_triples": 556,
+      "defect_orbits": 139,
+      "verdict": "unsat",
+      "n_clauses": 2868
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 60,
+      "bad_triples": 516,
+      "defect_orbits": 129,
+      "verdict": "unsat",
+      "n_clauses": 2832
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 63,
+      "bad_triples": 648,
+      "defect_orbits": 162,
+      "verdict": "unsat",
+      "n_clauses": 3468
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 66,
+      "bad_triples": 512,
+      "defect_orbits": 128,
+      "verdict": "unsat",
+      "n_clauses": 2616
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 69,
+      "bad_triples": 548,
+      "defect_orbits": 137,
+      "verdict": "unsat",
+      "n_clauses": 2454
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 72,
+      "bad_triples": 544,
+      "defect_orbits": 136,
+      "verdict": "unsat",
+      "n_clauses": 2298
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 75,
+      "bad_triples": 480,
+      "defect_orbits": 120,
+      "verdict": "unsat",
+      "n_clauses": 2166
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 78,
+      "bad_triples": 504,
+      "defect_orbits": 126,
+      "verdict": "unsat",
+      "n_clauses": 2376
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 81,
+      "bad_triples": 524,
+      "defect_orbits": 131,
+      "verdict": "unsat",
+      "n_clauses": 2412
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 84,
+      "bad_triples": 504,
+      "defect_orbits": 126,
+      "verdict": "unsat",
+      "n_clauses": 2286
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 87,
+      "bad_triples": 536,
+      "defect_orbits": 134,
+      "verdict": "unsat",
+      "n_clauses": 2550
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 90,
+      "bad_triples": 532,
+      "defect_orbits": 133,
+      "verdict": "unsat",
+      "n_clauses": 2616
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 93,
+      "bad_triples": 532,
+      "defect_orbits": 133,
+      "verdict": "unsat",
+      "n_clauses": 2514
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 96,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2310
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 99,
+      "bad_triples": 512,
+      "defect_orbits": 128,
+      "verdict": "unsat",
+      "n_clauses": 2454
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 102,
+      "bad_triples": 424,
+      "defect_orbits": 106,
+      "verdict": "unsat",
+      "n_clauses": 2646
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 105,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2568
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 108,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2322
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 111,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2364
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 114,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2334
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 117,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2232
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 120,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2466
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 123,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2310
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 126,
+      "bad_triples": 360,
+      "defect_orbits": 90,
+      "verdict": "unsat",
+      "n_clauses": 2196
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 129,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2262
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 132,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2178
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 135,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2244
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 138,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2352
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 141,
+      "bad_triples": 388,
+      "defect_orbits": 97,
+      "verdict": "unsat",
+      "n_clauses": 2328
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 144,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2532
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 147,
+      "bad_triples": 524,
+      "defect_orbits": 131,
+      "verdict": "unsat",
+      "n_clauses": 2622
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 150,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2460
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 153,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2322
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 156,
+      "bad_triples": 544,
+      "defect_orbits": 136,
+      "verdict": "unsat",
+      "n_clauses": 2562
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 159,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2286
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 162,
+      "bad_triples": 520,
+      "defect_orbits": 130,
+      "verdict": "unsat",
+      "n_clauses": 2388
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 165,
+      "bad_triples": 628,
+      "defect_orbits": 157,
+      "verdict": "unsat",
+      "n_clauses": 2682
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 168,
+      "bad_triples": 560,
+      "defect_orbits": 140,
+      "verdict": "unsat",
+      "n_clauses": 2658
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 171,
+      "bad_triples": 508,
+      "defect_orbits": 127,
+      "verdict": "unsat",
+      "n_clauses": 2436
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 174,
+      "bad_triples": 472,
+      "defect_orbits": 118,
+      "verdict": "unsat",
+      "n_clauses": 2430
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 177,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2268
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 180,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2148
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 183,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2130
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 186,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2268
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 189,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2388
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 195,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2262
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 198,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2190
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 201,
+      "bad_triples": 380,
+      "defect_orbits": 95,
+      "verdict": "unsat",
+      "n_clauses": 2280
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 204,
+      "bad_triples": 356,
+      "defect_orbits": 89,
+      "verdict": "unsat",
+      "n_clauses": 2154
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 207,
+      "bad_triples": 340,
+      "defect_orbits": 85,
+      "verdict": "unsat",
+      "n_clauses": 1968
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 210,
+      "bad_triples": 332,
+      "defect_orbits": 83,
+      "verdict": "unsat",
+      "n_clauses": 2178
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 213,
+      "bad_triples": 344,
+      "defect_orbits": 86,
+      "verdict": "unsat",
+      "n_clauses": 2004
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 216,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2178
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 219,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2064
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 222,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2058
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 225,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2076
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 228,
+      "bad_triples": 520,
+      "defect_orbits": 130,
+      "verdict": "unsat",
+      "n_clauses": 2274
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 231,
+      "bad_triples": 560,
+      "defect_orbits": 140,
+      "verdict": "unsat",
+      "n_clauses": 2430
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 234,
+      "bad_triples": 512,
+      "defect_orbits": 128,
+      "verdict": "unsat",
+      "n_clauses": 2328
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 237,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2346
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 240,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2298
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 243,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2286
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 246,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2466
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 249,
+      "bad_triples": 504,
+      "defect_orbits": 126,
+      "verdict": "unsat",
+      "n_clauses": 2436
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 252,
+      "bad_triples": 504,
+      "defect_orbits": 126,
+      "verdict": "unsat",
+      "n_clauses": 2376
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 255,
+      "bad_triples": 584,
+      "defect_orbits": 146,
+      "verdict": "unsat",
+      "n_clauses": 2280
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 258,
+      "bad_triples": 608,
+      "defect_orbits": 152,
+      "verdict": "unsat",
+      "n_clauses": 2436
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 261,
+      "bad_triples": 536,
+      "defect_orbits": 134,
+      "verdict": "unsat",
+      "n_clauses": 2244
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 264,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2280
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 267,
+      "bad_triples": 508,
+      "defect_orbits": 127,
+      "verdict": "unsat",
+      "n_clauses": 2478
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 270,
+      "bad_triples": 472,
+      "defect_orbits": 118,
+      "verdict": "unsat",
+      "n_clauses": 2358
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 273,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2280
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 276,
+      "bad_triples": 424,
+      "defect_orbits": 106,
+      "verdict": "unsat",
+      "n_clauses": 2370
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 279,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2532
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 282,
+      "bad_triples": 480,
+      "defect_orbits": 120,
+      "verdict": "unsat",
+      "n_clauses": 2808
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 285,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2766
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 288,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2712
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 291,
+      "bad_triples": 500,
+      "defect_orbits": 125,
+      "verdict": "unsat",
+      "n_clauses": 2766
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 294,
+      "bad_triples": 508,
+      "defect_orbits": 127,
+      "verdict": "unsat",
+      "n_clauses": 2718
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 297,
+      "bad_triples": 516,
+      "defect_orbits": 129,
+      "verdict": "unsat",
+      "n_clauses": 2706
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 300,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2652
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 303,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2508
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 306,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2412
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 309,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2166
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 312,
+      "bad_triples": 472,
+      "defect_orbits": 118,
+      "verdict": "unsat",
+      "n_clauses": 2532
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 315,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2412
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 318,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2514
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 321,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2400
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 327,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2364
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 330,
+      "bad_triples": 376,
+      "defect_orbits": 94,
+      "verdict": "unsat",
+      "n_clauses": 2154
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 333,
+      "bad_triples": 380,
+      "defect_orbits": 95,
+      "verdict": "unsat",
+      "n_clauses": 2406
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 336,
+      "bad_triples": 400,
+      "defect_orbits": 100,
+      "verdict": "unsat",
+      "n_clauses": 2376
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 339,
+      "bad_triples": 388,
+      "defect_orbits": 97,
+      "verdict": "unsat",
+      "n_clauses": 2490
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 342,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2688
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 345,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2784
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 348,
+      "bad_triples": 504,
+      "defect_orbits": 126,
+      "verdict": "unsat",
+      "n_clauses": 2808
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 351,
+      "bad_triples": 464,
+      "defect_orbits": 116,
+      "verdict": "unsat",
+      "n_clauses": 2472
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 354,
+      "bad_triples": 524,
+      "defect_orbits": 131,
+      "verdict": "unsat",
+      "n_clauses": 2478
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 357,
+      "bad_triples": 576,
+      "defect_orbits": 144,
+      "verdict": "unsat",
+      "n_clauses": 2742
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 360,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2556
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 363,
+      "bad_triples": 516,
+      "defect_orbits": 129,
+      "verdict": "unsat",
+      "n_clauses": 2790
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 366,
+      "bad_triples": 504,
+      "defect_orbits": 126,
+      "verdict": "unsat",
+      "n_clauses": 2838
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 369,
+      "bad_triples": 520,
+      "defect_orbits": 130,
+      "verdict": "unsat",
+      "n_clauses": 2766
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 372,
+      "bad_triples": 540,
+      "defect_orbits": 135,
+      "verdict": "unsat",
+      "n_clauses": 2652
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 375,
+      "bad_triples": 516,
+      "defect_orbits": 129,
+      "verdict": "unsat",
+      "n_clauses": 2454
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 378,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2580
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 381,
+      "bad_triples": 424,
+      "defect_orbits": 106,
+      "verdict": "unsat",
+      "n_clauses": 2388
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 384,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2658
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 387,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2658
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 390,
+      "bad_triples": 464,
+      "defect_orbits": 116,
+      "verdict": "unsat",
+      "n_clauses": 2676
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 393,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2610
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 396,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2454
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 399,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2448
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 402,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2550
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 405,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2370
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 408,
+      "bad_triples": 388,
+      "defect_orbits": 97,
+      "verdict": "unsat",
+      "n_clauses": 2118
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 411,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2136
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 414,
+      "bad_triples": 368,
+      "defect_orbits": 92,
+      "verdict": "unsat",
+      "n_clauses": 2070
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 417,
+      "bad_triples": 368,
+      "defect_orbits": 92,
+      "verdict": "unsat",
+      "n_clauses": 2172
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 420,
+      "bad_triples": 388,
+      "defect_orbits": 97,
+      "verdict": "unsat",
+      "n_clauses": 2202
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 423,
+      "bad_triples": 360,
+      "defect_orbits": 90,
+      "verdict": "unsat",
+      "n_clauses": 2052
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 426,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2172
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 429,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2112
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 432,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2190
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 435,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2178
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 438,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2100
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 444,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2388
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 447,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2466
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 450,
+      "bad_triples": 460,
+      "defect_orbits": 115,
+      "verdict": "unsat",
+      "n_clauses": 2466
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 453,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2526
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 456,
+      "bad_triples": 496,
+      "defect_orbits": 124,
+      "verdict": "unsat",
+      "n_clauses": 2562
+    },
+    {
+      "from_basin": "v20_01",
+      "step": 459,
+      "bad_triples": 472,
+      "defect_orbits": 118,
+      "verdict": "unsat",
+      "n_clauses": 2358
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 3,
+      "bad_triples": 308,
+      "defect_orbits": 77,
+      "verdict": "unsat",
+      "n_clauses": 1524
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 6,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 1782
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 9,
+      "bad_triples": 364,
+      "defect_orbits": 91,
+      "verdict": "unsat",
+      "n_clauses": 1830
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 12,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2088
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 15,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2370
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 18,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2412
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 21,
+      "bad_triples": 512,
+      "defect_orbits": 128,
+      "verdict": "unsat",
+      "n_clauses": 2472
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 24,
+      "bad_triples": 540,
+      "defect_orbits": 135,
+      "verdict": "unsat",
+      "n_clauses": 2580
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 27,
+      "bad_triples": 528,
+      "defect_orbits": 132,
+      "verdict": "unsat",
+      "n_clauses": 2430
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 30,
+      "bad_triples": 536,
+      "defect_orbits": 134,
+      "verdict": "unsat",
+      "n_clauses": 2130
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 33,
+      "bad_triples": 480,
+      "defect_orbits": 120,
+      "verdict": "unsat",
+      "n_clauses": 2016
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 36,
+      "bad_triples": 472,
+      "defect_orbits": 118,
+      "verdict": "unsat",
+      "n_clauses": 2364
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 39,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2244
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 42,
+      "bad_triples": 564,
+      "defect_orbits": 141,
+      "verdict": "unsat",
+      "n_clauses": 2682
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 45,
+      "bad_triples": 532,
+      "defect_orbits": 133,
+      "verdict": "unsat",
+      "n_clauses": 2448
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 48,
+      "bad_triples": 548,
+      "defect_orbits": 137,
+      "verdict": "unsat",
+      "n_clauses": 2748
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 51,
+      "bad_triples": 520,
+      "defect_orbits": 130,
+      "verdict": "unsat",
+      "n_clauses": 2652
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 54,
+      "bad_triples": 548,
+      "defect_orbits": 137,
+      "verdict": "unsat",
+      "n_clauses": 2736
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 57,
+      "bad_triples": 500,
+      "defect_orbits": 125,
+      "verdict": "unsat",
+      "n_clauses": 2520
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 60,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2226
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 63,
+      "bad_triples": 500,
+      "defect_orbits": 125,
+      "verdict": "unsat",
+      "n_clauses": 2526
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 66,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2490
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 69,
+      "bad_triples": 532,
+      "defect_orbits": 133,
+      "verdict": "unsat",
+      "n_clauses": 2772
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 72,
+      "bad_triples": 584,
+      "defect_orbits": 146,
+      "verdict": "unsat",
+      "n_clauses": 2658
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 75,
+      "bad_triples": 580,
+      "defect_orbits": 145,
+      "verdict": "unsat",
+      "n_clauses": 2664
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 78,
+      "bad_triples": 552,
+      "defect_orbits": 138,
+      "verdict": "unsat",
+      "n_clauses": 2712
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 81,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2532
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 84,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2700
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 87,
+      "bad_triples": 480,
+      "defect_orbits": 120,
+      "verdict": "unsat",
+      "n_clauses": 2670
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 90,
+      "bad_triples": 532,
+      "defect_orbits": 133,
+      "verdict": "unsat",
+      "n_clauses": 2880
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 93,
+      "bad_triples": 548,
+      "defect_orbits": 137,
+      "verdict": "unsat",
+      "n_clauses": 2958
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 96,
+      "bad_triples": 536,
+      "defect_orbits": 134,
+      "verdict": "unsat",
+      "n_clauses": 2724
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 99,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2454
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 102,
+      "bad_triples": 532,
+      "defect_orbits": 133,
+      "verdict": "unsat",
+      "n_clauses": 2376
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 108,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2214
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 111,
+      "bad_triples": 480,
+      "defect_orbits": 120,
+      "verdict": "unsat",
+      "n_clauses": 2442
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 114,
+      "bad_triples": 460,
+      "defect_orbits": 115,
+      "verdict": "unsat",
+      "n_clauses": 2274
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 117,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2244
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 120,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2202
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 123,
+      "bad_triples": 424,
+      "defect_orbits": 106,
+      "verdict": "unsat",
+      "n_clauses": 2094
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 126,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2130
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 129,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2094
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 132,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2244
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 135,
+      "bad_triples": 472,
+      "defect_orbits": 118,
+      "verdict": "unsat",
+      "n_clauses": 2580
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 138,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2250
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 141,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2202
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 144,
+      "bad_triples": 400,
+      "defect_orbits": 100,
+      "verdict": "unsat",
+      "n_clauses": 2232
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 147,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2394
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 150,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2454
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 153,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2730
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 156,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2400
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 159,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2298
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 162,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2190
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 165,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2226
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 168,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2094
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 171,
+      "bad_triples": 376,
+      "defect_orbits": 94,
+      "verdict": "unsat",
+      "n_clauses": 2010
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 177,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2106
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 180,
+      "bad_triples": 380,
+      "defect_orbits": 95,
+      "verdict": "unsat",
+      "n_clauses": 2136
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 183,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2268
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 186,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2220
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 189,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2064
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 192,
+      "bad_triples": 424,
+      "defect_orbits": 106,
+      "verdict": "unsat",
+      "n_clauses": 2238
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 195,
+      "bad_triples": 400,
+      "defect_orbits": 100,
+      "verdict": "unsat",
+      "n_clauses": 2328
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 198,
+      "bad_triples": 352,
+      "defect_orbits": 88,
+      "verdict": "unsat",
+      "n_clauses": 2136
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 201,
+      "bad_triples": 360,
+      "defect_orbits": 90,
+      "verdict": "unsat",
+      "n_clauses": 1830
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 204,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 1854
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 207,
+      "bad_triples": 364,
+      "defect_orbits": 91,
+      "verdict": "unsat",
+      "n_clauses": 1908
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 210,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2016
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 213,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2310
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 216,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2238
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 219,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2226
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 222,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2118
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 225,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2148
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 228,
+      "bad_triples": 480,
+      "defect_orbits": 120,
+      "verdict": "unsat",
+      "n_clauses": 2190
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 231,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2022
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 234,
+      "bad_triples": 464,
+      "defect_orbits": 116,
+      "verdict": "unsat",
+      "n_clauses": 2166
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 237,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2238
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 240,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2136
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 243,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2004
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 246,
+      "bad_triples": 380,
+      "defect_orbits": 95,
+      "verdict": "unsat",
+      "n_clauses": 1974
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 249,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2106
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 252,
+      "bad_triples": 364,
+      "defect_orbits": 91,
+      "verdict": "unsat",
+      "n_clauses": 2022
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 255,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2172
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 258,
+      "bad_triples": 464,
+      "defect_orbits": 116,
+      "verdict": "unsat",
+      "n_clauses": 2346
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 261,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2364
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 264,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2370
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 267,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2634
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 270,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2586
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 273,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2490
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 276,
+      "bad_triples": 368,
+      "defect_orbits": 92,
+      "verdict": "unsat",
+      "n_clauses": 2388
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 279,
+      "bad_triples": 340,
+      "defect_orbits": 85,
+      "verdict": "unsat",
+      "n_clauses": 2412
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 285,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2472
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 288,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2466
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 291,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2190
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 294,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2496
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 297,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2508
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 300,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2496
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 303,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2316
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 306,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2232
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 309,
+      "bad_triples": 360,
+      "defect_orbits": 90,
+      "verdict": "unsat",
+      "n_clauses": 2094
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 312,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2208
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 315,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2346
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 318,
+      "bad_triples": 480,
+      "defect_orbits": 120,
+      "verdict": "unsat",
+      "n_clauses": 2454
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 321,
+      "bad_triples": 500,
+      "defect_orbits": 125,
+      "verdict": "unsat",
+      "n_clauses": 2412
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 324,
+      "bad_triples": 540,
+      "defect_orbits": 135,
+      "verdict": "unsat",
+      "n_clauses": 2688
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 327,
+      "bad_triples": 528,
+      "defect_orbits": 132,
+      "verdict": "unsat",
+      "n_clauses": 2382
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 330,
+      "bad_triples": 512,
+      "defect_orbits": 128,
+      "verdict": "unsat",
+      "n_clauses": 2448
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 333,
+      "bad_triples": 548,
+      "defect_orbits": 137,
+      "verdict": "unsat",
+      "n_clauses": 2730
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 336,
+      "bad_triples": 580,
+      "defect_orbits": 145,
+      "verdict": "unsat",
+      "n_clauses": 2778
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 339,
+      "bad_triples": 520,
+      "defect_orbits": 130,
+      "verdict": "unsat",
+      "n_clauses": 2658
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 342,
+      "bad_triples": 540,
+      "defect_orbits": 135,
+      "verdict": "unsat",
+      "n_clauses": 2700
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 345,
+      "bad_triples": 576,
+      "defect_orbits": 144,
+      "verdict": "unsat",
+      "n_clauses": 2706
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 348,
+      "bad_triples": 536,
+      "defect_orbits": 134,
+      "verdict": "unsat",
+      "n_clauses": 2574
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 351,
+      "bad_triples": 556,
+      "defect_orbits": 139,
+      "verdict": "unsat",
+      "n_clauses": 2598
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 354,
+      "bad_triples": 536,
+      "defect_orbits": 134,
+      "verdict": "unsat",
+      "n_clauses": 2502
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 357,
+      "bad_triples": 524,
+      "defect_orbits": 131,
+      "verdict": "unsat",
+      "n_clauses": 2766
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 360,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2586
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 363,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2520
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 366,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2322
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 369,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2292
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 372,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2082
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 375,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 1986
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 378,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2184
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 381,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2232
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 384,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2046
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 387,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2052
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 390,
+      "bad_triples": 480,
+      "defect_orbits": 120,
+      "verdict": "unsat",
+      "n_clauses": 2256
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 393,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2256
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 396,
+      "bad_triples": 368,
+      "defect_orbits": 92,
+      "verdict": "unsat",
+      "n_clauses": 2112
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 402,
+      "bad_triples": 316,
+      "defect_orbits": 79,
+      "verdict": "unsat",
+      "n_clauses": 1938
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 405,
+      "bad_triples": 332,
+      "defect_orbits": 83,
+      "verdict": "unsat",
+      "n_clauses": 1938
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 408,
+      "bad_triples": 336,
+      "defect_orbits": 84,
+      "verdict": "unsat",
+      "n_clauses": 1914
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 411,
+      "bad_triples": 348,
+      "defect_orbits": 87,
+      "verdict": "unsat",
+      "n_clauses": 1896
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 414,
+      "bad_triples": 368,
+      "defect_orbits": 92,
+      "verdict": "unsat",
+      "n_clauses": 1992
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 417,
+      "bad_triples": 356,
+      "defect_orbits": 89,
+      "verdict": "unsat",
+      "n_clauses": 1902
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 420,
+      "bad_triples": 344,
+      "defect_orbits": 86,
+      "verdict": "unsat",
+      "n_clauses": 2070
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 423,
+      "bad_triples": 348,
+      "defect_orbits": 87,
+      "verdict": "unsat",
+      "n_clauses": 2166
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 426,
+      "bad_triples": 348,
+      "defect_orbits": 87,
+      "verdict": "unsat",
+      "n_clauses": 1986
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 429,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2178
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 432,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2262
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 435,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2298
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 438,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2532
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 441,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2556
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 444,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2238
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 447,
+      "bad_triples": 376,
+      "defect_orbits": 94,
+      "verdict": "unsat",
+      "n_clauses": 2040
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 450,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 1998
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 453,
+      "bad_triples": 360,
+      "defect_orbits": 90,
+      "verdict": "unsat",
+      "n_clauses": 1872
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 456,
+      "bad_triples": 328,
+      "defect_orbits": 82,
+      "verdict": "unsat",
+      "n_clauses": 1800
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 459,
+      "bad_triples": 352,
+      "defect_orbits": 88,
+      "verdict": "unsat",
+      "n_clauses": 1968
+    },
+    {
+      "from_basin": "v20_02",
+      "step": 462,
+      "bad_triples": 352,
+      "defect_orbits": 88,
+      "verdict": "unsat",
+      "n_clauses": 1968
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 3,
+      "bad_triples": 332,
+      "defect_orbits": 83,
+      "verdict": "unsat",
+      "n_clauses": 1578
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 6,
+      "bad_triples": 344,
+      "defect_orbits": 86,
+      "verdict": "unsat",
+      "n_clauses": 1608
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 9,
+      "bad_triples": 460,
+      "defect_orbits": 115,
+      "verdict": "unsat",
+      "n_clauses": 1890
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 12,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 1896
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 15,
+      "bad_triples": 496,
+      "defect_orbits": 124,
+      "verdict": "unsat",
+      "n_clauses": 2016
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 18,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2088
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 21,
+      "bad_triples": 480,
+      "defect_orbits": 120,
+      "verdict": "unsat",
+      "n_clauses": 2004
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 24,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2124
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 27,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2238
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 30,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2262
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 33,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2322
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 36,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2322
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 39,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2418
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 42,
+      "bad_triples": 388,
+      "defect_orbits": 97,
+      "verdict": "unsat",
+      "n_clauses": 2088
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 45,
+      "bad_triples": 360,
+      "defect_orbits": 90,
+      "verdict": "unsat",
+      "n_clauses": 1998
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 48,
+      "bad_triples": 336,
+      "defect_orbits": 84,
+      "verdict": "unsat",
+      "n_clauses": 2058
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 51,
+      "bad_triples": 316,
+      "defect_orbits": 79,
+      "verdict": "unsat",
+      "n_clauses": 2070
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 54,
+      "bad_triples": 380,
+      "defect_orbits": 95,
+      "verdict": "unsat",
+      "n_clauses": 2220
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 57,
+      "bad_triples": 480,
+      "defect_orbits": 120,
+      "verdict": "unsat",
+      "n_clauses": 2478
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 60,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2202
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 63,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2070
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 66,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2082
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 69,
+      "bad_triples": 424,
+      "defect_orbits": 106,
+      "verdict": "unsat",
+      "n_clauses": 2178
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 72,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2178
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 75,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2220
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 78,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2112
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 81,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 1992
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 84,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2274
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 87,
+      "bad_triples": 388,
+      "defect_orbits": 97,
+      "verdict": "unsat",
+      "n_clauses": 2118
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 90,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2202
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 93,
+      "bad_triples": 400,
+      "defect_orbits": 100,
+      "verdict": "unsat",
+      "n_clauses": 2178
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 96,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2268
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 99,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2358
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 102,
+      "bad_triples": 376,
+      "defect_orbits": 94,
+      "verdict": "unsat",
+      "n_clauses": 2340
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 105,
+      "bad_triples": 400,
+      "defect_orbits": 100,
+      "verdict": "unsat",
+      "n_clauses": 2352
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 108,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2196
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 111,
+      "bad_triples": 388,
+      "defect_orbits": 97,
+      "verdict": "unsat",
+      "n_clauses": 1992
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 114,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2130
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 117,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2274
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 120,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2550
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 123,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2466
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 126,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2310
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 129,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2286
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 132,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2460
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 135,
+      "bad_triples": 520,
+      "defect_orbits": 130,
+      "verdict": "unsat",
+      "n_clauses": 2532
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 138,
+      "bad_triples": 500,
+      "defect_orbits": 125,
+      "verdict": "unsat",
+      "n_clauses": 2382
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 141,
+      "bad_triples": 548,
+      "defect_orbits": 137,
+      "verdict": "unsat",
+      "n_clauses": 2400
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 144,
+      "bad_triples": 508,
+      "defect_orbits": 127,
+      "verdict": "unsat",
+      "n_clauses": 2250
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 147,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2142
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 150,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2316
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 153,
+      "bad_triples": 464,
+      "defect_orbits": 116,
+      "verdict": "unsat",
+      "n_clauses": 2250
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 156,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2088
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 159,
+      "bad_triples": 364,
+      "defect_orbits": 91,
+      "verdict": "unsat",
+      "n_clauses": 2274
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 162,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2202
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 165,
+      "bad_triples": 360,
+      "defect_orbits": 90,
+      "verdict": "unsat",
+      "n_clauses": 2274
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 168,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2310
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 171,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2226
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 174,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2016
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 177,
+      "bad_triples": 464,
+      "defect_orbits": 116,
+      "verdict": "unsat",
+      "n_clauses": 2148
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 180,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 1962
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 183,
+      "bad_triples": 376,
+      "defect_orbits": 94,
+      "verdict": "unsat",
+      "n_clauses": 2028
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 186,
+      "bad_triples": 352,
+      "defect_orbits": 88,
+      "verdict": "unsat",
+      "n_clauses": 1908
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 189,
+      "bad_triples": 368,
+      "defect_orbits": 92,
+      "verdict": "unsat",
+      "n_clauses": 2040
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 192,
+      "bad_triples": 344,
+      "defect_orbits": 86,
+      "verdict": "unsat",
+      "n_clauses": 1968
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 195,
+      "bad_triples": 332,
+      "defect_orbits": 83,
+      "verdict": "unsat",
+      "n_clauses": 2028
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 198,
+      "bad_triples": 364,
+      "defect_orbits": 91,
+      "verdict": "unsat",
+      "n_clauses": 2010
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 201,
+      "bad_triples": 388,
+      "defect_orbits": 97,
+      "verdict": "unsat",
+      "n_clauses": 2082
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 204,
+      "bad_triples": 464,
+      "defect_orbits": 116,
+      "verdict": "unsat",
+      "n_clauses": 2238
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 207,
+      "bad_triples": 472,
+      "defect_orbits": 118,
+      "verdict": "unsat",
+      "n_clauses": 2280
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 210,
+      "bad_triples": 480,
+      "defect_orbits": 120,
+      "verdict": "unsat",
+      "n_clauses": 2304
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 213,
+      "bad_triples": 568,
+      "defect_orbits": 142,
+      "verdict": "unsat",
+      "n_clauses": 2454
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 216,
+      "bad_triples": 600,
+      "defect_orbits": 150,
+      "verdict": "unsat",
+      "n_clauses": 2676
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 219,
+      "bad_triples": 568,
+      "defect_orbits": 142,
+      "verdict": "unsat",
+      "n_clauses": 2544
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 222,
+      "bad_triples": 572,
+      "defect_orbits": 143,
+      "verdict": "unsat",
+      "n_clauses": 2442
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 225,
+      "bad_triples": 524,
+      "defect_orbits": 131,
+      "verdict": "unsat",
+      "n_clauses": 2430
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 228,
+      "bad_triples": 560,
+      "defect_orbits": 140,
+      "verdict": "unsat",
+      "n_clauses": 2484
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 231,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2562
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 234,
+      "bad_triples": 520,
+      "defect_orbits": 130,
+      "verdict": "unsat",
+      "n_clauses": 2736
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 237,
+      "bad_triples": 520,
+      "defect_orbits": 130,
+      "verdict": "unsat",
+      "n_clauses": 2862
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 240,
+      "bad_triples": 472,
+      "defect_orbits": 118,
+      "verdict": "unsat",
+      "n_clauses": 2532
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 243,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2670
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 246,
+      "bad_triples": 504,
+      "defect_orbits": 126,
+      "verdict": "unsat",
+      "n_clauses": 2442
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 249,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2394
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 252,
+      "bad_triples": 400,
+      "defect_orbits": 100,
+      "verdict": "unsat",
+      "n_clauses": 2388
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 255,
+      "bad_triples": 376,
+      "defect_orbits": 94,
+      "verdict": "unsat",
+      "n_clauses": 2172
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 258,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2268
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 261,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2196
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 264,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2076
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 267,
+      "bad_triples": 380,
+      "defect_orbits": 95,
+      "verdict": "unsat",
+      "n_clauses": 2106
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 270,
+      "bad_triples": 424,
+      "defect_orbits": 106,
+      "verdict": "unsat",
+      "n_clauses": 2262
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 273,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2382
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 276,
+      "bad_triples": 364,
+      "defect_orbits": 91,
+      "verdict": "unsat",
+      "n_clauses": 2142
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 279,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2130
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 282,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2418
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 285,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2640
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 288,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2484
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 291,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2538
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 294,
+      "bad_triples": 400,
+      "defect_orbits": 100,
+      "verdict": "unsat",
+      "n_clauses": 2778
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 297,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2838
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 300,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2652
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 306,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2640
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 309,
+      "bad_triples": 332,
+      "defect_orbits": 83,
+      "verdict": "unsat",
+      "n_clauses": 2124
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 312,
+      "bad_triples": 356,
+      "defect_orbits": 89,
+      "verdict": "unsat",
+      "n_clauses": 2046
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 315,
+      "bad_triples": 348,
+      "defect_orbits": 87,
+      "verdict": "unsat",
+      "n_clauses": 1992
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 318,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2034
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 321,
+      "bad_triples": 340,
+      "defect_orbits": 85,
+      "verdict": "unsat",
+      "n_clauses": 1932
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 324,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2064
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 327,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 1992
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 330,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 1914
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 333,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2268
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 336,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2334
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 339,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2448
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 342,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2358
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 345,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2232
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 348,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2310
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 351,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2262
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 354,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2208
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 357,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2328
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 360,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2478
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 363,
+      "bad_triples": 376,
+      "defect_orbits": 94,
+      "verdict": "unsat",
+      "n_clauses": 2202
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 366,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2052
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 369,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2016
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 372,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2196
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 375,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2220
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 378,
+      "bad_triples": 520,
+      "defect_orbits": 130,
+      "verdict": "unsat",
+      "n_clauses": 2382
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 381,
+      "bad_triples": 504,
+      "defect_orbits": 126,
+      "verdict": "unsat",
+      "n_clauses": 2370
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 384,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2292
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 387,
+      "bad_triples": 376,
+      "defect_orbits": 94,
+      "verdict": "unsat",
+      "n_clauses": 2220
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 390,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2232
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 393,
+      "bad_triples": 364,
+      "defect_orbits": 91,
+      "verdict": "unsat",
+      "n_clauses": 2016
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 396,
+      "bad_triples": 368,
+      "defect_orbits": 92,
+      "verdict": "unsat",
+      "n_clauses": 2052
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 399,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2016
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 402,
+      "bad_triples": 352,
+      "defect_orbits": 88,
+      "verdict": "unsat",
+      "n_clauses": 1998
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 405,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 1896
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 408,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 1872
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 411,
+      "bad_triples": 400,
+      "defect_orbits": 100,
+      "verdict": "unsat",
+      "n_clauses": 2118
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 414,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2046
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 417,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2142
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 420,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2058
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 423,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2124
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 426,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2394
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 429,
+      "bad_triples": 340,
+      "defect_orbits": 85,
+      "verdict": "unsat",
+      "n_clauses": 2064
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 432,
+      "bad_triples": 328,
+      "defect_orbits": 82,
+      "verdict": "unsat",
+      "n_clauses": 2124
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 435,
+      "bad_triples": 332,
+      "defect_orbits": 83,
+      "verdict": "unsat",
+      "n_clauses": 2040
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 438,
+      "bad_triples": 344,
+      "defect_orbits": 86,
+      "verdict": "unsat",
+      "n_clauses": 2148
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 441,
+      "bad_triples": 340,
+      "defect_orbits": 85,
+      "verdict": "unsat",
+      "n_clauses": 2130
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 444,
+      "bad_triples": 320,
+      "defect_orbits": 80,
+      "verdict": "unsat",
+      "n_clauses": 1956
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 447,
+      "bad_triples": 316,
+      "defect_orbits": 79,
+      "verdict": "unsat",
+      "n_clauses": 1950
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 450,
+      "bad_triples": 284,
+      "defect_orbits": 71,
+      "verdict": "unsat",
+      "n_clauses": 1968
+    },
+    {
+      "from_basin": "v20_03",
+      "step": 453,
+      "bad_triples": 284,
+      "defect_orbits": 71,
+      "verdict": "unsat",
+      "n_clauses": 1932
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 3,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 1854
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 6,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 1908
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 9,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 1998
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 12,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 1962
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 15,
+      "bad_triples": 504,
+      "defect_orbits": 126,
+      "verdict": "unsat",
+      "n_clauses": 2046
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 18,
+      "bad_triples": 496,
+      "defect_orbits": 124,
+      "verdict": "unsat",
+      "n_clauses": 1944
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 21,
+      "bad_triples": 536,
+      "defect_orbits": 134,
+      "verdict": "unsat",
+      "n_clauses": 2082
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 24,
+      "bad_triples": 496,
+      "defect_orbits": 124,
+      "verdict": "unsat",
+      "n_clauses": 2232
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 27,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2412
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 30,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2514
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 33,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2382
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 36,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2406
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 39,
+      "bad_triples": 512,
+      "defect_orbits": 128,
+      "verdict": "unsat",
+      "n_clauses": 2832
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 42,
+      "bad_triples": 600,
+      "defect_orbits": 150,
+      "verdict": "unsat",
+      "n_clauses": 3078
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 45,
+      "bad_triples": 496,
+      "defect_orbits": 124,
+      "verdict": "unsat",
+      "n_clauses": 2682
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 48,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2586
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 51,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2346
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 54,
+      "bad_triples": 380,
+      "defect_orbits": 95,
+      "verdict": "unsat",
+      "n_clauses": 2214
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 57,
+      "bad_triples": 352,
+      "defect_orbits": 88,
+      "verdict": "unsat",
+      "n_clauses": 1956
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 60,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2052
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 63,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2250
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 66,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2466
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 69,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2574
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 72,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2478
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 75,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2412
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 78,
+      "bad_triples": 464,
+      "defect_orbits": 116,
+      "verdict": "unsat",
+      "n_clauses": 2394
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 81,
+      "bad_triples": 496,
+      "defect_orbits": 124,
+      "verdict": "unsat",
+      "n_clauses": 2406
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 84,
+      "bad_triples": 552,
+      "defect_orbits": 138,
+      "verdict": "unsat",
+      "n_clauses": 2466
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 87,
+      "bad_triples": 524,
+      "defect_orbits": 131,
+      "verdict": "unsat",
+      "n_clauses": 2334
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 90,
+      "bad_triples": 528,
+      "defect_orbits": 132,
+      "verdict": "unsat",
+      "n_clauses": 2484
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 93,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2460
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 96,
+      "bad_triples": 556,
+      "defect_orbits": 139,
+      "verdict": "unsat",
+      "n_clauses": 2676
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 99,
+      "bad_triples": 508,
+      "defect_orbits": 127,
+      "verdict": "unsat",
+      "n_clauses": 2736
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 102,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2556
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 105,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2478
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 108,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2460
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 114,
+      "bad_triples": 460,
+      "defect_orbits": 115,
+      "verdict": "unsat",
+      "n_clauses": 2544
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 117,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2568
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 120,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2598
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 123,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2490
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 126,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2346
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 129,
+      "bad_triples": 480,
+      "defect_orbits": 120,
+      "verdict": "unsat",
+      "n_clauses": 2622
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 132,
+      "bad_triples": 520,
+      "defect_orbits": 130,
+      "verdict": "unsat",
+      "n_clauses": 2802
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 135,
+      "bad_triples": 508,
+      "defect_orbits": 127,
+      "verdict": "unsat",
+      "n_clauses": 2430
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 138,
+      "bad_triples": 504,
+      "defect_orbits": 126,
+      "verdict": "unsat",
+      "n_clauses": 2418
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 141,
+      "bad_triples": 552,
+      "defect_orbits": 138,
+      "verdict": "unsat",
+      "n_clauses": 2658
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 144,
+      "bad_triples": 596,
+      "defect_orbits": 149,
+      "verdict": "unsat",
+      "n_clauses": 2748
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 147,
+      "bad_triples": 572,
+      "defect_orbits": 143,
+      "verdict": "unsat",
+      "n_clauses": 2772
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 150,
+      "bad_triples": 592,
+      "defect_orbits": 148,
+      "verdict": "unsat",
+      "n_clauses": 2490
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 153,
+      "bad_triples": 580,
+      "defect_orbits": 145,
+      "verdict": "unsat",
+      "n_clauses": 2646
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 156,
+      "bad_triples": 540,
+      "defect_orbits": 135,
+      "verdict": "unsat",
+      "n_clauses": 2970
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 159,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2328
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 162,
+      "bad_triples": 460,
+      "defect_orbits": 115,
+      "verdict": "unsat",
+      "n_clauses": 2550
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 165,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2358
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 168,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2406
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 171,
+      "bad_triples": 364,
+      "defect_orbits": 91,
+      "verdict": "unsat",
+      "n_clauses": 2352
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 174,
+      "bad_triples": 348,
+      "defect_orbits": 87,
+      "verdict": "unsat",
+      "n_clauses": 2118
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 177,
+      "bad_triples": 380,
+      "defect_orbits": 95,
+      "verdict": "unsat",
+      "n_clauses": 2310
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 180,
+      "bad_triples": 352,
+      "defect_orbits": 88,
+      "verdict": "unsat",
+      "n_clauses": 2250
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 183,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2358
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 186,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2364
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 189,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2352
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 192,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2382
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 195,
+      "bad_triples": 480,
+      "defect_orbits": 120,
+      "verdict": "unsat",
+      "n_clauses": 2442
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 198,
+      "bad_triples": 540,
+      "defect_orbits": 135,
+      "verdict": "unsat",
+      "n_clauses": 2484
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 201,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2580
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 204,
+      "bad_triples": 496,
+      "defect_orbits": 124,
+      "verdict": "unsat",
+      "n_clauses": 2448
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 207,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2316
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 210,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2232
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 213,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2148
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 216,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2046
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 219,
+      "bad_triples": 388,
+      "defect_orbits": 97,
+      "verdict": "unsat",
+      "n_clauses": 2148
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 222,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2100
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 225,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2244
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 228,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2304
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 231,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2304
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 234,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2574
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 237,
+      "bad_triples": 504,
+      "defect_orbits": 126,
+      "verdict": "unsat",
+      "n_clauses": 2802
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 240,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2274
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 243,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2250
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 246,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2202
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 249,
+      "bad_triples": 464,
+      "defect_orbits": 116,
+      "verdict": "unsat",
+      "n_clauses": 2154
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 252,
+      "bad_triples": 524,
+      "defect_orbits": 131,
+      "verdict": "unsat",
+      "n_clauses": 2400
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 255,
+      "bad_triples": 524,
+      "defect_orbits": 131,
+      "verdict": "unsat",
+      "n_clauses": 2238
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 258,
+      "bad_triples": 584,
+      "defect_orbits": 146,
+      "verdict": "unsat",
+      "n_clauses": 2406
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 261,
+      "bad_triples": 608,
+      "defect_orbits": 152,
+      "verdict": "unsat",
+      "n_clauses": 2628
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 264,
+      "bad_triples": 584,
+      "defect_orbits": 146,
+      "verdict": "unsat",
+      "n_clauses": 2724
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 267,
+      "bad_triples": 464,
+      "defect_orbits": 116,
+      "verdict": "unsat",
+      "n_clauses": 2412
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 270,
+      "bad_triples": 460,
+      "defect_orbits": 115,
+      "verdict": "unsat",
+      "n_clauses": 2304
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 273,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2412
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 276,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2508
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 279,
+      "bad_triples": 508,
+      "defect_orbits": 127,
+      "verdict": "unsat",
+      "n_clauses": 2490
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 282,
+      "bad_triples": 496,
+      "defect_orbits": 124,
+      "verdict": "unsat",
+      "n_clauses": 2490
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 285,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2604
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 288,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2592
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 291,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2424
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 294,
+      "bad_triples": 464,
+      "defect_orbits": 116,
+      "verdict": "unsat",
+      "n_clauses": 2430
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 297,
+      "bad_triples": 464,
+      "defect_orbits": 116,
+      "verdict": "unsat",
+      "n_clauses": 2412
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 300,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2460
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 306,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2478
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 309,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2490
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 312,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2322
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 315,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2412
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 318,
+      "bad_triples": 500,
+      "defect_orbits": 125,
+      "verdict": "unsat",
+      "n_clauses": 2418
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 321,
+      "bad_triples": 500,
+      "defect_orbits": 125,
+      "verdict": "unsat",
+      "n_clauses": 2370
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 324,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2112
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 327,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2100
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 330,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2094
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 333,
+      "bad_triples": 388,
+      "defect_orbits": 97,
+      "verdict": "unsat",
+      "n_clauses": 1890
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 336,
+      "bad_triples": 360,
+      "defect_orbits": 90,
+      "verdict": "unsat",
+      "n_clauses": 1740
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 339,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 1950
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 342,
+      "bad_triples": 368,
+      "defect_orbits": 92,
+      "verdict": "unsat",
+      "n_clauses": 1854
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 345,
+      "bad_triples": 324,
+      "defect_orbits": 81,
+      "verdict": "unsat",
+      "n_clauses": 1776
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 348,
+      "bad_triples": 340,
+      "defect_orbits": 85,
+      "verdict": "unsat",
+      "n_clauses": 1902
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 351,
+      "bad_triples": 320,
+      "defect_orbits": 80,
+      "verdict": "unsat",
+      "n_clauses": 1770
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 354,
+      "bad_triples": 320,
+      "defect_orbits": 80,
+      "verdict": "unsat",
+      "n_clauses": 1746
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 357,
+      "bad_triples": 368,
+      "defect_orbits": 92,
+      "verdict": "unsat",
+      "n_clauses": 1878
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 360,
+      "bad_triples": 388,
+      "defect_orbits": 97,
+      "verdict": "unsat",
+      "n_clauses": 1914
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 363,
+      "bad_triples": 400,
+      "defect_orbits": 100,
+      "verdict": "unsat",
+      "n_clauses": 2082
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 366,
+      "bad_triples": 364,
+      "defect_orbits": 91,
+      "verdict": "unsat",
+      "n_clauses": 2052
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 369,
+      "bad_triples": 360,
+      "defect_orbits": 90,
+      "verdict": "unsat",
+      "n_clauses": 2010
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 372,
+      "bad_triples": 348,
+      "defect_orbits": 87,
+      "verdict": "unsat",
+      "n_clauses": 1902
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 375,
+      "bad_triples": 340,
+      "defect_orbits": 85,
+      "verdict": "unsat",
+      "n_clauses": 1842
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 378,
+      "bad_triples": 360,
+      "defect_orbits": 90,
+      "verdict": "unsat",
+      "n_clauses": 1872
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 381,
+      "bad_triples": 340,
+      "defect_orbits": 85,
+      "verdict": "unsat",
+      "n_clauses": 1950
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 384,
+      "bad_triples": 356,
+      "defect_orbits": 89,
+      "verdict": "unsat",
+      "n_clauses": 2088
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 387,
+      "bad_triples": 344,
+      "defect_orbits": 86,
+      "verdict": "unsat",
+      "n_clauses": 1950
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 390,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2112
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 393,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2196
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 396,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2112
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 399,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2244
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 402,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2328
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 405,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2286
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 408,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2274
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 411,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2268
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 414,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2070
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 417,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2292
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 420,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2142
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 423,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2226
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 426,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2166
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 429,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2250
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 432,
+      "bad_triples": 380,
+      "defect_orbits": 95,
+      "verdict": "unsat",
+      "n_clauses": 2220
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 438,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2286
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 441,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2310
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 444,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2388
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 447,
+      "bad_triples": 424,
+      "defect_orbits": 106,
+      "verdict": "unsat",
+      "n_clauses": 2418
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 450,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2322
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 453,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2112
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 456,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2046
+    },
+    {
+      "from_basin": "v20_04",
+      "step": 459,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2124
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 3,
+      "bad_triples": 360,
+      "defect_orbits": 90,
+      "verdict": "unsat",
+      "n_clauses": 1614
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 6,
+      "bad_triples": 356,
+      "defect_orbits": 89,
+      "verdict": "unsat",
+      "n_clauses": 1758
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 9,
+      "bad_triples": 328,
+      "defect_orbits": 82,
+      "verdict": "unsat",
+      "n_clauses": 1788
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 12,
+      "bad_triples": 312,
+      "defect_orbits": 78,
+      "verdict": "unsat",
+      "n_clauses": 1818
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 15,
+      "bad_triples": 376,
+      "defect_orbits": 94,
+      "verdict": "unsat",
+      "n_clauses": 2064
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 18,
+      "bad_triples": 380,
+      "defect_orbits": 95,
+      "verdict": "unsat",
+      "n_clauses": 1950
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 21,
+      "bad_triples": 388,
+      "defect_orbits": 97,
+      "verdict": "unsat",
+      "n_clauses": 2094
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 24,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2274
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 27,
+      "bad_triples": 524,
+      "defect_orbits": 131,
+      "verdict": "unsat",
+      "n_clauses": 2496
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 30,
+      "bad_triples": 584,
+      "defect_orbits": 146,
+      "verdict": "unsat",
+      "n_clauses": 2730
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 33,
+      "bad_triples": 576,
+      "defect_orbits": 144,
+      "verdict": "unsat",
+      "n_clauses": 2640
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 36,
+      "bad_triples": 580,
+      "defect_orbits": 145,
+      "verdict": "unsat",
+      "n_clauses": 2940
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 39,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2340
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 42,
+      "bad_triples": 540,
+      "defect_orbits": 135,
+      "verdict": "unsat",
+      "n_clauses": 2490
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 45,
+      "bad_triples": 556,
+      "defect_orbits": 139,
+      "verdict": "unsat",
+      "n_clauses": 2556
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 48,
+      "bad_triples": 572,
+      "defect_orbits": 143,
+      "verdict": "unsat",
+      "n_clauses": 2856
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 51,
+      "bad_triples": 556,
+      "defect_orbits": 139,
+      "verdict": "unsat",
+      "n_clauses": 2814
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 54,
+      "bad_triples": 564,
+      "defect_orbits": 141,
+      "verdict": "unsat",
+      "n_clauses": 2634
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 57,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2418
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 60,
+      "bad_triples": 500,
+      "defect_orbits": 125,
+      "verdict": "unsat",
+      "n_clauses": 2304
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 63,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2292
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 66,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2484
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 69,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2502
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 72,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2460
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 75,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2370
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 78,
+      "bad_triples": 596,
+      "defect_orbits": 149,
+      "verdict": "unsat",
+      "n_clauses": 2382
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 81,
+      "bad_triples": 612,
+      "defect_orbits": 153,
+      "verdict": "unsat",
+      "n_clauses": 2418
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 84,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 1998
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 87,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 1968
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 90,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2142
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 93,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2166
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 96,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2202
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 99,
+      "bad_triples": 460,
+      "defect_orbits": 115,
+      "verdict": "unsat",
+      "n_clauses": 2262
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 102,
+      "bad_triples": 480,
+      "defect_orbits": 120,
+      "verdict": "unsat",
+      "n_clauses": 2496
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 105,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2364
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 108,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2118
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 111,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2154
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 114,
+      "bad_triples": 368,
+      "defect_orbits": 92,
+      "verdict": "unsat",
+      "n_clauses": 2196
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 117,
+      "bad_triples": 388,
+      "defect_orbits": 97,
+      "verdict": "unsat",
+      "n_clauses": 2124
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 120,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2064
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 123,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2142
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 126,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2286
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 129,
+      "bad_triples": 360,
+      "defect_orbits": 90,
+      "verdict": "unsat",
+      "n_clauses": 1908
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 132,
+      "bad_triples": 364,
+      "defect_orbits": 91,
+      "verdict": "unsat",
+      "n_clauses": 1980
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 135,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2064
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 138,
+      "bad_triples": 584,
+      "defect_orbits": 146,
+      "verdict": "unsat",
+      "n_clauses": 2610
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 141,
+      "bad_triples": 608,
+      "defect_orbits": 152,
+      "verdict": "unsat",
+      "n_clauses": 2700
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 144,
+      "bad_triples": 496,
+      "defect_orbits": 124,
+      "verdict": "unsat",
+      "n_clauses": 2490
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 147,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2388
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 150,
+      "bad_triples": 512,
+      "defect_orbits": 128,
+      "verdict": "unsat",
+      "n_clauses": 2502
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 153,
+      "bad_triples": 424,
+      "defect_orbits": 106,
+      "verdict": "unsat",
+      "n_clauses": 2094
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 156,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2022
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 159,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2232
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 162,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2652
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 165,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2610
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 168,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2478
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 171,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2508
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 174,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2472
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 177,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2520
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 180,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2454
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 183,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2262
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 186,
+      "bad_triples": 400,
+      "defect_orbits": 100,
+      "verdict": "unsat",
+      "n_clauses": 2196
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 189,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2280
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 192,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2256
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 195,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2304
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 198,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2292
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 201,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2280
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 204,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2076
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 207,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2058
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 210,
+      "bad_triples": 368,
+      "defect_orbits": 92,
+      "verdict": "unsat",
+      "n_clauses": 2256
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 213,
+      "bad_triples": 380,
+      "defect_orbits": 95,
+      "verdict": "unsat",
+      "n_clauses": 2172
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 216,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2454
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 219,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2268
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 222,
+      "bad_triples": 360,
+      "defect_orbits": 90,
+      "verdict": "unsat",
+      "n_clauses": 2118
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 225,
+      "bad_triples": 352,
+      "defect_orbits": 88,
+      "verdict": "unsat",
+      "n_clauses": 2052
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 231,
+      "bad_triples": 348,
+      "defect_orbits": 87,
+      "verdict": "unsat",
+      "n_clauses": 2082
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 234,
+      "bad_triples": 364,
+      "defect_orbits": 91,
+      "verdict": "unsat",
+      "n_clauses": 2142
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 237,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2250
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 240,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2430
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 243,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2514
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 246,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2442
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 249,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2394
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 252,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2322
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 255,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2178
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 258,
+      "bad_triples": 472,
+      "defect_orbits": 118,
+      "verdict": "unsat",
+      "n_clauses": 2520
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 261,
+      "bad_triples": 472,
+      "defect_orbits": 118,
+      "verdict": "unsat",
+      "n_clauses": 2304
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 264,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2400
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 267,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2310
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 270,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2394
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 273,
+      "bad_triples": 464,
+      "defect_orbits": 116,
+      "verdict": "unsat",
+      "n_clauses": 2580
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 276,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2508
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 279,
+      "bad_triples": 368,
+      "defect_orbits": 92,
+      "verdict": "unsat",
+      "n_clauses": 2172
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 282,
+      "bad_triples": 400,
+      "defect_orbits": 100,
+      "verdict": "unsat",
+      "n_clauses": 2280
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 285,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2406
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 288,
+      "bad_triples": 460,
+      "defect_orbits": 115,
+      "verdict": "unsat",
+      "n_clauses": 2154
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 291,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2322
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 294,
+      "bad_triples": 388,
+      "defect_orbits": 97,
+      "verdict": "unsat",
+      "n_clauses": 2262
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 297,
+      "bad_triples": 400,
+      "defect_orbits": 100,
+      "verdict": "unsat",
+      "n_clauses": 2046
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 300,
+      "bad_triples": 508,
+      "defect_orbits": 127,
+      "verdict": "unsat",
+      "n_clauses": 2352
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 303,
+      "bad_triples": 516,
+      "defect_orbits": 129,
+      "verdict": "unsat",
+      "n_clauses": 2538
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 306,
+      "bad_triples": 496,
+      "defect_orbits": 124,
+      "verdict": "unsat",
+      "n_clauses": 2370
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 309,
+      "bad_triples": 544,
+      "defect_orbits": 136,
+      "verdict": "unsat",
+      "n_clauses": 2406
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 312,
+      "bad_triples": 536,
+      "defect_orbits": 134,
+      "verdict": "unsat",
+      "n_clauses": 2502
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 315,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2304
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 318,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2406
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 321,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2238
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 324,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2196
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 327,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2190
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 330,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2118
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 333,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2040
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 336,
+      "bad_triples": 352,
+      "defect_orbits": 88,
+      "verdict": "unsat",
+      "n_clauses": 1974
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 339,
+      "bad_triples": 364,
+      "defect_orbits": 91,
+      "verdict": "unsat",
+      "n_clauses": 1890
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 342,
+      "bad_triples": 376,
+      "defect_orbits": 94,
+      "verdict": "unsat",
+      "n_clauses": 2094
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 345,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2160
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 348,
+      "bad_triples": 368,
+      "defect_orbits": 92,
+      "verdict": "unsat",
+      "n_clauses": 2082
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 351,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2154
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 354,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2130
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 357,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2106
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 360,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2058
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 363,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 1974
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 366,
+      "bad_triples": 380,
+      "defect_orbits": 95,
+      "verdict": "unsat",
+      "n_clauses": 2052
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 372,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2232
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 375,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2280
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 378,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2250
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 381,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2322
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 384,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2112
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 387,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2130
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 390,
+      "bad_triples": 376,
+      "defect_orbits": 94,
+      "verdict": "unsat",
+      "n_clauses": 2070
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 393,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2148
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 396,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2220
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 399,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2052
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 402,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2040
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 408,
+      "bad_triples": 336,
+      "defect_orbits": 84,
+      "verdict": "unsat",
+      "n_clauses": 1968
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 411,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2118
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 414,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2130
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 417,
+      "bad_triples": 360,
+      "defect_orbits": 90,
+      "verdict": "unsat",
+      "n_clauses": 1998
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 420,
+      "bad_triples": 356,
+      "defect_orbits": 89,
+      "verdict": "unsat",
+      "n_clauses": 2016
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 426,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2166
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 429,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2268
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 432,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2280
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 435,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2250
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 438,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2136
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 441,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2238
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 444,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2478
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 447,
+      "bad_triples": 376,
+      "defect_orbits": 94,
+      "verdict": "unsat",
+      "n_clauses": 2136
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 450,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2274
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 453,
+      "bad_triples": 400,
+      "defect_orbits": 100,
+      "verdict": "unsat",
+      "n_clauses": 2238
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 456,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2556
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 459,
+      "bad_triples": 460,
+      "defect_orbits": 115,
+      "verdict": "unsat",
+      "n_clauses": 2634
+    },
+    {
+      "from_basin": "v20_05",
+      "step": 462,
+      "bad_triples": 424,
+      "defect_orbits": 106,
+      "verdict": "unsat",
+      "n_clauses": 2502
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 3,
+      "bad_triples": 244,
+      "defect_orbits": 61,
+      "verdict": "unsat",
+      "n_clauses": 1602
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 6,
+      "bad_triples": 348,
+      "defect_orbits": 87,
+      "verdict": "unsat",
+      "n_clauses": 1758
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 9,
+      "bad_triples": 332,
+      "defect_orbits": 83,
+      "verdict": "unsat",
+      "n_clauses": 1872
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 12,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2064
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 15,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2262
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 18,
+      "bad_triples": 512,
+      "defect_orbits": 128,
+      "verdict": "unsat",
+      "n_clauses": 2448
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 21,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2676
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 24,
+      "bad_triples": 532,
+      "defect_orbits": 133,
+      "verdict": "unsat",
+      "n_clauses": 2796
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 27,
+      "bad_triples": 532,
+      "defect_orbits": 133,
+      "verdict": "unsat",
+      "n_clauses": 2664
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 30,
+      "bad_triples": 460,
+      "defect_orbits": 115,
+      "verdict": "unsat",
+      "n_clauses": 2454
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 33,
+      "bad_triples": 460,
+      "defect_orbits": 115,
+      "verdict": "unsat",
+      "n_clauses": 2394
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 36,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2574
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 39,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2256
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 42,
+      "bad_triples": 496,
+      "defect_orbits": 124,
+      "verdict": "unsat",
+      "n_clauses": 2610
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 45,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2646
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 48,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2478
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 51,
+      "bad_triples": 516,
+      "defect_orbits": 129,
+      "verdict": "unsat",
+      "n_clauses": 2502
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 54,
+      "bad_triples": 468,
+      "defect_orbits": 117,
+      "verdict": "unsat",
+      "n_clauses": 2370
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 57,
+      "bad_triples": 500,
+      "defect_orbits": 125,
+      "verdict": "unsat",
+      "n_clauses": 2526
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 60,
+      "bad_triples": 508,
+      "defect_orbits": 127,
+      "verdict": "unsat",
+      "n_clauses": 2508
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 63,
+      "bad_triples": 532,
+      "defect_orbits": 133,
+      "verdict": "unsat",
+      "n_clauses": 2340
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 66,
+      "bad_triples": 520,
+      "defect_orbits": 130,
+      "verdict": "unsat",
+      "n_clauses": 2406
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 69,
+      "bad_triples": 496,
+      "defect_orbits": 124,
+      "verdict": "unsat",
+      "n_clauses": 2550
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 72,
+      "bad_triples": 532,
+      "defect_orbits": 133,
+      "verdict": "unsat",
+      "n_clauses": 2496
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 75,
+      "bad_triples": 488,
+      "defect_orbits": 122,
+      "verdict": "unsat",
+      "n_clauses": 2454
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 78,
+      "bad_triples": 508,
+      "defect_orbits": 127,
+      "verdict": "unsat",
+      "n_clauses": 2352
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 81,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2292
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 84,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2118
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 87,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2040
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 90,
+      "bad_triples": 352,
+      "defect_orbits": 88,
+      "verdict": "unsat",
+      "n_clauses": 1872
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 93,
+      "bad_triples": 364,
+      "defect_orbits": 91,
+      "verdict": "unsat",
+      "n_clauses": 1926
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 96,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2040
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 99,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2010
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 102,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2118
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 105,
+      "bad_triples": 472,
+      "defect_orbits": 118,
+      "verdict": "unsat",
+      "n_clauses": 2118
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 108,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2052
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 111,
+      "bad_triples": 372,
+      "defect_orbits": 93,
+      "verdict": "unsat",
+      "n_clauses": 1938
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 114,
+      "bad_triples": 388,
+      "defect_orbits": 97,
+      "verdict": "unsat",
+      "n_clauses": 2148
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 117,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2220
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 120,
+      "bad_triples": 380,
+      "defect_orbits": 95,
+      "verdict": "unsat",
+      "n_clauses": 2232
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 123,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2484
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 126,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2334
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 129,
+      "bad_triples": 496,
+      "defect_orbits": 124,
+      "verdict": "unsat",
+      "n_clauses": 2478
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 132,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2124
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 135,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 1932
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 138,
+      "bad_triples": 400,
+      "defect_orbits": 100,
+      "verdict": "unsat",
+      "n_clauses": 1896
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 141,
+      "bad_triples": 368,
+      "defect_orbits": 92,
+      "verdict": "unsat",
+      "n_clauses": 2052
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 144,
+      "bad_triples": 424,
+      "defect_orbits": 106,
+      "verdict": "unsat",
+      "n_clauses": 2082
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 147,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2244
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 150,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2190
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 153,
+      "bad_triples": 372,
+      "defect_orbits": 93,
+      "verdict": "unsat",
+      "n_clauses": 2064
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 156,
+      "bad_triples": 348,
+      "defect_orbits": 87,
+      "verdict": "unsat",
+      "n_clauses": 2040
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 162,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2310
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 165,
+      "bad_triples": 504,
+      "defect_orbits": 126,
+      "verdict": "unsat",
+      "n_clauses": 2418
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 168,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2346
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 171,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2394
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 174,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2214
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 177,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2220
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 180,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2124
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 183,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2238
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 186,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2040
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 189,
+      "bad_triples": 496,
+      "defect_orbits": 124,
+      "verdict": "unsat",
+      "n_clauses": 2292
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 192,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2052
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 195,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2064
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 198,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2184
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 201,
+      "bad_triples": 460,
+      "defect_orbits": 115,
+      "verdict": "unsat",
+      "n_clauses": 2028
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 204,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 1884
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 207,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2052
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 210,
+      "bad_triples": 424,
+      "defect_orbits": 106,
+      "verdict": "unsat",
+      "n_clauses": 2124
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 213,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2256
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 216,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2256
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 219,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2154
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 222,
+      "bad_triples": 372,
+      "defect_orbits": 93,
+      "verdict": "unsat",
+      "n_clauses": 2064
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 225,
+      "bad_triples": 348,
+      "defect_orbits": 87,
+      "verdict": "unsat",
+      "n_clauses": 2166
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 228,
+      "bad_triples": 380,
+      "defect_orbits": 95,
+      "verdict": "unsat",
+      "n_clauses": 2376
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 231,
+      "bad_triples": 400,
+      "defect_orbits": 100,
+      "verdict": "unsat",
+      "n_clauses": 2706
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 234,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2652
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 237,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2352
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 240,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2532
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 243,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2562
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 246,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2592
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 252,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2406
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 255,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2406
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 258,
+      "bad_triples": 536,
+      "defect_orbits": 134,
+      "verdict": "unsat",
+      "n_clauses": 2388
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 261,
+      "bad_triples": 560,
+      "defect_orbits": 140,
+      "verdict": "unsat",
+      "n_clauses": 2412
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 264,
+      "bad_triples": 464,
+      "defect_orbits": 116,
+      "verdict": "unsat",
+      "n_clauses": 2166
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 267,
+      "bad_triples": 464,
+      "defect_orbits": 116,
+      "verdict": "unsat",
+      "n_clauses": 2142
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 270,
+      "bad_triples": 480,
+      "defect_orbits": 120,
+      "verdict": "unsat",
+      "n_clauses": 2202
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 273,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2196
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 276,
+      "bad_triples": 456,
+      "defect_orbits": 114,
+      "verdict": "unsat",
+      "n_clauses": 2232
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 279,
+      "bad_triples": 472,
+      "defect_orbits": 118,
+      "verdict": "unsat",
+      "n_clauses": 2358
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 282,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2262
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 285,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2376
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 288,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2442
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 291,
+      "bad_triples": 440,
+      "defect_orbits": 110,
+      "verdict": "unsat",
+      "n_clauses": 2574
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 294,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2526
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 297,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2580
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 300,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2562
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 303,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2748
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 306,
+      "bad_triples": 512,
+      "defect_orbits": 128,
+      "verdict": "unsat",
+      "n_clauses": 2898
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 309,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2646
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 312,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2394
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 315,
+      "bad_triples": 424,
+      "defect_orbits": 106,
+      "verdict": "unsat",
+      "n_clauses": 2286
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 318,
+      "bad_triples": 432,
+      "defect_orbits": 108,
+      "verdict": "unsat",
+      "n_clauses": 2142
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 321,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2040
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 324,
+      "bad_triples": 484,
+      "defect_orbits": 121,
+      "verdict": "unsat",
+      "n_clauses": 2202
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 327,
+      "bad_triples": 388,
+      "defect_orbits": 97,
+      "verdict": "unsat",
+      "n_clauses": 1992
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 330,
+      "bad_triples": 436,
+      "defect_orbits": 109,
+      "verdict": "unsat",
+      "n_clauses": 2088
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 333,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2094
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 336,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2088
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 339,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2088
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 342,
+      "bad_triples": 372,
+      "defect_orbits": 93,
+      "verdict": "unsat",
+      "n_clauses": 1974
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 345,
+      "bad_triples": 392,
+      "defect_orbits": 98,
+      "verdict": "unsat",
+      "n_clauses": 2058
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 348,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2142
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 351,
+      "bad_triples": 364,
+      "defect_orbits": 91,
+      "verdict": "unsat",
+      "n_clauses": 1896
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 354,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 1938
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 357,
+      "bad_triples": 352,
+      "defect_orbits": 88,
+      "verdict": "unsat",
+      "n_clauses": 1992
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 360,
+      "bad_triples": 448,
+      "defect_orbits": 112,
+      "verdict": "unsat",
+      "n_clauses": 2190
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 363,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2238
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 366,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2232
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 369,
+      "bad_triples": 452,
+      "defect_orbits": 113,
+      "verdict": "unsat",
+      "n_clauses": 2412
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 372,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2478
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 378,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2478
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 381,
+      "bad_triples": 476,
+      "defect_orbits": 119,
+      "verdict": "unsat",
+      "n_clauses": 2604
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 384,
+      "bad_triples": 408,
+      "defect_orbits": 102,
+      "verdict": "unsat",
+      "n_clauses": 2364
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 387,
+      "bad_triples": 444,
+      "defect_orbits": 111,
+      "verdict": "unsat",
+      "n_clauses": 2448
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 390,
+      "bad_triples": 428,
+      "defect_orbits": 107,
+      "verdict": "unsat",
+      "n_clauses": 2322
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 393,
+      "bad_triples": 372,
+      "defect_orbits": 93,
+      "verdict": "unsat",
+      "n_clauses": 2196
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 396,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2124
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 399,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2298
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 402,
+      "bad_triples": 424,
+      "defect_orbits": 106,
+      "verdict": "unsat",
+      "n_clauses": 2286
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 405,
+      "bad_triples": 416,
+      "defect_orbits": 104,
+      "verdict": "unsat",
+      "n_clauses": 2196
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 408,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2274
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 411,
+      "bad_triples": 492,
+      "defect_orbits": 123,
+      "verdict": "unsat",
+      "n_clauses": 2592
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 414,
+      "bad_triples": 420,
+      "defect_orbits": 105,
+      "verdict": "unsat",
+      "n_clauses": 2226
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 417,
+      "bad_triples": 380,
+      "defect_orbits": 95,
+      "verdict": "unsat",
+      "n_clauses": 1986
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 420,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2148
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 423,
+      "bad_triples": 344,
+      "defect_orbits": 86,
+      "verdict": "unsat",
+      "n_clauses": 2070
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 426,
+      "bad_triples": 376,
+      "defect_orbits": 94,
+      "verdict": "unsat",
+      "n_clauses": 2352
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 429,
+      "bad_triples": 360,
+      "defect_orbits": 90,
+      "verdict": "unsat",
+      "n_clauses": 2202
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 432,
+      "bad_triples": 372,
+      "defect_orbits": 93,
+      "verdict": "unsat",
+      "n_clauses": 2136
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 435,
+      "bad_triples": 380,
+      "defect_orbits": 95,
+      "verdict": "unsat",
+      "n_clauses": 2376
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 438,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2346
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 441,
+      "bad_triples": 364,
+      "defect_orbits": 91,
+      "verdict": "unsat",
+      "n_clauses": 2238
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 444,
+      "bad_triples": 372,
+      "defect_orbits": 93,
+      "verdict": "unsat",
+      "n_clauses": 2154
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 447,
+      "bad_triples": 340,
+      "defect_orbits": 85,
+      "verdict": "unsat",
+      "n_clauses": 2106
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 450,
+      "bad_triples": 412,
+      "defect_orbits": 103,
+      "verdict": "unsat",
+      "n_clauses": 2502
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 453,
+      "bad_triples": 396,
+      "defect_orbits": 99,
+      "verdict": "unsat",
+      "n_clauses": 2388
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 456,
+      "bad_triples": 384,
+      "defect_orbits": 96,
+      "verdict": "unsat",
+      "n_clauses": 2310
+    },
+    {
+      "from_basin": "v20_06",
+      "step": 459,
+      "bad_triples": 404,
+      "defect_orbits": 101,
+      "verdict": "unsat",
+      "n_clauses": 2496
+    }
+  ],
+  "breakthrough": false
+}

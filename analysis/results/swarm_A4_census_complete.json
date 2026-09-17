@@ -1,0 +1,66 @@
+{
+  "31": [
+    {
+      "m": 31,
+      "best_clauses": 872,
+      "best_mv": 61,
+      "best_defects": 244
+    }
+  ],
+  "33": [
+    {
+      "m": 33,
+      "best_clauses": 706,
+      "best_mv": 40,
+      "best_defects": 160
+    }
+  ],
+  "35": [
+    {
+      "m": 35,
+      "best_clauses": 832,
+      "best_mv": 49,
+      "best_defects": 196
+    }
+  ],
+  "36": [
+    {
+      "m": 36,
+      "best_clauses": 870,
+      "best_mv": 57,
+      "best_defects": 228
+    }
+  ],
+  "38": [
+    {
+      "m": 38,
+      "best_clauses": 1118,
+      "best_mv": 67,
+      "best_defects": 268
+    }
+  ],
+  "39": [
+    {
+      "m": 39,
+      "best_clauses": 1262,
+      "best_mv": 75,
+      "best_defects": 300
+    }
+  ],
+  "41": [
+    {
+      "m": 41,
+      "best_clauses": 1046,
+      "best_mv": 87,
+      "best_defects": 348
+    }
+  ],
+  "43": [
+    {
+      "m": 43,
+      "best_clauses": 1398,
+      "best_mv": 68,
+      "best_defects": 272
+    }
+  ]
+}

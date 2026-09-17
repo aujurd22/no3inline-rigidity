@@ -1,0 +1,82 @@
+[
+  {
+    "name": "V20_v20_01",
+    "ncells": 37,
+    "n_polys": 842,
+    "degenerate_1": 0,
+    "gb_size": 1,
+    "gb_is_unsat": true,
+    "time": 47.19786262512207,
+    "first_gb": "1"
+  },
+  {
+    "name": "V20_v20_02",
+    "ncells": 37,
+    "n_polys": 604,
+    "degenerate_1": 0,
+    "gb_size": 1,
+    "gb_is_unsat": true,
+    "time": 79.52123928070068,
+    "first_gb": "1"
+  },
+  {
+    "name": "V20_v20_03",
+    "ncells": 37,
+    "n_polys": 606,
+    "degenerate_1": 0,
+    "gb_size": 1,
+    "gb_is_unsat": true,
+    "time": 81.30857133865356,
+    "first_gb": "1"
+  },
+  {
+    "name": "V20_v20_04",
+    "ncells": 37,
+    "n_polys": 866,
+    "degenerate_1": 0,
+    "gb_size": 1,
+    "gb_is_unsat": true,
+    "time": 145.51694631576538,
+    "first_gb": "1"
+  },
+  {
+    "name": "V20_v20_05",
+    "ncells": 37,
+    "n_polys": 602,
+    "degenerate_1": 0,
+    "gb_size": 1,
+    "gb_is_unsat": true,
+    "time": 42.76590037345886,
+    "first_gb": "1"
+  },
+  {
+    "name": "V20_v20_06",
+    "ncells": 37,
+    "n_polys": 1274,
+    "degenerate_1": 0,
+    "gb_size": 1,
+    "gb_is_unsat": true,
+    "time": 70.71230292320251,
+    "first_gb": "1"
+  },
+  {
+    "name": "m=36_known",
+    "ncells": 36,
+    "n_polys": 670,
+    "degenerate_1": 0,
+    "gb_size": 36,
+    "gb_is_unsat": false,
+    "time": 69.49314832687378,
+    "first_gb": "36 elements"
+  },
+  {
+    "name": "m=5_known",
+    "ncells": 5,
+    "n_polys": 24,
+    "degenerate_1": 0,
+    "gb_size": 4,
+    "gb_is_unsat": false,
+    "time": 0.014271736145019531,
+    "first_gb": "4 elements"
+  }
+]

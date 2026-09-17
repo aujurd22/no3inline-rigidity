@@ -1,0 +1,10 @@
+[seeds] 4 archive seeds (value<=40)
+[NEW BEST] value=40 source=seed0 diag_safe=True t=2s
+[fresh 0] best=40 t=29s
+[fresh 50] best=40 t=1021s
+[fresh 100] best=40 t=2047s
+[fresh 150] best=40 t=3091s
+[fresh 200] best=40 t=4111s
+[fresh 250] best=40 t=5111s
+[fresh 300] best=40 t=6125s
+[fresh 350] best=40 t=7160s

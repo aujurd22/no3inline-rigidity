@@ -1,0 +1,3510 @@
+{
+  "input": "analysis\\results\\pair_codegree_37\\exact_orient_best_oneswitch_m37.json",
+  "verified_board_total": 60,
+  "bad_line_count": 60,
+  "bad_line_size_histogram": {
+    "3": 60
+  },
+  "line_orbit_count": 15,
+  "line_orbit_sizes": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "distinct_conflict_edge_sets": 15,
+  "minimum_edge_hitting_set": {
+    "size": 8,
+    "edge_indices": [
+      4,
+      9,
+      16,
+      17,
+      25,
+      30,
+      32,
+      36
+    ],
+    "optimal": true,
+    "edges": [
+      [
+        2,
+        23
+      ],
+      [
+        4,
+        31
+      ],
+      [
+        8,
+        24
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        20,
+        25
+      ],
+      [
+        29,
+        30
+      ]
+    ]
+  },
+  "edge_conflict_incidence": [
+    {
+      "edge_index": 36,
+      "edge": [
+        29,
+        30
+      ],
+      "weight": 16
+    },
+    {
+      "edge_index": 5,
+      "edge": [
+        2,
+        34
+      ],
+      "weight": 12
+    },
+    {
+      "edge_index": 17,
+      "edge": [
+        8,
+        25
+      ],
+      "weight": 12
+    },
+    {
+      "edge_index": 23,
+      "edge": [
+        11,
+        18
+      ],
+      "weight": 12
+    },
+    {
+      "edge_index": 4,
+      "edge": [
+        2,
+        23
+      ],
+      "weight": 8
+    },
+    {
+      "edge_index": 9,
+      "edge": [
+        4,
+        31
+      ],
+      "weight": 8
+    },
+    {
+      "edge_index": 10,
+      "edge": [
+        5,
+        22
+      ],
+      "weight": 8
+    },
+    {
+      "edge_index": 16,
+      "edge": [
+        8,
+        24
+      ],
+      "weight": 8
+    },
+    {
+      "edge_index": 26,
+      "edge": [
+        13,
+        26
+      ],
+      "weight": 8
+    },
+    {
+      "edge_index": 30,
+      "edge": [
+        15,
+        34
+      ],
+      "weight": 8
+    },
+    {
+      "edge_index": 32,
+      "edge": [
+        20,
+        25
+      ],
+      "weight": 8
+    },
+    {
+      "edge_index": 1,
+      "edge": [
+        0,
+        33
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 2,
+      "edge": [
+        1,
+        19
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 7,
+      "edge": [
+        3,
+        23
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 11,
+      "edge": [
+        5,
+        35
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 12,
+      "edge": [
+        6,
+        15
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 13,
+      "edge": [
+        6,
+        31
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 18,
+      "edge": [
+        9,
+        32
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 20,
+      "edge": [
+        10,
+        17
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 22,
+      "edge": [
+        11,
+        17
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 25,
+      "edge": [
+        12,
+        36
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 27,
+      "edge": [
+        13,
+        29
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 28,
+      "edge": [
+        14,
+        22
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 29,
+      "edge": [
+        14,
+        36
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 31,
+      "edge": [
+        16,
+        28
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 33,
+      "edge": [
+        20,
+        26
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 34,
+      "edge": [
+        21,
+        32
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 35,
+      "edge": [
+        21,
+        33
+      ],
+      "weight": 4
+    },
+    {
+      "edge_index": 0,
+      "edge": [
+        0,
+        30
+      ],
+      "weight": 0
+    },
+    {
+      "edge_index": 3,
+      "edge": [
+        1,
+        27
+      ],
+      "weight": 0
+    },
+    {
+      "edge_index": 6,
+      "edge": [
+        3,
+        16
+      ],
+      "weight": 0
+    },
+    {
+      "edge_index": 8,
+      "edge": [
+        4,
+        19
+      ],
+      "weight": 0
+    },
+    {
+      "edge_index": 14,
+      "edge": [
+        7,
+        18
+      ],
+      "weight": 0
+    },
+    {
+      "edge_index": 15,
+      "edge": [
+        7,
+        28
+      ],
+      "weight": 0
+    },
+    {
+      "edge_index": 19,
+      "edge": [
+        9,
+        35
+      ],
+      "weight": 0
+    },
+    {
+      "edge_index": 21,
+      "edge": [
+        10,
+        24
+      ],
+      "weight": 0
+    },
+    {
+      "edge_index": 24,
+      "edge": [
+        12,
+        27
+      ],
+      "weight": 0
+    }
+  ],
+  "single_orientation_flip_deltas": [
+    {
+      "edge_index": 35,
+      "edge": [
+        21,
+        33
+      ],
+      "delta": 4,
+      "cost": 64
+    },
+    {
+      "edge_index": 9,
+      "edge": [
+        4,
+        31
+      ],
+      "delta": 8,
+      "cost": 68
+    },
+    {
+      "edge_index": 17,
+      "edge": [
+        8,
+        25
+      ],
+      "delta": 8,
+      "cost": 68
+    },
+    {
+      "edge_index": 20,
+      "edge": [
+        10,
+        17
+      ],
+      "delta": 8,
+      "cost": 68
+    },
+    {
+      "edge_index": 30,
+      "edge": [
+        15,
+        34
+      ],
+      "delta": 8,
+      "cost": 68
+    },
+    {
+      "edge_index": 1,
+      "edge": [
+        0,
+        33
+      ],
+      "delta": 12,
+      "cost": 72
+    },
+    {
+      "edge_index": 2,
+      "edge": [
+        1,
+        19
+      ],
+      "delta": 12,
+      "cost": 72
+    },
+    {
+      "edge_index": 14,
+      "edge": [
+        7,
+        18
+      ],
+      "delta": 12,
+      "cost": 72
+    },
+    {
+      "edge_index": 23,
+      "edge": [
+        11,
+        18
+      ],
+      "delta": 12,
+      "cost": 72
+    },
+    {
+      "edge_index": 4,
+      "edge": [
+        2,
+        23
+      ],
+      "delta": 16,
+      "cost": 76
+    },
+    {
+      "edge_index": 7,
+      "edge": [
+        3,
+        23
+      ],
+      "delta": 16,
+      "cost": 76
+    },
+    {
+      "edge_index": 10,
+      "edge": [
+        5,
+        22
+      ],
+      "delta": 16,
+      "cost": 76
+    },
+    {
+      "edge_index": 11,
+      "edge": [
+        5,
+        35
+      ],
+      "delta": 16,
+      "cost": 76
+    },
+    {
+      "edge_index": 19,
+      "edge": [
+        9,
+        35
+      ],
+      "delta": 16,
+      "cost": 76
+    },
+    {
+      "edge_index": 26,
+      "edge": [
+        13,
+        26
+      ],
+      "delta": 16,
+      "cost": 76
+    },
+    {
+      "edge_index": 28,
+      "edge": [
+        14,
+        22
+      ],
+      "delta": 16,
+      "cost": 76
+    },
+    {
+      "edge_index": 3,
+      "edge": [
+        1,
+        27
+      ],
+      "delta": 20,
+      "cost": 80
+    },
+    {
+      "edge_index": 5,
+      "edge": [
+        2,
+        34
+      ],
+      "delta": 20,
+      "cost": 80
+    },
+    {
+      "edge_index": 6,
+      "edge": [
+        3,
+        16
+      ],
+      "delta": 20,
+      "cost": 80
+    },
+    {
+      "edge_index": 8,
+      "edge": [
+        4,
+        19
+      ],
+      "delta": 20,
+      "cost": 80
+    },
+    {
+      "edge_index": 18,
+      "edge": [
+        9,
+        32
+      ],
+      "delta": 20,
+      "cost": 80
+    },
+    {
+      "edge_index": 22,
+      "edge": [
+        11,
+        17
+      ],
+      "delta": 20,
+      "cost": 80
+    },
+    {
+      "edge_index": 29,
+      "edge": [
+        14,
+        36
+      ],
+      "delta": 20,
+      "cost": 80
+    },
+    {
+      "edge_index": 31,
+      "edge": [
+        16,
+        28
+      ],
+      "delta": 20,
+      "cost": 80
+    },
+    {
+      "edge_index": 0,
+      "edge": [
+        0,
+        30
+      ],
+      "delta": 24,
+      "cost": 84
+    },
+    {
+      "edge_index": 13,
+      "edge": [
+        6,
+        31
+      ],
+      "delta": 24,
+      "cost": 84
+    },
+    {
+      "edge_index": 36,
+      "edge": [
+        29,
+        30
+      ],
+      "delta": 24,
+      "cost": 84
+    },
+    {
+      "edge_index": 12,
+      "edge": [
+        6,
+        15
+      ],
+      "delta": 28,
+      "cost": 88
+    },
+    {
+      "edge_index": 15,
+      "edge": [
+        7,
+        28
+      ],
+      "delta": 28,
+      "cost": 88
+    },
+    {
+      "edge_index": 21,
+      "edge": [
+        10,
+        24
+      ],
+      "delta": 28,
+      "cost": 88
+    },
+    {
+      "edge_index": 25,
+      "edge": [
+        12,
+        36
+      ],
+      "delta": 28,
+      "cost": 88
+    },
+    {
+      "edge_index": 27,
+      "edge": [
+        13,
+        29
+      ],
+      "delta": 28,
+      "cost": 88
+    },
+    {
+      "edge_index": 32,
+      "edge": [
+        20,
+        25
+      ],
+      "delta": 28,
+      "cost": 88
+    },
+    {
+      "edge_index": 34,
+      "edge": [
+        21,
+        32
+      ],
+      "delta": 28,
+      "cost": 88
+    },
+    {
+      "edge_index": 16,
+      "edge": [
+        8,
+        24
+      ],
+      "delta": 32,
+      "cost": 92
+    },
+    {
+      "edge_index": 24,
+      "edge": [
+        12,
+        27
+      ],
+      "delta": 36,
+      "cost": 96
+    },
+    {
+      "edge_index": 33,
+      "edge": [
+        20,
+        26
+      ],
+      "delta": 36,
+      "cost": 96
+    }
+  ],
+  "bad_lines": [
+    {
+      "signature": [
+        2,
+        1,
+        66
+      ],
+      "points": [
+        [
+          33,
+          0
+        ],
+        [
+          31,
+          4
+        ],
+        [
+          20,
+          26
+        ]
+      ],
+      "point_ids": [
+        4,
+        36,
+        132
+      ],
+      "edge_indices": [
+        1,
+        9,
+        33
+      ],
+      "edges": [
+        [
+          0,
+          33
+        ],
+        [
+          4,
+          31
+        ],
+        [
+          20,
+          26
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        1,
+        -2,
+        7
+      ],
+      "points": [
+        [
+          73,
+          33
+        ],
+        [
+          69,
+          31
+        ],
+        [
+          47,
+          20
+        ]
+      ],
+      "point_ids": [
+        5,
+        37,
+        133
+      ],
+      "edge_indices": [
+        1,
+        9,
+        33
+      ],
+      "edges": [
+        [
+          0,
+          33
+        ],
+        [
+          4,
+          31
+        ],
+        [
+          20,
+          26
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        2,
+        1,
+        153
+      ],
+      "points": [
+        [
+          40,
+          73
+        ],
+        [
+          42,
+          69
+        ],
+        [
+          53,
+          47
+        ]
+      ],
+      "point_ids": [
+        6,
+        38,
+        134
+      ],
+      "edge_indices": [
+        1,
+        9,
+        33
+      ],
+      "edges": [
+        [
+          0,
+          33
+        ],
+        [
+          4,
+          31
+        ],
+        [
+          20,
+          26
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        1,
+        -2,
+        -80
+      ],
+      "points": [
+        [
+          0,
+          40
+        ],
+        [
+          4,
+          42
+        ],
+        [
+          26,
+          53
+        ]
+      ],
+      "point_ids": [
+        7,
+        39,
+        135
+      ],
+      "edge_indices": [
+        1,
+        9,
+        33
+      ],
+      "edges": [
+        [
+          0,
+          33
+        ],
+        [
+          4,
+          31
+        ],
+        [
+          20,
+          26
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        1,
+        -4,
+        15
+      ],
+      "points": [
+        [
+          19,
+          1
+        ],
+        [
+          23,
+          2
+        ],
+        [
+          31,
+          4
+        ]
+      ],
+      "point_ids": [
+        8,
+        16,
+        36
+      ],
+      "edge_indices": [
+        2,
+        4,
+        9
+      ],
+      "edges": [
+        [
+          1,
+          19
+        ],
+        [
+          2,
+          23
+        ],
+        [
+          4,
+          31
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        4,
+        1,
+        307
+      ],
+      "points": [
+        [
+          72,
+          19
+        ],
+        [
+          71,
+          23
+        ],
+        [
+          69,
+          31
+        ]
+      ],
+      "point_ids": [
+        9,
+        17,
+        37
+      ],
+      "edge_indices": [
+        2,
+        4,
+        9
+      ],
+      "edges": [
+        [
+          1,
+          19
+        ],
+        [
+          2,
+          23
+        ],
+        [
+          4,
+          31
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        1,
+        -4,
+        -234
+      ],
+      "points": [
+        [
+          54,
+          72
+        ],
+        [
+          50,
+          71
+        ],
+        [
+          42,
+          69
+        ]
+      ],
+      "point_ids": [
+        10,
+        18,
+        38
+      ],
+      "edge_indices": [
+        2,
+        4,
+        9
+      ],
+      "edges": [
+        [
+          1,
+          19
+        ],
+        [
+          2,
+          23
+        ],
+        [
+          4,
+          31
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        4,
+        1,
+        58
+      ],
+      "points": [
+        [
+          1,
+          54
+        ],
+        [
+          2,
+          50
+        ],
+        [
+          4,
+          42
+        ]
+      ],
+      "point_ids": [
+        11,
+        19,
+        39
+      ],
+      "edge_indices": [
+        2,
+        4,
+        9
+      ],
+      "edges": [
+        [
+          1,
+          19
+        ],
+        [
+          2,
+          23
+        ],
+        [
+          4,
+          31
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        12,
+        1,
+        278
+      ],
+      "points": [
+        [
+          23,
+          2
+        ],
+        [
+          18,
+          62
+        ],
+        [
+          22,
+          14
+        ]
+      ],
+      "point_ids": [
+        16,
+        95,
+        112
+      ],
+      "edge_indices": [
+        4,
+        23,
+        28
+      ],
+      "edges": [
+        [
+          2,
+          23
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          14,
+          22
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        1,
+        -12,
+        -205
+      ],
+      "points": [
+        [
+          71,
+          23
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          59,
+          22
+        ]
+      ],
+      "point_ids": [
+        17,
+        92,
+        113
+      ],
+      "edge_indices": [
+        4,
+        23,
+        28
+      ],
+      "edges": [
+        [
+          2,
+          23
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          14,
+          22
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        12,
+        1,
+        671
+      ],
+      "points": [
+        [
+          50,
+          71
+        ],
+        [
+          55,
+          11
+        ],
+        [
+          51,
+          59
+        ]
+      ],
+      "point_ids": [
+        18,
+        93,
+        114
+      ],
+      "edge_indices": [
+        4,
+        23,
+        28
+      ],
+      "edges": [
+        [
+          2,
+          23
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          14,
+          22
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        1,
+        -12,
+        -598
+      ],
+      "points": [
+        [
+          2,
+          50
+        ],
+        [
+          62,
+          55
+        ],
+        [
+          14,
+          51
+        ]
+      ],
+      "point_ids": [
+        19,
+        94,
+        115
+      ],
+      "edge_indices": [
+        4,
+        23,
+        28
+      ],
+      "edges": [
+        [
+          2,
+          23
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          14,
+          22
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        4,
+        -3,
+        130
+      ],
+      "points": [
+        [
+          34,
+          2
+        ],
+        [
+          70,
+          50
+        ],
+        [
+          58,
+          34
+        ]
+      ],
+      "point_ids": [
+        20,
+        30,
+        121
+      ],
+      "edge_indices": [
+        5,
+        7,
+        30
+      ],
+      "edges": [
+        [
+          2,
+          34
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          15,
+          34
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        3,
+        -7,
+        88
+      ],
+      "points": [
+        [
+          34,
+          2
+        ],
+        [
+          48,
+          8
+        ],
+        [
+          55,
+          11
+        ]
+      ],
+      "point_ids": [
+        20,
+        69,
+        93
+      ],
+      "edge_indices": [
+        5,
+        17,
+        23
+      ],
+      "edges": [
+        [
+          2,
+          34
+        ],
+        [
+          8,
+          25
+        ],
+        [
+          11,
+          18
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        2,
+        1,
+        70
+      ],
+      "points": [
+        [
+          34,
+          2
+        ],
+        [
+          13,
+          44
+        ],
+        [
+          25,
+          20
+        ]
+      ],
+      "point_ids": [
+        20,
+        111,
+        128
+      ],
+      "edge_indices": [
+        5,
+        27,
+        32
+      ],
+      "edges": [
+        [
+          2,
+          34
+        ],
+        [
+          13,
+          29
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        3,
+        4,
+        349
+      ],
+      "points": [
+        [
+          71,
+          34
+        ],
+        [
+          23,
+          70
+        ],
+        [
+          39,
+          58
+        ]
+      ],
+      "point_ids": [
+        21,
+        31,
+        122
+      ],
+      "edge_indices": [
+        5,
+        7,
+        30
+      ],
+      "edges": [
+        [
+          2,
+          34
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          15,
+          34
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        7,
+        3,
+        599
+      ],
+      "points": [
+        [
+          71,
+          34
+        ],
+        [
+          65,
+          48
+        ],
+        [
+          62,
+          55
+        ]
+      ],
+      "point_ids": [
+        21,
+        70,
+        94
+      ],
+      "edge_indices": [
+        5,
+        17,
+        23
+      ],
+      "edges": [
+        [
+          2,
+          34
+        ],
+        [
+          8,
+          25
+        ],
+        [
+          11,
+          18
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        1,
+        -2,
+        3
+      ],
+      "points": [
+        [
+          71,
+          34
+        ],
+        [
+          29,
+          13
+        ],
+        [
+          53,
+          25
+        ]
+      ],
+      "point_ids": [
+        21,
+        108,
+        129
+      ],
+      "edge_indices": [
+        5,
+        27,
+        32
+      ],
+      "edges": [
+        [
+          2,
+          34
+        ],
+        [
+          13,
+          29
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        4,
+        -3,
+        -57
+      ],
+      "points": [
+        [
+          39,
+          71
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          15,
+          39
+        ]
+      ],
+      "point_ids": [
+        22,
+        28,
+        123
+      ],
+      "edge_indices": [
+        5,
+        7,
+        30
+      ],
+      "edges": [
+        [
+          2,
+          34
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          15,
+          34
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        3,
+        -7,
+        -380
+      ],
+      "points": [
+        [
+          39,
+          71
+        ],
+        [
+          25,
+          65
+        ],
+        [
+          18,
+          62
+        ]
+      ],
+      "point_ids": [
+        22,
+        71,
+        95
+      ],
+      "edge_indices": [
+        5,
+        17,
+        23
+      ],
+      "edges": [
+        [
+          2,
+          34
+        ],
+        [
+          8,
+          25
+        ],
+        [
+          11,
+          18
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        2,
+        1,
+        149
+      ],
+      "points": [
+        [
+          39,
+          71
+        ],
+        [
+          60,
+          29
+        ],
+        [
+          48,
+          53
+        ]
+      ],
+      "point_ids": [
+        22,
+        109,
+        130
+      ],
+      "edge_indices": [
+        5,
+        27,
+        32
+      ],
+      "edges": [
+        [
+          2,
+          34
+        ],
+        [
+          13,
+          29
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        3,
+        4,
+        162
+      ],
+      "points": [
+        [
+          2,
+          39
+        ],
+        [
+          50,
+          3
+        ],
+        [
+          34,
+          15
+        ]
+      ],
+      "point_ids": [
+        23,
+        29,
+        120
+      ],
+      "edge_indices": [
+        5,
+        7,
+        30
+      ],
+      "edges": [
+        [
+          2,
+          34
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          15,
+          34
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        7,
+        3,
+        131
+      ],
+      "points": [
+        [
+          2,
+          39
+        ],
+        [
+          8,
+          25
+        ],
+        [
+          11,
+          18
+        ]
+      ],
+      "point_ids": [
+        23,
+        68,
+        92
+      ],
+      "edge_indices": [
+        5,
+        17,
+        23
+      ],
+      "edges": [
+        [
+          2,
+          34
+        ],
+        [
+          8,
+          25
+        ],
+        [
+          11,
+          18
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        1,
+        -2,
+        -76
+      ],
+      "points": [
+        [
+          2,
+          39
+        ],
+        [
+          44,
+          60
+        ],
+        [
+          20,
+          48
+        ]
+      ],
+      "point_ids": [
+        23,
+        110,
+        131
+      ],
+      "edge_indices": [
+        5,
+        27,
+        32
+      ],
+      "edges": [
+        [
+          2,
+          34
+        ],
+        [
+          13,
+          29
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        9,
+        -1,
+        23
+      ],
+      "points": [
+        [
+          5,
+          22
+        ],
+        [
+          6,
+          31
+        ],
+        [
+          8,
+          49
+        ]
+      ],
+      "point_ids": [
+        40,
+        52,
+        67
+      ],
+      "edge_indices": [
+        10,
+        13,
+        16
+      ],
+      "edges": [
+        [
+          5,
+          22
+        ],
+        [
+          6,
+          31
+        ],
+        [
+          8,
+          24
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        11,
+        -19,
+        -363
+      ],
+      "points": [
+        [
+          5,
+          22
+        ],
+        [
+          62,
+          55
+        ],
+        [
+          43,
+          44
+        ]
+      ],
+      "point_ids": [
+        40,
+        94,
+        146
+      ],
+      "edge_indices": [
+        10,
+        23,
+        36
+      ],
+      "edges": [
+        [
+          5,
+          22
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        1,
+        9,
+        96
+      ],
+      "points": [
+        [
+          51,
+          5
+        ],
+        [
+          42,
+          6
+        ],
+        [
+          24,
+          8
+        ]
+      ],
+      "point_ids": [
+        41,
+        53,
+        64
+      ],
+      "edge_indices": [
+        10,
+        13,
+        16
+      ],
+      "edges": [
+        [
+          5,
+          22
+        ],
+        [
+          6,
+          31
+        ],
+        [
+          8,
+          24
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        19,
+        11,
+        1024
+      ],
+      "points": [
+        [
+          51,
+          5
+        ],
+        [
+          18,
+          62
+        ],
+        [
+          29,
+          43
+        ]
+      ],
+      "point_ids": [
+        41,
+        95,
+        147
+      ],
+      "edge_indices": [
+        10,
+        23,
+        36
+      ],
+      "edges": [
+        [
+          5,
+          22
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        9,
+        -1,
+        561
+      ],
+      "points": [
+        [
+          68,
+          51
+        ],
+        [
+          67,
+          42
+        ],
+        [
+          65,
+          24
+        ]
+      ],
+      "point_ids": [
+        42,
+        54,
+        65
+      ],
+      "edge_indices": [
+        10,
+        13,
+        16
+      ],
+      "edges": [
+        [
+          5,
+          22
+        ],
+        [
+          6,
+          31
+        ],
+        [
+          8,
+          24
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        11,
+        -19,
+        -221
+      ],
+      "points": [
+        [
+          68,
+          51
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          30,
+          29
+        ]
+      ],
+      "point_ids": [
+        42,
+        92,
+        144
+      ],
+      "edge_indices": [
+        10,
+        23,
+        36
+      ],
+      "edges": [
+        [
+          5,
+          22
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        1,
+        9,
+        634
+      ],
+      "points": [
+        [
+          22,
+          68
+        ],
+        [
+          31,
+          67
+        ],
+        [
+          49,
+          65
+        ]
+      ],
+      "point_ids": [
+        43,
+        55,
+        66
+      ],
+      "edge_indices": [
+        10,
+        13,
+        16
+      ],
+      "edges": [
+        [
+          5,
+          22
+        ],
+        [
+          6,
+          31
+        ],
+        [
+          8,
+          24
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        19,
+        11,
+        1166
+      ],
+      "points": [
+        [
+          22,
+          68
+        ],
+        [
+          55,
+          11
+        ],
+        [
+          44,
+          30
+        ]
+      ],
+      "point_ids": [
+        43,
+        93,
+        145
+      ],
+      "edge_indices": [
+        10,
+        23,
+        36
+      ],
+      "edges": [
+        [
+          5,
+          22
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        3,
+        -2,
+        -55
+      ],
+      "points": [
+        [
+          5,
+          35
+        ],
+        [
+          25,
+          65
+        ],
+        [
+          9,
+          41
+        ]
+      ],
+      "point_ids": [
+        44,
+        71,
+        75
+      ],
+      "edge_indices": [
+        11,
+        17,
+        18
+      ],
+      "edges": [
+        [
+          5,
+          35
+        ],
+        [
+          8,
+          25
+        ],
+        [
+          9,
+          32
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        2,
+        3,
+        91
+      ],
+      "points": [
+        [
+          38,
+          5
+        ],
+        [
+          8,
+          25
+        ],
+        [
+          32,
+          9
+        ]
+      ],
+      "point_ids": [
+        45,
+        68,
+        72
+      ],
+      "edge_indices": [
+        11,
+        17,
+        18
+      ],
+      "edges": [
+        [
+          5,
+          35
+        ],
+        [
+          8,
+          25
+        ],
+        [
+          9,
+          32
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        3,
+        -2,
+        128
+      ],
+      "points": [
+        [
+          68,
+          38
+        ],
+        [
+          48,
+          8
+        ],
+        [
+          64,
+          32
+        ]
+      ],
+      "point_ids": [
+        46,
+        69,
+        73
+      ],
+      "edge_indices": [
+        11,
+        17,
+        18
+      ],
+      "edges": [
+        [
+          5,
+          35
+        ],
+        [
+          8,
+          25
+        ],
+        [
+          9,
+          32
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        2,
+        3,
+        274
+      ],
+      "points": [
+        [
+          35,
+          68
+        ],
+        [
+          65,
+          48
+        ],
+        [
+          41,
+          64
+        ]
+      ],
+      "point_ids": [
+        47,
+        70,
+        74
+      ],
+      "edge_indices": [
+        11,
+        17,
+        18
+      ],
+      "edges": [
+        [
+          5,
+          35
+        ],
+        [
+          8,
+          25
+        ],
+        [
+          9,
+          32
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        2,
+        -5,
+        -63
+      ],
+      "points": [
+        [
+          6,
+          15
+        ],
+        [
+          11,
+          17
+        ],
+        [
+          61,
+          37
+        ]
+      ],
+      "point_ids": [
+        48,
+        88,
+        102
+      ],
+      "edge_indices": [
+        12,
+        22,
+        25
+      ],
+      "edges": [
+        [
+          6,
+          15
+        ],
+        [
+          11,
+          17
+        ],
+        [
+          12,
+          36
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        5,
+        2,
+        302
+      ],
+      "points": [
+        [
+          58,
+          6
+        ],
+        [
+          56,
+          11
+        ],
+        [
+          36,
+          61
+        ]
+      ],
+      "point_ids": [
+        49,
+        89,
+        103
+      ],
+      "edge_indices": [
+        12,
+        22,
+        25
+      ],
+      "edges": [
+        [
+          6,
+          15
+        ],
+        [
+          11,
+          17
+        ],
+        [
+          12,
+          36
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        2,
+        -5,
+        -156
+      ],
+      "points": [
+        [
+          67,
+          58
+        ],
+        [
+          62,
+          56
+        ],
+        [
+          12,
+          36
+        ]
+      ],
+      "point_ids": [
+        50,
+        90,
+        100
+      ],
+      "edge_indices": [
+        12,
+        22,
+        25
+      ],
+      "edges": [
+        [
+          6,
+          15
+        ],
+        [
+          11,
+          17
+        ],
+        [
+          12,
+          36
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        5,
+        2,
+        209
+      ],
+      "points": [
+        [
+          15,
+          67
+        ],
+        [
+          17,
+          62
+        ],
+        [
+          37,
+          12
+        ]
+      ],
+      "point_ids": [
+        51,
+        91,
+        101
+      ],
+      "edge_indices": [
+        12,
+        22,
+        25
+      ],
+      "edges": [
+        [
+          6,
+          15
+        ],
+        [
+          11,
+          17
+        ],
+        [
+          12,
+          36
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        13,
+        -17,
+        176
+      ],
+      "points": [
+        [
+          24,
+          8
+        ],
+        [
+          58,
+          34
+        ],
+        [
+          41,
+          21
+        ]
+      ],
+      "point_ids": [
+        64,
+        121,
+        137
+      ],
+      "edge_indices": [
+        16,
+        30,
+        34
+      ],
+      "edges": [
+        [
+          8,
+          24
+        ],
+        [
+          15,
+          34
+        ],
+        [
+          21,
+          32
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        17,
+        13,
+        1417
+      ],
+      "points": [
+        [
+          65,
+          24
+        ],
+        [
+          39,
+          58
+        ],
+        [
+          52,
+          41
+        ]
+      ],
+      "point_ids": [
+        65,
+        122,
+        138
+      ],
+      "edge_indices": [
+        16,
+        30,
+        34
+      ],
+      "edges": [
+        [
+          8,
+          24
+        ],
+        [
+          15,
+          34
+        ],
+        [
+          21,
+          32
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        13,
+        -17,
+        -468
+      ],
+      "points": [
+        [
+          49,
+          65
+        ],
+        [
+          15,
+          39
+        ],
+        [
+          32,
+          52
+        ]
+      ],
+      "point_ids": [
+        66,
+        123,
+        139
+      ],
+      "edge_indices": [
+        16,
+        30,
+        34
+      ],
+      "edges": [
+        [
+          8,
+          24
+        ],
+        [
+          15,
+          34
+        ],
+        [
+          21,
+          32
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        17,
+        13,
+        773
+      ],
+      "points": [
+        [
+          8,
+          49
+        ],
+        [
+          34,
+          15
+        ],
+        [
+          21,
+          32
+        ]
+      ],
+      "point_ids": [
+        67,
+        120,
+        136
+      ],
+      "edge_indices": [
+        16,
+        30,
+        34
+      ],
+      "edges": [
+        [
+          8,
+          24
+        ],
+        [
+          15,
+          34
+        ],
+        [
+          21,
+          32
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        2,
+        -11,
+        -259
+      ],
+      "points": [
+        [
+          8,
+          25
+        ],
+        [
+          52,
+          33
+        ],
+        [
+          30,
+          29
+        ]
+      ],
+      "point_ids": [
+        68,
+        141,
+        144
+      ],
+      "edge_indices": [
+        17,
+        35,
+        36
+      ],
+      "edges": [
+        [
+          8,
+          25
+        ],
+        [
+          21,
+          33
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        11,
+        2,
+        544
+      ],
+      "points": [
+        [
+          48,
+          8
+        ],
+        [
+          40,
+          52
+        ],
+        [
+          44,
+          30
+        ]
+      ],
+      "point_ids": [
+        69,
+        142,
+        145
+      ],
+      "edge_indices": [
+        17,
+        35,
+        36
+      ],
+      "edges": [
+        [
+          8,
+          25
+        ],
+        [
+          21,
+          33
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        2,
+        -11,
+        -398
+      ],
+      "points": [
+        [
+          65,
+          48
+        ],
+        [
+          21,
+          40
+        ],
+        [
+          43,
+          44
+        ]
+      ],
+      "point_ids": [
+        70,
+        143,
+        146
+      ],
+      "edge_indices": [
+        17,
+        35,
+        36
+      ],
+      "edges": [
+        [
+          8,
+          25
+        ],
+        [
+          21,
+          33
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        11,
+        2,
+        405
+      ],
+      "points": [
+        [
+          25,
+          65
+        ],
+        [
+          33,
+          21
+        ],
+        [
+          29,
+          43
+        ]
+      ],
+      "point_ids": [
+        71,
+        140,
+        147
+      ],
+      "edge_indices": [
+        17,
+        35,
+        36
+      ],
+      "edges": [
+        [
+          8,
+          25
+        ],
+        [
+          21,
+          33
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        3,
+        -5,
+        -55
+      ],
+      "points": [
+        [
+          10,
+          17
+        ],
+        [
+          60,
+          47
+        ],
+        [
+          30,
+          29
+        ]
+      ],
+      "point_ids": [
+        80,
+        106,
+        144
+      ],
+      "edge_indices": [
+        20,
+        26,
+        36
+      ],
+      "edges": [
+        [
+          10,
+          17
+        ],
+        [
+          13,
+          26
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        5,
+        3,
+        310
+      ],
+      "points": [
+        [
+          56,
+          10
+        ],
+        [
+          26,
+          60
+        ],
+        [
+          44,
+          30
+        ]
+      ],
+      "point_ids": [
+        81,
+        107,
+        145
+      ],
+      "edge_indices": [
+        20,
+        26,
+        36
+      ],
+      "edges": [
+        [
+          10,
+          17
+        ],
+        [
+          13,
+          26
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        3,
+        -5,
+        -91
+      ],
+      "points": [
+        [
+          63,
+          56
+        ],
+        [
+          13,
+          26
+        ],
+        [
+          43,
+          44
+        ]
+      ],
+      "point_ids": [
+        82,
+        104,
+        146
+      ],
+      "edge_indices": [
+        20,
+        26,
+        36
+      ],
+      "edges": [
+        [
+          10,
+          17
+        ],
+        [
+          13,
+          26
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        5,
+        3,
+        274
+      ],
+      "points": [
+        [
+          17,
+          63
+        ],
+        [
+          47,
+          13
+        ],
+        [
+          29,
+          43
+        ]
+      ],
+      "point_ids": [
+        83,
+        105,
+        147
+      ],
+      "edge_indices": [
+        20,
+        26,
+        36
+      ],
+      "edges": [
+        [
+          10,
+          17
+        ],
+        [
+          13,
+          26
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        1,
+        2,
+        65
+      ],
+      "points": [
+        [
+          13,
+          26
+        ],
+        [
+          37,
+          14
+        ],
+        [
+          25,
+          20
+        ]
+      ],
+      "point_ids": [
+        104,
+        117,
+        128
+      ],
+      "edge_indices": [
+        26,
+        29,
+        32
+      ],
+      "edges": [
+        [
+          13,
+          26
+        ],
+        [
+          14,
+          36
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        2,
+        -1,
+        81
+      ],
+      "points": [
+        [
+          47,
+          13
+        ],
+        [
+          59,
+          37
+        ],
+        [
+          53,
+          25
+        ]
+      ],
+      "point_ids": [
+        105,
+        118,
+        129
+      ],
+      "edge_indices": [
+        26,
+        29,
+        32
+      ],
+      "edges": [
+        [
+          13,
+          26
+        ],
+        [
+          14,
+          36
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        1,
+        2,
+        154
+      ],
+      "points": [
+        [
+          60,
+          47
+        ],
+        [
+          36,
+          59
+        ],
+        [
+          48,
+          53
+        ]
+      ],
+      "point_ids": [
+        106,
+        119,
+        130
+      ],
+      "edge_indices": [
+        26,
+        29,
+        32
+      ],
+      "edges": [
+        [
+          13,
+          26
+        ],
+        [
+          14,
+          36
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        2,
+        -1,
+        -8
+      ],
+      "points": [
+        [
+          26,
+          60
+        ],
+        [
+          14,
+          36
+        ],
+        [
+          20,
+          48
+        ]
+      ],
+      "point_ids": [
+        107,
+        116,
+        131
+      ],
+      "edge_indices": [
+        26,
+        29,
+        32
+      ],
+      "edges": [
+        [
+          13,
+          26
+        ],
+        [
+          14,
+          36
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        1,
+        -14,
+        -376
+      ],
+      "points": [
+        [
+          16,
+          28
+        ],
+        [
+          30,
+          29
+        ],
+        [
+          44,
+          30
+        ]
+      ],
+      "point_ids": [
+        124,
+        144,
+        145
+      ],
+      "edge_indices": [
+        31,
+        36
+      ],
+      "edges": [
+        [
+          16,
+          28
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        14,
+        1,
+        646
+      ],
+      "points": [
+        [
+          45,
+          16
+        ],
+        [
+          44,
+          30
+        ],
+        [
+          43,
+          44
+        ]
+      ],
+      "point_ids": [
+        125,
+        145,
+        146
+      ],
+      "edge_indices": [
+        31,
+        36
+      ],
+      "edges": [
+        [
+          16,
+          28
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        1,
+        -14,
+        -573
+      ],
+      "points": [
+        [
+          57,
+          45
+        ],
+        [
+          43,
+          44
+        ],
+        [
+          29,
+          43
+        ]
+      ],
+      "point_ids": [
+        126,
+        146,
+        147
+      ],
+      "edge_indices": [
+        31,
+        36
+      ],
+      "edges": [
+        [
+          16,
+          28
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    },
+    {
+      "signature": [
+        14,
+        1,
+        449
+      ],
+      "points": [
+        [
+          28,
+          57
+        ],
+        [
+          30,
+          29
+        ],
+        [
+          29,
+          43
+        ]
+      ],
+      "point_ids": [
+        127,
+        144,
+        147
+      ],
+      "edge_indices": [
+        31,
+        36
+      ],
+      "edges": [
+        [
+          16,
+          28
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "point_count": 3,
+      "contribution": 1
+    }
+  ]
+}

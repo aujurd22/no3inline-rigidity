@@ -1,0 +1,24 @@
+# solution 1
+# n=10 sym=dia2 status=verified source=flammenkamp_cache/n10_dia2
+# code=x67347919145808025623
+0 6
+0 7
+1 3
+1 4
+2 7
+2 9
+3 1
+3 9
+4 1
+4 4
+5 5
+5 8
+6 0
+6 8
+7 0
+7 2
+8 5
+8 6
+9 2
+9 3
+

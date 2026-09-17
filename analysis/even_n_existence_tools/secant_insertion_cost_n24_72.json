@@ -1,0 +1,1323 @@
+{
+  "results": [
+    {
+      "n": 24,
+      "q": 5,
+      "empty_cell_count": 528,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 3,
+      "mean_nonaxis_secant_cost": 2.878787878787879,
+      "maximum_nonaxis_secant_cost": 6,
+      "cost_histogram": {
+        "0": 12,
+        "1": 80,
+        "2": 104,
+        "3": 164,
+        "4": 108,
+        "5": 52,
+        "6": 8
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 6,
+        "removed_count": 3,
+        "removed": [
+          [
+            9,
+            5
+          ],
+          [
+            12,
+            4
+          ],
+          [
+            13,
+            21
+          ]
+        ],
+        "added": [
+          [
+            13,
+            5
+          ],
+          [
+            9,
+            4
+          ],
+          [
+            12,
+            21
+          ]
+        ]
+      }
+    },
+    {
+      "n": 24,
+      "q": 8,
+      "empty_cell_count": 528,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 4,
+      "mean_nonaxis_secant_cost": 3.6136363636363638,
+      "maximum_nonaxis_secant_cost": 7,
+      "cost_histogram": {
+        "0": 8,
+        "1": 28,
+        "2": 84,
+        "3": 120,
+        "4": 136,
+        "5": 112,
+        "6": 32,
+        "7": 8
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 8,
+        "removed_count": 4,
+        "removed": [
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "added": [
+          [
+            7,
+            2
+          ],
+          [
+            8,
+            18
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            5,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "n": 24,
+      "q": 12,
+      "empty_cell_count": 528,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 4,
+      "mean_nonaxis_secant_cost": 3.9166666666666665,
+      "maximum_nonaxis_secant_cost": 8,
+      "cost_histogram": {
+        "0": 8,
+        "1": 24,
+        "2": 56,
+        "3": 120,
+        "4": 132,
+        "5": 112,
+        "6": 60,
+        "7": 4,
+        "8": 12
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 8,
+        "removed_count": 4,
+        "removed": [
+          [
+            7,
+            1
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            6,
+            22
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "added": [
+          [
+            7,
+            2
+          ],
+          [
+            10,
+            22
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            5,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "n": 24,
+      "q": 100,
+      "empty_cell_count": 528,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 4,
+      "mean_nonaxis_secant_cost": 3.9166666666666665,
+      "maximum_nonaxis_secant_cost": 8,
+      "cost_histogram": {
+        "0": 8,
+        "1": 24,
+        "2": 56,
+        "3": 120,
+        "4": 132,
+        "5": 112,
+        "6": 60,
+        "7": 4,
+        "8": 12
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 8,
+        "removed_count": 4,
+        "removed": [
+          [
+            7,
+            1
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            6,
+            22
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "added": [
+          [
+            7,
+            2
+          ],
+          [
+            10,
+            22
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            5,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "n": 36,
+      "q": 5,
+      "empty_cell_count": 1224,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 3,
+      "mean_nonaxis_secant_cost": 3.150326797385621,
+      "maximum_nonaxis_secant_cost": 7,
+      "cost_histogram": {
+        "0": 28,
+        "1": 132,
+        "2": 280,
+        "3": 296,
+        "4": 252,
+        "5": 164,
+        "6": 56,
+        "7": 16
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 0,
+      "consequent_removed_count_lower_bound": 2,
+      "first_alternating_cycle": {
+        "cycle_node_count": 4,
+        "removed_count": 2,
+        "removed": [
+          [
+            24,
+            28
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "added": [
+          [
+            9,
+            28
+          ],
+          [
+            24,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "n": 36,
+      "q": 8,
+      "empty_cell_count": 1224,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 4,
+      "mean_nonaxis_secant_cost": 4.388888888888889,
+      "maximum_nonaxis_secant_cost": 10,
+      "cost_histogram": {
+        "1": 40,
+        "2": 124,
+        "3": 244,
+        "4": 256,
+        "5": 240,
+        "6": 168,
+        "7": 108,
+        "8": 36,
+        "9": 4,
+        "10": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 4,
+        "removed_count": 2,
+        "removed": [
+          [
+            2,
+            23
+          ],
+          [
+            31,
+            5
+          ]
+        ],
+        "added": [
+          [
+            31,
+            23
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "n": 36,
+      "q": 12,
+      "empty_cell_count": 1224,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 5,
+      "mean_nonaxis_secant_cost": 4.944444444444445,
+      "maximum_nonaxis_secant_cost": 11,
+      "cost_histogram": {
+        "1": 20,
+        "2": 68,
+        "3": 204,
+        "4": 260,
+        "5": 232,
+        "6": 172,
+        "7": 152,
+        "8": 72,
+        "9": 32,
+        "10": 8,
+        "11": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 4,
+        "removed_count": 2,
+        "removed": [
+          [
+            9,
+            1
+          ],
+          [
+            26,
+            34
+          ]
+        ],
+        "added": [
+          [
+            9,
+            34
+          ],
+          [
+            26,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "n": 36,
+      "q": 100,
+      "empty_cell_count": 1224,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 5,
+      "mean_nonaxis_secant_cost": 5.160130718954249,
+      "maximum_nonaxis_secant_cost": 11,
+      "cost_histogram": {
+        "1": 16,
+        "2": 56,
+        "3": 188,
+        "4": 220,
+        "5": 268,
+        "6": 164,
+        "7": 160,
+        "8": 88,
+        "9": 52,
+        "10": 4,
+        "11": 8
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 4,
+        "removed_count": 2,
+        "removed": [
+          [
+            9,
+            1
+          ],
+          [
+            26,
+            34
+          ]
+        ],
+        "added": [
+          [
+            9,
+            34
+          ],
+          [
+            26,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "n": 48,
+      "q": 5,
+      "empty_cell_count": 2208,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 3,
+      "mean_nonaxis_secant_cost": 3.2028985507246377,
+      "maximum_nonaxis_secant_cost": 9,
+      "cost_histogram": {
+        "0": 60,
+        "1": 200,
+        "2": 472,
+        "3": 572,
+        "4": 504,
+        "5": 264,
+        "6": 100,
+        "7": 16,
+        "8": 16,
+        "9": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 0,
+      "consequent_removed_count_lower_bound": 2,
+      "first_alternating_cycle": {
+        "cycle_node_count": 8,
+        "removed_count": 4,
+        "removed": [
+          [
+            38,
+            34
+          ],
+          [
+            41,
+            47
+          ],
+          [
+            9,
+            13
+          ],
+          [
+            6,
+            0
+          ]
+        ],
+        "added": [
+          [
+            38,
+            47
+          ],
+          [
+            41,
+            13
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            6,
+            34
+          ]
+        ]
+      }
+    },
+    {
+      "n": 48,
+      "q": 8,
+      "empty_cell_count": 2208,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 4,
+      "mean_nonaxis_secant_cost": 4.471014492753623,
+      "maximum_nonaxis_secant_cost": 10,
+      "cost_histogram": {
+        "0": 16,
+        "1": 48,
+        "2": 208,
+        "3": 396,
+        "4": 532,
+        "5": 384,
+        "6": 348,
+        "7": 172,
+        "8": 68,
+        "9": 24,
+        "10": 12
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 4,
+        "removed_count": 2,
+        "removed": [
+          [
+            18,
+            2
+          ],
+          [
+            12,
+            6
+          ]
+        ],
+        "added": [
+          [
+            18,
+            6
+          ],
+          [
+            12,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "n": 48,
+      "q": 12,
+      "empty_cell_count": 2208,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 5,
+      "mean_nonaxis_secant_cost": 5.2355072463768115,
+      "maximum_nonaxis_secant_cost": 11,
+      "cost_histogram": {
+        "1": 36,
+        "2": 108,
+        "3": 228,
+        "4": 464,
+        "5": 436,
+        "6": 404,
+        "7": 276,
+        "8": 136,
+        "9": 68,
+        "10": 40,
+        "11": 12
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 12,
+        "removed_count": 6,
+        "removed": [
+          [
+            22,
+            1
+          ],
+          [
+            17,
+            10
+          ],
+          [
+            23,
+            5
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            12,
+            6
+          ],
+          [
+            8,
+            7
+          ]
+        ],
+        "added": [
+          [
+            22,
+            10
+          ],
+          [
+            17,
+            5
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            18,
+            6
+          ],
+          [
+            12,
+            7
+          ],
+          [
+            8,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "n": 48,
+      "q": 100,
+      "empty_cell_count": 2208,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 6,
+      "mean_nonaxis_secant_cost": 5.739130434782608,
+      "maximum_nonaxis_secant_cost": 12,
+      "cost_histogram": {
+        "1": 20,
+        "2": 80,
+        "3": 196,
+        "4": 340,
+        "5": 396,
+        "6": 420,
+        "7": 368,
+        "8": 184,
+        "9": 80,
+        "10": 92,
+        "11": 28,
+        "12": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 12,
+        "removed_count": 6,
+        "removed": [
+          [
+            17,
+            10
+          ],
+          [
+            23,
+            5
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            12,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            22,
+            1
+          ]
+        ],
+        "added": [
+          [
+            22,
+            10
+          ],
+          [
+            17,
+            5
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            18,
+            6
+          ],
+          [
+            12,
+            7
+          ],
+          [
+            8,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "n": 60,
+      "q": 5,
+      "empty_cell_count": 3480,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 4,
+      "mean_nonaxis_secant_cost": 3.514942528735632,
+      "maximum_nonaxis_secant_cost": 8,
+      "cost_histogram": {
+        "0": 64,
+        "1": 244,
+        "2": 596,
+        "3": 812,
+        "4": 896,
+        "5": 536,
+        "6": 232,
+        "7": 96,
+        "8": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 0,
+      "consequent_removed_count_lower_bound": 2,
+      "first_alternating_cycle": {
+        "cycle_node_count": 20,
+        "removed_count": 10,
+        "removed": [
+          [
+            6,
+            8
+          ],
+          [
+            13,
+            7
+          ],
+          [
+            26,
+            55
+          ],
+          [
+            35,
+            58
+          ],
+          [
+            9,
+            54
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            54,
+            50
+          ],
+          [
+            58,
+            24
+          ],
+          [
+            55,
+            33
+          ],
+          [
+            0,
+            46
+          ]
+        ],
+        "added": [
+          [
+            0,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            13,
+            55
+          ],
+          [
+            26,
+            58
+          ],
+          [
+            35,
+            54
+          ],
+          [
+            9,
+            12
+          ],
+          [
+            12,
+            50
+          ],
+          [
+            54,
+            24
+          ],
+          [
+            58,
+            33
+          ],
+          [
+            55,
+            46
+          ]
+        ]
+      }
+    },
+    {
+      "n": 60,
+      "q": 8,
+      "empty_cell_count": 3480,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 5,
+      "mean_nonaxis_secant_cost": 4.922988505747126,
+      "maximum_nonaxis_secant_cost": 10,
+      "cost_histogram": {
+        "0": 16,
+        "1": 64,
+        "2": 284,
+        "3": 448,
+        "4": 636,
+        "5": 704,
+        "6": 628,
+        "7": 392,
+        "8": 212,
+        "9": 76,
+        "10": 20
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 6,
+        "removed_count": 3,
+        "removed": [
+          [
+            17,
+            2
+          ],
+          [
+            53,
+            51
+          ],
+          [
+            46,
+            52
+          ]
+        ],
+        "added": [
+          [
+            46,
+            2
+          ],
+          [
+            17,
+            51
+          ],
+          [
+            53,
+            52
+          ]
+        ]
+      }
+    },
+    {
+      "n": 60,
+      "q": 12,
+      "empty_cell_count": 3480,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 6,
+      "mean_nonaxis_secant_cost": 5.873563218390805,
+      "maximum_nonaxis_secant_cost": 12,
+      "cost_histogram": {
+        "1": 16,
+        "2": 136,
+        "3": 284,
+        "4": 500,
+        "5": 616,
+        "6": 616,
+        "7": 548,
+        "8": 368,
+        "9": 256,
+        "10": 104,
+        "11": 32,
+        "12": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 8,
+        "removed_count": 4,
+        "removed": [
+          [
+            6,
+            8
+          ],
+          [
+            10,
+            5
+          ],
+          [
+            37,
+            50
+          ],
+          [
+            17,
+            2
+          ]
+        ],
+        "added": [
+          [
+            6,
+            5
+          ],
+          [
+            10,
+            50
+          ],
+          [
+            37,
+            2
+          ],
+          [
+            17,
+            8
+          ]
+        ]
+      }
+    },
+    {
+      "n": 60,
+      "q": 100,
+      "empty_cell_count": 3480,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 7,
+      "mean_nonaxis_secant_cost": 6.704597701149425,
+      "maximum_nonaxis_secant_cost": 15,
+      "cost_histogram": {
+        "1": 8,
+        "2": 60,
+        "3": 180,
+        "4": 312,
+        "5": 560,
+        "6": 604,
+        "7": 548,
+        "8": 448,
+        "9": 348,
+        "10": 220,
+        "11": 104,
+        "12": 56,
+        "13": 28,
+        "15": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 3,
+      "consequent_removed_count_lower_bound": 5,
+      "first_alternating_cycle": {
+        "cycle_node_count": 6,
+        "removed_count": 3,
+        "removed": [
+          [
+            13,
+            0
+          ],
+          [
+            17,
+            2
+          ],
+          [
+            6,
+            8
+          ]
+        ],
+        "added": [
+          [
+            13,
+            2
+          ],
+          [
+            17,
+            8
+          ],
+          [
+            6,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "n": 72,
+      "q": 5,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 3,
+      "mean_nonaxis_secant_cost": 3.2182539682539684,
+      "maximum_nonaxis_secant_cost": 8,
+      "cost_histogram": {
+        "0": 112,
+        "1": 556,
+        "2": 1048,
+        "3": 1244,
+        "4": 1068,
+        "5": 624,
+        "6": 288,
+        "7": 84,
+        "8": 16
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 0,
+      "consequent_removed_count_lower_bound": 2,
+      "first_alternating_cycle": {
+        "cycle_node_count": 14,
+        "removed_count": 7,
+        "removed": [
+          [
+            55,
+            7
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            37,
+            0
+          ],
+          [
+            49,
+            35
+          ],
+          [
+            34,
+            71
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ]
+        ],
+        "added": [
+          [
+            55,
+            26
+          ],
+          [
+            25,
+            0
+          ],
+          [
+            37,
+            35
+          ],
+          [
+            49,
+            71
+          ],
+          [
+            34,
+            3
+          ],
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "n": 72,
+      "q": 8,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 5,
+      "mean_nonaxis_secant_cost": 4.683333333333334,
+      "maximum_nonaxis_secant_cost": 11,
+      "cost_histogram": {
+        "0": 16,
+        "1": 152,
+        "2": 384,
+        "3": 824,
+        "4": 964,
+        "5": 1100,
+        "6": 820,
+        "7": 440,
+        "8": 228,
+        "9": 96,
+        "10": 8,
+        "11": 8
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 10,
+        "removed_count": 5,
+        "removed": [
+          [
+            32,
+            0
+          ],
+          [
+            28,
+            66
+          ],
+          [
+            42,
+            18
+          ],
+          [
+            24,
+            3
+          ],
+          [
+            2,
+            22
+          ]
+        ],
+        "added": [
+          [
+            32,
+            66
+          ],
+          [
+            28,
+            18
+          ],
+          [
+            42,
+            3
+          ],
+          [
+            24,
+            22
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "n": 72,
+      "q": 12,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 6,
+      "mean_nonaxis_secant_cost": 5.6341269841269845,
+      "maximum_nonaxis_secant_cost": 11,
+      "cost_histogram": {
+        "0": 4,
+        "1": 92,
+        "2": 196,
+        "3": 436,
+        "4": 732,
+        "5": 996,
+        "6": 960,
+        "7": 736,
+        "8": 428,
+        "9": 284,
+        "10": 132,
+        "11": 44
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 10,
+        "removed_count": 5,
+        "removed": [
+          [
+            27,
+            4
+          ],
+          [
+            34,
+            19
+          ],
+          [
+            41,
+            68
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            65,
+            61
+          ]
+        ],
+        "added": [
+          [
+            27,
+            19
+          ],
+          [
+            34,
+            68
+          ],
+          [
+            41,
+            5
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            65,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "n": 72,
+      "q": 100,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 7,
+      "mean_nonaxis_secant_cost": 6.798412698412698,
+      "maximum_nonaxis_secant_cost": 16,
+      "cost_histogram": {
+        "1": 12,
+        "2": 116,
+        "3": 216,
+        "4": 500,
+        "5": 684,
+        "6": 820,
+        "7": 864,
+        "8": 692,
+        "9": 468,
+        "10": 340,
+        "11": 184,
+        "12": 88,
+        "13": 36,
+        "14": 16,
+        "16": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 16,
+        "removed_count": 8,
+        "removed": [
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            9,
+            52
+          ],
+          [
+            31,
+            61
+          ],
+          [
+            25,
+            53
+          ],
+          [
+            37,
+            0
+          ]
+        ],
+        "added": [
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            67
+          ],
+          [
+            44,
+            52
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            31,
+            53
+          ],
+          [
+            25,
+            0
+          ],
+          [
+            37,
+            3
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "trial": 0,
+    "D": 0,
+    "L": 1,
+    "n_edges": 37,
+    "n_polys": 1276,
+    "gb_is_unsat": true,
+    "gb_size": 1,
+    "gb_time": 45.767868995666504
+  },
+  {
+    "trial": 1,
+    "D": 0,
+    "L": 1,
+    "n_edges": 37,
+    "n_polys": 1292,
+    "gb_is_unsat": true,
+    "gb_size": 1,
+    "gb_time": 46.044151306152344
+  },
+  {
+    "trial": 2,
+    "D": 0,
+    "L": 1,
+    "n_edges": 37,
+    "n_polys": 1282,
+    "gb_is_unsat": true,
+    "gb_size": 1,
+    "gb_time": 45.69380855560303
+  },
+  {
+    "trial": 3,
+    "D": 0,
+    "L": 1,
+    "n_edges": 37,
+    "n_polys": 1220,
+    "gb_is_unsat": true,
+    "gb_size": 1,
+    "gb_time": 43.26566243171692
+  },
+  {
+    "trial": 4,
+    "D": 0,
+    "L": 1,
+    "n_edges": 37,
+    "n_polys": 1236,
+    "gb_is_unsat": true,
+    "gb_size": 1,
+    "gb_time": 45.100133180618286
+  },
+  {
+    "trial": 5,
+    "D": 0,
+    "L": 1,
+    "n_edges": 37,
+    "n_polys": 1320,
+    "gb_is_unsat": true,
+    "gb_size": 1,
+    "gb_time": 49.78948354721069
+  },
+  {
+    "trial": 6,
+    "D": 0,
+    "L": 1,
+    "n_edges": 37,
+    "n_polys": 1018,
+    "gb_is_unsat": true,
+    "gb_size": 1,
+    "gb_time": 34.495001792907715
+  },
+  {
+    "trial": 7,
+    "D": 0,
+    "L": 1,
+    "n_edges": 37,
+    "n_polys": 1254,
+    "gb_is_unsat": true,
+    "gb_size": 1,
+    "gb_time": 45.7121365070343
+  }
+]

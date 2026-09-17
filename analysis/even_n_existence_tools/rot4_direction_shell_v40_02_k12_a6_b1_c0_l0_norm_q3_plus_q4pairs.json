@@ -1,0 +1,149 @@
+{
+  "parameters": {
+    "base": "v40_02",
+    "size": 12,
+    "adjacency_count": 6,
+    "triple_count": 1,
+    "quadruple_count": 0,
+    "loop_count": 0,
+    "flip_count": null,
+    "hard_q": 3,
+    "shell_q": 4,
+    "subset_size": 2,
+    "time_limit": 360.0,
+    "workers": 4,
+    "out": "rot4_direction_shell_v40_02_k12_a6_b1_c0_l0_norm_q3_plus_q4pairs.json"
+  },
+  "hard_line_count": 906,
+  "shell_line_count": 808,
+  "shell_directions": {
+    "1,-4": 175,
+    "1,4": 175,
+    "3,-4": 229,
+    "3,4": 229
+  },
+  "layers": [
+    {
+      "directions": [
+        [
+          1,
+          -4
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "line_count": 1256,
+      "new_line_count": 350,
+      "status": "UNKNOWN",
+      "classification": "UNRESOLVED",
+      "branches": 1612942,
+      "conflicts": 11476,
+      "wall_s": 360.107,
+      "elapsed_s": 360.111
+    },
+    {
+      "directions": [
+        [
+          1,
+          -4
+        ],
+        [
+          3,
+          -4
+        ]
+      ],
+      "line_count": 1310,
+      "new_line_count": 404,
+      "status": "UNKNOWN",
+      "classification": "UNRESOLVED",
+      "branches": 5871256,
+      "conflicts": 2196353,
+      "wall_s": 360.079,
+      "elapsed_s": 360.085
+    },
+    {
+      "directions": [
+        [
+          1,
+          -4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "line_count": 1310,
+      "new_line_count": 404,
+      "status": "UNKNOWN",
+      "classification": "UNRESOLVED",
+      "branches": 1088822,
+      "conflicts": 8666,
+      "wall_s": 360.238,
+      "elapsed_s": 360.246
+    },
+    {
+      "directions": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          -4
+        ]
+      ],
+      "line_count": 1310,
+      "new_line_count": 404,
+      "status": "UNKNOWN",
+      "classification": "UNRESOLVED",
+      "branches": 2055295,
+      "conflicts": 11527,
+      "wall_s": 360.053,
+      "elapsed_s": 360.057
+    },
+    {
+      "directions": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "line_count": 1310,
+      "new_line_count": 404,
+      "status": "INFEASIBLE",
+      "classification": "CLOSED",
+      "branches": 8603301,
+      "conflicts": 3476335,
+      "wall_s": 356.581,
+      "elapsed_s": 356.588
+    },
+    {
+      "directions": [
+        [
+          3,
+          -4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "line_count": 1364,
+      "new_line_count": 458,
+      "status": "UNKNOWN",
+      "classification": "UNRESOLVED",
+      "branches": 5062086,
+      "conflicts": 1898618,
+      "wall_s": 360.224,
+      "elapsed_s": 360.231
+    }
+  ],
+  "closed_subset_count": 1,
+  "surviving_subset_count": 0
+}

@@ -1,0 +1,227 @@
+{
+  "m": 28,
+  "source": "n56_rot4",
+  "solutions": 10441,
+  "blocks": 4,
+  "warning": "constructive archive; neither full file nor blocks are uniform samples",
+  "analyses": {
+    "full": [
+      {
+        "group": 0,
+        "solutions": 10441,
+        "supported_pairs": 263618,
+        "linear": {
+          "coefficients": [
+            0.40056169666613667,
+            -0.16911652840714694
+          ],
+          "deviance": 215594.91647366146
+        },
+        "quadratic": {
+          "coefficients": [
+            0.39973290720971294,
+            -0.16825998569240777,
+            -0.0001233799495152284
+          ],
+          "deviance": 215594.34151236987
+        },
+        "quadratic_deviance_gain": 0.5749612915969919,
+        "quadratic_fraction_of_linear_deviance": 2.6668592237759608e-06
+      }
+    ],
+    "sequential_blocks": [
+      {
+        "group": 0,
+        "solutions": 2611,
+        "supported_pairs": 263618,
+        "linear": {
+          "coefficients": [
+            0.40073564542237283,
+            -0.16921270221482893
+          ],
+          "deviance": 160035.8655798069
+        },
+        "quadratic": {
+          "coefficients": [
+            0.4003156079448967,
+            -0.16877861646389056,
+            -6.252560621373092e-05
+          ],
+          "deviance": 160035.82864862552
+        },
+        "quadratic_deviance_gain": 0.03693118138471618,
+        "quadratic_fraction_of_linear_deviance": 2.3076815469404445e-07
+      },
+      {
+        "group": 1,
+        "solutions": 2610,
+        "supported_pairs": 262216,
+        "linear": {
+          "coefficients": [
+            0.39964702605640334,
+            -0.1688684062305374
+          ],
+          "deviance": 158706.36514844926
+        },
+        "quadratic": {
+          "coefficients": [
+            0.3977791804677397,
+            -0.1669369247536975,
+            -0.0002782545271322491
+          ],
+          "deviance": 158705.63490897877
+        },
+        "quadratic_deviance_gain": 0.7302394704893231,
+        "quadratic_fraction_of_linear_deviance": 4.601198381717574e-06
+      },
+      {
+        "group": 2,
+        "solutions": 2610,
+        "supported_pairs": 262916,
+        "linear": {
+          "coefficients": [
+            0.3997342467598345,
+            -0.16873626155995183
+          ],
+          "deviance": 157467.21692713242
+        },
+        "quadratic": {
+          "coefficients": [
+            0.39980312015235697,
+            -0.16880738129555123,
+            1.0231987551598996e-05
+          ],
+          "deviance": 157467.21593336377
+        },
+        "quadratic_deviance_gain": 0.0009937686554621905,
+        "quadratic_fraction_of_linear_deviance": 6.310955860241402e-09
+      },
+      {
+        "group": 3,
+        "solutions": 2610,
+        "supported_pairs": 263618,
+        "linear": {
+          "coefficients": [
+            0.4008009689362746,
+            -0.16914603451238297
+          ],
+          "deviance": 159460.82399723973
+        },
+        "quadratic": {
+          "coefficients": [
+            0.39996425479023123,
+            -0.16828109413717465,
+            -0.0001247227574066913
+          ],
+          "deviance": 159460.6777890536
+        },
+        "quadratic_deviance_gain": 0.1462081861391198,
+        "quadratic_fraction_of_linear_deviance": 9.168909483476057e-07
+      }
+    ],
+    "random_blocks": [
+      {
+        "group": 0,
+        "solutions": 2611,
+        "supported_pairs": 263618,
+        "linear": {
+          "coefficients": [
+            0.40030664692540496,
+            -0.16910665946191256
+          ],
+          "deviance": 150571.85887107658
+        },
+        "quadratic": {
+          "coefficients": [
+            0.39701956312043496,
+            -0.16570648861071194,
+            -0.0004906295677655718
+          ],
+          "deviance": 150569.5998424663
+        },
+        "quadratic_deviance_gain": 2.2590286102786195,
+        "quadratic_fraction_of_linear_deviance": 1.5002993435930527e-05
+      },
+      {
+        "group": 1,
+        "solutions": 2610,
+        "supported_pairs": 263618,
+        "linear": {
+          "coefficients": [
+            0.3995065680103505,
+            -0.1685183075033089
+          ],
+          "deviance": 150467.0286469256
+        },
+        "quadratic": {
+          "coefficients": [
+            0.39913121798171514,
+            -0.16813069294282199,
+            -5.575984161131557e-05
+          ],
+          "deviance": 150466.99914457038
+        },
+        "quadratic_deviance_gain": 0.029502355231670663,
+        "quadratic_fraction_of_linear_deviance": 1.9607189360333968e-07
+      },
+      {
+        "group": 2,
+        "solutions": 2610,
+        "supported_pairs": 263618,
+        "linear": {
+          "coefficients": [
+            0.4008755359335424,
+            -0.16924324119370338
+          ],
+          "deviance": 150922.85373200898
+        },
+        "quadratic": {
+          "coefficients": [
+            0.4019150408722344,
+            -0.17031700675849992,
+            0.00015452589714522516
+          ],
+          "deviance": 150922.62735079497
+        },
+        "quadratic_deviance_gain": 0.22638121401541866,
+        "quadratic_fraction_of_linear_deviance": 1.499979681125032e-06
+      },
+      {
+        "group": 3,
+        "solutions": 2610,
+        "supported_pairs": 263618,
+        "linear": {
+          "coefficients": [
+            0.4012004823378211,
+            -0.1694683836528889
+          ],
+          "deviance": 151390.61261928553
+        },
+        "quadratic": {
+          "coefficients": [
+            0.4004902909650031,
+            -0.16873414031159154,
+            -0.00010581242467728875
+          ],
+          "deviance": 151390.5071683052
+        },
+        "quadratic_deviance_gain": 0.1054509803361725,
+        "quadratic_fraction_of_linear_deviance": 6.965490033477755e-07
+      }
+    ]
+  },
+  "block_comparison": {
+    "sequential_slope_mean": -0.16899085112942527,
+    "sequential_slope_std": 0.00019564533510239143,
+    "sequential_slope_range": [
+      -0.16921270221482893,
+      -0.16873626155995183
+    ],
+    "random_slope_mean": -0.16908414795295346,
+    "random_slope_std": 0.000351294006085632,
+    "random_slope_range": [
+      -0.1694683836528889,
+      -0.1685183075033089
+    ]
+  }
+}

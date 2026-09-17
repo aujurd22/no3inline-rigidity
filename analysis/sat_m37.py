@@ -24,6 +24,10 @@ def main():
     ap.add_argument("--solver", default="glucose4")
     ap.add_argument("--time", type=float, default=2700.0, help="soft time cap (s)")
     ap.add_argument("--seed", type=int, default=0)
+    ap.add_argument("--forbid-extreme", action="store_true",
+                    help="forbid the 666 extreme high-codegree transposed pairs "
+                         "(co3>800, a matching) -- residual hypergraph then "
+                         "satisfies Glock (C3). See codegree_residual_m37.py.")
     args = ap.parse_args()
     m = args.m
     t0 = time.time()
@@ -95,6 +99,37 @@ def main():
                         ncl += 1
     print(f"[lines] added {ncl:,} forbidden clauses "
           f"({time.time()-tl:.1f}s)", flush=True)
+
+    # ---- optional: forbid the 666 extreme high-codegree pairs ----
+    # residual hypergraph (after removing these) satisfies Glock (C3):
+    #   original max_co3=1132 > 954 (FAIL); forbid co3>800 -> residual 796 < 954 (PASS)
+    # the 666 pairs form a matching (max cell-degree 1) -> free to forbid in a
+    # 2-factor (no two share a vertex, so no structural cost to the degree eqs).
+    if args.forbid_extreme:
+        import numpy as np
+        te = time.time()
+        _, line_cons_all, _ = generate_constraints(m, use_2factor=False)
+        ncell = m * m
+        co3 = np.zeros((ncell, ncell), dtype=np.int32)
+        for pos_w in line_cons_all:
+            cells = list(pos_w.keys())
+            L = len(cells)
+            if L < 3:
+                continue
+            idx = np.array(cells, dtype=np.int64)
+            ii, jj = np.triu_indices(L, k=1)
+            co3[idx[ii], idx[jj]] += (L - 2)
+        co3 = co3 + co3.T
+        iu, ju = np.triu_indices(ncell, k=1)
+        ext = (co3[iu, ju] > 800)
+        ne = int(ext.sum())
+        nxf = 0
+        for a, b in zip(iu[ext].tolist(), ju[ext].tolist()):
+            s.add_clause([-V[a], -V[b]])
+            nxf += 1
+        print(f"[extreme] forbade {ne} high-codegree pairs "
+              f"({nxf:,} clauses) in {time.time()-te:.1f}s", flush=True)
+
     print(f"[ready] starting {args.solver} with {args.time:.0f}s cap "
           f"(total clauses ~= {n2f + ncl:,})", flush=True)
 

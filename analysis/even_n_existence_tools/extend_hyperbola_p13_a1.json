@@ -1,0 +1,20 @@
+[
+  {
+    "p": 13,
+    "n": 12,
+    "multiplier": 1,
+    "status": "INFEASIBLE",
+    "candidate_cells": 132,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 40,
+      "lines_with_at_least_three_grid_points": 898,
+      "line_enumeration_seconds": 0.0010251999483443797
+    },
+    "constrained_lines": 898,
+    "fixed_secant_lines": 38,
+    "build_seconds": 0.00815019995206967,
+    "solve_seconds": 0.0024466,
+    "conflicts": 0,
+    "branches": 0
+  }
+]

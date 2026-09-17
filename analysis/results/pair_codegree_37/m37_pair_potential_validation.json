@@ -1,0 +1,206 @@
+{
+  "definition": "pair potential = sum_{u<v in S} co3[u,v]",
+  "random_factor_baseline": {
+    "samples": 20000,
+    "mean": 57974.5708,
+    "std": 2363.1207978830366,
+    "min": 50282,
+    "quantiles": {
+      "0.001": 51939.984,
+      "0.01": 53267.96,
+      "0.05": 54470.0,
+      "0.5": 57782.0,
+      "0.95": 62160.0
+    }
+  },
+  "candidates": [
+    {
+      "name": "best72_maxsat_cells",
+      "violations": 18,
+      "potential": 48560,
+      "random_factor_lower_tail": 0.0,
+      "random_factor_z": -3.983956642603244
+    },
+    {
+      "name": "best_gv_63_edges.json",
+      "violations": null,
+      "potential": 54592,
+      "random_factor_lower_tail": 0.05695,
+      "random_factor_z": -1.4313998687795488
+    },
+    {
+      "name": "best_28_9_edges.json",
+      "violations": 81,
+      "potential": 57002,
+      "random_factor_lower_tail": 0.3604,
+      "random_factor_z": -0.41156203308407385
+    },
+    {
+      "name": "best_24_13_edges.json",
+      "violations": 88,
+      "potential": 57200,
+      "random_factor_lower_tail": 0.3948,
+      "random_factor_z": -0.3277745262510016
+    },
+    {
+      "name": "best_37_edges.json",
+      "violations": 92,
+      "potential": 58056,
+      "random_factor_lower_tail": 0.5469,
+      "random_factor_z": 0.03445833157278532
+    },
+    {
+      "name": "best_31_6_edges.json",
+      "violations": 94,
+      "potential": 58516,
+      "random_factor_lower_tail": 0.62225,
+      "random_factor_z": 0.22911617573042783
+    },
+    {
+      "name": "best_23_14_edges.json",
+      "violations": 98,
+      "potential": 58596,
+      "random_factor_lower_tail": 0.63465,
+      "random_factor_z": 0.26296971384480045
+    },
+    {
+      "name": "best_27_10_edges.json",
+      "violations": 90,
+      "potential": 59320,
+      "random_factor_lower_tail": 0.7363,
+      "random_factor_z": 0.5693442337798726
+    },
+    {
+      "name": "best_14_13_10_edges.json",
+      "violations": 96,
+      "potential": 59660,
+      "random_factor_lower_tail": 0.779,
+      "random_factor_z": 0.7132217707659562
+    },
+    {
+      "name": "best_25_12_edges.json",
+      "violations": 93,
+      "potential": 59892,
+      "random_factor_lower_tail": 0.80265,
+      "random_factor_z": 0.8113970312976367
+    }
+  ],
+  "candidate_potential_violation_correlation": 0.9767914879998526,
+  "candidate_potential_violation_correlation_without_best72": 0.6730453528099136,
+  "best72_orientation": {
+    "maxsat_potential": 48560,
+    "maxsat_violations": 18,
+    "random_samples": 50000,
+    "random_potential_violation_correlation": 0.5276761883140119,
+    "maxsat_potential_z": -3.1225287101460917,
+    "maxsat_potential_lower_tail": 0.00018,
+    "deciles": [
+      {
+        "decile_low_to_high": 1,
+        "mean_potential": 49695.0272,
+        "mean_violations": 52.827,
+        "min_violations": 32
+      },
+      {
+        "decile_low_to_high": 2,
+        "mean_potential": 50145.0096,
+        "mean_violations": 54.8484,
+        "min_violations": 32
+      },
+      {
+        "decile_low_to_high": 3,
+        "mean_potential": 50391.952,
+        "mean_violations": 56.0328,
+        "min_violations": 35
+      },
+      {
+        "decile_low_to_high": 4,
+        "mean_potential": 50591.8088,
+        "mean_violations": 57.0488,
+        "min_violations": 38
+      },
+      {
+        "decile_low_to_high": 5,
+        "mean_potential": 50777.9344,
+        "mean_violations": 57.809,
+        "min_violations": 39
+      },
+      {
+        "decile_low_to_high": 6,
+        "mean_potential": 50962.2128,
+        "mean_violations": 58.829,
+        "min_violations": 39
+      },
+      {
+        "decile_low_to_high": 7,
+        "mean_potential": 51157.7152,
+        "mean_violations": 59.893,
+        "min_violations": 40
+      },
+      {
+        "decile_low_to_high": 8,
+        "mean_potential": 51385.0104,
+        "mean_violations": 61.1178,
+        "min_violations": 39
+      },
+      {
+        "decile_low_to_high": 9,
+        "mean_potential": 51689.1128,
+        "mean_violations": 62.8152,
+        "min_violations": 39
+      },
+      {
+        "decile_low_to_high": 10,
+        "mean_potential": 52341.6096,
+        "mean_violations": 66.1156,
+        "min_violations": 43
+      }
+    ],
+    "greedy_restarts": 3000,
+    "greedy_lowest_potential": 47320,
+    "greedy_lowest_potential_violations": 53,
+    "greedy_best_violation_count": 28,
+    "greedy_mean_violations": 45.804,
+    "greedy_energy_violation_correlation": -0.1289556382875273,
+    "greedy_lowest_potential_bits": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "ruling": "use pair potential as a coarse gate or prior, not as the final optimization objective"
+}

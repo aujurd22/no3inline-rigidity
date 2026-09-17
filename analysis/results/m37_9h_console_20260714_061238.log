@@ -1,0 +1,20 @@
+[start] m=37 n=74 threads=12 hours=9.000 WX_def=2 WS=1 moves/restart=300000 T0=6.000 Tend=0.0100
+[t=   30s] best=1000000000000000000 badX=0 badS=0
+[t=   60s] best=1000000000000000000 badX=0 badS=0
+[t=   90s] best=1000000000000000000 badX=0 badS=0
+[t=  120s] best=1000000000000000000 badX=0 badS=0
+[t=  150s] best=1000000000000000000 badX=0 badS=0
+[t=  180s] best=1000000000000000000 badX=0 badS=0
+[t=  210s] best=1000000000000000000 badX=0 badS=0
+[t=  240s] best=1000000000000000000 badX=0 badS=0
+[t=  270s] best=171 badX=143 badS=28
+[t=  300s] best=171 badX=143 badS=28
+[t=  330s] best=171 badX=143 badS=28
+[t=  360s] best=171 badX=143 badS=28
+[t=  390s] best=171 badX=143 badS=28
+[t=  420s] best=171 badX=143 badS=28
+[t=  450s] best=171 badX=143 badS=28
+[t=  481s] best=171 badX=143 badS=28
+[t=  511s] best=171 badX=143 badS=28
+[t=  541s] best=116 badX=108 badS=8
+[t=  571s] best=116 badX=108 badS=8

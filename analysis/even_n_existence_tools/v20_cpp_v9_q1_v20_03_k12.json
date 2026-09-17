@@ -1,0 +1,125 @@
+{
+  "component_count": 3,
+  "enumeration_mode": "explicit_masks",
+  "target_selected": 12,
+  "line_capacity_count": 72,
+  "explicit_mask_count": 1044,
+  "distinct_shape_masks": 1044,
+  "defect_hitting_masks": 1044,
+  "factor_feasible_masks": 23,
+  "all_factor_infeasible": false,
+  "total_factor_search_nodes": 4158,
+  "maximum_factor_search_nodes": 19,
+  "root_zero_option_by_deficit": {
+    "1": 0,
+    "2": 0
+  },
+  "search_node_histogram": {
+    "1": 3,
+    "2": 295,
+    "3": 267,
+    "4": 182,
+    "5": 116,
+    "6": 64,
+    "7+": 117
+  },
+  "sample_hitting_masks": [
+    85823686,
+    88659842,
+    88671718,
+    88672742,
+    88872774,
+    88932838,
+    93131094,
+    155783654,
+    155799456,
+    155802018
+  ],
+  "feasible_masks": [
+    88672742,
+    88932838,
+    155802528,
+    34578452960,
+    34582644608,
+    38877726080,
+    67318644928,
+    71022741844,
+    74106626880,
+    75183098245,
+    80686563392,
+    103130161556,
+    103231873376,
+    103302119824,
+    113968505088,
+    114043715776,
+    114068885760,
+    114069409793,
+    114069409920,
+    114069410048,
+    114069411840,
+    118330294592,
+    118364377088
+  ],
+  "first_feasible_mask": 88672742,
+  "first_feasible_cells": [
+    [
+      3,
+      28
+    ],
+    [
+      3,
+      31
+    ],
+    [
+      20,
+      1
+    ],
+    [
+      33,
+      9
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      15,
+      2
+    ],
+    [
+      16,
+      4
+    ],
+    [
+      10,
+      26
+    ],
+    [
+      0,
+      30
+    ],
+    [
+      34,
+      13
+    ],
+    [
+      5,
+      29
+    ],
+    [
+      8,
+      11
+    ]
+  ],
+  "base": "v20_03",
+  "source_certificate": "v20_gpu_hybrid_q0_v20_03_k12.json",
+  "source_field": "feasible_masks",
+  "source_root_nonzero_by_adjacency": null,
+  "method": {
+    "name": "CUDA exhaustive fixed-weight mask scan and exact root-option filter, followed by C++ exact deficit f-factor DFS",
+    "k": 12,
+    "normalization": "all exact old-orientation reselections forbidden",
+    "line_capacities": "all primitive non-axis directions with q<=1"
+  },
+  "elapsed_s": 0.5075
+}

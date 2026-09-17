@@ -1,0 +1,107 @@
+{
+  "component_count": 2,
+  "enumeration_mode": "explicit_masks",
+  "target_selected": 13,
+  "line_capacity_count": 284,
+  "explicit_mask_count": 63,
+  "distinct_shape_masks": 63,
+  "defect_hitting_masks": 63,
+  "factor_feasible_masks": 2,
+  "all_factor_infeasible": false,
+  "total_factor_search_nodes": 272,
+  "maximum_factor_search_nodes": 14,
+  "root_zero_option_by_deficit": {
+    "1": 0,
+    "2": 0
+  },
+  "search_node_histogram": {
+    "2": 16,
+    "3": 13,
+    "4": 11,
+    "5": 8,
+    "6": 4,
+    "7+": 11
+  },
+  "sample_hitting_masks": [
+    623192662,
+    4369524037,
+    6990635596,
+    8861032575,
+    8936268327,
+    8936268359,
+    8936269325,
+    8936792583,
+    14296577089,
+    17717078623
+  ],
+  "feasible_masks": [
+    26311238234,
+    95114334474
+  ],
+  "first_feasible_mask": 26311238234,
+  "first_feasible_cells": [
+    [
+      33,
+      23
+    ],
+    [
+      3,
+      26
+    ],
+    [
+      28,
+      9
+    ],
+    [
+      22,
+      0
+    ],
+    [
+      30,
+      23
+    ],
+    [
+      1,
+      32
+    ],
+    [
+      21,
+      7
+    ],
+    [
+      36,
+      8
+    ],
+    [
+      31,
+      10
+    ],
+    [
+      18,
+      6
+    ],
+    [
+      4,
+      31
+    ],
+    [
+      27,
+      2
+    ],
+    [
+      11,
+      29
+    ]
+  ],
+  "base": "v20_01",
+  "source_certificate": "v20_cpp_v9_q1_v20_01_k13.json",
+  "source_field": "feasible_masks",
+  "source_root_nonzero_by_adjacency": null,
+  "method": {
+    "name": "CUDA exhaustive fixed-weight mask scan and exact root-option filter, followed by C++ exact deficit f-factor DFS",
+    "k": 13,
+    "normalization": "all exact old-orientation reselections forbidden",
+    "line_capacities": "all primitive non-axis directions with q<=2"
+  },
+  "elapsed_s": 0.5246
+}

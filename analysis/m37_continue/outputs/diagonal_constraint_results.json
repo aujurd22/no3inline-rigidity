@@ -1,0 +1,169 @@
+[
+  {
+    "name": "joint_v14_1",
+    "unconstrained_optimum": 56,
+    "pattern_count": 436,
+    "no_slope_1_result": {
+      "status": "INFEASIBLE",
+      "optimal": false,
+      "best_bound": 0.0,
+      "diagonal_patterns_forbidden": 16
+    }
+  },
+  {
+    "name": "joint_v14_2",
+    "unconstrained_optimum": 56,
+    "pattern_count": 418,
+    "no_slope_1_result": {
+      "status": "INFEASIBLE",
+      "optimal": false,
+      "best_bound": 0.0,
+      "diagonal_patterns_forbidden": 8
+    }
+  },
+  {
+    "name": "joint_v14_3",
+    "unconstrained_optimum": 56,
+    "pattern_count": 452,
+    "no_slope_1_result": {
+      "status": "INFEASIBLE",
+      "optimal": false,
+      "best_bound": 0.0,
+      "diagonal_patterns_forbidden": 16
+    }
+  },
+  {
+    "name": "joint_v14_4",
+    "unconstrained_optimum": 56,
+    "pattern_count": 426,
+    "no_slope_1_result": {
+      "status": "INFEASIBLE",
+      "optimal": false,
+      "best_bound": 0.0,
+      "diagonal_patterns_forbidden": 16
+    }
+  },
+  {
+    "name": "joint_v14_5",
+    "unconstrained_optimum": 56,
+    "pattern_count": 408,
+    "no_slope_1_result": {
+      "status": "INFEASIBLE",
+      "optimal": false,
+      "best_bound": 0.0,
+      "diagonal_patterns_forbidden": 8
+    }
+  },
+  {
+    "name": "joint_v14_6",
+    "unconstrained_optimum": 56,
+    "pattern_count": 426,
+    "no_slope_1_result": {
+      "status": "INFEASIBLE",
+      "optimal": false,
+      "best_bound": 0.0,
+      "diagonal_patterns_forbidden": 8
+    }
+  },
+  {
+    "name": "joint_v14_8",
+    "unconstrained_optimum": 56,
+    "pattern_count": 460,
+    "no_slope_1_result": {
+      "status": "INFEASIBLE",
+      "optimal": false,
+      "best_bound": 0.0,
+      "diagonal_patterns_forbidden": 8
+    }
+  },
+  {
+    "name": "joint_v14_9",
+    "unconstrained_optimum": 56,
+    "pattern_count": 480,
+    "no_slope_1_result": {
+      "status": "INFEASIBLE",
+      "optimal": false,
+      "best_bound": 0.0,
+      "diagonal_patterns_forbidden": 32
+    }
+  },
+  {
+    "name": "control_m36_verified_solution",
+    "unconstrained_optimum": 0,
+    "pattern_count": 402,
+    "no_slope_1_result": {
+      "status": "OPTIMAL",
+      "optimal": true,
+      "best_bound": 0.0,
+      "diagonal_patterns_forbidden": 0,
+      "bits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_objective": 0,
+      "geometry": {
+        "point_count": 144,
+        "distinct_point_count": 144,
+        "bad_triples": 0,
+        "bad_line_count": 0,
+        "max_points_on_line": 2
+      }
+    }
+  },
+  {
+    "name": "control_m37_408_optimal16",
+    "unconstrained_optimum": 16,
+    "pattern_count": 408,
+    "no_slope_1_result": {
+      "status": "INFEASIBLE",
+      "optimal": false,
+      "best_bound": 0.0,
+      "diagonal_patterns_forbidden": 16
+    }
+  },
+  {
+    "name": "control_m37_404_latest",
+    "unconstrained_optimum": null,
+    "pattern_count": 404,
+    "no_slope_1_result": {
+      "status": "INFEASIBLE",
+      "optimal": false,
+      "best_bound": 0.0,
+      "diagonal_patterns_forbidden": 8
+    }
+  }
+]

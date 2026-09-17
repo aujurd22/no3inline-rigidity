@@ -1,0 +1,32 @@
+[
+  {
+    "n": 8,
+    "k": 3,
+    "base_collisions": 26,
+    "final_collisions": 0,
+    "verify_count": 0,
+    "verify_grid": false,
+    "consistent": false,
+    "time": 0.006791114807128906
+  },
+  {
+    "n": 16,
+    "k": 4,
+    "base_collisions": 93,
+    "final_collisions": 1,
+    "verify_count": 1,
+    "verify_grid": false,
+    "consistent": true,
+    "time": 4.900851488113403
+  },
+  {
+    "n": 32,
+    "k": 5,
+    "base_collisions": 452,
+    "final_collisions": 26,
+    "verify_count": 26,
+    "verify_grid": false,
+    "consistent": true,
+    "time": 7.693230628967285
+  }
+]

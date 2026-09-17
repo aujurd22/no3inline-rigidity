@@ -1,0 +1,30 @@
+{
+  "parameters": {
+    "base": "v40_01",
+    "removed": "2,8,9,10,11,13,20,21,22,24,27,33",
+    "direction_q": 0,
+    "time_limit": 30.0,
+    "workers": 1,
+    "out": "rot4_fixed_v40_01_flipmax_multigraph_q0.json"
+  },
+  "removed_indices": [
+    2,
+    8,
+    9,
+    10,
+    11,
+    13,
+    20,
+    21,
+    22,
+    24,
+    27,
+    33
+  ],
+  "status": "INFEASIBLE",
+  "short_line_count": 0,
+  "branches": 0,
+  "conflicts": 0,
+  "wall_s": 0.046,
+  "elapsed_s": 0.048
+}

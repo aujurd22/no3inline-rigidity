@@ -1,0 +1,5 @@
+trial 100/500, best=448, elapsed=175s
+trial 200/500, best=448, elapsed=361s
+trial 400/500, best=448, elapsed=793s
+trial 500/500, best=448, elapsed=948s
+Done. Best: 448 clauses

@@ -1,0 +1,131 @@
+{
+  "component_count": 3,
+  "enumeration_mode": "run_profile",
+  "run_lengths": [
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    4
+  ],
+  "distinct_shape_masks": 66324060,
+  "defect_hitting_masks": 1226065,
+  "factor_feasible_masks": 0,
+  "all_factor_infeasible": true,
+  "total_factor_search_nodes": 1226099,
+  "maximum_factor_search_nodes": 10,
+  "root_zero_option_by_deficit": {
+    "1": 606156,
+    "2": 619897
+  },
+  "search_node_histogram": {
+    "1": 1226053,
+    "2": 3,
+    "3": 3,
+    "4": 4,
+    "5": 1,
+    "7+": 1
+  },
+  "sample_hitting_masks": [
+    19378276668,
+    19378276780,
+    19378276788,
+    19378276792,
+    19378277048,
+    19378277176,
+    19378277288,
+    19378280508,
+    19378280620,
+    19378280628
+  ],
+  "first_feasible_mask": 0,
+  "first_feasible_cells": [],
+  "base": "v40_04",
+  "cycle_edge_orders": [
+    [
+      0,
+      28,
+      27,
+      14,
+      10,
+      11,
+      24,
+      25,
+      31,
+      30,
+      35,
+      36,
+      18,
+      17,
+      32,
+      33,
+      1
+    ],
+    [
+      2,
+      9,
+      8,
+      23,
+      5,
+      4,
+      6,
+      7,
+      16,
+      15,
+      21,
+      22,
+      29,
+      12,
+      13,
+      3
+    ],
+    [
+      19,
+      26,
+      34,
+      20
+    ]
+  ],
+  "first_feasible_removed_indices": [],
+  "method": {
+    "deletion_run_lengths": [
+      4,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "normalization": "all exact old-orientation reselections forbidden",
+    "multigraph": "both (u,v) and (v,u) allowed simultaneously",
+    "geometry": "candidate cells filtered by exact retained-base blocker masks",
+    "factor": "exact deficit-0/1/2 f-factor DFS; loops consume 2 and opposite orientations may form a digon",
+    "line_capacities": "none (q=0 shadow factor)"
+  },
+  "stderr_progress_tail": [
+    "hit=1030000 feasible=0 nodes=1030028",
+    "hit=1040000 feasible=0 nodes=1040028",
+    "hit=1050000 feasible=0 nodes=1050028",
+    "hit=1060000 feasible=0 nodes=1060028",
+    "hit=1070000 feasible=0 nodes=1070028",
+    "hit=1080000 feasible=0 nodes=1080028",
+    "hit=1090000 feasible=0 nodes=1090028",
+    "hit=1100000 feasible=0 nodes=1100028",
+    "hit=1110000 feasible=0 nodes=1110028",
+    "hit=1120000 feasible=0 nodes=1120031",
+    "hit=1130000 feasible=0 nodes=1130031",
+    "hit=1140000 feasible=0 nodes=1140031",
+    "hit=1150000 feasible=0 nodes=1150031",
+    "hit=1160000 feasible=0 nodes=1160031",
+    "hit=1170000 feasible=0 nodes=1170031",
+    "hit=1180000 feasible=0 nodes=1180034",
+    "hit=1190000 feasible=0 nodes=1190034",
+    "hit=1200000 feasible=0 nodes=1200034",
+    "hit=1210000 feasible=0 nodes=1210034",
+    "hit=1220000 feasible=0 nodes=1220034"
+  ],
+  "elapsed_s": 7.036
+}

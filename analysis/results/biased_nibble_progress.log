@@ -1,0 +1,22 @@
+[17:19:00] start biased_nibble
+[17:19:00] === m=36 validation (known solvable) ===
+  [17:19:21] m=36 unbiased r1: found=True best_bad=0 first_step=4803
+  [17:19:34] m=36 unbiased r2: found=True best_bad=0 first_step=3899
+  [17:19:47] m=36 unbiased r3: found=True best_bad=0 first_step=3773
+  [17:19:59] m=36 unbiased r4: found=True best_bad=0 first_step=4153
+  [17:20:08] m=36 biased  r1: found=True best_bad=0 first_step=2769
+  [17:20:18] m=36 biased  r2: found=True best_bad=0 first_step=3476
+  [17:20:33] m=36 biased  r3: found=True best_bad=0 first_step=5042
+  [17:20:43] m=36 biased  r4: found=True best_bad=0 first_step=3281
+[17:20:43] === m=37 attack (OPEN) ===
+  [17:21:02] m=37 unbiased r1: found=True best_bad=0 first_step=4114
+  [17:21:23] m=37 unbiased r2: found=True best_bad=0 first_step=6613
+  [17:21:41] m=37 unbiased r3: found=True best_bad=0 first_step=5396
+  [17:21:57] m=37 unbiased r4: found=True best_bad=0 first_step=4439
+  [17:22:04] m=37 biased  r1: found=True best_bad=0 first_step=1956
+  [17:22:13] m=37 biased  r2: found=True best_bad=0 first_step=2572
+  [17:22:29] m=37 biased  r3: found=True best_bad=0 first_step=4029
+  [17:22:45] m=37 biased  r4: found=True best_bad=0 first_step=4082
+[17:22:45] saved D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\biased_nibble.json
+[17:22:45] Lever verdict (m=36): BIASED helps (unbiased rate=1.00 steps=4803, biased rate=1.00 steps=2769)
+[17:22:45] m=37: unbiased rate=1.00 biased rate=1.00 biased min_best_bad=0.600

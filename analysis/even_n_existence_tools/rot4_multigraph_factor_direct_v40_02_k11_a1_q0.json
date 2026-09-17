@@ -1,0 +1,174 @@
+{
+  "component_count": 1,
+  "enumeration_mode": "fixed_adjacency",
+  "target_selected": 11,
+  "target_adjacency": 1,
+  "distinct_shape_masks": 75590075,
+  "defect_hitting_masks": 532147,
+  "factor_feasible_masks": 2,
+  "all_factor_infeasible": false,
+  "total_factor_search_nodes": 532173,
+  "maximum_factor_search_nodes": 12,
+  "root_zero_option_by_deficit": {
+    "1": 468361,
+    "2": 63782
+  },
+  "search_node_histogram": {
+    "1": 532143,
+    "3": 1,
+    "4": 1,
+    "7+": 2
+  },
+  "sample_hitting_masks": [
+    537042261,
+    537042277,
+    537042325,
+    537042341,
+    537046357,
+    537046358,
+    537046373,
+    537046374,
+    537046421,
+    537046422
+  ],
+  "feasible_masks": [
+    69321434128,
+    69588747270
+  ],
+  "first_feasible_mask": 69321434128,
+  "first_feasible_cells": [
+    [
+      6,
+      2
+    ],
+    [
+      11,
+      5
+    ],
+    [
+      11,
+      22
+    ],
+    [
+      15,
+      34
+    ],
+    [
+      16,
+      28
+    ],
+    [
+      18,
+      7
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      35,
+      14
+    ],
+    [
+      13,
+      29
+    ],
+    [
+      12,
+      25
+    ],
+    [
+      36,
+      8
+    ]
+  ],
+  "base": "v40_02",
+  "cycle_edge_orders": [
+    [
+      0,
+      27,
+      24,
+      15,
+      16,
+      34,
+      30,
+      5,
+      4,
+      19,
+      20,
+      33,
+      13,
+      12,
+      3,
+      2,
+      9,
+      8,
+      23,
+      35,
+      26,
+      25,
+      11,
+      10,
+      14,
+      29,
+      28,
+      21,
+      22,
+      6,
+      7,
+      36,
+      18,
+      17,
+      31,
+      32,
+      1
+    ]
+  ],
+  "first_feasible_removed_indices": [
+    4,
+    10,
+    13,
+    16,
+    21,
+    22,
+    23,
+    24,
+    25,
+    29,
+    36
+  ],
+  "method": {
+    "k": 11,
+    "A": 1,
+    "required_full_cycle_length": null,
+    "cycle_handling": "direct local (selected-edge-count, adjacency-count) generation; empty, partially selected, and fully selected cycles are distinct",
+    "normalization": "all exact old-orientation reselections forbidden",
+    "multigraph": "both (u,v) and (v,u) allowed simultaneously",
+    "geometry": "candidate cells filtered by exact retained-base blocker masks",
+    "factor": "exact deficit-0/1/2 f-factor DFS; loops consume 2 and opposite orientations may form a digon",
+    "line_capacities": "none (q=0 shadow factor)"
+  },
+  "stderr_progress_tail": [
+    "hit=340000 feasible=2 nodes=340023",
+    "hit=350000 feasible=2 nodes=350023",
+    "hit=360000 feasible=2 nodes=360023",
+    "hit=370000 feasible=2 nodes=370023",
+    "hit=380000 feasible=2 nodes=380023",
+    "hit=390000 feasible=2 nodes=390023",
+    "hit=400000 feasible=2 nodes=400023",
+    "hit=410000 feasible=2 nodes=410023",
+    "hit=420000 feasible=2 nodes=420023",
+    "hit=430000 feasible=2 nodes=430023",
+    "hit=440000 feasible=2 nodes=440026",
+    "hit=450000 feasible=2 nodes=450026",
+    "hit=460000 feasible=2 nodes=460026",
+    "hit=470000 feasible=2 nodes=470026",
+    "hit=480000 feasible=2 nodes=480026",
+    "hit=490000 feasible=2 nodes=490026",
+    "hit=500000 feasible=2 nodes=500026",
+    "hit=510000 feasible=2 nodes=510026",
+    "hit=520000 feasible=2 nodes=520026",
+    "hit=530000 feasible=2 nodes=530026"
+  ],
+  "elapsed_s": 62.416
+}

@@ -1,0 +1,185 @@
+{
+  "component_count": 4,
+  "enumeration_mode": "explicit_masks",
+  "target_selected": 12,
+  "explicit_mask_count": 1658,
+  "distinct_shape_masks": 1658,
+  "defect_hitting_masks": 1658,
+  "factor_feasible_masks": 47,
+  "all_factor_infeasible": false,
+  "total_factor_search_nodes": 6355,
+  "maximum_factor_search_nodes": 13,
+  "root_zero_option_by_deficit": {
+    "1": 0,
+    "2": 0
+  },
+  "search_node_histogram": {
+    "2": 558,
+    "3": 406,
+    "4": 252,
+    "5": 172,
+    "6": 103,
+    "7+": 167
+  },
+  "sample_hitting_masks": [
+    44387205,
+    136784102,
+    170214341,
+    174408517,
+    288695382,
+    288697666,
+    289219654,
+    539433637,
+    539433828,
+    548176789
+  ],
+  "feasible_masks": [
+    556287941,
+    557140804,
+    959841474,
+    6121611778,
+    7808026176,
+    9138162212,
+    9210825669,
+    18845155780,
+    22151209157,
+    26864600772,
+    35185240834,
+    52083200021,
+    52083232837,
+    52083994641,
+    52099690785,
+    52115509253,
+    52215976469,
+    53558157441,
+    56580243489,
+    56972349441,
+    57482996224,
+    59085227073,
+    59085228112,
+    59118780496,
+    59148141633,
+    60972765201,
+    64999426072,
+    65366396945,
+    65366425617,
+    66575468624,
+    68346183696,
+    68738697670,
+    69007155290,
+    69275249349,
+    69666366081,
+    70150080530,
+    71154638922,
+    75449566816,
+    77328632134,
+    77328632642,
+    77848644550,
+    87817773056,
+    91826180192,
+    92112216064,
+    126589075456,
+    126589861888,
+    129693417488
+  ],
+  "first_feasible_mask": 556287941,
+  "first_feasible_cells": [
+    [
+      7,
+      28
+    ],
+    [
+      24,
+      7
+    ],
+    [
+      12,
+      15
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      1,
+      21
+    ],
+    [
+      23,
+      19
+    ],
+    [
+      33,
+      3
+    ],
+    [
+      3,
+      10
+    ],
+    [
+      16,
+      20
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      4,
+      18
+    ],
+    [
+      4,
+      30
+    ]
+  ],
+  "base": "v20_06",
+  "gpu_certificate": "v20_gpu_root_prefilter_v20_06_k12.json",
+  "gpu_root_nonzero_by_adjacency": [
+    72,
+    307,
+    539,
+    430,
+    220,
+    74,
+    15,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "method": {
+    "name": "CUDA exhaustive fixed-weight mask scan and exact root-option filter, followed by C++ exact deficit f-factor DFS",
+    "k": 12,
+    "normalization": "all exact old-orientation reselections forbidden",
+    "line_capacities": "none (q=0 shadow factor)"
+  },
+  "elapsed_s": 0.5592
+}

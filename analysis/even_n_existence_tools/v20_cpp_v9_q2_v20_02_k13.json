@@ -1,0 +1,121 @@
+{
+  "component_count": 3,
+  "enumeration_mode": "explicit_masks",
+  "target_selected": 13,
+  "line_capacity_count": 284,
+  "explicit_mask_count": 463,
+  "distinct_shape_masks": 463,
+  "defect_hitting_masks": 463,
+  "factor_feasible_masks": 15,
+  "all_factor_infeasible": false,
+  "total_factor_search_nodes": 2143,
+  "maximum_factor_search_nodes": 16,
+  "root_zero_option_by_deficit": {
+    "1": 0,
+    "2": 0
+  },
+  "search_node_histogram": {
+    "1": 3,
+    "2": 97,
+    "3": 101,
+    "4": 77,
+    "5": 60,
+    "6": 45,
+    "7+": 80
+  },
+  "sample_hitting_masks": [
+    204002485,
+    709167014,
+    738776467,
+    738886103,
+    740692423,
+    741904849,
+    745144999,
+    749474009,
+    757633814,
+    757634834
+  ],
+  "feasible_masks": [
+    4973216014,
+    5019013454,
+    5039276298,
+    5085599494,
+    7401144660,
+    9379288336,
+    17719332005,
+    22215414468,
+    24167617941,
+    30696546596,
+    56589887752,
+    75633955202,
+    91203174832,
+    92881064337,
+    125344745600
+  ],
+  "first_feasible_mask": 4973216014,
+  "first_feasible_cells": [
+    [
+      11,
+      24
+    ],
+    [
+      25,
+      1
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      16,
+      27
+    ],
+    [
+      0,
+      22
+    ],
+    [
+      28,
+      12
+    ],
+    [
+      9,
+      8
+    ],
+    [
+      17,
+      10
+    ],
+    [
+      18,
+      35
+    ],
+    [
+      34,
+      4
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      31,
+      19
+    ]
+  ],
+  "base": "v20_02",
+  "source_certificate": "v20_cpp_v9_q1_v20_02_k13.json",
+  "source_field": "feasible_masks",
+  "source_root_nonzero_by_adjacency": null,
+  "method": {
+    "name": "CUDA exhaustive fixed-weight mask scan and exact root-option filter, followed by C++ exact deficit f-factor DFS",
+    "k": 13,
+    "normalization": "all exact old-orientation reselections forbidden",
+    "line_capacities": "all primitive non-axis directions with q<=2"
+  },
+  "elapsed_s": 0.5413
+}

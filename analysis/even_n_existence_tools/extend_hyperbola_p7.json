@@ -1,0 +1,442 @@
+[
+  {
+    "p": 7,
+    "n": 6,
+    "multiplier": 1,
+    "status": "INFEASIBLE",
+    "candidate_cells": 30,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 8,
+      "lines_with_at_least_three_grid_points": 58,
+      "line_enumeration_seconds": 6.529997335746884e-05
+    },
+    "constrained_lines": 58,
+    "fixed_secant_lines": 9,
+    "build_seconds": 0.00046690000453963876,
+    "solve_seconds": 0.0024370000000000004,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 7,
+    "n": 6,
+    "multiplier": 2,
+    "status": "OPTIMAL",
+    "candidate_cells": 30,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 8,
+      "lines_with_at_least_three_grid_points": 58,
+      "line_enumeration_seconds": 8.719996549189091e-05
+    },
+    "constrained_lines": 58,
+    "fixed_secant_lines": 7,
+    "build_seconds": 0.0009969000238925219,
+    "solve_seconds": 0.0045442,
+    "conflicts": 0,
+    "branches": 0,
+    "added_points": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "selected_points": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "verification": {
+      "selected_points": 12,
+      "rows_two": true,
+      "columns_two": true,
+      "collinear_triples": 0,
+      "valid": true
+    }
+  },
+  {
+    "p": 7,
+    "n": 6,
+    "multiplier": 3,
+    "status": "OPTIMAL",
+    "candidate_cells": 30,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 8,
+      "lines_with_at_least_three_grid_points": 58,
+      "line_enumeration_seconds": 5.759997293353081e-05
+    },
+    "constrained_lines": 58,
+    "fixed_secant_lines": 5,
+    "build_seconds": 0.0005423999973572791,
+    "solve_seconds": 0.0142968,
+    "conflicts": 0,
+    "branches": 32,
+    "added_points": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "selected_points": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "verification": {
+      "selected_points": 12,
+      "rows_two": true,
+      "columns_two": true,
+      "collinear_triples": 0,
+      "valid": true
+    }
+  },
+  {
+    "p": 7,
+    "n": 6,
+    "multiplier": 4,
+    "status": "OPTIMAL",
+    "candidate_cells": 30,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 8,
+      "lines_with_at_least_three_grid_points": 58,
+      "line_enumeration_seconds": 6.120000034570694e-05
+    },
+    "constrained_lines": 58,
+    "fixed_secant_lines": 5,
+    "build_seconds": 0.00047150003956630826,
+    "solve_seconds": 0.014147900000000001,
+    "conflicts": 0,
+    "branches": 32,
+    "added_points": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "selected_points": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "verification": {
+      "selected_points": 12,
+      "rows_two": true,
+      "columns_two": true,
+      "collinear_triples": 0,
+      "valid": true
+    }
+  },
+  {
+    "p": 7,
+    "n": 6,
+    "multiplier": 5,
+    "status": "OPTIMAL",
+    "candidate_cells": 30,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 8,
+      "lines_with_at_least_three_grid_points": 58,
+      "line_enumeration_seconds": 7.619999814778566e-05
+    },
+    "constrained_lines": 58,
+    "fixed_secant_lines": 7,
+    "build_seconds": 0.00048240000614896417,
+    "solve_seconds": 0.0141066,
+    "conflicts": 0,
+    "branches": 0,
+    "added_points": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "selected_points": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "verification": {
+      "selected_points": 12,
+      "rows_two": true,
+      "columns_two": true,
+      "collinear_triples": 0,
+      "valid": true
+    }
+  },
+  {
+    "p": 7,
+    "n": 6,
+    "multiplier": 6,
+    "status": "INFEASIBLE",
+    "candidate_cells": 30,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 8,
+      "lines_with_at_least_three_grid_points": 58,
+      "line_enumeration_seconds": 6.930000381544232e-05
+    },
+    "constrained_lines": 58,
+    "fixed_secant_lines": 9,
+    "build_seconds": 0.0006409999914467335,
+    "solve_seconds": 0.000599,
+    "conflicts": 0,
+    "branches": 0
+  }
+]

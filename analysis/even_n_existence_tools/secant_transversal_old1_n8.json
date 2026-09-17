@@ -1,0 +1,66 @@
+{
+  "n": 8,
+  "q": 8,
+  "meaning": "primitive direction scales strictly below q are protected",
+  "stage": "old1",
+  "required_removed_count": null,
+  "forced_added_cell": null,
+  "old_point_count": 16,
+  "empty_cell_count": 48,
+  "old2_secant_constraint_count": 164,
+  "relevant_secant_incidence_count": 164,
+  "old1_conditional_line_constraint_count": 144,
+  "old1_direction_count": 16,
+  "status": "OPTIMAL",
+  "wall_time_seconds": 0.0135858,
+  "best_removed_count_bound": 4.0,
+  "removed_count": 4,
+  "added_count": 4,
+  "symmetric_difference": 8,
+  "removed": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      6,
+      5
+    ]
+  ],
+  "added": [
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      2
+    ]
+  ],
+  "verification": {
+    "point_count": 16,
+    "distinct": true,
+    "rows_saturated": true,
+    "columns_saturated": true,
+    "collinear_triples_by_new_point_count": {},
+    "protected_collinear_triples_by_new_point_count": {},
+    "collinear_triple_examples": [],
+    "is_exact_ntil": true
+  }
+}

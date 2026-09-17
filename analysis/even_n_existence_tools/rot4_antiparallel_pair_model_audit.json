@@ -1,0 +1,17 @@
+{
+  "grid_size": 74,
+  "fundamental_size": 37,
+  "unordered_pair_count": 666,
+  "statement": "For every u<v, the C4 orbits (u,v) and (v,u) are disjoint, their union has eight points, exactly two in each of four rows and columns, and contains no collinear triple.",
+  "orbit_intersection_size_histogram": {
+    "0": 666
+  },
+  "row_multiplicity_pattern_histogram": {
+    "(2, 2, 2, 2)": 666
+  },
+  "column_multiplicity_pattern_histogram": {
+    "(2, 2, 2, 2)": 666
+  },
+  "failure_count": 0,
+  "failures": []
+}

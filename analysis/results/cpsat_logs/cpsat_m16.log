@@ -1,0 +1,7 @@
+[gen] m=16: reps=256 line_cons=44282 2F_on=True build=3.1s
+[build] adding 44282 per-line constraints...
+[build] model complete (1s)
+[solve] start timelimit=120.0s workers=8 live_ckpt=False
+[solve] status=OPTIMAL found=16 solve_time=5.4s
+[verify] no-3-collinear=True (n=32, points=64)
+[cells] [(1, 12), (2, 9), (3, 12), (4, 5), (5, 8), (6, 2), (6, 8), (7, 3), (9, 1), (11, 0), (11, 10), (13, 13), (14, 0), (14, 4), (15, 7), (15, 10)]

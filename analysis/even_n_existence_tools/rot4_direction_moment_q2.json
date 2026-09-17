@@ -1,0 +1,59 @@
+{
+  "parameters": {
+    "q": 2,
+    "time_limit": 300.0,
+    "workers": 2,
+    "enforce_cell_moments": false,
+    "out": "rot4_direction_moment_q2.json"
+  },
+  "status": "OPTIMAL",
+  "branches": 496551,
+  "conflicts": 48183,
+  "wall_s": 65.047,
+  "cell_second_constant": 135050,
+  "cell_fourth_constant": 443531210,
+  "directions": [
+    {
+      "normal": [
+        1,
+        -2
+      ],
+      "resource_count": 110,
+      "capacity_two_resources": 108,
+      "capacity_one_resources": 2,
+      "fourth_Q_coefficient": 192,
+      "fourth_T_coefficient": 96
+    },
+    {
+      "normal": [
+        1,
+        -1
+      ],
+      "resource_count": 74,
+      "capacity_two_resources": 73,
+      "capacity_one_resources": 1,
+      "fourth_Q_coefficient": 48,
+      "fourth_T_coefficient": 0
+    },
+    {
+      "normal": [
+        1,
+        2
+      ],
+      "resource_count": 110,
+      "capacity_two_resources": 108,
+      "capacity_one_resources": 2,
+      "fourth_Q_coefficient": 192,
+      "fourth_T_coefficient": -96
+    }
+  ],
+  "shared_moments": {
+    "Q": 121201653,
+    "T": -70058224
+  },
+  "occupied_resource_counts": {
+    "1,-2": 40,
+    "1,-1": 42,
+    "1,2": 44
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "k": 12,
+  "A": 3,
+  "run_count": 9,
+  "profile_count_per_base": 3,
+  "bases": [
+    "v40_01"
+  ],
+  "records": [
+    {
+      "base": "v40_01",
+      "profile": [
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "B": 2,
+      "C": 1,
+      "distinct_shape_masks": 27212427,
+      "defect_hitting_masks": 624329,
+      "q0_factor_feasible_masks": 1,
+      "first_feasible_removed_indices": [
+        0,
+        2,
+        7,
+        9,
+        10,
+        17,
+        18,
+        19,
+        22,
+        29,
+        35,
+        36
+      ],
+      "maximum_factor_search_nodes": 11,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a3_b2_c1_r4-1-1-1-1-1-1-1-1_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "B": 1,
+      "C": 0,
+      "distinct_shape_masks": 217699416,
+      "defect_hitting_masks": 4881791,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 11,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a3_b1_c0_r3-2-1-1-1-1-1-1-1_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "B": 0,
+      "C": 0,
+      "distinct_shape_masks": 253982652,
+      "defect_hitting_masks": 5160606,
+      "q0_factor_feasible_masks": 5,
+      "first_feasible_removed_indices": [
+        7,
+        11,
+        15,
+        17,
+        22,
+        24,
+        26,
+        28,
+        29,
+        33,
+        34,
+        35
+      ],
+      "maximum_factor_search_nodes": 13,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a3_b0_c0_r2-2-2-1-1-1-1-1-1_q0.json"
+    }
+  ],
+  "totals": {
+    "base_profile_cases": 3,
+    "distinct_shape_masks": 498894495,
+    "defect_hitting_masks": 10666726,
+    "q0_factor_feasible_masks": 6
+  },
+  "elapsed_s": 335.46
+}

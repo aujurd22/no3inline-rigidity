@@ -1,0 +1,21 @@
+{
+  "parameters": {
+    "base": "v40_01",
+    "size": 12,
+    "adjacency_count": null,
+    "triple_count": null,
+    "quadruple_count": null,
+    "loop_count": null,
+    "direction_q": 0,
+    "allow_exact_reselection": false,
+    "time_limit": 60.0,
+    "workers": 2,
+    "out": "rot4_f0_v40_01_k12_allA_norm.json"
+  },
+  "status": "UNKNOWN",
+  "short_line_count": 0,
+  "branches": 382598,
+  "conflicts": 57965,
+  "wall_s": 60.125,
+  "elapsed_s": 60.13
+}

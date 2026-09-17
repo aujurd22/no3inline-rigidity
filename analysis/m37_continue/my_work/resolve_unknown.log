@@ -1,0 +1,82 @@
+resolving 8 (base,k) combos -> 16 neighborhoods at 60s each
+--- resolve base=v44_01 k=13 seed0=202607175000 ---
+base=v44_01 value=44 defects=11 neighborhoods=2
+Traceback (most recent call last):
+  File "D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\m37_continue\my_work\my_lns_anybase.py", line 75, in <module>
+    main()
+    ~~~~^^
+  File "D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\m37_continue\my_work\my_lns_anybase.py", line 64, in main
+    json.dump(payload, open(out_path, "w"), indent=2)
+                       ~~~~^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\m37_continue\\outputs\\outputs/resolve_k13_v44_01.json'
+--- resolve base=v44_02 k=13 seed0=202607175001 ---
+base=v44_02 value=44 defects=11 neighborhoods=2
+Traceback (most recent call last):
+  File "D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\m37_continue\my_work\my_lns_anybase.py", line 75, in <module>
+    main()
+    ~~~~^^
+  File "D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\m37_continue\my_work\my_lns_anybase.py", line 64, in main
+    json.dump(payload, open(out_path, "w"), indent=2)
+                       ~~~~^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\m37_continue\\outputs\\outputs/resolve_k13_v44_02.json'
+--- resolve base=v48_02 k=12 seed0=202607175004 ---
+base=v48_02 value=48 defects=12 neighborhoods=2
+Traceback (most recent call last):
+  File "D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\m37_continue\my_work\my_lns_anybase.py", line 75, in <module>
+    main()
+    ~~~~^^
+  File "D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\m37_continue\my_work\my_lns_anybase.py", line 64, in main
+    json.dump(payload, open(out_path, "w"), indent=2)
+                       ~~~~^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\m37_continue\\outputs\\outputs/resolve_k12_v48_02.json'
+--- resolve base=v48_02 k=13 seed0=202607175004 ---
+base=v48_02 value=48 defects=12 neighborhoods=2
+Traceback (most recent call last):
+  File "D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\m37_continue\my_work\my_lns_anybase.py", line 75, in <module>
+    main()
+    ~~~~^^
+  File "D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\m37_continue\my_work\my_lns_anybase.py", line 64, in main
+    json.dump(payload, open(out_path, "w"), indent=2)
+                       ~~~~^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\m37_continue\\outputs\\outputs/resolve_k13_v48_02.json'
+--- resolve base=v48_03 k=13 seed0=202607175005 ---
+base=v48_03 value=48 defects=12 neighborhoods=2
+Traceback (most recent call last):
+  File "D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\m37_continue\my_work\my_lns_anybase.py", line 75, in <module>
+    main()
+    ~~~~^^
+  File "D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\m37_continue\my_work\my_lns_anybase.py", line 64, in main
+    json.dump(payload, open(out_path, "w"), indent=2)
+                       ~~~~^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\m37_continue\\outputs\\outputs/resolve_k13_v48_03.json'
+--- resolve base=v52_01 k=13 seed0=202607175006 ---
+base=v52_01 value=52 defects=13 neighborhoods=2
+Traceback (most recent call last):
+  File "D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\m37_continue\my_work\my_lns_anybase.py", line 75, in <module>
+    main()
+    ~~~~^^
+  File "D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\m37_continue\my_work\my_lns_anybase.py", line 64, in main
+    json.dump(payload, open(out_path, "w"), indent=2)
+                       ~~~~^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\m37_continue\\outputs\\outputs/resolve_k13_v52_01.json'
+--- resolve base=v52_02 k=13 seed0=202607175007 ---
+base=v52_02 value=52 defects=13 neighborhoods=2
+Traceback (most recent call last):
+  File "D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\m37_continue\my_work\my_lns_anybase.py", line 75, in <module>
+    main()
+    ~~~~^^
+  File "D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\m37_continue\my_work\my_lns_anybase.py", line 64, in main
+    json.dump(payload, open(out_path, "w"), indent=2)
+                       ~~~~^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\m37_continue\\outputs\\outputs/resolve_k13_v52_02.json'
+--- resolve base=v52_03 k=13 seed0=202607175008 ---
+base=v52_03 value=52 defects=13 neighborhoods=2
+Traceback (most recent call last):
+  File "D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\m37_continue\my_work\my_lns_anybase.py", line 75, in <module>
+    main()
+    ~~~~^^
+  File "D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\m37_continue\my_work\my_lns_anybase.py", line 64, in main
+    json.dump(payload, open(out_path, "w"), indent=2)
+                       ~~~~^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\m37_continue\\outputs\\outputs/resolve_k13_v52_03.json'
+=== RESOLVE DONE ===

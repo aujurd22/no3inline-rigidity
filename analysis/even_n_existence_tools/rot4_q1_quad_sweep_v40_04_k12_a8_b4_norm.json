@@ -1,0 +1,49 @@
+{
+  "parameters": {
+    "base": "v40_04",
+    "size": 12,
+    "adjacency_count": 8,
+    "triple_count": 4,
+    "quadruple_counts": "0,1,2,3,4",
+    "time_limit": 300.0,
+    "workers": 4,
+    "out": "rot4_q1_quad_sweep_v40_04_k12_a8_b4_norm.json"
+  },
+  "layers": [
+    {
+      "quadruple_count": 0,
+      "classification": "CLOSED_Q1",
+      "status": "INFEASIBLE",
+      "wall_s": 14.101,
+      "evidence": "rot4_v40_04_k12_a8_b4_c0_norm_q1resource.json"
+    },
+    {
+      "quadruple_count": 1,
+      "classification": "CLOSED_Q1",
+      "status": "INFEASIBLE",
+      "wall_s": 41.432,
+      "evidence": "rot4_v40_04_k12_a8_b4_c1_norm_q1resource.json"
+    },
+    {
+      "quadruple_count": 2,
+      "classification": "CLOSED_Q1",
+      "status": "INFEASIBLE",
+      "wall_s": 63.833,
+      "evidence": "rot4_v40_04_k12_a8_b4_c2_norm_q1resource.json"
+    },
+    {
+      "quadruple_count": 3,
+      "classification": "CLOSED_Q1",
+      "status": "INFEASIBLE",
+      "wall_s": 12.545,
+      "evidence": "rot4_v40_04_k12_a8_b4_c3_norm_q1resource.json"
+    },
+    {
+      "quadruple_count": 4,
+      "classification": "CLOSED_Q1",
+      "status": "INFEASIBLE",
+      "wall_s": 6.695,
+      "evidence": "rot4_v40_04_k12_a8_b4_c4_norm_q1resource.json"
+    }
+  ]
+}

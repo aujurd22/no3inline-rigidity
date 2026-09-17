@@ -1,0 +1,4 @@
+[gen] m=37 nvar=1369 lines=1264378 2F=37 (74.9s)
+[2f] added 2,212,045 clauses for 37 vertex equalities (0.8s)
+[lines] added 31,016,816 forbidden clauses (14.3s)
+[ready] starting glucose4 with 2500s cap (total clauses ~= 33,228,861)

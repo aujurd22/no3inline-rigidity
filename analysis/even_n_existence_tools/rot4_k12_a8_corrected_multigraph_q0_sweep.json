@@ -1,0 +1,1041 @@
+{
+  "k": 12,
+  "A": 8,
+  "run_count": 4,
+  "profile_count_per_base": 15,
+  "bases": [
+    "v40_01",
+    "v40_02",
+    "v40_03",
+    "v40_04"
+  ],
+  "records": [
+    {
+      "base": "v40_01",
+      "profile": [
+        9,
+        1,
+        1,
+        1
+      ],
+      "B": 7,
+      "C": 6,
+      "distinct_shape_masks": 74888,
+      "defect_hitting_masks": 4763,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a8_b7_c6_r9-1-1-1_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        8,
+        2,
+        1,
+        1
+      ],
+      "B": 6,
+      "C": 5,
+      "distinct_shape_masks": 224664,
+      "defect_hitting_masks": 12644,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a8_b6_c5_r8-2-1-1_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "B": 6,
+      "C": 4,
+      "distinct_shape_masks": 224664,
+      "defect_hitting_masks": 9424,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a8_b6_c4_r7-3-1-1_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        7,
+        2,
+        2,
+        1
+      ],
+      "B": 5,
+      "C": 4,
+      "distinct_shape_masks": 224664,
+      "defect_hitting_masks": 8958,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a8_b5_c4_r7-2-2-1_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        6,
+        4,
+        1,
+        1
+      ],
+      "B": 6,
+      "C": 4,
+      "distinct_shape_masks": 224664,
+      "defect_hitting_masks": 7681,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a8_b6_c4_r6-4-1-1_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        6,
+        3,
+        2,
+        1
+      ],
+      "B": 5,
+      "C": 3,
+      "distinct_shape_masks": 449328,
+      "defect_hitting_masks": 15636,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a8_b5_c3_r6-3-2-1_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        6,
+        2,
+        2,
+        2
+      ],
+      "B": 4,
+      "C": 3,
+      "distinct_shape_masks": 74888,
+      "defect_hitting_masks": 2570,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a8_b4_c3_r6-2-2-2_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "B": 6,
+      "C": 4,
+      "distinct_shape_masks": 112332,
+      "defect_hitting_masks": 3209,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a8_b6_c4_r5-5-1-1_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        5,
+        4,
+        2,
+        1
+      ],
+      "B": 5,
+      "C": 3,
+      "distinct_shape_masks": 449328,
+      "defect_hitting_masks": 9488,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a8_b5_c3_r5-4-2-1_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "B": 5,
+      "C": 2,
+      "distinct_shape_masks": 224664,
+      "defect_hitting_masks": 5039,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a8_b5_c2_r5-3-3-1_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        5,
+        3,
+        2,
+        2
+      ],
+      "B": 4,
+      "C": 2,
+      "distinct_shape_masks": 224664,
+      "defect_hitting_masks": 5216,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a8_b4_c2_r5-3-2-2_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        4,
+        4,
+        3,
+        1
+      ],
+      "B": 5,
+      "C": 2,
+      "distinct_shape_masks": 224664,
+      "defect_hitting_masks": 3467,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a8_b5_c2_r4-4-3-1_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        4,
+        4,
+        2,
+        2
+      ],
+      "B": 4,
+      "C": 2,
+      "distinct_shape_masks": 112332,
+      "defect_hitting_masks": 1845,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a8_b4_c2_r4-4-2-2_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        4,
+        3,
+        3,
+        2
+      ],
+      "B": 4,
+      "C": 1,
+      "distinct_shape_masks": 224664,
+      "defect_hitting_masks": 4069,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a8_b4_c1_r4-3-3-2_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "B": 4,
+      "C": 0,
+      "distinct_shape_masks": 18722,
+      "defect_hitting_masks": 340,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a8_b4_c0_r3-3-3-3_q0.json"
+    },
+    {
+      "base": "v40_02",
+      "profile": [
+        9,
+        1,
+        1,
+        1
+      ],
+      "B": 7,
+      "C": 6,
+      "distinct_shape_masks": 74888,
+      "defect_hitting_masks": 1670,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_02_k12_a8_b7_c6_r9-1-1-1_q0.json"
+    },
+    {
+      "base": "v40_02",
+      "profile": [
+        8,
+        2,
+        1,
+        1
+      ],
+      "B": 6,
+      "C": 5,
+      "distinct_shape_masks": 224664,
+      "defect_hitting_masks": 3982,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_02_k12_a8_b6_c5_r8-2-1-1_q0.json"
+    },
+    {
+      "base": "v40_02",
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "B": 6,
+      "C": 4,
+      "distinct_shape_masks": 224664,
+      "defect_hitting_masks": 3248,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_02_k12_a8_b6_c4_r7-3-1-1_q0.json"
+    },
+    {
+      "base": "v40_02",
+      "profile": [
+        7,
+        2,
+        2,
+        1
+      ],
+      "B": 5,
+      "C": 4,
+      "distinct_shape_masks": 224664,
+      "defect_hitting_masks": 3425,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_02_k12_a8_b5_c4_r7-2-2-1_q0.json"
+    },
+    {
+      "base": "v40_02",
+      "profile": [
+        6,
+        4,
+        1,
+        1
+      ],
+      "B": 6,
+      "C": 4,
+      "distinct_shape_masks": 224664,
+      "defect_hitting_masks": 2434,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_02_k12_a8_b6_c4_r6-4-1-1_q0.json"
+    },
+    {
+      "base": "v40_02",
+      "profile": [
+        6,
+        3,
+        2,
+        1
+      ],
+      "B": 5,
+      "C": 3,
+      "distinct_shape_masks": 449328,
+      "defect_hitting_masks": 4289,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_02_k12_a8_b5_c3_r6-3-2-1_q0.json"
+    },
+    {
+      "base": "v40_02",
+      "profile": [
+        6,
+        2,
+        2,
+        2
+      ],
+      "B": 4,
+      "C": 3,
+      "distinct_shape_masks": 74888,
+      "defect_hitting_masks": 772,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_02_k12_a8_b4_c3_r6-2-2-2_q0.json"
+    },
+    {
+      "base": "v40_02",
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "B": 6,
+      "C": 4,
+      "distinct_shape_masks": 112332,
+      "defect_hitting_masks": 1384,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_02_k12_a8_b6_c4_r5-5-1-1_q0.json"
+    },
+    {
+      "base": "v40_02",
+      "profile": [
+        5,
+        4,
+        2,
+        1
+      ],
+      "B": 5,
+      "C": 3,
+      "distinct_shape_masks": 449328,
+      "defect_hitting_masks": 5791,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_02_k12_a8_b5_c3_r5-4-2-1_q0.json"
+    },
+    {
+      "base": "v40_02",
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "B": 5,
+      "C": 2,
+      "distinct_shape_masks": 224664,
+      "defect_hitting_masks": 2396,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_02_k12_a8_b5_c2_r5-3-3-1_q0.json"
+    },
+    {
+      "base": "v40_02",
+      "profile": [
+        5,
+        3,
+        2,
+        2
+      ],
+      "B": 4,
+      "C": 2,
+      "distinct_shape_masks": 224664,
+      "defect_hitting_masks": 2485,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_02_k12_a8_b4_c2_r5-3-2-2_q0.json"
+    },
+    {
+      "base": "v40_02",
+      "profile": [
+        4,
+        4,
+        3,
+        1
+      ],
+      "B": 5,
+      "C": 2,
+      "distinct_shape_masks": 224664,
+      "defect_hitting_masks": 2567,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_02_k12_a8_b5_c2_r4-4-3-1_q0.json"
+    },
+    {
+      "base": "v40_02",
+      "profile": [
+        4,
+        4,
+        2,
+        2
+      ],
+      "B": 4,
+      "C": 2,
+      "distinct_shape_masks": 112332,
+      "defect_hitting_masks": 1394,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_02_k12_a8_b4_c2_r4-4-2-2_q0.json"
+    },
+    {
+      "base": "v40_02",
+      "profile": [
+        4,
+        3,
+        3,
+        2
+      ],
+      "B": 4,
+      "C": 1,
+      "distinct_shape_masks": 224664,
+      "defect_hitting_masks": 2143,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_02_k12_a8_b4_c1_r4-3-3-2_q0.json"
+    },
+    {
+      "base": "v40_02",
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "B": 4,
+      "C": 0,
+      "distinct_shape_masks": 18722,
+      "defect_hitting_masks": 134,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_02_k12_a8_b4_c0_r3-3-3-3_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        9,
+        1,
+        1,
+        1
+      ],
+      "B": 7,
+      "C": 6,
+      "distinct_shape_masks": 66792,
+      "defect_hitting_masks": 446,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a8_b7_c6_r9-1-1-1_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        8,
+        2,
+        1,
+        1
+      ],
+      "B": 6,
+      "C": 5,
+      "distinct_shape_masks": 200244,
+      "defect_hitting_masks": 1874,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a8_b6_c5_r8-2-1-1_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "B": 6,
+      "C": 4,
+      "distinct_shape_masks": 203148,
+      "defect_hitting_masks": 2291,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a8_b6_c4_r7-3-1-1_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        7,
+        2,
+        2,
+        1
+      ],
+      "B": 5,
+      "C": 4,
+      "distinct_shape_masks": 201564,
+      "defect_hitting_masks": 2181,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a8_b5_c4_r7-2-2-1_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        6,
+        4,
+        1,
+        1
+      ],
+      "B": 6,
+      "C": 4,
+      "distinct_shape_masks": 169752,
+      "defect_hitting_masks": 1275,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a8_b6_c4_r6-4-1-1_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        6,
+        3,
+        2,
+        1
+      ],
+      "B": 5,
+      "C": 3,
+      "distinct_shape_masks": 408936,
+      "defect_hitting_masks": 5350,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a8_b5_c3_r6-3-2-1_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        6,
+        2,
+        2,
+        2
+      ],
+      "B": 4,
+      "C": 3,
+      "distinct_shape_masks": 68112,
+      "defect_hitting_masks": 799,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a8_b4_c3_r6-2-2-2_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "B": 6,
+      "C": 4,
+      "distinct_shape_masks": 84876,
+      "defect_hitting_masks": 745,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a8_b6_c4_r5-5-1-1_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        5,
+        4,
+        2,
+        1
+      ],
+      "B": 5,
+      "C": 3,
+      "distinct_shape_masks": 342144,
+      "defect_hitting_masks": 3261,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a8_b5_c3_r5-4-2-1_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "B": 5,
+      "C": 2,
+      "distinct_shape_masks": 207372,
+      "defect_hitting_masks": 3545,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a8_b5_c2_r5-3-3-1_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        5,
+        3,
+        2,
+        2
+      ],
+      "B": 4,
+      "C": 2,
+      "distinct_shape_masks": 207240,
+      "defect_hitting_masks": 3033,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a8_b4_c2_r5-3-2-2_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        4,
+        4,
+        3,
+        1
+      ],
+      "B": 5,
+      "C": 2,
+      "distinct_shape_masks": 173976,
+      "defect_hitting_masks": 2132,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a8_b5_c2_r4-4-3-1_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        4,
+        4,
+        2,
+        2
+      ],
+      "B": 4,
+      "C": 2,
+      "distinct_shape_masks": 86922,
+      "defect_hitting_masks": 860,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a8_b4_c2_r4-4-2-2_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        4,
+        3,
+        3,
+        2
+      ],
+      "B": 4,
+      "C": 1,
+      "distinct_shape_masks": 210144,
+      "defect_hitting_masks": 3431,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a8_b4_c1_r4-3-3-2_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "B": 4,
+      "C": 0,
+      "distinct_shape_masks": 20537,
+      "defect_hitting_masks": 411,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a8_b4_c0_r3-3-3-3_q0.json"
+    },
+    {
+      "base": "v40_04",
+      "profile": [
+        9,
+        1,
+        1,
+        1
+      ],
+      "B": 7,
+      "C": 6,
+      "distinct_shape_masks": 66792,
+      "defect_hitting_masks": 184,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a8_b7_c6_r9-1-1-1_q0.json"
+    },
+    {
+      "base": "v40_04",
+      "profile": [
+        8,
+        2,
+        1,
+        1
+      ],
+      "B": 6,
+      "C": 5,
+      "distinct_shape_masks": 200244,
+      "defect_hitting_masks": 1222,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a8_b6_c5_r8-2-1-1_q0.json"
+    },
+    {
+      "base": "v40_04",
+      "profile": [
+        7,
+        3,
+        1,
+        1
+      ],
+      "B": 6,
+      "C": 4,
+      "distinct_shape_masks": 203148,
+      "defect_hitting_masks": 2360,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a8_b6_c4_r7-3-1-1_q0.json"
+    },
+    {
+      "base": "v40_04",
+      "profile": [
+        7,
+        2,
+        2,
+        1
+      ],
+      "B": 5,
+      "C": 4,
+      "distinct_shape_masks": 201564,
+      "defect_hitting_masks": 1743,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a8_b5_c4_r7-2-2-1_q0.json"
+    },
+    {
+      "base": "v40_04",
+      "profile": [
+        6,
+        4,
+        1,
+        1
+      ],
+      "B": 6,
+      "C": 4,
+      "distinct_shape_masks": 169752,
+      "defect_hitting_masks": 951,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a8_b6_c4_r6-4-1-1_q0.json"
+    },
+    {
+      "base": "v40_04",
+      "profile": [
+        6,
+        3,
+        2,
+        1
+      ],
+      "B": 5,
+      "C": 3,
+      "distinct_shape_masks": 408936,
+      "defect_hitting_masks": 5338,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a8_b5_c3_r6-3-2-1_q0.json"
+    },
+    {
+      "base": "v40_04",
+      "profile": [
+        6,
+        2,
+        2,
+        2
+      ],
+      "B": 4,
+      "C": 3,
+      "distinct_shape_masks": 68112,
+      "defect_hitting_masks": 689,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a8_b4_c3_r6-2-2-2_q0.json"
+    },
+    {
+      "base": "v40_04",
+      "profile": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "B": 6,
+      "C": 4,
+      "distinct_shape_masks": 84876,
+      "defect_hitting_masks": 418,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a8_b6_c4_r5-5-1-1_q0.json"
+    },
+    {
+      "base": "v40_04",
+      "profile": [
+        5,
+        4,
+        2,
+        1
+      ],
+      "B": 5,
+      "C": 3,
+      "distinct_shape_masks": 342144,
+      "defect_hitting_masks": 2368,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a8_b5_c3_r5-4-2-1_q0.json"
+    },
+    {
+      "base": "v40_04",
+      "profile": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "B": 5,
+      "C": 2,
+      "distinct_shape_masks": 207372,
+      "defect_hitting_masks": 3353,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a8_b5_c2_r5-3-3-1_q0.json"
+    },
+    {
+      "base": "v40_04",
+      "profile": [
+        5,
+        3,
+        2,
+        2
+      ],
+      "B": 4,
+      "C": 2,
+      "distinct_shape_masks": 207240,
+      "defect_hitting_masks": 2731,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a8_b4_c2_r5-3-2-2_q0.json"
+    },
+    {
+      "base": "v40_04",
+      "profile": [
+        4,
+        4,
+        3,
+        1
+      ],
+      "B": 5,
+      "C": 2,
+      "distinct_shape_masks": 173976,
+      "defect_hitting_masks": 2268,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a8_b5_c2_r4-4-3-1_q0.json"
+    },
+    {
+      "base": "v40_04",
+      "profile": [
+        4,
+        4,
+        2,
+        2
+      ],
+      "B": 4,
+      "C": 2,
+      "distinct_shape_masks": 86922,
+      "defect_hitting_masks": 815,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a8_b4_c2_r4-4-2-2_q0.json"
+    },
+    {
+      "base": "v40_04",
+      "profile": [
+        4,
+        3,
+        3,
+        2
+      ],
+      "B": 4,
+      "C": 1,
+      "distinct_shape_masks": 210144,
+      "defect_hitting_masks": 3432,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a8_b4_c1_r4-3-3-2_q0.json"
+    },
+    {
+      "base": "v40_04",
+      "profile": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "B": 4,
+      "C": 0,
+      "distinct_shape_masks": 20537,
+      "defect_hitting_masks": 384,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 1,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_04_k12_a8_b4_c0_r3-3-3-3_q0.json"
+    }
+  ],
+  "totals": {
+    "base_profile_cases": 60,
+    "distinct_shape_masks": 11481778,
+    "defect_hitting_masks": 192353,
+    "q0_factor_feasible_masks": 0
+  },
+  "elapsed_s": 38.572
+}

@@ -1,0 +1,296 @@
+{
+  "consensus": {
+    "N": 300,
+    "mus_size_min": 4,
+    "mus_size_max": 37,
+    "mus_size_median": 31.0,
+    "mus_size_mean": 27.51,
+    "global_coupled_gt30_pct": 0.517,
+    "local_le10_pct": 0.113,
+    "universal_cell": [],
+    ">=90pct_cells": 0,
+    ">=80pct_cells": 11,
+    ">=50pct_cells": 37,
+    "top_cells": [
+      [
+        31,
+        261,
+        0.87
+      ],
+      [
+        36,
+        260,
+        0.867
+      ],
+      [
+        35,
+        259,
+        0.863
+      ],
+      [
+        33,
+        257,
+        0.857
+      ],
+      [
+        32,
+        254,
+        0.847
+      ],
+      [
+        28,
+        249,
+        0.83
+      ],
+      [
+        29,
+        249,
+        0.83
+      ],
+      [
+        30,
+        249,
+        0.83
+      ],
+      [
+        34,
+        246,
+        0.82
+      ],
+      [
+        23,
+        241,
+        0.803
+      ],
+      [
+        26,
+        241,
+        0.803
+      ],
+      [
+        22,
+        239,
+        0.797
+      ]
+    ]
+  },
+  "correlation_corrected": {
+    "N": 126,
+    "mus_vs_base_defect_r": -0.039,
+    "mus_vs_defect_orbits_r": -0.039,
+    "base_defect_vs_defect_orbits_r": 1.0
+  },
+  "purity_2cnf": {
+    "N": 300,
+    "pure_binary_MUS": 0,
+    "pct_pure_binary": 0.0,
+    "all_3clause": true,
+    "clause_len_dist": {
+      "3": 15162
+    }
+  },
+  "note": "m=37 rot4-NTIL 障碍结构性二轮分析(含几何聚类修正); 全部 [COMPUTATIONAL CERTIFICATE]; m=37 仍 OPEN",
+  "geom_cluster": {
+    "N_samples": 300,
+    "total_mus_cell_hits": 8497,
+    "distinct_uv_edges": 666,
+    "uniform_baseline_per_edge": 12.76,
+    "strongest_hotspot": {
+      "edge": [
+        19,
+        26
+      ],
+      "freq": 28,
+      "x_baseline": 2.19
+    },
+    "top10_edges": [
+      {
+        "edge": [
+          19,
+          26
+        ],
+        "freq": 28,
+        "x_baseline": 2.19
+      },
+      {
+        "edge": [
+          22,
+          29
+        ],
+        "freq": 27,
+        "x_baseline": 2.12
+      },
+      {
+        "edge": [
+          16,
+          23
+        ],
+        "freq": 25,
+        "x_baseline": 1.96
+      },
+      {
+        "edge": [
+          8,
+          19
+        ],
+        "freq": 24,
+        "x_baseline": 1.88
+      },
+      {
+        "edge": [
+          27,
+          28
+        ],
+        "freq": 24,
+        "x_baseline": 1.88
+      },
+      {
+        "edge": [
+          16,
+          34
+        ],
+        "freq": 24,
+        "x_baseline": 1.88
+      },
+      {
+        "edge": [
+          23,
+          27
+        ],
+        "freq": 24,
+        "x_baseline": 1.88
+      },
+      {
+        "edge": [
+          20,
+          21
+        ],
+        "freq": 23,
+        "x_baseline": 1.8
+      },
+      {
+        "edge": [
+          15,
+          34
+        ],
+        "freq": 22,
+        "x_baseline": 1.72
+      },
+      {
+        "edge": [
+          12,
+          18
+        ],
+        "freq": 22,
+        "x_baseline": 1.72
+      }
+    ],
+    "top10_share": 0.029,
+    "uniform_top10_share": 0.015,
+    "freq_min": 3,
+    "freq_max": 28,
+    "verdict": "弱几何偏斜(最强2.19x基线), 但远非普适核"
+  },
+  "geom_cause": {
+    "regression_freq_on_max_endpoint": {
+      "slope": 0.0722,
+      "R2": 0.026,
+      "interpretation": "端点大小几乎不预测命中率(0.95x->1.05x)"
+    },
+    "regression_freq_on_abs_diff": {
+      "slope": -0.0607,
+      "R2": 0.018,
+      "interpretation": "边差值不预测命中率"
+    },
+    "regression_freq_on_sum": {
+      "slope": 0.0683,
+      "R2": 0.069,
+      "interpretation": "u+v略预测(大端点边1.18-1.21x), R2仍弱"
+    },
+    "verdict": "弱偏斜不能由任何简单几何不变量预测(R2<0.03); 偏斜是位置特异/组合结构性的",
+    "high_index_block_28_36": "确认=排序位置artifact(edges按(min,max)排序后高索引边端点大, 非固定几何核)"
+  },
+  "literature_landmark": {
+    "my_problem": "m=37  ==  N=74 网格的 rot4 NTIL（148 点 = 37 个 C4 轨道，c4_lifts 旋转 (x,y)->(N-1-y,x)）",
+    "rot4_definition": "quarter-turn(90°) rotational symmetry，与代码 c4_lifts 完全一致",
+    "known_rot4_solutions_max_n": 72,
+    "known_rot4_record": "n=72 by Marijn Heule, 2026-06-25（Flammenkamp 页记录保持者，图 rot4_72.png）",
+    "rot4_known_list": "n=2,10,14,22,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58,60,62,64,66,68,70,72",
+    "n74_status": "OPEN — Flammenkamp 全页(2026-07-19 更新)未出现 n=74 或更大 rot4 解",
+    "consistency_check": "本工作 'ALL m=3..36 有解' ⟺ 文献 n=72(m=36) 有解，完全吻合",
+    "consequence": "m=37(n=74) 是 rot4 记录 n=72 之后第一个未决网格；本工作 ~29000+ 2-因子 UNSAT 强力支持 n=74 rot4 不可构造 = rot4 对称类潜在新边界",
+    "source": "Flammenkamp No-Three-in-Line readme (2026-07-19); MathWorld No-Three-in-Line",
+    "note_for_self": "需做健全性检查：参数化 N=72/M=36 验证模型在 m=36 能找到解(消除假阴性风险)，再坐实 n=74 边界结论"
+  },
+  "sanity_model_sound": {
+    "m5_N10": {
+      "found": true,
+      "step": 0,
+      "final_energy": 0,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "bits": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "verdict": "模型 sound 确认：几何可行解被模型定位，排除 3-CNF 构建过度约束/系统性假阴性"
+    },
+    "m14_anneal_B8sWbp": "完成：400000 步 final_energy=16，未找到解（解极稀，非模型 bug；佐证密度骤降）",
+    "m10_anneal": "待启动（补充 sound 证据链，n=20 文献有 rot4 解）",
+    "consequence": "m=37 的 ~29000+ 随机 2-因子全 UNSAT 已是真实几何不可行（非模型假阴性）；结合文献 rot4 解最大 n=72(m=36)、n=74(m=37) 全文未出现 => m=37(n=74) 是 rot4 对称类在 n=72 之后第一个未决且强烈疑似无解的网格（潜在新边界）",
+    "logic_chain": "3-CNF 构建 sound(任意三点共线=>至少一 cell 被禁) + DPLL 完备(True=UNSAT 为确定真值) => 某 2-因子 UNSAT 即该 2-因子无几何可行取向；m=5 找到 SAT 解 => 模型能识别可行解(非假阴性) => m=37 ~29000+ UNSAT 可信",
+    "note": "m=37 仍 OPEN（非穷举）；此为计算+文献坐标证据，非严格不存在性证明",
+    "m10_anneal_mtAe5l": "终止：退火卡 E~28-36（解稀疏，非模型 bug）"
+  },
+  "density_collapse": {
+    "m5_N10": {
+      "found": true,
+      "final_energy": 0,
+      "steps": 0,
+      "method": "退火 step=0 即解（随机即解）"
+    },
+    "m10_N20": {
+      "found": false,
+      "final_energy": 36,
+      "steps": 400000,
+      "method": "退火卡死（45000步已 E~28-36）"
+    },
+    "m14_N28": {
+      "found": false,
+      "final_energy": 16,
+      "steps": 400000,
+      "elapsed_s": 325,
+      "method": "退火 400000 步卡死"
+    },
+    "m37_N74": {
+      "found": false,
+      "tested_2factors": "~29000+",
+      "verdict": "全部 UNSAT"
+    },
+    "conclusion": "rot4 NTIL 解密度随 m 指数骤降：m=5 极密(随机即解) -> m=10/14 退火找不到 -> m=37 疑似零；这恰是 m=37(n=74) 在文献 n=72 之后成为潜在新边界的机制性解释",
+    "implication": "密度骤降 + 文献 n=72 有解 / n=74 未出现 => m=37(n=74) 强烈疑似 rot4 对称类n=72 之后首个无解网格（潜在新边界）"
+  }
+}

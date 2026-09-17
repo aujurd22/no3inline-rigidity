@@ -1,0 +1,13 @@
+  ** NEW BEST: trial 0: 1426 clauses [span5] (2s) **
+  ** NEW BEST: trial 1: 960 clauses [span5] (4s) **
+  ** NEW BEST: trial 10: 890 clauses [span5] (24s) **
+  ** NEW BEST: trial 55: 866 clauses [span5] (128s) **
+  ** NEW BEST: trial 87: 842 clauses [span5] (212s) **
+  ** NEW BEST: trial 238: 836 clauses [span5] (586s) **
+  ** NEW BEST: trial 244: 774 clauses [span5] (599s) **
+  ** NEW BEST: trial 406: 724 clauses [span5] (973s) **
+
+=== Sweep complete ===
+Strategy: span5
+Best: 724 clauses
+Total trials: 1000

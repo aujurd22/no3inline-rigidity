@@ -1,0 +1,79 @@
+[
+  {
+    "p": 23,
+    "a": 1,
+    "load_ge_2": "OPTIMAL",
+    "load_ge_1": "INFEASIBLE",
+    "load_ge_0": "INFEASIBLE"
+  },
+  {
+    "p": 23,
+    "a": 2,
+    "load_ge_2": "OPTIMAL",
+    "load_ge_1": "INFEASIBLE",
+    "load_ge_0": "INFEASIBLE"
+  },
+  {
+    "p": 23,
+    "a": 3,
+    "load_ge_2": "OPTIMAL",
+    "load_ge_1": "INFEASIBLE",
+    "load_ge_0": "INFEASIBLE"
+  },
+  {
+    "p": 23,
+    "a": 4,
+    "load_ge_2": "OPTIMAL",
+    "load_ge_1": "INFEASIBLE",
+    "load_ge_0": "INFEASIBLE"
+  },
+  {
+    "p": 23,
+    "a": 5,
+    "load_ge_2": "OPTIMAL",
+    "load_ge_1": "INFEASIBLE",
+    "load_ge_0": "INFEASIBLE"
+  },
+  {
+    "p": 23,
+    "a": 6,
+    "load_ge_2": "OPTIMAL",
+    "load_ge_1": "INFEASIBLE",
+    "load_ge_0": "INFEASIBLE"
+  },
+  {
+    "p": 23,
+    "a": 7,
+    "load_ge_2": "OPTIMAL",
+    "load_ge_1": "INFEASIBLE",
+    "load_ge_0": "INFEASIBLE"
+  },
+  {
+    "p": 23,
+    "a": 8,
+    "load_ge_2": "OPTIMAL",
+    "load_ge_1": "INFEASIBLE",
+    "load_ge_0": "INFEASIBLE"
+  },
+  {
+    "p": 23,
+    "a": 9,
+    "load_ge_2": "OPTIMAL",
+    "load_ge_1": "OPTIMAL",
+    "load_ge_0": "INFEASIBLE"
+  },
+  {
+    "p": 23,
+    "a": 10,
+    "load_ge_2": "OPTIMAL",
+    "load_ge_1": "OPTIMAL",
+    "load_ge_0": "INFEASIBLE"
+  },
+  {
+    "p": 23,
+    "a": 11,
+    "load_ge_2": "OPTIMAL",
+    "load_ge_1": "INFEASIBLE",
+    "load_ge_0": "INFEASIBLE"
+  }
+]

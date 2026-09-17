@@ -1,0 +1,9 @@
+{
+  "defect_lines_by_num_cells": {
+    "3": 72
+  },
+  "total_defect_lines": 72,
+  "flip_only_greedy_best": 72,
+  "flip_only_greedy_final": 72,
+  "note": "If flip_only_greedy_best==72, pure orientation changes cannot escape the min -> it is a 2-factor (structural) local min, consistent with needing two/three-switches to improve."
+}

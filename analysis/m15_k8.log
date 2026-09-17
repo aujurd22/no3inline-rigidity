@@ -1,0 +1,6 @@
+[start] m=15 threads=8 hours=0.035000 WX=2
+[t=30s] best=1000000000000000000 badX=0 badS=0
+[t=60s] best=1000000000000000000 badX=0 badS=0
+[t=90s] best=1000000000000000000 badX=0 badS=0
+[t=120s] best=1000000000000000000 badX=0 badS=0
+[DONE] NOTFOUND in 142s best=20

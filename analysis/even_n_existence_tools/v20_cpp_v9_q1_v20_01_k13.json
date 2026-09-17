@@ -1,0 +1,169 @@
+{
+  "component_count": 2,
+  "enumeration_mode": "explicit_masks",
+  "target_selected": 13,
+  "line_capacity_count": 72,
+  "explicit_mask_count": 11229,
+  "distinct_shape_masks": 11229,
+  "defect_hitting_masks": 11229,
+  "factor_feasible_masks": 63,
+  "all_factor_infeasible": false,
+  "total_factor_search_nodes": 42186,
+  "maximum_factor_search_nodes": 43,
+  "root_zero_option_by_deficit": {
+    "1": 0,
+    "2": 0
+  },
+  "search_node_histogram": {
+    "1": 46,
+    "2": 3682,
+    "3": 2706,
+    "4": 1845,
+    "5": 1248,
+    "6": 679,
+    "7+": 1023
+  },
+  "sample_hitting_masks": [
+    69543279,
+    75884133,
+    76870245,
+    79932997,
+    93643349,
+    93766229,
+    113662053,
+    127181509,
+    230991505,
+    338451753
+  ],
+  "feasible_masks": [
+    623192662,
+    4369524037,
+    6990635596,
+    8861032575,
+    8936268327,
+    8936268359,
+    8936269325,
+    8936792583,
+    14296577089,
+    17717078623,
+    21032994960,
+    26311238219,
+    26311238234,
+    26579665498,
+    30203547723,
+    43028329810,
+    43113948800,
+    45101921929,
+    45103096528,
+    45105062497,
+    45112403592,
+    47782177221,
+    53757355606,
+    53955956853,
+    55908257289,
+    58004637249,
+    58004641344,
+    58140395026,
+    62282970624,
+    62317994562,
+    66577278529,
+    77915518353,
+    77915779473,
+    77915840913,
+    77916041617,
+    86540681576,
+    86716285282,
+    86857810761,
+    94762195001,
+    94780851493,
+    94829089067,
+    94862656037,
+    95047487754,
+    95114334474,
+    95296750285,
+    95296751045,
+    95296883013,
+    95300948117,
+    95586424065,
+    96976589089,
+    99060122115,
+    99073721125,
+    99073721157,
+    99346286021,
+    99591848261,
+    99610591813,
+    99669344769,
+    101221204741,
+    122479674369,
+    128850111814,
+    129139704833,
+    129740375050,
+    135565181443
+  ],
+  "first_feasible_mask": 623192662,
+  "first_feasible_cells": [
+    [
+      18,
+      13
+    ],
+    [
+      21,
+      17
+    ],
+    [
+      25,
+      2
+    ],
+    [
+      28,
+      9
+    ],
+    [
+      31,
+      15
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      33,
+      0
+    ],
+    [
+      23,
+      1
+    ],
+    [
+      27,
+      10
+    ],
+    [
+      3,
+      11
+    ],
+    [
+      6,
+      30
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      36,
+      5
+    ]
+  ],
+  "base": "v20_01",
+  "source_certificate": "v20_gpu_hybrid_q0_v20_01_k13.json",
+  "source_field": "feasible_masks",
+  "source_root_nonzero_by_adjacency": null,
+  "method": {
+    "name": "CUDA exhaustive fixed-weight mask scan and exact root-option filter, followed by C++ exact deficit f-factor DFS",
+    "k": 13,
+    "normalization": "all exact old-orientation reselections forbidden",
+    "line_capacities": "all primitive non-axis directions with q<=1"
+  },
+  "elapsed_s": 1.0765
+}

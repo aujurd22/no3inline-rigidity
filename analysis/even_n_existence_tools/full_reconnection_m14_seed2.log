@@ -1,0 +1,303 @@
+RESTART 0 initial_energy=160
+STEP 1 energy=72 delta=-88 candidates=889
+STEP 2 energy=36 delta=-36 candidates=889
+STEP 3 energy=24 delta=-12 candidates=889
+LOCAL_MIN step=3 energy=24 candidates=889
+RESTART 1 initial_energy=120
+STEP 1 energy=64 delta=-56 candidates=889
+STEP 2 energy=36 delta=-28 candidates=891
+STEP 3 energy=20 delta=-16 candidates=889
+LOCAL_MIN step=3 energy=20 candidates=889
+RESTART 2 initial_energy=64
+STEP 1 energy=44 delta=-20 candidates=889
+STEP 2 energy=36 delta=-8 candidates=892
+STEP 3 energy=28 delta=-8 candidates=822
+STEP 4 energy=20 delta=-8 candidates=822
+STEP 5 energy=16 delta=-4 candidates=824
+LOCAL_MIN step=5 energy=16 candidates=822
+RESTART 3 initial_energy=84
+STEP 1 energy=44 delta=-40 candidates=889
+STEP 2 energy=32 delta=-12 candidates=889
+STEP 3 energy=24 delta=-8 candidates=819
+STEP 4 energy=20 delta=-4 candidates=819
+LOCAL_MIN step=4 energy=20 candidates=819
+RESTART 4 initial_energy=108
+STEP 1 energy=56 delta=-52 candidates=889
+STEP 2 energy=32 delta=-24 candidates=891
+STEP 3 energy=24 delta=-8 candidates=889
+STEP 4 energy=20 delta=-4 candidates=889
+STEP 5 energy=16 delta=-4 candidates=889
+LOCAL_MIN step=5 energy=16 candidates=889
+RESTART 5 initial_energy=84
+STEP 1 energy=48 delta=-36 candidates=889
+STEP 2 energy=32 delta=-16 candidates=892
+STEP 3 energy=24 delta=-8 candidates=889
+LOCAL_MIN step=3 energy=24 candidates=889
+RESTART 6 initial_energy=76
+STEP 1 energy=44 delta=-32 candidates=889
+STEP 2 energy=32 delta=-12 candidates=819
+STEP 3 energy=24 delta=-8 candidates=819
+STEP 4 energy=20 delta=-4 candidates=819
+LOCAL_MIN step=4 energy=20 candidates=889
+RESTART 7 initial_energy=116
+STEP 1 energy=64 delta=-52 candidates=889
+STEP 2 energy=40 delta=-24 candidates=889
+STEP 3 energy=24 delta=-16 candidates=889
+STEP 4 energy=20 delta=-4 candidates=889
+STEP 5 energy=16 delta=-4 candidates=889
+LOCAL_MIN step=5 energy=16 candidates=889
+RESTART 8 initial_energy=84
+STEP 1 energy=44 delta=-40 candidates=889
+STEP 2 energy=28 delta=-16 candidates=889
+LOCAL_MIN step=2 energy=28 candidates=889
+RESTART 9 initial_energy=84
+STEP 1 energy=48 delta=-36 candidates=889
+STEP 2 energy=32 delta=-16 candidates=889
+STEP 3 energy=28 delta=-4 candidates=889
+STEP 4 energy=24 delta=-4 candidates=891
+STEP 5 energy=20 delta=-4 candidates=889
+STEP 6 energy=16 delta=-4 candidates=889
+LOCAL_MIN step=6 energy=16 candidates=889
+RESTART 10 initial_energy=104
+STEP 1 energy=56 delta=-48 candidates=889
+STEP 2 energy=40 delta=-16 candidates=889
+STEP 3 energy=28 delta=-12 candidates=891
+STEP 4 energy=12 delta=-16 candidates=889
+LOCAL_MIN step=4 energy=12 candidates=819
+RESTART 11 initial_energy=92
+STEP 1 energy=48 delta=-44 candidates=889
+STEP 2 energy=36 delta=-12 candidates=889
+STEP 3 energy=28 delta=-8 candidates=889
+STEP 4 energy=20 delta=-8 candidates=889
+LOCAL_MIN step=4 energy=20 candidates=889
+RESTART 12 initial_energy=112
+STEP 1 energy=60 delta=-52 candidates=889
+STEP 2 energy=32 delta=-28 candidates=889
+STEP 3 energy=24 delta=-8 candidates=889
+STEP 4 energy=20 delta=-4 candidates=889
+LOCAL_MIN step=4 energy=20 candidates=889
+RESTART 13 initial_energy=136
+STEP 1 energy=60 delta=-76 candidates=889
+STEP 2 energy=36 delta=-24 candidates=889
+STEP 3 energy=24 delta=-12 candidates=891
+LOCAL_MIN step=3 energy=24 candidates=889
+RESTART 14 initial_energy=96
+STEP 1 energy=60 delta=-36 candidates=889
+STEP 2 energy=40 delta=-20 candidates=889
+STEP 3 energy=32 delta=-8 candidates=889
+STEP 4 energy=28 delta=-4 candidates=889
+LOCAL_MIN step=4 energy=28 candidates=889
+RESTART 15 initial_energy=128
+STEP 1 energy=60 delta=-68 candidates=889
+STEP 2 energy=32 delta=-28 candidates=891
+STEP 3 energy=28 delta=-4 candidates=891
+STEP 4 energy=24 delta=-4 candidates=891
+LOCAL_MIN step=4 energy=24 candidates=893
+RESTART 16 initial_energy=116
+STEP 1 energy=60 delta=-56 candidates=889
+STEP 2 energy=36 delta=-24 candidates=889
+STEP 3 energy=24 delta=-12 candidates=889
+STEP 4 energy=20 delta=-4 candidates=889
+STEP 5 energy=16 delta=-4 candidates=891
+LOCAL_MIN step=5 energy=16 candidates=891
+RESTART 17 initial_energy=104
+STEP 1 energy=52 delta=-52 candidates=889
+STEP 2 energy=32 delta=-20 candidates=819
+STEP 3 energy=24 delta=-8 candidates=822
+STEP 4 energy=16 delta=-8 candidates=819
+LOCAL_MIN step=4 energy=16 candidates=819
+RESTART 18 initial_energy=140
+STEP 1 energy=68 delta=-72 candidates=889
+STEP 2 energy=44 delta=-24 candidates=889
+STEP 3 energy=32 delta=-12 candidates=889
+STEP 4 energy=24 delta=-8 candidates=889
+STEP 5 energy=20 delta=-4 candidates=891
+LOCAL_MIN step=5 energy=20 candidates=894
+RESTART 19 initial_energy=84
+STEP 1 energy=48 delta=-36 candidates=889
+STEP 2 energy=28 delta=-20 candidates=889
+STEP 3 energy=20 delta=-8 candidates=819
+STEP 4 energy=12 delta=-8 candidates=819
+LOCAL_MIN step=4 energy=12 candidates=819
+RESTART 20 initial_energy=116
+STEP 1 energy=64 delta=-52 candidates=889
+STEP 2 energy=32 delta=-32 candidates=889
+STEP 3 energy=24 delta=-8 candidates=889
+LOCAL_MIN step=3 energy=24 candidates=892
+RESTART 21 initial_energy=92
+STEP 1 energy=52 delta=-40 candidates=889
+STEP 2 energy=32 delta=-20 candidates=889
+STEP 3 energy=28 delta=-4 candidates=819
+LOCAL_MIN step=3 energy=28 candidates=819
+RESTART 22 initial_energy=180
+STEP 1 energy=88 delta=-92 candidates=889
+STEP 2 energy=44 delta=-44 candidates=889
+STEP 3 energy=36 delta=-8 candidates=893
+STEP 4 energy=20 delta=-16 candidates=893
+STEP 5 energy=12 delta=-8 candidates=823
+STEP 6 energy=8 delta=-4 candidates=821
+LOCAL_MIN step=6 energy=8 candidates=821
+RESTART 23 initial_energy=56
+STEP 1 energy=36 delta=-20 candidates=889
+STEP 2 energy=12 delta=-24 candidates=819
+STEP 3 energy=8 delta=-4 candidates=889
+LOCAL_MIN step=3 energy=8 candidates=889
+RESTART 24 initial_energy=72
+STEP 1 energy=48 delta=-24 candidates=889
+STEP 2 energy=28 delta=-20 candidates=889
+STEP 3 energy=16 delta=-12 candidates=889
+STEP 4 energy=12 delta=-4 candidates=889
+LOCAL_MIN step=4 energy=12 candidates=889
+RESTART 25 initial_energy=80
+STEP 1 energy=44 delta=-36 candidates=889
+STEP 2 energy=32 delta=-12 candidates=889
+STEP 3 energy=24 delta=-8 candidates=889
+LOCAL_MIN step=3 energy=24 candidates=892
+RESTART 26 initial_energy=116
+STEP 1 energy=64 delta=-52 candidates=889
+STEP 2 energy=40 delta=-24 candidates=819
+STEP 3 energy=28 delta=-12 candidates=822
+STEP 4 energy=20 delta=-8 candidates=819
+LOCAL_MIN step=4 energy=20 candidates=821
+RESTART 27 initial_energy=92
+STEP 1 energy=48 delta=-44 candidates=889
+STEP 2 energy=28 delta=-20 candidates=889
+STEP 3 energy=24 delta=-4 candidates=889
+LOCAL_MIN step=3 energy=24 candidates=889
+RESTART 28 initial_energy=204
+STEP 1 energy=92 delta=-112 candidates=889
+STEP 2 energy=48 delta=-44 candidates=891
+STEP 3 energy=28 delta=-20 candidates=894
+STEP 4 energy=16 delta=-12 candidates=889
+STEP 5 energy=12 delta=-4 candidates=889
+STEP 6 energy=8 delta=-4 candidates=889
+LOCAL_MIN step=6 energy=8 candidates=889
+RESTART 29 initial_energy=92
+STEP 1 energy=60 delta=-32 candidates=889
+STEP 2 energy=36 delta=-24 candidates=889
+STEP 3 energy=24 delta=-12 candidates=889
+STEP 4 energy=20 delta=-4 candidates=889
+STEP 5 energy=16 delta=-4 candidates=891
+LOCAL_MIN step=5 energy=16 candidates=891
+RESTART 30 initial_energy=96
+STEP 1 energy=48 delta=-48 candidates=889
+STEP 2 energy=28 delta=-20 candidates=889
+STEP 3 energy=20 delta=-8 candidates=889
+STEP 4 energy=16 delta=-4 candidates=889
+LOCAL_MIN step=4 energy=16 candidates=889
+RESTART 31 initial_energy=88
+STEP 1 energy=44 delta=-44 candidates=889
+STEP 2 energy=20 delta=-24 candidates=889
+STEP 3 energy=16 delta=-4 candidates=889
+LOCAL_MIN step=3 energy=16 candidates=889
+RESTART 32 initial_energy=80
+STEP 1 energy=44 delta=-36 candidates=889
+STEP 2 energy=32 delta=-12 candidates=889
+STEP 3 energy=20 delta=-12 candidates=889
+LOCAL_MIN step=3 energy=20 candidates=889
+RESTART 33 initial_energy=88
+STEP 1 energy=48 delta=-40 candidates=889
+STEP 2 energy=32 delta=-16 candidates=891
+STEP 3 energy=28 delta=-4 candidates=889
+STEP 4 energy=24 delta=-4 candidates=889
+LOCAL_MIN step=4 energy=24 candidates=889
+RESTART 34 initial_energy=88
+STEP 1 energy=56 delta=-32 candidates=889
+STEP 2 energy=32 delta=-24 candidates=889
+STEP 3 energy=24 delta=-8 candidates=889
+STEP 4 energy=20 delta=-4 candidates=889
+LOCAL_MIN step=4 energy=20 candidates=889
+RESTART 35 initial_energy=92
+STEP 1 energy=56 delta=-36 candidates=889
+STEP 2 energy=20 delta=-36 candidates=889
+STEP 3 energy=16 delta=-4 candidates=889
+LOCAL_MIN step=3 energy=16 candidates=889
+RESTART 36 initial_energy=92
+STEP 1 energy=56 delta=-36 candidates=889
+STEP 2 energy=28 delta=-28 candidates=889
+STEP 3 energy=16 delta=-12 candidates=889
+STEP 4 energy=12 delta=-4 candidates=889
+LOCAL_MIN step=4 energy=12 candidates=889
+RESTART 37 initial_energy=104
+STEP 1 energy=44 delta=-60 candidates=889
+STEP 2 energy=28 delta=-16 candidates=889
+LOCAL_MIN step=2 energy=28 candidates=889
+RESTART 38 initial_energy=52
+STEP 1 energy=32 delta=-20 candidates=889
+STEP 2 energy=28 delta=-4 candidates=889
+LOCAL_MIN step=2 energy=28 candidates=889
+RESTART 39 initial_energy=144
+STEP 1 energy=72 delta=-72 candidates=889
+STEP 2 energy=40 delta=-32 candidates=889
+STEP 3 energy=28 delta=-12 candidates=889
+STEP 4 energy=24 delta=-4 candidates=889
+STEP 5 energy=20 delta=-4 candidates=889
+STEP 6 energy=12 delta=-8 candidates=889
+LOCAL_MIN step=6 energy=12 candidates=889
+RESTART 40 initial_energy=92
+STEP 1 energy=48 delta=-44 candidates=889
+STEP 2 energy=32 delta=-16 candidates=889
+STEP 3 energy=28 delta=-4 candidates=889
+STEP 4 energy=24 delta=-4 candidates=889
+STEP 5 energy=20 delta=-4 candidates=889
+LOCAL_MIN step=5 energy=20 candidates=889
+RESTART 41 initial_energy=64
+STEP 1 energy=36 delta=-28 candidates=889
+STEP 2 energy=24 delta=-12 candidates=889
+LOCAL_MIN step=2 energy=24 candidates=889
+RESTART 42 initial_energy=164
+STEP 1 energy=68 delta=-96 candidates=889
+STEP 2 energy=48 delta=-20 candidates=892
+STEP 3 energy=40 delta=-8 candidates=889
+STEP 4 energy=28 delta=-12 candidates=889
+STEP 5 energy=20 delta=-8 candidates=847
+LOCAL_MIN step=5 energy=20 candidates=847
+RESTART 43 initial_energy=128
+STEP 1 energy=68 delta=-60 candidates=889
+STEP 2 energy=44 delta=-24 candidates=889
+STEP 3 energy=32 delta=-12 candidates=889
+STEP 4 energy=24 delta=-8 candidates=889
+STEP 5 energy=20 delta=-4 candidates=891
+LOCAL_MIN step=5 energy=20 candidates=891
+RESTART 44 initial_energy=96
+STEP 1 energy=60 delta=-36 candidates=889
+STEP 2 energy=44 delta=-16 candidates=889
+STEP 3 energy=24 delta=-20 candidates=893
+STEP 4 energy=20 delta=-4 candidates=891
+STEP 5 energy=12 delta=-8 candidates=889
+STEP 6 energy=4 delta=-8 candidates=889
+LOCAL_MIN step=6 energy=4 candidates=889
+RESTART 45 initial_energy=92
+STEP 1 energy=52 delta=-40 candidates=889
+STEP 2 energy=28 delta=-24 candidates=889
+STEP 3 energy=24 delta=-4 candidates=889
+STEP 4 energy=20 delta=-4 candidates=889
+STEP 5 energy=16 delta=-4 candidates=889
+LOCAL_MIN step=5 energy=16 candidates=892
+RESTART 46 initial_energy=120
+STEP 1 energy=56 delta=-64 candidates=889
+STEP 2 energy=36 delta=-20 candidates=889
+STEP 3 energy=28 delta=-8 candidates=889
+STEP 4 energy=16 delta=-12 candidates=889
+STEP 5 energy=12 delta=-4 candidates=889
+LOCAL_MIN step=5 energy=12 candidates=891
+RESTART 47 initial_energy=76
+STEP 1 energy=48 delta=-28 candidates=889
+STEP 2 energy=36 delta=-12 candidates=889
+STEP 3 energy=20 delta=-16 candidates=889
+STEP 4 energy=12 delta=-8 candidates=889
+LOCAL_MIN step=4 energy=12 candidates=847
+RESTART 48 initial_energy=76
+STEP 1 energy=48 delta=-28 candidates=889
+STEP 2 energy=32 delta=-16 candidates=847
+LOCAL_MIN step=2 energy=32 candidates=847
+RESTART 49 initial_energy=72
+STEP 1 energy=36 delta=-36 candidates=889
+STEP 2 energy=24 delta=-12 candidates=891
+STEP 3 energy=20 delta=-4 candidates=889
+STEP 4 energy=16 delta=-4 candidates=891
+STEP 5 energy=12 delta=-4 candidates=889
+LOCAL_MIN step=5 energy=12 candidates=889
+NOT_FOUND best_energy=4 elapsed_seconds=18.486634
+SOLUTION m=14 n=28 energy=4 cells=(5,3)(3,12)(2,8)(2,7)(1,9)(7,10)(10,6)(9,6)(13,0)(11,0)(8,4)(13,12)(11,1)(4,5)
+points=(5,3)(24,5)(22,24)(3,22)(3,12)(15,3)(24,15)(12,24)(2,8)(19,2)(25,19)(8,25)(2,7)(20,2)(25,20)(7,25)(1,9)(18,1)(26,18)(9,26)(7,10)(17,7)(20,17)(10,20)(10,6)(21,10)(17,21)(6,17)(9,6)(21,9)(18,21)(6,18)(13,0)(27,13)(14,27)(0,14)(11,0)(27,11)(16,27)(0,16)(8,4)(23,8)(19,23)(4,19)(13,12)(15,13)(14,15)(12,14)(11,1)(26,11)(16,26)(1,16)(4,5)(22,4)(23,22)(5,23)

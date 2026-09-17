@@ -1,0 +1,12 @@
+# solution 1
+# n=4 sym=dia2 status=verified source=flammenkamp_cache/n4_dia2
+# code=x13012302
+0 1
+0 3
+1 0
+1 1
+2 2
+2 3
+3 0
+3 2
+

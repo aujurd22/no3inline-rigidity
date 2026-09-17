@@ -1,0 +1,140 @@
+{
+  "parameters": {
+    "bases": "v40_04",
+    "k": 13,
+    "iterations": 1,
+    "indices": "",
+    "target": 36,
+    "target_exact": false,
+    "time_limit": 120.0,
+    "solver_workers": 8,
+    "branch_parts": 1,
+    "branch_index": 0,
+    "branch_path": "",
+    "max_retained_original": null,
+    "modes": "0,1,2,3,4",
+    "out": "my_lns_v40_04_k13_resolve.json"
+  },
+  "runs": [
+    {
+      "base": "v40_04",
+      "base_sources": [
+        "partial_hitting_40_slack2.json:exact1",
+        "safe_path_relink_d2.json:exact2",
+        "joint_factor_sa_12x6000.json:exact1"
+      ],
+      "covered_defects": 10,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          21,
+          23,
+          24,
+          25,
+          30,
+          31,
+          35,
+          36
+        ],
+        "removed_edges": [
+          [
+            2,
+            36
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            4,
+            19
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            6,
+            17
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            12,
+            36
+          ],
+          [
+            14,
+            22
+          ],
+          [
+            14,
+            27
+          ],
+          [
+            20,
+            26
+          ],
+          [
+            20,
+            27
+          ],
+          [
+            26,
+            29
+          ],
+          [
+            29,
+            35
+          ]
+        ],
+        "affected_vertices": [
+          2,
+          4,
+          5,
+          6,
+          11,
+          12,
+          13,
+          14,
+          17,
+          19,
+          20,
+          22,
+          26,
+          27,
+          29,
+          35,
+          36
+        ],
+        "residual_degree_histogram": {
+          "1": 8,
+          "2": 9
+        },
+        "directed_cell_variables": 272,
+        "fixed_point_count": 96,
+        "potential_point_count": 1184,
+        "raw_line_keys": 484882,
+        "active_line_costs": 11614,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 268,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 2.517,
+        "solve_s": 57.3,
+        "best_bound": 37
+      }
+    }
+  ],
+  "best_candidate": null
+}

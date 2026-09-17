@@ -1,0 +1,42 @@
+[
+  {
+    "name": "bitrev+gray",
+    "n": 16,
+    "k": 4,
+    "base_collisions": 153,
+    "sa_collisions": 8,
+    "ntps": 64,
+    "time": 17.6,
+    "verified": true
+  },
+  {
+    "name": "bitrev+complement",
+    "n": 16,
+    "k": 4,
+    "base_collisions": 1230,
+    "sa_collisions": 4,
+    "ntps": 64,
+    "time": 17.4,
+    "verified": true
+  },
+  {
+    "name": "bitrev+rnd_bitperm",
+    "n": 16,
+    "k": 4,
+    "base_collisions": 101,
+    "sa_collisions": 7,
+    "ntps": 64,
+    "time": 18.2,
+    "verified": true
+  },
+  {
+    "name": "rnd_bitperm\u00d72",
+    "n": 16,
+    "k": 4,
+    "base_collisions": 122,
+    "sa_collisions": 7,
+    "ntps": 64,
+    "time": 17.6,
+    "verified": true
+  }
+]

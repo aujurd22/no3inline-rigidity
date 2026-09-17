@@ -1,0 +1,13 @@
+{
+  "m": 37,
+  "per_seconds": 300,
+  "dataset_samples": 2108,
+  "label_mean": -0.5104364326375711,
+  "label_std": 26.98607036134878,
+  "baseline_best_bad": 116,
+  "baseline_steps": 10960,
+  "learned_best_bad": 156,
+  "learned_steps": 1379,
+  "model_file": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\results\\tiny_solver_model.npz",
+  "verdict": "NO_CLEAR_GAIN"
+}

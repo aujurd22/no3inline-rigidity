@@ -1,0 +1,26 @@
+v40_01: cases=60 seed_lines=104
+  core=5:1:0:0 shared=104
+    status=UNKNOWN rounds=1 dynamic=0 shared_now=104 best_bad=None
+  core=5:1:0:1 shared=104
+    status=UNKNOWN rounds=1 dynamic=0 shared_now=104 best_bad=None
+  core=5:1:0:2 shared=104
+    status=UNKNOWN rounds=1 dynamic=0 shared_now=104 best_bad=None
+  core=5:1:0:3 shared=104
+    status=UNKNOWN rounds=1 dynamic=0 shared_now=104 best_bad=None
+  core=5:1:0:4 shared=104
+    status=UNKNOWN rounds=1 dynamic=0 shared_now=104 best_bad=None
+  core=5:1:0:5 shared=104
+    status=UNKNOWN rounds=1 dynamic=0 shared_now=104 best_bad=None
+  core=5:1:0:6 shared=104
+    status=UNKNOWN rounds=1 dynamic=0 shared_now=104 best_bad=None
+  core=5:1:0:7 shared=104
+    status=UNKNOWN rounds=1 dynamic=0 shared_now=104 best_bad=None
+  core=5:1:0:8 shared=104
+    status=UNKNOWN rounds=1 dynamic=0 shared_now=104 best_bad=None
+  core=5:1:0:9 shared=104
+    status=UNKNOWN rounds=1 dynamic=0 shared_now=104 best_bad=None
+  core=5:1:0:10 shared=104
+    status=INFEASIBLE rounds=1 dynamic=0 shared_now=104 best_bad=None
+  core=5:1:0:11 shared=104
+    status=INFEASIBLE rounds=1 dynamic=0 shared_now=104 best_bad=None
+  core=5:2:0:0 shared=104

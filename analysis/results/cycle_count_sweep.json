@@ -1,0 +1,215 @@
+{
+  "results": [
+    {
+      "n_cycles": 1,
+      "trials": 200,
+      "best_clauses": 822
+    },
+    {
+      "n_cycles": 2,
+      "trials": 200,
+      "best_clauses": 660
+    },
+    {
+      "n_cycles": 3,
+      "trials": 200,
+      "best_clauses": 748
+    },
+    {
+      "n_cycles": 4,
+      "trials": 200,
+      "best_clauses": 882
+    },
+    {
+      "n_cycles": 5,
+      "trials": 200,
+      "best_clauses": 848
+    },
+    {
+      "n_cycles": 6,
+      "trials": 200,
+      "best_clauses": 942
+    },
+    {
+      "n_cycles": 7,
+      "trials": 50,
+      "best_clauses": 1370
+    },
+    {
+      "n_cycles": 8,
+      "trials": 50,
+      "best_clauses": Infinity
+    },
+    {
+      "n_cycles": 9,
+      "trials": 50,
+      "best_clauses": Infinity
+    },
+    {
+      "n_cycles": 10,
+      "trials": 50,
+      "best_clauses": Infinity
+    },
+    {
+      "n_cycles": 11,
+      "trials": 50,
+      "best_clauses": Infinity
+    },
+    {
+      "n_cycles": 12,
+      "trials": 50,
+      "best_clauses": Infinity
+    }
+  ],
+  "overall_best": 660,
+  "overall_best_edges": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      33
+    ],
+    [
+      1,
+      17
+    ],
+    [
+      1,
+      30
+    ],
+    [
+      2,
+      34
+    ],
+    [
+      3,
+      10
+    ],
+    [
+      3,
+      18
+    ],
+    [
+      4,
+      21
+    ],
+    [
+      4,
+      34
+    ],
+    [
+      5,
+      27
+    ],
+    [
+      5,
+      31
+    ],
+    [
+      6,
+      24
+    ],
+    [
+      6,
+      31
+    ],
+    [
+      7,
+      26
+    ],
+    [
+      7,
+      32
+    ],
+    [
+      8,
+      30
+    ],
+    [
+      8,
+      32
+    ],
+    [
+      9,
+      12
+    ],
+    [
+      9,
+      35
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      11,
+      15
+    ],
+    [
+      11,
+      20
+    ],
+    [
+      12,
+      24
+    ],
+    [
+      13,
+      16
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      14,
+      22
+    ],
+    [
+      14,
+      25
+    ],
+    [
+      15,
+      36
+    ],
+    [
+      17,
+      28
+    ],
+    [
+      19,
+      22
+    ],
+    [
+      19,
+      36
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      21,
+      23
+    ],
+    [
+      23,
+      25
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      33,
+      35
+    ]
+  ]
+}

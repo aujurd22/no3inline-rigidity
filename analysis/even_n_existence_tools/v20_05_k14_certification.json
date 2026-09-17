@@ -1,0 +1,18 @@
+{
+  "base": "v20_05",
+  "k": 14,
+  "q": 3,
+  "sanity_base_bad_triples": 20,
+  "survivors": [
+    {
+      "mask": 26914261035,
+      "min_bad_triples": 88,
+      "verdict": "CAPACITY_FEASIBLE_ONLY"
+    },
+    {
+      "mask": 105943968808,
+      "min_bad_triples": 80,
+      "verdict": "CAPACITY_FEASIBLE_ONLY"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "parameters": {
+    "base": "v40_01",
+    "size": 12,
+    "adjacency_count": 6,
+    "triple_count": 1,
+    "quadruple_count": 0,
+    "loop_count": 0,
+    "flip_count": null,
+    "flip_min": null,
+    "flip_max": 5,
+    "hard_q": 3,
+    "shell_q": 4,
+    "subset_size": 2,
+    "direction": [
+      "1,4",
+      "3,4"
+    ],
+    "time_limit": 1200.0,
+    "workers": 4,
+    "out": "rot4_direction_pair_v40_01_k12_a6_b1_c0_l0_fmax5_norm_q3_plus_1_4_3_4.json"
+  },
+  "hard_line_count": 906,
+  "shell_line_count": 808,
+  "shell_directions": {
+    "1,-4": 175,
+    "1,4": 175,
+    "3,-4": 229,
+    "3,4": 229
+  },
+  "layers": [
+    {
+      "directions": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "line_count": 1310,
+      "new_line_count": 404,
+      "status": "INFEASIBLE",
+      "classification": "CLOSED",
+      "branches": 12638291,
+      "conflicts": 5185222,
+      "wall_s": 908.348,
+      "elapsed_s": 908.352
+    }
+  ],
+  "closed_subset_count": 1,
+  "surviving_subset_count": 0
+}

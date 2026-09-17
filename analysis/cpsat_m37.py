@@ -110,7 +110,7 @@ def generate_constraints(m):
     return constraints
 
 
-def solve_ortools(m, constraints, timelimit):
+def solve_ortools(m, constraints, timelimit, workers=8, mem_mb=0):
     nv = m * m
     model = cp_model.CpModel()
     sel = [model.NewBoolVar(f"s{i}") for i in range(nv)]
@@ -121,7 +121,9 @@ def solve_ortools(m, constraints, timelimit):
     model.Add(sum(sel) == m)
     solver = cp_model.CpSolver()
     solver.parameters.max_time_in_seconds = timelimit
-    solver.parameters.num_search_workers = 8
+    solver.parameters.num_search_workers = workers
+    if mem_mb and mem_mb > 0:
+        solver.parameters.max_memory_in_mb = mem_mb
     st = solver.Solve(model)
     status = solver.StatusName(st)
     chosen = [i for i in range(nv) if solver.Value(sel[i]) == 1] if status in ("FEASIBLE", "OPTIMAL") else []
@@ -174,6 +176,9 @@ def main():
     ap.add_argument("--m", type=int, default=37)
     ap.add_argument("--count-only", action="store_true")
     ap.add_argument("--timelimit", type=float, default=900.0)
+    ap.add_argument("--workers", type=int, default=8)
+    ap.add_argument("--mem-mb", type=int, default=0,
+                    help="CP-SAT memory cap (MB); 0 = unlimited")
     ap.add_argument("--validate", action="store_true")
     ap.add_argument("--seed-known", type=int, default=0,
                     help="load KNOWN rot4 solution for this m and hint the solver")
@@ -213,7 +218,7 @@ def main():
             t0 = time.time()
             cons = generate_constraints(m)
             if backend == "ortools" and HAVE_ORTOOLS:
-                status, chosen = solve_ortools(m, cons, 60.0)
+                status, chosen = solve_ortools(m, cons, 60.0, args.workers, args.mem_mb)
             elif backend == "z3" and HAVE_Z3:
                 status, chosen = solve_z3(m, cons, 60.0)
             else:
@@ -235,7 +240,7 @@ def main():
 
     t1 = time.time()
     if backend == "ortools" and HAVE_ORTOOLS:
-        status, chosen = solve_ortools(args.m, cons, args.timelimit)
+        status, chosen = solve_ortools(args.m, cons, args.timelimit, args.workers, args.mem_mb)
     elif backend == "z3" and HAVE_Z3:
         status, chosen = solve_z3(args.m, cons, args.timelimit)
     else:

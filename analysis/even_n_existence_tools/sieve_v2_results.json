@@ -1,0 +1,47 @@
+[
+  {
+    "n": 10,
+    "budget": 5249.894012026424,
+    "n_triples": 1140,
+    "max_det": 81,
+    "n_large_primes": 18,
+    "n_small_primes": 4,
+    "max_p_for_avg3": 2
+  },
+  {
+    "n": 20,
+    "budget": 59195.66972542686,
+    "n_triples": 9880,
+    "max_det": 361,
+    "n_large_primes": 64,
+    "n_small_primes": 8,
+    "max_p_for_avg3": 3
+  },
+  {
+    "n": 30,
+    "budget": 232777.9488009579,
+    "n_triples": 34220,
+    "max_det": 841,
+    "n_large_primes": 136,
+    "n_small_primes": 10,
+    "max_p_for_avg3": 4
+  },
+  {
+    "n": 50,
+    "budget": 1265148.2399554625,
+    "n_triples": 161700,
+    "max_det": 2401,
+    "n_large_primes": 342,
+    "n_small_primes": 15,
+    "max_p_for_avg3": 5
+  },
+  {
+    "n": 74,
+    "budget": 4557109.68816383,
+    "n_triples": 529396,
+    "max_det": 5329,
+    "n_large_primes": 684,
+    "n_small_primes": 21,
+    "max_p_for_avg3": 7
+  }
+]

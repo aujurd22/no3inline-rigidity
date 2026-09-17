@@ -1,0 +1,116 @@
+{
+  "parameters": {
+    "base": "v40_04",
+    "size": 12,
+    "adjacency_count": 6,
+    "triple_count": 1,
+    "quadruple_count": 0,
+    "loop_count": 0,
+    "flip_counts": "0,1,2,3,4,5,6,7,8,9,10,12",
+    "direction_q": 3,
+    "time_limit": 180.0,
+    "workers": 4,
+    "out": "rot4_flip_split_v40_04_k12_a6_b1_c0_l0_norm_q3.json"
+  },
+  "expected_flip_counts": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12
+  ],
+  "layers": [
+    {
+      "flip_count": 0,
+      "classification": "UNRESOLVED",
+      "status": "UNKNOWN",
+      "wall_s": 180.169,
+      "evidence": "rot4_short_v40_04_k12_a6_b1_c0_l0_f0_norm_q3hard.json"
+    },
+    {
+      "flip_count": 1,
+      "classification": "UNRESOLVED",
+      "status": "UNKNOWN",
+      "wall_s": 180.047,
+      "evidence": "rot4_short_v40_04_k12_a6_b1_c0_l0_f1_norm_q3hard.json"
+    },
+    {
+      "flip_count": 2,
+      "classification": "UNRESOLVED",
+      "status": "UNKNOWN",
+      "wall_s": 180.047,
+      "evidence": "rot4_short_v40_04_k12_a6_b1_c0_l0_f2_norm_q3hard.json"
+    },
+    {
+      "flip_count": 3,
+      "classification": "UNRESOLVED",
+      "status": "UNKNOWN",
+      "wall_s": 180.2,
+      "evidence": "rot4_short_v40_04_k12_a6_b1_c0_l0_f3_norm_q3hard.json"
+    },
+    {
+      "flip_count": 4,
+      "classification": "UNRESOLVED",
+      "status": "UNKNOWN",
+      "wall_s": 180.063,
+      "evidence": "rot4_short_v40_04_k12_a6_b1_c0_l0_f4_norm_q3hard.json"
+    },
+    {
+      "flip_count": 5,
+      "classification": "UNRESOLVED",
+      "status": "UNKNOWN",
+      "wall_s": 180.127,
+      "evidence": "rot4_short_v40_04_k12_a6_b1_c0_l0_f5_norm_q3hard.json"
+    },
+    {
+      "flip_count": 6,
+      "classification": "UNRESOLVED",
+      "status": "UNKNOWN",
+      "wall_s": 180.183,
+      "evidence": "rot4_short_v40_04_k12_a6_b1_c0_l0_f6_norm_q3hard.json"
+    },
+    {
+      "flip_count": 7,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 74.537,
+      "evidence": "rot4_short_v40_04_k12_a6_b1_c0_l0_f7_norm_q3hard.json"
+    },
+    {
+      "flip_count": 8,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 34.266,
+      "evidence": "rot4_short_v40_04_k12_a6_b1_c0_l0_f8_norm_q3hard.json"
+    },
+    {
+      "flip_count": 9,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 19.238,
+      "evidence": "rot4_short_v40_04_k12_a6_b1_c0_l0_f9_norm_q3hard.json"
+    },
+    {
+      "flip_count": 10,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 17.324,
+      "evidence": "rot4_short_v40_04_k12_a6_b1_c0_l0_f10_norm_q3hard.json"
+    },
+    {
+      "flip_count": 12,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 0.77,
+      "evidence": "rot4_short_v40_04_k12_a6_b1_c0_l0_f12_norm_q3hard.json"
+    }
+  ],
+  "complete_closure": false
+}

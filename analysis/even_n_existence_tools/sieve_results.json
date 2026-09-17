@@ -1,0 +1,212 @@
+[
+  {
+    "n": 10,
+    "budget": 5249.894012026424,
+    "total_lower_bound": 3115.5251220394093,
+    "feasible": true,
+    "n_primes": 3,
+    "top_primes": [
+      {
+        "p": 2,
+        "triples_lb": 3360,
+        "log_contribution": 2328.974526681416
+      },
+      {
+        "p": 3,
+        "triples_lb": 672,
+        "log_contribution": 738.2674579849697
+      },
+      {
+        "p": 5,
+        "triples_lb": 30,
+        "log_contribution": 48.28313737302301
+      }
+    ]
+  },
+  {
+    "n": 20,
+    "budget": 59195.66972542686,
+    "total_lower_bound": 280178.3170150594,
+    "feasible": false,
+    "n_primes": 5,
+    "top_primes": [
+      {
+        "p": 2,
+        "triples_lb": 274560,
+        "log_contribution": 190310.48989453856
+      },
+      {
+        "p": 3,
+        "triples_lb": 65472,
+        "log_contribution": 71928.34376367848
+      },
+      {
+        "p": 5,
+        "triples_lb": 8580,
+        "log_contribution": 13808.97728868458
+      },
+      {
+        "p": 7,
+        "triples_lb": 1960,
+        "log_contribution": 3813.983892148414
+      },
+      {
+        "p": 11,
+        "triples_lb": 132,
+        "log_contribution": 316.5221760093849
+      }
+    ]
+  },
+  {
+    "n": 30,
+    "budget": 232777.9488009579,
+    "total_lower_bound": 3448248.788025224,
+    "feasible": false,
+    "n_primes": 6,
+    "top_primes": [
+      {
+        "p": 2,
+        "triples_lb": 3307800,
+        "log_contribution": 2292792.243856187
+      },
+      {
+        "p": 3,
+        "triples_lb": 810300,
+        "log_contribution": 890205.5375077693
+      },
+      {
+        "p": 5,
+        "triples_lb": 121800,
+        "log_contribution": 196029.53773447342
+      },
+      {
+        "p": 7,
+        "triples_lb": 31360,
+        "log_contribution": 61023.74227437462
+      },
+      {
+        "p": 11,
+        "triples_lb": 2640,
+        "log_contribution": 6330.443520187699
+      },
+      {
+        "p": 13,
+        "triples_lb": 728,
+        "log_contribution": 1867.2831322319987
+      }
+    ]
+  },
+  {
+    "n": 50,
+    "budget": 1265148.2399554625,
+    "total_lower_bound": 75378801.33971426,
+    "feasible": false,
+    "n_primes": 9,
+    "top_primes": [
+      {
+        "p": 2,
+        "triples_lb": 71472960,
+        "log_contribution": 49541280.71027375
+      },
+      {
+        "p": 3,
+        "triples_lb": 17739072,
+        "log_contribution": 19488362.488768384
+      },
+      {
+        "p": 5,
+        "triples_lb": 2756430,
+        "log_contribution": 4436302.944970727
+      },
+      {
+        "p": 7,
+        "triples_lb": 741664,
+        "log_contribution": 1443211.5047889599
+      },
+      {
+        "p": 11,
+        "triples_lb": 107712,
+        "log_contribution": 258282.0956236581
+      },
+      {
+        "p": 13,
+        "triples_lb": 52052,
+        "log_contribution": 133510.7439545879
+      },
+      {
+        "p": 17,
+        "triples_lb": 17136,
+        "log_contribution": 48549.94386374732
+      },
+      {
+        "p": 19,
+        "triples_lb": 7600,
+        "log_contribution": 22377.736241664945
+      },
+      {
+        "p": 23,
+        "triples_lb": 2208,
+        "log_contribution": 6923.171228771563
+      }
+    ]
+  },
+  {
+    "n": 74,
+    "budget": 4557109.68816383,
+    "total_lower_bound": 801327167.5181319,
+    "feasible": false,
+    "n_primes": 13,
+    "top_primes": [
+      {
+        "p": 2,
+        "triples_lb": 756057120,
+        "log_contribution": 524058861.0702722
+      },
+      {
+        "p": 3,
+        "triples_lb": 188391840,
+        "log_contribution": 206969590.50879636
+      },
+      {
+        "p": 5,
+        "triples_lb": 29647800,
+        "log_contribution": 47716293.34026372
+      },
+      {
+        "p": 7,
+        "triples_lb": 8256640,
+        "log_contribution": 16066679.573096061
+      },
+      {
+        "p": 11,
+        "triples_lb": 1407120,
+        "log_contribution": 3374126.396260043
+      },
+      {
+        "p": 13,
+        "triples_lb": 738920,
+        "log_contribution": 1895292.3792154787
+      },
+      {
+        "p": 17,
+        "triples_lb": 208080,
+        "log_contribution": 589535.0326312175
+      },
+      {
+        "p": 19,
+        "triples_lb": 138320,
+        "log_contribution": 407274.799598302
+      },
+      {
+        "p": 23,
+        "triples_lb": 46368,
+        "log_contribution": 145386.5958042028
+      },
+      {
+        "p": 29,
+        "triples_lb": 17400,
+        "log_contribution": 58590.94744176465
+      }
+    ]
+  }
+]

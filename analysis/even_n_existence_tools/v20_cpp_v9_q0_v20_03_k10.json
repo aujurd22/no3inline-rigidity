@@ -1,0 +1,133 @@
+{
+  "component_count": 3,
+  "enumeration_mode": "explicit_masks",
+  "target_selected": 10,
+  "line_capacity_count": 0,
+  "explicit_mask_count": 14,
+  "distinct_shape_masks": 14,
+  "defect_hitting_masks": 14,
+  "factor_feasible_masks": 1,
+  "all_factor_infeasible": false,
+  "total_factor_search_nodes": 73,
+  "maximum_factor_search_nodes": 8,
+  "root_zero_option_by_deficit": {
+    "1": 0,
+    "2": 0
+  },
+  "search_node_histogram": {
+    "2": 1,
+    "3": 4,
+    "4": 1,
+    "5": 1,
+    "6": 1,
+    "7+": 6
+  },
+  "sample_hitting_masks": [
+    2168981799,
+    6547641348,
+    19344851172,
+    19345113284,
+    19533856832,
+    36508075364,
+    36509910372,
+    36541182213,
+    36545376516,
+    36549570820
+  ],
+  "feasible_masks": [
+    19345113284
+  ],
+  "first_feasible_mask": 19345113284,
+  "first_feasible_cells": [
+    [
+      3,
+      21
+    ],
+    [
+      3,
+      28
+    ],
+    [
+      9,
+      27
+    ],
+    [
+      15,
+      9
+    ],
+    [
+      24,
+      10
+    ],
+    [
+      34,
+      10
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      20,
+      1
+    ],
+    [
+      23,
+      12
+    ],
+    [
+      20,
+      34
+    ]
+  ],
+  "base": "v20_03",
+  "source_certificate": "v20_gpu_root_prefilter_v20_03_k10.json",
+  "source_field": "survivor_masks",
+  "source_root_nonzero_by_adjacency": [
+    0,
+    3,
+    8,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "method": {
+    "name": "CUDA exhaustive fixed-weight mask scan and exact root-option filter, followed by C++ exact deficit f-factor DFS",
+    "k": 10,
+    "normalization": "all exact old-orientation reselections forbidden",
+    "line_capacities": "all primitive non-axis directions with q<=0"
+  },
+  "elapsed_s": 0.5586
+}

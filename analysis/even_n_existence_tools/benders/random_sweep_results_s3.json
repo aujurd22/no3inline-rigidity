@@ -1,0 +1,10 @@
+{
+  "target": 40000,
+  "tested": 8500,
+  "verdicts": {
+    "unsat": 8500
+  },
+  "elapsed_seconds": 2441.817576646805,
+  "breakthrough": false,
+  "rate_per_sec": 3.4810135209496353
+}

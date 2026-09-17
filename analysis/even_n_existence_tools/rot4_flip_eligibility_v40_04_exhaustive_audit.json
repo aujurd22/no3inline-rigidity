@@ -1,0 +1,79 @@
+{
+  "component_count": 3,
+  "distinct_shape_masks": 8379360,
+  "defect_hitting_masks": 187234,
+  "maximum_eligible_flips": 4,
+  "witness_mask": 48461660608,
+  "eligibility_histogram": {
+    "0": 132252,
+    "1": 47286,
+    "2": 7093,
+    "3": 583,
+    "4": 20
+  },
+  "base": "v40_04",
+  "cycle_edge_orders": [
+    [
+      0,
+      28,
+      27,
+      14,
+      10,
+      11,
+      24,
+      25,
+      31,
+      30,
+      35,
+      36,
+      18,
+      17,
+      32,
+      33,
+      1
+    ],
+    [
+      2,
+      9,
+      8,
+      23,
+      5,
+      4,
+      6,
+      7,
+      16,
+      15,
+      21,
+      22,
+      29,
+      12,
+      13,
+      3
+    ],
+    [
+      19,
+      26,
+      34,
+      20
+    ]
+  ],
+  "witness_removed_indices": [
+    6,
+    7,
+    8,
+    14,
+    17,
+    19,
+    23,
+    27,
+    30,
+    32,
+    33,
+    35
+  ],
+  "cp_sat_cross_check": {
+    "status": "OPTIMAL",
+    "objective": 4,
+    "agrees": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "model": "config-model random 2-factor (2m stubs paired)",
+  "note": "m=37 was absent from gating_lll_r1.json (which stopped at m=30). This re-verifies switch-reducibility (red_config_frac) for m=37 only, under a <10min budget. red_config_frac = fraction of bad configs that have >=1 strictly reducing 2-switch (the switching/entropy-compression viability criterion; ~1.0 for m>=14 previously).",
+  "result": {
+    "m": 37,
+    "n_cfg": 150,
+    "n_red": 60,
+    "K": 200,
+    "E_B": 293.0933333333333,
+    "N_candidates": 26370,
+    "pbar": 0.011114650486664138,
+    "d_mean": 172.9645164225275,
+    "d_max": 305,
+    "e_p_d_vanilla": 5.255946869335504,
+    "red_config_frac": 1.0,
+    "mean_red_frac": 0.446,
+    "max_red_seen": 66,
+    "sec": 52.7
+  }
+}

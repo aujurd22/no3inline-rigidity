@@ -1,0 +1,12 @@
+{"tested": 1, "u": 0, "v": 0, "multiplier": 1, "status": "INFEASIBLE", "constraints": 301, "solve_seconds": 0.08069120004074648}
+{"tested": 2, "u": 0, "v": 0, "multiplier": 2, "status": "INFEASIBLE", "constraints": 244, "solve_seconds": 0.07416839996585622}
+{"tested": 3, "u": 0, "v": 0, "multiplier": 3, "status": "INFEASIBLE", "constraints": 244, "solve_seconds": 0.0736511999857612}
+{"tested": 4, "u": 0, "v": 0, "multiplier": 4, "status": "INFEASIBLE", "constraints": 303, "solve_seconds": 0.08806320000439882}
+{
+  "summary": true,
+  "tested": 4,
+  "counts": {
+    "INFEASIBLE": 4
+  },
+  "elapsed_seconds": 0.38764019997324795
+}

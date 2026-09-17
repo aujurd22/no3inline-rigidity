@@ -1,0 +1,100 @@
+{
+  "component_count": 3,
+  "enumeration_mode": "fixed_adjacency",
+  "target_selected": 7,
+  "target_adjacency": 3,
+  "distinct_shape_masks": 918540,
+  "defect_hitting_masks": 34962,
+  "factor_feasible_masks": 0,
+  "all_factor_infeasible": true,
+  "total_factor_search_nodes": 34962,
+  "maximum_factor_search_nodes": 1,
+  "root_zero_option_by_deficit": {
+    "1": 23668,
+    "2": 11294
+  },
+  "search_node_histogram": {
+    "1": 34962
+  },
+  "sample_hitting_masks": [
+    34460405936,
+    34460405968,
+    34460414096,
+    34460471440,
+    34460475472,
+    34460475536,
+    38755373248,
+    38755377296,
+    38755377312,
+    38755381376
+  ],
+  "feasible_masks": [],
+  "first_feasible_mask": 0,
+  "first_feasible_cells": [],
+  "base": "v20_02",
+  "cycle_edge_orders": [
+    [
+      0,
+      14,
+      15,
+      22,
+      21,
+      20,
+      18,
+      19,
+      34,
+      3,
+      2,
+      17,
+      9,
+      8,
+      30,
+      27,
+      23,
+      24,
+      36,
+      11,
+      10,
+      29,
+      28,
+      31,
+      1
+    ],
+    [
+      4,
+      32,
+      33,
+      35,
+      16,
+      12,
+      13,
+      7,
+      6,
+      26,
+      5
+    ],
+    [
+      25
+    ]
+  ],
+  "first_feasible_removed_indices": [],
+  "method": {
+    "k": 7,
+    "A": 3,
+    "required_full_cycle_length": null,
+    "cycle_handling": "direct local (selected-edge-count, adjacency-count) generation; empty, partially selected, and fully selected cycles are distinct",
+    "normalization": "all exact old-orientation reselections forbidden",
+    "multigraph": "both (u,v) and (v,u) allowed simultaneously",
+    "geometry": "candidate cells filtered by exact retained-base blocker masks",
+    "factor": "exact deficit-0/1/2 f-factor DFS; loops consume 2 and opposite orientations may form a digon",
+    "line_capacities": "none (q=0 shadow factor)",
+    "archive": "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\v20_basin_archive.json",
+    "hitting": "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\v20_defect_hitting_v20_02.json"
+  },
+  "stderr_progress_tail": [
+    "hit=10000 feasible=0 nodes=10000",
+    "hit=20000 feasible=0 nodes=20000",
+    "hit=30000 feasible=0 nodes=30000"
+  ],
+  "elapsed_s": 0.884
+}

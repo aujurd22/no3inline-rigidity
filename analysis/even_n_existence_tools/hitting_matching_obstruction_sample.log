@@ -1,0 +1,110 @@
+{"n": 4, "graph_index": 0, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 1], [2, 2], [3, 0], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 44, "edge_disjoint": true, "result": {"status": "OPTIMAL", "objective_bound": 3.0, "minimum_triples": 3, "triples": [[[0, 1], [1, 3], [3, 0]], [[0, 2], [1, 0], [3, 3]], [[0, 3], [1, 1], [3, 2]]]}}
+OBSTRUCTION_FOUND
+[
+  {
+    "n": 4,
+    "graph_index": 0,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 44,
+    "edge_disjoint": true,
+    "result": {
+      "status": "OPTIMAL",
+      "objective_bound": 3.0,
+      "minimum_triples": 3,
+      "triples": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      ]
+    }
+  }
+]

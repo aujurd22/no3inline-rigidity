@@ -1,0 +1,29 @@
+{
+  "definition": "exact C4-NTIL feasibility with selected-cell Hamming distance bound",
+  "seed_input": "analysis\\results\\pair_codegree_37\\exact_orient_best_oneswitch_m37.json",
+  "seed_objective": 60,
+  "radius": 10,
+  "model_statistics": {
+    "primitive_directions_with_possible_three_point_lines": 1584,
+    "lines_with_at_least_three_grid_points": 1264378,
+    "line_enumeration_seconds": 1.465782900006161,
+    "variables": 1369,
+    "degree_constraints": 37,
+    "raw_line_constraints_before_c4_deduplication": 1264378,
+    "line_constraints": 316153,
+    "line_cell_coefficient_histogram": {
+      "1": 1201050,
+      "2": 866
+    }
+  },
+  "build_seconds": 7.306803226470947,
+  "status": "INFEASIBLE",
+  "feasible": false,
+  "best_objective_bound": 0.0,
+  "solve_seconds": 43.40218639373779,
+  "workers": 4,
+  "distance": null,
+  "solution_cells": null,
+  "verification": null,
+  "interpretation": "INFEASIBLE proves every C4-NTIL solution has selected-cell distance at least 11 from this seed"
+}

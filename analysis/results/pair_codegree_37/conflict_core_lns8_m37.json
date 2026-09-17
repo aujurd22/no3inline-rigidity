@@ -1,0 +1,224 @@
+{
+  "definition": "exact NTIL LNS fixing all score-60 cells outside one minimum conflict-edge hitting set",
+  "seed_input": "analysis\\results\\pair_codegree_37\\exact_orient_best_oneswitch_m37.json",
+  "core_input": "analysis\\results\\pair_codegree_37\\exact60_conflict_core.json",
+  "seed_objective": 60,
+  "active_edge_indices": [
+    4,
+    9,
+    16,
+    17,
+    25,
+    30,
+    32,
+    36
+  ],
+  "active_edges": [
+    [
+      2,
+      23
+    ],
+    [
+      4,
+      31
+    ],
+    [
+      8,
+      24
+    ],
+    [
+      8,
+      25
+    ],
+    [
+      12,
+      36
+    ],
+    [
+      15,
+      34
+    ],
+    [
+      20,
+      25
+    ],
+    [
+      29,
+      30
+    ]
+  ],
+  "active_cells": [
+    [
+      23,
+      2
+    ],
+    [
+      31,
+      4
+    ],
+    [
+      24,
+      8
+    ],
+    [
+      8,
+      25
+    ],
+    [
+      12,
+      36
+    ],
+    [
+      34,
+      15
+    ],
+    [
+      25,
+      20
+    ],
+    [
+      30,
+      29
+    ]
+  ],
+  "fixed_cell_count": 29,
+  "fixed_cells": [
+    [
+      0,
+      30
+    ],
+    [
+      1,
+      27
+    ],
+    [
+      3,
+      16
+    ],
+    [
+      3,
+      23
+    ],
+    [
+      5,
+      22
+    ],
+    [
+      5,
+      35
+    ],
+    [
+      6,
+      15
+    ],
+    [
+      6,
+      31
+    ],
+    [
+      7,
+      18
+    ],
+    [
+      9,
+      35
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      12,
+      27
+    ],
+    [
+      13,
+      26
+    ],
+    [
+      14,
+      36
+    ],
+    [
+      16,
+      28
+    ],
+    [
+      19,
+      1
+    ],
+    [
+      19,
+      4
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      21,
+      32
+    ],
+    [
+      22,
+      14
+    ],
+    [
+      24,
+      10
+    ],
+    [
+      28,
+      7
+    ],
+    [
+      29,
+      13
+    ],
+    [
+      32,
+      9
+    ],
+    [
+      33,
+      0
+    ],
+    [
+      33,
+      21
+    ],
+    [
+      34,
+      2
+    ]
+  ],
+  "model_statistics": {
+    "primitive_directions_with_possible_three_point_lines": 1584,
+    "lines_with_at_least_three_grid_points": 1264378,
+    "line_enumeration_seconds": 1.4320627999986755,
+    "variables": 1369,
+    "degree_constraints": 37,
+    "raw_line_constraints_before_c4_deduplication": 1264378,
+    "line_constraints": 316153,
+    "line_cell_coefficient_histogram": {
+      "1": 1201050,
+      "2": 866
+    }
+  },
+  "build_seconds": 7.0152928829193115,
+  "status": "INFEASIBLE",
+  "feasible": false,
+  "best_objective_bound": 0.0,
+  "solve_seconds": 0.8465533256530762,
+  "workers": 4,
+  "solution_cells": null,
+  "verification": null
+}

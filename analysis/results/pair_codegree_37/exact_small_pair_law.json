@@ -1,0 +1,144 @@
+{
+  "definition": "exact labelled C4-NTIL solution spaces, no sampling",
+  "results": [
+    {
+      "m": 3,
+      "exact_labelled_solutions": 6,
+      "search_nodes": 27,
+      "enumeration_seconds": 5.69e-05,
+      "supported_eligible_pairs": 0,
+      "observed_supported_pairs": 0,
+      "distinct_supported_codegrees": 0,
+      "linear_log2_ratio_vs_D_over_m": null,
+      "intercept_only_deviance": null,
+      "pair_deviance_explained": null
+    },
+    {
+      "m": 4,
+      "exact_labelled_solutions": 8,
+      "search_nodes": 170,
+      "enumeration_seconds": 0.0006567,
+      "supported_eligible_pairs": 8,
+      "observed_supported_pairs": 8,
+      "distinct_supported_codegrees": 3,
+      "linear_log2_ratio_vs_D_over_m": {
+        "coefficients": [
+          0.4534033620295989,
+          -0.1082832878816454
+        ],
+        "deviance": 4.036602516599336
+      },
+      "intercept_only_deviance": 4.185985150116383,
+      "pair_deviance_explained": 0.03568637445187628
+    },
+    {
+      "m": 5,
+      "exact_labelled_solutions": 13,
+      "search_nodes": 1067,
+      "enumeration_seconds": 0.0045298,
+      "supported_eligible_pairs": 68,
+      "observed_supported_pairs": 42,
+      "distinct_supported_codegrees": 12,
+      "linear_log2_ratio_vs_D_over_m": {
+        "coefficients": [
+          0.8147793704505749,
+          -0.15219177240160997
+        ],
+        "deviance": 55.31233959426531
+      },
+      "intercept_only_deviance": 59.58047211002122,
+      "pair_deviance_explained": 0.07163643329100144
+    },
+    {
+      "m": 6,
+      "exact_labelled_solutions": 8,
+      "search_nodes": 7665,
+      "enumeration_seconds": 0.0439843,
+      "supported_eligible_pairs": 122,
+      "observed_supported_pairs": 58,
+      "distinct_supported_codegrees": 13,
+      "linear_log2_ratio_vs_D_over_m": {
+        "coefficients": [
+          1.0233801267436349,
+          -0.21369043229681528
+        ],
+        "deviance": 99.55935628161241
+      },
+      "intercept_only_deviance": 106.73358497778527,
+      "pair_deviance_explained": 0.06721622531151794
+    },
+    {
+      "m": 7,
+      "exact_labelled_solutions": 26,
+      "search_nodes": 55437,
+      "enumeration_seconds": 0.265112,
+      "supported_eligible_pairs": 378,
+      "observed_supported_pairs": 194,
+      "distinct_supported_codegrees": 20,
+      "linear_log2_ratio_vs_D_over_m": {
+        "coefficients": [
+          0.6758190279740778,
+          -0.11106475969624484
+        ],
+        "deviance": 428.0796915610545
+      },
+      "intercept_only_deviance": 439.89118225680136,
+      "pair_deviance_explained": 0.026850937623140392
+    },
+    {
+      "m": 8,
+      "exact_labelled_solutions": 26,
+      "search_nodes": 423438,
+      "enumeration_seconds": 2.60489,
+      "supported_eligible_pairs": 740,
+      "observed_supported_pairs": 354,
+      "distinct_supported_codegrees": 23,
+      "linear_log2_ratio_vs_D_over_m": {
+        "coefficients": [
+          0.7107027031409541,
+          -0.14102048841815712
+        ],
+        "deviance": 654.3745828445692
+      },
+      "intercept_only_deviance": 679.6915366785192,
+      "pair_deviance_explained": 0.0372477108625886
+    },
+    {
+      "m": 9,
+      "exact_labelled_solutions": 14,
+      "search_nodes": 3653037,
+      "enumeration_seconds": 25.4418,
+      "supported_eligible_pairs": 930,
+      "observed_supported_pairs": 314,
+      "distinct_supported_codegrees": 28,
+      "linear_log2_ratio_vs_D_over_m": {
+        "coefficients": [
+          0.7290897297314314,
+          -0.15952092391305184
+        ],
+        "deviance": 662.94875825514
+      },
+      "intercept_only_deviance": 685.783456519609,
+      "pair_deviance_explained": 0.03329724280657986
+    },
+    {
+      "m": 10,
+      "exact_labelled_solutions": 32,
+      "search_nodes": 33054232,
+      "enumeration_seconds": 242.618,
+      "supported_eligible_pairs": 2156,
+      "observed_supported_pairs": 744,
+      "distinct_supported_codegrees": 32,
+      "linear_log2_ratio_vs_D_over_m": {
+        "coefficients": [
+          0.7347077778339496,
+          -0.16978328334880194
+        ],
+        "deviance": 1808.046271622502
+      },
+      "intercept_only_deviance": 1882.111917372993,
+      "pair_deviance_explained": 0.03935241314122817
+    }
+  ],
+  "warning": "very small solution counts make per-m slopes unstable"
+}

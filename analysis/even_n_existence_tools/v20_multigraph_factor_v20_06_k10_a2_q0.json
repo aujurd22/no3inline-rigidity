@@ -1,0 +1,120 @@
+{
+  "component_count": 4,
+  "enumeration_mode": "fixed_adjacency",
+  "target_selected": 10,
+  "target_adjacency": 2,
+  "distinct_shape_masks": 102526359,
+  "defect_hitting_masks": 6303177,
+  "factor_feasible_masks": 0,
+  "all_factor_infeasible": true,
+  "total_factor_search_nodes": 6303180,
+  "maximum_factor_search_nodes": 4,
+  "root_zero_option_by_deficit": {
+    "1": 4636500,
+    "2": 1666676
+  },
+  "search_node_histogram": {
+    "1": 6303176,
+    "4": 1
+  },
+  "sample_hitting_masks": [
+    8592380801,
+    8592511617,
+    34362188609,
+    34362319425,
+    42952115009,
+    42952245825,
+    42952119041,
+    42952249857,
+    68721922945,
+    68722053761
+  ],
+  "feasible_masks": [],
+  "first_feasible_mask": 0,
+  "first_feasible_cells": [],
+  "base": "v20_06",
+  "cycle_edge_orders": [
+    [
+      0,
+      11,
+      10,
+      15,
+      16,
+      27,
+      24,
+      25,
+      32,
+      30,
+      29,
+      31,
+      19,
+      18,
+      20,
+      23,
+      28,
+      34,
+      3,
+      2,
+      26,
+      5,
+      4,
+      21,
+      22,
+      1
+    ],
+    [
+      6,
+      12,
+      13,
+      33,
+      36,
+      35,
+      7
+    ],
+    [
+      8,
+      17,
+      9
+    ],
+    [
+      14
+    ]
+  ],
+  "first_feasible_removed_indices": [],
+  "method": {
+    "k": 10,
+    "A": 2,
+    "required_full_cycle_length": null,
+    "cycle_handling": "direct local (selected-edge-count, adjacency-count) generation; empty, partially selected, and fully selected cycles are distinct",
+    "normalization": "all exact old-orientation reselections forbidden",
+    "multigraph": "both (u,v) and (v,u) allowed simultaneously",
+    "geometry": "candidate cells filtered by exact retained-base blocker masks",
+    "factor": "exact deficit-0/1/2 f-factor DFS; loops consume 2 and opposite orientations may form a digon",
+    "line_capacities": "none (q=0 shadow factor)",
+    "archive": "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\v20_basin_archive.json",
+    "hitting": "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\v20_defect_hitting_v20_06.json"
+  },
+  "stderr_progress_tail": [
+    "hit=6110000 feasible=0 nodes=6110003",
+    "hit=6120000 feasible=0 nodes=6120003",
+    "hit=6130000 feasible=0 nodes=6130003",
+    "hit=6140000 feasible=0 nodes=6140003",
+    "hit=6150000 feasible=0 nodes=6150003",
+    "hit=6160000 feasible=0 nodes=6160003",
+    "hit=6170000 feasible=0 nodes=6170003",
+    "hit=6180000 feasible=0 nodes=6180003",
+    "hit=6190000 feasible=0 nodes=6190003",
+    "hit=6200000 feasible=0 nodes=6200003",
+    "hit=6210000 feasible=0 nodes=6210003",
+    "hit=6220000 feasible=0 nodes=6220003",
+    "hit=6230000 feasible=0 nodes=6230003",
+    "hit=6240000 feasible=0 nodes=6240003",
+    "hit=6250000 feasible=0 nodes=6250003",
+    "hit=6260000 feasible=0 nodes=6260003",
+    "hit=6270000 feasible=0 nodes=6270003",
+    "hit=6280000 feasible=0 nodes=6280003",
+    "hit=6290000 feasible=0 nodes=6290003",
+    "hit=6300000 feasible=0 nodes=6300003"
+  ],
+  "elapsed_s": 26.326
+}

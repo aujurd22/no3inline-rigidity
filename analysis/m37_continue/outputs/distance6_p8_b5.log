@@ -1,0 +1,66 @@
+best index=0 objective=76 matching_count=1
+count=100 best=76 elapsed=16.12s
+count=200 best=76 elapsed=32.773s
+best index=266 objective=72 matching_count=267
+count=300 best=72 elapsed=50.411s
+best index=340 objective=60 matching_count=341
+count=400 best=60 elapsed=65.99s
+count=500 best=60 elapsed=81.039s
+count=600 best=60 elapsed=96.485s
+count=700 best=60 elapsed=111.981s
+count=800 best=60 elapsed=128.543s
+count=900 best=60 elapsed=148.01s
+count=1000 best=60 elapsed=165.393s
+count=1100 best=60 elapsed=182.849s
+count=1200 best=60 elapsed=201.733s
+count=1300 best=60 elapsed=220.231s
+count=1400 best=60 elapsed=239.67s
+count=1500 best=60 elapsed=258.855s
+count=1600 best=60 elapsed=279.325s
+count=1700 best=60 elapsed=299.482s
+count=1800 best=60 elapsed=319.849s
+count=1900 best=60 elapsed=340.73s
+count=2000 best=60 elapsed=362.058s
+count=2100 best=60 elapsed=384.062s
+count=2200 best=60 elapsed=406.056s
+count=2300 best=60 elapsed=428.569s
+count=2400 best=60 elapsed=452.715s
+count=2500 best=60 elapsed=477.042s
+count=2600 best=60 elapsed=501.312s
+count=2700 best=60 elapsed=527.729s
+count=2800 best=60 elapsed=553.928s
+count=2900 best=60 elapsed=580.887s
+count=3000 best=60 elapsed=606.734s
+count=3100 best=60 elapsed=635.479s
+count=3200 best=60 elapsed=665.791s
+count=3300 best=60 elapsed=693.774s
+count=3400 best=60 elapsed=722.988s
+count=3500 best=60 elapsed=752.124s
+count=3600 best=60 elapsed=781.574s
+count=3700 best=60 elapsed=810.852s
+count=3800 best=60 elapsed=840.124s
+count=3900 best=60 elapsed=870.47s
+count=4000 best=60 elapsed=904.199s
+count=4100 best=60 elapsed=937.59s
+count=4200 best=60 elapsed=968.138s
+count=4300 best=60 elapsed=1001.79s
+count=4400 best=60 elapsed=1034.21s
+count=4500 best=60 elapsed=1067.616s
+count=4600 best=60 elapsed=1100.711s
+count=4700 best=60 elapsed=1133.851s
+count=4800 best=60 elapsed=1168.435s
+count=4900 best=60 elapsed=1203.02s
+count=5000 best=60 elapsed=1238.506s
+count=5100 best=60 elapsed=1275.758s
+count=5200 best=60 elapsed=1311.961s
+count=5300 best=60 elapsed=1349.397s
+count=5400 best=60 elapsed=1386.321s
+count=5500 best=60 elapsed=1423.873s
+count=5600 best=60 elapsed=1462.54s
+count=5700 best=60 elapsed=1501.443s
+count=5800 best=60 elapsed=1540.517s
+count=5900 best=60 elapsed=1581.89s
+count=6000 best=60 elapsed=1623.418s
+count=6100 best=60 elapsed=1667.738s
+done count=6182 closed=True status=INFEASIBLE elapsed=1712.26s
+C:\Users\djr82\Documents\Codex\2026-07-13\d-djr82-documents-workbuddy-2026-07-2\work\ising_m37\outputs\matching_master_distance6_p8_b5.json

@@ -1,0 +1,501 @@
+{
+  "A_verified_conservation": {
+    "3": {
+      "n_verified": 3,
+      "common_rings": 2,
+      "union_rings": 2,
+      "common_frac": 0.6666666666666666,
+      "concentric": 0,
+      "ring_freq_dist": {
+        "3": 2
+      }
+    },
+    "4": {
+      "n_verified": 4,
+      "common_rings": 3,
+      "union_rings": 3,
+      "common_frac": 0.75,
+      "concentric": 0,
+      "ring_freq_dist": {
+        "4": 3
+      }
+    }
+  },
+  "B_radial_law_compliance": {
+    "3": {
+      "n_2factors": 3,
+      "radial_ok": 3,
+      "rate": 1.0,
+      "max_per_ring": 2
+    },
+    "4": {
+      "n_2factors": 4,
+      "radial_ok": 4,
+      "rate": 1.0,
+      "max_per_ring": 2
+    },
+    "5": {
+      "n_2factors": 6,
+      "radial_ok": 6,
+      "rate": 1.0,
+      "max_per_ring": 1
+    },
+    "6": {
+      "n_2factors": 4,
+      "radial_ok": 3,
+      "rate": 0.75,
+      "max_per_ring": 3
+    },
+    "7": {
+      "n_2factors": 13,
+      "radial_ok": 13,
+      "rate": 1.0,
+      "max_per_ring": 2
+    },
+    "8": {
+      "n_2factors": 13,
+      "radial_ok": 8,
+      "rate": 0.6153846153846154,
+      "max_per_ring": 3
+    },
+    "9": {
+      "n_2factors": 7,
+      "radial_ok": 7,
+      "rate": 1.0,
+      "max_per_ring": 2
+    },
+    "10": {
+      "n_2factors": 16,
+      "radial_ok": 12,
+      "rate": 0.75,
+      "max_per_ring": 3
+    },
+    "11": {
+      "n_2factors": 8,
+      "radial_ok": 7,
+      "rate": 0.875,
+      "max_per_ring": 3
+    },
+    "12": {
+      "n_2factors": 23,
+      "radial_ok": 19,
+      "rate": 0.8260869565217391,
+      "max_per_ring": 3
+    },
+    "13": {
+      "n_2factors": 36,
+      "radial_ok": 35,
+      "rate": 0.9722222222222222,
+      "max_per_ring": 3
+    },
+    "14": {
+      "n_2factors": 58,
+      "radial_ok": 51,
+      "rate": 0.8793103448275862,
+      "max_per_ring": 3
+    },
+    "15": {
+      "n_2factors": 92,
+      "radial_ok": 78,
+      "rate": 0.8478260869565217,
+      "max_per_ring": 3
+    },
+    "16": {
+      "n_2factors": 101,
+      "radial_ok": 88,
+      "rate": 0.8712871287128713,
+      "max_per_ring": 3
+    },
+    "17": {
+      "n_2factors": 172,
+      "radial_ok": 159,
+      "rate": 0.9244186046511628,
+      "max_per_ring": 3
+    },
+    "18": {
+      "n_2factors": 281,
+      "radial_ok": 250,
+      "rate": 0.8896797153024911,
+      "max_per_ring": 4
+    },
+    "19": {
+      "n_2factors": 337,
+      "radial_ok": 314,
+      "rate": 0.9317507418397626,
+      "max_per_ring": 3
+    },
+    "20": {
+      "n_2factors": 541,
+      "radial_ok": 463,
+      "rate": 0.8558225508317929,
+      "max_per_ring": 4
+    },
+    "21": {
+      "n_2factors": 746,
+      "radial_ok": 681,
+      "rate": 0.9128686327077749,
+      "max_per_ring": 4
+    },
+    "22": {
+      "n_2factors": 1016,
+      "radial_ok": 906,
+      "rate": 0.8917322834645669,
+      "max_per_ring": 4
+    },
+    "27": {
+      "n_2factors": 7696,
+      "radial_ok": 7054,
+      "rate": 0.9165800415800416,
+      "max_per_ring": 5
+    },
+    "28": {
+      "n_2factors": 10441,
+      "radial_ok": 8918,
+      "rate": 0.8541327459055646,
+      "max_per_ring": 5
+    },
+    "29": {
+      "n_2factors": 19,
+      "radial_ok": 16,
+      "rate": 0.8421052631578947,
+      "max_per_ring": 4
+    },
+    "30": {
+      "n_2factors": 32,
+      "radial_ok": 28,
+      "rate": 0.875,
+      "max_per_ring": 3
+    },
+    "31": {
+      "n_2factors": 5,
+      "radial_ok": 2,
+      "rate": 0.4,
+      "max_per_ring": 3
+    }
+  },
+  "C_ring_set_conservation": {
+    "3": {
+      "n": 3,
+      "common_all": 2,
+      "common_radial_ok": 2,
+      "union": 2,
+      "rings_used_dist": {
+        "2": 3
+      }
+    },
+    "4": {
+      "n": 4,
+      "common_all": 3,
+      "common_radial_ok": 3,
+      "union": 3,
+      "rings_used_dist": {
+        "3": 4
+      }
+    },
+    "5": {
+      "n": 6,
+      "common_all": 5,
+      "common_radial_ok": 5,
+      "union": 5,
+      "rings_used_dist": {
+        "5": 6
+      }
+    },
+    "6": {
+      "n": 4,
+      "common_all": 3,
+      "common_radial_ok": 4,
+      "union": 6,
+      "rings_used_dist": {
+        "4": 2,
+        "6": 2
+      }
+    },
+    "7": {
+      "n": 13,
+      "common_all": 1,
+      "common_radial_ok": 1,
+      "union": 9,
+      "rings_used_dist": {
+        "4": 1,
+        "5": 6,
+        "6": 4,
+        "7": 2
+      }
+    },
+    "8": {
+      "n": 13,
+      "common_all": 1,
+      "common_radial_ok": 1,
+      "union": 9,
+      "rings_used_dist": {
+        "5": 3,
+        "6": 5,
+        "7": 5
+      }
+    },
+    "9": {
+      "n": 7,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 14,
+      "rings_used_dist": {
+        "7": 3,
+        "8": 2,
+        "9": 2
+      }
+    },
+    "10": {
+      "n": 16,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 14,
+      "rings_used_dist": {
+        "7": 5,
+        "8": 9,
+        "9": 2
+      }
+    },
+    "11": {
+      "n": 8,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 19,
+      "rings_used_dist": {
+        "7": 1,
+        "9": 3,
+        "10": 4
+      }
+    },
+    "12": {
+      "n": 23,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 19,
+      "rings_used_dist": {
+        "8": 2,
+        "9": 6,
+        "10": 6,
+        "11": 8,
+        "12": 1
+      }
+    },
+    "13": {
+      "n": 36,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 26,
+      "rings_used_dist": {
+        "9": 1,
+        "10": 3,
+        "11": 13,
+        "12": 14,
+        "13": 5
+      }
+    },
+    "14": {
+      "n": 58,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 25,
+      "rings_used_dist": {
+        "10": 4,
+        "11": 8,
+        "12": 24,
+        "13": 15,
+        "14": 7
+      }
+    },
+    "15": {
+      "n": 92,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 34,
+      "rings_used_dist": {
+        "11": 8,
+        "12": 15,
+        "13": 28,
+        "14": 30,
+        "15": 11
+      }
+    },
+    "16": {
+      "n": 101,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 32,
+      "rings_used_dist": {
+        "11": 1,
+        "12": 7,
+        "13": 24,
+        "14": 29,
+        "15": 33,
+        "16": 7
+      }
+    },
+    "17": {
+      "n": 172,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 42,
+      "rings_used_dist": {
+        "12": 2,
+        "13": 6,
+        "14": 23,
+        "15": 55,
+        "16": 63,
+        "17": 23
+      }
+    },
+    "18": {
+      "n": 281,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 39,
+      "rings_used_dist": {
+        "13": 5,
+        "14": 26,
+        "15": 74,
+        "16": 100,
+        "17": 60,
+        "18": 16
+      }
+    },
+    "19": {
+      "n": 337,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 51,
+      "rings_used_dist": {
+        "13": 2,
+        "14": 4,
+        "15": 22,
+        "16": 46,
+        "17": 100,
+        "18": 106,
+        "19": 57
+      }
+    },
+    "20": {
+      "n": 541,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 47,
+      "rings_used_dist": {
+        "13": 1,
+        "14": 7,
+        "15": 27,
+        "16": 78,
+        "17": 150,
+        "18": 162,
+        "19": 97,
+        "20": 19
+      }
+    },
+    "21": {
+      "n": 746,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 61,
+      "rings_used_dist": {
+        "15": 2,
+        "16": 21,
+        "17": 66,
+        "18": 144,
+        "19": 223,
+        "20": 185,
+        "21": 105
+      }
+    },
+    "22": {
+      "n": 1016,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 56,
+      "rings_used_dist": {
+        "15": 2,
+        "16": 6,
+        "17": 28,
+        "18": 121,
+        "19": 237,
+        "20": 317,
+        "21": 227,
+        "22": 78
+      }
+    },
+    "27": {
+      "n": 7696,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 94,
+      "rings_used_dist": {
+        "19": 1,
+        "20": 17,
+        "21": 56,
+        "22": 246,
+        "23": 753,
+        "24": 1587,
+        "25": 2351,
+        "26": 1960,
+        "27": 725
+      }
+    },
+    "28": {
+      "n": 10441,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 87,
+      "rings_used_dist": {
+        "19": 1,
+        "20": 12,
+        "21": 76,
+        "22": 235,
+        "23": 807,
+        "24": 1713,
+        "25": 2600,
+        "26": 2764,
+        "27": 1748,
+        "28": 485
+      }
+    },
+    "29": {
+      "n": 19,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 102,
+      "rings_used_dist": {
+        "24": 1,
+        "25": 3,
+        "26": 5,
+        "27": 4,
+        "28": 5,
+        "29": 1
+      }
+    },
+    "30": {
+      "n": 32,
+      "common_all": 0,
+      "common_radial_ok": 0,
+      "union": 99,
+      "rings_used_dist": {
+        "24": 2,
+        "26": 8,
+        "27": 7,
+        "28": 7,
+        "29": 6,
+        "30": 2
+      }
+    },
+    "31": {
+      "n": 5,
+      "common_all": 0,
+      "common_radial_ok": 6,
+      "union": 91,
+      "rings_used_dist": {
+        "27": 1,
+        "28": 3,
+        "31": 1
+      }
+    }
+  }
+}

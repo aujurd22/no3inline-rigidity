@@ -1,0 +1,35 @@
+{
+  "parameters": {
+    "base": "v40_01",
+    "size": 12,
+    "adjacency_count": 6,
+    "triple_count": 1,
+    "quadruple_count": 0,
+    "loop_counts": "0,1",
+    "direction_q": 3,
+    "time_limit": 300.0,
+    "workers": 4,
+    "out": "rot4_loop_split_v40_01_k12_a6_b1_c0_norm_q3.json"
+  },
+  "expected_loop_counts": [
+    0,
+    1
+  ],
+  "layers": [
+    {
+      "loop_count": 0,
+      "classification": "UNRESOLVED",
+      "status": "UNKNOWN",
+      "wall_s": 300.09,
+      "evidence": "rot4_short_v40_01_k12_a6_b1_c0_l0_norm_q3hard.json"
+    },
+    {
+      "loop_count": 1,
+      "classification": "CLOSED_Q3",
+      "status": "INFEASIBLE",
+      "wall_s": 150.78,
+      "evidence": "rot4_short_v40_01_k12_a6_b1_c0_l1_norm_q3hard.json"
+    }
+  ],
+  "complete_closure": false
+}

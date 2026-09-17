@@ -1,0 +1,642 @@
+[
+  {
+    "name": "m37_weighted_48",
+    "edges": [
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        6,
+        17
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        22,
+        35
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        27
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "bits": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "factor": {
+      "edge_count": 37,
+      "degree_histogram": {
+        "2": 37
+      },
+      "is_2factor": true,
+      "duplicate_unordered_edges": 0,
+      "loops": 0
+    },
+    "diagonal_invariant": {
+      "bad_diagonal_triples": 0,
+      "max_diagonal_occupancy": 2,
+      "overfull_plus_lines": {},
+      "overfull_minus_lines": {}
+    },
+    "geometry_line_key": {
+      "point_count": 148,
+      "distinct_point_count": 148,
+      "bad_triples": 48,
+      "bad_line_count": 48,
+      "max_points_on_line": 3
+    },
+    "geometry_bruteforce": 48,
+    "weighted_repeat_exact": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 16.165,
+      "optimal": true,
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "violations": 48,
+      "pair_energy": -676,
+      "geometry": {
+        "point_count": 148,
+        "distinct_point_count": 148,
+        "bad_triples": 48,
+        "bad_line_count": 48,
+        "max_points_on_line": 3
+      }
+    },
+    "legacy_clause_count": 700,
+    "legacy_complement_pairs": 350,
+    "legacy_missing_complements": 0,
+    "legacy_violations_at_weighted_bits": 46,
+    "legacy_exact": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 1.543,
+      "optimal": true,
+      "best_bound": 17.0,
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "violations": 17
+    }
+  },
+  {
+    "name": "m37_weighted_52",
+    "edges": [
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        22
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        6,
+        17
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        22,
+        35
+      ],
+      [
+        14,
+        27
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "bits": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "factor": {
+      "edge_count": 37,
+      "degree_histogram": {
+        "2": 37
+      },
+      "is_2factor": true,
+      "duplicate_unordered_edges": 0,
+      "loops": 0
+    },
+    "diagonal_invariant": {
+      "bad_diagonal_triples": 0,
+      "max_diagonal_occupancy": 2,
+      "overfull_plus_lines": {},
+      "overfull_minus_lines": {}
+    },
+    "geometry_line_key": {
+      "point_count": 148,
+      "distinct_point_count": 148,
+      "bad_triples": 52,
+      "bad_line_count": 52,
+      "max_points_on_line": 3
+    },
+    "geometry_bruteforce": 52,
+    "weighted_repeat_exact": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 15.449,
+      "optimal": true,
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "violations": 52,
+      "pair_energy": -676,
+      "geometry": {
+        "point_count": 148,
+        "distinct_point_count": 148,
+        "bad_triples": 52,
+        "bad_line_count": 52,
+        "max_points_on_line": 3
+      }
+    },
+    "legacy_clause_count": 708,
+    "legacy_complement_pairs": 354,
+    "legacy_missing_complements": 0,
+    "legacy_violations_at_weighted_bits": 47,
+    "legacy_exact": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 1.186,
+      "optimal": true,
+      "best_bound": 15.0,
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "violations": 15
+    }
+  }
+]

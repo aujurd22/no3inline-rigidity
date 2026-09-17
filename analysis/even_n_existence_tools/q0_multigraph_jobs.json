@@ -1,0 +1,22 @@
+[
+  {
+    "Base": "v40_01",
+    "Pid": 27416,
+    "Out": "rot4_short_v40_01_k12_a6_b1_c0_norm_multigraph_q0.json"
+  },
+  {
+    "Base": "v40_02",
+    "Pid": 43644,
+    "Out": "rot4_short_v40_02_k12_a6_b1_c0_norm_multigraph_q0.json"
+  },
+  {
+    "Base": "v40_03",
+    "Pid": 48044,
+    "Out": "rot4_short_v40_03_k12_a6_b1_c0_norm_multigraph_q0.json"
+  },
+  {
+    "Base": "v40_04",
+    "Pid": 35152,
+    "Out": "rot4_short_v40_04_k12_a6_b1_c0_norm_multigraph_q0.json"
+  }
+]

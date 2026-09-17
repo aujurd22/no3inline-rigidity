@@ -1,0 +1,9 @@
+{
+ "n_clauses": 404,
+ "solver_status": "OPTIMAL",
+ "min_violations": 17,
+ "proven_optimal": true,
+ "best_bound": 17.0,
+ "time_enumerate_s": 16.4,
+ "time_solve_s": 6.5
+}

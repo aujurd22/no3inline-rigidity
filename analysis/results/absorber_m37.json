@@ -1,0 +1,16 @@
+{
+  "m": 37,
+  "seed_source": "flammenkamp_cache/n72_rot4.few (first line)",
+  "seed_self_Xcost": 164,
+  "n_splits": 36,
+  "min_split_Xcost": 32,
+  "best_split_edge": [
+    12,
+    23
+  ],
+  "median_split_Xcost": 60,
+  "max_split_Xcost": 92,
+  "n_splits_cost_le_10": 0,
+  "note_false_positive": "results/m37_surgery_result.json (2026-07-13) is a FALSE POSITIVE: independent brute force found 248 collinear triples. Caused by pre-v5 buggy (X)-check; v5 corrected it but is seed-limited.",
+  "conclusion": "Corrected surgery: the BEST of 36 edge-splits still introduces min 32 (X)-violations (median 60). So a plain split is far from (X)-free; an absorber must fix ~32 conflicts via core k-switches. This matches v5's negative outcome and confirms m=37 remains OPEN. A real #4 advancement needs multi-seed + deeper k-switch absorber (beyond v5's single seed / 3-switch bound)."
+}

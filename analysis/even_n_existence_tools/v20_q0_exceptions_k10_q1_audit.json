@@ -1,0 +1,47 @@
+{
+  "archive": "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\v20_basin_archive.json",
+  "hitting_dir": "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence",
+  "hitting_prefix": "v20_defect_hitting_",
+  "A_values": [
+    5
+  ],
+  "k": 10,
+  "q1_line_orbit_count": 72,
+  "q0_source_records": [
+    {
+      "certificate": "v20_multigraph_factor_v20_03_k10_a5_q0.json",
+      "base": "v20_03",
+      "A": 5,
+      "profile": null,
+      "q0_factor_feasible_masks": 1,
+      "recorded_mask_count": 1
+    }
+  ],
+  "unique_q0_exception_mask_count": 1,
+  "q1_status_histogram": {
+    "INFEASIBLE": 1
+  },
+  "all_q0_exceptions_q1_infeasible": true,
+  "records": [
+    {
+      "base": "v20_03",
+      "mask": 19345113284,
+      "removed_indices": [
+        2,
+        6,
+        7,
+        16,
+        17,
+        18,
+        19,
+        24,
+        31,
+        34
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0377,
+      "branches": 0,
+      "conflicts": 0
+    }
+  ]
+}

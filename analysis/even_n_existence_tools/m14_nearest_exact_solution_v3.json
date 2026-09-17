@@ -1,0 +1,88 @@
+{
+  "m": 14,
+  "n": 28,
+  "status": "OPTIMAL",
+  "wall_seconds": 1.8555423999787308,
+  "model_statistics": {
+    "primitive_directions_with_possible_three_point_lines": 232,
+    "lines_with_at_least_three_grid_points": 25954,
+    "line_enumeration_seconds": 0.02713989996118471,
+    "variables": 196,
+    "degree_constraints": 14,
+    "raw_line_constraints_before_c4_deduplication": 25954,
+    "line_constraints": 6498,
+    "line_cell_coefficient_histogram": {
+      "1": 24587,
+      "2": 136
+    }
+  },
+  "best_objective_bound": 8.0,
+  "minimum_changed_cells": 8,
+  "reference_overlap": 6,
+  "cells": [
+    [
+      0,
+      10
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      2,
+      11
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      10,
+      6
+    ],
+    [
+      11,
+      1
+    ],
+    [
+      12,
+      12
+    ],
+    [
+      13,
+      0
+    ],
+    [
+      13,
+      7
+    ]
+  ],
+  "verification": {
+    "cell_count": 14,
+    "point_count": 56,
+    "distinct_points": 56,
+    "degree_two": true,
+    "collinear_triples": 0,
+    "valid": true
+  }
+}

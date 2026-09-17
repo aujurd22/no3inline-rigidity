@@ -1,0 +1,137 @@
+{
+  "k": 14,
+  "q": 3,
+  "generated": "2026-07-20 18:33:55",
+  "bases": [
+    {
+      "base": "v20_01",
+      "survivors": 3,
+      "results": [
+        {
+          "mask": 8929978983,
+          "LB": 0,
+          "true_min_bad_triples": 48
+        },
+        {
+          "mask": 99346809573,
+          "LB": 0,
+          "true_min_bad_triples": 56
+        },
+        {
+          "mask": 133433689350,
+          "LB": 0,
+          "true_min_bad_triples": 88
+        }
+      ]
+    },
+    {
+      "base": "v20_02",
+      "survivors": 4,
+      "results": [
+        {
+          "mask": 7198212551,
+          "LB": 0,
+          "true_min_bad_triples": 72
+        },
+        {
+          "mask": 24092381893,
+          "LB": 0,
+          "true_min_bad_triples": 64
+        },
+        {
+          "mask": 24180794948,
+          "LB": 0,
+          "true_min_bad_triples": 48
+        },
+        {
+          "mask": 75365586955,
+          "LB": 0,
+          "true_min_bad_triples": 84
+        }
+      ]
+    },
+    {
+      "base": "v20_03",
+      "survivors": 6,
+      "results": [
+        {
+          "mask": 20074551377,
+          "LB": 0,
+          "true_min_bad_triples": 76
+        },
+        {
+          "mask": 34582927808,
+          "LB": 0,
+          "true_min_bad_triples": 52
+        },
+        {
+          "mask": 71014781376,
+          "LB": 0,
+          "true_min_bad_triples": 68
+        },
+        {
+          "mask": 75456365250,
+          "LB": 0,
+          "true_min_bad_triples": 60
+        },
+        {
+          "mask": 107563581785,
+          "LB": 0,
+          "true_min_bad_triples": 104
+        },
+        {
+          "mask": 122554008000,
+          "LB": 0,
+          "true_min_bad_triples": 60
+        }
+      ]
+    },
+    {
+      "base": "v20_04",
+      "survivors": 4,
+      "results": [
+        {
+          "mask": 60685694241,
+          "LB": 0,
+          "true_min_bad_triples": 60
+        },
+        {
+          "mask": 69419422345,
+          "LB": 0,
+          "true_min_bad_triples": 68
+        },
+        {
+          "mask": 69419484185,
+          "LB": 0,
+          "true_min_bad_triples": 80
+        },
+        {
+          "mask": 74499532496,
+          "LB": 0,
+          "true_min_bad_triples": 80
+        }
+      ]
+    },
+    {
+      "base": "v20_05",
+      "survivors": 2,
+      "results": [
+        {
+          "mask": 26914261035,
+          "LB": 0,
+          "true_min_bad_triples": 88
+        },
+        {
+          "mask": 105943968808,
+          "LB": 0,
+          "true_min_bad_triples": 80
+        }
+      ]
+    },
+    {
+      "base": "v20_06",
+      "survivors": 0,
+      "results": []
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+==============================================================================
+DISTANCE-RING HYPERGRAPH  —  SYMMETRY CLASSIFICATION VERIFICATION
+==============================================================================
+total solutions scanned : 335702
+standard-format decoded : 335702  (decode-fail/skip: 0)
+symmetry-label mismatches (file vs recompute): 6
+    ('n24_rot2', 'rot2', 'rct4')
+    ('n24_rot2', 'rot2', 'rct4')
+    ('n26_rot2', 'rot2', 'rct4')
+    ('n28_rot2', 'rot2', 'rct4')
+    ('n3_dia2', 'dia2', 'rct4')
+    ('n4_rot2', 'rot2', 'rct4')
+
+------------------------------------------------------------------------------
+PER-CLASS  missing-center (MC) cross-tabulation
+------------------------------------------------------------------------------
+class      total      MC     MC%   status
+iden      187044    5769    3.1%   compatible
+rot2      125912    5029    4.0%   compatible
+dia1         710      32    4.5%   compatible
+dia2          33       0    0.0%   EXCLUDED (0 MC expected)
+ort1           4       0    0.0%   compatible
+rot4       21670       0    0.0%   EXCLUDED (0 MC expected)
+rct4         326       0    0.0%   EXCLUDED (0 MC expected)
+full           3       0    0.0%   EXCLUDED (0 MC expected)
+
+------------------------------------------------------------------------------
+REALIZATION WITNESSES  (smallest n with a missing-center example)
+------------------------------------------------------------------------------
+iden     n=9    pts = {(0,4),(0,6),(1,1),(1,8),(2,0),(2,2),(3,5),(3,6),(4,2),(4,3),(5,7),(5,8),(6,5),(6,7),(7,0),(7,1),(8,3),(8,4)}
+rot2     n=11   pts = {(0,9),(0,10),(1,2),(1,4),(2,5),(2,7),(3,1),(3,4),(4,8),(4,10),(5,3),(5,7),(6,0),(6,2),(7,6),(7,9),(8,3),(8,5),(9,6),(9,8),(10,0),(10,1)}
+dia1     n=5    pts = {(0,3),(0,4),(1,1),(1,4),(2,0),(2,1),(3,2),(3,3),(4,0),(4,2)}
+dia2     NO missing-center example found in cache
+ort1     NO missing-center example found in cache
+ort2     NO missing-center example found in cache
+
+EXCLUDED classes (rot4/rct4/full/dia2/ort2): MC count must be 0 across ALL n.
+  rot4     total=21670  MC=0      OK (0 MC)
+  rct4     total=326    MC=0      OK (0 MC)
+  full     total=3      MC=0      OK (0 MC)
+  dia2     total=33     MC=0      OK (0 MC)
+  ort2     total=0      MC=0      OK (0 MC)
+==============================================================================

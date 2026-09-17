@@ -1,0 +1,48 @@
+{
+  "component_count": 3,
+  "enumeration_mode": "explicit_masks",
+  "target_selected": 11,
+  "line_capacity_count": 72,
+  "explicit_mask_count": 12,
+  "distinct_shape_masks": 12,
+  "defect_hitting_masks": 12,
+  "factor_feasible_masks": 0,
+  "all_factor_infeasible": true,
+  "total_factor_search_nodes": 36,
+  "maximum_factor_search_nodes": 4,
+  "root_zero_option_by_deficit": {
+    "1": 0,
+    "2": 0
+  },
+  "search_node_histogram": {
+    "2": 4,
+    "3": 4,
+    "4": 4
+  },
+  "sample_hitting_masks": [
+    673548628,
+    738296414,
+    788795926,
+    7132709312,
+    9330758019,
+    9378726166,
+    19867600160,
+    22097830149,
+    24176068164,
+    24178401552
+  ],
+  "feasible_masks": [],
+  "first_feasible_mask": 0,
+  "first_feasible_cells": [],
+  "base": "v20_02",
+  "source_certificate": "v20_gpu_hybrid_q0_v20_02_k11.json",
+  "source_field": "feasible_masks",
+  "source_root_nonzero_by_adjacency": null,
+  "method": {
+    "name": "CUDA exhaustive fixed-weight mask scan and exact root-option filter, followed by C++ exact deficit f-factor DFS",
+    "k": 11,
+    "normalization": "all exact old-orientation reselections forbidden",
+    "line_capacities": "all primitive non-axis directions with q<=1"
+  },
+  "elapsed_s": 0.5161
+}

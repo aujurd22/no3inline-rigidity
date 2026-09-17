@@ -1,0 +1,75 @@
+{
+  "parameters": {
+    "bases": "v44_01",
+    "k": 4,
+    "iterations": 1,
+    "target": 36,
+    "time_limit": 20.0,
+    "modes": "0,1,2,3,4",
+    "seed0": 202607175000,
+    "out": "my_lns_smoke.json"
+  },
+  "runs": [
+    {
+      "base": "v44_01",
+      "base_value": 44,
+      "covered_defects": 9,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          10,
+          16,
+          22,
+          36
+        ],
+        "removed_edges": [
+          [
+            5,
+            7
+          ],
+          [
+            9,
+            32
+          ],
+          [
+            12,
+            36
+          ],
+          [
+            29,
+            35
+          ]
+        ],
+        "affected_vertices": [
+          5,
+          7,
+          9,
+          12,
+          29,
+          32,
+          35,
+          36
+        ],
+        "residual_degree_histogram": {
+          "1": 8
+        },
+        "directed_cell_variables": 54,
+        "fixed_point_count": 132,
+        "potential_point_count": 348,
+        "raw_line_keys": 50868,
+        "active_line_costs": 603,
+        "fixed_line_constant": 8,
+        "diagonal_constraints": 220,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 0.149,
+        "solve_s": 0.014,
+        "best_bound": 37
+      }
+    }
+  ],
+  "best_candidate": null
+}

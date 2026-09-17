@@ -1,0 +1,89 @@
+==============================================================================
+PART B -- MANIFOLD LEARNING ON NTIL SOLUTION SPACE
+==============================================================================
+
+######################################################################
+# n=10  (D=n^2=100)
+######################################################################
+  loaded 132 iden solutions (cap=None)
+  [P1 manifold]  PCA k90=38 (=3.80*n)  partic.ratio=25.2  two-NN=6.59  Levina-Bickel=-inf
+  [P1 random  ]  PCA k90=55 (=5.50*n) partic.ratio=53.9  two-NN=33.36  Levina-Bickel=-inf
+  [P1 thinness]  k90/D=0.3800  random k90/D=0.5500  ratio real/random=0.691
+  [P2 per-solution halfspace accuracy (best threshold)]
+      mono_d1   : real  79.2%   random  79.6%
+      mono_d2   : real  79.1%   random  79.2%
+      mono_d3   : real  79.0%   random  79.0%
+      mono_d4   : real  79.0%   random  79.0%
+      mono_d5   : real  79.0%   random  79.0%
+      mono_d6   : real  79.0%   random  79.0%
+      polar     : real  79.0%   random  79.1%
+
+######################################################################
+# n=12  (D=n^2=144)
+######################################################################
+  loaded 524 iden solutions (cap=None)
+  [P1 manifold]  PCA k90=72 (=6.00*n)  partic.ratio=52.7  two-NN=6.68  Levina-Bickel=-inf
+  [P1 random  ]  PCA k90=101 (=8.42*n) partic.ratio=105.4  two-NN=44.36  Levina-Bickel=-inf
+  [P1 thinness]  k90/D=0.5000  random k90/D=0.7014  ratio real/random=0.713
+  [P2 per-solution halfspace accuracy (best threshold)]
+      mono_d1   : real  82.8%   random  83.0%
+      mono_d2   : real  82.7%   random  82.8%
+      mono_d3   : real  82.6%   random  82.7%
+      mono_d4   : real  82.6%   random  82.6%
+      mono_d5   : real  82.6%   random  82.6%
+      mono_d6   : real  82.6%   random  82.6%
+      polar     : real  82.6%   random  82.7%
+
+######################################################################
+# n=14  (D=n^2=196)
+######################################################################
+  loaded 1284 iden solutions (cap=None)
+  [P1 manifold]  PCA k90=110 (=7.86*n)  partic.ratio=93.3  two-NN=9.48  Levina-Bickel=-inf
+  [P1 random  ]  PCA k90=148 (=10.57*n) partic.ratio=159.7  two-NN=53.22  Levina-Bickel=-inf
+  [P1 thinness]  k90/D=0.5612  random k90/D=0.7551  ratio real/random=0.743
+  [P2 per-solution halfspace accuracy (best threshold)]
+      mono_d1   : real  85.4%   random  85.4%
+      mono_d2   : real  85.2%   random  85.3%
+      mono_d3   : real  85.2%   random  85.2%
+      mono_d4   : real  85.2%   random  85.2%
+      mono_d5   : real  85.2%   random  85.2%
+      mono_d6   : real  85.2%   random  85.2%
+      polar     : real  85.2%   random  85.3%
+
+######################################################################
+# n=16  (D=n^2=256)
+######################################################################
+  loaded 5683 iden solutions (cap=None)
+  [P1 manifold]  PCA k90=154 (=9.62*n)  partic.ratio=140.0  two-NN=13.71  Levina-Bickel=-inf
+  [P1 random  ]  PCA k90=197 (=12.31*n) partic.ratio=214.0  two-NN=63.65  Levina-Bickel=-inf
+  [P1 thinness]  k90/D=0.6016  random k90/D=0.7695  ratio real/random=0.782
+  [P2 per-solution halfspace accuracy (best threshold)]
+      mono_d1   : real  87.2%   random  87.3%
+      mono_d2   : real  87.1%   random  87.2%
+      mono_d3   : real  87.1%   random  87.1%
+      mono_d4   : real  87.1%   random  87.1%
+      mono_d5   : real  87.1%   random  87.1%
+      mono_d6   : real  87.1%   random  87.1%
+      polar     : real  87.1%   random  87.1%
+
+######################################################################
+# n=18  (D=n^2=324)
+######################################################################
+  loaded 4000 iden solutions (cap=4000)
+  [P1 manifold]  PCA k90=200 (=11.11*n)  partic.ratio=188.8  two-NN=19.41  Levina-Bickel=-inf
+  [P1 random  ]  PCA k90=246 (=13.67*n) partic.ratio=265.3  two-NN=77.62  Levina-Bickel=-inf
+  [P1 thinness]  k90/D=0.6173  random k90/D=0.7593  ratio real/random=0.813
+  [P2 per-solution halfspace accuracy (best threshold)]
+      mono_d1   : real  88.7%   random  88.7%
+      mono_d2   : real  88.7%   random  88.6%
+      mono_d3   : real  88.6%   random  88.6%
+      mono_d4   : real  88.6%   random  88.6%
+      mono_d5   : real  88.6%   random  88.6%
+      mono_d6   : real  88.6%   random  88.6%
+      polar     : real  88.6%   random  88.6%
+
+==============================================================================
+P3 -- 2D t-SNE embedding (n=14, coloured by ring-count)
+==============================================================================
+  t-SNE done in 5.6s on 1284 pts
+  saved figs/tsne_n14.png

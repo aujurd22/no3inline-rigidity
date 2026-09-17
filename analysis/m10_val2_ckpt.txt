@@ -1,0 +1,3 @@
+xs 4 8 1 4 2 5 5 8 9 9
+ys 0 3 7 3 6 7 2 6 1 0
+best 16 badX 8 badS 0 elapsed 47.305

@@ -1,0 +1,28 @@
+# solution 1
+# n=5 sym=dia1 status=verified source=flammenkamp_cache/n5_dia1
+# code=/0224013413
+0 0
+0 2
+1 2
+1 4
+2 0
+2 1
+3 3
+3 4
+4 1
+4 3
+
+# solution 2
+# n=5 sym=dia1 status=verified source=flammenkamp_cache/n5_dia1
+# code=/2412340301
+0 2
+0 4
+1 1
+1 2
+2 3
+2 4
+3 0
+3 3
+4 0
+4 1
+

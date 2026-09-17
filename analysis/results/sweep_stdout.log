@@ -1,0 +1,105 @@
+[2026-07-13T09:25:18] SWEEP START m=5..30 per-m=600.0s workers=8 2F_on=True already_done=[]
+[2026-07-13T09:25:18]   m=5: gen reps=25 line_cons=406 2F_on=True gen=0.0s
+[build] adding 406 per-line constraints...
+[build] model complete (0s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:25:18]   m=5: status=OPTIMAL found=5 verify=True solve=0.0s cycles=[1, 2, 2]
+[2026-07-13T09:25:18]   m=5: solution saved -> D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\solutions\m05.json
+[2026-07-13T09:25:18]   m=6: gen reps=36 line_cons=898 2F_on=True gen=0.0s
+[build] adding 898 per-line constraints...
+[build] model complete (0s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:25:18]   m=6: status=OPTIMAL found=6 verify=True solve=0.0s cycles=[1, 5]
+[2026-07-13T09:25:18]   m=6: solution saved -> D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\solutions\m06.json
+[2026-07-13T09:25:18]   m=7: gen reps=49 line_cons=1582 2F_on=True gen=0.0s
+[build] adding 1582 per-line constraints...
+[build] model complete (0s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:25:18]   m=7: status=OPTIMAL found=7 verify=True solve=0.0s cycles=[3, 4]
+[2026-07-13T09:25:18]   m=7: solution saved -> D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\solutions\m07.json
+[2026-07-13T09:25:18]   m=8: gen reps=64 line_cons=2754 2F_on=True gen=0.1s
+[build] adding 2754 per-line constraints...
+[build] model complete (0s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:25:18]   m=8: status=OPTIMAL found=8 verify=True solve=0.0s cycles=[8]
+[2026-07-13T09:25:18]   m=8: solution saved -> D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\solutions\m08.json
+[2026-07-13T09:25:18]   m=9: gen reps=81 line_cons=4398 2F_on=True gen=0.1s
+[build] adding 4398 per-line constraints...
+[build] model complete (0s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:25:18]   m=9: status=OPTIMAL found=9 verify=True solve=0.1s cycles=[9]
+[2026-07-13T09:25:18]   m=9: solution saved -> D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\solutions\m09.json
+[2026-07-13T09:25:19]   m=10: gen reps=100 line_cons=6778 2F_on=True gen=0.2s
+[build] adding 6778 per-line constraints...
+[build] model complete (0s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:25:19]   m=10: status=OPTIMAL found=10 verify=True solve=0.1s cycles=[4, 6]
+[2026-07-13T09:25:19]   m=10: solution saved -> D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\solutions\m10.json
+[2026-07-13T09:25:19]   m=11: gen reps=121 line_cons=9778 2F_on=True gen=0.3s
+[build] adding 9778 per-line constraints...
+[build] model complete (0s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:25:19]   m=11: status=OPTIMAL found=11 verify=True solve=0.2s cycles=[11]
+[2026-07-13T09:25:19]   m=11: solution saved -> D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\solutions\m11.json
+[2026-07-13T09:25:20]   m=12: gen reps=144 line_cons=14038 2F_on=True gen=0.4s
+[build] adding 14038 per-line constraints...
+[build] model complete (0s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:25:21]   m=12: status=OPTIMAL found=12 verify=True solve=1.0s cycles=[1, 11]
+[2026-07-13T09:25:21]   m=12: solution saved -> D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\solutions\m12.json
+[2026-07-13T09:25:21]   m=13: gen reps=169 line_cons=19066 2F_on=True gen=0.6s
+[build] adding 19066 per-line constraints...
+[build] model complete (0s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:25:22]   m=13: status=OPTIMAL found=13 verify=True solve=0.3s cycles=[1, 12]
+[2026-07-13T09:25:22]   m=13: solution saved -> D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\solutions\m13.json
+[2026-07-13T09:25:23]   m=14: gen reps=196 line_cons=25954 2F_on=True gen=0.8s
+[build] adding 25954 per-line constraints...
+[build] model complete (0s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:25:23]   m=14: status=OPTIMAL found=14 verify=True solve=0.4s cycles=[2, 4, 8]
+[2026-07-13T09:25:23]   m=14: solution saved -> D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\solutions\m14.json
+[2026-07-13T09:25:24]   m=15: gen reps=225 line_cons=34270 2F_on=True gen=1.1s
+[build] adding 34270 per-line constraints...
+[build] model complete (0s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:25:26]   m=15: status=OPTIMAL found=15 verify=True solve=0.8s cycles=[3, 12]
+[2026-07-13T09:25:26]   m=15: solution saved -> D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\solutions\m15.json
+[2026-07-13T09:25:27]   m=16: gen reps=256 line_cons=44282 2F_on=True gen=1.5s
+[build] adding 44282 per-line constraints...
+[build] model complete (0s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:25:30]   m=16: status=OPTIMAL found=16 verify=True solve=2.2s cycles=[1, 15]
+[2026-07-13T09:25:30]   m=16: solution saved -> D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\solutions\m16.json
+[2026-07-13T09:25:32]   m=17: gen reps=289 line_cons=56026 2F_on=True gen=1.9s
+[build] adding 56026 per-line constraints...
+[build] model complete (1s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:25:35]   m=17: status=OPTIMAL found=17 verify=True solve=2.4s cycles=[5, 6, 6]
+[2026-07-13T09:25:35]   m=17: solution saved -> D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\solutions\m17.json
+[2026-07-13T09:25:37]   m=18: gen reps=324 line_cons=70798 2F_on=True gen=2.6s
+[build] adding 70798 per-line constraints...
+[build] model complete (1s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:27:10]   m=18: status=OPTIMAL found=18 verify=True solve=92.0s cycles=[18]
+[2026-07-13T09:27:10]   m=18: solution saved -> D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\solutions\m18.json
+[2026-07-13T09:27:13]   m=19: gen reps=361 line_cons=87618 2F_on=True gen=3.5s
+[build] adding 87618 per-line constraints...
+[build] model complete (1s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:29:15]   m=19: status=OPTIMAL found=19 verify=True solve=121.2s cycles=[1, 5, 13]
+[2026-07-13T09:29:15]   m=19: solution saved -> D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\solutions\m19.json
+[2026-07-13T09:29:20]   m=20: gen reps=400 line_cons=108270 2F_on=True gen=4.7s
+[build] adding 108270 per-line constraints...
+[build] model complete (1s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:39:21]   m=20: status=UNKNOWN found=0 verify=False solve=600.2s cycles=[]
+[2026-07-13T09:39:31]   m=21: gen reps=441 line_cons=131426 2F_on=True gen=10.1s
+[build] adding 131426 per-line constraints...
+[build] model complete (2s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False
+[2026-07-13T09:49:34]   m=21: status=UNKNOWN found=0 verify=False solve=600.1s cycles=[]
+[2026-07-13T09:49:40]   m=22: gen reps=484 line_cons=157926 2F_on=True gen=6.8s
+[build] adding 157926 per-line constraints...
+[build] model complete (1s)
+[solve] start timelimit=600.0s workers=8 live_ckpt=False

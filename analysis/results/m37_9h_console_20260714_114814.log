@@ -1,0 +1,7 @@
+[start] m=37 n=74 threads=12 hours=9.000 WX_def=2 WS=1 moves/restart=300000 T0=6.000 Tend=0.0100
+[t=   30s] best=1000000000000000000 badX=0 badS=0
+[t=   60s] best=1000000000000000000 badX=0 badS=0
+[t=   90s] best=1000000000000000000 badX=0 badS=0
+[t=  120s] best=1000000000000000000 badX=0 badS=0
+[t=  150s] best=1000000000000000000 badX=0 badS=0
+[t=  180s] best=1000000000000000000 badX=0 badS=0

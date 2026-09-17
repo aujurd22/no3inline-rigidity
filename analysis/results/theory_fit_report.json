@@ -1,0 +1,16 @@
+{
+ "n_solutions": 16,
+ "results": {
+  "5": {
+   "B": 0,
+   "m": 5,
+   "sidon_ok": true,
+   "sidon_violations": 0,
+   "deg2_ok": true,
+   "cycle_sig": "(1, 2, 2)",
+   "n_cycles": 3,
+   "n_loops": 1,
+   "n_mutual_pairs": 2,
+   "max_cycle": 2,
+   "diag_cells": 1,
+   "parity": {

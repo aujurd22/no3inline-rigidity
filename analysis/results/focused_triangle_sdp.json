@@ -1,0 +1,26 @@
+{
+  "m37_408": {
+    "known_min_viol": 16,
+    "n_clauses": 408,
+    "SDP_min": -280.02178957167877,
+    "min_viol_lb": 15.997276303540154,
+    "status": "optimal",
+    "closure_missing": 0
+  },
+  "m37_448": {
+    "known_min_viol": 17,
+    "n_clauses": 448,
+    "SDP_min": -311.99999167690333,
+    "min_viol_lb": 17.000001040387083,
+    "status": "optimal_inaccurate",
+    "closure_missing": 0
+  },
+  "m36_SAT": {
+    "known_min_viol": 0,
+    "n_clauses": 670,
+    "SDP_min": -669.9999589892949,
+    "min_viol_lb": 5.126338137984021e-06,
+    "status": "optimal_inaccurate",
+    "closure_missing": 0
+  }
+}

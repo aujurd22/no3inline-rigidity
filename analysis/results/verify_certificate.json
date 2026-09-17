@@ -1,0 +1,40 @@
+{
+  "biased": {
+    "variant": "biased",
+    "m": 37,
+    "n": 74,
+    "board": "74x74",
+    "permutation_ok": true,
+    "num_points": 148,
+    "num_distinct": 148,
+    "expected_points": 148,
+    "all_on_board": true,
+    "c4_closed": true,
+    "c4_orbit_count": 37,
+    "c4_orbit_sizes_ok": true,
+    "triples_checked": 529396,
+    "collinear_triples": 284,
+    "fdr_slope+1_overflow": 0,
+    "fdr_slope-1_overflow": 0,
+    "VALID_rot4_NTIL": false
+  },
+  "unbiased": {
+    "variant": "unbiased",
+    "m": 37,
+    "n": 74,
+    "board": "74x74",
+    "permutation_ok": true,
+    "num_points": 148,
+    "num_distinct": 148,
+    "expected_points": 148,
+    "all_on_board": true,
+    "c4_closed": true,
+    "c4_orbit_count": 37,
+    "c4_orbit_sizes_ok": true,
+    "triples_checked": 529396,
+    "collinear_triples": 344,
+    "fdr_slope+1_overflow": 0,
+    "fdr_slope-1_overflow": 0,
+    "VALID_rot4_NTIL": false
+  }
+}

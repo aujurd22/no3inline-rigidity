@@ -1,0 +1,65 @@
+{
+  "k": 4,
+  "p": 11,
+  "n": 44,
+  "u": 0,
+  "v": 0,
+  "multiplier": 1,
+  "shift": 1,
+  "base_permutations": [
+    [
+      0,
+      1,
+      6,
+      4,
+      3,
+      9,
+      2,
+      8,
+      7,
+      5,
+      10
+    ],
+    [
+      1,
+      2,
+      7,
+      5,
+      4,
+      10,
+      3,
+      9,
+      8,
+      6,
+      0
+    ]
+  ],
+  "status": "INFEASIBLE",
+  "variables": 352,
+  "fibre_matching_constraints": 176,
+  "relevant_line_constraints": 4132,
+  "relevant_line_length_histogram": {
+    "3": 3094,
+    "4": 681,
+    "5": 99,
+    "6": 87,
+    "7": 10,
+    "8": 130,
+    "9": 4,
+    "10": 12,
+    "11": 3,
+    "12": 4,
+    "14": 1,
+    "15": 2,
+    "16": 3,
+    "19": 1,
+    "20": 1
+  },
+  "all_grid_line_statistics": {
+    "primitive_directions_with_possible_three_point_lines": 560,
+    "lines_with_at_least_three_grid_points": 157926,
+    "line_enumeration_seconds": 0.21102230000542477
+  },
+  "line_build_seconds": 0.2956807999871671,
+  "solve_seconds": 0.1739369000424631
+}

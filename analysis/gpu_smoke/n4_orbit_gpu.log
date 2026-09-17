@@ -1,0 +1,5 @@
+=== orbit-reduced GPU solver  n=4  seed=42 ===
+M=8 orbits
+danger computed.
+n=4  solutions_found=0  nodes=61  gpu_time=0.003s
+No solution found in this search tree.

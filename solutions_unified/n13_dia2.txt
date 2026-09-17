@@ -1,0 +1,30 @@
+# solution 1
+# n=13 sym=dia2 status=verified source=flammenkamp_cache/n13_dia2
+# code=x461959AB05240C8A7C12373B68
+0 4
+0 6
+1 1
+1 9
+2 5
+2 9
+3 10
+3 11
+4 0
+4 5
+5 2
+5 4
+6 0
+6 12
+7 8
+7 10
+8 7
+8 12
+9 1
+9 2
+10 3
+10 7
+11 3
+11 11
+12 6
+12 8
+

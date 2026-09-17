@@ -1,0 +1,14 @@
+[sanity] base basin v20_01: 20 bad_triples, 148 points (expect 20 / 148)
+[v9w] feasible_masks=3 witness_factors_returned=3
+
+[mask 8929978983] removed=14 witness_cells=14 (expect removed==witness_cells)
+  mask 8929978983: min bad_triples over 2^14 orientations = 48 -> not a solution
+
+[mask 99346809573] removed=14 witness_cells=14 (expect removed==witness_cells)
+  mask 99346809573: min bad_triples over 2^14 orientations = 56 -> not a solution
+
+[mask 133433689350] removed=14 witness_cells=14 (expect removed==witness_cells)
+  mask 133433689350: min bad_triples over 2^14 orientations = 88 -> not a solution
+
+[done] certification written to D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\even_n_existence_tools\v20_01_k14_certification.json
+RESULT: 0 of 3 survivors is a genuine m=37 NTIL solution.

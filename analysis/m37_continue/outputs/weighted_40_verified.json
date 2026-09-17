@@ -1,0 +1,327 @@
+{
+  "name": "m37_weighted_40",
+  "source": "partial_hitting_repair_slack1.json",
+  "selected_indices": [
+    11,
+    14,
+    25
+  ],
+  "covered_old_defects": 8,
+  "edges": [
+    [
+      0,
+      30
+    ],
+    [
+      0,
+      33
+    ],
+    [
+      1,
+      19
+    ],
+    [
+      1,
+      31
+    ],
+    [
+      2,
+      20
+    ],
+    [
+      2,
+      23
+    ],
+    [
+      3,
+      23
+    ],
+    [
+      3,
+      29
+    ],
+    [
+      4,
+      12
+    ],
+    [
+      4,
+      19
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      22
+    ],
+    [
+      6,
+      17
+    ],
+    [
+      6,
+      31
+    ],
+    [
+      11,
+      13
+    ],
+    [
+      7,
+      28
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      8,
+      25
+    ],
+    [
+      9,
+      32
+    ],
+    [
+      9,
+      35
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      10,
+      24
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      12,
+      36
+    ],
+    [
+      29,
+      35
+    ],
+    [
+      14,
+      22
+    ],
+    [
+      14,
+      27
+    ],
+    [
+      15,
+      34
+    ],
+    [
+      16,
+      28
+    ],
+    [
+      16,
+      30
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      21,
+      32
+    ],
+    [
+      21,
+      33
+    ],
+    [
+      24,
+      34
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      27,
+      36
+    ]
+  ],
+  "bits": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+  ],
+  "factor": {
+    "edge_count": 37,
+    "degree_histogram": {
+      "2": 37
+    },
+    "is_2factor": true,
+    "duplicate_unordered_edges": 0,
+    "loops": 0
+  },
+  "diagonal_invariant": {
+    "bad_diagonal_triples": 0,
+    "max_diagonal_occupancy": 2,
+    "overfull_plus_lines": {},
+    "overfull_minus_lines": {}
+  },
+  "geometry_line_key": {
+    "point_count": 148,
+    "distinct_point_count": 148,
+    "bad_triples": 40,
+    "bad_line_count": 40,
+    "max_points_on_line": 3
+  },
+  "geometry_bruteforce": 40,
+  "weighted_repeat_exact": {
+    "available": true,
+    "status": "OPTIMAL",
+    "elapsed_s": 6.232,
+    "optimal": true,
+    "bits": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "violations": 40,
+    "pair_energy": -676,
+    "geometry": {
+      "point_count": 148,
+      "distinct_point_count": 148,
+      "bad_triples": 40,
+      "bad_line_count": 40,
+      "max_points_on_line": 3
+    }
+  },
+  "legacy_clause_count": 1068,
+  "legacy_complement_pairs": 534,
+  "legacy_missing_complements": 0,
+  "legacy_violations_at_weighted_bits": 10,
+  "legacy_exact": {
+    "available": true,
+    "status": "OPTIMAL",
+    "elapsed_s": 0.25,
+    "optimal": true,
+    "best_bound": 10.0,
+    "bits": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "violations": 10
+  }
+}

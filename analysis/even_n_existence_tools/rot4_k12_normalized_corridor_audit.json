@@ -1,0 +1,725 @@
+{
+  "size": 12,
+  "normalization": "Exact same-orientation delete/reinsert pairs may be cancelled; normalized closure is sufficient for exact Hamming distance 12.",
+  "bases": [
+    {
+      "base": "v40_01",
+      "closed_adjacencies": [
+        0,
+        1,
+        2,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "candidate_adjacencies": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "layers": {
+        "0": {
+          "classification": "CLOSED_OVERFLOW",
+          "objective": 1,
+          "evidence": "rot4_line_overflow_v40_01_k12_a0_q2.json",
+          "closing_q": 2
+        },
+        "1": {
+          "classification": "CLOSED_OVERFLOW",
+          "objective": 1,
+          "evidence": "rot4_line_overflow_v40_01_k12_a1_q4.json",
+          "closing_q": 4
+        },
+        "2": {
+          "classification": "CLOSED_OVERFLOW",
+          "objective": 1,
+          "evidence": "rot4_line_overflow_v40_01_k12_a2_q3.json",
+          "closing_q": 3
+        },
+        "7": {
+          "classification": "CLOSED_BY_NORMALIZED_COMPLETE_BC_PARTITION",
+          "expected_profiles": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "evidence": "rot4_profile_short_sweep_v40_01_k12_a7_norm_q2.json"
+        },
+        "8": {
+          "classification": "CLOSED_OVERFLOW",
+          "objective": 4,
+          "evidence": "rot4_line_overflow_v40_01_k12_a8_q1.json"
+        },
+        "9": {
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_01_k12_a9_q1.json"
+        },
+        "10": {
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_01_k12_a10_q1.json"
+        },
+        "11": {
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_01_k12_a11_q1.json"
+        }
+      }
+    },
+    {
+      "base": "v40_02",
+      "closed_adjacencies": [
+        0,
+        1,
+        2,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "candidate_adjacencies": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "layers": {
+        "0": {
+          "classification": "CLOSED_OVERFLOW",
+          "objective": 4,
+          "evidence": "rot4_line_overflow_v40_02_k12_a0_q2.json",
+          "closing_q": 2
+        },
+        "1": {
+          "classification": "CLOSED_OVERFLOW",
+          "objective": 1,
+          "evidence": "rot4_line_overflow_v40_02_k12_a1_q2.json",
+          "closing_q": 2
+        },
+        "2": {
+          "classification": "CLOSED_OVERFLOW",
+          "objective": 1,
+          "evidence": "rot4_line_overflow_v40_02_k12_a2_q2.json",
+          "closing_q": 2
+        },
+        "7": {
+          "classification": "CLOSED_BY_COMPLETE_B_PARTITION",
+          "expected_triples": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "layers": [
+            {
+              "triple": 2,
+              "classification": "CLOSED_F0",
+              "evidence": "rot4_line_overflow_v40_02_k12_a7_b2_q1.json"
+            },
+            {
+              "triple": 3,
+              "classification": "CLOSED_Q1",
+              "evidence": "rot4_line_overflow_v40_02_k12_a7_b3_q1.json"
+            },
+            {
+              "triple": 4,
+              "classification": "CLOSED_Q1",
+              "evidence": "rot4_line_overflow_v40_02_k12_a7_b4_q1.json"
+            },
+            {
+              "triple": 5,
+              "classification": "CLOSED_Q1",
+              "evidence": "rot4_line_overflow_v40_02_k12_a7_b5_q1.json"
+            },
+            {
+              "triple": 6,
+              "classification": "CLOSED_Q1",
+              "evidence": "rot4_line_overflow_v40_02_k12_a7_b6_q1.json"
+            }
+          ]
+        },
+        "8": {
+          "classification": "CLOSED_OVERFLOW",
+          "objective": 4,
+          "evidence": "rot4_line_overflow_v40_02_k12_a8_q1.json"
+        },
+        "9": {
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_02_k12_a9_q1.json"
+        },
+        "10": {
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_02_k12_a10_q1.json"
+        },
+        "11": {
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_02_k12_a11_q1.json"
+        }
+      }
+    },
+    {
+      "base": "v40_03",
+      "closed_adjacencies": [
+        0,
+        1,
+        2,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "candidate_adjacencies": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "layers": {
+        "0": {
+          "classification": "CLOSED_OVERFLOW",
+          "objective": 1,
+          "evidence": "rot4_line_overflow_v40_03_k12_a0_q2.json",
+          "closing_q": 2
+        },
+        "1": {
+          "classification": "CLOSED_OVERFLOW",
+          "objective": 2,
+          "evidence": "rot4_line_overflow_v40_03_k12_a1_q3.json",
+          "closing_q": 3
+        },
+        "2": {
+          "classification": "CLOSED_OVERFLOW",
+          "objective": 3,
+          "evidence": "rot4_line_overflow_v40_03_k12_a2_q4.json",
+          "closing_q": 4
+        },
+        "7": {
+          "classification": "CLOSED_BY_NORMALIZED_BC_AND_COMPONENT_PARTITION",
+          "expected_profiles": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "coarse_profile_evidence": "rot4_profile_short_sweep_v40_03_k12_a7_norm_q3.json",
+          "component_split_evidence": "rot4_cycle_split_v40_03_k12_a7_b2_c0_cycle4_norm_q3.json"
+        },
+        "8": {
+          "classification": "CLOSED_BY_NORMALIZED_COMPLETE_BC_PARTITION",
+          "expected_profiles": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "covered_profiles": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "layers": [
+            {
+              "triple": 5,
+              "quadruples": [
+                2,
+                3,
+                4
+              ],
+              "classification": "CLOSED_F0_NORMALIZED",
+              "evidence": "rot4_line_overflow_v40_03_k12_a8_b5_norm_hq0_q1.json"
+            },
+            {
+              "triple": 6,
+              "quadruples": [
+                4,
+                5
+              ],
+              "classification": "CLOSED_F0_NORMALIZED",
+              "evidence": "rot4_line_overflow_v40_03_k12_a8_b6_norm_hq0_q1.json"
+            },
+            {
+              "triple": 7,
+              "quadruples": [
+                6
+              ],
+              "classification": "CLOSED_F0_NORMALIZED",
+              "evidence": "rot4_line_overflow_v40_03_k12_a8_b7_norm_hq0_q1.json"
+            },
+            {
+              "triple": 4,
+              "quadruple": 0,
+              "classification": "CLOSED_Q1_NORMALIZED",
+              "evidence": "rot4_v40_03_k12_a8_b4_c0_norm_q1resource.json"
+            },
+            {
+              "triple": 4,
+              "quadruple": 1,
+              "classification": "CLOSED_Q1_NORMALIZED",
+              "evidence": "rot4_v40_03_k12_a8_b4_c1_norm_q1resource.json"
+            },
+            {
+              "triple": 4,
+              "quadruple": 2,
+              "classification": "CLOSED_Q1_NORMALIZED",
+              "evidence": "rot4_v40_03_k12_a8_b4_c2_norm_q1resource.json"
+            },
+            {
+              "triple": 4,
+              "quadruple": 3,
+              "classification": "CLOSED_Q1_NORMALIZED",
+              "evidence": "rot4_v40_03_k12_a8_b4_c3_norm_q1resource.json"
+            },
+            {
+              "triple": 4,
+              "quadruple": 4,
+              "classification": "CLOSED_Q1_NORMALIZED",
+              "evidence": "rot4_v40_03_k12_a8_b4_c4_norm_q1resource.json"
+            }
+          ]
+        },
+        "9": {
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_03_k12_a9_q1.json"
+        },
+        "10": {
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_03_k12_a10_q1.json"
+        },
+        "11": {
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_03_k12_a11_q1.json"
+        }
+      }
+    },
+    {
+      "base": "v40_04",
+      "closed_adjacencies": [
+        0,
+        1,
+        2,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "candidate_adjacencies": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "layers": {
+        "0": {
+          "classification": "CLOSED_OVERFLOW",
+          "objective": 1,
+          "evidence": "rot4_line_overflow_v40_04_k12_a0_q1.json",
+          "closing_q": 1
+        },
+        "1": {
+          "classification": "CLOSED_OVERFLOW",
+          "objective": 1,
+          "evidence": "rot4_line_overflow_v40_04_k12_a1_q2.json",
+          "closing_q": 2
+        },
+        "2": {
+          "classification": "CLOSED_OVERFLOW",
+          "objective": 1,
+          "evidence": "rot4_line_overflow_v40_04_k12_a2_q2.json",
+          "closing_q": 2
+        },
+        "7": {
+          "classification": "CLOSED_BY_NORMALIZED_COMPLETE_BC_PARTITION",
+          "expected_profiles": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "evidence": "rot4_profile_short_sweep_v40_04_k12_a7_norm_q2.json"
+        },
+        "8": {
+          "classification": "CLOSED_BY_NORMALIZED_COMPLETE_BC_PARTITION",
+          "expected_profiles": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "covered_profiles": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "layers": [
+            {
+              "triple": 5,
+              "quadruples": [
+                2,
+                3,
+                4
+              ],
+              "classification": "CLOSED_F0_NORMALIZED",
+              "evidence": "rot4_line_overflow_v40_04_k12_a8_b5_norm_hq0_q1.json"
+            },
+            {
+              "triple": 6,
+              "quadruples": [
+                4,
+                5
+              ],
+              "classification": "CLOSED_F0_NORMALIZED",
+              "evidence": "rot4_line_overflow_v40_04_k12_a8_b6_norm_hq0_q1.json"
+            },
+            {
+              "triple": 7,
+              "quadruples": [
+                6
+              ],
+              "classification": "CLOSED_F0_NORMALIZED",
+              "evidence": "rot4_line_overflow_v40_04_k12_a8_b7_norm_hq0_q1.json"
+            },
+            {
+              "triple": 4,
+              "quadruple": 0,
+              "classification": "CLOSED_Q1_NORMALIZED",
+              "evidence": "rot4_v40_04_k12_a8_b4_c0_norm_q1resource.json"
+            },
+            {
+              "triple": 4,
+              "quadruple": 1,
+              "classification": "CLOSED_Q1_NORMALIZED",
+              "evidence": "rot4_v40_04_k12_a8_b4_c1_norm_q1resource.json"
+            },
+            {
+              "triple": 4,
+              "quadruple": 2,
+              "classification": "CLOSED_Q1_NORMALIZED",
+              "evidence": "rot4_v40_04_k12_a8_b4_c2_norm_q1resource.json"
+            },
+            {
+              "triple": 4,
+              "quadruple": 3,
+              "classification": "CLOSED_Q1_NORMALIZED",
+              "evidence": "rot4_v40_04_k12_a8_b4_c3_norm_q1resource.json"
+            },
+            {
+              "triple": 4,
+              "quadruple": 4,
+              "classification": "CLOSED_Q1_NORMALIZED",
+              "evidence": "rot4_v40_04_k12_a8_b4_c4_norm_q1resource.json"
+            }
+          ]
+        },
+        "9": {
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_04_k12_a9_q1.json"
+        },
+        "10": {
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_04_k12_a10_q1.json"
+        },
+        "11": {
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_04_k12_a11_q1.json"
+        }
+      }
+    }
+  ],
+  "common_statement": "Every exact distance-12 repair from these four basins must have 3 <= A <= 6."
+}

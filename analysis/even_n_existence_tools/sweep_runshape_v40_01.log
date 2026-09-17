@@ -1,0 +1,24 @@
+v40_01: precomputing blockers
+  pass=1 unresolved=[(5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (6, 1), (6, 2), (6, 3), (6, 4), (6, 5)] shared=0
+    shape=5:0 shared=0
+      status=INFEASIBLE rounds=1 dynamic=0 shared_now=72 best_bad=None
+    shape=5:1 shared=72
+      status=UNKNOWN rounds=1 dynamic=0 shared_now=72 best_bad=None
+    shape=5:2 shared=72
+      status=UNKNOWN rounds=1 dynamic=0 shared_now=72 best_bad=None
+    shape=5:3 shared=72
+      status=INFEASIBLE rounds=1 dynamic=0 shared_now=72 best_bad=None
+    shape=5:4 shared=72
+      status=INFEASIBLE rounds=1 dynamic=0 shared_now=72 best_bad=None
+    shape=6:1 shared=72
+      status=UNKNOWN rounds=1 dynamic=0 shared_now=72 best_bad=None
+    shape=6:2 shared=72
+      status=UNKNOWN rounds=1 dynamic=0 shared_now=72 best_bad=None
+    shape=6:3 shared=72
+      status=UNKNOWN rounds=1 dynamic=0 shared_now=72 best_bad=None
+    shape=6:4 shared=72
+      status=INFEASIBLE rounds=1 dynamic=0 shared_now=72 best_bad=None
+    shape=6:5 shared=72
+      status=INFEASIBLE rounds=1 dynamic=0 shared_now=72 best_bad=None
+  pass=2 unresolved=[(5, 1), (5, 2), (6, 1), (6, 2), (6, 3)] shared=72
+    shape=5:1 shared=72

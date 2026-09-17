@@ -1,0 +1,169 @@
+v20_01 k=14: 6,424,194 input survivors
+  v20_01 k=14 q=0: feasible=726,702 collected=726,702
+  v20_01 k=14 q=1: feasible=4,658 collected=4,658
+  v20_01 k=14 q=2: feasible=65 collected=65
+  v20_01 k=14 q=3: feasible=3 collected=3
+{
+  "0": {
+    "factor_feasible_masks": 726702,
+    "collected_feasible": 726702,
+    "max_factor_search_nodes": 221
+  },
+  "1": {
+    "factor_feasible_masks": 4658,
+    "collected_feasible": 4658,
+    "max_factor_search_nodes": 147
+  },
+  "2": {
+    "factor_feasible_masks": 65,
+    "collected_feasible": 65,
+    "max_factor_search_nodes": 56
+  },
+  "3": {
+    "factor_feasible_masks": 3,
+    "collected_feasible": 3,
+    "max_factor_search_nodes": 21
+  }
+}
+D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\even_n_existence_tools\v20_01_k14_audit.json
+v20_02 k=14: 18,045,284 input survivors
+  v20_02 k=14 q=0: feasible=2,932,216 collected=2,932,216
+  v20_02 k=14 q=1: feasible=21,989 collected=21,989
+  v20_02 k=14 q=2: feasible=350 collected=350
+  v20_02 k=14 q=3: feasible=4 collected=4
+{
+  "0": {
+    "factor_feasible_masks": 2932216,
+    "collected_feasible": 2932216,
+    "max_factor_search_nodes": 566
+  },
+  "1": {
+    "factor_feasible_masks": 21989,
+    "collected_feasible": 21989,
+    "max_factor_search_nodes": 213
+  },
+  "2": {
+    "factor_feasible_masks": 350,
+    "collected_feasible": 350,
+    "max_factor_search_nodes": 67
+  },
+  "3": {
+    "factor_feasible_masks": 4,
+    "collected_feasible": 4,
+    "max_factor_search_nodes": 23
+  }
+}
+D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\even_n_existence_tools\v20_02_k14_audit.json
+v20_03 k=14: 20,477,656 input survivors
+  v20_03 k=14 q=0: feasible=2,997,205 collected=2,997,205
+  v20_03 k=14 q=1: feasible=40,162 collected=40,162
+  v20_03 k=14 q=2: feasible=532 collected=532
+  v20_03 k=14 q=3: feasible=6 collected=6
+{
+  "0": {
+    "factor_feasible_masks": 2997205,
+    "collected_feasible": 2997205,
+    "max_factor_search_nodes": 663
+  },
+  "1": {
+    "factor_feasible_masks": 40162,
+    "collected_feasible": 40162,
+    "max_factor_search_nodes": 254
+  },
+  "2": {
+    "factor_feasible_masks": 532,
+    "collected_feasible": 532,
+    "max_factor_search_nodes": 131
+  },
+  "3": {
+    "factor_feasible_masks": 6,
+    "collected_feasible": 6,
+    "max_factor_search_nodes": 49
+  }
+}
+D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\even_n_existence_tools\v20_03_k14_audit.json
+v20_04 k=14: 13,574,643 input survivors
+  v20_04 k=14 q=0: feasible=2,346,039 collected=2,346,039
+  v20_04 k=14 q=1: feasible=24,561 collected=24,561
+  v20_04 k=14 q=2: feasible=308 collected=308
+  v20_04 k=14 q=3: feasible=4 collected=4
+{
+  "0": {
+    "factor_feasible_masks": 2346039,
+    "collected_feasible": 2346039,
+    "max_factor_search_nodes": 404
+  },
+  "1": {
+    "factor_feasible_masks": 24561,
+    "collected_feasible": 24561,
+    "max_factor_search_nodes": 357
+  },
+  "2": {
+    "factor_feasible_masks": 308,
+    "collected_feasible": 308,
+    "max_factor_search_nodes": 103
+  },
+  "3": {
+    "factor_feasible_masks": 4,
+    "collected_feasible": 4,
+    "max_factor_search_nodes": 28
+  }
+}
+D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\even_n_existence_tools\v20_04_k14_audit.json
+v20_05 k=14: 11,556,655 input survivors
+  v20_05 k=14 q=0: feasible=1,706,374 collected=1,706,374
+  v20_05 k=14 q=1: feasible=9,736 collected=9,736
+  v20_05 k=14 q=2: feasible=105 collected=105
+  v20_05 k=14 q=3: feasible=2 collected=2
+{
+  "0": {
+    "factor_feasible_masks": 1706374,
+    "collected_feasible": 1706374,
+    "max_factor_search_nodes": 270
+  },
+  "1": {
+    "factor_feasible_masks": 9736,
+    "collected_feasible": 9736,
+    "max_factor_search_nodes": 150
+  },
+  "2": {
+    "factor_feasible_masks": 105,
+    "collected_feasible": 105,
+    "max_factor_search_nodes": 45
+  },
+  "3": {
+    "factor_feasible_masks": 2,
+    "collected_feasible": 2,
+    "max_factor_search_nodes": 20
+  }
+}
+D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\even_n_existence_tools\v20_05_k14_audit.json
+v20_06 k=14: 4,180,977 input survivors
+  v20_06 k=14 q=0: feasible=460,734 collected=460,734
+  v20_06 k=14 q=1: feasible=2,754 collected=2,754
+  v20_06 k=14 q=2: feasible=18 collected=18
+  v20_06 k=14 q=3: feasible=0 collected=0
+{
+  "0": {
+    "factor_feasible_masks": 460734,
+    "collected_feasible": 460734,
+    "max_factor_search_nodes": 268
+  },
+  "1": {
+    "factor_feasible_masks": 2754,
+    "collected_feasible": 2754,
+    "max_factor_search_nodes": 117
+  },
+  "2": {
+    "factor_feasible_masks": 18,
+    "collected_feasible": 18,
+    "max_factor_search_nodes": 48
+  },
+  "3": {
+    "factor_feasible_masks": 0,
+    "collected_feasible": 0,
+    "max_factor_search_nodes": 13
+  }
+}
+D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\even_n_existence_tools\v20_06_k14_audit.json
+ALL AUDITS DONE

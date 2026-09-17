@@ -1,0 +1,30 @@
+{
+  "parameters": {
+    "base": "v40_04",
+    "removed": "2,5,6,10,11,12,14,16,21,24,27,31",
+    "direction_q": 1,
+    "time_limit": 60.0,
+    "workers": 2,
+    "out": "rot4_fixed_v40_04_k12_a4_unique_multigraph_q1.json"
+  },
+  "removed_indices": [
+    2,
+    5,
+    6,
+    10,
+    11,
+    12,
+    14,
+    16,
+    21,
+    24,
+    27,
+    31
+  ],
+  "status": "INFEASIBLE",
+  "short_line_count": 72,
+  "branches": 0,
+  "conflicts": 0,
+  "wall_s": 0.031,
+  "elapsed_s": 0.032
+}

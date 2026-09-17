@@ -1,0 +1,17 @@
+{
+  "base_n": 16,
+  "output_n": 32,
+  "base_point_count": 32,
+  "binary_variables": 32,
+  "line_statistics": {
+    "primitive_directions_with_possible_three_point_lines": 288,
+    "lines_with_at_least_three_grid_points": 44282,
+    "line_enumeration_seconds": 0.05228320002788678
+  },
+  "constrained_lines": 514,
+  "build_seconds": 0.06384800001978874,
+  "status": "INFEASIBLE",
+  "solve_seconds": 0.0035901,
+  "conflicts": 0,
+  "branches": 0
+}

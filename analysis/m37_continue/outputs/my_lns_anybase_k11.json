@@ -1,0 +1,1871 @@
+{
+  "parameters": {
+    "bases": "v44_01,v44_02,v44_03,v48_01,v48_02,v48_03,v52_01,v52_02,v52_03",
+    "k": 11,
+    "iterations": 2,
+    "target": 36,
+    "time_limit": 15.0,
+    "modes": "0,1,2,3,4",
+    "seed0": 202607175000,
+    "out": "my_lns_anybase_k11.json"
+  },
+  "runs": [
+    {
+      "base": "v44_01",
+      "base_value": 44,
+      "covered_defects": 11,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          4,
+          5,
+          8,
+          10,
+          11,
+          13,
+          16,
+          22,
+          24,
+          29,
+          35
+        ],
+        "removed_edges": [
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            20
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            7,
+            28
+          ],
+          [
+            9,
+            32
+          ],
+          [
+            12,
+            36
+          ],
+          [
+            14,
+            22
+          ],
+          [
+            17,
+            28
+          ],
+          [
+            27,
+            36
+          ]
+        ],
+        "affected_vertices": [
+          2,
+          4,
+          5,
+          6,
+          7,
+          9,
+          12,
+          14,
+          17,
+          20,
+          22,
+          27,
+          28,
+          32,
+          36
+        ],
+        "residual_degree_histogram": {
+          "2": 7,
+          "1": 8
+        },
+        "directed_cell_variables": 208,
+        "fixed_point_count": 104,
+        "potential_point_count": 936,
+        "raw_line_keys": 330600,
+        "active_line_costs": 6150,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 268,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 1.188,
+        "solve_s": 2.507,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v44_01",
+      "base_value": 44,
+      "covered_defects": 11,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          7,
+          8,
+          10,
+          11,
+          13,
+          16,
+          17,
+          22,
+          29,
+          35,
+          36
+        ],
+        "removed_edges": [
+          [
+            3,
+            29
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            7,
+            28
+          ],
+          [
+            9,
+            32
+          ],
+          [
+            9,
+            35
+          ],
+          [
+            12,
+            36
+          ],
+          [
+            17,
+            28
+          ],
+          [
+            27,
+            36
+          ],
+          [
+            29,
+            35
+          ]
+        ],
+        "affected_vertices": [
+          3,
+          4,
+          5,
+          7,
+          9,
+          12,
+          17,
+          22,
+          27,
+          28,
+          29,
+          32,
+          35,
+          36
+        ],
+        "residual_degree_histogram": {
+          "1": 6,
+          "2": 8
+        },
+        "directed_cell_variables": 182,
+        "fixed_point_count": 104,
+        "potential_point_count": 832,
+        "raw_line_keys": 259100,
+        "active_line_costs": 5266,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 256,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 0.956,
+        "solve_s": 2.866,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v44_02",
+      "base_value": 44,
+      "covered_defects": 11,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          7,
+          10,
+          11,
+          12,
+          14,
+          15,
+          16,
+          21,
+          24,
+          27,
+          30
+        ],
+        "removed_edges": [
+          [
+            3,
+            25
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            6,
+            17
+          ],
+          [
+            7,
+            20
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            8,
+            25
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            14,
+            22
+          ],
+          [
+            16,
+            28
+          ],
+          [
+            20,
+            26
+          ]
+        ],
+        "affected_vertices": [
+          3,
+          5,
+          6,
+          7,
+          8,
+          11,
+          13,
+          14,
+          16,
+          17,
+          20,
+          22,
+          25,
+          26,
+          28
+        ],
+        "residual_degree_histogram": {
+          "1": 8,
+          "2": 7
+        },
+        "directed_cell_variables": 210,
+        "fixed_point_count": 104,
+        "potential_point_count": 944,
+        "raw_line_keys": 335380,
+        "active_line_costs": 6169,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 260,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 1.195,
+        "solve_s": 6.689,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v44_02",
+      "base_value": 44,
+      "covered_defects": 11,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          2,
+          10,
+          11,
+          14,
+          19,
+          20,
+          24,
+          25,
+          26,
+          33,
+          35
+        ],
+        "removed_edges": [
+          [
+            1,
+            19
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            7,
+            20
+          ],
+          [
+            10,
+            15
+          ],
+          [
+            10,
+            24
+          ],
+          [
+            14,
+            22
+          ],
+          [
+            14,
+            27
+          ],
+          [
+            15,
+            34
+          ],
+          [
+            24,
+            34
+          ],
+          [
+            27,
+            36
+          ]
+        ],
+        "affected_vertices": [
+          1,
+          5,
+          7,
+          10,
+          14,
+          15,
+          19,
+          20,
+          22,
+          24,
+          27,
+          34,
+          36
+        ],
+        "residual_degree_histogram": {
+          "1": 4,
+          "2": 9
+        },
+        "directed_cell_variables": 156,
+        "fixed_point_count": 104,
+        "potential_point_count": 728,
+        "raw_line_keys": 203916,
+        "active_line_costs": 3618,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 240,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 0.728,
+        "solve_s": 2.283,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v44_03",
+      "base_value": 44,
+      "covered_defects": 11,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          7,
+          11,
+          12,
+          15,
+          16,
+          21,
+          22,
+          24,
+          27,
+          30,
+          34
+        ],
+        "removed_edges": [
+          [
+            3,
+            25
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            6,
+            17
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            8,
+            25
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            11,
+            18
+          ],
+          [
+            14,
+            22
+          ],
+          [
+            16,
+            20
+          ],
+          [
+            20,
+            26
+          ],
+          [
+            26,
+            29
+          ]
+        ],
+        "affected_vertices": [
+          3,
+          5,
+          6,
+          8,
+          11,
+          13,
+          14,
+          16,
+          17,
+          18,
+          20,
+          22,
+          25,
+          26,
+          29
+        ],
+        "residual_degree_histogram": {
+          "1": 8,
+          "2": 7
+        },
+        "directed_cell_variables": 208,
+        "fixed_point_count": 104,
+        "potential_point_count": 936,
+        "raw_line_keys": 323078,
+        "active_line_costs": 6291,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 252,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 1.247,
+        "solve_s": 7.375,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v44_03",
+      "base_value": 44,
+      "covered_defects": 11,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          2,
+          8,
+          9,
+          11,
+          21,
+          22,
+          23,
+          27,
+          30,
+          34,
+          35
+        ],
+        "removed_edges": [
+          [
+            1,
+            19
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            4,
+            19
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            11,
+            18
+          ],
+          [
+            12,
+            36
+          ],
+          [
+            16,
+            20
+          ],
+          [
+            20,
+            26
+          ],
+          [
+            26,
+            29
+          ],
+          [
+            27,
+            36
+          ]
+        ],
+        "affected_vertices": [
+          1,
+          4,
+          5,
+          11,
+          12,
+          13,
+          16,
+          18,
+          19,
+          20,
+          22,
+          26,
+          27,
+          29,
+          36
+        ],
+        "residual_degree_histogram": {
+          "1": 8,
+          "2": 7
+        },
+        "directed_cell_variables": 210,
+        "fixed_point_count": 104,
+        "potential_point_count": 944,
+        "raw_line_keys": 327524,
+        "active_line_costs": 6719,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 256,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 1.226,
+        "solve_s": 7.678,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v48_01",
+      "base_value": 48,
+      "covered_defects": 12,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          2,
+          6,
+          7,
+          9,
+          11,
+          15,
+          16,
+          21,
+          23,
+          24,
+          31
+        ],
+        "removed_edges": [
+          [
+            1,
+            11
+          ],
+          [
+            3,
+            25
+          ],
+          [
+            3,
+            36
+          ],
+          [
+            4,
+            19
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            8,
+            25
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            14,
+            22
+          ],
+          [
+            14,
+            27
+          ],
+          [
+            20,
+            27
+          ]
+        ],
+        "affected_vertices": [
+          1,
+          3,
+          4,
+          5,
+          8,
+          11,
+          13,
+          14,
+          19,
+          20,
+          22,
+          25,
+          27,
+          36
+        ],
+        "residual_degree_histogram": {
+          "1": 6,
+          "2": 8
+        },
+        "directed_cell_variables": 182,
+        "fixed_point_count": 104,
+        "potential_point_count": 832,
+        "raw_line_keys": 267794,
+        "active_line_costs": 4640,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 272,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 0.961,
+        "solve_s": 2.756,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v48_01",
+      "base_value": 48,
+      "covered_defects": 12,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          2,
+          7,
+          18,
+          23,
+          24,
+          25,
+          30,
+          31,
+          34,
+          35,
+          36
+        ],
+        "removed_edges": [
+          [
+            1,
+            11
+          ],
+          [
+            3,
+            36
+          ],
+          [
+            9,
+            35
+          ],
+          [
+            14,
+            22
+          ],
+          [
+            14,
+            27
+          ],
+          [
+            15,
+            34
+          ],
+          [
+            20,
+            26
+          ],
+          [
+            20,
+            27
+          ],
+          [
+            24,
+            34
+          ],
+          [
+            26,
+            29
+          ],
+          [
+            29,
+            35
+          ]
+        ],
+        "affected_vertices": [
+          1,
+          3,
+          9,
+          11,
+          14,
+          15,
+          20,
+          22,
+          24,
+          26,
+          27,
+          29,
+          34,
+          35,
+          36
+        ],
+        "residual_degree_histogram": {
+          "1": 8,
+          "2": 7
+        },
+        "directed_cell_variables": 210,
+        "fixed_point_count": 104,
+        "potential_point_count": 944,
+        "raw_line_keys": 316148,
+        "active_line_costs": 7500,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 240,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 1.177,
+        "solve_s": 3.779,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v48_02",
+      "base_value": 48,
+      "covered_defects": 12,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          6,
+          8,
+          9,
+          10,
+          11,
+          13,
+          15,
+          22,
+          23,
+          26,
+          33
+        ],
+        "removed_edges": [
+          [
+            3,
+            19
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            4,
+            23
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            6,
+            34
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            11,
+            19
+          ],
+          [
+            12,
+            36
+          ],
+          [
+            15,
+            22
+          ],
+          [
+            24,
+            34
+          ]
+        ],
+        "affected_vertices": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11,
+          12,
+          13,
+          15,
+          19,
+          22,
+          23,
+          24,
+          34,
+          36
+        ],
+        "residual_degree_histogram": {
+          "1": 10,
+          "2": 6
+        },
+        "directed_cell_variables": 240,
+        "fixed_point_count": 104,
+        "potential_point_count": 1064,
+        "raw_line_keys": 420866,
+        "active_line_costs": 8427,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 264,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 1.652,
+        "solve_s": 5.101,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v48_02",
+      "base_value": 48,
+      "covered_defects": 12,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          0,
+          1,
+          8,
+          9,
+          13,
+          15,
+          24,
+          27,
+          32,
+          33,
+          36
+        ],
+        "removed_edges": [
+          [
+            0,
+            30
+          ],
+          [
+            0,
+            33
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            4,
+            23
+          ],
+          [
+            6,
+            34
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            13,
+            16
+          ],
+          [
+            16,
+            30
+          ],
+          [
+            21,
+            33
+          ],
+          [
+            24,
+            34
+          ],
+          [
+            29,
+            35
+          ]
+        ],
+        "affected_vertices": [
+          0,
+          4,
+          6,
+          8,
+          12,
+          13,
+          16,
+          21,
+          23,
+          24,
+          29,
+          30,
+          33,
+          34,
+          35
+        ],
+        "residual_degree_histogram": {
+          "2": 7,
+          "1": 8
+        },
+        "directed_cell_variables": 210,
+        "fixed_point_count": 104,
+        "potential_point_count": 944,
+        "raw_line_keys": 324078,
+        "active_line_costs": 7087,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 256,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 1.191,
+        "solve_s": 5.046,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v48_03",
+      "base_value": 48,
+      "covered_defects": 12,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          0,
+          6,
+          7,
+          10,
+          11,
+          13,
+          15,
+          24,
+          26,
+          27,
+          36
+        ],
+        "removed_edges": [
+          [
+            0,
+            30
+          ],
+          [
+            3,
+            23
+          ],
+          [
+            3,
+            29
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            6,
+            34
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            13,
+            16
+          ],
+          [
+            15,
+            22
+          ],
+          [
+            16,
+            30
+          ],
+          [
+            29,
+            35
+          ]
+        ],
+        "affected_vertices": [
+          0,
+          3,
+          5,
+          6,
+          7,
+          8,
+          13,
+          15,
+          16,
+          22,
+          23,
+          29,
+          30,
+          34,
+          35
+        ],
+        "residual_degree_histogram": {
+          "1": 8,
+          "2": 7
+        },
+        "directed_cell_variables": 210,
+        "fixed_point_count": 104,
+        "potential_point_count": 944,
+        "raw_line_keys": 334440,
+        "active_line_costs": 6644,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 272,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 1.226,
+        "solve_s": 3.684,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v48_03",
+      "base_value": 48,
+      "covered_defects": 12,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          0,
+          6,
+          7,
+          10,
+          11,
+          13,
+          15,
+          24,
+          26,
+          27,
+          28
+        ],
+        "removed_edges": [
+          [
+            0,
+            30
+          ],
+          [
+            3,
+            23
+          ],
+          [
+            3,
+            29
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            6,
+            34
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            13,
+            16
+          ],
+          [
+            15,
+            22
+          ],
+          [
+            16,
+            30
+          ],
+          [
+            17,
+            18
+          ]
+        ],
+        "affected_vertices": [
+          0,
+          3,
+          5,
+          6,
+          7,
+          8,
+          13,
+          15,
+          16,
+          17,
+          18,
+          22,
+          23,
+          29,
+          30,
+          34
+        ],
+        "residual_degree_histogram": {
+          "1": 10,
+          "2": 6
+        },
+        "directed_cell_variables": 240,
+        "fixed_point_count": 104,
+        "potential_point_count": 1064,
+        "raw_line_keys": 416040,
+        "active_line_costs": 8863,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 276,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 1.617,
+        "solve_s": 7.083,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v52_01",
+      "base_value": 52,
+      "covered_defects": 13,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          2,
+          4,
+          5,
+          8,
+          10,
+          11,
+          14,
+          16,
+          19,
+          29,
+          32
+        ],
+        "removed_edges": [
+          [
+            1,
+            30
+          ],
+          [
+            2,
+            15
+          ],
+          [
+            2,
+            20
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            7,
+            28
+          ],
+          [
+            8,
+            25
+          ],
+          [
+            10,
+            15
+          ],
+          [
+            17,
+            28
+          ],
+          [
+            21,
+            33
+          ]
+        ],
+        "affected_vertices": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          10,
+          12,
+          15,
+          17,
+          20,
+          21,
+          22,
+          25,
+          28,
+          30,
+          33
+        ],
+        "residual_degree_histogram": {
+          "1": 12,
+          "2": 5
+        },
+        "directed_cell_variables": 272,
+        "fixed_point_count": 104,
+        "potential_point_count": 1192,
+        "raw_line_keys": 515040,
+        "active_line_costs": 11006,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 276,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 1.965,
+        "solve_s": 8.594,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v52_01",
+      "base_value": 52,
+      "covered_defects": 13,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          0,
+          1,
+          2,
+          9,
+          10,
+          11,
+          14,
+          22,
+          29,
+          32,
+          35
+        ],
+        "removed_edges": [
+          [
+            0,
+            19
+          ],
+          [
+            0,
+            33
+          ],
+          [
+            1,
+            30
+          ],
+          [
+            4,
+            19
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            7,
+            28
+          ],
+          [
+            11,
+            23
+          ],
+          [
+            17,
+            28
+          ],
+          [
+            21,
+            33
+          ],
+          [
+            27,
+            36
+          ]
+        ],
+        "affected_vertices": [
+          0,
+          1,
+          4,
+          5,
+          7,
+          11,
+          17,
+          19,
+          21,
+          22,
+          23,
+          27,
+          28,
+          30,
+          33,
+          36
+        ],
+        "residual_degree_histogram": {
+          "2": 6,
+          "1": 10
+        },
+        "directed_cell_variables": 240,
+        "fixed_point_count": 104,
+        "potential_point_count": 1064,
+        "raw_line_keys": 409444,
+        "active_line_costs": 9271,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 268,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 1.736,
+        "solve_s": 9.286,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v52_02",
+      "base_value": 52,
+      "covered_defects": 13,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          2,
+          3,
+          7,
+          15,
+          16,
+          21,
+          22,
+          27,
+          30,
+          35,
+          36
+        ],
+        "removed_edges": [
+          [
+            1,
+            10
+          ],
+          [
+            1,
+            31
+          ],
+          [
+            3,
+            29
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            8,
+            25
+          ],
+          [
+            12,
+            36
+          ],
+          [
+            13,
+            29
+          ],
+          [
+            16,
+            28
+          ],
+          [
+            20,
+            26
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            27,
+            36
+          ]
+        ],
+        "affected_vertices": [
+          1,
+          3,
+          8,
+          10,
+          12,
+          13,
+          16,
+          20,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          36
+        ],
+        "residual_degree_histogram": {
+          "2": 7,
+          "1": 8
+        },
+        "directed_cell_variables": 210,
+        "fixed_point_count": 104,
+        "potential_point_count": 944,
+        "raw_line_keys": 321324,
+        "active_line_costs": 7273,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 256,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 1.381,
+        "solve_s": 6.0,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v52_02",
+      "base_value": 52,
+      "covered_defects": 13,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          7,
+          9,
+          15,
+          16,
+          22,
+          25,
+          26,
+          27,
+          33,
+          34,
+          35
+        ],
+        "removed_edges": [
+          [
+            3,
+            29
+          ],
+          [
+            4,
+            19
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            8,
+            25
+          ],
+          [
+            13,
+            29
+          ],
+          [
+            15,
+            19
+          ],
+          [
+            15,
+            34
+          ],
+          [
+            16,
+            28
+          ],
+          [
+            22,
+            35
+          ],
+          [
+            24,
+            34
+          ],
+          [
+            25,
+            26
+          ]
+        ],
+        "affected_vertices": [
+          3,
+          4,
+          8,
+          13,
+          15,
+          16,
+          19,
+          22,
+          24,
+          25,
+          26,
+          28,
+          29,
+          34,
+          35
+        ],
+        "residual_degree_histogram": {
+          "1": 8,
+          "2": 7
+        },
+        "directed_cell_variables": 210,
+        "fixed_point_count": 104,
+        "potential_point_count": 944,
+        "raw_line_keys": 314536,
+        "active_line_costs": 7609,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 240,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 1.405,
+        "solve_s": 5.177,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v52_03",
+      "base_value": 52,
+      "covered_defects": 13,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          5,
+          9,
+          11,
+          15,
+          16,
+          20,
+          22,
+          23,
+          24,
+          25,
+          31
+        ],
+        "removed_edges": [
+          [
+            2,
+            36
+          ],
+          [
+            4,
+            19
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            8,
+            25
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            12,
+            36
+          ],
+          [
+            14,
+            22
+          ],
+          [
+            14,
+            27
+          ],
+          [
+            15,
+            19
+          ],
+          [
+            20,
+            27
+          ]
+        ],
+        "affected_vertices": [
+          2,
+          4,
+          5,
+          8,
+          11,
+          12,
+          13,
+          14,
+          15,
+          19,
+          20,
+          22,
+          25,
+          27,
+          36
+        ],
+        "residual_degree_histogram": {
+          "1": 8,
+          "2": 7
+        },
+        "directed_cell_variables": 208,
+        "fixed_point_count": 104,
+        "potential_point_count": 936,
+        "raw_line_keys": 328394,
+        "active_line_costs": 6452,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 264,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 1.498,
+        "solve_s": 7.705,
+        "best_bound": 37
+      }
+    },
+    {
+      "base": "v52_03",
+      "base_value": 52,
+      "covered_defects": 13,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          0,
+          5,
+          7,
+          22,
+          24,
+          25,
+          26,
+          30,
+          31,
+          34,
+          35
+        ],
+        "removed_edges": [
+          [
+            0,
+            30
+          ],
+          [
+            2,
+            36
+          ],
+          [
+            3,
+            25
+          ],
+          [
+            12,
+            36
+          ],
+          [
+            14,
+            27
+          ],
+          [
+            15,
+            19
+          ],
+          [
+            15,
+            34
+          ],
+          [
+            20,
+            26
+          ],
+          [
+            20,
+            27
+          ],
+          [
+            24,
+            34
+          ],
+          [
+            26,
+            29
+          ]
+        ],
+        "affected_vertices": [
+          0,
+          2,
+          3,
+          12,
+          14,
+          15,
+          19,
+          20,
+          24,
+          25,
+          26,
+          27,
+          29,
+          30,
+          34,
+          36
+        ],
+        "residual_degree_histogram": {
+          "1": 10,
+          "2": 6
+        },
+        "directed_cell_variables": 240,
+        "fixed_point_count": 104,
+        "potential_point_count": 1064,
+        "raw_line_keys": 397842,
+        "active_line_costs": 9504,
+        "fixed_line_constant": 0,
+        "diagonal_constraints": 256,
+        "branch": null,
+        "branches": [],
+        "target": 36,
+        "target_exact": false,
+        "max_retained_original": null,
+        "build_s": 1.765,
+        "solve_s": 6.53,
+        "best_bound": 37
+      }
+    }
+  ],
+  "best_candidate": null
+}

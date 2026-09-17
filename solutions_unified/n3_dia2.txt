@@ -1,0 +1,10 @@
+# solution 1
+# n=3 sym=dia2 status=verified source=flammenkamp_cache/n3_dia2
+# code=x010212
+0 0
+0 1
+1 0
+1 2
+2 1
+2 2
+

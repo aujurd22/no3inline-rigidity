@@ -1,0 +1,14672 @@
+# solution 1
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.483A130B5689024A1779562B
+0 4
+0 8
+1 3
+1 10
+2 1
+2 3
+3 0
+3 11
+4 5
+4 6
+5 8
+5 9
+6 0
+6 2
+7 4
+7 10
+8 1
+8 7
+9 7
+9 9
+10 5
+10 6
+11 2
+11 11
+
+# solution 2
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.466803159B5B9A12248A3707
+0 4
+0 6
+1 6
+1 8
+2 0
+2 3
+3 1
+3 5
+4 9
+4 11
+5 5
+5 11
+6 9
+6 10
+7 1
+7 2
+8 2
+8 4
+9 8
+9 10
+10 3
+10 7
+11 0
+11 7
+
+# solution 3
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3804285A59121B9B36674A07
+0 3
+0 8
+1 0
+1 4
+2 2
+2 8
+3 5
+3 10
+4 5
+4 9
+5 1
+5 2
+6 1
+6 11
+7 9
+7 11
+8 3
+8 6
+9 6
+9 7
+10 4
+10 10
+11 0
+11 7
+
+# solution 4
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.472A571B5813089A0269364B
+0 4
+0 7
+1 2
+1 10
+2 5
+2 7
+3 1
+3 11
+4 5
+4 8
+5 1
+5 3
+6 0
+6 8
+7 9
+7 10
+8 0
+8 2
+9 6
+9 9
+10 3
+10 6
+11 4
+11 11
+
+# solution 5
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4B36570914052A8917238B6A
+0 4
+0 11
+1 3
+1 6
+2 5
+2 7
+3 0
+3 9
+4 1
+4 4
+5 0
+5 5
+6 2
+6 10
+7 8
+7 9
+8 1
+8 7
+9 2
+9 3
+10 8
+10 11
+11 6
+11 10
+
+# solution 6
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3B377912250A0A8B45894616
+0 3
+0 11
+1 3
+1 7
+2 7
+2 9
+3 1
+3 2
+4 2
+4 5
+5 0
+5 10
+6 0
+6 10
+7 8
+7 11
+8 4
+8 5
+9 8
+9 9
+10 4
+10 6
+11 1
+11 6
+
+# solution 7
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.066A158A583B02397B142749
+0 0
+0 6
+1 6
+1 10
+2 1
+2 5
+3 8
+3 10
+4 5
+4 8
+5 3
+5 11
+6 0
+6 2
+7 3
+7 9
+8 7
+8 11
+9 1
+9 4
+10 2
+10 7
+11 4
+11 9
+
+# solution 8
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.258B479B4A029A1357183606
+0 2
+0 5
+1 8
+1 11
+2 4
+2 7
+3 9
+3 11
+4 4
+4 10
+5 0
+5 2
+6 9
+6 10
+7 1
+7 3
+8 5
+8 7
+9 1
+9 8
+10 3
+10 6
+11 0
+11 6
+
+# solution 9
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.0859157A148A0B2469236B37
+0 0
+0 8
+1 5
+1 9
+2 1
+2 5
+3 7
+3 10
+4 1
+4 4
+5 8
+5 10
+6 0
+6 11
+7 2
+7 4
+8 6
+8 9
+9 2
+9 3
+10 6
+10 11
+11 3
+11 7
+
+# solution 10
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.085B157A148A0B2469236937
+0 0
+0 8
+1 5
+1 11
+2 1
+2 5
+3 7
+3 10
+4 1
+4 4
+5 8
+5 10
+6 0
+6 11
+7 2
+7 4
+8 6
+8 9
+9 2
+9 3
+10 6
+10 9
+11 3
+11 7
+
+# solution 11
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.0859159A148A0B2467236B37
+0 0
+0 8
+1 5
+1 9
+2 1
+2 5
+3 9
+3 10
+4 1
+4 4
+5 8
+5 10
+6 0
+6 11
+7 2
+7 4
+8 6
+8 7
+9 2
+9 3
+10 6
+10 11
+11 3
+11 7
+
+# solution 12
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.066A391B358B042A28457917
+0 0
+0 6
+1 6
+1 10
+2 3
+2 9
+3 1
+3 11
+4 3
+4 5
+5 8
+5 11
+6 0
+6 4
+7 2
+7 10
+8 2
+8 8
+9 4
+9 5
+10 7
+10 9
+11 1
+11 7
+
+# solution 13
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.063A285B5B89134A09472617
+0 0
+0 6
+1 3
+1 10
+2 2
+2 8
+3 5
+3 11
+4 5
+4 11
+5 8
+5 9
+6 1
+6 3
+7 4
+7 10
+8 0
+8 9
+9 4
+9 7
+10 2
+10 6
+11 1
+11 7
+
+# solution 14
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.24791704598B125A3A36680B
+0 2
+0 4
+1 7
+1 9
+2 1
+2 7
+3 0
+3 4
+4 5
+4 9
+5 8
+5 11
+6 1
+6 2
+7 5
+7 10
+8 3
+8 10
+9 3
+9 6
+10 6
+10 8
+11 0
+11 11
+
+# solution 15
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.0A68358A153B029B47192746
+0 0
+0 10
+1 6
+1 8
+2 3
+2 5
+3 8
+3 10
+4 1
+4 5
+5 3
+5 11
+6 0
+6 2
+7 9
+7 11
+8 4
+8 7
+9 1
+9 9
+10 2
+10 7
+11 4
+11 6
+
+# solution 16
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.0A68358A153B029B47127946
+0 0
+0 10
+1 6
+1 8
+2 3
+2 5
+3 8
+3 10
+4 1
+4 5
+5 3
+5 11
+6 0
+6 2
+7 9
+7 11
+8 4
+8 7
+9 1
+9 2
+10 7
+10 9
+11 4
+11 6
+
+# solution 17
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.466B34195B082A132A795708
+0 4
+0 6
+1 6
+1 11
+2 3
+2 4
+3 1
+3 9
+4 5
+4 11
+5 0
+5 8
+6 2
+6 10
+7 1
+7 3
+8 2
+8 10
+9 7
+9 9
+10 5
+10 7
+11 0
+11 8
+
+# solution 18
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.066A359B159A02138B477824
+0 0
+0 6
+1 6
+1 10
+2 3
+2 5
+3 9
+3 11
+4 1
+4 5
+5 9
+5 10
+6 0
+6 2
+7 1
+7 3
+8 8
+8 11
+9 4
+9 7
+10 7
+10 8
+11 2
+11 4
+
+# solution 19
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.47131A795B08238A259B4606
+0 4
+0 7
+1 1
+1 3
+2 1
+2 10
+3 7
+3 9
+4 5
+4 11
+5 0
+5 8
+6 2
+6 3
+7 8
+7 10
+8 2
+8 5
+9 9
+9 11
+10 4
+10 6
+11 0
+11 6
+
+# solution 20
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6739138B158A02247A49065B
+0 6
+0 7
+1 3
+1 9
+2 1
+2 3
+3 8
+3 11
+4 1
+4 5
+5 8
+5 10
+6 0
+6 2
+7 2
+7 4
+8 7
+8 10
+9 4
+9 9
+10 0
+10 6
+11 5
+11 11
+
+# solution 21
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.09465729481B028B351A376A
+0 0
+0 9
+1 4
+1 6
+2 5
+2 7
+3 2
+3 9
+4 4
+4 8
+5 1
+5 11
+6 0
+6 2
+7 8
+7 11
+8 3
+8 5
+9 1
+9 10
+10 3
+10 7
+11 6
+11 10
+
+# solution 22
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.48095B24591A287B13367A06
+0 4
+0 8
+1 0
+1 9
+2 5
+2 11
+3 2
+3 4
+4 5
+4 9
+5 1
+5 10
+6 2
+6 8
+7 7
+7 11
+8 1
+8 3
+9 3
+9 6
+10 7
+10 10
+11 0
+11 6
+
+# solution 23
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4B67047925029B8A13136A58
+0 4
+0 11
+1 6
+1 7
+2 0
+2 4
+3 7
+3 9
+4 2
+4 5
+5 0
+5 2
+6 9
+6 11
+7 8
+7 10
+8 1
+8 3
+9 1
+9 3
+10 6
+10 10
+11 5
+11 8
+
+# solution 24
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.074A238B259B0A1517463968
+0 0
+0 7
+1 4
+1 10
+2 2
+2 3
+3 8
+3 11
+4 2
+4 5
+5 9
+5 11
+6 0
+6 10
+7 1
+7 5
+8 1
+8 7
+9 4
+9 6
+10 3
+10 9
+11 6
+11 8
+
+# solution 25
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4A095B24591A287B13367806
+0 4
+0 10
+1 0
+1 9
+2 5
+2 11
+3 2
+3 4
+4 5
+4 9
+5 1
+5 10
+6 2
+6 8
+7 7
+7 11
+8 1
+8 3
+9 3
+9 6
+10 7
+10 8
+11 0
+11 6
+
+# solution 26
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.074A238A593B025B17164968
+0 0
+0 7
+1 4
+1 10
+2 2
+2 3
+3 8
+3 10
+4 5
+4 9
+5 3
+5 11
+6 0
+6 2
+7 5
+7 11
+8 1
+8 7
+9 1
+9 6
+10 4
+10 9
+11 6
+11 8
+
+# solution 27
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.78247A238B590B39154A1606
+0 7
+0 8
+1 2
+1 4
+2 7
+2 10
+3 2
+3 3
+4 8
+4 11
+5 5
+5 9
+6 0
+6 11
+7 3
+7 9
+8 1
+8 5
+9 4
+9 10
+10 1
+10 6
+11 0
+11 6
+
+# solution 28
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4728385713AB091A4605296B
+0 4
+0 7
+1 2
+1 8
+2 3
+2 8
+3 5
+3 7
+4 1
+4 3
+5 10
+5 11
+6 0
+6 9
+7 1
+7 10
+8 4
+8 6
+9 0
+9 5
+10 2
+10 9
+11 6
+11 11
+
+# solution 29
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7803370A2815AB591246496B
+0 7
+0 8
+1 0
+1 3
+2 3
+2 7
+3 0
+3 10
+4 2
+4 8
+5 1
+5 5
+6 10
+6 11
+7 5
+7 9
+8 1
+8 2
+9 4
+9 6
+10 4
+10 9
+11 6
+11 11
+
+# solution 30
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3A26572A581B089B34194706
+0 3
+0 10
+1 2
+1 6
+2 5
+2 7
+3 2
+3 10
+4 5
+4 8
+5 1
+5 11
+6 0
+6 8
+7 9
+7 11
+8 3
+8 4
+9 1
+9 9
+10 4
+10 7
+11 0
+11 6
+
+# solution 31
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.79462A8B249B0A1357183506
+0 7
+0 9
+1 4
+1 6
+2 2
+2 10
+3 8
+3 11
+4 2
+4 4
+5 9
+5 11
+6 0
+6 10
+7 1
+7 3
+8 5
+8 7
+9 1
+9 8
+10 3
+10 5
+11 0
+11 6
+
+# solution 32
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.57462A9B249B0A1357183806
+0 5
+0 7
+1 4
+1 6
+2 2
+2 10
+3 9
+3 11
+4 2
+4 4
+5 9
+5 11
+6 0
+6 10
+7 1
+7 3
+8 5
+8 7
+9 1
+9 8
+10 3
+10 8
+11 0
+11 6
+
+# solution 33
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.053A7B23589B0219464A1768
+0 0
+0 5
+1 3
+1 10
+2 7
+2 11
+3 2
+3 3
+4 5
+4 8
+5 9
+5 11
+6 0
+6 2
+7 1
+7 9
+8 4
+8 6
+9 4
+9 10
+10 1
+10 7
+11 6
+11 8
+
+# solution 34
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5B2479174A9B02038A683516
+0 5
+0 11
+1 2
+1 4
+2 7
+2 9
+3 1
+3 7
+4 4
+4 10
+5 9
+5 11
+6 0
+6 2
+7 0
+7 3
+8 8
+8 10
+9 6
+9 8
+10 3
+10 5
+11 1
+11 6
+
+# solution 35
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5B0479472A9B02138A683516
+0 5
+0 11
+1 0
+1 4
+2 7
+2 9
+3 4
+3 7
+4 2
+4 10
+5 9
+5 11
+6 0
+6 2
+7 1
+7 3
+8 8
+8 10
+9 6
+9 8
+10 3
+10 5
+11 1
+11 6
+
+# solution 36
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.06694B5714029B8A1357283A
+0 0
+0 6
+1 6
+1 9
+2 4
+2 11
+3 5
+3 7
+4 1
+4 4
+5 0
+5 2
+6 9
+6 11
+7 8
+7 10
+8 1
+8 3
+9 5
+9 7
+10 2
+10 8
+11 3
+11 10
+
+# solution 37
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5B4812175A2B04890A363967
+0 5
+0 11
+1 4
+1 8
+2 1
+2 2
+3 1
+3 7
+4 5
+4 10
+5 2
+5 11
+6 0
+6 4
+7 8
+7 9
+8 0
+8 10
+9 3
+9 6
+10 3
+10 9
+11 6
+11 7
+
+# solution 38
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.085A373B5802149A671B6924
+0 0
+0 8
+1 5
+1 10
+2 3
+2 7
+3 3
+3 11
+4 5
+4 8
+5 0
+5 2
+6 1
+6 4
+7 9
+7 10
+8 6
+8 7
+9 1
+9 11
+10 6
+10 9
+11 2
+11 4
+
+# solution 39
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.0568381B5A130A9B27247946
+0 0
+0 5
+1 6
+1 8
+2 3
+2 8
+3 1
+3 11
+4 5
+4 10
+5 1
+5 3
+6 0
+6 10
+7 9
+7 11
+8 2
+8 7
+9 2
+9 4
+10 7
+10 9
+11 4
+11 6
+
+# solution 40
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2B567913058B7A1A24680934
+0 2
+0 11
+1 5
+1 6
+2 7
+2 9
+3 1
+3 3
+4 0
+4 5
+5 8
+5 11
+6 7
+6 10
+7 1
+7 10
+8 2
+8 4
+9 6
+9 8
+10 0
+10 9
+11 3
+11 4
+
+# solution 41
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6B24695958020B3A17174A38
+0 6
+0 11
+1 2
+1 4
+2 6
+2 9
+3 5
+3 9
+4 5
+4 8
+5 0
+5 2
+6 0
+6 11
+7 3
+7 10
+8 1
+8 7
+9 1
+9 7
+10 4
+10 10
+11 3
+11 8
+
+# solution 42
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4A047A12571B28893569036B
+0 4
+0 10
+1 0
+1 4
+2 7
+2 10
+3 1
+3 2
+4 5
+4 7
+5 1
+5 11
+6 2
+6 8
+7 8
+7 9
+8 3
+8 5
+9 6
+9 9
+10 0
+10 3
+11 6
+11 11
+
+# solution 43
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4B193419582B03062A785A67
+0 4
+0 11
+1 1
+1 9
+2 3
+2 4
+3 1
+3 9
+4 5
+4 8
+5 2
+5 11
+6 0
+6 3
+7 0
+7 6
+8 2
+8 10
+9 7
+9 8
+10 5
+10 10
+11 6
+11 7
+
+# solution 44
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3A68151A583B027924497B06
+0 3
+0 10
+1 6
+1 8
+2 1
+2 5
+3 1
+3 10
+4 5
+4 8
+5 3
+5 11
+6 0
+6 2
+7 7
+7 9
+8 2
+8 4
+9 4
+9 9
+10 7
+10 11
+11 0
+11 6
+
+# solution 45
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4678127A140A9B236B358905
+0 4
+0 6
+1 7
+1 8
+2 1
+2 2
+3 7
+3 10
+4 1
+4 4
+5 0
+5 10
+6 9
+6 11
+7 2
+7 3
+8 6
+8 11
+9 3
+9 5
+10 8
+10 9
+11 0
+11 5
+
+# solution 46
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.1678247A140A9B236B358905
+0 1
+0 6
+1 7
+1 8
+2 2
+2 4
+3 7
+3 10
+4 1
+4 4
+5 0
+5 10
+6 9
+6 11
+7 2
+7 3
+8 6
+8 11
+9 3
+9 5
+10 8
+10 9
+11 0
+11 5
+
+# solution 47
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6B2316358A021B8A47790459
+0 6
+0 11
+1 2
+1 3
+2 1
+2 6
+3 3
+3 5
+4 8
+4 10
+5 0
+5 2
+6 1
+6 11
+7 8
+7 10
+8 4
+8 7
+9 7
+9 9
+10 0
+10 4
+11 5
+11 9
+
+# solution 48
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2B582A068B154901397A3467
+0 2
+0 11
+1 5
+1 8
+2 2
+2 10
+3 0
+3 6
+4 8
+4 11
+5 1
+5 5
+6 4
+6 9
+7 0
+7 1
+8 3
+8 9
+9 7
+9 10
+10 3
+10 4
+11 6
+11 7
+
+# solution 49
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6B24184A1B5803790A352967
+0 6
+0 11
+1 2
+1 4
+2 1
+2 8
+3 4
+3 10
+4 1
+4 11
+5 5
+5 8
+6 0
+6 3
+7 7
+7 9
+8 0
+8 10
+9 3
+9 5
+10 2
+10 9
+11 6
+11 7
+
+# solution 50
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.1605685A39023B9A1427487B
+0 1
+0 6
+1 0
+1 5
+2 6
+2 8
+3 5
+3 10
+4 3
+4 9
+5 0
+5 2
+6 3
+6 11
+7 9
+7 10
+8 1
+8 4
+9 2
+9 7
+10 4
+10 8
+11 7
+11 11
+
+# solution 51
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7B480289249B0A135A163567
+0 7
+0 11
+1 4
+1 8
+2 0
+2 2
+3 8
+3 9
+4 2
+4 4
+5 9
+5 11
+6 0
+6 10
+7 1
+7 3
+8 5
+8 10
+9 1
+9 6
+10 3
+10 5
+11 6
+11 7
+
+# solution 52
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.56AB370B2589241A78193604
+0 5
+0 6
+1 10
+1 11
+2 3
+2 7
+3 0
+3 11
+4 2
+4 5
+5 8
+5 9
+6 2
+6 4
+7 1
+7 10
+8 7
+8 8
+9 1
+9 9
+10 3
+10 6
+11 0
+11 4
+
+# solution 53
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.05793B1605188A9B2326474A
+0 0
+0 5
+1 7
+1 9
+2 3
+2 11
+3 1
+3 6
+4 0
+4 5
+5 1
+5 8
+6 8
+6 10
+7 9
+7 11
+8 2
+8 3
+9 2
+9 6
+10 4
+10 7
+11 4
+11 10
+
+# solution 54
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.683518153B029A2A4609477B
+0 6
+0 8
+1 3
+1 5
+2 1
+2 8
+3 1
+3 5
+4 3
+4 11
+5 0
+5 2
+6 9
+6 10
+7 2
+7 10
+8 4
+8 6
+9 0
+9 9
+10 4
+10 7
+11 7
+11 11
+
+# solution 55
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6A35185A13089B024629477B
+0 6
+0 10
+1 3
+1 5
+2 1
+2 8
+3 5
+3 10
+4 1
+4 3
+5 0
+5 8
+6 9
+6 11
+7 0
+7 2
+8 4
+8 6
+9 2
+9 9
+10 4
+10 7
+11 7
+11 11
+
+# solution 56
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7B023459AB35197A14026868
+0 7
+0 11
+1 0
+1 2
+2 3
+2 4
+3 5
+3 9
+4 10
+4 11
+5 3
+5 5
+6 1
+6 9
+7 7
+7 10
+8 1
+8 4
+9 0
+9 2
+10 6
+10 8
+11 6
+11 8
+
+# solution 57
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.365809241957AB14028A367B
+0 3
+0 6
+1 5
+1 8
+2 0
+2 9
+3 2
+3 4
+4 1
+4 9
+5 5
+5 7
+6 10
+6 11
+7 1
+7 4
+8 0
+8 2
+9 8
+9 10
+10 3
+10 6
+11 7
+11 11
+
+# solution 58
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2868035A39059A4B1267147B
+0 2
+0 8
+1 6
+1 8
+2 0
+2 3
+3 5
+3 10
+4 3
+4 9
+5 0
+5 5
+6 9
+6 10
+7 4
+7 11
+8 1
+8 2
+9 6
+9 7
+10 1
+10 4
+11 7
+11 11
+
+# solution 59
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7B460379259B08131A465A28
+0 7
+0 11
+1 4
+1 6
+2 0
+2 3
+3 7
+3 9
+4 2
+4 5
+5 9
+5 11
+6 0
+6 8
+7 1
+7 3
+8 1
+8 10
+9 4
+9 6
+10 5
+10 10
+11 2
+11 8
+
+# solution 60
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7B460289249B0A135A183567
+0 7
+0 11
+1 4
+1 6
+2 0
+2 2
+3 8
+3 9
+4 2
+4 4
+5 9
+5 11
+6 0
+6 10
+7 1
+7 3
+8 5
+8 10
+9 1
+9 8
+10 3
+10 5
+11 6
+11 7
+
+# solution 61
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7B4507249A9B02138A683516
+0 7
+0 11
+1 4
+1 5
+2 0
+2 7
+3 2
+3 4
+4 9
+4 10
+5 9
+5 11
+6 0
+6 2
+7 1
+7 3
+8 8
+8 10
+9 6
+9 8
+10 3
+10 5
+11 1
+11 6
+
+# solution 62
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.046769149B5B358A2A082317
+0 0
+0 4
+1 6
+1 7
+2 6
+2 9
+3 1
+3 4
+4 9
+4 11
+5 5
+5 11
+6 3
+6 5
+7 8
+7 10
+8 2
+8 10
+9 0
+9 8
+10 2
+10 3
+11 1
+11 7
+
+# solution 63
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6835185A13029B2A4679047B
+0 6
+0 8
+1 3
+1 5
+2 1
+2 8
+3 5
+3 10
+4 1
+4 3
+5 0
+5 2
+6 9
+6 11
+7 2
+7 10
+8 4
+8 6
+9 7
+9 9
+10 0
+10 4
+11 7
+11 11
+
+# solution 64
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.68351A5813029B2A4679047B
+0 6
+0 8
+1 3
+1 5
+2 1
+2 10
+3 5
+3 8
+4 1
+4 3
+5 0
+5 2
+6 9
+6 11
+7 2
+7 10
+8 4
+8 6
+9 7
+9 9
+10 0
+10 4
+11 7
+11 11
+
+# solution 65
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.047B479B25289A0135186A36
+0 0
+0 4
+1 7
+1 11
+2 4
+2 7
+3 9
+3 11
+4 2
+4 5
+5 2
+5 8
+6 9
+6 10
+7 0
+7 1
+8 3
+8 5
+9 1
+9 8
+10 6
+10 10
+11 3
+11 6
+
+# solution 66
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.346815185A3B02792A697B04
+0 3
+0 4
+1 6
+1 8
+2 1
+2 5
+3 1
+3 8
+4 5
+4 10
+5 3
+5 11
+6 0
+6 2
+7 7
+7 9
+8 2
+8 10
+9 6
+9 9
+10 7
+10 11
+11 0
+11 4
+
+# solution 67
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5768139B259B02138A467A04
+0 5
+0 7
+1 6
+1 8
+2 1
+2 3
+3 9
+3 11
+4 2
+4 5
+5 9
+5 11
+6 0
+6 2
+7 1
+7 3
+8 8
+8 10
+9 4
+9 6
+10 7
+10 10
+11 0
+11 4
+
+# solution 68
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.156A49018A05392B4778362B
+0 1
+0 5
+1 6
+1 10
+2 4
+2 9
+3 0
+3 1
+4 8
+4 10
+5 0
+5 5
+6 3
+6 9
+7 2
+7 11
+8 4
+8 7
+9 7
+9 8
+10 3
+10 6
+11 2
+11 11
+
+# solution 69
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6835185A130A9B024679247B
+0 6
+0 8
+1 3
+1 5
+2 1
+2 8
+3 5
+3 10
+4 1
+4 3
+5 0
+5 10
+6 9
+6 11
+7 0
+7 2
+8 4
+8 6
+9 7
+9 9
+10 2
+10 4
+11 7
+11 11
+
+# solution 70
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6A35185A13089B024679247B
+0 6
+0 10
+1 3
+1 5
+2 1
+2 8
+3 5
+3 10
+4 1
+4 3
+5 0
+5 8
+6 9
+6 11
+7 0
+7 2
+8 4
+8 6
+9 7
+9 9
+10 2
+10 4
+11 7
+11 11
+
+# solution 71
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6A356815138A9B024907247B
+0 6
+0 10
+1 3
+1 5
+2 6
+2 8
+3 1
+3 5
+4 1
+4 3
+5 8
+5 10
+6 9
+6 11
+7 0
+7 2
+8 4
+8 9
+9 0
+9 7
+10 2
+10 4
+11 7
+11 11
+
+# solution 72
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.074A238B059B2A1517463968
+0 0
+0 7
+1 4
+1 10
+2 2
+2 3
+3 8
+3 11
+4 0
+4 5
+5 9
+5 11
+6 2
+6 10
+7 1
+7 5
+8 1
+8 7
+9 4
+9 6
+10 3
+10 9
+11 6
+11 8
+
+# solution 73
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.46365A0912592B37178A8B04
+0 4
+0 6
+1 3
+1 6
+2 5
+2 10
+3 0
+3 9
+4 1
+4 2
+5 5
+5 9
+6 2
+6 11
+7 3
+7 7
+8 1
+8 7
+9 8
+9 10
+10 8
+10 11
+11 0
+11 4
+
+# solution 74
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.04567901452B791A238B683A
+0 0
+0 4
+1 5
+1 6
+2 7
+2 9
+3 0
+3 1
+4 4
+4 5
+5 2
+5 11
+6 7
+6 9
+7 1
+7 10
+8 2
+8 3
+9 8
+9 11
+10 6
+10 8
+11 3
+11 10
+
+# solution 75
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.07475A015B138A9B24683926
+0 0
+0 7
+1 4
+1 7
+2 5
+2 10
+3 0
+3 1
+4 5
+4 11
+5 1
+5 3
+6 8
+6 10
+7 9
+7 11
+8 2
+8 4
+9 6
+9 8
+10 3
+10 9
+11 2
+11 6
+
+# solution 76
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.58072A6A5B121B6934794803
+0 5
+0 8
+1 0
+1 7
+2 2
+2 10
+3 6
+3 10
+4 5
+4 11
+5 1
+5 2
+6 1
+6 11
+7 6
+7 9
+8 3
+8 4
+9 7
+9 9
+10 4
+10 8
+11 0
+11 3
+
+# solution 77
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.03477A35250B1B892616498A
+0 0
+0 3
+1 4
+1 7
+2 7
+2 10
+3 3
+3 5
+4 2
+4 5
+5 0
+5 11
+6 1
+6 11
+7 8
+7 9
+8 2
+8 6
+9 1
+9 6
+10 4
+10 9
+11 8
+11 10
+
+# solution 78
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.568B469A04281A397B125703
+0 5
+0 6
+1 8
+1 11
+2 4
+2 6
+3 9
+3 10
+4 0
+4 4
+5 2
+5 8
+6 1
+6 10
+7 3
+7 9
+8 7
+8 11
+9 1
+9 2
+10 5
+10 7
+11 0
+11 3
+
+# solution 79
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2689479B0428AB1A57135603
+0 2
+0 6
+1 8
+1 9
+2 4
+2 7
+3 9
+3 11
+4 0
+4 4
+5 2
+5 8
+6 10
+6 11
+7 1
+7 10
+8 5
+8 7
+9 1
+9 3
+10 5
+10 6
+11 0
+11 3
+
+# solution 80
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2758AB03459B171A24686903
+0 2
+0 7
+1 5
+1 8
+2 10
+2 11
+3 0
+3 3
+4 4
+4 5
+5 9
+5 11
+6 1
+6 7
+7 1
+7 10
+8 2
+8 4
+9 6
+9 8
+10 6
+10 9
+11 0
+11 3
+
+# solution 81
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2479562B590A1348AB176803
+0 2
+0 4
+1 7
+1 9
+2 5
+2 6
+3 2
+3 11
+4 5
+4 9
+5 0
+5 10
+6 1
+6 3
+7 4
+7 8
+8 10
+8 11
+9 1
+9 7
+10 6
+10 8
+11 0
+11 3
+
+# solution 82
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.684B571259128A9B03364A07
+0 6
+0 8
+1 4
+1 11
+2 5
+2 7
+3 1
+3 2
+4 5
+4 9
+5 1
+5 2
+6 8
+6 10
+7 9
+7 11
+8 0
+8 3
+9 3
+9 6
+10 4
+10 10
+11 0
+11 7
+
+# solution 83
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.1579452A4B89013B8A266703
+0 1
+0 5
+1 7
+1 9
+2 4
+2 5
+3 2
+3 10
+4 4
+4 11
+5 8
+5 9
+6 0
+6 1
+7 3
+7 11
+8 8
+8 10
+9 2
+9 6
+10 6
+10 7
+11 0
+11 3
+
+# solution 84
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.067A370A5B251B1926488934
+0 0
+0 6
+1 7
+1 10
+2 3
+2 7
+3 0
+3 10
+4 5
+4 11
+5 2
+5 5
+6 1
+6 11
+7 1
+7 9
+8 2
+8 6
+9 4
+9 8
+10 8
+10 9
+11 3
+11 4
+
+# solution 85
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.8B044619350A9B578A123627
+0 8
+0 11
+1 0
+1 4
+2 4
+2 6
+3 1
+3 9
+4 3
+4 5
+5 0
+5 10
+6 9
+6 11
+7 5
+7 7
+8 8
+8 10
+9 1
+9 2
+10 3
+10 6
+11 2
+11 7
+
+# solution 86
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4636AB29450A12891B577803
+0 4
+0 6
+1 3
+1 6
+2 10
+2 11
+3 2
+3 9
+4 4
+4 5
+5 0
+5 10
+6 1
+6 2
+7 8
+7 9
+8 1
+8 11
+9 5
+9 7
+10 7
+10 8
+11 0
+11 3
+
+# solution 87
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.086A056A15398B3B47192724
+0 0
+0 8
+1 6
+1 10
+2 0
+2 5
+3 6
+3 10
+4 1
+4 5
+5 3
+5 9
+6 8
+6 11
+7 3
+7 11
+8 4
+8 7
+9 1
+9 9
+10 2
+10 7
+11 2
+11 4
+
+# solution 88
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.792B451724898B1335066A0A
+0 7
+0 9
+1 2
+1 11
+2 4
+2 5
+3 1
+3 7
+4 2
+4 4
+5 8
+5 9
+6 8
+6 11
+7 1
+7 3
+8 3
+8 5
+9 0
+9 6
+10 6
+10 10
+11 0
+11 10
+
+# solution 89
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.486A5619150B8B237A394702
+0 4
+0 8
+1 6
+1 10
+2 5
+2 6
+3 1
+3 9
+4 1
+4 5
+5 0
+5 11
+6 8
+6 11
+7 2
+7 3
+8 7
+8 10
+9 3
+9 9
+10 4
+10 7
+11 0
+11 2
+
+# solution 90
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3568259B241B8A147A037906
+0 3
+0 5
+1 6
+1 8
+2 2
+2 5
+3 9
+3 11
+4 2
+4 4
+5 1
+5 11
+6 8
+6 10
+7 1
+7 4
+8 7
+8 10
+9 0
+9 3
+10 7
+10 9
+11 0
+11 6
+
+# solution 91
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5769239B241B8A147A035806
+0 5
+0 7
+1 6
+1 9
+2 2
+2 3
+3 9
+3 11
+4 2
+4 4
+5 1
+5 11
+6 8
+6 10
+7 1
+7 4
+8 7
+8 10
+9 0
+9 3
+10 5
+10 8
+11 0
+11 6
+
+# solution 92
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5768239B241B8A147A035906
+0 5
+0 7
+1 6
+1 8
+2 2
+2 3
+3 9
+3 11
+4 2
+4 4
+5 1
+5 11
+6 8
+6 10
+7 1
+7 4
+8 7
+8 10
+9 0
+9 3
+10 5
+10 9
+11 0
+11 6
+
+# solution 93
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4969258B241B8A137A035706
+0 4
+0 9
+1 6
+1 9
+2 2
+2 5
+3 8
+3 11
+4 2
+4 4
+5 1
+5 11
+6 8
+6 10
+7 1
+7 3
+8 7
+8 10
+9 0
+9 3
+10 5
+10 7
+11 0
+11 6
+
+# solution 94
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5636239A5B89141B7802470A
+0 5
+0 6
+1 3
+1 6
+2 2
+2 3
+3 9
+3 10
+4 5
+4 11
+5 8
+5 9
+6 1
+6 4
+7 1
+7 11
+8 7
+8 8
+9 0
+9 2
+10 4
+10 7
+11 0
+11 10
+
+# solution 95
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.02591B465A8B013937264A78
+0 0
+0 2
+1 5
+1 9
+2 1
+2 11
+3 4
+3 6
+4 5
+4 10
+5 8
+5 11
+6 0
+6 1
+7 3
+7 9
+8 3
+8 7
+9 2
+9 6
+10 4
+10 10
+11 7
+11 8
+
+# solution 96
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5967149A2B57148A8B023603
+0 5
+0 9
+1 6
+1 7
+2 1
+2 4
+3 9
+3 10
+4 2
+4 11
+5 5
+5 7
+6 1
+6 4
+7 8
+7 10
+8 8
+8 11
+9 0
+9 2
+10 3
+10 6
+11 0
+11 3
+
+# solution 97
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.9B46259B4A010A3857137826
+0 9
+0 11
+1 4
+1 6
+2 2
+2 5
+3 9
+3 11
+4 4
+4 10
+5 0
+5 1
+6 0
+6 10
+7 3
+7 8
+8 5
+8 7
+9 1
+9 3
+10 7
+10 8
+11 2
+11 6
+
+# solution 98
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.025679124A01398B5B8A3467
+0 0
+0 2
+1 5
+1 6
+2 7
+2 9
+3 1
+3 2
+4 4
+4 10
+5 0
+5 1
+6 3
+6 9
+7 8
+7 11
+8 5
+8 11
+9 8
+9 10
+10 3
+10 4
+11 6
+11 7
+
+# solution 99
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6B481B4518350A09379A2726
+0 6
+0 11
+1 4
+1 8
+2 1
+2 11
+3 4
+3 5
+4 1
+4 8
+5 3
+5 5
+6 0
+6 10
+7 0
+7 9
+8 3
+8 7
+9 9
+9 10
+10 2
+10 7
+11 2
+11 6
+
+# solution 100
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2514189A358A0304697B267B
+0 2
+0 5
+1 1
+1 4
+2 1
+2 8
+3 9
+3 10
+4 3
+4 5
+5 8
+5 10
+6 0
+6 3
+7 0
+7 4
+8 6
+8 9
+9 7
+9 11
+10 2
+10 6
+11 7
+11 11
+
+# solution 101
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.0268498B12591A357B03674A
+0 0
+0 2
+1 6
+1 8
+2 4
+2 9
+3 8
+3 11
+4 1
+4 2
+5 5
+5 9
+6 1
+6 10
+7 3
+7 5
+8 7
+8 11
+9 0
+9 3
+10 6
+10 7
+11 4
+11 10
+
+# solution 102
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.05480589249B1A137A367B26
+0 0
+0 5
+1 4
+1 8
+2 0
+2 5
+3 8
+3 9
+4 2
+4 4
+5 9
+5 11
+6 1
+6 10
+7 1
+7 3
+8 7
+8 10
+9 3
+9 6
+10 7
+10 11
+11 2
+11 6
+
+# solution 103
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.05480589249B1A137A263B67
+0 0
+0 5
+1 4
+1 8
+2 0
+2 5
+3 8
+3 9
+4 2
+4 4
+5 9
+5 11
+6 1
+6 10
+7 1
+7 3
+8 7
+8 10
+9 2
+9 6
+10 3
+10 11
+11 6
+11 7
+
+# solution 104
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3A695628451B079B14387A02
+0 3
+0 10
+1 6
+1 9
+2 5
+2 6
+3 2
+3 8
+4 4
+4 5
+5 1
+5 11
+6 0
+6 7
+7 9
+7 11
+8 1
+8 4
+9 3
+9 8
+10 7
+10 10
+11 0
+11 2
+
+# solution 105
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4668158B15390239AB477A02
+0 4
+0 6
+1 6
+1 8
+2 1
+2 5
+3 8
+3 11
+4 1
+4 5
+5 3
+5 9
+6 0
+6 2
+7 3
+7 9
+8 10
+8 11
+9 4
+9 7
+10 7
+10 10
+11 0
+11 2
+
+# solution 106
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6B568B051903198A247A2437
+0 6
+0 11
+1 5
+1 6
+2 8
+2 11
+3 0
+3 5
+4 1
+4 9
+5 0
+5 3
+6 1
+6 9
+7 8
+7 10
+8 2
+8 4
+9 7
+9 10
+10 2
+10 4
+11 3
+11 7
+
+# solution 107
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6924169B015A8B35374A7802
+0 6
+0 9
+1 2
+1 4
+2 1
+2 6
+3 9
+3 11
+4 0
+4 1
+5 5
+5 10
+6 8
+6 11
+7 3
+7 5
+8 3
+8 7
+9 4
+9 10
+10 7
+10 8
+11 0
+11 2
+
+# solution 108
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4638599B150202187A4736AB
+0 4
+0 6
+1 3
+1 8
+2 5
+2 9
+3 9
+3 11
+4 1
+4 5
+5 0
+5 2
+6 0
+6 2
+7 1
+7 8
+8 7
+8 10
+9 4
+9 7
+10 3
+10 6
+11 10
+11 11
+
+# solution 109
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.363A1589059A021268477B4B
+0 3
+0 6
+1 3
+1 10
+2 1
+2 5
+3 8
+3 9
+4 0
+4 5
+5 9
+5 10
+6 0
+6 2
+7 1
+7 2
+8 6
+8 8
+9 4
+9 7
+10 7
+10 11
+11 4
+11 11
+
+# solution 110
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.467B571259028A89031634AB
+0 4
+0 6
+1 7
+1 11
+2 5
+2 7
+3 1
+3 2
+4 5
+4 9
+5 0
+5 2
+6 8
+6 10
+7 8
+7 9
+8 0
+8 3
+9 1
+9 6
+10 3
+10 4
+11 10
+11 11
+
+# solution 111
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.37047A35299B128B466A0158
+0 3
+0 7
+1 0
+1 4
+2 7
+2 10
+3 3
+3 5
+4 2
+4 9
+5 9
+5 11
+6 1
+6 2
+7 8
+7 11
+8 4
+8 6
+9 6
+9 10
+10 0
+10 1
+11 5
+11 8
+
+# solution 112
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.34682A3B599B47010268571A
+0 3
+0 4
+1 6
+1 8
+2 2
+2 10
+3 3
+3 11
+4 5
+4 9
+5 9
+5 11
+6 4
+6 7
+7 0
+7 1
+8 0
+8 2
+9 6
+9 8
+10 5
+10 7
+11 1
+11 10
+
+# solution 113
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2A795902451B0A8B13683467
+0 2
+0 10
+1 7
+1 9
+2 5
+2 9
+3 0
+3 2
+4 4
+4 5
+5 1
+5 11
+6 0
+6 10
+7 8
+7 11
+8 1
+8 3
+9 6
+9 8
+10 3
+10 4
+11 6
+11 7
+
+# solution 114
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.364601785B9B23179A240A58
+0 3
+0 6
+1 4
+1 6
+2 0
+2 1
+3 7
+3 8
+4 5
+4 11
+5 9
+5 11
+6 2
+6 3
+7 1
+7 7
+8 9
+8 10
+9 2
+9 4
+10 0
+10 10
+11 5
+11 8
+
+# solution 115
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.69144612895B8B03037A572A
+0 6
+0 9
+1 1
+1 4
+2 4
+2 6
+3 1
+3 2
+4 8
+4 9
+5 5
+5 11
+6 8
+6 11
+7 0
+7 3
+8 0
+8 3
+9 7
+9 10
+10 5
+10 7
+11 2
+11 10
+
+# solution 116
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3727032A8A159B1B46460958
+0 3
+0 7
+1 2
+1 7
+2 0
+2 3
+3 2
+3 10
+4 8
+4 10
+5 1
+5 5
+6 9
+6 11
+7 1
+7 11
+8 4
+8 6
+9 4
+9 6
+10 0
+10 9
+11 5
+11 8
+
+# solution 117
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.468B35153A080A12799B2647
+0 4
+0 6
+1 8
+1 11
+2 3
+2 5
+3 1
+3 5
+4 3
+4 10
+5 0
+5 8
+6 0
+6 10
+7 1
+7 2
+8 7
+8 9
+9 9
+9 11
+10 2
+10 6
+11 4
+11 7
+
+# solution 118
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.468B35153A080A12799B6724
+0 4
+0 6
+1 8
+1 11
+2 3
+2 5
+3 1
+3 5
+4 3
+4 10
+5 0
+5 8
+6 0
+6 10
+7 1
+7 2
+8 7
+8 9
+9 9
+9 11
+10 6
+10 7
+11 2
+11 4
+
+# solution 119
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2A673957021B39081B484A56
+0 2
+0 10
+1 6
+1 7
+2 3
+2 9
+3 5
+3 7
+4 0
+4 2
+5 1
+5 11
+6 3
+6 9
+7 0
+7 8
+8 1
+8 11
+9 4
+9 8
+10 4
+10 10
+11 5
+11 6
+
+# solution 120
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.57384A3B58097B140269162A
+0 5
+0 7
+1 3
+1 8
+2 4
+2 10
+3 3
+3 11
+4 5
+4 8
+5 0
+5 9
+6 7
+6 11
+7 1
+7 4
+8 0
+8 2
+9 6
+9 9
+10 1
+10 6
+11 2
+11 10
+
+# solution 121
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4638598B15090B137A47262A
+0 4
+0 6
+1 3
+1 8
+2 5
+2 9
+3 8
+3 11
+4 1
+4 5
+5 0
+5 9
+6 0
+6 11
+7 1
+7 3
+8 7
+8 10
+9 4
+9 7
+10 2
+10 6
+11 2
+11 10
+
+# solution 122
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.480A347A35129B578B012669
+0 4
+0 8
+1 0
+1 10
+2 3
+2 4
+3 7
+3 10
+4 3
+4 5
+5 1
+5 2
+6 9
+6 11
+7 5
+7 7
+8 8
+8 11
+9 0
+9 1
+10 2
+10 6
+11 6
+11 9
+
+# solution 123
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3A6A572B5803081B49196724
+0 3
+0 10
+1 6
+1 10
+2 5
+2 7
+3 2
+3 11
+4 5
+4 8
+5 0
+5 3
+6 0
+6 8
+7 1
+7 11
+8 4
+8 9
+9 1
+9 9
+10 6
+10 7
+11 2
+11 4
+
+# solution 124
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.47021A685713AB39029B5846
+0 4
+0 7
+1 0
+1 2
+2 1
+2 10
+3 6
+3 8
+4 5
+4 7
+5 1
+5 3
+6 10
+6 11
+7 3
+7 9
+8 0
+8 2
+9 9
+9 11
+10 5
+10 8
+11 4
+11 6
+
+# solution 125
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3A79250B45017A6B13284689
+0 3
+0 10
+1 7
+1 9
+2 2
+2 5
+3 0
+3 11
+4 4
+4 5
+5 0
+5 1
+6 7
+6 10
+7 6
+7 11
+8 1
+8 3
+9 2
+9 8
+10 4
+10 6
+11 8
+11 9
+
+# solution 126
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.68268A055B129B9A13470437
+0 6
+0 8
+1 2
+1 6
+2 8
+2 10
+3 0
+3 5
+4 5
+4 11
+5 1
+5 2
+6 9
+6 11
+7 9
+7 10
+8 1
+8 3
+9 4
+9 7
+10 0
+10 4
+11 3
+11 7
+
+# solution 127
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.46045912591A287B037B3A68
+0 4
+0 6
+1 0
+1 4
+2 5
+2 9
+3 1
+3 2
+4 5
+4 9
+5 1
+5 10
+6 2
+6 8
+7 7
+7 11
+8 0
+8 3
+9 7
+9 11
+10 3
+10 10
+11 6
+11 8
+
+# solution 128
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.18358B9A154A09046B272637
+0 1
+0 8
+1 3
+1 5
+2 8
+2 11
+3 9
+3 10
+4 1
+4 5
+5 4
+5 10
+6 0
+6 9
+7 0
+7 4
+8 6
+8 11
+9 2
+9 7
+10 2
+10 6
+11 3
+11 7
+
+# solution 129
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2468493B595B7A010268173A
+0 2
+0 4
+1 6
+1 8
+2 4
+2 9
+3 3
+3 11
+4 5
+4 9
+5 5
+5 11
+6 7
+6 10
+7 0
+7 1
+8 0
+8 2
+9 6
+9 8
+10 1
+10 7
+11 3
+11 10
+
+# solution 130
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3A477924059B081B5A123668
+0 3
+0 10
+1 4
+1 7
+2 7
+2 9
+3 2
+3 4
+4 0
+4 5
+5 9
+5 11
+6 0
+6 8
+7 1
+7 11
+8 5
+8 10
+9 1
+9 2
+10 3
+10 6
+11 6
+11 8
+
+# solution 131
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3605894A152A8B1B06372947
+0 3
+0 6
+1 0
+1 5
+2 8
+2 9
+3 4
+3 10
+4 1
+4 5
+5 2
+5 10
+6 8
+6 11
+7 1
+7 11
+8 0
+8 6
+9 3
+9 7
+10 2
+10 9
+11 4
+11 7
+
+# solution 132
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3A57250A341B8B4916028967
+0 3
+0 10
+1 5
+1 7
+2 2
+2 5
+3 0
+3 10
+4 3
+4 4
+5 1
+5 11
+6 8
+6 11
+7 4
+7 9
+8 1
+8 6
+9 0
+9 2
+10 8
+10 9
+11 6
+11 7
+
+# solution 133
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2946179B24050A8A57133B68
+0 2
+0 9
+1 4
+1 6
+2 1
+2 7
+3 9
+3 11
+4 2
+4 4
+5 0
+5 5
+6 0
+6 10
+7 8
+7 10
+8 5
+8 7
+9 1
+9 3
+10 3
+10 11
+11 6
+11 8
+
+# solution 134
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2946179B24050A8A57136B38
+0 2
+0 9
+1 4
+1 6
+2 1
+2 7
+3 9
+3 11
+4 2
+4 4
+5 0
+5 5
+6 0
+6 10
+7 8
+7 10
+8 5
+8 7
+9 1
+9 3
+10 6
+10 11
+11 3
+11 8
+
+# solution 135
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.681358AB13590A2479026B47
+0 6
+0 8
+1 1
+1 3
+2 5
+2 8
+3 10
+3 11
+4 1
+4 3
+5 5
+5 9
+6 0
+6 10
+7 2
+7 4
+8 7
+8 9
+9 0
+9 2
+10 6
+10 11
+11 4
+11 7
+
+# solution 136
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.230A673A561B1B4802894579
+0 2
+0 3
+1 0
+1 10
+2 6
+2 7
+3 3
+3 10
+4 5
+4 6
+5 1
+5 11
+6 1
+6 11
+7 4
+7 8
+8 0
+8 2
+9 8
+9 9
+10 4
+10 5
+11 7
+11 9
+
+# solution 137
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.35028A68351B1A7B02694749
+0 3
+0 5
+1 0
+1 2
+2 8
+2 10
+3 6
+3 8
+4 3
+4 5
+5 1
+5 11
+6 1
+6 10
+7 7
+7 11
+8 0
+8 2
+9 6
+9 9
+10 4
+10 7
+11 4
+11 9
+
+# solution 138
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5609AB26571B12890A344738
+0 5
+0 6
+1 0
+1 9
+2 10
+2 11
+3 2
+3 6
+4 5
+4 7
+5 1
+5 11
+6 1
+6 2
+7 8
+7 9
+8 0
+8 10
+9 3
+9 4
+10 4
+10 7
+11 3
+11 8
+
+# solution 139
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.56139A065B128B8A23470479
+0 5
+0 6
+1 1
+1 3
+2 9
+2 10
+3 0
+3 6
+4 5
+4 11
+5 1
+5 2
+6 8
+6 11
+7 8
+7 10
+8 2
+8 3
+9 4
+9 7
+10 0
+10 4
+11 7
+11 9
+
+# solution 140
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.56139A0658128BAB23470479
+0 5
+0 6
+1 1
+1 3
+2 9
+2 10
+3 0
+3 6
+4 5
+4 8
+5 1
+5 2
+6 8
+6 11
+7 10
+7 11
+8 2
+8 3
+9 4
+9 7
+10 0
+10 4
+11 7
+11 9
+
+# solution 141
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.483A047835019B265B692A17
+0 4
+0 8
+1 3
+1 10
+2 0
+2 4
+3 7
+3 8
+4 3
+4 5
+5 0
+5 1
+6 9
+6 11
+7 2
+7 6
+8 5
+8 11
+9 6
+9 9
+10 2
+10 10
+11 1
+11 7
+
+# solution 142
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6834182A9B590347012A6B57
+0 6
+0 8
+1 3
+1 4
+2 1
+2 8
+3 2
+3 10
+4 9
+4 11
+5 5
+5 9
+6 0
+6 3
+7 4
+7 7
+8 0
+8 1
+9 2
+9 10
+10 6
+10 11
+11 5
+11 7
+
+# solution 143
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5609169A5B8A12048B234737
+0 5
+0 6
+1 0
+1 9
+2 1
+2 6
+3 9
+3 10
+4 5
+4 11
+5 8
+5 10
+6 1
+6 2
+7 0
+7 4
+8 8
+8 11
+9 2
+9 3
+10 4
+10 7
+11 3
+11 7
+
+# solution 144
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4603175A5B8B1203289A4769
+0 4
+0 6
+1 0
+1 3
+2 1
+2 7
+3 5
+3 10
+4 5
+4 11
+5 8
+5 11
+6 1
+6 2
+7 0
+7 3
+8 2
+8 8
+9 9
+9 10
+10 4
+10 7
+11 6
+11 9
+
+# solution 145
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.394602583B058A14127A9B67
+0 3
+0 9
+1 4
+1 6
+2 0
+2 2
+3 5
+3 8
+4 3
+4 11
+5 0
+5 5
+6 8
+6 10
+7 1
+7 4
+8 1
+8 2
+9 7
+9 10
+10 9
+10 11
+11 6
+11 7
+
+# solution 146
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2889341735ABAB0605692417
+0 2
+0 8
+1 8
+1 9
+2 3
+2 4
+3 1
+3 7
+4 3
+4 5
+5 10
+5 11
+6 10
+6 11
+7 0
+7 6
+8 0
+8 5
+9 6
+9 9
+10 2
+10 4
+11 1
+11 7
+
+# solution 147
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4968591B4A0B028A35672317
+0 4
+0 9
+1 6
+1 8
+2 5
+2 9
+3 1
+3 11
+4 4
+4 10
+5 0
+5 11
+6 0
+6 2
+7 8
+7 10
+8 3
+8 5
+9 6
+9 7
+10 2
+10 3
+11 1
+11 7
+
+# solution 148
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6723692801591B57AB34084A
+0 6
+0 7
+1 2
+1 3
+2 6
+2 9
+3 2
+3 8
+4 0
+4 1
+5 5
+5 9
+6 1
+6 11
+7 5
+7 7
+8 10
+8 11
+9 3
+9 4
+10 0
+10 8
+11 4
+11 10
+
+# solution 149
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6923698B01251B577A34084A
+0 6
+0 9
+1 2
+1 3
+2 6
+2 9
+3 8
+3 11
+4 0
+4 1
+5 2
+5 5
+6 1
+6 11
+7 5
+7 7
+8 7
+8 10
+9 3
+9 4
+10 0
+10 8
+11 4
+11 10
+
+# solution 150
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.476A12895B0502391A378B46
+0 4
+0 7
+1 6
+1 10
+2 1
+2 2
+3 8
+3 9
+4 5
+4 11
+5 0
+5 5
+6 0
+6 2
+7 3
+7 9
+8 1
+8 10
+9 3
+9 7
+10 8
+10 11
+11 4
+11 6
+
+# solution 151
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.17367A124B89023B5A084569
+0 1
+0 7
+1 3
+1 6
+2 7
+2 10
+3 1
+3 2
+4 4
+4 11
+5 8
+5 9
+6 0
+6 2
+7 3
+7 11
+8 5
+8 10
+9 0
+9 8
+10 4
+10 5
+11 6
+11 9
+
+# solution 152
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4A683735018B9A01249B5726
+0 4
+0 10
+1 6
+1 8
+2 3
+2 7
+3 3
+3 5
+4 0
+4 1
+5 8
+5 11
+6 9
+6 10
+7 0
+7 1
+8 2
+8 4
+9 9
+9 11
+10 5
+10 7
+11 2
+11 6
+
+# solution 153
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4A17288B35130B069A264579
+0 4
+0 10
+1 1
+1 7
+2 2
+2 8
+3 8
+3 11
+4 3
+4 5
+5 1
+5 3
+6 0
+6 11
+7 0
+7 6
+8 9
+8 10
+9 2
+9 6
+10 4
+10 5
+11 7
+11 9
+
+# solution 154
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.174908355BAB01246A236978
+0 1
+0 7
+1 4
+1 9
+2 0
+2 8
+3 3
+3 5
+4 5
+4 11
+5 10
+5 11
+6 0
+6 1
+7 2
+7 4
+8 6
+8 10
+9 2
+9 3
+10 6
+10 9
+11 7
+11 8
+
+# solution 155
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4608268A153B7B092A195734
+0 4
+0 6
+1 0
+1 8
+2 2
+2 6
+3 8
+3 10
+4 1
+4 5
+5 3
+5 11
+6 7
+6 11
+7 0
+7 9
+8 2
+8 10
+9 1
+9 9
+10 5
+10 7
+11 3
+11 4
+
+# solution 156
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.1749269B481A0303AB275856
+0 1
+0 7
+1 4
+1 9
+2 2
+2 6
+3 9
+3 11
+4 4
+4 8
+5 1
+5 10
+6 0
+6 3
+7 0
+7 3
+8 10
+8 11
+9 2
+9 7
+10 5
+10 8
+11 5
+11 6
+
+# solution 157
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.377A134A095B9B1268250846
+0 3
+0 7
+1 7
+1 10
+2 1
+2 3
+3 4
+3 10
+4 0
+4 9
+5 5
+5 11
+6 9
+6 11
+7 1
+7 2
+8 6
+8 8
+9 2
+9 5
+10 0
+10 8
+11 4
+11 6
+
+# solution 158
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2804287A159B3B01369A5647
+0 2
+0 8
+1 0
+1 4
+2 2
+2 8
+3 7
+3 10
+4 1
+4 5
+5 9
+5 11
+6 3
+6 11
+7 0
+7 1
+8 3
+8 6
+9 9
+9 10
+10 5
+10 6
+11 4
+11 7
+
+# solution 159
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.17475A015B038A9B24683926
+0 1
+0 7
+1 4
+1 7
+2 5
+2 10
+3 0
+3 1
+4 5
+4 11
+5 0
+5 3
+6 8
+6 10
+7 9
+7 11
+8 2
+8 4
+9 6
+9 8
+10 3
+10 9
+11 2
+11 6
+
+# solution 160
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5729359B041B8A147A680326
+0 5
+0 7
+1 2
+1 9
+2 3
+2 5
+3 9
+3 11
+4 0
+4 4
+5 1
+5 11
+6 8
+6 10
+7 1
+7 4
+8 7
+8 10
+9 6
+9 8
+10 0
+10 3
+11 2
+11 6
+
+# solution 161
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4A5729065B129B018A473836
+0 4
+0 10
+1 5
+1 7
+2 2
+2 9
+3 0
+3 6
+4 5
+4 11
+5 1
+5 2
+6 9
+6 11
+7 0
+7 1
+8 8
+8 10
+9 4
+9 7
+10 3
+10 8
+11 3
+11 6
+
+# solution 162
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4A5739065B129B018A472836
+0 4
+0 10
+1 5
+1 7
+2 3
+2 9
+3 0
+3 6
+4 5
+4 11
+5 1
+5 2
+6 9
+6 11
+7 0
+7 1
+8 8
+8 10
+9 4
+9 7
+10 2
+10 8
+11 3
+11 6
+
+# solution 163
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.487939135B020A6A5B284617
+0 4
+0 8
+1 7
+1 9
+2 3
+2 9
+3 1
+3 3
+4 5
+4 11
+5 0
+5 2
+6 0
+6 10
+7 6
+7 10
+8 5
+8 11
+9 2
+9 8
+10 4
+10 6
+11 1
+11 7
+
+# solution 164
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.453969582B2B030A178A4617
+0 4
+0 5
+1 3
+1 9
+2 6
+2 9
+3 5
+3 8
+4 2
+4 11
+5 2
+5 11
+6 0
+6 3
+7 0
+7 10
+8 1
+8 7
+9 8
+9 10
+10 4
+10 6
+11 1
+11 7
+
+# solution 165
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6845169A052A1B377B390428
+0 6
+0 8
+1 4
+1 5
+2 1
+2 6
+3 9
+3 10
+4 0
+4 5
+5 2
+5 10
+6 1
+6 11
+7 3
+7 7
+8 7
+8 11
+9 3
+9 9
+10 0
+10 4
+11 2
+11 8
+
+# solution 166
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.23788A0325591B019B67464A
+0 2
+0 3
+1 7
+1 8
+2 8
+2 10
+3 0
+3 3
+4 2
+4 5
+5 5
+5 9
+6 1
+6 11
+7 0
+7 1
+8 9
+8 11
+9 6
+9 7
+10 4
+10 6
+11 4
+11 10
+
+# solution 167
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6924498B01251B587A37063A
+0 6
+0 9
+1 2
+1 4
+2 4
+2 9
+3 8
+3 11
+4 0
+4 1
+5 2
+5 5
+6 1
+6 11
+7 5
+7 8
+8 7
+8 10
+9 3
+9 7
+10 0
+10 6
+11 3
+11 10
+
+# solution 168
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.466914195B5A2A0703287B38
+0 4
+0 6
+1 6
+1 9
+2 1
+2 4
+3 1
+3 9
+4 5
+4 11
+5 5
+5 10
+6 2
+6 10
+7 0
+7 7
+8 0
+8 3
+9 2
+9 8
+10 7
+10 11
+11 3
+11 8
+
+# solution 169
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.263659195B087A3B0178244A
+0 2
+0 6
+1 3
+1 6
+2 5
+2 9
+3 1
+3 9
+4 5
+4 11
+5 0
+5 8
+6 7
+6 10
+7 3
+7 11
+8 0
+8 1
+9 7
+9 8
+10 2
+10 4
+11 4
+11 10
+
+# solution 170
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6825164901258B7AAB340379
+0 6
+0 8
+1 2
+1 5
+2 1
+2 6
+3 4
+3 9
+4 0
+4 1
+5 2
+5 5
+6 8
+6 11
+7 7
+7 10
+8 10
+8 11
+9 3
+9 4
+10 0
+10 3
+11 7
+11 9
+
+# solution 171
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4637360B59129B5A28048A17
+0 4
+0 6
+1 3
+1 7
+2 3
+2 6
+3 0
+3 11
+4 5
+4 9
+5 1
+5 2
+6 9
+6 11
+7 5
+7 10
+8 2
+8 8
+9 0
+9 4
+10 8
+10 10
+11 1
+11 7
+
+# solution 172
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4603695A238B9B08141A2757
+0 4
+0 6
+1 0
+1 3
+2 6
+2 9
+3 5
+3 10
+4 2
+4 3
+5 8
+5 11
+6 9
+6 11
+7 0
+7 8
+8 1
+8 4
+9 1
+9 10
+10 2
+10 7
+11 5
+11 7
+
+# solution 173
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4A23168B45AB080257193769
+0 4
+0 10
+1 2
+1 3
+2 1
+2 6
+3 8
+3 11
+4 4
+4 5
+5 10
+5 11
+6 0
+6 8
+7 0
+7 2
+8 5
+8 7
+9 1
+9 9
+10 3
+10 7
+11 6
+11 9
+
+# solution 174
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.16064A9B9B3547028A281735
+0 1
+0 6
+1 0
+1 6
+2 4
+2 10
+3 9
+3 11
+4 9
+4 11
+5 3
+5 5
+6 4
+6 7
+7 0
+7 2
+8 8
+8 10
+9 2
+9 8
+10 1
+10 7
+11 3
+11 5
+
+# solution 175
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.1603688A15390B592B247A47
+0 1
+0 6
+1 0
+1 3
+2 6
+2 8
+3 8
+3 10
+4 1
+4 5
+5 3
+5 9
+6 0
+6 11
+7 5
+7 9
+8 2
+8 11
+9 2
+9 4
+10 7
+10 10
+11 4
+11 7
+
+# solution 176
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.45480289359B01137A26AB67
+0 4
+0 5
+1 4
+1 8
+2 0
+2 2
+3 8
+3 9
+4 3
+4 5
+5 9
+5 11
+6 0
+6 1
+7 1
+7 3
+8 7
+8 10
+9 2
+9 6
+10 10
+10 11
+11 6
+11 7
+
+# solution 177
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3668031748AB02479B12595A
+0 3
+0 6
+1 6
+1 8
+2 0
+2 3
+3 1
+3 7
+4 4
+4 8
+5 10
+5 11
+6 0
+6 2
+7 4
+7 7
+8 9
+8 11
+9 1
+9 2
+10 5
+10 9
+11 5
+11 10
+
+# solution 178
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.8925469B57021B4A8A130637
+0 8
+0 9
+1 2
+1 5
+2 4
+2 6
+3 9
+3 11
+4 5
+4 7
+5 0
+5 2
+6 1
+6 11
+7 4
+7 10
+8 8
+8 10
+9 1
+9 3
+10 0
+10 6
+11 3
+11 7
+
+# solution 179
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4A466913155B08027A239B78
+0 4
+0 10
+1 4
+1 6
+2 6
+2 9
+3 1
+3 3
+4 1
+4 5
+5 5
+5 11
+6 0
+6 8
+7 0
+7 2
+8 7
+8 10
+9 2
+9 3
+10 9
+10 11
+11 7
+11 8
+
+# solution 180
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.29459B04581B287A03673A16
+0 2
+0 9
+1 4
+1 5
+2 9
+2 11
+3 0
+3 4
+4 5
+4 8
+5 1
+5 11
+6 2
+6 8
+7 7
+7 10
+8 0
+8 3
+9 6
+9 7
+10 3
+10 10
+11 1
+11 6
+
+# solution 181
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.578A024B579B02138A463916
+0 5
+0 7
+1 8
+1 10
+2 0
+2 2
+3 4
+3 11
+4 5
+4 7
+5 9
+5 11
+6 0
+6 2
+7 1
+7 3
+8 8
+8 10
+9 4
+9 6
+10 3
+10 9
+11 1
+11 6
+
+# solution 182
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.1639680A340A1B479B572825
+0 1
+0 6
+1 3
+1 9
+2 6
+2 8
+3 0
+3 10
+4 3
+4 4
+5 0
+5 10
+6 1
+6 11
+7 4
+7 7
+8 9
+8 11
+9 5
+9 7
+10 2
+10 8
+11 2
+11 5
+
+# solution 183
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2424799B57AB8A0305163816
+0 2
+0 4
+1 2
+1 4
+2 7
+2 9
+3 9
+3 11
+4 5
+4 7
+5 10
+5 11
+6 8
+6 10
+7 0
+7 3
+8 0
+8 5
+9 1
+9 6
+10 3
+10 8
+11 1
+11 6
+
+# solution 184
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.16386B05138AAB0224794579
+0 1
+0 6
+1 3
+1 8
+2 6
+2 11
+3 0
+3 5
+4 1
+4 3
+5 8
+5 10
+6 10
+6 11
+7 0
+7 2
+8 2
+8 4
+9 7
+9 9
+10 4
+10 5
+11 7
+11 9
+
+# solution 185
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.264689155B02AB8A13790437
+0 2
+0 6
+1 4
+1 6
+2 8
+2 9
+3 1
+3 5
+4 5
+4 11
+5 0
+5 2
+6 10
+6 11
+7 8
+7 10
+8 1
+8 3
+9 7
+9 9
+10 0
+10 4
+11 3
+11 7
+
+# solution 186
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5A481289059B4A0167363B27
+0 5
+0 10
+1 4
+1 8
+2 1
+2 2
+3 8
+3 9
+4 0
+4 5
+5 9
+5 11
+6 4
+6 10
+7 0
+7 1
+8 6
+8 7
+9 3
+9 6
+10 3
+10 11
+11 2
+11 7
+
+# solution 187
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.597A2428AB58390B04173616
+0 5
+0 9
+1 7
+1 10
+2 2
+2 4
+3 2
+3 8
+4 10
+4 11
+5 5
+5 8
+6 3
+6 9
+7 0
+7 11
+8 0
+8 4
+9 1
+9 7
+10 3
+10 6
+11 1
+11 6
+
+# solution 188
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4714898B250A03AB25793616
+0 4
+0 7
+1 1
+1 4
+2 8
+2 9
+3 8
+3 11
+4 2
+4 5
+5 0
+5 10
+6 0
+6 3
+7 10
+7 11
+8 2
+8 5
+9 7
+9 9
+10 3
+10 6
+11 1
+11 6
+
+# solution 189
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.163679231B584AAB04082579
+0 1
+0 6
+1 3
+1 6
+2 7
+2 9
+3 2
+3 3
+4 1
+4 11
+5 5
+5 8
+6 4
+6 10
+7 10
+7 11
+8 0
+8 4
+9 0
+9 8
+10 2
+10 5
+11 7
+11 9
+
+# solution 190
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4745026959AB01138A263B78
+0 4
+0 7
+1 4
+1 5
+2 0
+2 2
+3 6
+3 9
+4 5
+4 9
+5 10
+5 11
+6 0
+6 1
+7 1
+7 3
+8 8
+8 10
+9 2
+9 6
+10 3
+10 11
+11 7
+11 8
+
+# solution 191
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4745026959AB01137A283B68
+0 4
+0 7
+1 4
+1 5
+2 0
+2 2
+3 6
+3 9
+4 5
+4 9
+5 10
+5 11
+6 0
+6 1
+7 1
+7 3
+8 7
+8 10
+9 2
+9 8
+10 3
+10 11
+11 6
+11 8
+
+# solution 192
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2714799B45028A3B058A3616
+0 2
+0 7
+1 1
+1 4
+2 7
+2 9
+3 9
+3 11
+4 4
+4 5
+5 0
+5 2
+6 8
+6 10
+7 3
+7 11
+8 0
+8 5
+9 8
+9 10
+10 3
+10 6
+11 1
+11 6
+
+# solution 193
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4702799B241B8A035A683516
+0 4
+0 7
+1 0
+1 2
+2 7
+2 9
+3 9
+3 11
+4 2
+4 4
+5 1
+5 11
+6 8
+6 10
+7 0
+7 3
+8 5
+8 10
+9 6
+9 8
+10 3
+10 5
+11 1
+11 6
+
+# solution 194
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5A68131A583B0209479B4726
+0 5
+0 10
+1 6
+1 8
+2 1
+2 3
+3 1
+3 10
+4 5
+4 8
+5 3
+5 11
+6 0
+6 2
+7 0
+7 9
+8 4
+8 7
+9 9
+9 11
+10 4
+10 7
+11 2
+11 6
+
+# solution 195
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2A795902451B0A783B683416
+0 2
+0 10
+1 7
+1 9
+2 5
+2 9
+3 0
+3 2
+4 4
+4 5
+5 1
+5 11
+6 0
+6 10
+7 7
+7 8
+8 3
+8 11
+9 6
+9 8
+10 3
+10 4
+11 1
+11 6
+
+# solution 196
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.164A8B25085A1B0936792734
+0 1
+0 6
+1 4
+1 10
+2 8
+2 11
+3 2
+3 5
+4 0
+4 8
+5 5
+5 10
+6 1
+6 11
+7 0
+7 9
+8 3
+8 6
+9 7
+9 9
+10 2
+10 7
+11 3
+11 4
+
+# solution 197
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6809367A154A0B598B231724
+0 6
+0 8
+1 0
+1 9
+2 3
+2 6
+3 7
+3 10
+4 1
+4 5
+5 4
+5 10
+6 0
+6 11
+7 5
+7 9
+8 8
+8 11
+9 2
+9 3
+10 1
+10 7
+11 2
+11 4
+
+# solution 198
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.394B27128A358B06091A5647
+0 3
+0 9
+1 4
+1 11
+2 2
+2 7
+3 1
+3 2
+4 8
+4 10
+5 3
+5 5
+6 8
+6 11
+7 0
+7 6
+8 0
+8 9
+9 1
+9 10
+10 5
+10 6
+11 4
+11 7
+
+# solution 199
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.693B57023A058B14891A2647
+0 6
+0 9
+1 3
+1 11
+2 5
+2 7
+3 0
+3 2
+4 3
+4 10
+5 0
+5 5
+6 8
+6 11
+7 1
+7 4
+8 8
+8 9
+9 1
+9 10
+10 2
+10 6
+11 4
+11 7
+
+# solution 200
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.1649159B5B2402370A378A68
+0 1
+0 6
+1 4
+1 9
+2 1
+2 5
+3 9
+3 11
+4 5
+4 11
+5 2
+5 4
+6 0
+6 2
+7 3
+7 7
+8 0
+8 10
+9 3
+9 7
+10 8
+10 10
+11 6
+11 8
+
+# solution 201
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.1649681B57023B790A23584A
+0 1
+0 6
+1 4
+1 9
+2 6
+2 8
+3 1
+3 11
+4 5
+4 7
+5 0
+5 2
+6 3
+6 11
+7 7
+7 9
+8 0
+8 10
+9 2
+9 3
+10 5
+10 8
+11 4
+11 10
+
+# solution 202
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4609369A154A0B578B127823
+0 4
+0 6
+1 0
+1 9
+2 3
+2 6
+3 9
+3 10
+4 1
+4 5
+5 4
+5 10
+6 0
+6 11
+7 5
+7 7
+8 8
+8 11
+9 1
+9 2
+10 7
+10 8
+11 2
+11 3
+
+# solution 203
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.1646018B579B02397A345A28
+0 1
+0 6
+1 4
+1 6
+2 0
+2 1
+3 8
+3 11
+4 5
+4 7
+5 9
+5 11
+6 0
+6 2
+7 3
+7 9
+8 7
+8 10
+9 3
+9 4
+10 5
+10 10
+11 2
+11 8
+
+# solution 204
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.164689149B05032A7A8B2357
+0 1
+0 6
+1 4
+1 6
+2 8
+2 9
+3 1
+3 4
+4 9
+4 11
+5 0
+5 5
+6 0
+6 3
+7 2
+7 10
+8 7
+8 10
+9 8
+9 11
+10 2
+10 3
+11 5
+11 7
+
+# solution 205
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.1659169B350A2B038A477824
+0 1
+0 6
+1 5
+1 9
+2 1
+2 6
+3 9
+3 11
+4 3
+4 5
+5 0
+5 10
+6 2
+6 11
+7 0
+7 3
+8 8
+8 10
+9 4
+9 7
+10 7
+10 8
+11 2
+11 4
+
+# solution 206
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.1659269B150A2B038A477834
+0 1
+0 6
+1 5
+1 9
+2 2
+2 6
+3 9
+3 11
+4 1
+4 5
+5 0
+5 10
+6 2
+6 11
+7 0
+7 3
+8 8
+8 10
+9 4
+9 7
+10 7
+10 8
+11 3
+11 4
+
+# solution 207
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.780B3528571A029B1A463469
+0 7
+0 8
+1 0
+1 11
+2 3
+2 5
+3 2
+3 8
+4 5
+4 7
+5 1
+5 10
+6 0
+6 2
+7 9
+7 11
+8 1
+8 10
+9 4
+9 6
+10 3
+10 4
+11 6
+11 9
+
+# solution 208
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.793614182A5B2A3805097B46
+0 7
+0 9
+1 3
+1 6
+2 1
+2 4
+3 1
+3 8
+4 2
+4 10
+5 5
+5 11
+6 2
+6 10
+7 3
+7 8
+8 0
+8 5
+9 0
+9 9
+10 7
+10 11
+11 4
+11 6
+
+# solution 209
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5789150348AB0A2467123B69
+0 5
+0 7
+1 8
+1 9
+2 1
+2 5
+3 0
+3 3
+4 4
+4 8
+5 10
+5 11
+6 0
+6 10
+7 2
+7 4
+8 6
+8 7
+9 1
+9 2
+10 3
+10 11
+11 6
+11 9
+
+# solution 210
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.16560A9B35032B798A241748
+0 1
+0 6
+1 5
+1 6
+2 0
+2 10
+3 9
+3 11
+4 3
+4 5
+5 0
+5 3
+6 2
+6 11
+7 7
+7 9
+8 8
+8 10
+9 2
+9 4
+10 1
+10 7
+11 4
+11 8
+
+# solution 211
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.58072B265719019B3A6A3448
+0 5
+0 8
+1 0
+1 7
+2 2
+2 11
+3 2
+3 6
+4 5
+4 7
+5 1
+5 9
+6 0
+6 1
+7 9
+7 11
+8 3
+8 10
+9 6
+9 10
+10 3
+10 4
+11 4
+11 8
+
+# solution 212
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4509465B9A2B018A78132367
+0 4
+0 5
+1 0
+1 9
+2 4
+2 6
+3 5
+3 11
+4 9
+4 10
+5 2
+5 11
+6 0
+6 1
+7 8
+7 10
+8 7
+8 8
+9 1
+9 3
+10 2
+10 3
+11 6
+11 7
+
+# solution 213
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.47478B135B0A039A25296816
+0 4
+0 7
+1 4
+1 7
+2 8
+2 11
+3 1
+3 3
+4 5
+4 11
+5 0
+5 10
+6 0
+6 3
+7 9
+7 10
+8 2
+8 5
+9 2
+9 9
+10 6
+10 8
+11 1
+11 6
+
+# solution 214
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.37479A182501AB8B24690356
+0 3
+0 7
+1 4
+1 7
+2 9
+2 10
+3 1
+3 8
+4 2
+4 5
+5 0
+5 1
+6 10
+6 11
+7 8
+7 11
+8 2
+8 4
+9 6
+9 9
+10 0
+10 3
+11 5
+11 6
+
+# solution 215
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.463B17591428AB0A67095823
+0 4
+0 6
+1 3
+1 11
+2 1
+2 7
+3 5
+3 9
+4 1
+4 4
+5 2
+5 8
+6 10
+6 11
+7 0
+7 10
+8 6
+8 7
+9 0
+9 9
+10 5
+10 8
+11 2
+11 3
+
+# solution 216
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4768028B5A13029B5A347916
+0 4
+0 7
+1 6
+1 8
+2 0
+2 2
+3 8
+3 11
+4 5
+4 10
+5 1
+5 3
+6 0
+6 2
+7 9
+7 11
+8 5
+8 10
+9 3
+9 4
+10 7
+10 9
+11 1
+11 6
+
+# solution 217
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5A34288A351B019B67062479
+0 5
+0 10
+1 3
+1 4
+2 2
+2 8
+3 8
+3 10
+4 3
+4 5
+5 1
+5 11
+6 0
+6 1
+7 9
+7 11
+8 6
+8 7
+9 0
+9 6
+10 2
+10 4
+11 7
+11 9
+
+# solution 218
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.168A058B3539029B7A142746
+0 1
+0 6
+1 8
+1 10
+2 0
+2 5
+3 8
+3 11
+4 3
+4 5
+5 3
+5 9
+6 0
+6 2
+7 9
+7 11
+8 7
+8 10
+9 1
+9 4
+10 2
+10 7
+11 4
+11 6
+
+# solution 219
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.574A269A025B013917388B46
+0 5
+0 7
+1 4
+1 10
+2 2
+2 6
+3 9
+3 10
+4 0
+4 2
+5 5
+5 11
+6 0
+6 1
+7 3
+7 9
+8 1
+8 7
+9 3
+9 8
+10 8
+10 11
+11 4
+11 6
+
+# solution 220
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.478A158B25390239AB460716
+0 4
+0 7
+1 8
+1 10
+2 1
+2 5
+3 8
+3 11
+4 2
+4 5
+5 3
+5 9
+6 0
+6 2
+7 3
+7 9
+8 10
+8 11
+9 4
+9 6
+10 0
+10 7
+11 1
+11 6
+
+# solution 221
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.150745294B89013B8A2A6736
+0 1
+0 5
+1 0
+1 7
+2 4
+2 5
+3 2
+3 9
+4 4
+4 11
+5 8
+5 9
+6 0
+6 1
+7 3
+7 11
+8 8
+8 10
+9 2
+9 10
+10 6
+10 7
+11 3
+11 6
+
+# solution 222
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.150745294B9A0137AB236868
+0 1
+0 5
+1 0
+1 7
+2 4
+2 5
+3 2
+3 9
+4 4
+4 11
+5 9
+5 10
+6 0
+6 1
+7 3
+7 7
+8 10
+8 11
+9 2
+9 3
+10 6
+10 8
+11 6
+11 8
+
+# solution 223
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2548087A35190B193626AB47
+0 2
+0 5
+1 4
+1 8
+2 0
+2 8
+3 7
+3 10
+4 3
+4 5
+5 1
+5 9
+6 0
+6 11
+7 1
+7 9
+8 3
+8 6
+9 2
+9 6
+10 10
+10 11
+11 4
+11 7
+
+# solution 224
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6A4A578B3509021B78193624
+0 6
+0 10
+1 4
+1 10
+2 5
+2 7
+3 8
+3 11
+4 3
+4 5
+5 0
+5 9
+6 0
+6 2
+7 1
+7 11
+8 7
+8 8
+9 1
+9 9
+10 3
+10 6
+11 2
+11 4
+
+# solution 225
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.256A241B5808373B0419796A
+0 2
+0 5
+1 6
+1 10
+2 2
+2 4
+3 1
+3 11
+4 5
+4 8
+5 0
+5 8
+6 3
+6 7
+7 3
+7 11
+8 0
+8 4
+9 1
+9 9
+10 7
+10 9
+11 6
+11 10
+
+# solution 226
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.286813592B5B094A137A0467
+0 2
+0 8
+1 6
+1 8
+2 1
+2 3
+3 5
+3 9
+4 2
+4 11
+5 5
+5 11
+6 0
+6 9
+7 4
+7 10
+8 1
+8 3
+9 7
+9 10
+10 0
+10 4
+11 6
+11 7
+
+# solution 227
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.15378B135804AB047A292669
+0 1
+0 5
+1 3
+1 7
+2 8
+2 11
+3 1
+3 3
+4 5
+4 8
+5 0
+5 4
+6 10
+6 11
+7 0
+7 4
+8 7
+8 10
+9 2
+9 9
+10 2
+10 6
+11 6
+11 9
+
+# solution 228
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.26049A155901AB8B23673478
+0 2
+0 6
+1 0
+1 4
+2 9
+2 10
+3 1
+3 5
+4 5
+4 9
+5 0
+5 1
+6 10
+6 11
+7 8
+7 11
+8 2
+8 3
+9 6
+9 7
+10 3
+10 4
+11 7
+11 8
+
+# solution 229
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.370478145A018B9B25396A26
+0 3
+0 7
+1 0
+1 4
+2 7
+2 8
+3 1
+3 4
+4 5
+4 10
+5 0
+5 1
+6 8
+6 11
+7 9
+7 11
+8 2
+8 5
+9 3
+9 9
+10 6
+10 10
+11 2
+11 6
+
+# solution 230
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5728359B481B0A137A460926
+0 5
+0 7
+1 2
+1 8
+2 3
+2 5
+3 9
+3 11
+4 4
+4 8
+5 1
+5 11
+6 0
+6 10
+7 1
+7 3
+8 7
+8 10
+9 4
+9 6
+10 0
+10 9
+11 2
+11 6
+
+# solution 231
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3724792B45190A138A6B0568
+0 3
+0 7
+1 2
+1 4
+2 7
+2 9
+3 2
+3 11
+4 4
+4 5
+5 1
+5 9
+6 0
+6 10
+7 1
+7 3
+8 8
+8 10
+9 6
+9 11
+10 0
+10 5
+11 6
+11 8
+
+# solution 232
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.24479B579B02038A1835166A
+0 2
+0 4
+1 4
+1 7
+2 9
+2 11
+3 5
+3 7
+4 9
+4 11
+5 0
+5 2
+6 0
+6 3
+7 8
+7 10
+8 1
+8 8
+9 3
+9 5
+10 1
+10 6
+11 6
+11 10
+
+# solution 233
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7924571924AB0838051B366A
+0 7
+0 9
+1 2
+1 4
+2 5
+2 7
+3 1
+3 9
+4 2
+4 4
+5 10
+5 11
+6 0
+6 8
+7 3
+7 8
+8 0
+8 5
+9 1
+9 11
+10 3
+10 6
+11 6
+11 10
+
+# solution 234
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.27079A582501AB8B14693436
+0 2
+0 7
+1 0
+1 7
+2 9
+2 10
+3 5
+3 8
+4 2
+4 5
+5 0
+5 1
+6 10
+6 11
+7 8
+7 11
+8 1
+8 4
+9 6
+9 9
+10 3
+10 4
+11 3
+11 6
+
+# solution 235
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3578280A2359AB1649061B47
+0 3
+0 5
+1 7
+1 8
+2 2
+2 8
+3 0
+3 10
+4 2
+4 3
+5 5
+5 9
+6 10
+6 11
+7 1
+7 6
+8 4
+8 9
+9 0
+9 6
+10 1
+10 11
+11 4
+11 7
+
+# solution 236
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3578280A2359AB1649064B17
+0 3
+0 5
+1 7
+1 8
+2 2
+2 8
+3 0
+3 10
+4 2
+4 3
+5 5
+5 9
+6 10
+6 11
+7 1
+7 6
+8 4
+8 9
+9 0
+9 6
+10 4
+10 11
+11 1
+11 7
+
+# solution 237
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5689149A0402AB1367375B28
+0 5
+0 6
+1 8
+1 9
+2 1
+2 4
+3 9
+3 10
+4 0
+4 4
+5 0
+5 2
+6 10
+6 11
+7 1
+7 3
+8 6
+8 7
+9 3
+9 7
+10 5
+10 11
+11 2
+11 8
+
+# solution 238
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3503895A48019B7B126A2467
+0 3
+0 5
+1 0
+1 3
+2 8
+2 9
+3 5
+3 10
+4 4
+4 8
+5 0
+5 1
+6 9
+6 11
+7 7
+7 11
+8 1
+8 2
+9 6
+9 10
+10 2
+10 4
+11 6
+11 7
+
+# solution 239
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.47386B351A8B012A79250649
+0 4
+0 7
+1 3
+1 8
+2 6
+2 11
+3 3
+3 5
+4 1
+4 10
+5 8
+5 11
+6 0
+6 1
+7 2
+7 10
+8 7
+8 9
+9 2
+9 5
+10 0
+10 6
+11 4
+11 9
+
+# solution 240
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.782924174B893B0A6A035615
+0 7
+0 8
+1 2
+1 9
+2 2
+2 4
+3 1
+3 7
+4 4
+4 11
+5 8
+5 9
+6 3
+6 11
+7 0
+7 10
+8 6
+8 10
+9 0
+9 3
+10 5
+10 6
+11 1
+11 5
+
+# solution 241
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.685A3609135A4B0218479B27
+0 6
+0 8
+1 5
+1 10
+2 3
+2 6
+3 0
+3 9
+4 1
+4 3
+5 5
+5 10
+6 4
+6 11
+7 0
+7 2
+8 1
+8 8
+9 4
+9 7
+10 9
+10 11
+11 2
+11 7
+
+# solution 242
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7815017A048A9B2469236B35
+0 7
+0 8
+1 1
+1 5
+2 0
+2 1
+3 7
+3 10
+4 0
+4 4
+5 8
+5 10
+6 9
+6 11
+7 2
+7 4
+8 6
+8 9
+9 2
+9 3
+10 6
+10 11
+11 3
+11 5
+
+# solution 243
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4759015A148A9B0268236B37
+0 4
+0 7
+1 5
+1 9
+2 0
+2 1
+3 5
+3 10
+4 1
+4 4
+5 8
+5 10
+6 9
+6 11
+7 0
+7 2
+8 6
+8 8
+9 2
+9 3
+10 6
+10 11
+11 3
+11 7
+
+# solution 244
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6724799B04128A8B0513356A
+0 6
+0 7
+1 2
+1 4
+2 7
+2 9
+3 9
+3 11
+4 0
+4 4
+5 1
+5 2
+6 8
+6 10
+7 8
+7 11
+8 0
+8 5
+9 1
+9 3
+10 3
+10 5
+11 6
+11 10
+
+# solution 245
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4635199A142A8B0267038B57
+0 4
+0 6
+1 3
+1 5
+2 1
+2 9
+3 9
+3 10
+4 1
+4 4
+5 2
+5 10
+6 8
+6 11
+7 0
+7 2
+8 6
+8 7
+9 0
+9 3
+10 8
+10 11
+11 5
+11 7
+
+# solution 246
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6A458B158B022309177A4936
+0 6
+0 10
+1 4
+1 5
+2 8
+2 11
+3 1
+3 5
+4 8
+4 11
+5 0
+5 2
+6 2
+6 3
+7 0
+7 9
+8 1
+8 7
+9 7
+9 10
+10 4
+10 9
+11 3
+11 6
+
+# solution 247
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.16496B45182A0B2A38570937
+0 1
+0 6
+1 4
+1 9
+2 6
+2 11
+3 4
+3 5
+4 1
+4 8
+5 2
+5 10
+6 0
+6 11
+7 2
+7 10
+8 3
+8 8
+9 5
+9 7
+10 0
+10 9
+11 3
+11 7
+
+# solution 248
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.8923015728059B471B6A346A
+0 8
+0 9
+1 2
+1 3
+2 0
+2 1
+3 5
+3 7
+4 2
+4 8
+5 0
+5 5
+6 9
+6 11
+7 4
+7 7
+8 1
+8 11
+9 6
+9 10
+10 3
+10 4
+11 6
+11 10
+
+# solution 249
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.376B1379015B284A8A025946
+0 3
+0 7
+1 6
+1 11
+2 1
+2 3
+3 7
+3 9
+4 0
+4 1
+5 5
+5 11
+6 2
+6 8
+7 4
+7 10
+8 8
+8 10
+9 0
+9 2
+10 5
+10 9
+11 4
+11 6
+
+# solution 250
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6A1334695B081A0B25284779
+0 6
+0 10
+1 1
+1 3
+2 3
+2 4
+3 6
+3 9
+4 5
+4 11
+5 0
+5 8
+6 1
+6 10
+7 0
+7 11
+8 2
+8 5
+9 2
+9 8
+10 4
+10 7
+11 7
+11 9
+
+# solution 251
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.178A158B25390239AB460746
+0 1
+0 7
+1 8
+1 10
+2 1
+2 5
+3 8
+3 11
+4 2
+4 5
+5 3
+5 9
+6 0
+6 2
+7 3
+7 9
+8 10
+8 11
+9 4
+9 6
+10 0
+10 7
+11 4
+11 6
+
+# solution 252
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.363B1728579B0419064A5A28
+0 3
+0 6
+1 3
+1 11
+2 1
+2 7
+3 2
+3 8
+4 5
+4 7
+5 9
+5 11
+6 0
+6 4
+7 1
+7 9
+8 0
+8 6
+9 4
+9 10
+10 5
+10 10
+11 2
+11 8
+
+# solution 253
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7A4B0428579A021B58163639
+0 7
+0 10
+1 4
+1 11
+2 0
+2 4
+3 2
+3 8
+4 5
+4 7
+5 9
+5 10
+6 0
+6 2
+7 1
+7 11
+8 5
+8 8
+9 1
+9 6
+10 3
+10 6
+11 3
+11 9
+
+# solution 254
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.16058B2A085A1B4936792734
+0 1
+0 6
+1 0
+1 5
+2 8
+2 11
+3 2
+3 10
+4 0
+4 8
+5 5
+5 10
+6 1
+6 11
+7 4
+7 9
+8 3
+8 6
+9 7
+9 9
+10 2
+10 7
+11 3
+11 4
+
+# solution 255
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4648691B15258B0A0237397A
+0 4
+0 6
+1 4
+1 8
+2 6
+2 9
+3 1
+3 11
+4 1
+4 5
+5 2
+5 5
+6 8
+6 11
+7 0
+7 10
+8 0
+8 2
+9 3
+9 7
+10 3
+10 9
+11 7
+11 10
+
+# solution 256
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.258A2804579B141B0636397A
+0 2
+0 5
+1 8
+1 10
+2 2
+2 8
+3 0
+3 4
+4 5
+4 7
+5 9
+5 11
+6 1
+6 4
+7 1
+7 11
+8 0
+8 6
+9 3
+9 6
+10 3
+10 9
+11 7
+11 10
+
+# solution 257
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7A480428579B021B5A163936
+0 7
+0 10
+1 4
+1 8
+2 0
+2 4
+3 2
+3 8
+4 5
+4 7
+5 9
+5 11
+6 0
+6 2
+7 1
+7 11
+8 5
+8 10
+9 1
+9 6
+10 3
+10 9
+11 3
+11 6
+
+# solution 258
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4538049B58027B1A2369167A
+0 4
+0 5
+1 3
+1 8
+2 0
+2 4
+3 9
+3 11
+4 5
+4 8
+5 0
+5 2
+6 7
+6 11
+7 1
+7 10
+8 2
+8 3
+9 6
+9 9
+10 1
+10 6
+11 7
+11 10
+
+# solution 259
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3604891B45058B129A37267A
+0 3
+0 6
+1 0
+1 4
+2 8
+2 9
+3 1
+3 11
+4 4
+4 5
+5 0
+5 5
+6 8
+6 11
+7 1
+7 2
+8 9
+8 10
+9 3
+9 7
+10 2
+10 6
+11 7
+11 10
+
+# solution 260
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4518049B58027B1A2369367A
+0 4
+0 5
+1 1
+1 8
+2 0
+2 4
+3 9
+3 11
+4 5
+4 8
+5 0
+5 2
+6 7
+6 11
+7 1
+7 10
+8 2
+8 3
+9 6
+9 9
+10 3
+10 6
+11 7
+11 10
+
+# solution 261
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.676803285A39029BAB145714
+0 6
+0 7
+1 6
+1 8
+2 0
+2 3
+3 2
+3 8
+4 5
+4 10
+5 3
+5 9
+6 0
+6 2
+7 9
+7 11
+8 10
+8 11
+9 1
+9 4
+10 5
+10 7
+11 1
+11 4
+
+# solution 262
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.467B59058B2A082A19143637
+0 4
+0 6
+1 7
+1 11
+2 5
+2 9
+3 0
+3 5
+4 8
+4 11
+5 2
+5 10
+6 0
+6 8
+7 2
+7 10
+8 1
+8 9
+9 1
+9 4
+10 3
+10 6
+11 3
+11 7
+
+# solution 263
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.252B16794B8A030A15784639
+0 2
+0 5
+1 2
+1 11
+2 1
+2 6
+3 7
+3 9
+4 4
+4 11
+5 8
+5 10
+6 0
+6 3
+7 0
+7 10
+8 1
+8 5
+9 7
+9 8
+10 4
+10 6
+11 3
+11 9
+
+# solution 264
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.15364809250913AB2B78467A
+0 1
+0 5
+1 3
+1 6
+2 4
+2 8
+3 0
+3 9
+4 2
+4 5
+5 0
+5 9
+6 1
+6 3
+7 10
+7 11
+8 2
+8 11
+9 7
+9 8
+10 4
+10 6
+11 7
+11 10
+
+# solution 265
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6903698B025B135A8A142747
+0 6
+0 9
+1 0
+1 3
+2 6
+2 9
+3 8
+3 11
+4 0
+4 2
+5 5
+5 11
+6 1
+6 3
+7 5
+7 10
+8 8
+8 10
+9 1
+9 4
+10 2
+10 7
+11 4
+11 7
+
+# solution 266
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6903698A025B135A8B142747
+0 6
+0 9
+1 0
+1 3
+2 6
+2 9
+3 8
+3 10
+4 0
+4 2
+5 5
+5 11
+6 1
+6 3
+7 5
+7 10
+8 8
+8 11
+9 1
+9 4
+10 2
+10 7
+11 4
+11 7
+
+# solution 267
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.48163919458B0306AB27257A
+0 4
+0 8
+1 1
+1 6
+2 3
+2 9
+3 1
+3 9
+4 4
+4 5
+5 8
+5 11
+6 0
+6 3
+7 0
+7 6
+8 10
+8 11
+9 2
+9 7
+10 2
+10 5
+11 7
+11 10
+
+# solution 268
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4648691B19250B08237A357A
+0 4
+0 6
+1 4
+1 8
+2 6
+2 9
+3 1
+3 11
+4 1
+4 9
+5 2
+5 5
+6 0
+6 11
+7 0
+7 8
+8 2
+8 3
+9 7
+9 10
+10 3
+10 5
+11 7
+11 10
+
+# solution 269
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7A35285A14089B0269364B17
+0 7
+0 10
+1 3
+1 5
+2 2
+2 8
+3 5
+3 10
+4 1
+4 4
+5 0
+5 8
+6 9
+6 11
+7 0
+7 2
+8 6
+8 9
+9 3
+9 6
+10 4
+10 11
+11 1
+11 7
+
+# solution 270
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6924691B04258B083A17357A
+0 6
+0 9
+1 2
+1 4
+2 6
+2 9
+3 1
+3 11
+4 0
+4 4
+5 2
+5 5
+6 8
+6 11
+7 0
+7 8
+8 3
+8 10
+9 1
+9 7
+10 3
+10 5
+11 7
+11 10
+
+# solution 271
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2A6759025B0B3817349A6814
+0 2
+0 10
+1 6
+1 7
+2 5
+2 9
+3 0
+3 2
+4 5
+4 11
+5 0
+5 11
+6 3
+6 8
+7 1
+7 7
+8 3
+8 4
+9 9
+9 10
+10 6
+10 8
+11 1
+11 4
+
+# solution 272
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.479A5825013A8B2B36096714
+0 4
+0 7
+1 9
+1 10
+2 5
+2 8
+3 2
+3 5
+4 0
+4 1
+5 3
+5 10
+6 8
+6 11
+7 2
+7 11
+8 3
+8 6
+9 0
+9 9
+10 6
+10 7
+11 1
+11 4
+
+# solution 273
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.469B14155B083A8A03296727
+0 4
+0 6
+1 9
+1 11
+2 1
+2 4
+3 1
+3 5
+4 5
+4 11
+5 0
+5 8
+6 3
+6 10
+7 8
+7 10
+8 0
+8 3
+9 2
+9 9
+10 6
+10 7
+11 2
+11 7
+
+# solution 274
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7A04492B572A088B15393616
+0 7
+0 10
+1 0
+1 4
+2 4
+2 9
+3 2
+3 11
+4 5
+4 7
+5 2
+5 10
+6 0
+6 8
+7 8
+7 11
+8 1
+8 5
+9 3
+9 9
+10 3
+10 6
+11 1
+11 6
+
+# solution 275
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.38468A019A05237B14279B56
+0 3
+0 8
+1 4
+1 6
+2 8
+2 10
+3 0
+3 1
+4 9
+4 10
+5 0
+5 5
+6 2
+6 3
+7 7
+7 11
+8 1
+8 4
+9 2
+9 7
+10 9
+10 11
+11 5
+11 6
+
+# solution 276
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3568283B059B7A1A02467914
+0 3
+0 5
+1 6
+1 8
+2 2
+2 8
+3 3
+3 11
+4 0
+4 5
+5 9
+5 11
+6 7
+6 10
+7 1
+7 10
+8 0
+8 2
+9 4
+9 6
+10 7
+10 9
+11 1
+11 4
+
+# solution 277
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6945691B14258B083A7A0327
+0 6
+0 9
+1 4
+1 5
+2 6
+2 9
+3 1
+3 11
+4 1
+4 4
+5 2
+5 5
+6 8
+6 11
+7 0
+7 8
+8 3
+8 10
+9 7
+9 10
+10 0
+10 3
+11 2
+11 7
+
+# solution 278
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7A349B15570B2A0812694836
+0 7
+0 10
+1 3
+1 4
+2 9
+2 11
+3 1
+3 5
+4 5
+4 7
+5 0
+5 11
+6 2
+6 10
+7 0
+7 8
+8 1
+8 2
+9 6
+9 9
+10 4
+10 8
+11 3
+11 6
+
+# solution 279
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.46486913195B5B027A3A0278
+0 4
+0 6
+1 4
+1 8
+2 6
+2 9
+3 1
+3 3
+4 1
+4 9
+5 5
+5 11
+6 5
+6 11
+7 0
+7 2
+8 7
+8 10
+9 3
+9 10
+10 0
+10 2
+11 7
+11 8
+
+# solution 280
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5669127B5B09230A8A347814
+0 5
+0 6
+1 6
+1 9
+2 1
+2 2
+3 7
+3 11
+4 5
+4 11
+5 0
+5 9
+6 2
+6 3
+7 0
+7 10
+8 8
+8 10
+9 3
+9 4
+10 7
+10 8
+11 1
+11 4
+
+# solution 281
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5669127B059B230A8A347814
+0 5
+0 6
+1 6
+1 9
+2 1
+2 2
+3 7
+3 11
+4 0
+4 5
+5 9
+5 11
+6 2
+6 3
+7 0
+7 10
+8 8
+8 10
+9 3
+9 4
+10 7
+10 8
+11 1
+11 4
+
+# solution 282
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.264989150502AB8B1367347A
+0 2
+0 6
+1 4
+1 9
+2 8
+2 9
+3 1
+3 5
+4 0
+4 5
+5 0
+5 2
+6 10
+6 11
+7 8
+7 11
+8 1
+8 3
+9 6
+9 7
+10 3
+10 4
+11 7
+11 10
+
+# solution 283
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4624691B59258B0A0837137A
+0 4
+0 6
+1 2
+1 4
+2 6
+2 9
+3 1
+3 11
+4 5
+4 9
+5 2
+5 5
+6 8
+6 11
+7 0
+7 10
+8 0
+8 8
+9 3
+9 7
+10 1
+10 3
+11 7
+11 10
+
+# solution 284
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.8A07238A351B9B0416692457
+0 8
+0 10
+1 0
+1 7
+2 2
+2 3
+3 8
+3 10
+4 3
+4 5
+5 1
+5 11
+6 9
+6 11
+7 0
+7 4
+8 1
+8 6
+9 6
+9 9
+10 2
+10 4
+11 5
+11 7
+
+# solution 285
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.8A3609159B05362B478A1427
+0 8
+0 10
+1 3
+1 6
+2 0
+2 9
+3 1
+3 5
+4 9
+4 11
+5 0
+5 5
+6 3
+6 6
+7 2
+7 11
+8 4
+8 7
+9 8
+9 10
+10 1
+10 4
+11 2
+11 7
+
+# solution 286
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.683B159B158A02247A470639
+0 6
+0 8
+1 3
+1 11
+2 1
+2 5
+3 9
+3 11
+4 1
+4 5
+5 8
+5 10
+6 0
+6 2
+7 2
+7 4
+8 7
+8 10
+9 4
+9 7
+10 0
+10 6
+11 3
+11 9
+
+# solution 287
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.27672903059BAB164A485813
+0 2
+0 7
+1 6
+1 7
+2 2
+2 9
+3 0
+3 3
+4 0
+4 5
+5 9
+5 11
+6 10
+6 11
+7 1
+7 6
+8 4
+8 10
+9 4
+9 8
+10 5
+10 8
+11 1
+11 3
+
+# solution 288
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.788B451B450A09379A123626
+0 7
+0 8
+1 8
+1 11
+2 4
+2 5
+3 1
+3 11
+4 4
+4 5
+5 0
+5 10
+6 0
+6 9
+7 3
+7 7
+8 9
+8 10
+9 1
+9 2
+10 3
+10 6
+11 2
+11 6
+
+# solution 289
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.683B126B358A02049A471759
+0 6
+0 8
+1 3
+1 11
+2 1
+2 2
+3 6
+3 11
+4 3
+4 5
+5 8
+5 10
+6 0
+6 2
+7 0
+7 4
+8 9
+8 10
+9 4
+9 7
+10 1
+10 7
+11 5
+11 9
+
+# solution 290
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2646019B9B357A24088A5713
+0 2
+0 6
+1 4
+1 6
+2 0
+2 1
+3 9
+3 11
+4 9
+4 11
+5 3
+5 5
+6 7
+6 10
+7 2
+7 4
+8 0
+8 8
+9 8
+9 10
+10 5
+10 7
+11 1
+11 3
+
+# solution 291
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.78482B39059B174A0A265613
+0 7
+0 8
+1 4
+1 8
+2 2
+2 11
+3 3
+3 9
+4 0
+4 5
+5 9
+5 11
+6 1
+6 7
+7 4
+7 10
+8 0
+8 10
+9 2
+9 6
+10 5
+10 6
+11 1
+11 3
+
+# solution 292
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.368B283B579A4A0109461725
+0 3
+0 6
+1 8
+1 11
+2 2
+2 8
+3 3
+3 11
+4 5
+4 7
+5 9
+5 10
+6 4
+6 10
+7 0
+7 1
+8 0
+8 9
+9 4
+9 6
+10 1
+10 7
+11 2
+11 5
+
+# solution 293
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.366A1857019A23029B478B45
+0 3
+0 6
+1 6
+1 10
+2 1
+2 8
+3 5
+3 7
+4 0
+4 1
+5 9
+5 10
+6 2
+6 3
+7 0
+7 2
+8 9
+8 11
+9 4
+9 7
+10 8
+10 11
+11 4
+11 5
+
+# solution 294
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.247B479B05289A0135186A36
+0 2
+0 4
+1 7
+1 11
+2 4
+2 7
+3 9
+3 11
+4 0
+4 5
+5 2
+5 8
+6 9
+6 10
+7 0
+7 1
+8 3
+8 5
+9 1
+9 8
+10 6
+10 10
+11 3
+11 6
+
+# solution 295
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.683A1589059A04127B476B23
+0 6
+0 8
+1 3
+1 10
+2 1
+2 5
+3 8
+3 9
+4 0
+4 5
+5 9
+5 10
+6 0
+6 4
+7 1
+7 2
+8 7
+8 11
+9 4
+9 7
+10 6
+10 11
+11 2
+11 3
+
+# solution 296
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.47351A6B59137B9A02260848
+0 4
+0 7
+1 3
+1 5
+2 1
+2 10
+3 6
+3 11
+4 5
+4 9
+5 1
+5 3
+6 7
+6 11
+7 9
+7 10
+8 0
+8 2
+9 2
+9 6
+10 0
+10 8
+11 4
+11 8
+
+# solution 297
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.8A25162959AB01046B347837
+0 8
+0 10
+1 2
+1 5
+2 1
+2 6
+3 2
+3 9
+4 5
+4 9
+5 10
+5 11
+6 0
+6 1
+7 0
+7 4
+8 6
+8 11
+9 3
+9 4
+10 7
+10 8
+11 3
+11 7
+
+# solution 298
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.69265A1A571B289B03480734
+0 6
+0 9
+1 2
+1 6
+2 5
+2 10
+3 1
+3 10
+4 5
+4 7
+5 1
+5 11
+6 2
+6 8
+7 9
+7 11
+8 0
+8 3
+9 4
+9 8
+10 0
+10 7
+11 3
+11 4
+
+# solution 299
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.588B236B23590A069A141747
+0 5
+0 8
+1 8
+1 11
+2 2
+2 3
+3 6
+3 11
+4 2
+4 3
+5 5
+5 9
+6 0
+6 10
+7 0
+7 6
+8 9
+8 10
+9 1
+9 4
+10 1
+10 7
+11 4
+11 7
+
+# solution 300
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.460A690B39258B158A172347
+0 4
+0 6
+1 0
+1 10
+2 6
+2 9
+3 0
+3 11
+4 3
+4 9
+5 2
+5 5
+6 8
+6 11
+7 1
+7 5
+8 8
+8 10
+9 1
+9 7
+10 2
+10 3
+11 4
+11 7
+
+# solution 301
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.8A346B1358AB010257294679
+0 8
+0 10
+1 3
+1 4
+2 6
+2 11
+3 1
+3 3
+4 5
+4 8
+5 10
+5 11
+6 0
+6 1
+7 0
+7 2
+8 5
+8 7
+9 2
+9 9
+10 4
+10 6
+11 7
+11 9
+
+# solution 302
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.25147919572B4A8B0A680336
+0 2
+0 5
+1 1
+1 4
+2 7
+2 9
+3 1
+3 9
+4 5
+4 7
+5 2
+5 11
+6 4
+6 10
+7 8
+7 11
+8 0
+8 10
+9 6
+9 8
+10 0
+10 3
+11 3
+11 6
+
+# solution 303
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.56499A4605128A7B037B3812
+0 5
+0 6
+1 4
+1 9
+2 9
+2 10
+3 4
+3 6
+4 0
+4 5
+5 1
+5 2
+6 8
+6 10
+7 7
+7 11
+8 0
+8 3
+9 7
+9 11
+10 3
+10 8
+11 1
+11 2
+
+# solution 304
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4636149B15082A082B37579A
+0 4
+0 6
+1 3
+1 6
+2 1
+2 4
+3 9
+3 11
+4 1
+4 5
+5 0
+5 8
+6 2
+6 10
+7 0
+7 8
+8 2
+8 11
+9 3
+9 7
+10 5
+10 7
+11 9
+11 10
+
+# solution 305
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4816250B5B8903137A47269A
+0 4
+0 8
+1 1
+1 6
+2 2
+2 5
+3 0
+3 11
+4 5
+4 11
+5 8
+5 9
+6 0
+6 3
+7 1
+7 3
+8 7
+8 10
+9 4
+9 7
+10 2
+10 6
+11 9
+11 10
+
+# solution 306
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.46169A29250A3807351B8B47
+0 4
+0 6
+1 1
+1 6
+2 9
+2 10
+3 2
+3 9
+4 2
+4 5
+5 0
+5 10
+6 3
+6 8
+7 0
+7 7
+8 3
+8 5
+9 1
+9 11
+10 8
+10 11
+11 4
+11 7
+
+# solution 307
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2608084A459A19173B2B3657
+0 2
+0 6
+1 0
+1 8
+2 0
+2 8
+3 4
+3 10
+4 4
+4 5
+5 9
+5 10
+6 1
+6 9
+7 1
+7 7
+8 3
+8 11
+9 2
+9 11
+10 3
+10 6
+11 5
+11 7
+
+# solution 308
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.683A57285A03049B9B146712
+0 6
+0 8
+1 3
+1 10
+2 5
+2 7
+3 2
+3 8
+4 5
+4 10
+5 0
+5 3
+6 0
+6 4
+7 9
+7 11
+8 9
+8 11
+9 1
+9 4
+10 6
+10 7
+11 1
+11 2
+
+# solution 309
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5A020268579B141B8A367934
+0 5
+0 10
+1 0
+1 2
+2 0
+2 2
+3 6
+3 8
+4 5
+4 7
+5 9
+5 11
+6 1
+6 4
+7 1
+7 11
+8 8
+8 10
+9 3
+9 6
+10 7
+10 9
+11 3
+11 4
+
+# solution 310
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4704028B599B12157A363A68
+0 4
+0 7
+1 0
+1 4
+2 0
+2 2
+3 8
+3 11
+4 5
+4 9
+5 9
+5 11
+6 1
+6 2
+7 1
+7 5
+8 7
+8 10
+9 3
+9 6
+10 3
+10 10
+11 6
+11 8
+
+# solution 311
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5608049A45291B17AB233678
+0 5
+0 6
+1 0
+1 8
+2 0
+2 4
+3 9
+3 10
+4 4
+4 5
+5 2
+5 9
+6 1
+6 11
+7 1
+7 7
+8 10
+8 11
+9 2
+9 3
+10 3
+10 6
+11 7
+11 8
+
+# solution 312
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.69040548259B8B137A132A67
+0 6
+0 9
+1 0
+1 4
+2 0
+2 5
+3 4
+3 8
+4 2
+4 5
+5 9
+5 11
+6 8
+6 11
+7 1
+7 3
+8 7
+8 10
+9 1
+9 3
+10 2
+10 10
+11 6
+11 7
+
+# solution 313
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.292714794B083A085B156A36
+0 2
+0 9
+1 2
+1 7
+2 1
+2 4
+3 7
+3 9
+4 4
+4 11
+5 0
+5 8
+6 3
+6 10
+7 0
+7 8
+8 5
+8 11
+9 1
+9 5
+10 6
+10 10
+11 3
+11 6
+
+# solution 314
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6859017A4B2A1B2468033957
+0 6
+0 8
+1 5
+1 9
+2 0
+2 1
+3 7
+3 10
+4 4
+4 11
+5 2
+5 10
+6 1
+6 11
+7 2
+7 4
+8 6
+8 8
+9 0
+9 3
+10 3
+10 9
+11 5
+11 7
+
+# solution 315
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2936259B4A010A1B57783846
+0 2
+0 9
+1 3
+1 6
+2 2
+2 5
+3 9
+3 11
+4 4
+4 10
+5 0
+5 1
+6 0
+6 10
+7 1
+7 11
+8 5
+8 7
+9 7
+9 8
+10 3
+10 8
+11 4
+11 6
+
+# solution 316
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2816367925AB030A5B148947
+0 2
+0 8
+1 1
+1 6
+2 3
+2 6
+3 7
+3 9
+4 2
+4 5
+5 10
+5 11
+6 0
+6 3
+7 0
+7 10
+8 5
+8 11
+9 1
+9 4
+10 8
+10 9
+11 4
+11 7
+
+# solution 317
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.397A4708285B14019B5A2636
+0 3
+0 9
+1 7
+1 10
+2 4
+2 7
+3 0
+3 8
+4 2
+4 8
+5 5
+5 11
+6 1
+6 4
+7 0
+7 1
+8 9
+8 11
+9 5
+9 10
+10 2
+10 6
+11 3
+11 6
+
+# solution 318
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.397A47022805AB158B163946
+0 3
+0 9
+1 7
+1 10
+2 4
+2 7
+3 0
+3 2
+4 2
+4 8
+5 0
+5 5
+6 10
+6 11
+7 1
+7 5
+8 8
+8 11
+9 1
+9 6
+10 3
+10 9
+11 4
+11 6
+
+# solution 319
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3817470A2825AB569B016934
+0 3
+0 8
+1 1
+1 7
+2 4
+2 7
+3 0
+3 10
+4 2
+4 8
+5 2
+5 5
+6 10
+6 11
+7 5
+7 6
+8 9
+8 11
+9 0
+9 1
+10 6
+10 9
+11 3
+11 4
+
+# solution 320
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3958291B7A5B1408046A2367
+0 3
+0 9
+1 5
+1 8
+2 2
+2 9
+3 1
+3 11
+4 7
+4 10
+5 5
+5 11
+6 1
+6 4
+7 0
+7 8
+8 0
+8 4
+9 6
+9 10
+10 2
+10 3
+11 6
+11 7
+
+# solution 321
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.395829017A5B148B046A2367
+0 3
+0 9
+1 5
+1 8
+2 2
+2 9
+3 0
+3 1
+4 7
+4 10
+5 5
+5 11
+6 1
+6 4
+7 8
+7 11
+8 0
+8 4
+9 6
+9 10
+10 2
+10 3
+11 6
+11 7
+
+# solution 322
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.28471A7935093B04AB126856
+0 2
+0 8
+1 4
+1 7
+2 1
+2 10
+3 7
+3 9
+4 3
+4 5
+5 0
+5 9
+6 3
+6 11
+7 0
+7 4
+8 10
+8 11
+9 1
+9 2
+10 6
+10 8
+11 5
+11 6
+
+# solution 323
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.36580946195BAB17028A2347
+0 3
+0 6
+1 5
+1 8
+2 0
+2 9
+3 4
+3 6
+4 1
+4 9
+5 5
+5 11
+6 10
+6 11
+7 1
+7 7
+8 0
+8 2
+9 8
+9 10
+10 2
+10 3
+11 4
+11 7
+
+# solution 324
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.28581909352B047A6B143A67
+0 2
+0 8
+1 5
+1 8
+2 1
+2 9
+3 0
+3 9
+4 3
+4 5
+5 2
+5 11
+6 0
+6 4
+7 7
+7 10
+8 6
+8 11
+9 1
+9 4
+10 3
+10 10
+11 6
+11 7
+
+# solution 325
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.45171B79058A0428AB236936
+0 4
+0 5
+1 1
+1 7
+2 1
+2 11
+3 7
+3 9
+4 0
+4 5
+5 8
+5 10
+6 0
+6 4
+7 2
+7 8
+8 10
+8 11
+9 2
+9 3
+10 6
+10 9
+11 3
+11 6
+
+# solution 326
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.68358A571B029B02147A4639
+0 6
+0 8
+1 3
+1 5
+2 8
+2 10
+3 5
+3 7
+4 1
+4 11
+5 0
+5 2
+6 9
+6 11
+7 0
+7 2
+8 1
+8 4
+9 7
+9 10
+10 4
+10 6
+11 3
+11 9
+
+# solution 327
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.286813592B5B0904137A4A67
+0 2
+0 8
+1 6
+1 8
+2 1
+2 3
+3 5
+3 9
+4 2
+4 11
+5 5
+5 11
+6 0
+6 9
+7 0
+7 4
+8 1
+8 3
+9 7
+9 10
+10 4
+10 10
+11 6
+11 7
+
+# solution 328
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2867139B159A0306AB472845
+0 2
+0 8
+1 6
+1 7
+2 1
+2 3
+3 9
+3 11
+4 1
+4 5
+5 9
+5 10
+6 0
+6 3
+7 0
+7 6
+8 10
+8 11
+9 4
+9 7
+10 2
+10 8
+11 4
+11 5
+
+# solution 329
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.28792378051BAB041A694536
+0 2
+0 8
+1 7
+1 9
+2 2
+2 3
+3 7
+3 8
+4 0
+4 5
+5 1
+5 11
+6 10
+6 11
+7 0
+7 4
+8 1
+8 10
+9 6
+9 9
+10 4
+10 5
+11 3
+11 6
+
+# solution 330
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2719479B450A028A5B133668
+0 2
+0 7
+1 1
+1 9
+2 4
+2 7
+3 9
+3 11
+4 4
+4 5
+5 0
+5 10
+6 0
+6 2
+7 8
+7 10
+8 5
+8 11
+9 1
+9 3
+10 3
+10 6
+11 6
+11 8
+
+# solution 331
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2714479B580B0A8A25163936
+0 2
+0 7
+1 1
+1 4
+2 4
+2 7
+3 9
+3 11
+4 5
+4 8
+5 0
+5 11
+6 0
+6 10
+7 8
+7 10
+8 2
+8 5
+9 1
+9 6
+10 3
+10 9
+11 3
+11 6
+
+# solution 332
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2724579B041B0A185A683936
+0 2
+0 7
+1 2
+1 4
+2 5
+2 7
+3 9
+3 11
+4 0
+4 4
+5 1
+5 11
+6 0
+6 10
+7 1
+7 8
+8 5
+8 10
+9 6
+9 8
+10 3
+10 9
+11 3
+11 6
+
+# solution 333
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6814594B050B8A127A363927
+0 6
+0 8
+1 1
+1 4
+2 5
+2 9
+3 4
+3 11
+4 0
+4 5
+5 0
+5 11
+6 8
+6 10
+7 1
+7 2
+8 7
+8 10
+9 3
+9 6
+10 3
+10 9
+11 2
+11 7
+
+# solution 334
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4879157A5B1803049A2B2636
+0 4
+0 8
+1 7
+1 9
+2 1
+2 5
+3 7
+3 10
+4 5
+4 11
+5 1
+5 8
+6 0
+6 3
+7 0
+7 4
+8 9
+8 10
+9 2
+9 11
+10 2
+10 6
+11 3
+11 6
+
+# solution 335
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.562813139B582A040A7B7946
+0 5
+0 6
+1 2
+1 8
+2 1
+2 3
+3 1
+3 3
+4 9
+4 11
+5 5
+5 8
+6 2
+6 10
+7 0
+7 4
+8 0
+8 10
+9 7
+9 11
+10 7
+10 9
+11 4
+11 6
+
+# solution 336
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3659061B1A583B02784A2947
+0 3
+0 6
+1 5
+1 9
+2 0
+2 6
+3 1
+3 11
+4 1
+4 10
+5 5
+5 8
+6 3
+6 11
+7 0
+7 2
+8 7
+8 8
+9 4
+9 10
+10 2
+10 9
+11 4
+11 7
+
+# solution 337
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.464619179B05032A8A8B2357
+0 4
+0 6
+1 4
+1 6
+2 1
+2 9
+3 1
+3 7
+4 9
+4 11
+5 0
+5 5
+6 0
+6 3
+7 2
+7 10
+8 8
+8 10
+9 8
+9 11
+10 2
+10 3
+11 5
+11 7
+
+# solution 338
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.47271924095B8B133A068A56
+0 4
+0 7
+1 2
+1 7
+2 1
+2 9
+3 2
+3 4
+4 0
+4 9
+5 5
+5 11
+6 8
+6 11
+7 1
+7 3
+8 3
+8 10
+9 0
+9 6
+10 8
+10 10
+11 5
+11 6
+
+# solution 339
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.67392A26450B1A8B05183749
+0 6
+0 7
+1 3
+1 9
+2 2
+2 10
+3 2
+3 6
+4 4
+4 5
+5 0
+5 11
+6 1
+6 10
+7 8
+7 11
+8 0
+8 5
+9 1
+9 8
+10 3
+10 7
+11 4
+11 9
+
+# solution 340
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.49267A5B12050A688B133749
+0 4
+0 9
+1 2
+1 6
+2 7
+2 10
+3 5
+3 11
+4 1
+4 2
+5 0
+5 5
+6 0
+6 10
+7 6
+7 8
+8 8
+8 11
+9 1
+9 3
+10 3
+10 7
+11 4
+11 9
+
+# solution 341
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4947371B9B150A068A282536
+0 4
+0 9
+1 4
+1 7
+2 3
+2 7
+3 1
+3 11
+4 9
+4 11
+5 1
+5 5
+6 0
+6 10
+7 0
+7 6
+8 8
+8 10
+9 2
+9 8
+10 2
+10 5
+11 3
+11 6
+
+# solution 342
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.582827AB0335016B9A164749
+0 5
+0 8
+1 2
+1 8
+2 2
+2 7
+3 10
+3 11
+4 0
+4 3
+5 3
+5 5
+6 0
+6 1
+7 6
+7 11
+8 9
+8 10
+9 1
+9 6
+10 4
+10 7
+11 4
+11 9
+
+# solution 343
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.494716290B5A1B03362A7858
+0 4
+0 9
+1 4
+1 7
+2 1
+2 6
+3 2
+3 9
+4 0
+4 11
+5 5
+5 10
+6 1
+6 11
+7 0
+7 3
+8 3
+8 6
+9 2
+9 10
+10 7
+10 8
+11 5
+11 8
+
+# solution 344
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.563A2A685B081413099B4727
+0 5
+0 6
+1 3
+1 10
+2 2
+2 10
+3 6
+3 8
+4 5
+4 11
+5 0
+5 8
+6 1
+6 4
+7 1
+7 3
+8 0
+8 9
+9 9
+9 11
+10 4
+10 7
+11 2
+11 7
+
+# solution 345
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2746279B049B0A135A183568
+0 2
+0 7
+1 4
+1 6
+2 2
+2 7
+3 9
+3 11
+4 0
+4 4
+5 9
+5 11
+6 0
+6 10
+7 1
+7 3
+8 5
+8 10
+9 1
+9 8
+10 3
+10 5
+11 6
+11 8
+
+# solution 346
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2746799B240B0A135A153868
+0 2
+0 7
+1 4
+1 6
+2 7
+2 9
+3 9
+3 11
+4 2
+4 4
+5 0
+5 11
+6 0
+6 10
+7 1
+7 3
+8 5
+8 10
+9 1
+9 5
+10 3
+10 8
+11 6
+11 8
+
+# solution 347
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3468025B79154A0279AB1368
+0 3
+0 4
+1 6
+1 8
+2 0
+2 2
+3 5
+3 11
+4 7
+4 9
+5 1
+5 5
+6 4
+6 10
+7 0
+7 2
+8 7
+8 9
+9 10
+9 11
+10 1
+10 3
+11 6
+11 8
+
+# solution 348
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3734088A45191B9B06265A27
+0 3
+0 7
+1 3
+1 4
+2 0
+2 8
+3 8
+3 10
+4 4
+4 5
+5 1
+5 9
+6 1
+6 11
+7 9
+7 11
+8 0
+8 6
+9 2
+9 6
+10 5
+10 10
+11 2
+11 7
+
+# solution 349
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.56249A158B230A08139B4767
+0 5
+0 6
+1 2
+1 4
+2 9
+2 10
+3 1
+3 5
+4 8
+4 11
+5 2
+5 3
+6 0
+6 10
+7 0
+7 8
+8 1
+8 3
+9 9
+9 11
+10 4
+10 7
+11 6
+11 7
+
+# solution 350
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.37468A015A138B9B02465927
+0 3
+0 7
+1 4
+1 6
+2 8
+2 10
+3 0
+3 1
+4 5
+4 10
+5 1
+5 3
+6 8
+6 11
+7 9
+7 11
+8 0
+8 2
+9 4
+9 6
+10 5
+10 9
+11 2
+11 7
+
+# solution 351
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.34186909352B8B7A0A145627
+0 3
+0 4
+1 1
+1 8
+2 6
+2 9
+3 0
+3 9
+4 3
+4 5
+5 2
+5 11
+6 8
+6 11
+7 7
+7 10
+8 0
+8 10
+9 1
+9 4
+10 5
+10 6
+11 2
+11 7
+
+# solution 352
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3716670A0A5B23589B281449
+0 3
+0 7
+1 1
+1 6
+2 6
+2 7
+3 0
+3 10
+4 0
+4 10
+5 5
+5 11
+6 2
+6 3
+7 5
+7 8
+8 9
+8 11
+9 2
+9 8
+10 1
+10 4
+11 4
+11 9
+
+# solution 353
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.277A34AB39050B1589162648
+0 2
+0 7
+1 7
+1 10
+2 3
+2 4
+3 10
+3 11
+4 3
+4 9
+5 0
+5 5
+6 0
+6 11
+7 1
+7 5
+8 8
+8 9
+9 1
+9 6
+10 2
+10 6
+11 4
+11 8
+
+# solution 354
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.784A36038B5A0B5912471926
+0 7
+0 8
+1 4
+1 10
+2 3
+2 6
+3 0
+3 3
+4 8
+4 11
+5 5
+5 10
+6 0
+6 11
+7 5
+7 9
+8 1
+8 2
+9 4
+9 7
+10 1
+10 9
+11 2
+11 6
+
+# solution 355
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5819057A4B9A01246B233678
+0 5
+0 8
+1 1
+1 9
+2 0
+2 5
+3 7
+3 10
+4 4
+4 11
+5 9
+5 10
+6 0
+6 1
+7 2
+7 4
+8 6
+8 11
+9 2
+9 3
+10 3
+10 6
+11 7
+11 8
+
+# solution 356
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.45170B79158A0428AB236936
+0 4
+0 5
+1 1
+1 7
+2 0
+2 11
+3 7
+3 9
+4 1
+4 5
+5 8
+5 10
+6 0
+6 4
+7 2
+7 8
+8 10
+8 11
+9 2
+9 3
+10 6
+10 9
+11 3
+11 6
+
+# solution 357
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.488A357B35010B694A791226
+0 4
+0 8
+1 8
+1 10
+2 3
+2 5
+3 7
+3 11
+4 3
+4 5
+5 0
+5 1
+6 0
+6 11
+7 6
+7 9
+8 4
+8 10
+9 7
+9 9
+10 1
+10 2
+11 2
+11 6
+
+# solution 358
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6726018A579B0239AB145834
+0 6
+0 7
+1 2
+1 6
+2 0
+2 1
+3 8
+3 10
+4 5
+4 7
+5 9
+5 11
+6 0
+6 2
+7 3
+7 9
+8 10
+8 11
+9 1
+9 4
+10 5
+10 8
+11 3
+11 4
+
+# solution 359
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6826018A579B0239AB145734
+0 6
+0 8
+1 2
+1 6
+2 0
+2 1
+3 8
+3 10
+4 5
+4 7
+5 9
+5 11
+6 0
+6 2
+7 3
+7 9
+8 10
+8 11
+9 1
+9 4
+10 5
+10 7
+11 3
+11 4
+
+# solution 360
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.262947AB0A351B1578036948
+0 2
+0 6
+1 2
+1 9
+2 4
+2 7
+3 10
+3 11
+4 0
+4 10
+5 3
+5 5
+6 1
+6 11
+7 1
+7 5
+8 7
+8 8
+9 0
+9 3
+10 6
+10 9
+11 4
+11 8
+
+# solution 361
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.46479B15250A8B8A23016937
+0 4
+0 6
+1 4
+1 7
+2 9
+2 11
+3 1
+3 5
+4 2
+4 5
+5 0
+5 10
+6 8
+6 11
+7 8
+7 10
+8 2
+8 3
+9 0
+9 1
+10 6
+10 9
+11 3
+11 7
+
+# solution 362
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5825017A4B8A01479B236936
+0 5
+0 8
+1 2
+1 5
+2 0
+2 1
+3 7
+3 10
+4 4
+4 11
+5 8
+5 10
+6 0
+6 1
+7 4
+7 7
+8 9
+8 11
+9 2
+9 3
+10 6
+10 9
+11 3
+11 6
+
+# solution 363
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5748258B049B0A137A163926
+0 5
+0 7
+1 4
+1 8
+2 2
+2 5
+3 8
+3 11
+4 0
+4 4
+5 9
+5 11
+6 0
+6 10
+7 1
+7 3
+8 7
+8 10
+9 1
+9 6
+10 3
+10 9
+11 2
+11 6
+
+# solution 364
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5748058B249B0A137A163926
+0 5
+0 7
+1 4
+1 8
+2 0
+2 5
+3 8
+3 11
+4 2
+4 4
+5 9
+5 11
+6 0
+6 10
+7 1
+7 3
+8 7
+8 10
+9 1
+9 6
+10 3
+10 9
+11 2
+11 6
+
+# solution 365
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2639167A340A1B489B052857
+0 2
+0 6
+1 3
+1 9
+2 1
+2 6
+3 7
+3 10
+4 3
+4 4
+5 0
+5 10
+6 1
+6 11
+7 4
+7 8
+8 9
+8 11
+9 0
+9 5
+10 2
+10 8
+11 5
+11 7
+
+# solution 366
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5749058B481B0A137A263926
+0 5
+0 7
+1 4
+1 9
+2 0
+2 5
+3 8
+3 11
+4 4
+4 8
+5 1
+5 11
+6 0
+6 10
+7 1
+7 3
+8 7
+8 10
+9 2
+9 6
+10 3
+10 9
+11 2
+11 6
+
+# solution 367
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5748059B481B0A137A263926
+0 5
+0 7
+1 4
+1 8
+2 0
+2 5
+3 9
+3 11
+4 4
+4 8
+5 1
+5 11
+6 0
+6 10
+7 1
+7 3
+8 7
+8 10
+9 2
+9 6
+10 3
+10 9
+11 2
+11 6
+
+# solution 368
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5718458B049B0A137A263926
+0 5
+0 7
+1 1
+1 8
+2 4
+2 5
+3 8
+3 11
+4 0
+4 4
+5 9
+5 11
+6 0
+6 10
+7 1
+7 3
+8 7
+8 10
+9 2
+9 6
+10 3
+10 9
+11 2
+11 6
+
+# solution 369
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.357812785B0B4A01469A3926
+0 3
+0 5
+1 7
+1 8
+2 1
+2 2
+3 7
+3 8
+4 5
+4 11
+5 0
+5 11
+6 4
+6 10
+7 0
+7 1
+8 4
+8 6
+9 9
+9 10
+10 3
+10 9
+11 2
+11 6
+
+# solution 370
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.68381B5A130A9B0246792457
+0 6
+0 8
+1 3
+1 8
+2 1
+2 11
+3 5
+3 10
+4 1
+4 3
+5 0
+5 10
+6 9
+6 11
+7 0
+7 2
+8 4
+8 6
+9 7
+9 9
+10 2
+10 4
+11 5
+11 7
+
+# solution 371
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.58692901571B370A4A4B2836
+0 5
+0 8
+1 6
+1 9
+2 2
+2 9
+3 0
+3 1
+4 5
+4 7
+5 1
+5 11
+6 3
+6 7
+7 0
+7 10
+8 4
+8 10
+9 4
+9 11
+10 2
+10 8
+11 3
+11 6
+
+# solution 372
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2649174B9B250A8A08351367
+0 2
+0 6
+1 4
+1 9
+2 1
+2 7
+3 4
+3 11
+4 9
+4 11
+5 2
+5 5
+6 0
+6 10
+7 8
+7 10
+8 0
+8 8
+9 3
+9 5
+10 1
+10 3
+11 6
+11 7
+
+# solution 373
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.45691A01578B3A07239B4826
+0 4
+0 5
+1 6
+1 9
+2 1
+2 10
+3 0
+3 1
+4 5
+4 7
+5 8
+5 11
+6 3
+6 10
+7 0
+7 7
+8 2
+8 3
+9 9
+9 11
+10 4
+10 8
+11 2
+11 6
+
+# solution 374
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.49671B470A052B8A13692835
+0 4
+0 9
+1 6
+1 7
+2 1
+2 11
+3 4
+3 7
+4 0
+4 10
+5 0
+5 5
+6 2
+6 11
+7 8
+7 10
+8 1
+8 3
+9 6
+9 9
+10 2
+10 8
+11 3
+11 5
+
+# solution 375
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.452969015A1B037A284B3867
+0 4
+0 5
+1 2
+1 9
+2 6
+2 9
+3 0
+3 1
+4 5
+4 10
+5 1
+5 11
+6 0
+6 3
+7 7
+7 10
+8 2
+8 8
+9 4
+9 11
+10 3
+10 8
+11 6
+11 7
+
+# solution 376
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5668131A578B2A03029B4749
+0 5
+0 6
+1 6
+1 8
+2 1
+2 3
+3 1
+3 10
+4 5
+4 7
+5 8
+5 11
+6 2
+6 10
+7 0
+7 3
+8 0
+8 2
+9 9
+9 11
+10 4
+10 7
+11 4
+11 9
+
+# solution 377
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5926194A480B0A37125B3768
+0 5
+0 9
+1 2
+1 6
+2 1
+2 9
+3 4
+3 10
+4 4
+4 8
+5 0
+5 11
+6 0
+6 10
+7 3
+7 7
+8 1
+8 2
+9 5
+9 11
+10 3
+10 7
+11 6
+11 8
+
+# solution 378
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3528059B481B0A137A467926
+0 3
+0 5
+1 2
+1 8
+2 0
+2 5
+3 9
+3 11
+4 4
+4 8
+5 1
+5 11
+6 0
+6 10
+7 1
+7 3
+8 7
+8 10
+9 4
+9 6
+10 7
+10 9
+11 2
+11 6
+
+# solution 379
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.47490268591B013B7A263A58
+0 4
+0 7
+1 4
+1 9
+2 0
+2 2
+3 6
+3 8
+4 5
+4 9
+5 1
+5 11
+6 0
+6 1
+7 3
+7 11
+8 7
+8 10
+9 2
+9 6
+10 3
+10 10
+11 5
+11 8
+
+# solution 380
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.26569B5704029B8A13174A38
+0 2
+0 6
+1 5
+1 6
+2 9
+2 11
+3 5
+3 7
+4 0
+4 4
+5 0
+5 2
+6 9
+6 11
+7 8
+7 10
+8 1
+8 3
+9 1
+9 7
+10 4
+10 10
+11 3
+11 8
+
+# solution 381
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.582A069B2549013A7B136748
+0 5
+0 8
+1 2
+1 10
+2 0
+2 6
+3 9
+3 11
+4 2
+4 5
+5 4
+5 9
+6 0
+6 1
+7 3
+7 10
+8 7
+8 11
+9 1
+9 3
+10 6
+10 7
+11 4
+11 8
+
+# solution 382
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.58192408570B37AB4A136926
+0 5
+0 8
+1 1
+1 9
+2 2
+2 4
+3 0
+3 8
+4 5
+4 7
+5 0
+5 11
+6 3
+6 7
+7 10
+7 11
+8 4
+8 10
+9 1
+9 3
+10 6
+10 9
+11 2
+11 6
+
+# solution 383
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2668790B345B0A15791A2348
+0 2
+0 6
+1 6
+1 8
+2 7
+2 9
+3 0
+3 11
+4 3
+4 4
+5 5
+5 11
+6 0
+6 10
+7 1
+7 5
+8 7
+8 9
+9 1
+9 10
+10 2
+10 3
+11 4
+11 8
+
+# solution 384
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.592407472B9B01138A563A68
+0 5
+0 9
+1 2
+1 4
+2 0
+2 7
+3 4
+3 7
+4 2
+4 11
+5 9
+5 11
+6 0
+6 1
+7 1
+7 3
+8 8
+8 10
+9 5
+9 6
+10 3
+10 10
+11 6
+11 8
+
+# solution 385
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2746079B249B0A135A183568
+0 2
+0 7
+1 4
+1 6
+2 0
+2 7
+3 9
+3 11
+4 2
+4 4
+5 9
+5 11
+6 0
+6 10
+7 1
+7 3
+8 5
+8 10
+9 1
+9 8
+10 3
+10 5
+11 6
+11 8
+
+# solution 386
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.574A024B579B02138A163968
+0 5
+0 7
+1 4
+1 10
+2 0
+2 2
+3 4
+3 11
+4 5
+4 7
+5 9
+5 11
+6 0
+6 2
+7 1
+7 3
+8 8
+8 10
+9 1
+9 6
+10 3
+10 9
+11 6
+11 8
+
+# solution 387
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.578A024B579B02138A163946
+0 5
+0 7
+1 8
+1 10
+2 0
+2 2
+3 4
+3 11
+4 5
+4 7
+5 9
+5 11
+6 0
+6 2
+7 1
+7 3
+8 8
+8 10
+9 1
+9 6
+10 3
+10 9
+11 4
+11 6
+
+# solution 388
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5746029B249B0A137A183568
+0 5
+0 7
+1 4
+1 6
+2 0
+2 2
+3 9
+3 11
+4 2
+4 4
+5 9
+5 11
+6 0
+6 10
+7 1
+7 3
+8 7
+8 10
+9 1
+9 8
+10 3
+10 5
+11 6
+11 8
+
+# solution 389
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5768039B259B02138A147A46
+0 5
+0 7
+1 6
+1 8
+2 0
+2 3
+3 9
+3 11
+4 2
+4 5
+5 9
+5 11
+6 0
+6 2
+7 1
+7 3
+8 8
+8 10
+9 1
+9 4
+10 7
+10 10
+11 4
+11 6
+
+# solution 390
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5768039B25890213AB147A46
+0 5
+0 7
+1 6
+1 8
+2 0
+2 3
+3 9
+3 11
+4 2
+4 5
+5 8
+5 9
+6 0
+6 2
+7 1
+7 3
+8 10
+8 11
+9 1
+9 4
+10 7
+10 10
+11 4
+11 6
+
+# solution 391
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6748037B359B021A8A125946
+0 6
+0 7
+1 4
+1 8
+2 0
+2 3
+3 7
+3 11
+4 3
+4 5
+5 9
+5 11
+6 0
+6 2
+7 1
+7 10
+8 8
+8 10
+9 1
+9 2
+10 5
+10 9
+11 4
+11 6
+
+# solution 392
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.269A1607340A1B489B352857
+0 2
+0 6
+1 9
+1 10
+2 1
+2 6
+3 0
+3 7
+4 3
+4 4
+5 0
+5 10
+6 1
+6 11
+7 4
+7 8
+8 9
+8 11
+9 3
+9 5
+10 2
+10 8
+11 5
+11 7
+
+# solution 393
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6815187A340A9B249B023657
+0 6
+0 8
+1 1
+1 5
+2 1
+2 8
+3 7
+3 10
+4 3
+4 4
+5 0
+5 10
+6 9
+6 11
+7 2
+7 4
+8 9
+8 11
+9 0
+9 2
+10 3
+10 6
+11 5
+11 7
+
+# solution 394
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.25188A01450B9B6A24673937
+0 2
+0 5
+1 1
+1 8
+2 8
+2 10
+3 0
+3 1
+4 4
+4 5
+5 0
+5 11
+6 9
+6 11
+7 6
+7 10
+8 2
+8 4
+9 6
+9 7
+10 3
+10 9
+11 3
+11 7
+
+# solution 395
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2516461A5B8B3A0302897947
+0 2
+0 5
+1 1
+1 6
+2 4
+2 6
+3 1
+3 10
+4 5
+4 11
+5 8
+5 11
+6 3
+6 10
+7 0
+7 3
+8 0
+8 2
+9 8
+9 9
+10 7
+10 9
+11 4
+11 7
+
+# solution 396
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4639190658122B8A077B4A35
+0 4
+0 6
+1 3
+1 9
+2 1
+2 9
+3 0
+3 6
+4 5
+4 8
+5 1
+5 2
+6 2
+6 11
+7 8
+7 10
+8 0
+8 7
+9 7
+9 11
+10 4
+10 10
+11 3
+11 5
+
+# solution 397
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.25294A17058B3A063B891467
+0 2
+0 5
+1 2
+1 9
+2 4
+2 10
+3 1
+3 7
+4 0
+4 5
+5 8
+5 11
+6 3
+6 10
+7 0
+7 6
+8 3
+8 11
+9 8
+9 9
+10 1
+10 4
+11 6
+11 7
+
+# solution 398
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.69361A5B14080B4A37792825
+0 6
+0 9
+1 3
+1 6
+2 1
+2 10
+3 5
+3 11
+4 1
+4 4
+5 0
+5 8
+6 0
+6 11
+7 4
+7 10
+8 3
+8 7
+9 7
+9 9
+10 2
+10 8
+11 2
+11 5
+
+# solution 399
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.468903134A089B1257AB2657
+0 4
+0 6
+1 8
+1 9
+2 0
+2 3
+3 1
+3 3
+4 4
+4 10
+5 0
+5 8
+6 9
+6 11
+7 1
+7 2
+8 5
+8 7
+9 10
+9 11
+10 2
+10 6
+11 5
+11 7
+
+# solution 400
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4645019B59021B7A8A233678
+0 4
+0 6
+1 4
+1 5
+2 0
+2 1
+3 9
+3 11
+4 5
+4 9
+5 0
+5 2
+6 1
+6 11
+7 7
+7 10
+8 8
+8 10
+9 2
+9 3
+10 3
+10 6
+11 7
+11 8
+
+# solution 401
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5713AB46040A288B25137969
+0 5
+0 7
+1 1
+1 3
+2 10
+2 11
+3 4
+3 6
+4 0
+4 4
+5 0
+5 10
+6 2
+6 8
+7 8
+7 11
+8 2
+8 5
+9 1
+9 3
+10 7
+10 9
+11 6
+11 9
+
+# solution 402
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.253A6A7B125803081B494967
+0 2
+0 5
+1 3
+1 10
+2 6
+2 10
+3 7
+3 11
+4 1
+4 2
+5 5
+5 8
+6 0
+6 3
+7 0
+7 8
+8 1
+8 11
+9 4
+9 9
+10 4
+10 9
+11 6
+11 7
+
+# solution 403
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4613794A572B0A13058B2869
+0 4
+0 6
+1 1
+1 3
+2 7
+2 9
+3 4
+3 10
+4 5
+4 7
+5 2
+5 11
+6 0
+6 10
+7 1
+7 3
+8 0
+8 5
+9 8
+9 11
+10 2
+10 8
+11 6
+11 9
+
+# solution 404
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.56269B4A015B089A37132847
+0 5
+0 6
+1 2
+1 6
+2 9
+2 11
+3 4
+3 10
+4 0
+4 1
+5 5
+5 11
+6 0
+6 8
+7 9
+7 10
+8 3
+8 7
+9 1
+9 3
+10 2
+10 8
+11 4
+11 7
+
+# solution 405
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.694818451B350A0B379A2726
+0 6
+0 9
+1 4
+1 8
+2 1
+2 8
+3 4
+3 5
+4 1
+4 11
+5 3
+5 5
+6 0
+6 10
+7 0
+7 11
+8 3
+8 7
+9 9
+9 10
+10 2
+10 7
+11 2
+11 6
+
+# solution 406
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.46560B12590B13897A234A78
+0 4
+0 6
+1 5
+1 6
+2 0
+2 11
+3 1
+3 2
+4 5
+4 9
+5 0
+5 11
+6 1
+6 3
+7 8
+7 9
+8 7
+8 10
+9 2
+9 3
+10 4
+10 10
+11 7
+11 8
+
+# solution 407
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.34471919352A0B780A5B2668
+0 3
+0 4
+1 4
+1 7
+2 1
+2 9
+3 1
+3 9
+4 3
+4 5
+5 2
+5 10
+6 0
+6 11
+7 7
+7 8
+8 0
+8 10
+9 5
+9 11
+10 2
+10 6
+11 6
+11 8
+
+# solution 408
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4867358B5A01039B4A122769
+0 4
+0 8
+1 6
+1 7
+2 3
+2 5
+3 8
+3 11
+4 5
+4 10
+5 0
+5 1
+6 0
+6 3
+7 9
+7 11
+8 4
+8 10
+9 1
+9 2
+10 2
+10 7
+11 6
+11 9
+
+# solution 409
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2548129A359B7B0106368A47
+0 2
+0 5
+1 4
+1 8
+2 1
+2 2
+3 9
+3 10
+4 3
+4 5
+5 9
+5 11
+6 7
+6 11
+7 0
+7 1
+8 0
+8 6
+9 3
+9 6
+10 8
+10 10
+11 4
+11 7
+
+# solution 410
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.486A358B159B09137A042726
+0 4
+0 8
+1 6
+1 10
+2 3
+2 5
+3 8
+3 11
+4 1
+4 5
+5 9
+5 11
+6 0
+6 9
+7 1
+7 3
+8 7
+8 10
+9 0
+9 4
+10 2
+10 7
+11 2
+11 6
+
+# solution 411
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6916058A573B023B9A142748
+0 6
+0 9
+1 1
+1 6
+2 0
+2 5
+3 8
+3 10
+4 5
+4 7
+5 3
+5 11
+6 0
+6 2
+7 3
+7 11
+8 9
+8 10
+9 1
+9 4
+10 2
+10 7
+11 4
+11 8
+
+# solution 412
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.397A89012505AB16486B2347
+0 3
+0 9
+1 7
+1 10
+2 8
+2 9
+3 0
+3 1
+4 2
+4 5
+5 0
+5 5
+6 10
+6 11
+7 1
+7 6
+8 4
+8 8
+9 6
+9 11
+10 2
+10 3
+11 4
+11 7
+
+# solution 413
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.597A24028B58130B4A173669
+0 5
+0 9
+1 7
+1 10
+2 2
+2 4
+3 0
+3 2
+4 8
+4 11
+5 5
+5 8
+6 1
+6 3
+7 0
+7 11
+8 4
+8 10
+9 1
+9 7
+10 3
+10 6
+11 6
+11 9
+
+# solution 414
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7814258B059A031B7A243669
+0 7
+0 8
+1 1
+1 4
+2 2
+2 5
+3 8
+3 11
+4 0
+4 5
+5 9
+5 10
+6 0
+6 3
+7 1
+7 11
+8 7
+8 10
+9 2
+9 4
+10 3
+10 6
+11 6
+11 9
+
+# solution 415
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.394714288B250B031A7A5669
+0 3
+0 9
+1 4
+1 7
+2 1
+2 4
+3 2
+3 8
+4 8
+4 11
+5 2
+5 5
+6 0
+6 11
+7 0
+7 3
+8 1
+8 10
+9 7
+9 10
+10 5
+10 6
+11 6
+11 9
+
+# solution 416
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.465A1269150A7B39027B4838
+0 4
+0 6
+1 5
+1 10
+2 1
+2 2
+3 6
+3 9
+4 1
+4 5
+5 0
+5 10
+6 7
+6 11
+7 3
+7 9
+8 0
+8 2
+9 7
+9 11
+10 4
+10 8
+11 3
+11 8
+
+# solution 417
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.46469B13195B5A02073A2878
+0 4
+0 6
+1 4
+1 6
+2 9
+2 11
+3 1
+3 3
+4 1
+4 9
+5 5
+5 11
+6 5
+6 10
+7 0
+7 2
+8 0
+8 7
+9 3
+9 10
+10 2
+10 8
+11 7
+11 8
+
+# solution 418
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.572947124A8B03018B6A3569
+0 5
+0 7
+1 2
+1 9
+2 4
+2 7
+3 1
+3 2
+4 4
+4 10
+5 8
+5 11
+6 0
+6 3
+7 0
+7 1
+8 8
+8 11
+9 6
+9 10
+10 3
+10 5
+11 6
+11 9
+
+# solution 419
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.693589145B024A1A078B3627
+0 6
+0 9
+1 3
+1 5
+2 8
+2 9
+3 1
+3 4
+4 5
+4 11
+5 0
+5 2
+6 4
+6 10
+7 1
+7 10
+8 0
+8 7
+9 8
+9 11
+10 3
+10 6
+11 2
+11 7
+
+# solution 420
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.486A358B151B09397A042726
+0 4
+0 8
+1 6
+1 10
+2 3
+2 5
+3 8
+3 11
+4 1
+4 5
+5 1
+5 11
+6 0
+6 9
+7 3
+7 9
+8 7
+8 10
+9 0
+9 4
+10 2
+10 7
+11 2
+11 6
+
+# solution 421
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.78246A038B153B09127A4569
+0 7
+0 8
+1 2
+1 4
+2 6
+2 10
+3 0
+3 3
+4 8
+4 11
+5 1
+5 5
+6 3
+6 11
+7 0
+7 9
+8 1
+8 2
+9 7
+9 10
+10 4
+10 5
+11 6
+11 9
+
+# solution 422
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.59241B78285B064A017A3936
+0 5
+0 9
+1 2
+1 4
+2 1
+2 11
+3 7
+3 8
+4 2
+4 8
+5 5
+5 11
+6 0
+6 6
+7 4
+7 10
+8 0
+8 1
+9 7
+9 10
+10 3
+10 9
+11 3
+11 6
+
+# solution 423
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.69241A4A085B0837132B7956
+0 6
+0 9
+1 2
+1 4
+2 1
+2 10
+3 4
+3 10
+4 0
+4 8
+5 5
+5 11
+6 0
+6 8
+7 3
+7 7
+8 1
+8 3
+9 2
+9 11
+10 7
+10 9
+11 5
+11 6
+
+# solution 424
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6924198B155B083A0A472367
+0 6
+0 9
+1 2
+1 4
+2 1
+2 9
+3 8
+3 11
+4 1
+4 5
+5 5
+5 11
+6 0
+6 8
+7 3
+7 10
+8 0
+8 10
+9 4
+9 7
+10 2
+10 3
+11 6
+11 7
+
+# solution 425
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2648085A39059B1B137A2647
+0 2
+0 6
+1 4
+1 8
+2 0
+2 8
+3 5
+3 10
+4 3
+4 9
+5 0
+5 5
+6 9
+6 11
+7 1
+7 11
+8 1
+8 3
+9 7
+9 10
+10 2
+10 6
+11 4
+11 7
+
+# solution 426
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.257814781B5B0A06349A2369
+0 2
+0 5
+1 7
+1 8
+2 1
+2 4
+3 7
+3 8
+4 1
+4 11
+5 5
+5 11
+6 0
+6 10
+7 0
+7 6
+8 3
+8 4
+9 9
+9 10
+10 2
+10 3
+11 6
+11 9
+
+# solution 427
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.46699B01358B037A8A122547
+0 4
+0 6
+1 6
+1 9
+2 9
+2 11
+3 0
+3 1
+4 3
+4 5
+5 8
+5 11
+6 0
+6 3
+7 7
+7 10
+8 8
+8 10
+9 1
+9 2
+10 2
+10 5
+11 4
+11 7
+
+# solution 428
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.35782A01571BAB0824693469
+0 3
+0 5
+1 7
+1 8
+2 2
+2 10
+3 0
+3 1
+4 5
+4 7
+5 1
+5 11
+6 10
+6 11
+7 0
+7 8
+8 2
+8 4
+9 6
+9 9
+10 3
+10 4
+11 6
+11 9
+
+# solution 429
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5926141A7B5904AB78023638
+0 5
+0 9
+1 2
+1 6
+2 1
+2 4
+3 1
+3 10
+4 7
+4 11
+5 5
+5 9
+6 0
+6 4
+7 10
+7 11
+8 7
+8 8
+9 0
+9 2
+10 3
+10 6
+11 3
+11 8
+
+# solution 430
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6923781A1B5905AB08246734
+0 6
+0 9
+1 2
+1 3
+2 7
+2 8
+3 1
+3 10
+4 1
+4 11
+5 5
+5 9
+6 0
+6 5
+7 10
+7 11
+8 0
+8 8
+9 2
+9 4
+10 6
+10 7
+11 3
+11 4
+
+# solution 431
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.462416199B5A082A380B3757
+0 4
+0 6
+1 2
+1 4
+2 1
+2 6
+3 1
+3 9
+4 9
+4 11
+5 5
+5 10
+6 0
+6 8
+7 2
+7 10
+8 3
+8 8
+9 0
+9 11
+10 3
+10 7
+11 5
+11 7
+
+# solution 432
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.495A4A0157029B78281B3636
+0 4
+0 9
+1 5
+1 10
+2 4
+2 10
+3 0
+3 1
+4 5
+4 7
+5 0
+5 2
+6 9
+6 11
+7 7
+7 8
+8 2
+8 8
+9 1
+9 11
+10 3
+10 6
+11 3
+11 6
+
+# solution 433
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.793A283B560A1B1409576824
+0 7
+0 9
+1 3
+1 10
+2 2
+2 8
+3 3
+3 11
+4 5
+4 6
+5 0
+5 10
+6 1
+6 11
+7 1
+7 4
+8 0
+8 9
+9 5
+9 7
+10 6
+10 8
+11 2
+11 4
+
+# solution 434
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.794A042B579B02138A163568
+0 7
+0 9
+1 4
+1 10
+2 0
+2 4
+3 2
+3 11
+4 5
+4 7
+5 9
+5 11
+6 0
+6 2
+7 1
+7 3
+8 8
+8 10
+9 1
+9 6
+10 3
+10 5
+11 6
+11 8
+
+# solution 435
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.794A024B579B02138A163568
+0 7
+0 9
+1 4
+1 10
+2 0
+2 2
+3 4
+3 11
+4 5
+4 7
+5 9
+5 11
+6 0
+6 2
+7 1
+7 3
+8 8
+8 10
+9 1
+9 6
+10 3
+10 5
+11 6
+11 8
+
+# solution 436
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2416598B12050A684B3A3779
+0 2
+0 4
+1 1
+1 6
+2 5
+2 9
+3 8
+3 11
+4 1
+4 2
+5 0
+5 5
+6 0
+6 10
+7 6
+7 8
+8 4
+8 11
+9 3
+9 10
+10 3
+10 7
+11 7
+11 9
+
+# solution 437
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3649891205128A7B057B3A46
+0 3
+0 6
+1 4
+1 9
+2 8
+2 9
+3 1
+3 2
+4 0
+4 5
+5 1
+5 2
+6 8
+6 10
+7 7
+7 11
+8 0
+8 5
+9 7
+9 11
+10 3
+10 10
+11 4
+11 6
+
+# solution 438
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.575826024AAB01486B133979
+0 5
+0 7
+1 5
+1 8
+2 2
+2 6
+3 0
+3 2
+4 4
+4 10
+5 10
+5 11
+6 0
+6 1
+7 4
+7 8
+8 6
+8 11
+9 1
+9 3
+10 3
+10 9
+11 7
+11 9
+
+# solution 439
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.57570124029B9B138A463A68
+0 5
+0 7
+1 5
+1 7
+2 0
+2 1
+3 2
+3 4
+4 0
+4 2
+5 9
+5 11
+6 9
+6 11
+7 1
+7 3
+8 8
+8 10
+9 4
+9 6
+10 3
+10 10
+11 6
+11 8
+
+# solution 440
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.361839681A25470B0A7B2945
+0 3
+0 6
+1 1
+1 8
+2 3
+2 9
+3 6
+3 8
+4 1
+4 10
+5 2
+5 5
+6 4
+6 7
+7 0
+7 11
+8 0
+8 10
+9 7
+9 11
+10 2
+10 9
+11 4
+11 5
+
+# solution 441
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.25156A2A048B13097B364879
+0 2
+0 5
+1 1
+1 5
+2 6
+2 10
+3 2
+3 10
+4 0
+4 4
+5 8
+5 11
+6 1
+6 3
+7 0
+7 9
+8 7
+8 11
+9 3
+9 6
+10 4
+10 8
+11 7
+11 9
+
+# solution 442
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7927144B02589B135A068A36
+0 7
+0 9
+1 2
+1 7
+2 1
+2 4
+3 4
+3 11
+4 0
+4 2
+5 5
+5 8
+6 9
+6 11
+7 1
+7 3
+8 5
+8 10
+9 0
+9 6
+10 8
+10 10
+11 3
+11 6
+
+# solution 443
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.46592B59148A1B0A37026837
+0 4
+0 6
+1 5
+1 9
+2 2
+2 11
+3 5
+3 9
+4 1
+4 4
+5 8
+5 10
+6 1
+6 11
+7 0
+7 10
+8 3
+8 7
+9 0
+9 2
+10 6
+10 8
+11 3
+11 7
+
+# solution 444
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7946279B240B0A135A153868
+0 7
+0 9
+1 4
+1 6
+2 2
+2 7
+3 9
+3 11
+4 2
+4 4
+5 0
+5 11
+6 0
+6 10
+7 1
+7 3
+8 5
+8 10
+9 1
+9 5
+10 3
+10 8
+11 6
+11 8
+
+# solution 445
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.367913AB48128A04790B2556
+0 3
+0 6
+1 7
+1 9
+2 1
+2 3
+3 10
+3 11
+4 4
+4 8
+5 1
+5 2
+6 8
+6 10
+7 0
+7 4
+8 7
+8 9
+9 0
+9 11
+10 2
+10 5
+11 5
+11 6
+
+# solution 446
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.678A258B5A030B1379146924
+0 6
+0 7
+1 8
+1 10
+2 2
+2 5
+3 8
+3 11
+4 5
+4 10
+5 0
+5 3
+6 0
+6 11
+7 1
+7 3
+8 7
+8 9
+9 1
+9 4
+10 6
+10 9
+11 2
+11 4
+
+# solution 447
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.36136A48048A012B795B7925
+0 3
+0 6
+1 1
+1 3
+2 6
+2 10
+3 4
+3 8
+4 0
+4 4
+5 8
+5 10
+6 0
+6 1
+7 2
+7 11
+8 7
+8 9
+9 5
+9 11
+10 7
+10 9
+11 2
+11 5
+
+# solution 448
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.672A048A0559121B8B367934
+0 6
+0 7
+1 2
+1 10
+2 0
+2 4
+3 8
+3 10
+4 0
+4 5
+5 5
+5 9
+6 1
+6 2
+7 1
+7 11
+8 8
+8 11
+9 3
+9 6
+10 7
+10 9
+11 3
+11 4
+
+# solution 449
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.2516369A5B2803AB04781479
+0 2
+0 5
+1 1
+1 6
+2 3
+2 6
+3 9
+3 10
+4 5
+4 11
+5 2
+5 8
+6 0
+6 3
+7 10
+7 11
+8 0
+8 4
+9 7
+9 8
+10 1
+10 4
+11 7
+11 9
+
+# solution 450
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.46169A2B195B47023A087835
+0 4
+0 6
+1 1
+1 6
+2 9
+2 10
+3 2
+3 11
+4 1
+4 9
+5 5
+5 11
+6 4
+6 7
+7 0
+7 2
+8 3
+8 10
+9 0
+9 8
+10 7
+10 8
+11 3
+11 5
+
+# solution 451
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7914570148AB028B362A3956
+0 7
+0 9
+1 1
+1 4
+2 5
+2 7
+3 0
+3 1
+4 4
+4 8
+5 10
+5 11
+6 0
+6 2
+7 8
+7 11
+8 3
+8 6
+9 2
+9 10
+10 3
+10 9
+11 5
+11 6
+
+# solution 452
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.37260A6A05398B1B24195748
+0 3
+0 7
+1 2
+1 6
+2 0
+2 10
+3 6
+3 10
+4 0
+4 5
+5 3
+5 9
+6 8
+6 11
+7 1
+7 11
+8 2
+8 4
+9 1
+9 9
+10 5
+10 7
+11 4
+11 8
+
+# solution 453
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.356AAB465801289B03177924
+0 3
+0 5
+1 6
+1 10
+2 10
+2 11
+3 4
+3 6
+4 5
+4 8
+5 0
+5 1
+6 2
+6 8
+7 9
+7 11
+8 0
+8 3
+9 1
+9 7
+10 7
+10 9
+11 2
+11 4
+
+# solution 454
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.24792B45190A138A6B036857
+0 2
+0 4
+1 7
+1 9
+2 2
+2 11
+3 4
+3 5
+4 1
+4 9
+5 0
+5 10
+6 1
+6 3
+7 8
+7 10
+8 6
+8 11
+9 0
+9 3
+10 6
+10 8
+11 5
+11 7
+
+# solution 455
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.366A158B053B08129A477924
+0 3
+0 6
+1 6
+1 10
+2 1
+2 5
+3 8
+3 11
+4 0
+4 5
+5 3
+5 11
+6 0
+6 8
+7 1
+7 2
+8 9
+8 10
+9 4
+9 7
+10 7
+10 9
+11 2
+11 4
+
+# solution 456
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.7924579B240B08135A1A3668
+0 7
+0 9
+1 2
+1 4
+2 5
+2 7
+3 9
+3 11
+4 2
+4 4
+5 0
+5 11
+6 0
+6 8
+7 1
+7 3
+8 5
+8 10
+9 1
+9 10
+10 3
+10 6
+11 6
+11 8
+
+# solution 457
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.24781857130A3B0A6B592649
+0 2
+0 4
+1 7
+1 8
+2 1
+2 8
+3 5
+3 7
+4 1
+4 3
+5 0
+5 10
+6 3
+6 11
+7 0
+7 10
+8 6
+8 11
+9 5
+9 9
+10 2
+10 6
+11 4
+11 9
+
+# solution 458
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3745027A0A5B2816193B8946
+0 3
+0 7
+1 4
+1 5
+2 0
+2 2
+3 7
+3 10
+4 0
+4 10
+5 5
+5 11
+6 2
+6 8
+7 1
+7 6
+8 1
+8 9
+9 3
+9 11
+10 8
+10 9
+11 4
+11 6
+
+# solution 459
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.56236B058A021B8A14793479
+0 5
+0 6
+1 2
+1 3
+2 6
+2 11
+3 0
+3 5
+4 8
+4 10
+5 0
+5 2
+6 1
+6 11
+7 8
+7 10
+8 1
+8 4
+9 7
+9 9
+10 3
+10 4
+11 7
+11 9
+
+# solution 460
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.247839195602AB0A5B136847
+0 2
+0 4
+1 7
+1 8
+2 3
+2 9
+3 1
+3 9
+4 5
+4 6
+5 0
+5 2
+6 10
+6 11
+7 0
+7 10
+8 5
+8 11
+9 1
+9 3
+10 6
+10 8
+11 4
+11 7
+
+# solution 461
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.47138A065B019B562A283479
+0 4
+0 7
+1 1
+1 3
+2 8
+2 10
+3 0
+3 6
+4 5
+4 11
+5 0
+5 1
+6 9
+6 11
+7 5
+7 6
+8 2
+8 10
+9 2
+9 8
+10 3
+10 4
+11 7
+11 9
+
+# solution 462
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.466A158B15090239AB377824
+0 4
+0 6
+1 6
+1 10
+2 1
+2 5
+3 8
+3 11
+4 1
+4 5
+5 0
+5 9
+6 0
+6 2
+7 3
+7 9
+8 10
+8 11
+9 3
+9 7
+10 7
+10 8
+11 2
+11 4
+
+# solution 463
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3578230A0A58149B196B2467
+0 3
+0 5
+1 7
+1 8
+2 2
+2 3
+3 0
+3 10
+4 0
+4 10
+5 5
+5 8
+6 1
+6 4
+7 9
+7 11
+8 1
+8 9
+9 6
+9 11
+10 2
+10 4
+11 6
+11 7
+
+# solution 464
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.581612795B9B030A6A347824
+0 5
+0 8
+1 1
+1 6
+2 1
+2 2
+3 7
+3 9
+4 5
+4 11
+5 9
+5 11
+6 0
+6 3
+7 0
+7 10
+8 6
+8 10
+9 3
+9 4
+10 7
+10 8
+11 2
+11 4
+
+# solution 465
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.56139A0658128BAB02473479
+0 5
+0 6
+1 1
+1 3
+2 9
+2 10
+3 0
+3 6
+4 5
+4 8
+5 1
+5 2
+6 8
+6 11
+7 10
+7 11
+8 0
+8 2
+9 4
+9 7
+10 3
+10 4
+11 7
+11 9
+
+# solution 466
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.56139A065B128B8A02473479
+0 5
+0 6
+1 1
+1 3
+2 9
+2 10
+3 0
+3 6
+4 5
+4 11
+5 1
+5 2
+6 8
+6 11
+7 8
+7 10
+8 0
+8 2
+9 4
+9 7
+10 3
+10 4
+11 7
+11 9
+
+# solution 467
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.248A058B359B09137A146726
+0 2
+0 4
+1 8
+1 10
+2 0
+2 5
+3 8
+3 11
+4 3
+4 5
+5 9
+5 11
+6 0
+6 9
+7 1
+7 3
+8 7
+8 10
+9 1
+9 4
+10 6
+10 7
+11 2
+11 6
+
+# solution 468
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.58691313AB5B28024A077946
+0 5
+0 8
+1 6
+1 9
+2 1
+2 3
+3 1
+3 3
+4 10
+4 11
+5 5
+5 11
+6 2
+6 8
+7 0
+7 2
+8 4
+8 10
+9 0
+9 7
+10 7
+10 9
+11 4
+11 6
+
+# solution 469
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6826231A795B9A4B01057834
+0 6
+0 8
+1 2
+1 6
+2 2
+2 3
+3 1
+3 10
+4 7
+4 9
+5 5
+5 11
+6 9
+6 10
+7 4
+7 11
+8 0
+8 1
+9 0
+9 5
+10 7
+10 8
+11 3
+11 4
+
+# solution 470
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4616499B1B055A082A783723
+0 4
+0 6
+1 1
+1 6
+2 4
+2 9
+3 9
+3 11
+4 1
+4 11
+5 0
+5 5
+6 5
+6 10
+7 0
+7 8
+8 2
+8 10
+9 7
+9 8
+10 3
+10 7
+11 2
+11 3
+
+# solution 471
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.8916258B5A030A3B79146724
+0 8
+0 9
+1 1
+1 6
+2 2
+2 5
+3 8
+3 11
+4 5
+4 10
+5 0
+5 3
+6 0
+6 10
+7 3
+7 11
+8 7
+8 9
+9 1
+9 4
+10 6
+10 7
+11 2
+11 4
+
+# solution 472
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.23681825AB059B04137A4679
+0 2
+0 3
+1 6
+1 8
+2 1
+2 8
+3 2
+3 5
+4 10
+4 11
+5 0
+5 5
+6 9
+6 11
+7 0
+7 4
+8 1
+8 3
+9 7
+9 10
+10 4
+10 6
+11 7
+11 9
+
+# solution 473
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.237A38085B05AB1914692467
+0 2
+0 3
+1 7
+1 10
+2 3
+2 8
+3 0
+3 8
+4 5
+4 11
+5 0
+5 5
+6 10
+6 11
+7 1
+7 9
+8 1
+8 4
+9 6
+9 9
+10 2
+10 4
+11 6
+11 7
+
+# solution 474
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.23795902451B0A8B13684A67
+0 2
+0 3
+1 7
+1 9
+2 5
+2 9
+3 0
+3 2
+4 4
+4 5
+5 1
+5 11
+6 0
+6 10
+7 8
+7 11
+8 1
+8 3
+9 6
+9 8
+10 4
+10 10
+11 6
+11 7
+
+# solution 475
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4669159B150A0238AB477823
+0 4
+0 6
+1 6
+1 9
+2 1
+2 5
+3 9
+3 11
+4 1
+4 5
+5 0
+5 10
+6 0
+6 2
+7 3
+7 8
+8 10
+8 11
+9 4
+9 7
+10 7
+10 8
+11 2
+11 3
+
+# solution 476
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.38483619052B0B796A125A47
+0 3
+0 8
+1 4
+1 8
+2 3
+2 6
+3 1
+3 9
+4 0
+4 5
+5 2
+5 11
+6 0
+6 11
+7 7
+7 9
+8 6
+8 10
+9 1
+9 2
+10 5
+10 10
+11 4
+11 7
+
+# solution 477
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.386823159B059A0B247A1467
+0 3
+0 8
+1 6
+1 8
+2 2
+2 3
+3 1
+3 5
+4 9
+4 11
+5 0
+5 5
+6 9
+6 10
+7 0
+7 11
+8 2
+8 4
+9 7
+9 10
+10 1
+10 4
+11 6
+11 7
+
+# solution 478
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.487A37139B5B0A0226581946
+0 4
+0 8
+1 7
+1 10
+2 3
+2 7
+3 1
+3 3
+4 9
+4 11
+5 5
+5 11
+6 0
+6 10
+7 0
+7 2
+8 2
+8 6
+9 5
+9 8
+10 1
+10 9
+11 4
+11 6
+
+# solution 479
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.371479350AAB280B19462856
+0 3
+0 7
+1 1
+1 4
+2 7
+2 9
+3 3
+3 5
+4 0
+4 10
+5 10
+5 11
+6 2
+6 8
+7 0
+7 11
+8 1
+8 9
+9 4
+9 6
+10 2
+10 8
+11 5
+11 6
+
+# solution 480
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.56237947AB020A138B581946
+0 5
+0 6
+1 2
+1 3
+2 7
+2 9
+3 4
+3 7
+4 10
+4 11
+5 0
+5 2
+6 0
+6 10
+7 1
+7 3
+8 8
+8 11
+9 5
+9 8
+10 1
+10 9
+11 4
+11 6
+
+# solution 481
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.48193419582B0306AB275A67
+0 4
+0 8
+1 1
+1 9
+2 3
+2 4
+3 1
+3 9
+4 5
+4 8
+5 2
+5 11
+6 0
+6 3
+7 0
+7 6
+8 10
+8 11
+9 2
+9 7
+10 5
+10 10
+11 6
+11 7
+
+# solution 482
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.484616092B5B0923138A7A57
+0 4
+0 8
+1 4
+1 6
+2 1
+2 6
+3 0
+3 9
+4 2
+4 11
+5 5
+5 11
+6 0
+6 9
+7 2
+7 3
+8 1
+8 3
+9 8
+9 10
+10 7
+10 10
+11 5
+11 7
+
+# solution 483
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3628671B01595B8A02349A47
+0 3
+0 6
+1 2
+1 8
+2 6
+2 7
+3 1
+3 11
+4 0
+4 1
+5 5
+5 9
+6 5
+6 11
+7 8
+7 10
+8 0
+8 2
+9 3
+9 4
+10 9
+10 10
+11 4
+11 7
+
+# solution 484
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.672A599B15042A3B08137846
+0 6
+0 7
+1 2
+1 10
+2 5
+2 9
+3 9
+3 11
+4 1
+4 5
+5 0
+5 4
+6 2
+6 10
+7 3
+7 11
+8 0
+8 8
+9 1
+9 3
+10 7
+10 8
+11 4
+11 6
+
+# solution 485
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.365A238B5A08249B01177946
+0 3
+0 6
+1 5
+1 10
+2 2
+2 3
+3 8
+3 11
+4 5
+4 10
+5 0
+5 8
+6 2
+6 4
+7 9
+7 11
+8 0
+8 1
+9 1
+9 7
+10 7
+10 9
+11 4
+11 6
+
+# solution 486
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4649161A9B053B7A07232858
+0 4
+0 6
+1 4
+1 9
+2 1
+2 6
+3 1
+3 10
+4 9
+4 11
+5 0
+5 5
+6 3
+6 11
+7 7
+7 10
+8 0
+8 7
+9 2
+9 3
+10 2
+10 8
+11 5
+11 8
+
+# solution 487
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.464719230B591B036A2A7858
+0 4
+0 6
+1 4
+1 7
+2 1
+2 9
+3 2
+3 3
+4 0
+4 11
+5 5
+5 9
+6 1
+6 11
+7 0
+7 3
+8 6
+8 10
+9 2
+9 10
+10 7
+10 8
+11 5
+11 8
+
+# solution 488
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4628599B1502AB170A373846
+0 4
+0 6
+1 2
+1 8
+2 5
+2 9
+3 9
+3 11
+4 1
+4 5
+5 0
+5 2
+6 10
+6 11
+7 1
+7 7
+8 0
+8 10
+9 3
+9 7
+10 3
+10 8
+11 4
+11 6
+
+# solution 489
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.582629195B8B030A46147A37
+0 5
+0 8
+1 2
+1 6
+2 2
+2 9
+3 1
+3 9
+4 5
+4 11
+5 8
+5 11
+6 0
+6 3
+7 0
+7 10
+8 4
+8 6
+9 1
+9 4
+10 7
+10 10
+11 3
+11 7
+
+# solution 490
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3659891415028B7B0A372A46
+0 3
+0 6
+1 5
+1 9
+2 8
+2 9
+3 1
+3 4
+4 1
+4 5
+5 0
+5 2
+6 8
+6 11
+7 7
+7 11
+8 0
+8 10
+9 3
+9 7
+10 2
+10 10
+11 4
+11 6
+
+# solution 491
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.682A599B1504023B8A173746
+0 6
+0 8
+1 2
+1 10
+2 5
+2 9
+3 9
+3 11
+4 1
+4 5
+5 0
+5 4
+6 0
+6 2
+7 3
+7 11
+8 8
+8 10
+9 1
+9 7
+10 3
+10 7
+11 4
+11 6
+
+# solution 492
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.682A159B15040239AB377846
+0 6
+0 8
+1 2
+1 10
+2 1
+2 5
+3 9
+3 11
+4 1
+4 5
+5 0
+5 4
+6 0
+6 2
+7 3
+7 9
+8 10
+8 11
+9 3
+9 7
+10 7
+10 8
+11 4
+11 6
+
+# solution 493
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.671A4A065B03283B89127945
+0 6
+0 7
+1 1
+1 10
+2 4
+2 10
+3 0
+3 6
+4 5
+4 11
+5 0
+5 3
+6 2
+6 8
+7 3
+7 11
+8 8
+8 9
+9 1
+9 2
+10 7
+10 9
+11 4
+11 5
+
+# solution 494
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.584A169B025B01397A237846
+0 5
+0 8
+1 4
+1 10
+2 1
+2 6
+3 9
+3 11
+4 0
+4 2
+5 5
+5 11
+6 0
+6 1
+7 3
+7 9
+8 7
+8 10
+9 2
+9 3
+10 7
+10 8
+11 4
+11 6
+
+# solution 495
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.482A569B015B01397A237846
+0 4
+0 8
+1 2
+1 10
+2 5
+2 6
+3 9
+3 11
+4 0
+4 1
+5 5
+5 11
+6 0
+6 1
+7 3
+7 9
+8 7
+8 10
+9 2
+9 3
+10 7
+10 8
+11 4
+11 6
+
+# solution 496
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4629159B154A02370B378A68
+0 4
+0 6
+1 2
+1 9
+2 1
+2 5
+3 9
+3 11
+4 1
+4 5
+5 4
+5 10
+6 0
+6 2
+7 3
+7 7
+8 0
+8 11
+9 3
+9 7
+10 8
+10 10
+11 6
+11 8
+
+# solution 497
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.367A572B0359041B19248A68
+0 3
+0 6
+1 7
+1 10
+2 5
+2 7
+3 2
+3 11
+4 0
+4 3
+5 5
+5 9
+6 0
+6 4
+7 1
+7 11
+8 1
+8 9
+9 2
+9 4
+10 8
+10 10
+11 6
+11 8
+
+# solution 498
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.67391605AB02AB2814893457
+0 6
+0 7
+1 3
+1 9
+2 1
+2 6
+3 0
+3 5
+4 10
+4 11
+5 0
+5 2
+6 10
+6 11
+7 2
+7 8
+8 1
+8 4
+9 8
+9 9
+10 3
+10 4
+11 5
+11 7
+
+# solution 499
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5639295A24081B081B6A4737
+0 5
+0 6
+1 3
+1 9
+2 2
+2 9
+3 5
+3 10
+4 2
+4 4
+5 0
+5 8
+6 1
+6 11
+7 0
+7 8
+8 1
+8 11
+9 6
+9 10
+10 4
+10 7
+11 3
+11 7
+
+# solution 500
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.46381857130A9B029B2A4657
+0 4
+0 6
+1 3
+1 8
+2 1
+2 8
+3 5
+3 7
+4 1
+4 3
+5 0
+5 10
+6 9
+6 11
+7 0
+7 2
+8 9
+8 11
+9 2
+9 10
+10 4
+10 6
+11 5
+11 7
+
+# solution 501
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.37247928451B0A3B0A165968
+0 3
+0 7
+1 2
+1 4
+2 7
+2 9
+3 2
+3 8
+4 4
+4 5
+5 1
+5 11
+6 0
+6 10
+7 3
+7 11
+8 0
+8 10
+9 1
+9 6
+10 5
+10 9
+11 6
+11 8
+
+# solution 502
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3634182A9B590B47012A6857
+0 3
+0 6
+1 3
+1 4
+2 1
+2 8
+3 2
+3 10
+4 9
+4 11
+5 5
+5 9
+6 0
+6 11
+7 4
+7 7
+8 0
+8 1
+9 2
+9 10
+10 6
+10 8
+11 5
+11 7
+
+# solution 503
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.67251A6805091B39AB234748
+0 6
+0 7
+1 2
+1 5
+2 1
+2 10
+3 6
+3 8
+4 0
+4 5
+5 0
+5 9
+6 1
+6 11
+7 3
+7 9
+8 10
+8 11
+9 2
+9 3
+10 4
+10 7
+11 4
+11 8
+
+# solution 504
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4624599B050A2B171A373868
+0 4
+0 6
+1 2
+1 4
+2 5
+2 9
+3 9
+3 11
+4 0
+4 5
+5 0
+5 10
+6 2
+6 11
+7 1
+7 7
+8 1
+8 10
+9 3
+9 7
+10 3
+10 8
+11 6
+11 8
+
+# solution 505
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.56239A095602AB131B784847
+0 5
+0 6
+1 2
+1 3
+2 9
+2 10
+3 0
+3 9
+4 5
+4 6
+5 0
+5 2
+6 10
+6 11
+7 1
+7 3
+8 1
+8 11
+9 7
+9 8
+10 4
+10 8
+11 4
+11 7
+
+# solution 506
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.57247913049B082B5A1A3668
+0 5
+0 7
+1 2
+1 4
+2 7
+2 9
+3 1
+3 3
+4 0
+4 4
+5 9
+5 11
+6 0
+6 8
+7 2
+7 11
+8 5
+8 10
+9 1
+9 10
+10 3
+10 6
+11 6
+11 8
+
+# solution 507
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.572947124B9B03016A8A3568
+0 5
+0 7
+1 2
+1 9
+2 4
+2 7
+3 1
+3 2
+4 4
+4 11
+5 9
+5 11
+6 0
+6 3
+7 0
+7 1
+8 6
+8 10
+9 8
+9 10
+10 3
+10 5
+11 6
+11 8
+
+# solution 508
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5724279B041B0A185A683936
+0 5
+0 7
+1 2
+1 4
+2 2
+2 7
+3 9
+3 11
+4 0
+4 4
+5 1
+5 11
+6 0
+6 10
+7 1
+7 8
+8 5
+8 10
+9 6
+9 8
+10 3
+10 9
+11 3
+11 6
+
+# solution 509
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5758129B340B9A4A02163867
+0 5
+0 7
+1 5
+1 8
+2 1
+2 2
+3 9
+3 11
+4 3
+4 4
+5 0
+5 11
+6 9
+6 10
+7 4
+7 10
+8 0
+8 2
+9 1
+9 6
+10 3
+10 8
+11 6
+11 7
+
+# solution 510
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.68146A9A0B250B2413783957
+0 6
+0 8
+1 1
+1 4
+2 6
+2 10
+3 9
+3 10
+4 0
+4 11
+5 2
+5 5
+6 0
+6 11
+7 2
+7 4
+8 1
+8 3
+9 7
+9 8
+10 3
+10 9
+11 5
+11 7
+
+# solution 511
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3749278B05032A5B9A161468
+0 3
+0 7
+1 4
+1 9
+2 2
+2 7
+3 8
+3 11
+4 0
+4 5
+5 0
+5 3
+6 2
+6 10
+7 5
+7 11
+8 9
+8 10
+9 1
+9 6
+10 1
+10 4
+11 6
+11 8
+
+# solution 512
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3658390B195B48024A7A1267
+0 3
+0 6
+1 5
+1 8
+2 3
+2 9
+3 0
+3 11
+4 1
+4 9
+5 5
+5 11
+6 4
+6 8
+7 0
+7 2
+8 4
+8 10
+9 7
+9 10
+10 1
+10 2
+11 6
+11 7
+
+# solution 513
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.477A380B0B1539691A242856
+0 4
+0 7
+1 7
+1 10
+2 3
+2 8
+3 0
+3 11
+4 0
+4 11
+5 1
+5 5
+6 3
+6 9
+7 6
+7 9
+8 1
+8 10
+9 2
+9 4
+10 2
+10 8
+11 5
+11 6
+
+# solution 514
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.563A670A0528129B7B891434
+0 5
+0 6
+1 3
+1 10
+2 6
+2 7
+3 0
+3 10
+4 0
+4 5
+5 2
+5 8
+6 1
+6 2
+7 9
+7 11
+8 7
+8 11
+9 8
+9 9
+10 1
+10 4
+11 3
+11 4
+
+# solution 515
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4668190915052B37AB7A2834
+0 4
+0 6
+1 6
+1 8
+2 1
+2 9
+3 0
+3 9
+4 1
+4 5
+5 0
+5 5
+6 2
+6 11
+7 3
+7 7
+8 10
+8 11
+9 7
+9 10
+10 2
+10 8
+11 3
+11 4
+
+# solution 516
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.3424899B250A0B175A173668
+0 3
+0 4
+1 2
+1 4
+2 8
+2 9
+3 9
+3 11
+4 2
+4 5
+5 0
+5 10
+6 0
+6 11
+7 1
+7 7
+8 5
+8 10
+9 1
+9 7
+10 3
+10 6
+11 6
+11 8
+
+# solution 517
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.5726249B4B090A13578A1368
+0 5
+0 7
+1 2
+1 6
+2 2
+2 4
+3 9
+3 11
+4 4
+4 11
+5 0
+5 9
+6 0
+6 10
+7 1
+7 3
+8 5
+8 7
+9 8
+9 10
+10 1
+10 3
+11 6
+11 8
+
+# solution 518
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6729572A01590BAB18346834
+0 6
+0 7
+1 2
+1 9
+2 5
+2 7
+3 2
+3 10
+4 0
+4 1
+5 5
+5 9
+6 0
+6 11
+7 10
+7 11
+8 1
+8 8
+9 3
+9 4
+10 6
+10 8
+11 3
+11 4
+
+# solution 519
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6839572A1B5901AB08246734
+0 6
+0 8
+1 3
+1 9
+2 5
+2 7
+3 2
+3 10
+4 1
+4 11
+5 5
+5 9
+6 0
+6 1
+7 10
+7 11
+8 0
+8 8
+9 2
+9 4
+10 6
+10 7
+11 3
+11 4
+
+# solution 520
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.683A159A01590B2B78246734
+0 6
+0 8
+1 3
+1 10
+2 1
+2 5
+3 9
+3 10
+4 0
+4 1
+5 5
+5 9
+6 0
+6 11
+7 2
+7 11
+8 7
+8 8
+9 2
+9 4
+10 6
+10 7
+11 3
+11 4
+
+# solution 521
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.4689139B1B25050A8A472367
+0 4
+0 6
+1 8
+1 9
+2 1
+2 3
+3 9
+3 11
+4 1
+4 11
+5 2
+5 5
+6 0
+6 5
+7 0
+7 10
+8 8
+8 10
+9 4
+9 7
+10 2
+10 3
+11 6
+11 7
+
+# solution 522
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.6739152A015A0B9B68247834
+0 6
+0 7
+1 3
+1 9
+2 1
+2 5
+3 2
+3 10
+4 0
+4 1
+5 5
+5 10
+6 0
+6 11
+7 9
+7 11
+8 6
+8 8
+9 2
+9 4
+10 7
+10 8
+11 3
+11 4
+
+# solution 523
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.672A15AB568B024901397834
+0 6
+0 7
+1 2
+1 10
+2 1
+2 5
+3 10
+3 11
+4 5
+4 6
+5 8
+5 11
+6 0
+6 2
+7 4
+7 9
+8 0
+8 1
+9 3
+9 9
+10 7
+10 8
+11 3
+11 4
+
+# solution 524
+# n=12 sym=iden status=verified source=flammenkamp_cache/n12_iden
+# code=.451634195B8B09032A782A67
+0 4
+0 5
+1 1
+1 6
+2 3
+2 4
+3 1
+3 9
+4 5
+4 11
+5 8
+5 11
+6 0
+6 9
+7 0
+7 3
+8 2
+8 10
+9 7
+9 8
+10 2
+10 10
+11 6
+11 7
+

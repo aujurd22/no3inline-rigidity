@@ -1,0 +1,90 @@
+{
+  "component_count": 1,
+  "run_lengths": [
+    6,
+    6
+  ],
+  "distinct_shape_masks": 444,
+  "defect_hitting_masks": 22,
+  "factor_feasible_masks": 0,
+  "all_factor_infeasible": true,
+  "total_factor_search_nodes": 22,
+  "maximum_factor_search_nodes": 1,
+  "root_zero_option_by_deficit": {
+    "1": 7,
+    "2": 15
+  },
+  "search_node_histogram": {
+    "1": 22
+  },
+  "sample_hitting_masks": [
+    8809719811,
+    9470217264,
+    9470224432,
+    9470240800,
+    10007088176,
+    10007095344,
+    15101470723,
+    15235426307,
+    25989588993,
+    26912335920
+  ],
+  "first_feasible_mask": 0,
+  "first_feasible_cells": [],
+  "base": "v40_01",
+  "cycle_edge_orders": [
+    [
+      0,
+      27,
+      24,
+      15,
+      16,
+      34,
+      30,
+      4,
+      5,
+      22,
+      21,
+      28,
+      29,
+      14,
+      10,
+      11,
+      26,
+      19,
+      20,
+      33,
+      13,
+      12,
+      3,
+      2,
+      25,
+      35,
+      23,
+      8,
+      9,
+      6,
+      7,
+      36,
+      18,
+      17,
+      31,
+      32,
+      1
+    ]
+  ],
+  "first_feasible_removed_indices": [],
+  "method": {
+    "deletion_run_lengths": [
+      6,
+      6
+    ],
+    "normalization": "all exact old-orientation reselections forbidden",
+    "multigraph": "both (u,v) and (v,u) allowed simultaneously",
+    "geometry": "candidate cells filtered by exact retained-base blocker masks",
+    "factor": "exact deficit-0/1/2 f-factor DFS; loops consume 2 and opposite orientations may form a digon",
+    "line_capacities": "none (q=0 shadow factor)"
+  },
+  "stderr_progress_tail": [],
+  "elapsed_s": 0.575
+}

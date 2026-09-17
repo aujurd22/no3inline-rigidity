@@ -1,0 +1,42 @@
+[
+  {
+    "id": "v40_01",
+    "archived_value": 40,
+    "geo_truth_stored": 40,
+    "weighted_stored": 40,
+    "cpsat_status": "OPTIMAL",
+    "cpsat_optimal_value": 40,
+    "cpsat_optimal_geo": 40,
+    "model_consistent": true
+  },
+  {
+    "id": "v40_02",
+    "archived_value": 40,
+    "geo_truth_stored": 40,
+    "weighted_stored": 40,
+    "cpsat_status": "OPTIMAL",
+    "cpsat_optimal_value": 40,
+    "cpsat_optimal_geo": 40,
+    "model_consistent": true
+  },
+  {
+    "id": "v40_03",
+    "archived_value": 40,
+    "geo_truth_stored": 40,
+    "weighted_stored": 40,
+    "cpsat_status": "OPTIMAL",
+    "cpsat_optimal_value": 40,
+    "cpsat_optimal_geo": 40,
+    "model_consistent": true
+  },
+  {
+    "id": "v40_04",
+    "archived_value": 40,
+    "geo_truth_stored": 40,
+    "weighted_stored": 40,
+    "cpsat_status": "OPTIMAL",
+    "cpsat_optimal_value": 40,
+    "cpsat_optimal_geo": 40,
+    "model_consistent": true
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "k": 12,
+  "A": 1,
+  "run_count": 11,
+  "profile_count_per_base": 1,
+  "bases": [
+    "v40_03"
+  ],
+  "records": [
+    {
+      "base": "v40_03",
+      "profile": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "B": 0,
+      "C": 0,
+      "distinct_shape_masks": 72566472,
+      "defect_hitting_masks": 1963414,
+      "q0_factor_feasible_masks": 23,
+      "first_feasible_removed_indices": [
+        3,
+        6,
+        8,
+        11,
+        12,
+        15,
+        19,
+        23,
+        25,
+        28,
+        33,
+        36
+      ],
+      "maximum_factor_search_nodes": 18,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a1_b0_c0_r2-1-1-1-1-1-1-1-1-1-1_q0.json"
+    }
+  ],
+  "totals": {
+    "base_profile_cases": 1,
+    "distinct_shape_masks": 72566472,
+    "defect_hitting_masks": 1963414,
+    "q0_factor_feasible_masks": 23
+  },
+  "elapsed_s": 40.816
+}

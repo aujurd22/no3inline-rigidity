@@ -1,0 +1,80 @@
+# solution 1
+# n=8 sym=rot4 status=verified source=flammenkamp_cache/n8_rot4
+# code=o2423670617014535
+0 2
+0 4
+1 2
+1 3
+2 6
+2 7
+3 0
+3 6
+4 1
+4 7
+5 0
+5 1
+6 4
+6 5
+7 3
+7 5
+
+# solution 2
+# n=8 sym=rot4 status=verified source=flammenkamp_cache/n8_rot4
+# code=o2435170617062435
+0 2
+0 4
+1 3
+1 5
+2 1
+2 7
+3 0
+3 6
+4 1
+4 7
+5 0
+5 6
+6 2
+6 4
+7 3
+7 5
+
+# solution 3
+# n=8 sym=rot4 status=verified source=flammenkamp_cache/n8_rot4
+# code=o3523066701174524
+0 3
+0 5
+1 2
+1 3
+2 0
+2 6
+3 6
+3 7
+4 0
+4 1
+5 1
+5 7
+6 4
+6 5
+7 2
+7 4
+
+# solution 4
+# n=8 sym=rot4 status=verified source=flammenkamp_cache/n8_rot4
+# code=o2323676701014545
+0 2
+0 3
+1 2
+1 3
+2 6
+2 7
+3 6
+3 7
+4 0
+4 1
+5 0
+5 1
+6 4
+6 5
+7 4
+7 5
+

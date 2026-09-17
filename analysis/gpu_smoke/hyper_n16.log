@@ -1,0 +1,4 @@
+build_hypergraph: n=16  M=128 orbits
+  total orbit-triples: 341376 (3.4e+05)
+  launching 128 blocks x 256 threads...
+  forbidden triples: 27988  (8.199%)  gpu_time=0.000s

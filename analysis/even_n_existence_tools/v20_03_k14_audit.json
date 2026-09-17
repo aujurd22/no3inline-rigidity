@@ -1,0 +1,29 @@
+{
+  "base": "v20_03",
+  "k": 14,
+  "gpu": "v20_03_k14_gpu.json",
+  "method": "chunked exact deficit-0/1/2 f-factor DFS (mode 3) over CUDA root-option survivors; q=0..q=max_q short-direction line capacities",
+  "per_q": {
+    "0": {
+      "factor_feasible_masks": 2997205,
+      "collected_feasible": 2997205,
+      "max_factor_search_nodes": 663
+    },
+    "1": {
+      "factor_feasible_masks": 40162,
+      "collected_feasible": 40162,
+      "max_factor_search_nodes": 254
+    },
+    "2": {
+      "factor_feasible_masks": 532,
+      "collected_feasible": 532,
+      "max_factor_search_nodes": 131
+    },
+    "3": {
+      "factor_feasible_masks": 6,
+      "collected_feasible": 6,
+      "max_factor_search_nodes": 49
+    }
+  },
+  "elapsed_s": 392.07
+}

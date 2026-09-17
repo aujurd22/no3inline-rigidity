@@ -1,0 +1,164 @@
+[
+  {
+    "p": 19,
+    "n": 18,
+    "multiplier": 1,
+    "status": "INFEASIBLE",
+    "candidate_cells": 306,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 88,
+      "lines_with_at_least_three_grid_points": 4398,
+      "line_enumeration_seconds": 0.006544600008055568
+    },
+    "constrained_lines": 4398,
+    "fixed_secant_lines": 91,
+    "build_seconds": 0.05094230000395328,
+    "solve_seconds": 0.018496000000000002,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 19,
+    "n": 18,
+    "multiplier": 2,
+    "status": "INFEASIBLE",
+    "candidate_cells": 306,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 88,
+      "lines_with_at_least_three_grid_points": 4398,
+      "line_enumeration_seconds": 0.006611099990550429
+    },
+    "constrained_lines": 4398,
+    "fixed_secant_lines": 101,
+    "build_seconds": 0.04412959999172017,
+    "solve_seconds": 0.012977200000000001,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 19,
+    "n": 18,
+    "multiplier": 3,
+    "status": "INFEASIBLE",
+    "candidate_cells": 306,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 88,
+      "lines_with_at_least_three_grid_points": 4398,
+      "line_enumeration_seconds": 0.0050740999868139625
+    },
+    "constrained_lines": 4398,
+    "fixed_secant_lines": 99,
+    "build_seconds": 0.05318320001242682,
+    "solve_seconds": 0.011081500000000001,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 19,
+    "n": 18,
+    "multiplier": 4,
+    "status": "INFEASIBLE",
+    "candidate_cells": 306,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 88,
+      "lines_with_at_least_three_grid_points": 4398,
+      "line_enumeration_seconds": 0.005215100012719631
+    },
+    "constrained_lines": 4398,
+    "fixed_secant_lines": 95,
+    "build_seconds": 0.04887420003069565,
+    "solve_seconds": 0.0118703,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 19,
+    "n": 18,
+    "multiplier": 5,
+    "status": "INFEASIBLE",
+    "candidate_cells": 306,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 88,
+      "lines_with_at_least_three_grid_points": 4398,
+      "line_enumeration_seconds": 0.004222699964884669
+    },
+    "constrained_lines": 4398,
+    "fixed_secant_lines": 103,
+    "build_seconds": 0.05075799999758601,
+    "solve_seconds": 0.0180036,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 19,
+    "n": 18,
+    "multiplier": 6,
+    "status": "INFEASIBLE",
+    "candidate_cells": 306,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 88,
+      "lines_with_at_least_three_grid_points": 4398,
+      "line_enumeration_seconds": 0.00582419999409467
+    },
+    "constrained_lines": 4398,
+    "fixed_secant_lines": 95,
+    "build_seconds": 0.0432330000330694,
+    "solve_seconds": 0.0136761,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 19,
+    "n": 18,
+    "multiplier": 7,
+    "status": "INFEASIBLE",
+    "candidate_cells": 306,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 88,
+      "lines_with_at_least_three_grid_points": 4398,
+      "line_enumeration_seconds": 0.00607010000385344
+    },
+    "constrained_lines": 4398,
+    "fixed_secant_lines": 101,
+    "build_seconds": 0.046681799984071404,
+    "solve_seconds": 0.015267800000000002,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 19,
+    "n": 18,
+    "multiplier": 8,
+    "status": "INFEASIBLE",
+    "candidate_cells": 306,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 88,
+      "lines_with_at_least_three_grid_points": 4398,
+      "line_enumeration_seconds": 0.0053114999900572
+    },
+    "constrained_lines": 4398,
+    "fixed_secant_lines": 81,
+    "build_seconds": 0.07702030002838,
+    "solve_seconds": 0.013463000000000001,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 19,
+    "n": 18,
+    "multiplier": 9,
+    "status": "INFEASIBLE",
+    "candidate_cells": 306,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 88,
+      "lines_with_at_least_three_grid_points": 4398,
+      "line_enumeration_seconds": 0.007001399993896484
+    },
+    "constrained_lines": 4398,
+    "fixed_secant_lines": 83,
+    "build_seconds": 0.0506240000249818,
+    "solve_seconds": 0.014759500000000002,
+    "conflicts": 0,
+    "branches": 0
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "component_count": 3,
+  "enumeration_mode": "explicit_masks",
+  "target_selected": 11,
+  "explicit_mask_count": 569,
+  "distinct_shape_masks": 569,
+  "defect_hitting_masks": 569,
+  "factor_feasible_masks": 17,
+  "all_factor_infeasible": false,
+  "total_factor_search_nodes": 2301,
+  "maximum_factor_search_nodes": 12,
+  "root_zero_option_by_deficit": {
+    "1": 0,
+    "2": 0
+  },
+  "search_node_histogram": {
+    "2": 160,
+    "3": 133,
+    "4": 100,
+    "5": 64,
+    "6": 36,
+    "7+": 76
+  },
+  "sample_hitting_masks": [
+    21764453,
+    21824854,
+    21824870,
+    21824918,
+    21825380,
+    26022246,
+    84492774,
+    84742502,
+    88670694,
+    88671653
+  ],
+  "feasible_masks": [
+    88670694,
+    1092142914,
+    17205788900,
+    17336041920,
+    19345113316,
+    19349307588,
+    19533856848,
+    34582643088,
+    36545376517,
+    36545377540,
+    36553765124,
+    38877725056,
+    40840356100,
+    67318579329,
+    105248260452,
+    113968234760,
+    114069409792
+  ],
+  "first_feasible_mask": 88670694,
+  "first_feasible_cells": [
+    [
+      3,
+      28
+    ],
+    [
+      3,
+      31
+    ],
+    [
+      20,
+      1
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      16,
+      4
+    ],
+    [
+      33,
+      9
+    ],
+    [
+      34,
+      13
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      15,
+      2
+    ],
+    [
+      10,
+      26
+    ],
+    [
+      0,
+      30
+    ]
+  ],
+  "base": "v20_03",
+  "gpu_certificate": "v20_gpu_root_prefilter_v20_03_k11.json",
+  "gpu_root_nonzero_by_adjacency": [
+    51,
+    168,
+    209,
+    106,
+    27,
+    8,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "method": "CUDA exhaustive fixed-weight mask scan and exact root-option filter, followed by C++ exact deficit f-factor DFS",
+  "elapsed_s": 0.666
+}

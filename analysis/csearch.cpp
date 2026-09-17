@@ -206,7 +206,7 @@ void init_random() {
     vector<int> type(m, 1);
     int conversions = (int)(0.35 * m);
     for (int t = 0; t < conversions; t++) {
-        int a = rng() % m, b = rng() % m;
+        int a = rng() % m, b = (a + 1 + rng() % (m - 1)) % m;  // ensure distinct
         if (type[a] == 1 && type[b] == 1) { type[a] = 2; type[b] = 0; }
     }
     vector<int> X, Y;

@@ -1,0 +1,2 @@
+[start] m=10 n=20 threads=8 hours=0.020 WX_def=2 WS=1 moves/restart=1000000 T0=3.000 Tend=0.0050
+[DONE] no solution in 78.3s; best_bad=12 (badX=12 badS=0) ckpt=m10_val2_ckpt.txt

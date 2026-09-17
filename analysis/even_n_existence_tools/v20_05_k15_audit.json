@@ -1,0 +1,31 @@
+{
+  "base": "v20_05",
+  "k": 15,
+  "gpu": "v20_05_k15_superset_gpu.json",
+  "method": "chunked exact deficit-0/1/2 f-factor DFS (mode 3) over CUDA root-option survivors; q=0..q=max_q short-direction line capacities",
+  "per_q": {
+    "0": {
+      "factor_feasible_masks": 39,
+      "collected_feasible": 39,
+      "max_factor_search_nodes": 47
+    },
+    "1": {
+      "factor_feasible_masks": 13,
+      "collected_feasible": 13,
+      "max_factor_search_nodes": 94
+    },
+    "2": {
+      "factor_feasible_masks": 5,
+      "collected_feasible": 5,
+      "max_factor_search_nodes": 43
+    },
+    "3": {
+      "factor_feasible_masks": 3,
+      "collected_feasible": 3,
+      "max_factor_search_nodes": 19
+    }
+  },
+  "elapsed_s": 0.24,
+  "final_survivors_file": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\even_n_existence_tools\\v20_05_k15_survivors.txt",
+  "final_survivors_count": 3
+}

@@ -1,0 +1,8 @@
+{"start": true, "m": 14, "n": 28, "initial_constraints": 184, "model_statistics": {"primitive_directions_with_possible_three_point_lines": 232, "lines_with_at_least_three_grid_points": 25954, "line_enumeration_seconds": 0.035325100005138665, "distinct_c4_line_signatures": 6498, "coefficient_histogram": {"1": 24587, "2": 136}}}
+{"iteration": 0, "status": "OPTIMAL", "violated_line_signatures": 1, "total_excess": 1, "new_constraints": 1, "constraints": 184, "best_violations": 1, "elapsed_seconds": 0.025211400003172457}
+{"iteration": 1, "status": "OPTIMAL", "violated_line_signatures": 6, "total_excess": 6, "new_constraints": 6, "constraints": 185, "best_violations": 1, "elapsed_seconds": 0.05070820002583787}
+{"iteration": 2, "status": "OPTIMAL", "violated_line_signatures": 12, "total_excess": 13, "new_constraints": 12, "constraints": 191, "best_violations": 1, "elapsed_seconds": 0.08329610002692789}
+{"iteration": 3, "status": "OPTIMAL", "violated_line_signatures": 9, "total_excess": 9, "new_constraints": 9, "constraints": 203, "best_violations": 1, "elapsed_seconds": 0.11367799999425188}
+{"iteration": 4, "status": "OPTIMAL", "violated_line_signatures": 13, "total_excess": 15, "new_constraints": 13, "constraints": 212, "best_violations": 1, "elapsed_seconds": 0.1448946000309661}
+{"iteration": 5, "status": "OPTIMAL", "violated_line_signatures": 14, "total_excess": 14, "new_constraints": 14, "constraints": 225, "best_violations": 1, "elapsed_seconds": 0.17539119999855757}
+{"iteration": 6, "status": "OPTIMAL", "violated_line_signatures": 10, "total_excess": 11, "new_constraints": 10, "constraints": 239, "best_violations": 1, "elapsed_seconds": 0.20865069999126717}

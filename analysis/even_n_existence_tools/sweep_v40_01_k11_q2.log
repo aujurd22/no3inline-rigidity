@@ -1,0 +1,12 @@
+v40_01: precomputing blockers
+  pass=1 unresolved=[5, 6] shared_lines=0
+    adjacency=5 starting with 0 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=284 best_bad=None
+    adjacency=6 starting with 284 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=284 best_bad=None
+  pass=2 unresolved=[5, 6] shared_lines=284
+    adjacency=5 starting with 284 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=284 best_bad=None
+    adjacency=6 starting with 284 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=284 best_bad=None
+C:\Users\djr82\Documents\Codex\2026-07-13\d-djr82-documents-workbuddy-2026-07-2\work\even_n_existence\rot4_adjacency_cut_sweep_v40_01_q2.json

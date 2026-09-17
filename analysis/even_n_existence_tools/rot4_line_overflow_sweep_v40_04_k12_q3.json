@@ -1,0 +1,83 @@
+{
+  "parameters": {
+    "base": "v40_04",
+    "adjacencies": "3,4",
+    "size": 12,
+    "q_max": 3,
+    "time_limit": 600.0,
+    "workers": 4,
+    "out": "rot4_line_overflow_sweep_v40_04_k12_q3.json"
+  },
+  "started_at": "2026-07-19 18:32:22",
+  "layers": [
+    {
+      "adjacency_count": 3,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 1.736,
+          "classification": "SURVIVES",
+          "evidence": "rot4_line_overflow_v40_04_k12_a3_q1.json"
+        },
+        {
+          "q": 2,
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 226.769,
+          "classification": "SURVIVES",
+          "evidence": "rot4_line_overflow_v40_04_k12_a3_q2.json"
+        },
+        {
+          "q": 3,
+          "status": "FEASIBLE",
+          "objective": 4,
+          "best_bound": 0.0,
+          "wall_s": 600.082,
+          "classification": "UNRESOLVED",
+          "evidence": "rot4_line_overflow_v40_04_k12_a3_q3.json"
+        }
+      ],
+      "classification": "UNRESOLVED",
+      "closing_q": null
+    },
+    {
+      "adjacency_count": 4,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 2.028,
+          "classification": "SURVIVES",
+          "evidence": "rot4_line_overflow_v40_04_k12_a4_q1.json"
+        },
+        {
+          "q": 2,
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 462.291,
+          "classification": "SURVIVES",
+          "evidence": "rot4_line_overflow_v40_04_k12_a4_q2.json"
+        },
+        {
+          "q": 3,
+          "status": "UNKNOWN",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 600.069,
+          "classification": "UNRESOLVED",
+          "evidence": "rot4_line_overflow_v40_04_k12_a4_q3.json"
+        }
+      ],
+      "classification": "UNRESOLVED",
+      "closing_q": null
+    }
+  ],
+  "finished_at": "2026-07-19 18:52:28"
+}

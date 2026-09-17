@@ -1,0 +1,557 @@
+{"start": true, "m": 37, "n": 74, "initial_constraints": 1487, "model_statistics": {"primitive_directions_with_possible_three_point_lines": 1584, "lines_with_at_least_three_grid_points": 1264378, "line_enumeration_seconds": 1.5509288999601267, "distinct_c4_line_signatures": 316153, "coefficient_histogram": {"1": 1201050, "2": 866}}}
+{"iteration": 0, "status": "OPTIMAL", "violated_line_signatures": 52, "total_excess": 56, "new_constraints": 52, "constraints": 1487, "best_violations": 52, "elapsed_seconds": 0.2865989000420086}
+{"iteration": 1, "status": "OPTIMAL", "violated_line_signatures": 57, "total_excess": 59, "new_constraints": 57, "constraints": 1539, "best_violations": 52, "elapsed_seconds": 0.5596001000376418}
+{"iteration": 2, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 42, "new_constraints": 38, "constraints": 1596, "best_violations": 38, "elapsed_seconds": 0.8736995000508614}
+{"iteration": 3, "status": "OPTIMAL", "violated_line_signatures": 55, "total_excess": 57, "new_constraints": 55, "constraints": 1634, "best_violations": 38, "elapsed_seconds": 1.2329616000060923}
+{"iteration": 4, "status": "OPTIMAL", "violated_line_signatures": 53, "total_excess": 55, "new_constraints": 53, "constraints": 1689, "best_violations": 38, "elapsed_seconds": 1.5458564000437036}
+{"iteration": 5, "status": "OPTIMAL", "violated_line_signatures": 58, "total_excess": 60, "new_constraints": 58, "constraints": 1742, "best_violations": 38, "elapsed_seconds": 1.8221450000419281}
+{"iteration": 6, "status": "OPTIMAL", "violated_line_signatures": 53, "total_excess": 54, "new_constraints": 53, "constraints": 1800, "best_violations": 38, "elapsed_seconds": 2.1015565000125207}
+{"iteration": 7, "status": "OPTIMAL", "violated_line_signatures": 43, "total_excess": 47, "new_constraints": 43, "constraints": 1853, "best_violations": 38, "elapsed_seconds": 2.477731999999378}
+{"iteration": 8, "status": "OPTIMAL", "violated_line_signatures": 43, "total_excess": 45, "new_constraints": 43, "constraints": 1896, "best_violations": 38, "elapsed_seconds": 2.8866797000519}
+{"iteration": 9, "status": "OPTIMAL", "violated_line_signatures": 50, "total_excess": 54, "new_constraints": 50, "constraints": 1939, "best_violations": 38, "elapsed_seconds": 3.255616500042379}
+{"iteration": 10, "status": "OPTIMAL", "violated_line_signatures": 49, "total_excess": 53, "new_constraints": 49, "constraints": 1989, "best_violations": 38, "elapsed_seconds": 3.6043706000200473}
+{"iteration": 11, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 40, "new_constraints": 40, "constraints": 2038, "best_violations": 38, "elapsed_seconds": 3.9160531000234187}
+{"iteration": 12, "status": "OPTIMAL", "violated_line_signatures": 60, "total_excess": 61, "new_constraints": 60, "constraints": 2078, "best_violations": 38, "elapsed_seconds": 4.2431758000166155}
+{"iteration": 13, "status": "OPTIMAL", "violated_line_signatures": 54, "total_excess": 58, "new_constraints": 54, "constraints": 2138, "best_violations": 38, "elapsed_seconds": 4.563084000023082}
+{"iteration": 14, "status": "OPTIMAL", "violated_line_signatures": 45, "total_excess": 48, "new_constraints": 45, "constraints": 2192, "best_violations": 38, "elapsed_seconds": 4.861353200045414}
+{"iteration": 15, "status": "OPTIMAL", "violated_line_signatures": 49, "total_excess": 57, "new_constraints": 49, "constraints": 2237, "best_violations": 38, "elapsed_seconds": 5.176070800051093}
+{"iteration": 16, "status": "OPTIMAL", "violated_line_signatures": 50, "total_excess": 51, "new_constraints": 50, "constraints": 2286, "best_violations": 38, "elapsed_seconds": 5.490492400014773}
+{"iteration": 17, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 41, "new_constraints": 40, "constraints": 2336, "best_violations": 38, "elapsed_seconds": 5.827153799997177}
+{"iteration": 18, "status": "OPTIMAL", "violated_line_signatures": 49, "total_excess": 52, "new_constraints": 49, "constraints": 2376, "best_violations": 38, "elapsed_seconds": 6.277895000006538}
+{"iteration": 19, "status": "OPTIMAL", "violated_line_signatures": 56, "total_excess": 58, "new_constraints": 56, "constraints": 2425, "best_violations": 38, "elapsed_seconds": 6.610609200026374}
+{"iteration": 20, "status": "OPTIMAL", "violated_line_signatures": 50, "total_excess": 54, "new_constraints": 50, "constraints": 2481, "best_violations": 38, "elapsed_seconds": 6.958761300018523}
+{"iteration": 21, "status": "OPTIMAL", "violated_line_signatures": 50, "total_excess": 53, "new_constraints": 50, "constraints": 2531, "best_violations": 38, "elapsed_seconds": 7.761265800043475}
+{"iteration": 22, "status": "OPTIMAL", "violated_line_signatures": 46, "total_excess": 50, "new_constraints": 46, "constraints": 2581, "best_violations": 38, "elapsed_seconds": 8.358090299996547}
+{"iteration": 23, "status": "OPTIMAL", "violated_line_signatures": 49, "total_excess": 52, "new_constraints": 49, "constraints": 2627, "best_violations": 38, "elapsed_seconds": 8.702638000017032}
+{"iteration": 24, "status": "OPTIMAL", "violated_line_signatures": 51, "total_excess": 52, "new_constraints": 51, "constraints": 2676, "best_violations": 38, "elapsed_seconds": 9.26994820003165}
+{"iteration": 25, "status": "OPTIMAL", "violated_line_signatures": 53, "total_excess": 57, "new_constraints": 53, "constraints": 2727, "best_violations": 38, "elapsed_seconds": 9.717740299995057}
+{"iteration": 26, "status": "OPTIMAL", "violated_line_signatures": 43, "total_excess": 43, "new_constraints": 43, "constraints": 2780, "best_violations": 38, "elapsed_seconds": 10.263763000024483}
+{"iteration": 27, "status": "OPTIMAL", "violated_line_signatures": 56, "total_excess": 60, "new_constraints": 56, "constraints": 2823, "best_violations": 38, "elapsed_seconds": 10.587522400019225}
+{"iteration": 28, "status": "OPTIMAL", "violated_line_signatures": 63, "total_excess": 64, "new_constraints": 63, "constraints": 2879, "best_violations": 38, "elapsed_seconds": 11.091990300046746}
+{"iteration": 29, "status": "OPTIMAL", "violated_line_signatures": 52, "total_excess": 57, "new_constraints": 52, "constraints": 2942, "best_violations": 38, "elapsed_seconds": 11.53979840001557}
+{"iteration": 30, "status": "OPTIMAL", "violated_line_signatures": 58, "total_excess": 59, "new_constraints": 58, "constraints": 2994, "best_violations": 38, "elapsed_seconds": 12.40802580001764}
+{"iteration": 31, "status": "OPTIMAL", "violated_line_signatures": 51, "total_excess": 52, "new_constraints": 51, "constraints": 3052, "best_violations": 38, "elapsed_seconds": 12.8680294000078}
+{"iteration": 32, "status": "OPTIMAL", "violated_line_signatures": 44, "total_excess": 45, "new_constraints": 44, "constraints": 3103, "best_violations": 38, "elapsed_seconds": 13.256400200014468}
+{"iteration": 33, "status": "OPTIMAL", "violated_line_signatures": 61, "total_excess": 66, "new_constraints": 61, "constraints": 3147, "best_violations": 38, "elapsed_seconds": 13.647101900016423}
+{"iteration": 34, "status": "OPTIMAL", "violated_line_signatures": 60, "total_excess": 64, "new_constraints": 60, "constraints": 3208, "best_violations": 38, "elapsed_seconds": 14.00121700001182}
+{"iteration": 35, "status": "OPTIMAL", "violated_line_signatures": 45, "total_excess": 48, "new_constraints": 45, "constraints": 3268, "best_violations": 38, "elapsed_seconds": 14.354308700014371}
+{"iteration": 36, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 41, "new_constraints": 37, "constraints": 3313, "best_violations": 37, "elapsed_seconds": 14.837371900037397}
+{"iteration": 37, "status": "OPTIMAL", "violated_line_signatures": 57, "total_excess": 57, "new_constraints": 57, "constraints": 3350, "best_violations": 37, "elapsed_seconds": 15.207995000004303}
+{"iteration": 38, "status": "OPTIMAL", "violated_line_signatures": 47, "total_excess": 49, "new_constraints": 47, "constraints": 3407, "best_violations": 37, "elapsed_seconds": 15.602890700043645}
+{"iteration": 39, "status": "OPTIMAL", "violated_line_signatures": 43, "total_excess": 44, "new_constraints": 43, "constraints": 3454, "best_violations": 37, "elapsed_seconds": 16.234992200043052}
+{"iteration": 40, "status": "OPTIMAL", "violated_line_signatures": 57, "total_excess": 59, "new_constraints": 57, "constraints": 3497, "best_violations": 37, "elapsed_seconds": 17.599187900021207}
+{"iteration": 41, "status": "OPTIMAL", "violated_line_signatures": 50, "total_excess": 51, "new_constraints": 50, "constraints": 3554, "best_violations": 37, "elapsed_seconds": 17.99379710003268}
+{"iteration": 42, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 44, "new_constraints": 42, "constraints": 3604, "best_violations": 37, "elapsed_seconds": 18.365353300003335}
+{"iteration": 43, "status": "OPTIMAL", "violated_line_signatures": 53, "total_excess": 55, "new_constraints": 53, "constraints": 3646, "best_violations": 37, "elapsed_seconds": 19.54403900000034}
+{"iteration": 44, "status": "OPTIMAL", "violated_line_signatures": 39, "total_excess": 44, "new_constraints": 39, "constraints": 3699, "best_violations": 37, "elapsed_seconds": 20.379557800013572}
+{"iteration": 45, "status": "OPTIMAL", "violated_line_signatures": 34, "total_excess": 36, "new_constraints": 34, "constraints": 3738, "best_violations": 34, "elapsed_seconds": 20.92076360003557}
+{"iteration": 46, "status": "OPTIMAL", "violated_line_signatures": 41, "total_excess": 42, "new_constraints": 41, "constraints": 3772, "best_violations": 34, "elapsed_seconds": 22.197935100004543}
+{"iteration": 47, "status": "OPTIMAL", "violated_line_signatures": 54, "total_excess": 54, "new_constraints": 54, "constraints": 3813, "best_violations": 34, "elapsed_seconds": 23.335693400003947}
+{"iteration": 48, "status": "OPTIMAL", "violated_line_signatures": 55, "total_excess": 57, "new_constraints": 55, "constraints": 3867, "best_violations": 34, "elapsed_seconds": 23.741923000023235}
+{"iteration": 49, "status": "OPTIMAL", "violated_line_signatures": 45, "total_excess": 47, "new_constraints": 45, "constraints": 3922, "best_violations": 34, "elapsed_seconds": 24.413674200011883}
+{"iteration": 50, "status": "OPTIMAL", "violated_line_signatures": 47, "total_excess": 48, "new_constraints": 47, "constraints": 3967, "best_violations": 34, "elapsed_seconds": 24.799626100051682}
+{"iteration": 51, "status": "OPTIMAL", "violated_line_signatures": 53, "total_excess": 56, "new_constraints": 53, "constraints": 4014, "best_violations": 34, "elapsed_seconds": 25.16207870002836}
+{"iteration": 52, "status": "OPTIMAL", "violated_line_signatures": 50, "total_excess": 53, "new_constraints": 50, "constraints": 4067, "best_violations": 34, "elapsed_seconds": 26.24695670005167}
+{"iteration": 53, "status": "OPTIMAL", "violated_line_signatures": 51, "total_excess": 55, "new_constraints": 51, "constraints": 4117, "best_violations": 34, "elapsed_seconds": 26.712991500040516}
+{"iteration": 54, "status": "OPTIMAL", "violated_line_signatures": 53, "total_excess": 58, "new_constraints": 53, "constraints": 4168, "best_violations": 34, "elapsed_seconds": 27.203128900029697}
+{"iteration": 55, "status": "OPTIMAL", "violated_line_signatures": 51, "total_excess": 55, "new_constraints": 51, "constraints": 4221, "best_violations": 34, "elapsed_seconds": 27.76834550005151}
+{"iteration": 56, "status": "OPTIMAL", "violated_line_signatures": 43, "total_excess": 45, "new_constraints": 43, "constraints": 4272, "best_violations": 34, "elapsed_seconds": 28.226876500004437}
+{"iteration": 57, "status": "OPTIMAL", "violated_line_signatures": 53, "total_excess": 55, "new_constraints": 53, "constraints": 4315, "best_violations": 34, "elapsed_seconds": 29.758991800015792}
+{"iteration": 58, "status": "OPTIMAL", "violated_line_signatures": 47, "total_excess": 51, "new_constraints": 47, "constraints": 4368, "best_violations": 34, "elapsed_seconds": 30.332005200034473}
+{"iteration": 59, "status": "OPTIMAL", "violated_line_signatures": 48, "total_excess": 51, "new_constraints": 48, "constraints": 4415, "best_violations": 34, "elapsed_seconds": 30.811311100027524}
+{"iteration": 60, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 43, "new_constraints": 42, "constraints": 4463, "best_violations": 34, "elapsed_seconds": 31.281387600000016}
+{"iteration": 61, "status": "OPTIMAL", "violated_line_signatures": 48, "total_excess": 50, "new_constraints": 48, "constraints": 4505, "best_violations": 34, "elapsed_seconds": 31.689560000027996}
+{"iteration": 62, "status": "OPTIMAL", "violated_line_signatures": 41, "total_excess": 43, "new_constraints": 41, "constraints": 4553, "best_violations": 34, "elapsed_seconds": 32.15215880004689}
+{"iteration": 63, "status": "OPTIMAL", "violated_line_signatures": 46, "total_excess": 51, "new_constraints": 46, "constraints": 4594, "best_violations": 34, "elapsed_seconds": 32.60278670000844}
+{"iteration": 64, "status": "OPTIMAL", "violated_line_signatures": 43, "total_excess": 46, "new_constraints": 43, "constraints": 4640, "best_violations": 34, "elapsed_seconds": 34.11960990005173}
+{"iteration": 65, "status": "OPTIMAL", "violated_line_signatures": 35, "total_excess": 35, "new_constraints": 35, "constraints": 4683, "best_violations": 34, "elapsed_seconds": 34.593447700026445}
+{"iteration": 66, "status": "OPTIMAL", "violated_line_signatures": 53, "total_excess": 56, "new_constraints": 53, "constraints": 4718, "best_violations": 34, "elapsed_seconds": 36.084972300042864}
+{"iteration": 67, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 43, "new_constraints": 40, "constraints": 4771, "best_violations": 34, "elapsed_seconds": 36.54521500004921}
+{"iteration": 68, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 44, "new_constraints": 40, "constraints": 4811, "best_violations": 34, "elapsed_seconds": 37.58723750000354}
+{"iteration": 69, "status": "OPTIMAL", "violated_line_signatures": 44, "total_excess": 46, "new_constraints": 44, "constraints": 4851, "best_violations": 34, "elapsed_seconds": 38.95377790002385}
+{"iteration": 70, "status": "OPTIMAL", "violated_line_signatures": 47, "total_excess": 49, "new_constraints": 47, "constraints": 4895, "best_violations": 34, "elapsed_seconds": 39.50089950003894}
+{"iteration": 71, "status": "OPTIMAL", "violated_line_signatures": 54, "total_excess": 54, "new_constraints": 54, "constraints": 4942, "best_violations": 34, "elapsed_seconds": 40.3880274000112}
+{"iteration": 72, "status": "OPTIMAL", "violated_line_signatures": 43, "total_excess": 46, "new_constraints": 43, "constraints": 4996, "best_violations": 34, "elapsed_seconds": 40.94540740002412}
+{"iteration": 73, "status": "OPTIMAL", "violated_line_signatures": 48, "total_excess": 54, "new_constraints": 48, "constraints": 5039, "best_violations": 34, "elapsed_seconds": 42.702641000039876}
+{"iteration": 74, "status": "OPTIMAL", "violated_line_signatures": 49, "total_excess": 51, "new_constraints": 49, "constraints": 5087, "best_violations": 34, "elapsed_seconds": 44.07335130003048}
+{"iteration": 75, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 44, "new_constraints": 40, "constraints": 5136, "best_violations": 34, "elapsed_seconds": 44.53425540000899}
+{"iteration": 76, "status": "OPTIMAL", "violated_line_signatures": 46, "total_excess": 48, "new_constraints": 46, "constraints": 5176, "best_violations": 34, "elapsed_seconds": 45.439445000025444}
+{"iteration": 77, "status": "OPTIMAL", "violated_line_signatures": 45, "total_excess": 45, "new_constraints": 45, "constraints": 5222, "best_violations": 34, "elapsed_seconds": 46.01346869999543}
+{"iteration": 78, "status": "OPTIMAL", "violated_line_signatures": 58, "total_excess": 62, "new_constraints": 58, "constraints": 5267, "best_violations": 34, "elapsed_seconds": 47.59309330000542}
+{"iteration": 79, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 44, "new_constraints": 42, "constraints": 5325, "best_violations": 34, "elapsed_seconds": 49.08362730004592}
+{"iteration": 80, "status": "OPTIMAL", "violated_line_signatures": 50, "total_excess": 51, "new_constraints": 50, "constraints": 5367, "best_violations": 34, "elapsed_seconds": 49.60578630003147}
+{"iteration": 81, "status": "OPTIMAL", "violated_line_signatures": 48, "total_excess": 52, "new_constraints": 48, "constraints": 5417, "best_violations": 34, "elapsed_seconds": 51.26814150001155}
+{"iteration": 82, "status": "OPTIMAL", "violated_line_signatures": 34, "total_excess": 37, "new_constraints": 34, "constraints": 5465, "best_violations": 34, "elapsed_seconds": 52.85595380002633}
+{"iteration": 83, "status": "OPTIMAL", "violated_line_signatures": 44, "total_excess": 48, "new_constraints": 44, "constraints": 5499, "best_violations": 34, "elapsed_seconds": 53.72505160002038}
+{"iteration": 84, "status": "OPTIMAL", "violated_line_signatures": 55, "total_excess": 58, "new_constraints": 55, "constraints": 5543, "best_violations": 34, "elapsed_seconds": 55.05549520003842}
+{"iteration": 85, "status": "OPTIMAL", "violated_line_signatures": 53, "total_excess": 58, "new_constraints": 53, "constraints": 5598, "best_violations": 34, "elapsed_seconds": 56.61625870002899}
+{"iteration": 86, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 42, "new_constraints": 40, "constraints": 5651, "best_violations": 34, "elapsed_seconds": 58.32474470004672}
+{"iteration": 87, "status": "OPTIMAL", "violated_line_signatures": 47, "total_excess": 48, "new_constraints": 47, "constraints": 5691, "best_violations": 34, "elapsed_seconds": 59.734837600030005}
+{"iteration": 88, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 40, "new_constraints": 38, "constraints": 5738, "best_violations": 34, "elapsed_seconds": 60.28339290001895}
+{"iteration": 89, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 44, "new_constraints": 42, "constraints": 5776, "best_violations": 34, "elapsed_seconds": 61.82303890003823}
+{"iteration": 90, "status": "OPTIMAL", "violated_line_signatures": 50, "total_excess": 52, "new_constraints": 50, "constraints": 5818, "best_violations": 34, "elapsed_seconds": 62.400375200028066}
+{"iteration": 91, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 45, "new_constraints": 42, "constraints": 5868, "best_violations": 34, "elapsed_seconds": 62.932636800047476}
+{"iteration": 92, "status": "OPTIMAL", "violated_line_signatures": 35, "total_excess": 37, "new_constraints": 35, "constraints": 5910, "best_violations": 34, "elapsed_seconds": 63.885010300029535}
+{"iteration": 93, "status": "OPTIMAL", "violated_line_signatures": 45, "total_excess": 45, "new_constraints": 45, "constraints": 5945, "best_violations": 34, "elapsed_seconds": 65.50986170000397}
+{"iteration": 94, "status": "OPTIMAL", "violated_line_signatures": 46, "total_excess": 46, "new_constraints": 46, "constraints": 5990, "best_violations": 34, "elapsed_seconds": 66.02642240002751}
+{"iteration": 95, "status": "OPTIMAL", "violated_line_signatures": 51, "total_excess": 53, "new_constraints": 51, "constraints": 6036, "best_violations": 34, "elapsed_seconds": 67.16190850001294}
+{"iteration": 96, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 40, "new_constraints": 37, "constraints": 6087, "best_violations": 34, "elapsed_seconds": 68.17407070001354}
+{"iteration": 97, "status": "OPTIMAL", "violated_line_signatures": 36, "total_excess": 37, "new_constraints": 36, "constraints": 6124, "best_violations": 34, "elapsed_seconds": 68.63935400004266}
+{"iteration": 98, "status": "OPTIMAL", "violated_line_signatures": 49, "total_excess": 51, "new_constraints": 49, "constraints": 6160, "best_violations": 34, "elapsed_seconds": 70.72901220002677}
+{"iteration": 99, "status": "OPTIMAL", "violated_line_signatures": 32, "total_excess": 34, "new_constraints": 32, "constraints": 6209, "best_violations": 32, "elapsed_seconds": 71.36380150000332}
+{"iteration": 100, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 44, "new_constraints": 40, "constraints": 6241, "best_violations": 32, "elapsed_seconds": 72.06577620003372}
+{"iteration": 101, "status": "OPTIMAL", "violated_line_signatures": 47, "total_excess": 52, "new_constraints": 47, "constraints": 6281, "best_violations": 32, "elapsed_seconds": 73.87559180002427}
+{"iteration": 102, "status": "OPTIMAL", "violated_line_signatures": 41, "total_excess": 44, "new_constraints": 41, "constraints": 6328, "best_violations": 32, "elapsed_seconds": 75.59814970003208}
+{"iteration": 103, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 37, "new_constraints": 37, "constraints": 6369, "best_violations": 32, "elapsed_seconds": 76.77236830000766}
+{"iteration": 104, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 46, "new_constraints": 42, "constraints": 6406, "best_violations": 32, "elapsed_seconds": 78.60275430005277}
+{"iteration": 105, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 42, "new_constraints": 42, "constraints": 6448, "best_violations": 32, "elapsed_seconds": 80.32162990001962}
+{"iteration": 106, "status": "OPTIMAL", "violated_line_signatures": 48, "total_excess": 50, "new_constraints": 48, "constraints": 6490, "best_violations": 32, "elapsed_seconds": 81.0181507000234}
+{"iteration": 107, "status": "OPTIMAL", "violated_line_signatures": 52, "total_excess": 54, "new_constraints": 52, "constraints": 6538, "best_violations": 32, "elapsed_seconds": 82.83281000005081}
+{"iteration": 108, "status": "OPTIMAL", "violated_line_signatures": 49, "total_excess": 50, "new_constraints": 49, "constraints": 6590, "best_violations": 32, "elapsed_seconds": 84.96648910001386}
+{"iteration": 109, "status": "OPTIMAL", "violated_line_signatures": 44, "total_excess": 45, "new_constraints": 44, "constraints": 6639, "best_violations": 32, "elapsed_seconds": 85.57780580001418}
+{"iteration": 110, "status": "OPTIMAL", "violated_line_signatures": 41, "total_excess": 44, "new_constraints": 41, "constraints": 6683, "best_violations": 32, "elapsed_seconds": 87.61703380005201}
+{"iteration": 111, "status": "OPTIMAL", "violated_line_signatures": 49, "total_excess": 50, "new_constraints": 49, "constraints": 6724, "best_violations": 32, "elapsed_seconds": 89.55482150003081}
+{"iteration": 112, "status": "OPTIMAL", "violated_line_signatures": 26, "total_excess": 26, "new_constraints": 26, "constraints": 6773, "best_violations": 26, "elapsed_seconds": 91.92971670004772}
+{"iteration": 113, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 39, "new_constraints": 37, "constraints": 6799, "best_violations": 26, "elapsed_seconds": 94.18765360000543}
+{"iteration": 114, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 42, "new_constraints": 42, "constraints": 6836, "best_violations": 26, "elapsed_seconds": 95.00053780002054}
+{"iteration": 115, "status": "OPTIMAL", "violated_line_signatures": 45, "total_excess": 48, "new_constraints": 45, "constraints": 6878, "best_violations": 26, "elapsed_seconds": 95.70569760003127}
+{"iteration": 116, "status": "OPTIMAL", "violated_line_signatures": 39, "total_excess": 40, "new_constraints": 39, "constraints": 6923, "best_violations": 26, "elapsed_seconds": 97.88364580000052}
+{"iteration": 117, "status": "OPTIMAL", "violated_line_signatures": 36, "total_excess": 37, "new_constraints": 36, "constraints": 6962, "best_violations": 26, "elapsed_seconds": 100.25952459999826}
+{"iteration": 118, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 41, "new_constraints": 40, "constraints": 6998, "best_violations": 26, "elapsed_seconds": 100.98286520002875}
+{"iteration": 119, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 44, "new_constraints": 42, "constraints": 7038, "best_violations": 26, "elapsed_seconds": 102.50500150001608}
+{"iteration": 120, "status": "OPTIMAL", "violated_line_signatures": 46, "total_excess": 49, "new_constraints": 46, "constraints": 7080, "best_violations": 26, "elapsed_seconds": 104.65015270002186}
+{"iteration": 121, "status": "OPTIMAL", "violated_line_signatures": 53, "total_excess": 53, "new_constraints": 53, "constraints": 7126, "best_violations": 26, "elapsed_seconds": 106.95706470002187}
+{"iteration": 122, "status": "OPTIMAL", "violated_line_signatures": 39, "total_excess": 40, "new_constraints": 39, "constraints": 7179, "best_violations": 26, "elapsed_seconds": 109.72794190002605}
+{"iteration": 123, "status": "OPTIMAL", "violated_line_signatures": 51, "total_excess": 55, "new_constraints": 51, "constraints": 7218, "best_violations": 26, "elapsed_seconds": 115.07950360001996}
+{"iteration": 124, "status": "OPTIMAL", "violated_line_signatures": 28, "total_excess": 28, "new_constraints": 28, "constraints": 7269, "best_violations": 26, "elapsed_seconds": 116.89967529999558}
+{"iteration": 125, "status": "OPTIMAL", "violated_line_signatures": 54, "total_excess": 57, "new_constraints": 54, "constraints": 7297, "best_violations": 26, "elapsed_seconds": 118.98066160001326}
+{"iteration": 126, "status": "OPTIMAL", "violated_line_signatures": 54, "total_excess": 61, "new_constraints": 54, "constraints": 7351, "best_violations": 26, "elapsed_seconds": 121.16783089999808}
+{"iteration": 127, "status": "OPTIMAL", "violated_line_signatures": 34, "total_excess": 34, "new_constraints": 34, "constraints": 7405, "best_violations": 26, "elapsed_seconds": 122.61748200003058}
+{"iteration": 128, "status": "OPTIMAL", "violated_line_signatures": 39, "total_excess": 40, "new_constraints": 39, "constraints": 7439, "best_violations": 26, "elapsed_seconds": 124.56622740003513}
+{"iteration": 129, "status": "OPTIMAL", "violated_line_signatures": 41, "total_excess": 45, "new_constraints": 41, "constraints": 7478, "best_violations": 26, "elapsed_seconds": 125.99911780003458}
+{"iteration": 130, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 34, "new_constraints": 33, "constraints": 7519, "best_violations": 26, "elapsed_seconds": 127.87247850000858}
+{"iteration": 131, "status": "OPTIMAL", "violated_line_signatures": 41, "total_excess": 42, "new_constraints": 41, "constraints": 7552, "best_violations": 26, "elapsed_seconds": 129.56563830003142}
+{"iteration": 132, "status": "OPTIMAL", "violated_line_signatures": 45, "total_excess": 49, "new_constraints": 45, "constraints": 7593, "best_violations": 26, "elapsed_seconds": 131.29439220001223}
+{"iteration": 133, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 45, "new_constraints": 42, "constraints": 7638, "best_violations": 26, "elapsed_seconds": 133.01573820004705}
+{"iteration": 134, "status": "OPTIMAL", "violated_line_signatures": 30, "total_excess": 33, "new_constraints": 30, "constraints": 7680, "best_violations": 26, "elapsed_seconds": 135.64103550004074}
+{"iteration": 135, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 44, "new_constraints": 40, "constraints": 7710, "best_violations": 26, "elapsed_seconds": 137.6025043000118}
+{"iteration": 136, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 40, "new_constraints": 37, "constraints": 7750, "best_violations": 26, "elapsed_seconds": 138.37765780003974}
+{"iteration": 137, "status": "OPTIMAL", "violated_line_signatures": 39, "total_excess": 43, "new_constraints": 39, "constraints": 7787, "best_violations": 26, "elapsed_seconds": 142.54315959999803}
+{"iteration": 138, "status": "OPTIMAL", "violated_line_signatures": 31, "total_excess": 32, "new_constraints": 31, "constraints": 7826, "best_violations": 26, "elapsed_seconds": 147.25405360001605}
+{"iteration": 139, "status": "OPTIMAL", "violated_line_signatures": 28, "total_excess": 30, "new_constraints": 28, "constraints": 7857, "best_violations": 26, "elapsed_seconds": 149.55787640000926}
+{"iteration": 140, "status": "OPTIMAL", "violated_line_signatures": 39, "total_excess": 44, "new_constraints": 39, "constraints": 7885, "best_violations": 26, "elapsed_seconds": 151.82130609999876}
+{"iteration": 141, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 41, "new_constraints": 38, "constraints": 7924, "best_violations": 26, "elapsed_seconds": 153.89889320003567}
+{"iteration": 142, "status": "OPTIMAL", "violated_line_signatures": 49, "total_excess": 52, "new_constraints": 49, "constraints": 7962, "best_violations": 26, "elapsed_seconds": 155.9642756000394}
+{"iteration": 143, "status": "OPTIMAL", "violated_line_signatures": 36, "total_excess": 38, "new_constraints": 36, "constraints": 8011, "best_violations": 26, "elapsed_seconds": 158.22900680004386}
+{"iteration": 144, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 37, "new_constraints": 37, "constraints": 8047, "best_violations": 26, "elapsed_seconds": 159.94315470004221}
+{"iteration": 145, "status": "OPTIMAL", "violated_line_signatures": 36, "total_excess": 37, "new_constraints": 36, "constraints": 8084, "best_violations": 26, "elapsed_seconds": 160.6879119000514}
+{"iteration": 146, "status": "OPTIMAL", "violated_line_signatures": 45, "total_excess": 45, "new_constraints": 45, "constraints": 8120, "best_violations": 26, "elapsed_seconds": 162.79704100004165}
+{"iteration": 147, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 40, "new_constraints": 38, "constraints": 8165, "best_violations": 26, "elapsed_seconds": 164.52708390000043}
+{"iteration": 148, "status": "OPTIMAL", "violated_line_signatures": 44, "total_excess": 49, "new_constraints": 44, "constraints": 8203, "best_violations": 26, "elapsed_seconds": 166.2677820000099}
+{"iteration": 149, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 40, "new_constraints": 38, "constraints": 8247, "best_violations": 26, "elapsed_seconds": 169.71677640004782}
+{"iteration": 150, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 33, "new_constraints": 33, "constraints": 8285, "best_violations": 26, "elapsed_seconds": 171.93842220003717}
+{"iteration": 151, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 36, "new_constraints": 33, "constraints": 8318, "best_violations": 26, "elapsed_seconds": 174.9172831000178}
+{"iteration": 152, "status": "OPTIMAL", "violated_line_signatures": 43, "total_excess": 48, "new_constraints": 43, "constraints": 8351, "best_violations": 26, "elapsed_seconds": 180.0529465000145}
+{"iteration": 153, "status": "OPTIMAL", "violated_line_signatures": 45, "total_excess": 47, "new_constraints": 45, "constraints": 8394, "best_violations": 26, "elapsed_seconds": 182.43048949999502}
+{"iteration": 154, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 40, "new_constraints": 38, "constraints": 8439, "best_violations": 26, "elapsed_seconds": 185.4794776000199}
+{"iteration": 155, "status": "OPTIMAL", "violated_line_signatures": 51, "total_excess": 52, "new_constraints": 51, "constraints": 8477, "best_violations": 26, "elapsed_seconds": 187.53476490004687}
+{"iteration": 156, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 37, "new_constraints": 37, "constraints": 8528, "best_violations": 26, "elapsed_seconds": 189.80482630000915}
+{"iteration": 157, "status": "OPTIMAL", "violated_line_signatures": 47, "total_excess": 49, "new_constraints": 47, "constraints": 8565, "best_violations": 26, "elapsed_seconds": 191.93322530004662}
+{"iteration": 158, "status": "OPTIMAL", "violated_line_signatures": 34, "total_excess": 35, "new_constraints": 34, "constraints": 8612, "best_violations": 26, "elapsed_seconds": 194.1631117000361}
+{"iteration": 159, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 42, "new_constraints": 40, "constraints": 8646, "best_violations": 26, "elapsed_seconds": 194.93179810000584}
+{"iteration": 160, "status": "OPTIMAL", "violated_line_signatures": 36, "total_excess": 36, "new_constraints": 36, "constraints": 8686, "best_violations": 26, "elapsed_seconds": 197.57275760004995}
+{"iteration": 161, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 44, "new_constraints": 42, "constraints": 8722, "best_violations": 26, "elapsed_seconds": 203.89063750003697}
+{"iteration": 162, "status": "OPTIMAL", "violated_line_signatures": 35, "total_excess": 37, "new_constraints": 35, "constraints": 8764, "best_violations": 26, "elapsed_seconds": 209.35513470001752}
+{"iteration": 163, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 36, "new_constraints": 33, "constraints": 8799, "best_violations": 26, "elapsed_seconds": 214.05319330003113}
+{"iteration": 164, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 35, "new_constraints": 33, "constraints": 8832, "best_violations": 26, "elapsed_seconds": 220.03948130004574}
+{"iteration": 165, "status": "OPTIMAL", "violated_line_signatures": 44, "total_excess": 44, "new_constraints": 44, "constraints": 8865, "best_violations": 26, "elapsed_seconds": 227.96485530002974}
+{"iteration": 166, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 34, "new_constraints": 33, "constraints": 8909, "best_violations": 26, "elapsed_seconds": 231.6159542000387}
+{"iteration": 167, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 38, "new_constraints": 37, "constraints": 8942, "best_violations": 26, "elapsed_seconds": 233.4778631000081}
+{"iteration": 168, "status": "OPTIMAL", "violated_line_signatures": 41, "total_excess": 41, "new_constraints": 41, "constraints": 8979, "best_violations": 26, "elapsed_seconds": 239.39450789999682}
+{"iteration": 169, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 39, "new_constraints": 38, "constraints": 9020, "best_violations": 26, "elapsed_seconds": 241.81011320004473}
+{"iteration": 170, "status": "OPTIMAL", "violated_line_signatures": 39, "total_excess": 39, "new_constraints": 39, "constraints": 9058, "best_violations": 26, "elapsed_seconds": 243.74814680003328}
+{"iteration": 171, "status": "OPTIMAL", "violated_line_signatures": 43, "total_excess": 47, "new_constraints": 43, "constraints": 9097, "best_violations": 26, "elapsed_seconds": 244.5245332000195}
+{"iteration": 172, "status": "OPTIMAL", "violated_line_signatures": 41, "total_excess": 42, "new_constraints": 41, "constraints": 9140, "best_violations": 26, "elapsed_seconds": 246.51095220004208}
+{"iteration": 173, "status": "OPTIMAL", "violated_line_signatures": 36, "total_excess": 39, "new_constraints": 36, "constraints": 9181, "best_violations": 26, "elapsed_seconds": 248.5962157000322}
+{"iteration": 174, "status": "OPTIMAL", "violated_line_signatures": 36, "total_excess": 36, "new_constraints": 36, "constraints": 9217, "best_violations": 26, "elapsed_seconds": 253.96303780004382}
+{"iteration": 175, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 42, "new_constraints": 40, "constraints": 9253, "best_violations": 26, "elapsed_seconds": 259.6829423000454}
+{"iteration": 176, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 41, "new_constraints": 40, "constraints": 9293, "best_violations": 26, "elapsed_seconds": 262.8434706000262}
+{"iteration": 177, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 42, "new_constraints": 40, "constraints": 9333, "best_violations": 26, "elapsed_seconds": 265.20880490000127}
+{"iteration": 178, "status": "OPTIMAL", "violated_line_signatures": 46, "total_excess": 47, "new_constraints": 46, "constraints": 9373, "best_violations": 26, "elapsed_seconds": 272.50723020004807}
+{"iteration": 179, "status": "OPTIMAL", "violated_line_signatures": 31, "total_excess": 33, "new_constraints": 31, "constraints": 9419, "best_violations": 26, "elapsed_seconds": 274.60839589999523}
+{"iteration": 180, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 43, "new_constraints": 42, "constraints": 9450, "best_violations": 26, "elapsed_seconds": 287.78463330003433}
+{"iteration": 181, "status": "OPTIMAL", "violated_line_signatures": 39, "total_excess": 39, "new_constraints": 39, "constraints": 9492, "best_violations": 26, "elapsed_seconds": 292.89127400005236}
+{"iteration": 182, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 39, "new_constraints": 38, "constraints": 9531, "best_violations": 26, "elapsed_seconds": 295.73813599999994}
+{"iteration": 183, "status": "OPTIMAL", "violated_line_signatures": 46, "total_excess": 47, "new_constraints": 46, "constraints": 9569, "best_violations": 26, "elapsed_seconds": 308.4413235000102}
+{"iteration": 184, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 39, "new_constraints": 37, "constraints": 9615, "best_violations": 26, "elapsed_seconds": 309.30666640005074}
+{"iteration": 185, "status": "OPTIMAL", "violated_line_signatures": 27, "total_excess": 29, "new_constraints": 27, "constraints": 9652, "best_violations": 26, "elapsed_seconds": 312.891908300051}
+{"iteration": 186, "status": "OPTIMAL", "violated_line_signatures": 25, "total_excess": 25, "new_constraints": 25, "constraints": 9679, "best_violations": 25, "elapsed_seconds": 317.3463404000504}
+{"iteration": 187, "status": "OPTIMAL", "violated_line_signatures": 26, "total_excess": 28, "new_constraints": 26, "constraints": 9704, "best_violations": 25, "elapsed_seconds": 322.3104833000107}
+{"iteration": 188, "status": "OPTIMAL", "violated_line_signatures": 27, "total_excess": 28, "new_constraints": 27, "constraints": 9730, "best_violations": 25, "elapsed_seconds": 328.74888550001197}
+{"iteration": 189, "status": "OPTIMAL", "violated_line_signatures": 35, "total_excess": 39, "new_constraints": 35, "constraints": 9757, "best_violations": 25, "elapsed_seconds": 331.8531490000314}
+{"iteration": 190, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 40, "new_constraints": 37, "constraints": 9792, "best_violations": 25, "elapsed_seconds": 336.2387705000001}
+{"iteration": 191, "status": "OPTIMAL", "violated_line_signatures": 39, "total_excess": 40, "new_constraints": 39, "constraints": 9829, "best_violations": 25, "elapsed_seconds": 342.3000227000448}
+{"iteration": 192, "status": "OPTIMAL", "violated_line_signatures": 26, "total_excess": 28, "new_constraints": 26, "constraints": 9868, "best_violations": 25, "elapsed_seconds": 345.3152536000125}
+{"iteration": 193, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 47, "new_constraints": 42, "constraints": 9894, "best_violations": 25, "elapsed_seconds": 350.26792880002176}
+{"iteration": 194, "status": "OPTIMAL", "violated_line_signatures": 36, "total_excess": 37, "new_constraints": 36, "constraints": 9936, "best_violations": 25, "elapsed_seconds": 359.2784504000447}
+{"iteration": 195, "status": "OPTIMAL", "violated_line_signatures": 46, "total_excess": 49, "new_constraints": 46, "constraints": 9972, "best_violations": 25, "elapsed_seconds": 362.50954739999725}
+{"iteration": 196, "status": "OPTIMAL", "violated_line_signatures": 47, "total_excess": 47, "new_constraints": 47, "constraints": 10018, "best_violations": 25, "elapsed_seconds": 370.6842760000145}
+{"iteration": 197, "status": "OPTIMAL", "violated_line_signatures": 30, "total_excess": 30, "new_constraints": 30, "constraints": 10065, "best_violations": 25, "elapsed_seconds": 376.77341429999797}
+{"iteration": 198, "status": "OPTIMAL", "violated_line_signatures": 48, "total_excess": 49, "new_constraints": 48, "constraints": 10095, "best_violations": 25, "elapsed_seconds": 382.4361681000446}
+{"iteration": 199, "status": "OPTIMAL", "violated_line_signatures": 49, "total_excess": 52, "new_constraints": 49, "constraints": 10143, "best_violations": 25, "elapsed_seconds": 385.70310600002995}
+{"iteration": 200, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 33, "new_constraints": 33, "constraints": 10192, "best_violations": 25, "elapsed_seconds": 389.2217562000151}
+{"iteration": 201, "status": "OPTIMAL", "violated_line_signatures": 35, "total_excess": 35, "new_constraints": 35, "constraints": 10225, "best_violations": 25, "elapsed_seconds": 399.31267549999757}
+{"iteration": 202, "status": "OPTIMAL", "violated_line_signatures": 36, "total_excess": 39, "new_constraints": 36, "constraints": 10260, "best_violations": 25, "elapsed_seconds": 402.97362270002486}
+{"iteration": 203, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 39, "new_constraints": 38, "constraints": 10296, "best_violations": 25, "elapsed_seconds": 409.4974690999952}
+{"iteration": 204, "status": "OPTIMAL", "violated_line_signatures": 39, "total_excess": 41, "new_constraints": 39, "constraints": 10334, "best_violations": 25, "elapsed_seconds": 411.8000281000277}
+{"iteration": 205, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 37, "new_constraints": 37, "constraints": 10373, "best_violations": 25, "elapsed_seconds": 416.3884450000478}
+{"iteration": 206, "status": "OPTIMAL", "violated_line_signatures": 36, "total_excess": 37, "new_constraints": 36, "constraints": 10410, "best_violations": 25, "elapsed_seconds": 424.7549342000275}
+{"iteration": 207, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 44, "new_constraints": 42, "constraints": 10446, "best_violations": 25, "elapsed_seconds": 438.7625650000409}
+{"iteration": 208, "status": "OPTIMAL", "violated_line_signatures": 41, "total_excess": 41, "new_constraints": 41, "constraints": 10488, "best_violations": 25, "elapsed_seconds": 442.2632217000355}
+{"iteration": 209, "status": "OPTIMAL", "violated_line_signatures": 49, "total_excess": 54, "new_constraints": 49, "constraints": 10529, "best_violations": 25, "elapsed_seconds": 446.63878690003185}
+{"iteration": 210, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 42, "new_constraints": 40, "constraints": 10578, "best_violations": 25, "elapsed_seconds": 449.0385683000204}
+{"iteration": 211, "status": "OPTIMAL", "violated_line_signatures": 44, "total_excess": 48, "new_constraints": 44, "constraints": 10618, "best_violations": 25, "elapsed_seconds": 454.466138400021}
+{"iteration": 212, "status": "OPTIMAL", "violated_line_signatures": 43, "total_excess": 45, "new_constraints": 43, "constraints": 10662, "best_violations": 25, "elapsed_seconds": 455.37952519999817}
+{"iteration": 213, "status": "OPTIMAL", "violated_line_signatures": 39, "total_excess": 40, "new_constraints": 39, "constraints": 10705, "best_violations": 25, "elapsed_seconds": 459.47596160002286}
+{"iteration": 214, "status": "OPTIMAL", "violated_line_signatures": 27, "total_excess": 29, "new_constraints": 27, "constraints": 10744, "best_violations": 25, "elapsed_seconds": 464.69780800002627}
+{"iteration": 215, "status": "OPTIMAL", "violated_line_signatures": 45, "total_excess": 45, "new_constraints": 45, "constraints": 10771, "best_violations": 25, "elapsed_seconds": 468.24379690003116}
+{"iteration": 216, "status": "OPTIMAL", "violated_line_signatures": 36, "total_excess": 37, "new_constraints": 36, "constraints": 10816, "best_violations": 25, "elapsed_seconds": 477.27678450004896}
+{"iteration": 217, "status": "OPTIMAL", "violated_line_signatures": 29, "total_excess": 30, "new_constraints": 29, "constraints": 10852, "best_violations": 25, "elapsed_seconds": 483.4659509000485}
+{"iteration": 218, "status": "OPTIMAL", "violated_line_signatures": 35, "total_excess": 35, "new_constraints": 35, "constraints": 10881, "best_violations": 25, "elapsed_seconds": 484.4312510000309}
+{"iteration": 219, "status": "OPTIMAL", "violated_line_signatures": 34, "total_excess": 34, "new_constraints": 34, "constraints": 10916, "best_violations": 25, "elapsed_seconds": 488.45554500003345}
+{"iteration": 220, "status": "OPTIMAL", "violated_line_signatures": 44, "total_excess": 45, "new_constraints": 44, "constraints": 10950, "best_violations": 25, "elapsed_seconds": 501.17878519999795}
+{"iteration": 221, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 43, "new_constraints": 40, "constraints": 10994, "best_violations": 25, "elapsed_seconds": 505.64659650000976}
+{"iteration": 222, "status": "OPTIMAL", "violated_line_signatures": 24, "total_excess": 25, "new_constraints": 24, "constraints": 11034, "best_violations": 24, "elapsed_seconds": 517.4859537000302}
+{"iteration": 223, "status": "OPTIMAL", "violated_line_signatures": 36, "total_excess": 41, "new_constraints": 36, "constraints": 11058, "best_violations": 24, "elapsed_seconds": 536.1987052000477}
+{"iteration": 224, "status": "OPTIMAL", "violated_line_signatures": 41, "total_excess": 41, "new_constraints": 41, "constraints": 11094, "best_violations": 24, "elapsed_seconds": 542.3120894000167}
+{"iteration": 225, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 39, "new_constraints": 38, "constraints": 11135, "best_violations": 24, "elapsed_seconds": 551.4404968000017}
+{"iteration": 226, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 34, "new_constraints": 33, "constraints": 11173, "best_violations": 24, "elapsed_seconds": 559.3099140000413}
+{"iteration": 227, "status": "OPTIMAL", "violated_line_signatures": 39, "total_excess": 40, "new_constraints": 39, "constraints": 11206, "best_violations": 24, "elapsed_seconds": 566.7226784000522}
+{"iteration": 228, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 38, "new_constraints": 37, "constraints": 11245, "best_violations": 24, "elapsed_seconds": 573.9215518000419}
+{"iteration": 229, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 40, "new_constraints": 38, "constraints": 11282, "best_violations": 24, "elapsed_seconds": 593.7162991000223}
+{"iteration": 230, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 41, "new_constraints": 40, "constraints": 11320, "best_violations": 24, "elapsed_seconds": 610.5057029000018}
+{"iteration": 231, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 42, "new_constraints": 40, "constraints": 11360, "best_violations": 24, "elapsed_seconds": 613.7091849000426}
+{"iteration": 232, "status": "OPTIMAL", "violated_line_signatures": 29, "total_excess": 29, "new_constraints": 29, "constraints": 11400, "best_violations": 24, "elapsed_seconds": 621.6800372000434}
+{"iteration": 233, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 39, "new_constraints": 38, "constraints": 11429, "best_violations": 24, "elapsed_seconds": 627.0461296000285}
+{"iteration": 234, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 34, "new_constraints": 33, "constraints": 11467, "best_violations": 24, "elapsed_seconds": 640.076675600023}
+{"iteration": 235, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 45, "new_constraints": 42, "constraints": 11500, "best_violations": 24, "elapsed_seconds": 645.6462725000456}
+{"iteration": 236, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 39, "new_constraints": 37, "constraints": 11542, "best_violations": 24, "elapsed_seconds": 664.4484906000434}
+{"iteration": 237, "status": "OPTIMAL", "violated_line_signatures": 28, "total_excess": 29, "new_constraints": 28, "constraints": 11579, "best_violations": 24, "elapsed_seconds": 671.412634200009}
+{"iteration": 238, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 42, "new_constraints": 40, "constraints": 11607, "best_violations": 24, "elapsed_seconds": 688.1955783000449}
+{"iteration": 239, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 38, "new_constraints": 37, "constraints": 11647, "best_violations": 24, "elapsed_seconds": 701.7659636000171}
+{"iteration": 240, "status": "OPTIMAL", "violated_line_signatures": 39, "total_excess": 39, "new_constraints": 39, "constraints": 11684, "best_violations": 24, "elapsed_seconds": 712.3387250000378}
+{"iteration": 241, "status": "OPTIMAL", "violated_line_signatures": 28, "total_excess": 29, "new_constraints": 28, "constraints": 11723, "best_violations": 24, "elapsed_seconds": 721.5658008000464}
+{"iteration": 242, "status": "OPTIMAL", "violated_line_signatures": 28, "total_excess": 29, "new_constraints": 28, "constraints": 11751, "best_violations": 24, "elapsed_seconds": 727.403392200009}
+{"iteration": 243, "status": "OPTIMAL", "violated_line_signatures": 35, "total_excess": 36, "new_constraints": 35, "constraints": 11779, "best_violations": 24, "elapsed_seconds": 730.6532378999982}
+{"iteration": 244, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 44, "new_constraints": 40, "constraints": 11814, "best_violations": 24, "elapsed_seconds": 735.4412593000452}
+{"iteration": 245, "status": "OPTIMAL", "violated_line_signatures": 30, "total_excess": 30, "new_constraints": 30, "constraints": 11854, "best_violations": 24, "elapsed_seconds": 743.2314792000107}
+{"iteration": 246, "status": "OPTIMAL", "violated_line_signatures": 41, "total_excess": 44, "new_constraints": 41, "constraints": 11884, "best_violations": 24, "elapsed_seconds": 763.3370424000314}
+{"iteration": 247, "status": "OPTIMAL", "violated_line_signatures": 30, "total_excess": 32, "new_constraints": 30, "constraints": 11925, "best_violations": 24, "elapsed_seconds": 771.8648545000469}
+{"iteration": 248, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 38, "new_constraints": 37, "constraints": 11955, "best_violations": 24, "elapsed_seconds": 779.0602885000408}
+{"iteration": 249, "status": "OPTIMAL", "violated_line_signatures": 35, "total_excess": 36, "new_constraints": 35, "constraints": 11992, "best_violations": 24, "elapsed_seconds": 790.6463498000521}
+{"iteration": 250, "status": "OPTIMAL", "violated_line_signatures": 26, "total_excess": 26, "new_constraints": 26, "constraints": 12027, "best_violations": 24, "elapsed_seconds": 796.7914907000377}
+{"iteration": 251, "status": "OPTIMAL", "violated_line_signatures": 30, "total_excess": 32, "new_constraints": 30, "constraints": 12053, "best_violations": 24, "elapsed_seconds": 806.1268871000502}
+{"iteration": 252, "status": "OPTIMAL", "violated_line_signatures": 31, "total_excess": 32, "new_constraints": 31, "constraints": 12083, "best_violations": 24, "elapsed_seconds": 810.5744063000311}
+{"iteration": 253, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 33, "new_constraints": 33, "constraints": 12114, "best_violations": 24, "elapsed_seconds": 819.4944529000204}
+{"iteration": 254, "status": "OPTIMAL", "violated_line_signatures": 26, "total_excess": 27, "new_constraints": 26, "constraints": 12147, "best_violations": 24, "elapsed_seconds": 829.381306700001}
+{"iteration": 255, "status": "OPTIMAL", "violated_line_signatures": 32, "total_excess": 33, "new_constraints": 32, "constraints": 12173, "best_violations": 24, "elapsed_seconds": 836.7337494000094}
+{"iteration": 256, "status": "OPTIMAL", "violated_line_signatures": 32, "total_excess": 33, "new_constraints": 32, "constraints": 12205, "best_violations": 24, "elapsed_seconds": 839.9670220999978}
+{"iteration": 257, "status": "UNKNOWN", "constraints": 12237, "elapsed_seconds": 870.0129545000382}
+{"iteration": 258, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 39, "new_constraints": 38, "constraints": 12237, "best_violations": 24, "elapsed_seconds": 876.6614889000193}
+{"iteration": 259, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 34, "new_constraints": 33, "constraints": 12275, "best_violations": 24, "elapsed_seconds": 882.711008000013}
+{"iteration": 260, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 40, "new_constraints": 37, "constraints": 12308, "best_violations": 24, "elapsed_seconds": 894.1909464000491}
+{"iteration": 261, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 33, "new_constraints": 33, "constraints": 12345, "best_violations": 24, "elapsed_seconds": 916.9701136000222}
+{"iteration": 262, "status": "UNKNOWN", "constraints": 12378, "elapsed_seconds": 947.1121099000447}
+{"iteration": 263, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 33, "new_constraints": 33, "constraints": 12378, "best_violations": 24, "elapsed_seconds": 960.3732127000112}
+{"iteration": 264, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 40, "new_constraints": 38, "constraints": 12411, "best_violations": 24, "elapsed_seconds": 965.4447548000026}
+{"iteration": 265, "status": "OPTIMAL", "violated_line_signatures": 35, "total_excess": 38, "new_constraints": 35, "constraints": 12449, "best_violations": 24, "elapsed_seconds": 977.6634674000088}
+{"iteration": 266, "status": "OPTIMAL", "violated_line_signatures": 31, "total_excess": 32, "new_constraints": 31, "constraints": 12484, "best_violations": 24, "elapsed_seconds": 988.4149238000391}
+{"iteration": 267, "status": "OPTIMAL", "violated_line_signatures": 25, "total_excess": 25, "new_constraints": 25, "constraints": 12515, "best_violations": 24, "elapsed_seconds": 991.3634620000375}
+{"iteration": 268, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 35, "new_constraints": 33, "constraints": 12540, "best_violations": 24, "elapsed_seconds": 1000.7715801000013}
+{"iteration": 269, "status": "OPTIMAL", "violated_line_signatures": 39, "total_excess": 40, "new_constraints": 39, "constraints": 12573, "best_violations": 24, "elapsed_seconds": 1005.2150694000302}
+{"iteration": 270, "status": "OPTIMAL", "violated_line_signatures": 27, "total_excess": 28, "new_constraints": 27, "constraints": 12612, "best_violations": 24, "elapsed_seconds": 1008.8494830999989}
+{"iteration": 271, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 43, "new_constraints": 42, "constraints": 12639, "best_violations": 24, "elapsed_seconds": 1017.8246956000221}
+{"iteration": 272, "status": "OPTIMAL", "violated_line_signatures": 28, "total_excess": 29, "new_constraints": 28, "constraints": 12681, "best_violations": 24, "elapsed_seconds": 1031.274870000023}
+{"iteration": 273, "status": "OPTIMAL", "violated_line_signatures": 44, "total_excess": 44, "new_constraints": 44, "constraints": 12709, "best_violations": 24, "elapsed_seconds": 1038.387195600022}
+{"iteration": 274, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 34, "new_constraints": 33, "constraints": 12753, "best_violations": 24, "elapsed_seconds": 1046.842099100002}
+{"iteration": 275, "status": "OPTIMAL", "violated_line_signatures": 30, "total_excess": 31, "new_constraints": 30, "constraints": 12786, "best_violations": 24, "elapsed_seconds": 1061.457620400004}
+{"iteration": 276, "status": "OPTIMAL", "violated_line_signatures": 32, "total_excess": 33, "new_constraints": 32, "constraints": 12816, "best_violations": 24, "elapsed_seconds": 1069.8877070000162}
+{"iteration": 277, "status": "OPTIMAL", "violated_line_signatures": 27, "total_excess": 28, "new_constraints": 27, "constraints": 12848, "best_violations": 24, "elapsed_seconds": 1072.4534505000338}
+{"iteration": 278, "status": "OPTIMAL", "violated_line_signatures": 26, "total_excess": 30, "new_constraints": 26, "constraints": 12875, "best_violations": 24, "elapsed_seconds": 1085.3546038000495}
+{"iteration": 279, "status": "OPTIMAL", "violated_line_signatures": 30, "total_excess": 31, "new_constraints": 30, "constraints": 12901, "best_violations": 24, "elapsed_seconds": 1096.7616434000083}
+{"iteration": 280, "status": "OPTIMAL", "violated_line_signatures": 30, "total_excess": 31, "new_constraints": 30, "constraints": 12931, "best_violations": 24, "elapsed_seconds": 1111.2559878000175}
+{"iteration": 281, "status": "OPTIMAL", "violated_line_signatures": 34, "total_excess": 34, "new_constraints": 34, "constraints": 12961, "best_violations": 24, "elapsed_seconds": 1124.742385300051}
+{"iteration": 282, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 40, "new_constraints": 40, "constraints": 12995, "best_violations": 24, "elapsed_seconds": 1154.2270745999995}
+{"iteration": 283, "status": "OPTIMAL", "violated_line_signatures": 27, "total_excess": 29, "new_constraints": 27, "constraints": 13035, "best_violations": 24, "elapsed_seconds": 1172.0091838000226}
+{"iteration": 284, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 40, "new_constraints": 40, "constraints": 13062, "best_violations": 24, "elapsed_seconds": 1178.4471572000184}
+{"iteration": 285, "status": "UNKNOWN", "constraints": 13102, "elapsed_seconds": 1208.5538684000494}
+{"iteration": 286, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 38, "new_constraints": 38, "constraints": 13102, "best_violations": 24, "elapsed_seconds": 1228.9107987000025}
+{"iteration": 287, "status": "OPTIMAL", "violated_line_signatures": 43, "total_excess": 45, "new_constraints": 43, "constraints": 13140, "best_violations": 24, "elapsed_seconds": 1249.5577401000191}
+{"iteration": 288, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 34, "new_constraints": 33, "constraints": 13183, "best_violations": 24, "elapsed_seconds": 1265.1217894000001}
+{"iteration": 289, "status": "OPTIMAL", "violated_line_signatures": 26, "total_excess": 27, "new_constraints": 26, "constraints": 13216, "best_violations": 24, "elapsed_seconds": 1292.8997344000381}
+{"iteration": 290, "status": "OPTIMAL", "violated_line_signatures": 35, "total_excess": 37, "new_constraints": 35, "constraints": 13242, "best_violations": 24, "elapsed_seconds": 1297.0727970000007}
+{"iteration": 291, "status": "OPTIMAL", "violated_line_signatures": 34, "total_excess": 36, "new_constraints": 34, "constraints": 13277, "best_violations": 24, "elapsed_seconds": 1307.3995350000332}
+{"iteration": 292, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 46, "new_constraints": 42, "constraints": 13311, "best_violations": 24, "elapsed_seconds": 1315.0795751000405}
+{"iteration": 293, "status": "UNKNOWN", "constraints": 13353, "elapsed_seconds": 1345.1383390999981}
+{"iteration": 294, "status": "OPTIMAL", "violated_line_signatures": 31, "total_excess": 31, "new_constraints": 31, "constraints": 13353, "best_violations": 24, "elapsed_seconds": 1372.7714607000235}
+{"iteration": 295, "status": "UNKNOWN", "constraints": 13384, "elapsed_seconds": 1402.878543800034}
+{"iteration": 296, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 33, "new_constraints": 33, "constraints": 13384, "best_violations": 24, "elapsed_seconds": 1410.7659700000077}
+{"iteration": 297, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 39, "new_constraints": 38, "constraints": 13417, "best_violations": 24, "elapsed_seconds": 1427.201362300024}
+{"iteration": 298, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 34, "new_constraints": 33, "constraints": 13455, "best_violations": 24, "elapsed_seconds": 1439.2962105000042}
+{"iteration": 299, "status": "OPTIMAL", "violated_line_signatures": 27, "total_excess": 28, "new_constraints": 27, "constraints": 13488, "best_violations": 24, "elapsed_seconds": 1446.1550585000077}
+{"iteration": 300, "status": "OPTIMAL", "violated_line_signatures": 50, "total_excess": 54, "new_constraints": 50, "constraints": 13515, "best_violations": 24, "elapsed_seconds": 1452.938367500028}
+{"iteration": 301, "status": "OPTIMAL", "violated_line_signatures": 32, "total_excess": 32, "new_constraints": 32, "constraints": 13565, "best_violations": 24, "elapsed_seconds": 1466.7361403999967}
+{"iteration": 302, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 33, "new_constraints": 33, "constraints": 13597, "best_violations": 24, "elapsed_seconds": 1470.210171200044}
+{"iteration": 303, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 34, "new_constraints": 33, "constraints": 13630, "best_violations": 24, "elapsed_seconds": 1476.2095287000411}
+{"iteration": 304, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 44, "new_constraints": 42, "constraints": 13663, "best_violations": 24, "elapsed_seconds": 1490.399258200021}
+{"iteration": 305, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 37, "new_constraints": 33, "constraints": 13705, "best_violations": 24, "elapsed_seconds": 1510.4962405000115}
+{"iteration": 306, "status": "OPTIMAL", "violated_line_signatures": 30, "total_excess": 30, "new_constraints": 30, "constraints": 13738, "best_violations": 24, "elapsed_seconds": 1520.729000499996}
+{"iteration": 307, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 33, "new_constraints": 33, "constraints": 13768, "best_violations": 24, "elapsed_seconds": 1527.3514331000042}
+{"iteration": 308, "status": "OPTIMAL", "violated_line_signatures": 25, "total_excess": 26, "new_constraints": 25, "constraints": 13801, "best_violations": 24, "elapsed_seconds": 1553.2347030000528}
+{"iteration": 309, "status": "OPTIMAL", "violated_line_signatures": 39, "total_excess": 43, "new_constraints": 39, "constraints": 13826, "best_violations": 24, "elapsed_seconds": 1557.7935554000433}
+{"iteration": 310, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 38, "new_constraints": 37, "constraints": 13865, "best_violations": 24, "elapsed_seconds": 1578.234733899997}
+{"iteration": 311, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 39, "new_constraints": 38, "constraints": 13902, "best_violations": 24, "elapsed_seconds": 1587.9362705000094}
+{"iteration": 312, "status": "OPTIMAL", "violated_line_signatures": 32, "total_excess": 33, "new_constraints": 32, "constraints": 13940, "best_violations": 24, "elapsed_seconds": 1593.7660543000093}
+{"iteration": 313, "status": "OPTIMAL", "violated_line_signatures": 35, "total_excess": 36, "new_constraints": 35, "constraints": 13972, "best_violations": 24, "elapsed_seconds": 1609.72535230004}
+{"iteration": 314, "status": "OPTIMAL", "violated_line_signatures": 31, "total_excess": 31, "new_constraints": 31, "constraints": 14007, "best_violations": 24, "elapsed_seconds": 1620.4919481000397}
+{"iteration": 315, "status": "UNKNOWN", "constraints": 14038, "elapsed_seconds": 1650.5841426000115}
+{"iteration": 316, "status": "OPTIMAL", "violated_line_signatures": 44, "total_excess": 48, "new_constraints": 44, "constraints": 14038, "best_violations": 24, "elapsed_seconds": 1676.2412714000093}
+{"iteration": 317, "status": "UNKNOWN", "constraints": 14082, "elapsed_seconds": 1706.298151199997}
+{"iteration": 318, "status": "OPTIMAL", "violated_line_signatures": 37, "total_excess": 38, "new_constraints": 37, "constraints": 14082, "best_violations": 24, "elapsed_seconds": 1715.4811174000497}
+{"iteration": 319, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 44, "new_constraints": 42, "constraints": 14119, "best_violations": 24, "elapsed_seconds": 1731.8082849000348}
+{"iteration": 320, "status": "OPTIMAL", "violated_line_signatures": 24, "total_excess": 25, "new_constraints": 24, "constraints": 14161, "best_violations": 24, "elapsed_seconds": 1757.4787657000124}
+{"iteration": 321, "status": "OPTIMAL", "violated_line_signatures": 31, "total_excess": 32, "new_constraints": 31, "constraints": 14185, "best_violations": 24, "elapsed_seconds": 1764.4267220000038}
+{"iteration": 322, "status": "OPTIMAL", "violated_line_signatures": 27, "total_excess": 27, "new_constraints": 27, "constraints": 14216, "best_violations": 24, "elapsed_seconds": 1791.187827100046}
+{"iteration": 323, "status": "OPTIMAL", "violated_line_signatures": 36, "total_excess": 38, "new_constraints": 36, "constraints": 14243, "best_violations": 24, "elapsed_seconds": 1804.4808861000347}
+{"iteration": 324, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 34, "new_constraints": 33, "constraints": 14279, "best_violations": 24, "elapsed_seconds": 1829.9190394000034}
+{"iteration": 325, "status": "OPTIMAL", "violated_line_signatures": 23, "total_excess": 26, "new_constraints": 23, "constraints": 14312, "best_violations": 23, "elapsed_seconds": 1833.9745079000131}
+{"iteration": 326, "status": "OPTIMAL", "violated_line_signatures": 34, "total_excess": 34, "new_constraints": 34, "constraints": 14335, "best_violations": 23, "elapsed_seconds": 1850.9034526000032}
+{"iteration": 327, "status": "UNKNOWN", "constraints": 14369, "elapsed_seconds": 1880.9447748000384}
+{"iteration": 328, "status": "OPTIMAL", "violated_line_signatures": 25, "total_excess": 27, "new_constraints": 25, "constraints": 14369, "best_violations": 23, "elapsed_seconds": 1892.0475015999982}
+{"iteration": 329, "status": "OPTIMAL", "violated_line_signatures": 30, "total_excess": 31, "new_constraints": 30, "constraints": 14394, "best_violations": 23, "elapsed_seconds": 1913.936058100022}
+{"iteration": 330, "status": "UNKNOWN", "constraints": 14424, "elapsed_seconds": 1944.003561999998}
+{"iteration": 331, "status": "OPTIMAL", "violated_line_signatures": 36, "total_excess": 39, "new_constraints": 36, "constraints": 14424, "best_violations": 23, "elapsed_seconds": 1956.2855674000457}
+{"iteration": 332, "status": "OPTIMAL", "violated_line_signatures": 31, "total_excess": 32, "new_constraints": 31, "constraints": 14460, "best_violations": 23, "elapsed_seconds": 1980.0543874000432}
+{"iteration": 333, "status": "OPTIMAL", "violated_line_signatures": 31, "total_excess": 32, "new_constraints": 31, "constraints": 14491, "best_violations": 23, "elapsed_seconds": 1993.493366300012}
+{"iteration": 334, "status": "UNKNOWN", "constraints": 14522, "elapsed_seconds": 2023.5427569000167}
+{"iteration": 335, "status": "OPTIMAL", "violated_line_signatures": 28, "total_excess": 29, "new_constraints": 28, "constraints": 14522, "best_violations": 23, "elapsed_seconds": 2030.098793000041}
+{"iteration": 336, "status": "OPTIMAL", "violated_line_signatures": 30, "total_excess": 30, "new_constraints": 30, "constraints": 14550, "best_violations": 23, "elapsed_seconds": 2051.4028520000284}
+{"iteration": 337, "status": "OPTIMAL", "violated_line_signatures": 31, "total_excess": 32, "new_constraints": 31, "constraints": 14580, "best_violations": 23, "elapsed_seconds": 2060.188637400046}
+{"iteration": 338, "status": "UNKNOWN", "constraints": 14611, "elapsed_seconds": 2090.24170350004}
+{"iteration": 339, "status": "UNKNOWN", "constraints": 14611, "elapsed_seconds": 2120.302452700038}
+{"iteration": 340, "status": "OPTIMAL", "violated_line_signatures": 19, "total_excess": 19, "new_constraints": 19, "constraints": 14611, "best_violations": 19, "elapsed_seconds": 2147.018035700021}
+{"iteration": 341, "status": "UNKNOWN", "constraints": 14630, "elapsed_seconds": 2177.0999616000336}
+{"iteration": 342, "status": "UNKNOWN", "constraints": 14630, "elapsed_seconds": 2207.26017350005}
+{"iteration": 343, "status": "UNKNOWN", "constraints": 14630, "elapsed_seconds": 2237.4333406000515}
+{"iteration": 344, "status": "UNKNOWN", "constraints": 14630, "elapsed_seconds": 2267.484935800021}
+{"iteration": 345, "status": "UNKNOWN", "constraints": 14630, "elapsed_seconds": 2297.536195599998}
+{"iteration": 346, "status": "UNKNOWN", "constraints": 14630, "elapsed_seconds": 2327.5956887000357}
+{"iteration": 347, "status": "OPTIMAL", "violated_line_signatures": 30, "total_excess": 30, "new_constraints": 30, "constraints": 14630, "best_violations": 19, "elapsed_seconds": 2339.6472775000148}
+{"iteration": 348, "status": "UNKNOWN", "constraints": 14660, "elapsed_seconds": 2369.694234900002}
+{"iteration": 349, "status": "UNKNOWN", "constraints": 14660, "elapsed_seconds": 2399.7678561000503}
+{"iteration": 350, "status": "UNKNOWN", "constraints": 14660, "elapsed_seconds": 2429.8095074000303}
+{"iteration": 351, "status": "OPTIMAL", "violated_line_signatures": 32, "total_excess": 33, "new_constraints": 32, "constraints": 14660, "best_violations": 19, "elapsed_seconds": 2455.5319362000446}
+{"iteration": 352, "status": "UNKNOWN", "constraints": 14692, "elapsed_seconds": 2485.604848900053}
+{"iteration": 353, "status": "UNKNOWN", "constraints": 14692, "elapsed_seconds": 2515.680265700037}
+{"iteration": 354, "status": "UNKNOWN", "constraints": 14692, "elapsed_seconds": 2545.71705190005}
+{"iteration": 355, "status": "OPTIMAL", "violated_line_signatures": 35, "total_excess": 38, "new_constraints": 35, "constraints": 14692, "best_violations": 19, "elapsed_seconds": 2558.0507797000464}
+{"iteration": 356, "status": "OPTIMAL", "violated_line_signatures": 27, "total_excess": 27, "new_constraints": 27, "constraints": 14727, "best_violations": 19, "elapsed_seconds": 2585.022870900051}
+{"iteration": 357, "status": "OPTIMAL", "violated_line_signatures": 24, "total_excess": 25, "new_constraints": 24, "constraints": 14754, "best_violations": 19, "elapsed_seconds": 2594.830876699998}
+{"iteration": 358, "status": "OPTIMAL", "violated_line_signatures": 43, "total_excess": 44, "new_constraints": 43, "constraints": 14778, "best_violations": 19, "elapsed_seconds": 2598.663343100052}
+{"iteration": 359, "status": "UNKNOWN", "constraints": 14821, "elapsed_seconds": 2628.7091003000387}
+{"iteration": 360, "status": "OPTIMAL", "violated_line_signatures": 32, "total_excess": 34, "new_constraints": 32, "constraints": 14821, "best_violations": 19, "elapsed_seconds": 2651.508983800013}
+{"iteration": 361, "status": "UNKNOWN", "constraints": 14853, "elapsed_seconds": 2681.5757370000356}
+{"iteration": 362, "status": "OPTIMAL", "violated_line_signatures": 26, "total_excess": 26, "new_constraints": 26, "constraints": 14853, "best_violations": 19, "elapsed_seconds": 2699.8671231000335}
+{"iteration": 363, "status": "UNKNOWN", "constraints": 14879, "elapsed_seconds": 2729.9143720000284}
+{"iteration": 364, "status": "OPTIMAL", "violated_line_signatures": 27, "total_excess": 27, "new_constraints": 27, "constraints": 14879, "best_violations": 19, "elapsed_seconds": 2755.383788200037}
+{"iteration": 365, "status": "OPTIMAL", "violated_line_signatures": 36, "total_excess": 37, "new_constraints": 36, "constraints": 14906, "best_violations": 19, "elapsed_seconds": 2777.796834100038}
+{"iteration": 366, "status": "OPTIMAL", "violated_line_signatures": 42, "total_excess": 44, "new_constraints": 42, "constraints": 14942, "best_violations": 19, "elapsed_seconds": 2805.0553539000102}
+{"iteration": 367, "status": "UNKNOWN", "constraints": 14984, "elapsed_seconds": 2835.1069870000356}
+{"iteration": 368, "status": "OPTIMAL", "violated_line_signatures": 32, "total_excess": 32, "new_constraints": 32, "constraints": 14984, "best_violations": 19, "elapsed_seconds": 2857.9747816000017}
+{"iteration": 369, "status": "UNKNOWN", "constraints": 15016, "elapsed_seconds": 2888.039309200016}
+{"iteration": 370, "status": "UNKNOWN", "constraints": 15016, "elapsed_seconds": 2918.1548377000145}
+{"iteration": 371, "status": "UNKNOWN", "constraints": 15016, "elapsed_seconds": 2948.204421500035}
+{"iteration": 372, "status": "UNKNOWN", "constraints": 15016, "elapsed_seconds": 2978.3589981000405}
+{"iteration": 373, "status": "UNKNOWN", "constraints": 15016, "elapsed_seconds": 3008.4845886999974}
+{"iteration": 374, "status": "UNKNOWN", "constraints": 15016, "elapsed_seconds": 3038.5423579000053}
+{"iteration": 375, "status": "UNKNOWN", "constraints": 15016, "elapsed_seconds": 3068.6392644000007}
+{"iteration": 376, "status": "UNKNOWN", "constraints": 15016, "elapsed_seconds": 3098.7462181000155}
+{"iteration": 377, "status": "UNKNOWN", "constraints": 15016, "elapsed_seconds": 3128.843205100042}
+{"iteration": 378, "status": "OPTIMAL", "violated_line_signatures": 40, "total_excess": 44, "new_constraints": 40, "constraints": 15016, "best_violations": 19, "elapsed_seconds": 3147.658084900002}
+{"iteration": 379, "status": "OPTIMAL", "violated_line_signatures": 30, "total_excess": 30, "new_constraints": 30, "constraints": 15056, "best_violations": 19, "elapsed_seconds": 3162.5585450000362}
+{"iteration": 380, "status": "OPTIMAL", "violated_line_signatures": 19, "total_excess": 19, "new_constraints": 19, "constraints": 15086, "best_violations": 19, "elapsed_seconds": 3184.847690900031}
+{"iteration": 381, "status": "UNKNOWN", "constraints": 15105, "elapsed_seconds": 3214.977916600008}
+{"iteration": 382, "status": "UNKNOWN", "constraints": 15105, "elapsed_seconds": 3245.0453561000177}
+{"iteration": 383, "status": "UNKNOWN", "constraints": 15105, "elapsed_seconds": 3275.102279200044}
+{"iteration": 384, "status": "OPTIMAL", "violated_line_signatures": 32, "total_excess": 33, "new_constraints": 32, "constraints": 15105, "best_violations": 19, "elapsed_seconds": 3294.5198002000106}
+{"iteration": 385, "status": "UNKNOWN", "constraints": 15137, "elapsed_seconds": 3324.661482000025}
+{"iteration": 386, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 34, "new_constraints": 33, "constraints": 15137, "best_violations": 19, "elapsed_seconds": 3346.066516300023}
+{"iteration": 387, "status": "OPTIMAL", "violated_line_signatures": 25, "total_excess": 25, "new_constraints": 25, "constraints": 15170, "best_violations": 19, "elapsed_seconds": 3369.2201404000516}
+{"iteration": 388, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 35, "new_constraints": 33, "constraints": 15195, "best_violations": 19, "elapsed_seconds": 3373.3082121000043}
+{"iteration": 389, "status": "OPTIMAL", "violated_line_signatures": 33, "total_excess": 36, "new_constraints": 33, "constraints": 15228, "best_violations": 19, "elapsed_seconds": 3384.989368700015}
+{"iteration": 390, "status": "OPTIMAL", "violated_line_signatures": 31, "total_excess": 33, "new_constraints": 31, "constraints": 15261, "best_violations": 19, "elapsed_seconds": 3411.6368733000127}
+{"iteration": 391, "status": "OPTIMAL", "violated_line_signatures": 38, "total_excess": 38, "new_constraints": 38, "constraints": 15292, "best_violations": 19, "elapsed_seconds": 3439.1861423000228}
+{"iteration": 392, "status": "OPTIMAL", "violated_line_signatures": 26, "total_excess": 28, "new_constraints": 26, "constraints": 15330, "best_violations": 19, "elapsed_seconds": 3467.171192500042}
+{"iteration": 393, "status": "UNKNOWN", "constraints": 15356, "elapsed_seconds": 3497.221412600018}
+{"iteration": 394, "status": "OPTIMAL", "violated_line_signatures": 30, "total_excess": 33, "new_constraints": 30, "constraints": 15356, "best_violations": 19, "elapsed_seconds": 3513.44255180005}
+{"iteration": 395, "status": "OPTIMAL", "violated_line_signatures": 24, "total_excess": 25, "new_constraints": 24, "constraints": 15386, "best_violations": 19, "elapsed_seconds": 3535.7405573000433}
+{"iteration": 396, "status": "UNKNOWN", "constraints": 15410, "elapsed_seconds": 3565.787705500028}
+{"iteration": 397, "status": "UNKNOWN", "constraints": 15410, "elapsed_seconds": 3595.9430444000172}
+{"iteration": 398, "status": "UNKNOWN", "constraints": 15410, "elapsed_seconds": 3600.032819200016}
+{
+  "found": false,
+  "m": 37,
+  "best_violations": 19,
+  "best_cells": [
+    [
+      0,
+      34
+    ],
+    [
+      1,
+      36
+    ],
+    [
+      2,
+      22
+    ],
+    [
+      5,
+      28
+    ],
+    [
+      5,
+      30
+    ],
+    [
+      6,
+      19
+    ],
+    [
+      6,
+      21
+    ],
+    [
+      7,
+      36
+    ],
+    [
+      8,
+      35
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      10,
+      4
+    ],
+    [
+      11,
+      23
+    ],
+    [
+      12,
+      33
+    ],
+    [
+      13,
+      11
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      15,
+      14
+    ],
+    [
+      16,
+      2
+    ],
+    [
+      17,
+      20
+    ],
+    [
+      18,
+      14
+    ],
+    [
+      20,
+      16
+    ],
+    [
+      21,
+      4
+    ],
+    [
+      22,
+      8
+    ],
+    [
+      23,
+      7
+    ],
+    [
+      24,
+      15
+    ],
+    [
+      24,
+      17
+    ],
+    [
+      25,
+      27
+    ],
+    [
+      25,
+      30
+    ],
+    [
+      26,
+      3
+    ],
+    [
+      26,
+      9
+    ],
+    [
+      27,
+      1
+    ],
+    [
+      28,
+      12
+    ],
+    [
+      31,
+      18
+    ],
+    [
+      32,
+      29
+    ],
+    [
+      32,
+      31
+    ],
+    [
+      33,
+      0
+    ],
+    [
+      34,
+      29
+    ],
+    [
+      35,
+      9
+    ]
+  ],
+  "constraints": 15410,
+  "elapsed_seconds": 3600.0349229000276
+}

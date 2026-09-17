@@ -1,0 +1,26 @@
+[
+  {
+    "n": 8,
+    "base_cnt": 32,
+    "final_cnt": 1,
+    "iters": 6,
+    "time": 0.0,
+    "ntil_ok": false
+  },
+  {
+    "n": 16,
+    "base_cnt": 123,
+    "final_cnt": 12,
+    "iters": 11,
+    "time": 0.2,
+    "ntil_ok": false
+  },
+  {
+    "n": 32,
+    "base_cnt": 619,
+    "final_cnt": 41,
+    "iters": 27,
+    "time": 11.9,
+    "ntil_ok": false
+  }
+]

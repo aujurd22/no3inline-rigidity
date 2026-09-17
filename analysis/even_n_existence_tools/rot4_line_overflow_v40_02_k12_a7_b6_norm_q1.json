@@ -1,0 +1,26 @@
+{
+  "parameters": {
+    "base": "v40_02",
+    "size": 12,
+    "adjacency_count": 7,
+    "triple_count": 6,
+    "loop_count": null,
+    "reselected_count": null,
+    "deficit_two_edge_count": null,
+    "quadruple_count": null,
+    "forbid_exact_reselection": true,
+    "direction_q": 1,
+    "hard_direction_q": 0,
+    "objective_line": [],
+    "time_limit": 60.0,
+    "workers": 2,
+    "out": "rot4_line_overflow_v40_02_k12_a7_b6_norm_q1.json"
+  },
+  "status": "UNKNOWN",
+  "objective": null,
+  "best_bound": 0.0,
+  "branches": 397139,
+  "conflicts": 24247,
+  "wall_s": 60.019,
+  "elapsed_s": 60.023
+}

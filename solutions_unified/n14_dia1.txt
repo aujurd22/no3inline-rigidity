@@ -1,0 +1,160 @@
+# solution 1
+# n=14 sym=dia1 status=verified source=flammenkamp_cache/n14_dia1
+# code=/68AC571C052D6B7D9B2304481A39
+0 6
+0 8
+1 10
+1 12
+2 5
+2 7
+3 1
+3 12
+4 0
+4 5
+5 2
+5 13
+6 6
+6 11
+7 7
+7 13
+8 9
+8 11
+9 2
+9 3
+10 0
+10 4
+11 4
+11 8
+12 1
+12 10
+13 3
+13 9
+
+# solution 2
+# n=14 sym=dia1 status=verified source=flammenkamp_cache/n14_dia1
+# code=/79462419AD165D8C57BC023B8A03
+0 7
+0 9
+1 4
+1 6
+2 2
+2 4
+3 1
+3 9
+4 10
+4 13
+5 1
+5 6
+6 5
+6 13
+7 8
+7 12
+8 5
+8 7
+9 11
+9 12
+10 0
+10 2
+11 3
+11 11
+12 8
+12 10
+13 0
+13 3
+
+# solution 3
+# n=14 sym=dia1 status=verified source=flammenkamp_cache/n14_dia1
+# code=/7B482B5C1C3D680A16AD79023459
+0 7
+0 11
+1 4
+1 8
+2 2
+2 11
+3 5
+3 12
+4 1
+4 12
+5 3
+5 13
+6 6
+6 8
+7 0
+7 10
+8 1
+8 6
+9 10
+9 13
+10 7
+10 9
+11 0
+11 2
+12 3
+12 4
+13 5
+13 9
+
+# solution 4
+# n=14 sym=dia1 status=verified source=flammenkamp_cache/n14_dia1
+# code=/7945BD581C13680A360D7B2A4C29
+0 7
+0 9
+1 4
+1 5
+2 11
+2 13
+3 5
+3 8
+4 1
+4 12
+5 1
+5 3
+6 6
+6 8
+7 0
+7 10
+8 3
+8 6
+9 0
+9 13
+10 7
+10 11
+11 2
+11 10
+12 4
+12 12
+13 2
+13 9
+
+# solution 5
+# n=14 sym=dia1 status=verified source=flammenkamp_cache/n14_dia1
+# code=/7B472D6A169B3401CD593C058A28
+0 7
+0 11
+1 4
+1 7
+2 2
+2 13
+3 6
+3 10
+4 1
+4 6
+5 9
+5 11
+6 3
+6 4
+7 0
+7 1
+8 12
+8 13
+9 5
+9 9
+10 3
+10 12
+11 0
+11 5
+12 8
+12 10
+13 2
+13 8
+

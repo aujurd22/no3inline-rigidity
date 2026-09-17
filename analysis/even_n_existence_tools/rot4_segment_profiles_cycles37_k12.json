@@ -1,0 +1,637 @@
+{
+  "parameters": {
+    "cycles": "37",
+    "deleted": 12,
+    "adjacency": null,
+    "out": "rot4_segment_profiles_cycles37_k12.json"
+  },
+  "profile_count": 60,
+  "profiles": [
+    {
+      "deleted": 12,
+      "adjacent": 0,
+      "triple": 0,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 1,
+      "triple": 0,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 2,
+      "triple": 0,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 2,
+      "triple": 1,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 3,
+      "triple": 0,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 3,
+      "triple": 1,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 3,
+      "triple": 2,
+      "quadruple": 1
+    },
+    {
+      "deleted": 12,
+      "adjacent": 4,
+      "triple": 0,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 4,
+      "triple": 1,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 4,
+      "triple": 2,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 4,
+      "triple": 2,
+      "quadruple": 1
+    },
+    {
+      "deleted": 12,
+      "adjacent": 4,
+      "triple": 3,
+      "quadruple": 2
+    },
+    {
+      "deleted": 12,
+      "adjacent": 5,
+      "triple": 0,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 5,
+      "triple": 1,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 5,
+      "triple": 2,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 5,
+      "triple": 2,
+      "quadruple": 1
+    },
+    {
+      "deleted": 12,
+      "adjacent": 5,
+      "triple": 3,
+      "quadruple": 1
+    },
+    {
+      "deleted": 12,
+      "adjacent": 5,
+      "triple": 3,
+      "quadruple": 2
+    },
+    {
+      "deleted": 12,
+      "adjacent": 5,
+      "triple": 4,
+      "quadruple": 3
+    },
+    {
+      "deleted": 12,
+      "adjacent": 6,
+      "triple": 0,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 6,
+      "triple": 1,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 6,
+      "triple": 2,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 6,
+      "triple": 2,
+      "quadruple": 1
+    },
+    {
+      "deleted": 12,
+      "adjacent": 6,
+      "triple": 3,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 6,
+      "triple": 3,
+      "quadruple": 1
+    },
+    {
+      "deleted": 12,
+      "adjacent": 6,
+      "triple": 3,
+      "quadruple": 2
+    },
+    {
+      "deleted": 12,
+      "adjacent": 6,
+      "triple": 4,
+      "quadruple": 2
+    },
+    {
+      "deleted": 12,
+      "adjacent": 6,
+      "triple": 4,
+      "quadruple": 3
+    },
+    {
+      "deleted": 12,
+      "adjacent": 6,
+      "triple": 5,
+      "quadruple": 4
+    },
+    {
+      "deleted": 12,
+      "adjacent": 7,
+      "triple": 2,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 7,
+      "triple": 2,
+      "quadruple": 1
+    },
+    {
+      "deleted": 12,
+      "adjacent": 7,
+      "triple": 3,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 7,
+      "triple": 3,
+      "quadruple": 1
+    },
+    {
+      "deleted": 12,
+      "adjacent": 7,
+      "triple": 3,
+      "quadruple": 2
+    },
+    {
+      "deleted": 12,
+      "adjacent": 7,
+      "triple": 4,
+      "quadruple": 1
+    },
+    {
+      "deleted": 12,
+      "adjacent": 7,
+      "triple": 4,
+      "quadruple": 2
+    },
+    {
+      "deleted": 12,
+      "adjacent": 7,
+      "triple": 4,
+      "quadruple": 3
+    },
+    {
+      "deleted": 12,
+      "adjacent": 7,
+      "triple": 5,
+      "quadruple": 3
+    },
+    {
+      "deleted": 12,
+      "adjacent": 7,
+      "triple": 5,
+      "quadruple": 4
+    },
+    {
+      "deleted": 12,
+      "adjacent": 7,
+      "triple": 6,
+      "quadruple": 5
+    },
+    {
+      "deleted": 12,
+      "adjacent": 8,
+      "triple": 4,
+      "quadruple": 0
+    },
+    {
+      "deleted": 12,
+      "adjacent": 8,
+      "triple": 4,
+      "quadruple": 1
+    },
+    {
+      "deleted": 12,
+      "adjacent": 8,
+      "triple": 4,
+      "quadruple": 2
+    },
+    {
+      "deleted": 12,
+      "adjacent": 8,
+      "triple": 4,
+      "quadruple": 3
+    },
+    {
+      "deleted": 12,
+      "adjacent": 8,
+      "triple": 5,
+      "quadruple": 2
+    },
+    {
+      "deleted": 12,
+      "adjacent": 8,
+      "triple": 5,
+      "quadruple": 3
+    },
+    {
+      "deleted": 12,
+      "adjacent": 8,
+      "triple": 5,
+      "quadruple": 4
+    },
+    {
+      "deleted": 12,
+      "adjacent": 8,
+      "triple": 6,
+      "quadruple": 4
+    },
+    {
+      "deleted": 12,
+      "adjacent": 8,
+      "triple": 6,
+      "quadruple": 5
+    },
+    {
+      "deleted": 12,
+      "adjacent": 8,
+      "triple": 7,
+      "quadruple": 6
+    },
+    {
+      "deleted": 12,
+      "adjacent": 9,
+      "triple": 6,
+      "quadruple": 3
+    },
+    {
+      "deleted": 12,
+      "adjacent": 9,
+      "triple": 6,
+      "quadruple": 4
+    },
+    {
+      "deleted": 12,
+      "adjacent": 9,
+      "triple": 6,
+      "quadruple": 5
+    },
+    {
+      "deleted": 12,
+      "adjacent": 9,
+      "triple": 7,
+      "quadruple": 5
+    },
+    {
+      "deleted": 12,
+      "adjacent": 9,
+      "triple": 7,
+      "quadruple": 6
+    },
+    {
+      "deleted": 12,
+      "adjacent": 9,
+      "triple": 8,
+      "quadruple": 7
+    },
+    {
+      "deleted": 12,
+      "adjacent": 10,
+      "triple": 8,
+      "quadruple": 6
+    },
+    {
+      "deleted": 12,
+      "adjacent": 10,
+      "triple": 8,
+      "quadruple": 7
+    },
+    {
+      "deleted": 12,
+      "adjacent": 10,
+      "triple": 9,
+      "quadruple": 8
+    },
+    {
+      "deleted": 12,
+      "adjacent": 11,
+      "triple": 10,
+      "quadruple": 9
+    }
+  ],
+  "triple_quadruple_by_adjacency": {
+    "0": [
+      [
+        0,
+        0
+      ]
+    ],
+    "1": [
+      [
+        0,
+        0
+      ]
+    ],
+    "2": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "3": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "4": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "5": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "6": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "7": [
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        5
+      ]
+    ],
+    "8": [
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        6
+      ]
+    ],
+    "9": [
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        8,
+        7
+      ]
+    ],
+    "10": [
+      [
+        8,
+        6
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        9,
+        8
+      ]
+    ],
+    "11": [
+      [
+        10,
+        9
+      ]
+    ]
+  }
+}

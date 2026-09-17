@@ -1,0 +1,18 @@
+# solution 1
+# n=7 sym=dia1 status=verified source=flammenkamp_cache/n7_dia1
+# code=/13053502461246
+0 1
+0 3
+1 0
+1 5
+2 3
+2 5
+3 0
+3 2
+4 4
+4 6
+5 1
+5 2
+6 4
+6 6
+

@@ -1,0 +1,1215 @@
+{
+  "basin_count": 4,
+  "common_undirected_edges": [
+    [
+      0,
+      30
+    ],
+    [
+      0,
+      33
+    ],
+    [
+      1,
+      31
+    ],
+    [
+      4,
+      12
+    ],
+    [
+      4,
+      19
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      22
+    ],
+    [
+      6,
+      31
+    ],
+    [
+      7,
+      28
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      8,
+      25
+    ],
+    [
+      9,
+      32
+    ],
+    [
+      9,
+      35
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      10,
+      24
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      12,
+      36
+    ],
+    [
+      14,
+      27
+    ],
+    [
+      16,
+      30
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      21,
+      32
+    ],
+    [
+      21,
+      33
+    ],
+    [
+      24,
+      34
+    ],
+    [
+      29,
+      35
+    ]
+  ],
+  "common_oriented_cells": [
+    [
+      0,
+      30
+    ],
+    [
+      0,
+      33
+    ],
+    [
+      4,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      8,
+      25
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      12,
+      36
+    ],
+    [
+      14,
+      27
+    ],
+    [
+      15,
+      10
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      24,
+      10
+    ],
+    [
+      24,
+      34
+    ],
+    [
+      28,
+      7
+    ],
+    [
+      30,
+      16
+    ],
+    [
+      31,
+      1
+    ],
+    [
+      31,
+      6
+    ],
+    [
+      32,
+      9
+    ],
+    [
+      32,
+      21
+    ],
+    [
+      33,
+      21
+    ],
+    [
+      35,
+      29
+    ]
+  ],
+  "common_exact_defect_orbits": 0,
+  "common_slope_types": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "union_slope_type_count": 20,
+  "pairwise": [
+    {
+      "left": "v40_01",
+      "right": "v40_02",
+      "edge_distance": 4,
+      "oriented_cell_distance": 7,
+      "shared_exact_defect_orbits": 6,
+      "shared_slope_types": 5,
+      "slope_jaccard": 0.4166666666666667
+    },
+    {
+      "left": "v40_01",
+      "right": "v40_03",
+      "edge_distance": 7,
+      "oriented_cell_distance": 14,
+      "shared_exact_defect_orbits": 0,
+      "shared_slope_types": 2,
+      "slope_jaccard": 0.13333333333333333
+    },
+    {
+      "left": "v40_01",
+      "right": "v40_04",
+      "edge_distance": 11,
+      "oriented_cell_distance": 15,
+      "shared_exact_defect_orbits": 0,
+      "shared_slope_types": 2,
+      "slope_jaccard": 0.13333333333333333
+    },
+    {
+      "left": "v40_02",
+      "right": "v40_03",
+      "edge_distance": 5,
+      "oriented_cell_distance": 9,
+      "shared_exact_defect_orbits": 0,
+      "shared_slope_types": 3,
+      "slope_jaccard": 0.23076923076923078
+    },
+    {
+      "left": "v40_02",
+      "right": "v40_04",
+      "edge_distance": 9,
+      "oriented_cell_distance": 12,
+      "shared_exact_defect_orbits": 0,
+      "shared_slope_types": 2,
+      "slope_jaccard": 0.14285714285714285
+    },
+    {
+      "left": "v40_03",
+      "right": "v40_04",
+      "edge_distance": 4,
+      "oriented_cell_distance": 4,
+      "shared_exact_defect_orbits": 4,
+      "shared_slope_types": 5,
+      "slope_jaccard": 0.45454545454545453
+    }
+  ],
+  "basins": [
+    {
+      "id": "v40_01",
+      "sources": [
+        "weighted_beam_escape_low_d4.json:exact1",
+        "joint_factor_sa_12x6000.json:exact3"
+      ],
+      "cycle_lengths": [
+        37
+      ],
+      "defect_orbits": 10,
+      "owner_arity_counts": {
+        "2": 1,
+        "3": 9
+      },
+      "slope_type_counts": {
+        "1,2": 1,
+        "1,5": 1,
+        "1,18": 1,
+        "1,21": 1,
+        "2,3": 2,
+        "4,5": 1,
+        "5,7": 1,
+        "7,11": 1,
+        "12,17": 1
+      },
+      "defects": [
+        {
+          "points": [
+            [
+              0,
+              30
+            ],
+            [
+              17,
+              18
+            ],
+            [
+              34,
+              6
+            ]
+          ],
+          "slope_type": [
+            12,
+            17
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              1,
+              59
+            ],
+            [
+              22,
+              58
+            ],
+            [
+              43,
+              57
+            ]
+          ],
+          "slope_type": [
+            1,
+            21
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              3,
+              19
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              38,
+              44
+            ]
+          ],
+          "slope_type": [
+            5,
+            7
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              4,
+              12
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              39,
+              67
+            ]
+          ],
+          "slope_type": [
+            7,
+            11
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              4,
+              54
+            ],
+            [
+              40,
+              52
+            ],
+            [
+              58,
+              51
+            ]
+          ],
+          "slope_type": [
+            1,
+            18
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              5,
+              7
+            ],
+            [
+              33,
+              21
+            ],
+            [
+              39,
+              24
+            ]
+          ],
+          "slope_type": [
+            1,
+            2
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              5,
+              22
+            ],
+            [
+              29,
+              38
+            ],
+            [
+              38,
+              44
+            ]
+          ],
+          "slope_type": [
+            2,
+            3
+          ],
+          "owner_arity": 2
+        },
+        {
+          "points": [
+            [
+              8,
+              13
+            ],
+            [
+              28,
+              17
+            ],
+            [
+              63,
+              24
+            ]
+          ],
+          "slope_type": [
+            1,
+            5
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              8,
+              25
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              32,
+              9
+            ]
+          ],
+          "slope_type": [
+            2,
+            3
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              15,
+              22
+            ],
+            [
+              27,
+              37
+            ],
+            [
+              43,
+              57
+            ]
+          ],
+          "slope_type": [
+            4,
+            5
+          ],
+          "owner_arity": 3
+        }
+      ]
+    },
+    {
+      "id": "v40_02",
+      "sources": [
+        "weighted_beam_escape_d3.json:exact1",
+        "joint_factor_sa_12x6000.json:exact2"
+      ],
+      "cycle_lengths": [
+        37
+      ],
+      "defect_orbits": 10,
+      "owner_arity_counts": {
+        "2": 2,
+        "3": 8
+      },
+      "slope_type_counts": {
+        "1,2": 2,
+        "1,4": 1,
+        "1,5": 1,
+        "2,3": 2,
+        "6,7": 1,
+        "7,11": 1,
+        "9,10": 1,
+        "12,17": 1
+      },
+      "defects": [
+        {
+          "points": [
+            [
+              0,
+              30
+            ],
+            [
+              17,
+              18
+            ],
+            [
+              34,
+              6
+            ]
+          ],
+          "slope_type": [
+            12,
+            17
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              1,
+              54
+            ],
+            [
+              13,
+              57
+            ],
+            [
+              41,
+              64
+            ]
+          ],
+          "slope_type": [
+            1,
+            4
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              1,
+              54
+            ],
+            [
+              25,
+              26
+            ],
+            [
+              37,
+              12
+            ]
+          ],
+          "slope_type": [
+            6,
+            7
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              3,
+              29
+            ],
+            [
+              37,
+              12
+            ],
+            [
+              51,
+              5
+            ]
+          ],
+          "slope_type": [
+            1,
+            2
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              4,
+              12
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              39,
+              67
+            ]
+          ],
+          "slope_type": [
+            7,
+            11
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              5,
+              7
+            ],
+            [
+              33,
+              21
+            ],
+            [
+              39,
+              24
+            ]
+          ],
+          "slope_type": [
+            1,
+            2
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              5,
+              22
+            ],
+            [
+              29,
+              38
+            ],
+            [
+              38,
+              44
+            ]
+          ],
+          "slope_type": [
+            2,
+            3
+          ],
+          "owner_arity": 2
+        },
+        {
+          "points": [
+            [
+              8,
+              13
+            ],
+            [
+              28,
+              17
+            ],
+            [
+              63,
+              24
+            ]
+          ],
+          "slope_type": [
+            1,
+            5
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              8,
+              25
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              32,
+              9
+            ]
+          ],
+          "slope_type": [
+            2,
+            3
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              17,
+              45
+            ],
+            [
+              27,
+              36
+            ],
+            [
+              37,
+              27
+            ]
+          ],
+          "slope_type": [
+            9,
+            10
+          ],
+          "owner_arity": 2
+        }
+      ]
+    },
+    {
+      "id": "v40_03",
+      "sources": [
+        "weighted_40_verified",
+        "partial_hitting_repair_slack1.json:exact1",
+        "safe_path_relink_d2.json:exact1",
+        "joint_factor_sa_12x6000.json:exact4"
+      ],
+      "cycle_lengths": [
+        4,
+        33
+      ],
+      "defect_orbits": 10,
+      "owner_arity_counts": {
+        "3": 10
+      },
+      "slope_type_counts": {
+        "1,2": 2,
+        "1,4": 1,
+        "1,6": 1,
+        "2,3": 1,
+        "3,4": 2,
+        "3,13": 1,
+        "7,9": 1,
+        "8,11": 1
+      },
+      "defects": [
+        {
+          "points": [
+            [
+              1,
+              54
+            ],
+            [
+              5,
+              51
+            ],
+            [
+              37,
+              27
+            ]
+          ],
+          "slope_type": [
+            3,
+            4
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              2,
+              53
+            ],
+            [
+              5,
+              51
+            ],
+            [
+              62,
+              13
+            ]
+          ],
+          "slope_type": [
+            2,
+            3
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              2,
+              53
+            ],
+            [
+              38,
+              44
+            ],
+            [
+              58,
+              39
+            ]
+          ],
+          "slope_type": [
+            1,
+            4
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              4,
+              19
+            ],
+            [
+              16,
+              28
+            ],
+            [
+              24,
+              34
+            ]
+          ],
+          "slope_type": [
+            3,
+            4
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              6,
+              56
+            ],
+            [
+              10,
+              58
+            ],
+            [
+              18,
+              62
+            ]
+          ],
+          "slope_type": [
+            1,
+            2
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              8,
+              25
+            ],
+            [
+              15,
+              34
+            ],
+            [
+              36,
+              61
+            ]
+          ],
+          "slope_type": [
+            7,
+            9
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              9,
+              35
+            ],
+            [
+              35,
+              29
+            ],
+            [
+              48,
+              26
+            ]
+          ],
+          "slope_type": [
+            3,
+            13
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              11,
+              60
+            ],
+            [
+              21,
+              40
+            ],
+            [
+              24,
+              34
+            ]
+          ],
+          "slope_type": [
+            1,
+            2
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              14,
+              27
+            ],
+            [
+              20,
+              26
+            ],
+            [
+              26,
+              25
+            ]
+          ],
+          "slope_type": [
+            1,
+            6
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              16,
+              28
+            ],
+            [
+              27,
+              36
+            ],
+            [
+              38,
+              44
+            ]
+          ],
+          "slope_type": [
+            8,
+            11
+          ],
+          "owner_arity": 3
+        }
+      ]
+    },
+    {
+      "id": "v40_04",
+      "sources": [
+        "partial_hitting_40_slack2.json:exact1",
+        "safe_path_relink_d2.json:exact2",
+        "joint_factor_sa_12x6000.json:exact1"
+      ],
+      "cycle_lengths": [
+        4,
+        16,
+        17
+      ],
+      "defect_orbits": 10,
+      "owner_arity_counts": {
+        "2": 1,
+        "3": 9
+      },
+      "slope_type_counts": {
+        "1,2": 3,
+        "1,3": 1,
+        "1,6": 1,
+        "1,10": 1,
+        "2,3": 1,
+        "3,4": 1,
+        "3,19": 1,
+        "7,9": 1
+      },
+      "defects": [
+        {
+          "points": [
+            [
+              2,
+              37
+            ],
+            [
+              12,
+              36
+            ],
+            [
+              52,
+              32
+            ]
+          ],
+          "slope_type": [
+            1,
+            10
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              2,
+              37
+            ],
+            [
+              21,
+              40
+            ],
+            [
+              59,
+              46
+            ]
+          ],
+          "slope_type": [
+            3,
+            19
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              4,
+              19
+            ],
+            [
+              16,
+              28
+            ],
+            [
+              24,
+              34
+            ]
+          ],
+          "slope_type": [
+            3,
+            4
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              5,
+              51
+            ],
+            [
+              29,
+              47
+            ],
+            [
+              47,
+              44
+            ]
+          ],
+          "slope_type": [
+            1,
+            6
+          ],
+          "owner_arity": 2
+        },
+        {
+          "points": [
+            [
+              6,
+              56
+            ],
+            [
+              10,
+              58
+            ],
+            [
+              18,
+              62
+            ]
+          ],
+          "slope_type": [
+            1,
+            2
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              8,
+              25
+            ],
+            [
+              15,
+              34
+            ],
+            [
+              36,
+              61
+            ]
+          ],
+          "slope_type": [
+            7,
+            9
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              11,
+              60
+            ],
+            [
+              21,
+              40
+            ],
+            [
+              24,
+              34
+            ]
+          ],
+          "slope_type": [
+            1,
+            2
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              14,
+              22
+            ],
+            [
+              20,
+              26
+            ],
+            [
+              47,
+              44
+            ]
+          ],
+          "slope_type": [
+            2,
+            3
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              14,
+              27
+            ],
+            [
+              21,
+              41
+            ],
+            [
+              27,
+              53
+            ]
+          ],
+          "slope_type": [
+            1,
+            2
+          ],
+          "owner_arity": 3
+        },
+        {
+          "points": [
+            [
+              20,
+              27
+            ],
+            [
+              26,
+              29
+            ],
+            [
+              44,
+              35
+            ]
+          ],
+          "slope_type": [
+            1,
+            3
+          ],
+          "owner_arity": 3
+        }
+      ]
+    }
+  ]
+}

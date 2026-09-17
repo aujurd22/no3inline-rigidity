@@ -1,0 +1,20 @@
+{
+  "n_configs": 8,
+  "per_config_frustrated_triangles": [
+    838,
+    521,
+    732,
+    671,
+    673,
+    469,
+    849,
+    822
+  ],
+  "full_intersection_size": 0,
+  "pairwise_intersection": {
+    "min": 0,
+    "max": 0,
+    "avg": 0.0
+  },
+  "sample_common": []
+}

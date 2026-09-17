@@ -1,0 +1,27 @@
+{
+  "question": "How long would a FULL exhaustive nibble search on GPU take at m=37?",
+  "date": "2026-07-14",
+  "method": "Measured the COMPLETE (no-budget, deterministic) DFS search-tree node count for the k=0 permutation slice at m=3..12, fit nodes(m)~c*r^m log-linearly on m=7..12, extrapolated to m=37. Multiplied by the number of 2-factor type multisets for the full space.",
+  "measured_k0_slice_nodes": {
+    "3": 9, "4": 30, "5": 87, "6": 258, "7": 817, "8": 2835,
+    "9": 10288, "10": 39472, "11": 141213, "12": 599834
+  },
+  "note_sols": "k=0 permutation slice has NO solution for m>=6 (real rot4 solutions are non-permutation 2-factors). This slice is the SMALLEST of all types => strict lower bound on the tree.",
+  "fit": {"model": "nodes ~ c * r^m", "c": 0.07708, "r": 3.7288, "range": "m=7..12",
+          "caveat": "r drifts upward with m (top-of-tree branching ~ m), so extrapolation is a mild UNDER-estimate"},
+  "search_space_size": {
+    "k0_slice_at_m37_nodes": 1.084e20,
+    "num_2factor_type_multisets": 3.599e16,
+    "full_exhaustive_all_types_nodes": 3.90e36
+  },
+  "gpu_throughput_nodes_per_sec": {
+    "current_vectorized_impl": 8.635e4,
+    "idealized_fused_kernel": 1e9
+  },
+  "time_estimate_years": {
+    "k0_slice": {"current_gpu": 3.98e7, "ideal_gpu": 3.44e3},
+    "full_all_types": {"current_gpu": 1.43e24, "ideal_gpu": 1.24e20}
+  },
+  "age_of_universe_years": 1.38e10,
+  "verdict": "Full exhaustive GPU nibble is astronomically infeasible: ~1e24 yr (current code) to ~1e20 yr (idealized perfect GPU) = 10^10 to 10^14 times the age of the universe. Even the smallest solution-free slice needs ~40M yr (current) / ~3400 yr (ideal). This is why we use randomized nibble + SAT (smart pruning), never brute force."
+}

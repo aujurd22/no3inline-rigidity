@@ -1,0 +1,106 @@
+{
+  "component_count": 3,
+  "enumeration_mode": "fixed_adjacency",
+  "target_selected": 9,
+  "target_adjacency": 1,
+  "distinct_shape_masks": 32703033,
+  "defect_hitting_masks": 113503,
+  "factor_feasible_masks": 0,
+  "all_factor_infeasible": true,
+  "total_factor_search_nodes": 113503,
+  "maximum_factor_search_nodes": 1,
+  "root_zero_option_by_deficit": {
+    "1": 107172,
+    "2": 6331
+  },
+  "search_node_histogram": {
+    "1": 113503
+  },
+  "sample_hitting_masks": [
+    51573751916,
+    51573752108,
+    51573752116,
+    51573752120,
+    51573752228,
+    51573752232,
+    51573752376,
+    51573752420,
+    51573752488,
+    51573752616
+  ],
+  "feasible_masks": [],
+  "first_feasible_mask": 0,
+  "first_feasible_cells": [],
+  "base": "v40_04",
+  "cycle_edge_orders": [
+    [
+      0,
+      28,
+      27,
+      14,
+      10,
+      11,
+      24,
+      25,
+      31,
+      30,
+      35,
+      36,
+      18,
+      17,
+      32,
+      33,
+      1
+    ],
+    [
+      2,
+      9,
+      8,
+      23,
+      5,
+      4,
+      6,
+      7,
+      16,
+      15,
+      21,
+      22,
+      29,
+      12,
+      13,
+      3
+    ],
+    [
+      19,
+      26,
+      34,
+      20
+    ]
+  ],
+  "first_feasible_removed_indices": [],
+  "method": {
+    "k": 9,
+    "A": 1,
+    "required_full_cycle_length": null,
+    "cycle_handling": "direct local (selected-edge-count, adjacency-count) generation; empty, partially selected, and fully selected cycles are distinct",
+    "normalization": "all exact old-orientation reselections forbidden",
+    "multigraph": "both (u,v) and (v,u) allowed simultaneously",
+    "geometry": "candidate cells filtered by exact retained-base blocker masks",
+    "factor": "exact deficit-0/1/2 f-factor DFS; loops consume 2 and opposite orientations may form a digon",
+    "line_capacities": "none (q=0 shadow factor)"
+  },
+  "stderr_progress_tail": [
+    "hit=10000 feasible=0 nodes=10000",
+    "hit=20000 feasible=0 nodes=20000",
+    "hit=30000 feasible=0 nodes=30000",
+    "hit=40000 feasible=0 nodes=40000",
+    "hit=50000 feasible=0 nodes=50000",
+    "hit=60000 feasible=0 nodes=60000",
+    "hit=70000 feasible=0 nodes=70000",
+    "hit=80000 feasible=0 nodes=80000",
+    "hit=90000 feasible=0 nodes=90000",
+    "hit=100000 feasible=0 nodes=100000",
+    "hit=110000 feasible=0 nodes=110000"
+  ],
+  "elapsed_s": 1.134
+}

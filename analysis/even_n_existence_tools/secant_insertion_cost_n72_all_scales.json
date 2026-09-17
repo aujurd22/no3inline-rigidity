@@ -1,0 +1,4296 @@
+{
+  "results": [
+    {
+      "n": 72,
+      "q": 2,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 1,
+      "mean_nonaxis_secant_cost": 1.0063492063492063,
+      "maximum_nonaxis_secant_cost": 2,
+      "cost_histogram": {
+        "0": 1212,
+        "1": 2584,
+        "2": 1244
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 0,
+      "consequent_removed_count_lower_bound": 2,
+      "first_alternating_cycle": {
+        "cycle_node_count": 8,
+        "removed_count": 4,
+        "removed": [
+          [
+            32,
+            0
+          ],
+          [
+            24,
+            3
+          ],
+          [
+            43,
+            2
+          ],
+          [
+            29,
+            1
+          ]
+        ],
+        "added": [
+          [
+            32,
+            3
+          ],
+          [
+            24,
+            2
+          ],
+          [
+            43,
+            1
+          ],
+          [
+            29,
+            0
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 2,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 2,
+        "cost_threshold": 0,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 2,
+          "removed": [
+            [
+              32,
+              0
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              0
+            ],
+            [
+              32,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 3,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 2,
+      "mean_nonaxis_secant_cost": 1.7880952380952382,
+      "maximum_nonaxis_secant_cost": 5,
+      "cost_histogram": {
+        "0": 488,
+        "1": 1660,
+        "2": 1672,
+        "3": 904,
+        "4": 284,
+        "5": 32
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 0,
+      "consequent_removed_count_lower_bound": 2,
+      "first_alternating_cycle": {
+        "cycle_node_count": 8,
+        "removed_count": 4,
+        "removed": [
+          [
+            9,
+            5
+          ],
+          [
+            51,
+            6
+          ],
+          [
+            23,
+            12
+          ],
+          [
+            15,
+            50
+          ]
+        ],
+        "added": [
+          [
+            9,
+            6
+          ],
+          [
+            51,
+            12
+          ],
+          [
+            23,
+            50
+          ],
+          [
+            15,
+            5
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 2,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 2,
+        "cost_threshold": 0,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 2,
+          "removed": [
+            [
+              40,
+              10
+            ],
+            [
+              0,
+              39
+            ]
+          ],
+          "added": [
+            [
+              0,
+              10
+            ],
+            [
+              40,
+              39
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 4,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 3,
+      "mean_nonaxis_secant_cost": 2.68968253968254,
+      "maximum_nonaxis_secant_cost": 7,
+      "cost_histogram": {
+        "0": 196,
+        "1": 848,
+        "2": 1336,
+        "3": 1268,
+        "4": 864,
+        "5": 404,
+        "6": 112,
+        "7": 12
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 0,
+      "consequent_removed_count_lower_bound": 2,
+      "first_alternating_cycle": {
+        "cycle_node_count": 6,
+        "removed_count": 3,
+        "removed": [
+          [
+            9,
+            5
+          ],
+          [
+            23,
+            8
+          ],
+          [
+            15,
+            50
+          ]
+        ],
+        "added": [
+          [
+            9,
+            8
+          ],
+          [
+            23,
+            50
+          ],
+          [
+            15,
+            5
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 2,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 2,
+        "cost_threshold": 0,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 2,
+          "removed": [
+            [
+              60,
+              30
+            ],
+            [
+              5,
+              62
+            ]
+          ],
+          "added": [
+            [
+              5,
+              30
+            ],
+            [
+              60,
+              62
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 5,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 3,
+      "mean_nonaxis_secant_cost": 3.2182539682539684,
+      "maximum_nonaxis_secant_cost": 8,
+      "cost_histogram": {
+        "0": 112,
+        "1": 556,
+        "2": 1048,
+        "3": 1244,
+        "4": 1068,
+        "5": 624,
+        "6": 288,
+        "7": 84,
+        "8": 16
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 0,
+      "consequent_removed_count_lower_bound": 2,
+      "first_alternating_cycle": {
+        "cycle_node_count": 14,
+        "removed_count": 7,
+        "removed": [
+          [
+            55,
+            7
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            37,
+            0
+          ],
+          [
+            49,
+            35
+          ],
+          [
+            34,
+            71
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ]
+        ],
+        "added": [
+          [
+            55,
+            26
+          ],
+          [
+            25,
+            0
+          ],
+          [
+            37,
+            35
+          ],
+          [
+            49,
+            71
+          ],
+          [
+            34,
+            3
+          ],
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            7
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 3,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 3,
+        "cost_threshold": 0,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              55,
+              7
+            ],
+            [
+              10,
+              65
+            ],
+            [
+              6,
+              10
+            ]
+          ],
+          "added": [
+            [
+              6,
+              7
+            ],
+            [
+              55,
+              65
+            ],
+            [
+              10,
+              10
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 6,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 4,
+      "mean_nonaxis_secant_cost": 3.8285714285714287,
+      "maximum_nonaxis_secant_cost": 10,
+      "cost_histogram": {
+        "0": 56,
+        "1": 320,
+        "2": 740,
+        "3": 1140,
+        "4": 1052,
+        "5": 936,
+        "6": 496,
+        "7": 212,
+        "8": 68,
+        "9": 16,
+        "10": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 0,
+      "consequent_removed_count_lower_bound": 2,
+      "first_alternating_cycle": {
+        "cycle_node_count": 8,
+        "removed_count": 4,
+        "removed": [
+          [
+            34,
+            71
+          ],
+          [
+            22,
+            36
+          ],
+          [
+            37,
+            0
+          ],
+          [
+            49,
+            35
+          ]
+        ],
+        "added": [
+          [
+            49,
+            71
+          ],
+          [
+            34,
+            36
+          ],
+          [
+            22,
+            0
+          ],
+          [
+            37,
+            35
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 3,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 3,
+        "cost_threshold": 1,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 2,
+          "removed": [
+            [
+              61,
+              6
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              6
+            ],
+            [
+              61,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 7,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 4,
+      "mean_nonaxis_secant_cost": 4.0928571428571425,
+      "maximum_nonaxis_secant_cost": 10,
+      "cost_histogram": {
+        "0": 52,
+        "1": 240,
+        "2": 580,
+        "3": 1076,
+        "4": 1048,
+        "5": 1088,
+        "6": 516,
+        "7": 288,
+        "8": 116,
+        "9": 32,
+        "10": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 0,
+      "consequent_removed_count_lower_bound": 2,
+      "first_alternating_cycle": {
+        "cycle_node_count": 8,
+        "removed_count": 4,
+        "removed": [
+          [
+            34,
+            71
+          ],
+          [
+            22,
+            36
+          ],
+          [
+            37,
+            0
+          ],
+          [
+            49,
+            35
+          ]
+        ],
+        "added": [
+          [
+            49,
+            71
+          ],
+          [
+            34,
+            36
+          ],
+          [
+            22,
+            0
+          ],
+          [
+            37,
+            35
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 3,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 3,
+        "cost_threshold": 1,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 2,
+          "removed": [
+            [
+              61,
+              6
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              6
+            ],
+            [
+              61,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 8,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 5,
+      "mean_nonaxis_secant_cost": 4.683333333333334,
+      "maximum_nonaxis_secant_cost": 11,
+      "cost_histogram": {
+        "0": 16,
+        "1": 152,
+        "2": 384,
+        "3": 824,
+        "4": 964,
+        "5": 1100,
+        "6": 820,
+        "7": 440,
+        "8": 228,
+        "9": 96,
+        "10": 8,
+        "11": 8
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 10,
+        "removed_count": 5,
+        "removed": [
+          [
+            32,
+            0
+          ],
+          [
+            28,
+            66
+          ],
+          [
+            42,
+            18
+          ],
+          [
+            24,
+            3
+          ],
+          [
+            2,
+            22
+          ]
+        ],
+        "added": [
+          [
+            32,
+            66
+          ],
+          [
+            28,
+            18
+          ],
+          [
+            42,
+            3
+          ],
+          [
+            24,
+            22
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 3,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 3,
+        "cost_threshold": 1,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              22,
+              69
+            ],
+            [
+              3,
+              47
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              69
+            ],
+            [
+              22,
+              47
+            ],
+            [
+              3,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 9,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 5,
+      "mean_nonaxis_secant_cost": 4.916666666666667,
+      "maximum_nonaxis_secant_cost": 11,
+      "cost_histogram": {
+        "0": 8,
+        "1": 136,
+        "2": 324,
+        "3": 704,
+        "4": 928,
+        "5": 1088,
+        "6": 896,
+        "7": 516,
+        "8": 268,
+        "9": 128,
+        "10": 36,
+        "11": 8
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 12,
+        "removed_count": 6,
+        "removed": [
+          [
+            27,
+            4
+          ],
+          [
+            34,
+            19
+          ],
+          [
+            29,
+            1
+          ],
+          [
+            41,
+            68
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            65,
+            61
+          ]
+        ],
+        "added": [
+          [
+            27,
+            19
+          ],
+          [
+            34,
+            1
+          ],
+          [
+            29,
+            68
+          ],
+          [
+            41,
+            5
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            65,
+            4
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 3,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 3,
+        "cost_threshold": 1,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              22,
+              69
+            ],
+            [
+              3,
+              47
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              69
+            ],
+            [
+              22,
+              47
+            ],
+            [
+              3,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 10,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 5,
+      "mean_nonaxis_secant_cost": 5.184126984126984,
+      "maximum_nonaxis_secant_cost": 11,
+      "cost_histogram": {
+        "0": 8,
+        "1": 116,
+        "2": 276,
+        "3": 568,
+        "4": 896,
+        "5": 1024,
+        "6": 920,
+        "7": 664,
+        "8": 332,
+        "9": 144,
+        "10": 80,
+        "11": 12
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 10,
+        "removed_count": 5,
+        "removed": [
+          [
+            27,
+            4
+          ],
+          [
+            34,
+            19
+          ],
+          [
+            41,
+            68
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            65,
+            61
+          ]
+        ],
+        "added": [
+          [
+            27,
+            19
+          ],
+          [
+            34,
+            68
+          ],
+          [
+            41,
+            5
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            65,
+            4
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 3,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 3,
+        "cost_threshold": 1,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              7,
+              14
+            ],
+            [
+              19,
+              9
+            ],
+            [
+              4,
+              44
+            ]
+          ],
+          "added": [
+            [
+              4,
+              14
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              19,
+              44
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 11,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 5,
+      "mean_nonaxis_secant_cost": 5.337301587301587,
+      "maximum_nonaxis_secant_cost": 11,
+      "cost_histogram": {
+        "0": 8,
+        "1": 100,
+        "2": 252,
+        "3": 536,
+        "4": 820,
+        "5": 1004,
+        "6": 960,
+        "7": 680,
+        "8": 396,
+        "9": 160,
+        "10": 104,
+        "11": 20
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 10,
+        "removed_count": 5,
+        "removed": [
+          [
+            41,
+            68
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            65,
+            61
+          ],
+          [
+            27,
+            4
+          ],
+          [
+            34,
+            19
+          ]
+        ],
+        "added": [
+          [
+            41,
+            5
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            65,
+            4
+          ],
+          [
+            27,
+            19
+          ],
+          [
+            34,
+            68
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 3,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 3,
+        "cost_threshold": 1,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              7,
+              14
+            ],
+            [
+              19,
+              9
+            ],
+            [
+              4,
+              44
+            ]
+          ],
+          "added": [
+            [
+              4,
+              14
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              19,
+              44
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 12,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 6,
+      "mean_nonaxis_secant_cost": 5.6341269841269845,
+      "maximum_nonaxis_secant_cost": 11,
+      "cost_histogram": {
+        "0": 4,
+        "1": 92,
+        "2": 196,
+        "3": 436,
+        "4": 732,
+        "5": 996,
+        "6": 960,
+        "7": 736,
+        "8": 428,
+        "9": 284,
+        "10": 132,
+        "11": 44
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 10,
+        "removed_count": 5,
+        "removed": [
+          [
+            27,
+            4
+          ],
+          [
+            34,
+            19
+          ],
+          [
+            41,
+            68
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            65,
+            61
+          ]
+        ],
+        "added": [
+          [
+            27,
+            19
+          ],
+          [
+            34,
+            68
+          ],
+          [
+            41,
+            5
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            65,
+            4
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 3,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 3,
+        "cost_threshold": 1,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              7,
+              14
+            ],
+            [
+              19,
+              9
+            ],
+            [
+              4,
+              44
+            ]
+          ],
+          "added": [
+            [
+              4,
+              14
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              19,
+              44
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 13,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 0,
+      "median_nonaxis_secant_cost": 6,
+      "mean_nonaxis_secant_cost": 5.735714285714286,
+      "maximum_nonaxis_secant_cost": 12,
+      "cost_histogram": {
+        "0": 4,
+        "1": 80,
+        "2": 180,
+        "3": 408,
+        "4": 720,
+        "5": 992,
+        "6": 924,
+        "7": 752,
+        "8": 472,
+        "9": 316,
+        "10": 140,
+        "11": 48,
+        "12": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 10,
+        "removed_count": 5,
+        "removed": [
+          [
+            27,
+            4
+          ],
+          [
+            34,
+            19
+          ],
+          [
+            41,
+            68
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            65,
+            61
+          ]
+        ],
+        "added": [
+          [
+            27,
+            19
+          ],
+          [
+            34,
+            68
+          ],
+          [
+            41,
+            5
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            65,
+            4
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 3,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 3,
+        "cost_threshold": 1,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              7,
+              14
+            ],
+            [
+              19,
+              9
+            ],
+            [
+              4,
+              44
+            ]
+          ],
+          "added": [
+            [
+              4,
+              14
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              19,
+              44
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 14,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 6,
+      "mean_nonaxis_secant_cost": 5.9412698412698415,
+      "maximum_nonaxis_secant_cost": 13,
+      "cost_histogram": {
+        "1": 60,
+        "2": 160,
+        "3": 364,
+        "4": 692,
+        "5": 892,
+        "6": 972,
+        "7": 784,
+        "8": 496,
+        "9": 352,
+        "10": 192,
+        "11": 52,
+        "12": 16,
+        "13": 8
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 10,
+        "removed_count": 5,
+        "removed": [
+          [
+            34,
+            19
+          ],
+          [
+            41,
+            68
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            65,
+            61
+          ],
+          [
+            27,
+            4
+          ]
+        ],
+        "added": [
+          [
+            27,
+            19
+          ],
+          [
+            34,
+            68
+          ],
+          [
+            41,
+            5
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            65,
+            4
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 3,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 3,
+        "cost_threshold": 1,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              19,
+              9
+            ],
+            [
+              60,
+              44
+            ],
+            [
+              7,
+              14
+            ]
+          ],
+          "added": [
+            [
+              7,
+              9
+            ],
+            [
+              19,
+              44
+            ],
+            [
+              60,
+              14
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 15,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 6,
+      "mean_nonaxis_secant_cost": 6.023809523809524,
+      "maximum_nonaxis_secant_cost": 13,
+      "cost_histogram": {
+        "1": 60,
+        "2": 148,
+        "3": 356,
+        "4": 640,
+        "5": 900,
+        "6": 972,
+        "7": 788,
+        "8": 500,
+        "9": 376,
+        "10": 192,
+        "11": 84,
+        "12": 12,
+        "13": 12
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 10,
+        "removed_count": 5,
+        "removed": [
+          [
+            34,
+            19
+          ],
+          [
+            41,
+            68
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            65,
+            61
+          ],
+          [
+            27,
+            4
+          ]
+        ],
+        "added": [
+          [
+            27,
+            19
+          ],
+          [
+            34,
+            68
+          ],
+          [
+            41,
+            5
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            65,
+            4
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 3,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 3,
+        "cost_threshold": 1,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              19,
+              9
+            ],
+            [
+              60,
+              44
+            ],
+            [
+              7,
+              14
+            ]
+          ],
+          "added": [
+            [
+              7,
+              9
+            ],
+            [
+              19,
+              44
+            ],
+            [
+              60,
+              14
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 16,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 6,
+      "mean_nonaxis_secant_cost": 6.107142857142857,
+      "maximum_nonaxis_secant_cost": 13,
+      "cost_histogram": {
+        "1": 56,
+        "2": 144,
+        "3": 324,
+        "4": 652,
+        "5": 864,
+        "6": 928,
+        "7": 836,
+        "8": 528,
+        "9": 376,
+        "10": 184,
+        "11": 120,
+        "12": 16,
+        "13": 12
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 10,
+        "removed_count": 5,
+        "removed": [
+          [
+            34,
+            19
+          ],
+          [
+            41,
+            68
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            65,
+            61
+          ],
+          [
+            27,
+            4
+          ]
+        ],
+        "added": [
+          [
+            27,
+            19
+          ],
+          [
+            34,
+            68
+          ],
+          [
+            41,
+            5
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            65,
+            4
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 3,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 3,
+        "cost_threshold": 1,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              19,
+              9
+            ],
+            [
+              60,
+              44
+            ],
+            [
+              7,
+              14
+            ]
+          ],
+          "added": [
+            [
+              7,
+              9
+            ],
+            [
+              19,
+              44
+            ],
+            [
+              60,
+              14
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 17,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 6,
+      "mean_nonaxis_secant_cost": 6.1761904761904765,
+      "maximum_nonaxis_secant_cost": 13,
+      "cost_histogram": {
+        "1": 48,
+        "2": 152,
+        "3": 300,
+        "4": 620,
+        "5": 840,
+        "6": 940,
+        "7": 868,
+        "8": 536,
+        "9": 372,
+        "10": 208,
+        "11": 120,
+        "12": 24,
+        "13": 12
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 12,
+        "removed_count": 6,
+        "removed": [
+          [
+            62,
+            19
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            9,
+            52
+          ],
+          [
+            65,
+            61
+          ],
+          [
+            27,
+            4
+          ]
+        ],
+        "added": [
+          [
+            27,
+            19
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            67
+          ],
+          [
+            44,
+            52
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            65,
+            4
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 4,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 4,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 18,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 6,
+      "mean_nonaxis_secant_cost": 6.311904761904762,
+      "maximum_nonaxis_secant_cost": 13,
+      "cost_histogram": {
+        "1": 36,
+        "2": 148,
+        "3": 280,
+        "4": 584,
+        "5": 792,
+        "6": 924,
+        "7": 844,
+        "8": 660,
+        "9": 360,
+        "10": 224,
+        "11": 140,
+        "12": 32,
+        "13": 16
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 12,
+        "removed_count": 6,
+        "removed": [
+          [
+            62,
+            19
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            9,
+            52
+          ],
+          [
+            65,
+            61
+          ],
+          [
+            27,
+            4
+          ]
+        ],
+        "added": [
+          [
+            27,
+            19
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            67
+          ],
+          [
+            44,
+            52
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            65,
+            4
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 4,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 4,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 19,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 6,
+      "mean_nonaxis_secant_cost": 6.352380952380952,
+      "maximum_nonaxis_secant_cost": 13,
+      "cost_histogram": {
+        "1": 32,
+        "2": 152,
+        "3": 264,
+        "4": 584,
+        "5": 784,
+        "6": 912,
+        "7": 832,
+        "8": 672,
+        "9": 384,
+        "10": 228,
+        "11": 144,
+        "12": 36,
+        "13": 16
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 1,
+      "consequent_removed_count_lower_bound": 3,
+      "first_alternating_cycle": {
+        "cycle_node_count": 12,
+        "removed_count": 6,
+        "removed": [
+          [
+            62,
+            19
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            9,
+            52
+          ],
+          [
+            65,
+            61
+          ],
+          [
+            27,
+            4
+          ]
+        ],
+        "added": [
+          [
+            27,
+            19
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            67
+          ],
+          [
+            44,
+            52
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            65,
+            4
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 4,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 4,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 20,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 6,
+      "mean_nonaxis_secant_cost": 6.451587301587302,
+      "maximum_nonaxis_secant_cost": 14,
+      "cost_histogram": {
+        "1": 24,
+        "2": 144,
+        "3": 252,
+        "4": 580,
+        "5": 744,
+        "6": 868,
+        "7": 884,
+        "8": 648,
+        "9": 440,
+        "10": 240,
+        "11": 156,
+        "12": 36,
+        "13": 16,
+        "14": 8
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 14,
+        "removed_count": 7,
+        "removed": [
+          [
+            29,
+            1
+          ],
+          [
+            41,
+            68
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            57,
+            7
+          ]
+        ],
+        "added": [
+          [
+            29,
+            68
+          ],
+          [
+            41,
+            5
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            57,
+            1
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 4,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 4,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 21,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 6,
+      "mean_nonaxis_secant_cost": 6.487301587301587,
+      "maximum_nonaxis_secant_cost": 14,
+      "cost_histogram": {
+        "1": 20,
+        "2": 144,
+        "3": 252,
+        "4": 568,
+        "5": 732,
+        "6": 868,
+        "7": 892,
+        "8": 640,
+        "9": 436,
+        "10": 268,
+        "11": 152,
+        "12": 40,
+        "13": 20,
+        "14": 8
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 14,
+        "removed_count": 7,
+        "removed": [
+          [
+            29,
+            1
+          ],
+          [
+            41,
+            68
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            57,
+            7
+          ]
+        ],
+        "added": [
+          [
+            29,
+            68
+          ],
+          [
+            41,
+            5
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            57,
+            1
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 4,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 4,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 22,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 6,
+      "mean_nonaxis_secant_cost": 6.536507936507936,
+      "maximum_nonaxis_secant_cost": 14,
+      "cost_histogram": {
+        "1": 20,
+        "2": 140,
+        "3": 244,
+        "4": 568,
+        "5": 720,
+        "6": 852,
+        "7": 892,
+        "8": 640,
+        "9": 428,
+        "10": 292,
+        "11": 176,
+        "12": 36,
+        "13": 24,
+        "14": 8
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 14,
+        "removed_count": 7,
+        "removed": [
+          [
+            29,
+            1
+          ],
+          [
+            41,
+            68
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            57,
+            7
+          ]
+        ],
+        "added": [
+          [
+            29,
+            68
+          ],
+          [
+            41,
+            5
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            57,
+            1
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 4,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 4,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 23,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 6,
+      "mean_nonaxis_secant_cost": 6.564285714285714,
+      "maximum_nonaxis_secant_cost": 14,
+      "cost_histogram": {
+        "1": 20,
+        "2": 140,
+        "3": 240,
+        "4": 556,
+        "5": 724,
+        "6": 848,
+        "7": 872,
+        "8": 660,
+        "9": 424,
+        "10": 300,
+        "11": 180,
+        "12": 44,
+        "13": 24,
+        "14": 8
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 14,
+        "removed_count": 7,
+        "removed": [
+          [
+            29,
+            1
+          ],
+          [
+            41,
+            68
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            57,
+            7
+          ]
+        ],
+        "added": [
+          [
+            29,
+            68
+          ],
+          [
+            41,
+            5
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            57,
+            1
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 4,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 4,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 24,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 7,
+      "mean_nonaxis_secant_cost": 6.619047619047619,
+      "maximum_nonaxis_secant_cost": 14,
+      "cost_histogram": {
+        "1": 20,
+        "2": 132,
+        "3": 232,
+        "4": 552,
+        "5": 720,
+        "6": 828,
+        "7": 880,
+        "8": 640,
+        "9": 456,
+        "10": 300,
+        "11": 188,
+        "12": 52,
+        "13": 32,
+        "14": 8
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 12,
+        "removed_count": 6,
+        "removed": [
+          [
+            34,
+            19
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            57,
+            7
+          ],
+          [
+            27,
+            60
+          ]
+        ],
+        "added": [
+          [
+            27,
+            19
+          ],
+          [
+            34,
+            3
+          ],
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            57,
+            60
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 4,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 4,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 25,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 7,
+      "mean_nonaxis_secant_cost": 6.6380952380952385,
+      "maximum_nonaxis_secant_cost": 15,
+      "cost_histogram": {
+        "1": 16,
+        "2": 136,
+        "3": 232,
+        "4": 532,
+        "5": 732,
+        "6": 812,
+        "7": 888,
+        "8": 640,
+        "9": 468,
+        "10": 304,
+        "11": 188,
+        "12": 52,
+        "13": 32,
+        "14": 4,
+        "15": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 12,
+        "removed_count": 6,
+        "removed": [
+          [
+            34,
+            19
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            57,
+            7
+          ],
+          [
+            27,
+            60
+          ]
+        ],
+        "added": [
+          [
+            27,
+            19
+          ],
+          [
+            34,
+            3
+          ],
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            57,
+            60
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 4,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 4,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 26,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 7,
+      "mean_nonaxis_secant_cost": 6.670634920634921,
+      "maximum_nonaxis_secant_cost": 15,
+      "cost_histogram": {
+        "1": 16,
+        "2": 128,
+        "3": 224,
+        "4": 540,
+        "5": 720,
+        "6": 812,
+        "7": 872,
+        "8": 664,
+        "9": 468,
+        "10": 300,
+        "11": 192,
+        "12": 60,
+        "13": 36,
+        "14": 4,
+        "15": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 8,
+        "removed_count": 4,
+        "removed": [
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            14,
+            64
+          ],
+          [
+            30,
+            11
+          ]
+        ],
+        "added": [
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            64
+          ],
+          [
+            14,
+            11
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 4,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 4,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 27,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 7,
+      "mean_nonaxis_secant_cost": 6.684126984126984,
+      "maximum_nonaxis_secant_cost": 15,
+      "cost_histogram": {
+        "1": 16,
+        "2": 124,
+        "3": 228,
+        "4": 532,
+        "5": 716,
+        "6": 820,
+        "7": 864,
+        "8": 660,
+        "9": 480,
+        "10": 296,
+        "11": 200,
+        "12": 60,
+        "13": 36,
+        "14": 4,
+        "15": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 10,
+        "removed_count": 5,
+        "removed": [
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            9,
+            52
+          ]
+        ],
+        "added": [
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            67
+          ],
+          [
+            44,
+            52
+          ],
+          [
+            9,
+            3
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 4,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 4,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 3,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 28,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 7,
+      "mean_nonaxis_secant_cost": 6.704761904761905,
+      "maximum_nonaxis_secant_cost": 15,
+      "cost_histogram": {
+        "1": 16,
+        "2": 120,
+        "3": 232,
+        "4": 520,
+        "5": 704,
+        "6": 844,
+        "7": 844,
+        "8": 672,
+        "9": 476,
+        "10": 292,
+        "11": 212,
+        "12": 64,
+        "13": 32,
+        "14": 8,
+        "15": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 10,
+        "removed_count": 5,
+        "removed": [
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            9,
+            52
+          ]
+        ],
+        "added": [
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            67
+          ],
+          [
+            44,
+            52
+          ],
+          [
+            9,
+            3
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 4,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 4,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 4,
+          "removed": [
+            [
+              5,
+              62
+            ],
+            [
+              68,
+              30
+            ],
+            [
+              66,
+              9
+            ],
+            [
+              3,
+              41
+            ]
+          ],
+          "added": [
+            [
+              3,
+              62
+            ],
+            [
+              5,
+              30
+            ],
+            [
+              68,
+              9
+            ],
+            [
+              66,
+              41
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 29,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 7,
+      "mean_nonaxis_secant_cost": 6.722222222222222,
+      "maximum_nonaxis_secant_cost": 15,
+      "cost_histogram": {
+        "1": 16,
+        "2": 120,
+        "3": 232,
+        "4": 508,
+        "5": 708,
+        "6": 824,
+        "7": 860,
+        "8": 672,
+        "9": 476,
+        "10": 304,
+        "11": 208,
+        "12": 68,
+        "13": 32,
+        "14": 8,
+        "15": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 10,
+        "removed_count": 5,
+        "removed": [
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            9,
+            52
+          ]
+        ],
+        "added": [
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            67
+          ],
+          [
+            44,
+            52
+          ],
+          [
+            9,
+            3
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 4,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 4,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 4,
+          "removed": [
+            [
+              5,
+              62
+            ],
+            [
+              68,
+              30
+            ],
+            [
+              66,
+              9
+            ],
+            [
+              3,
+              41
+            ]
+          ],
+          "added": [
+            [
+              3,
+              62
+            ],
+            [
+              5,
+              30
+            ],
+            [
+              68,
+              9
+            ],
+            [
+              66,
+              41
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 30,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 7,
+      "mean_nonaxis_secant_cost": 6.7444444444444445,
+      "maximum_nonaxis_secant_cost": 15,
+      "cost_histogram": {
+        "1": 16,
+        "2": 120,
+        "3": 228,
+        "4": 504,
+        "5": 704,
+        "6": 820,
+        "7": 860,
+        "8": 668,
+        "9": 480,
+        "10": 320,
+        "11": 196,
+        "12": 76,
+        "13": 32,
+        "14": 12,
+        "15": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 10,
+        "removed_count": 5,
+        "removed": [
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            9,
+            52
+          ]
+        ],
+        "added": [
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            67
+          ],
+          [
+            44,
+            52
+          ],
+          [
+            9,
+            3
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 4,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 4,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 4,
+          "removed": [
+            [
+              5,
+              62
+            ],
+            [
+              68,
+              30
+            ],
+            [
+              66,
+              9
+            ],
+            [
+              3,
+              41
+            ]
+          ],
+          "added": [
+            [
+              3,
+              62
+            ],
+            [
+              5,
+              30
+            ],
+            [
+              68,
+              9
+            ],
+            [
+              66,
+              41
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 31,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 7,
+      "mean_nonaxis_secant_cost": 6.749206349206349,
+      "maximum_nonaxis_secant_cost": 15,
+      "cost_histogram": {
+        "1": 16,
+        "2": 116,
+        "3": 232,
+        "4": 504,
+        "5": 696,
+        "6": 828,
+        "7": 860,
+        "8": 664,
+        "9": 480,
+        "10": 324,
+        "11": 192,
+        "12": 80,
+        "13": 32,
+        "14": 12,
+        "15": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 16,
+        "removed_count": 8,
+        "removed": [
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            9,
+            52
+          ],
+          [
+            31,
+            61
+          ],
+          [
+            25,
+            53
+          ],
+          [
+            37,
+            0
+          ]
+        ],
+        "added": [
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            67
+          ],
+          [
+            44,
+            52
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            31,
+            53
+          ],
+          [
+            25,
+            0
+          ],
+          [
+            37,
+            3
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 5,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 5,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 5,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              5,
+              62
+            ],
+            [
+              68,
+              30
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              62
+            ],
+            [
+              5,
+              30
+            ],
+            [
+              68,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 32,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 7,
+      "mean_nonaxis_secant_cost": 6.766666666666667,
+      "maximum_nonaxis_secant_cost": 16,
+      "cost_histogram": {
+        "1": 16,
+        "2": 112,
+        "3": 232,
+        "4": 504,
+        "5": 696,
+        "6": 812,
+        "7": 856,
+        "8": 684,
+        "9": 472,
+        "10": 332,
+        "11": 196,
+        "12": 76,
+        "13": 36,
+        "14": 12,
+        "16": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 16,
+        "removed_count": 8,
+        "removed": [
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            9,
+            52
+          ],
+          [
+            31,
+            61
+          ],
+          [
+            25,
+            53
+          ],
+          [
+            37,
+            0
+          ]
+        ],
+        "added": [
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            67
+          ],
+          [
+            44,
+            52
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            31,
+            53
+          ],
+          [
+            25,
+            0
+          ],
+          [
+            37,
+            3
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 5,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 5,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 5,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              5,
+              62
+            ],
+            [
+              68,
+              30
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              62
+            ],
+            [
+              5,
+              30
+            ],
+            [
+              68,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 33,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 7,
+      "mean_nonaxis_secant_cost": 6.7785714285714285,
+      "maximum_nonaxis_secant_cost": 16,
+      "cost_histogram": {
+        "1": 16,
+        "2": 112,
+        "3": 224,
+        "4": 508,
+        "5": 688,
+        "6": 812,
+        "7": 864,
+        "8": 680,
+        "9": 476,
+        "10": 332,
+        "11": 200,
+        "12": 76,
+        "13": 32,
+        "14": 16,
+        "16": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 16,
+        "removed_count": 8,
+        "removed": [
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            9,
+            52
+          ],
+          [
+            31,
+            61
+          ],
+          [
+            25,
+            53
+          ],
+          [
+            37,
+            0
+          ]
+        ],
+        "added": [
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            67
+          ],
+          [
+            44,
+            52
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            31,
+            53
+          ],
+          [
+            25,
+            0
+          ],
+          [
+            37,
+            3
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 5,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 5,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 5,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              5,
+              62
+            ],
+            [
+              68,
+              30
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              62
+            ],
+            [
+              5,
+              30
+            ],
+            [
+              68,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 34,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 7,
+      "mean_nonaxis_secant_cost": 6.787301587301587,
+      "maximum_nonaxis_secant_cost": 16,
+      "cost_histogram": {
+        "1": 16,
+        "2": 112,
+        "3": 216,
+        "4": 516,
+        "5": 684,
+        "6": 812,
+        "7": 864,
+        "8": 684,
+        "9": 468,
+        "10": 340,
+        "11": 188,
+        "12": 84,
+        "13": 36,
+        "14": 16,
+        "16": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 16,
+        "removed_count": 8,
+        "removed": [
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            9,
+            52
+          ],
+          [
+            31,
+            61
+          ],
+          [
+            25,
+            53
+          ],
+          [
+            37,
+            0
+          ]
+        ],
+        "added": [
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            67
+          ],
+          [
+            44,
+            52
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            31,
+            53
+          ],
+          [
+            25,
+            0
+          ],
+          [
+            37,
+            3
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 5,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 5,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 5,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              5,
+              62
+            ],
+            [
+              68,
+              30
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              62
+            ],
+            [
+              5,
+              30
+            ],
+            [
+              68,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 35,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 7,
+      "mean_nonaxis_secant_cost": 6.794444444444444,
+      "maximum_nonaxis_secant_cost": 16,
+      "cost_histogram": {
+        "1": 16,
+        "2": 112,
+        "3": 216,
+        "4": 508,
+        "5": 684,
+        "6": 812,
+        "7": 864,
+        "8": 692,
+        "9": 468,
+        "10": 340,
+        "11": 184,
+        "12": 88,
+        "13": 36,
+        "14": 16,
+        "16": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 16,
+        "removed_count": 8,
+        "removed": [
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            9,
+            52
+          ],
+          [
+            31,
+            61
+          ],
+          [
+            25,
+            53
+          ],
+          [
+            37,
+            0
+          ]
+        ],
+        "added": [
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            67
+          ],
+          [
+            44,
+            52
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            31,
+            53
+          ],
+          [
+            25,
+            0
+          ],
+          [
+            37,
+            3
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 5,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 5,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 5,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              5,
+              62
+            ],
+            [
+              68,
+              30
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              62
+            ],
+            [
+              5,
+              30
+            ],
+            [
+              68,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 36,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 7,
+      "mean_nonaxis_secant_cost": 6.798412698412698,
+      "maximum_nonaxis_secant_cost": 16,
+      "cost_histogram": {
+        "1": 12,
+        "2": 116,
+        "3": 216,
+        "4": 500,
+        "5": 684,
+        "6": 820,
+        "7": 864,
+        "8": 692,
+        "9": 468,
+        "10": 340,
+        "11": 184,
+        "12": 88,
+        "13": 36,
+        "14": 16,
+        "16": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 16,
+        "removed_count": 8,
+        "removed": [
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            9,
+            52
+          ],
+          [
+            31,
+            61
+          ],
+          [
+            25,
+            53
+          ],
+          [
+            37,
+            0
+          ]
+        ],
+        "added": [
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            67
+          ],
+          [
+            44,
+            52
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            31,
+            53
+          ],
+          [
+            25,
+            0
+          ],
+          [
+            37,
+            3
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 5,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 5,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 5,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              5,
+              62
+            ],
+            [
+              68,
+              30
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              62
+            ],
+            [
+              5,
+              30
+            ],
+            [
+              68,
+              34
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "q": 37,
+      "empty_cell_count": 5040,
+      "minimum_nonaxis_secant_cost": 1,
+      "median_nonaxis_secant_cost": 7,
+      "mean_nonaxis_secant_cost": 6.798412698412698,
+      "maximum_nonaxis_secant_cost": 16,
+      "cost_histogram": {
+        "1": 12,
+        "2": 116,
+        "3": 216,
+        "4": 500,
+        "5": 684,
+        "6": 820,
+        "7": 864,
+        "8": 692,
+        "9": 468,
+        "10": 340,
+        "11": 184,
+        "12": 88,
+        "13": 36,
+        "14": 16,
+        "16": 4
+      },
+      "minimum_bottleneck_cost_for_an_alternating_cycle": 2,
+      "consequent_removed_count_lower_bound": 4,
+      "first_alternating_cycle": {
+        "cycle_node_count": 16,
+        "removed_count": 8,
+        "removed": [
+          [
+            30,
+            3
+          ],
+          [
+            62,
+            66
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            9,
+            52
+          ],
+          [
+            31,
+            61
+          ],
+          [
+            25,
+            53
+          ],
+          [
+            37,
+            0
+          ]
+        ],
+        "added": [
+          [
+            30,
+            66
+          ],
+          [
+            62,
+            10
+          ],
+          [
+            6,
+            67
+          ],
+          [
+            44,
+            52
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            31,
+            53
+          ],
+          [
+            25,
+            0
+          ],
+          [
+            37,
+            3
+          ]
+        ]
+      },
+      "combined_cycle_length_and_insertion_cost_lower_bound": 5,
+      "combined_lower_bound_certificate": {
+        "lower_bound_candidate": 5,
+        "cost_threshold": 2,
+        "shortest_balanced_trade_at_threshold": {
+          "removed_count": 5,
+          "removed": [
+            [
+              53,
+              46
+            ],
+            [
+              61,
+              40
+            ],
+            [
+              5,
+              62
+            ],
+            [
+              68,
+              30
+            ],
+            [
+              0,
+              34
+            ]
+          ],
+          "added": [
+            [
+              0,
+              46
+            ],
+            [
+              53,
+              40
+            ],
+            [
+              61,
+              62
+            ],
+            [
+              5,
+              30
+            ],
+            [
+              68,
+              34
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

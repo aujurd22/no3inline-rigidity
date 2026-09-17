@@ -1,0 +1,20 @@
+{
+  "basin": "v20_03",
+  "n_wi_edges": 386,
+  "summary": {
+    "W14": {
+      "n": 60,
+      "unsat": 23,
+      "unknown": 0,
+      "frac": 0.38333333333333336,
+      "unknown_frac": 0.0
+    },
+    "W15": {
+      "n": 60,
+      "unsat": 31,
+      "unknown": 0,
+      "frac": 0.5166666666666667,
+      "unknown_frac": 0.0
+    }
+  }
+}

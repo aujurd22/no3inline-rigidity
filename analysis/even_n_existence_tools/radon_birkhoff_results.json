@@ -1,0 +1,44 @@
+[
+  {
+    "n": 6,
+    "success": false,
+    "n_int": 14,
+    "n_pts": 2,
+    "time": 0.17081785202026367,
+    "stats": {
+      "iterations": 3000,
+      "eps_total": 237.08333333334767,
+      "violations": 2986,
+      "integer_vars": 0,
+      "frac_vars": 36
+    }
+  },
+  {
+    "n": 8,
+    "success": false,
+    "n_int": 8,
+    "n_pts": 0,
+    "time": 0.4806995391845703,
+    "stats": {
+      "iterations": 3000,
+      "eps_total": 620.3750000000025,
+      "violations": 2967,
+      "integer_vars": 0,
+      "frac_vars": 64
+    }
+  },
+  {
+    "n": 10,
+    "success": false,
+    "n_int": 13,
+    "n_pts": 0,
+    "time": 1.1436703205108643,
+    "stats": {
+      "iterations": 3000,
+      "eps_total": 493.7699999999905,
+      "violations": 2919,
+      "integer_vars": 0,
+      "frac_vars": 100
+    }
+  }
+]

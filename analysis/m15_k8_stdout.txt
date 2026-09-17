@@ -1,0 +1,6 @@
+[start] m=15 n=30 threads=8 hours=0.035 WX_def=2 WS=1 moves/restart=1000000 T0=3.000 Tend=0.0050
+[t=   30s] best=1000000000000000000 badX=0 badS=0
+[t=   60s] best=1000000000000000000 badX=0 badS=0
+[t=   90s] best=1000000000000000000 badX=0 badS=0
+[t=  120s] best=1000000000000000000 badX=0 badS=0
+[DONE] no solution in 142.1s; best_bad=20 (badX=8 badS=4) ckpt=m15_k8_ckpt.txt

@@ -1,0 +1,6837 @@
+{"n": 4, "graph_index": 0, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 1, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 2, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 1], [2, 2], [3, 0], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 3, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 4, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 5, "edges": [[0, 0], [0, 1], [0, 3], [1, 0], [1, 2], [1, 3], [2, 0], [2, 1], [2, 2], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 6, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 7, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 8, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 9, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 0 meets every candidate triple"}}
+{"n": 4, "graph_index": 10, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 11, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 12, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 13, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 14, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 15, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 16, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 0 meets every candidate triple"}}
+{"n": 4, "graph_index": 17, "edges": [[0, 0], [0, 1], [0, 3], [1, 1], [1, 2], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 18, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 19, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 20, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 21, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 22, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 23, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 24, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 0 meets every candidate triple"}}
+{"n": 4, "graph_index": 25, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 26, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 27, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 28, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 29, "edges": [[0, 0], [0, 1], [0, 3], [1, 1], [1, 2], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 30, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 31, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 32, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 1], [2, 2], [3, 0], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 33, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 1], [2, 2], [3, 0], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 34, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 35, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 36, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 37, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 38, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 39, "edges": [[0, 0], [0, 1], [0, 2], [1, 1], [1, 2], [1, 3], [2, 0], [2, 1], [2, 3], [3, 0], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 40, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 41, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 42, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 43, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 44, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 0 meets every candidate triple"}}
+{"n": 4, "graph_index": 45, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 46, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 47, "edges": [[0, 0], [0, 1], [0, 3], [1, 1], [1, 2], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 48, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 0 meets every candidate triple"}}
+{"n": 4, "graph_index": 49, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 1], [2, 2], [3, 0], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 50, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 51, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 52, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 53, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 54, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 55, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 56, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 57, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 58, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 0 meets every candidate triple"}}
+{"n": 4, "graph_index": 59, "edges": [[0, 0], [0, 1], [0, 2], [1, 1], [1, 2], [1, 3], [2, 0], [2, 1], [2, 3], [3, 0], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 60, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 61, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 62, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 63, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 64, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 65, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 66, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 67, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 68, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 69, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 70, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 71, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 72, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 73, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 74, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 75, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 76, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 77, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 78, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 79, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 80, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 81, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 82, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 83, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 84, "edges": [[0, 0], [0, 1], [0, 3], [1, 1], [1, 2], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 85, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 86, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 87, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 88, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 89, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 90, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 91, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 92, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 93, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 0 meets every candidate triple"}}
+{"n": 4, "graph_index": 94, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 95, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 96, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 97, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 98, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 99, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 100, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 101, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 1], [2, 2], [3, 0], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 102, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 103, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 104, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 105, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 106, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 107, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 108, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 0 meets every candidate triple"}}
+{"n": 4, "graph_index": 109, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 110, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 111, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 112, "edges": [[0, 0], [0, 1], [0, 3], [1, 0], [1, 2], [1, 3], [2, 0], [2, 1], [2, 2], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 113, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 114, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 115, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 116, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 117, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 118, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 119, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 120, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 121, "edges": [[0, 0], [0, 1], [0, 3], [1, 0], [1, 2], [1, 3], [2, 0], [2, 1], [2, 2], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 122, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 1], [2, 2], [3, 0], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 123, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 124, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 125, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 126, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 127, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 128, "edges": [[0, 0], [0, 1], [0, 3], [1, 1], [1, 2], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 129, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 130, "edges": [[0, 0], [0, 1], [0, 3], [1, 1], [1, 2], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 131, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 132, "edges": [[0, 0], [0, 1], [0, 2], [1, 1], [1, 2], [1, 3], [2, 0], [2, 1], [2, 3], [3, 0], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 133, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 134, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 135, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 136, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 137, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 138, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 139, "edges": [[0, 0], [0, 1], [0, 3], [1, 0], [1, 2], [1, 3], [2, 0], [2, 1], [2, 2], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 140, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 141, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 142, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 143, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 144, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 145, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 146, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 147, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 148, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 1], [2, 2], [3, 0], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 149, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 150, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 151, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 152, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 153, "edges": [[0, 0], [0, 1], [0, 3], [1, 0], [1, 2], [1, 3], [2, 0], [2, 1], [2, 2], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 154, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 155, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 156, "edges": [[0, 0], [0, 1], [0, 3], [1, 1], [1, 2], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 157, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 158, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 159, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 160, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 161, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 162, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 163, "edges": [[0, 0], [0, 1], [0, 2], [1, 1], [1, 2], [1, 3], [2, 0], [2, 1], [2, 3], [3, 0], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 164, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 165, "edges": [[0, 0], [0, 1], [0, 2], [1, 1], [1, 2], [1, 3], [2, 0], [2, 1], [2, 3], [3, 0], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 166, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 1], [2, 2], [3, 0], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 167, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 168, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 169, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 170, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 171, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 172, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 173, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 174, "edges": [[0, 0], [0, 1], [0, 2], [1, 0], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 175, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 176, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 177, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 178, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 179, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 180, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 181, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 182, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 183, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 184, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [2, 0], [2, 1], [2, 3], [3, 1], [3, 2], [3, 3]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 3 meets every candidate triple"}}
+{"n": 4, "graph_index": 185, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 186, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 187, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 188, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 189, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 190, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 191, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 192, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 2, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 193, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 194, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 195, "edges": [[0, 0], [0, 1], [0, 3], [1, 1], [1, 2], [1, 3], [2, 0], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 196, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 197, "skipped": "four_collinear"}
+{"n": 4, "graph_index": 198, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 1], [1, 3], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2]], "perfect_matchings": 9, "candidate_triples": 4, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 4, "graph_index": 199, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 0, "edges": [[0, 2], [0, 3], [0, 4], [1, 0], [1, 1], [1, 3], [2, 0], [2, 3], [2, 4], [3, 0], [3, 1], [3, 2], [4, 1], [4, 2], [4, 4]], "perfect_matchings": 13, "candidate_triples": 8, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 0 meets every candidate triple"}}
+{"n": 5, "graph_index": 1, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 2], [1, 4], [2, 0], [2, 1], [2, 4], [3, 1], [3, 3], [3, 4], [4, 1], [4, 2], [4, 3]], "perfect_matchings": 13, "candidate_triples": 6, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 1 meets every candidate triple"}}
+{"n": 5, "graph_index": 2, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 3, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 4, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 5, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 6, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 7, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 8, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 9, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 10, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 11, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 12, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 13, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 14, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 15, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 16, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 17, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 18, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 19, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 20, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 21, "edges": [[0, 0], [0, 1], [0, 3], [1, 0], [1, 2], [1, 4], [2, 1], [2, 2], [2, 4], [3, 1], [3, 3], [3, 4], [4, 0], [4, 2], [4, 3]], "perfect_matchings": 13, "candidate_triples": 10, "edge_disjoint": true, "result": {"status": "INFEASIBLE", "objective_bound": 0.0}}
+{"n": 5, "graph_index": 22, "edges": [[0, 1], [0, 2], [0, 4], [1, 0], [1, 1], [1, 3], [2, 0], [2, 1], [2, 3], [3, 2], [3, 3], [3, 4], [4, 0], [4, 2], [4, 4]], "perfect_matchings": 12, "candidate_triples": 9, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 10 meets every candidate triple"}}
+{"n": 5, "graph_index": 23, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 24, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 25, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 26, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 27, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 28, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 29, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 30, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 31, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 32, "edges": [[0, 0], [0, 2], [0, 3], [1, 1], [1, 3], [1, 4], [2, 0], [2, 2], [2, 4], [3, 0], [3, 1], [3, 4], [4, 1], [4, 2], [4, 3]], "perfect_matchings": 13, "candidate_triples": 7, "edge_disjoint": true, "result": {"status": "INFEASIBLE", "objective_bound": 0.0}}
+{"n": 5, "graph_index": 33, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 34, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 35, "edges": [[0, 0], [0, 2], [0, 3], [1, 0], [1, 2], [1, 3], [2, 0], [2, 1], [2, 4], [3, 1], [3, 3], [3, 4], [4, 1], [4, 2], [4, 4]], "perfect_matchings": 12, "candidate_triples": 7, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 2 meets every candidate triple"}}
+{"n": 5, "graph_index": 36, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 37, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 38, "edges": [[0, 0], [0, 2], [0, 4], [1, 0], [1, 2], [1, 4], [2, 1], [2, 3], [2, 4], [3, 0], [3, 1], [3, 3], [4, 1], [4, 2], [4, 3]], "perfect_matchings": 12, "candidate_triples": 7, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 2 meets every candidate triple"}}
+{"n": 5, "graph_index": 39, "edges": [[0, 0], [0, 2], [0, 4], [1, 0], [1, 1], [1, 3], [2, 1], [2, 3], [2, 4], [3, 2], [3, 3], [3, 4], [4, 0], [4, 1], [4, 2]], "perfect_matchings": 13, "candidate_triples": 10, "edge_disjoint": true, "result": {"status": "INFEASIBLE", "objective_bound": 0.0}}
+{"n": 5, "graph_index": 40, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 41, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 42, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 43, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 44, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 45, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 46, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 47, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 48, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 49, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 50, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 51, "edges": [[0, 1], [0, 2], [0, 4], [1, 0], [1, 1], [1, 3], [2, 0], [2, 2], [2, 4], [3, 0], [3, 3], [3, 4], [4, 1], [4, 2], [4, 3]], "perfect_matchings": 13, "candidate_triples": 7, "edge_disjoint": true, "result": {"status": "INFEASIBLE", "objective_bound": 0.0}}
+{"n": 5, "graph_index": 52, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 53, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 54, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 55, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 56, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 57, "edges": [[0, 0], [0, 3], [0, 4], [1, 0], [1, 1], [1, 2], [2, 2], [2, 3], [2, 4], [3, 0], [3, 1], [3, 4], [4, 1], [4, 2], [4, 3]], "perfect_matchings": 13, "candidate_triples": 8, "edge_disjoint": true, "result": {"status": "INFEASIBLE", "objective_bound": 0.0}}
+{"n": 5, "graph_index": 58, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 59, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 60, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 61, "edges": [[0, 1], [0, 3], [0, 4], [1, 0], [1, 1], [1, 4], [2, 0], [2, 2], [2, 4], [3, 0], [3, 2], [3, 3], [4, 1], [4, 2], [4, 3]], "perfect_matchings": 13, "candidate_triples": 7, "edge_disjoint": true, "result": {"status": "IMPOSSIBLE_TO_BLOCK", "reason": "matching 9 meets every candidate triple"}}
+{"n": 5, "graph_index": 62, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 63, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 64, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 65, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 66, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 67, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 68, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 69, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 70, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 71, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 72, "skipped": "four_collinear"}
+{"n": 5, "graph_index": 73, "edges": [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 4], [2, 2], [2, 3], [2, 4], [3, 0], [3, 1], [3, 2], [4, 0], [4, 3], [4, 4]], "perfect_matchings": 13, "candidate_triples": 8, "edge_disjoint": true, "result": {"status": "INFEASIBLE", "objective_bound": 0.0}}
+{"n": 5, "graph_index": 74, "edges": [[0, 1], [0, 2], [0, 4], [1, 0], [1, 1], [1, 4], [2, 0], [2, 3], [2, 4], [3, 1], [3, 2], [3, 3], [4, 0], [4, 2], [4, 3]], "perfect_matchings": 13, "candidate_triples": 8, "edge_disjoint": true, "result": {"status": "OPTIMAL", "objective_bound": 4.0, "minimum_triples": 4, "triples": [[[0, 2], [1, 1], [2, 0]], [[0, 4], [3, 1], [4, 0]], [[1, 4], [2, 3], [3, 2]], [[2, 4], [3, 3], [4, 2]]]}}
+OBSTRUCTION_FOUND
+[
+  {
+    "n": 4,
+    "graph_index": 2,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 5,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 6,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 7,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 9,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 0 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 16,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 0 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 17,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 19,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 21,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 23,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 24,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 0 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 29,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 30,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 31,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 32,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 33,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 37,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 39,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 40,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 43,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 44,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 0 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 47,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 48,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 0 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 49,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 51,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 52,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 54,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 58,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 0 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 59,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 61,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 62,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 65,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 71,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 72,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 73,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 74,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 78,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 79,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 80,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 82,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 84,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 87,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 92,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 93,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 0 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 96,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 101,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 105,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 107,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 108,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 0 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 109,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 110,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 111,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 112,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 113,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 118,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 121,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 122,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 125,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 127,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 128,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 129,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 130,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 132,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 133,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 134,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 135,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 139,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 143,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 148,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 150,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 153,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 154,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 156,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 157,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 159,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 160,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 162,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 163,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 165,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 166,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 168,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 171,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 172,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 174,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 176,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 181,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 183,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 184,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 3 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 192,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 2,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 195,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 4,
+    "graph_index": 198,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "perfect_matchings": 9,
+    "candidate_triples": 4,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 5,
+    "graph_index": 0,
+    "edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "perfect_matchings": 13,
+    "candidate_triples": 8,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 0 meets every candidate triple"
+    }
+  },
+  {
+    "n": 5,
+    "graph_index": 1,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "perfect_matchings": 13,
+    "candidate_triples": 6,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 1 meets every candidate triple"
+    }
+  },
+  {
+    "n": 5,
+    "graph_index": 21,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "perfect_matchings": 13,
+    "candidate_triples": 10,
+    "edge_disjoint": true,
+    "result": {
+      "status": "INFEASIBLE",
+      "objective_bound": 0.0
+    }
+  },
+  {
+    "n": 5,
+    "graph_index": 22,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "perfect_matchings": 12,
+    "candidate_triples": 9,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 10 meets every candidate triple"
+    }
+  },
+  {
+    "n": 5,
+    "graph_index": 32,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "perfect_matchings": 13,
+    "candidate_triples": 7,
+    "edge_disjoint": true,
+    "result": {
+      "status": "INFEASIBLE",
+      "objective_bound": 0.0
+    }
+  },
+  {
+    "n": 5,
+    "graph_index": 35,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "perfect_matchings": 12,
+    "candidate_triples": 7,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 2 meets every candidate triple"
+    }
+  },
+  {
+    "n": 5,
+    "graph_index": 38,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "perfect_matchings": 12,
+    "candidate_triples": 7,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 2 meets every candidate triple"
+    }
+  },
+  {
+    "n": 5,
+    "graph_index": 39,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "perfect_matchings": 13,
+    "candidate_triples": 10,
+    "edge_disjoint": true,
+    "result": {
+      "status": "INFEASIBLE",
+      "objective_bound": 0.0
+    }
+  },
+  {
+    "n": 5,
+    "graph_index": 51,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "perfect_matchings": 13,
+    "candidate_triples": 7,
+    "edge_disjoint": true,
+    "result": {
+      "status": "INFEASIBLE",
+      "objective_bound": 0.0
+    }
+  },
+  {
+    "n": 5,
+    "graph_index": 57,
+    "edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "perfect_matchings": 13,
+    "candidate_triples": 8,
+    "edge_disjoint": true,
+    "result": {
+      "status": "INFEASIBLE",
+      "objective_bound": 0.0
+    }
+  },
+  {
+    "n": 5,
+    "graph_index": 61,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "perfect_matchings": 13,
+    "candidate_triples": 7,
+    "edge_disjoint": true,
+    "result": {
+      "status": "IMPOSSIBLE_TO_BLOCK",
+      "reason": "matching 9 meets every candidate triple"
+    }
+  },
+  {
+    "n": 5,
+    "graph_index": 73,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "perfect_matchings": 13,
+    "candidate_triples": 8,
+    "edge_disjoint": true,
+    "result": {
+      "status": "INFEASIBLE",
+      "objective_bound": 0.0
+    }
+  },
+  {
+    "n": 5,
+    "graph_index": 74,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "perfect_matchings": 13,
+    "candidate_triples": 8,
+    "edge_disjoint": true,
+    "result": {
+      "status": "OPTIMAL",
+      "objective_bound": 4.0,
+      "minimum_triples": 4,
+      "triples": [
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      ]
+    }
+  }
+]

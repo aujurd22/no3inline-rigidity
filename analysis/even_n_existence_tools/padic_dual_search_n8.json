@@ -1,0 +1,68 @@
+[
+  {
+    "name": "bitrev+gray",
+    "base_collisions": 40,
+    "greedy_collisions": 1,
+    "sa_collisions": 0,
+    "ntps_p0": 12,
+    "ntps_p1": 12,
+    "ntps_total": 24,
+    "time": 1.5,
+    "verified": true
+  },
+  {
+    "name": "bitrev+complement",
+    "base_collisions": 62,
+    "greedy_collisions": 0,
+    "sa_collisions": 0,
+    "ntps_p0": 12,
+    "ntps_p1": 12,
+    "ntps_total": 24,
+    "time": 0.0,
+    "verified": true
+  },
+  {
+    "name": "bitrev+bitrev_shift1",
+    "base_collisions": 12,
+    "greedy_collisions": 2,
+    "sa_collisions": 0,
+    "ntps_p0": 12,
+    "ntps_p1": 12,
+    "ntps_total": 24,
+    "time": 1.3,
+    "verified": true
+  },
+  {
+    "name": "rand_bitperm+rand_bitperm",
+    "base_collisions": 23,
+    "greedy_collisions": 1,
+    "sa_collisions": 0,
+    "ntps_p0": 12,
+    "ntps_p1": 12,
+    "ntps_total": 24,
+    "time": 1.6,
+    "verified": true
+  },
+  {
+    "name": "rand_bitperm2+rand_bitperm2",
+    "base_collisions": 37,
+    "greedy_collisions": 1,
+    "sa_collisions": 0,
+    "ntps_p0": 12,
+    "ntps_p1": 12,
+    "ntps_total": 24,
+    "time": 1.4,
+    "verified": true
+  },
+  {
+    "name": "bitrev+rand_bitperm",
+    "base_collisions": 55,
+    "greedy_collisions": 0,
+    "sa_collisions": 0,
+    "ntps_p0": 12,
+    "ntps_p1": 12,
+    "ntps_total": 24,
+    "time": 0.2,
+    "verified": true
+  }
+]

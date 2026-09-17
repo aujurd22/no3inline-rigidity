@@ -1,0 +1,20 @@
+{
+  "parameters": {
+    "base": "v40_03",
+    "size": 12,
+    "adjacency_count": 8,
+    "triple_count": 4,
+    "quadruple_count": 1,
+    "loop_count": null,
+    "allow_exact_reselection": false,
+    "time_limit": 300.0,
+    "workers": 4,
+    "out": "rot4_v40_03_k12_a8_b4_c1_norm_q1resource.json"
+  },
+  "status": "INFEASIBLE",
+  "branches": 2093684,
+  "conflicts": 809755,
+  "wall_s": 57.124,
+  "elapsed_s": 57.128,
+  "resource_count": 72
+}

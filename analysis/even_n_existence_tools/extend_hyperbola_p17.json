@@ -1,0 +1,290 @@
+[
+  {
+    "p": 17,
+    "n": 16,
+    "multiplier": 1,
+    "status": "INFEASIBLE",
+    "candidate_cells": 240,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 72,
+      "lines_with_at_least_three_grid_points": 2754,
+      "line_enumeration_seconds": 0.0030746000120416284
+    },
+    "constrained_lines": 2754,
+    "fixed_secant_lines": 70,
+    "build_seconds": 0.030683299992233515,
+    "solve_seconds": 0.014259800000000001,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "multiplier": 2,
+    "status": "INFEASIBLE",
+    "candidate_cells": 240,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 72,
+      "lines_with_at_least_three_grid_points": 2754,
+      "line_enumeration_seconds": 0.005737100029364228
+    },
+    "constrained_lines": 2754,
+    "fixed_secant_lines": 80,
+    "build_seconds": 0.03173869999591261,
+    "solve_seconds": 0.0103586,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "multiplier": 3,
+    "status": "INFEASIBLE",
+    "candidate_cells": 240,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 72,
+      "lines_with_at_least_three_grid_points": 2754,
+      "line_enumeration_seconds": 0.0036511000362224877
+    },
+    "constrained_lines": 2754,
+    "fixed_secant_lines": 74,
+    "build_seconds": 0.028105299978051335,
+    "solve_seconds": 0.0080692,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "multiplier": 4,
+    "status": "INFEASIBLE",
+    "candidate_cells": 240,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 72,
+      "lines_with_at_least_three_grid_points": 2754,
+      "line_enumeration_seconds": 0.0025831999955698848
+    },
+    "constrained_lines": 2754,
+    "fixed_secant_lines": 76,
+    "build_seconds": 0.029770699969958514,
+    "solve_seconds": 0.0086437,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "multiplier": 5,
+    "status": "INFEASIBLE",
+    "candidate_cells": 240,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 72,
+      "lines_with_at_least_three_grid_points": 2754,
+      "line_enumeration_seconds": 0.005221900006290525
+    },
+    "constrained_lines": 2754,
+    "fixed_secant_lines": 74,
+    "build_seconds": 0.028838399972300977,
+    "solve_seconds": 0.008618800000000001,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "multiplier": 6,
+    "status": "INFEASIBLE",
+    "candidate_cells": 240,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 72,
+      "lines_with_at_least_three_grid_points": 2754,
+      "line_enumeration_seconds": 0.002480600029230118
+    },
+    "constrained_lines": 2754,
+    "fixed_secant_lines": 68,
+    "build_seconds": 0.023785999976098537,
+    "solve_seconds": 0.0353003,
+    "conflicts": 64,
+    "branches": 500
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "multiplier": 7,
+    "status": "INFEASIBLE",
+    "candidate_cells": 240,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 72,
+      "lines_with_at_least_three_grid_points": 2754,
+      "line_enumeration_seconds": 0.003903400036506355
+    },
+    "constrained_lines": 2754,
+    "fixed_secant_lines": 74,
+    "build_seconds": 0.030483699985779822,
+    "solve_seconds": 0.009194500000000001,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "multiplier": 8,
+    "status": "INFEASIBLE",
+    "candidate_cells": 240,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 72,
+      "lines_with_at_least_three_grid_points": 2754,
+      "line_enumeration_seconds": 0.006638800026848912
+    },
+    "constrained_lines": 2754,
+    "fixed_secant_lines": 72,
+    "build_seconds": 0.036045100016053766,
+    "solve_seconds": 0.0102304,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "multiplier": 9,
+    "status": "INFEASIBLE",
+    "candidate_cells": 240,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 72,
+      "lines_with_at_least_three_grid_points": 2754,
+      "line_enumeration_seconds": 0.0032822000212036073
+    },
+    "constrained_lines": 2754,
+    "fixed_secant_lines": 72,
+    "build_seconds": 0.026314300019294024,
+    "solve_seconds": 0.009759,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "multiplier": 10,
+    "status": "INFEASIBLE",
+    "candidate_cells": 240,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 72,
+      "lines_with_at_least_three_grid_points": 2754,
+      "line_enumeration_seconds": 0.0026574000366963446
+    },
+    "constrained_lines": 2754,
+    "fixed_secant_lines": 74,
+    "build_seconds": 0.0345085000153631,
+    "solve_seconds": 0.0137826,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "multiplier": 11,
+    "status": "INFEASIBLE",
+    "candidate_cells": 240,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 72,
+      "lines_with_at_least_three_grid_points": 2754,
+      "line_enumeration_seconds": 0.005422400019597262
+    },
+    "constrained_lines": 2754,
+    "fixed_secant_lines": 68,
+    "build_seconds": 0.03261649998603389,
+    "solve_seconds": 0.0298453,
+    "conflicts": 84,
+    "branches": 577
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "multiplier": 12,
+    "status": "INFEASIBLE",
+    "candidate_cells": 240,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 72,
+      "lines_with_at_least_three_grid_points": 2754,
+      "line_enumeration_seconds": 0.004046899965032935
+    },
+    "constrained_lines": 2754,
+    "fixed_secant_lines": 74,
+    "build_seconds": 0.03315989999100566,
+    "solve_seconds": 0.009717,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "multiplier": 13,
+    "status": "INFEASIBLE",
+    "candidate_cells": 240,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 72,
+      "lines_with_at_least_three_grid_points": 2754,
+      "line_enumeration_seconds": 0.00332620000699535
+    },
+    "constrained_lines": 2754,
+    "fixed_secant_lines": 76,
+    "build_seconds": 0.03232070000376552,
+    "solve_seconds": 0.009924800000000001,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "multiplier": 14,
+    "status": "INFEASIBLE",
+    "candidate_cells": 240,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 72,
+      "lines_with_at_least_three_grid_points": 2754,
+      "line_enumeration_seconds": 0.004513300023972988
+    },
+    "constrained_lines": 2754,
+    "fixed_secant_lines": 74,
+    "build_seconds": 0.02817569999024272,
+    "solve_seconds": 0.0093711,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "multiplier": 15,
+    "status": "INFEASIBLE",
+    "candidate_cells": 240,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 72,
+      "lines_with_at_least_three_grid_points": 2754,
+      "line_enumeration_seconds": 0.0029159000259824097
+    },
+    "constrained_lines": 2754,
+    "fixed_secant_lines": 80,
+    "build_seconds": 0.0280600999831222,
+    "solve_seconds": 0.0084024,
+    "conflicts": 0,
+    "branches": 0
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "multiplier": 16,
+    "status": "INFEASIBLE",
+    "candidate_cells": 240,
+    "line_statistics": {
+      "primitive_directions_with_possible_three_point_lines": 72,
+      "lines_with_at_least_three_grid_points": 2754,
+      "line_enumeration_seconds": 0.0031765999738126993
+    },
+    "constrained_lines": 2754,
+    "fixed_secant_lines": 70,
+    "build_seconds": 0.024653000000398606,
+    "solve_seconds": 0.009784300000000001,
+    "conflicts": 0,
+    "branches": 0
+  }
+]

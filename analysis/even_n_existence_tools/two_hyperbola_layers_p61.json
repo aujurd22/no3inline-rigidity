@@ -1,0 +1,341 @@
+[
+  {
+    "p": 3,
+    "n": 2,
+    "pairs": 1,
+    "solutions": [
+      [
+        1,
+        2
+      ]
+    ],
+    "best": {
+      "multipliers": [
+        1,
+        2
+      ],
+      "bad_lines": 0,
+      "maximum_line_size": 2,
+      "first_bad_line": null
+    }
+  },
+  {
+    "p": 5,
+    "n": 4,
+    "pairs": 6,
+    "solutions": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "best": {
+      "multipliers": [
+        1,
+        3
+      ],
+      "bad_lines": 0,
+      "maximum_line_size": 2,
+      "first_bad_line": null
+    }
+  },
+  {
+    "p": 7,
+    "n": 6,
+    "pairs": 15,
+    "solutions": [
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "best": {
+      "multipliers": [
+        2,
+        3
+      ],
+      "bad_lines": 0,
+      "maximum_line_size": 2,
+      "first_bad_line": null
+    }
+  },
+  {
+    "p": 11,
+    "n": 10,
+    "pairs": 45,
+    "solutions": [
+      [
+        5,
+        6
+      ]
+    ],
+    "best": {
+      "multipliers": [
+        5,
+        6
+      ],
+      "bad_lines": 0,
+      "maximum_line_size": 2,
+      "first_bad_line": null
+    }
+  },
+  {
+    "p": 13,
+    "n": 12,
+    "pairs": 66,
+    "solutions": [],
+    "best": {
+      "multipliers": [
+        1,
+        12
+      ],
+      "bad_lines": 2,
+      "maximum_line_size": 4,
+      "first_bad_line": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "pairs": 120,
+    "solutions": [],
+    "best": {
+      "multipliers": [
+        7,
+        8
+      ],
+      "bad_lines": 4,
+      "maximum_line_size": 4,
+      "first_bad_line": [
+        1,
+        -1,
+        2
+      ]
+    }
+  },
+  {
+    "p": 19,
+    "n": 18,
+    "pairs": 153,
+    "solutions": [],
+    "best": {
+      "multipliers": [
+        5,
+        7
+      ],
+      "bad_lines": 11,
+      "maximum_line_size": 4,
+      "first_bad_line": [
+        1,
+        -1,
+        4
+      ]
+    }
+  },
+  {
+    "p": 23,
+    "n": 22,
+    "pairs": 231,
+    "solutions": [],
+    "best": {
+      "multipliers": [
+        3,
+        7
+      ],
+      "bad_lines": 16,
+      "maximum_line_size": 4,
+      "first_bad_line": [
+        1,
+        -1,
+        2
+      ]
+    }
+  },
+  {
+    "p": 29,
+    "n": 28,
+    "pairs": 378,
+    "solutions": [],
+    "best": {
+      "multipliers": [
+        5,
+        16
+      ],
+      "bad_lines": 20,
+      "maximum_line_size": 4,
+      "first_bad_line": [
+        3,
+        -1,
+        4
+      ]
+    }
+  },
+  {
+    "p": 31,
+    "n": 30,
+    "pairs": 435,
+    "solutions": [],
+    "best": {
+      "multipliers": [
+        2,
+        10
+      ],
+      "bad_lines": 19,
+      "maximum_line_size": 4,
+      "first_bad_line": [
+        1,
+        -1,
+        1
+      ]
+    }
+  },
+  {
+    "p": 37,
+    "n": 36,
+    "pairs": 630,
+    "solutions": [],
+    "best": {
+      "multipliers": [
+        6,
+        31
+      ],
+      "bad_lines": 24,
+      "maximum_line_size": 4,
+      "first_bad_line": [
+        1,
+        -5,
+        9
+      ]
+    }
+  },
+  {
+    "p": 41,
+    "n": 40,
+    "pairs": 780,
+    "solutions": [],
+    "best": {
+      "multipliers": [
+        5,
+        12
+      ],
+      "bad_lines": 32,
+      "maximum_line_size": 4,
+      "first_bad_line": [
+        1,
+        -1,
+        4
+      ]
+    }
+  },
+  {
+    "p": 43,
+    "n": 42,
+    "pairs": 861,
+    "solutions": [],
+    "best": {
+      "multipliers": [
+        10,
+        11
+      ],
+      "bad_lines": 33,
+      "maximum_line_size": 4,
+      "first_bad_line": [
+        2,
+        -3,
+        27
+      ]
+    }
+  },
+  {
+    "p": 47,
+    "n": 46,
+    "pairs": 1035,
+    "solutions": [],
+    "best": {
+      "multipliers": [
+        3,
+        15
+      ],
+      "bad_lines": 48,
+      "maximum_line_size": 4,
+      "first_bad_line": [
+        1,
+        -1,
+        2
+      ]
+    }
+  },
+  {
+    "p": 53,
+    "n": 52,
+    "pairs": 1326,
+    "solutions": [],
+    "best": {
+      "multipliers": [
+        9,
+        17
+      ],
+      "bad_lines": 50,
+      "maximum_line_size": 4,
+      "first_bad_line": [
+        1,
+        -2,
+        16
+      ]
+    }
+  },
+  {
+    "p": 59,
+    "n": 58,
+    "pairs": 1653,
+    "solutions": [],
+    "best": {
+      "multipliers": [
+        2,
+        12
+      ],
+      "bad_lines": 66,
+      "maximum_line_size": 4,
+      "first_bad_line": [
+        1,
+        -1,
+        1
+      ]
+    }
+  },
+  {
+    "p": 61,
+    "n": 60,
+    "pairs": 1770,
+    "solutions": [],
+    "best": {
+      "multipliers": [
+        7,
+        23
+      ],
+      "bad_lines": 68,
+      "maximum_line_size": 4,
+      "first_bad_line": [
+        1,
+        -4,
+        24
+      ]
+    }
+  }
+]

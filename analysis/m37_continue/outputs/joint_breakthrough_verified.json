@@ -1,0 +1,2369 @@
+[
+  {
+    "name": "joint_v14_1",
+    "source_file": "joint_plateau_lns.json",
+    "parent": "seed_rank3",
+    "edges": [
+      [
+        0,
+        36
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        34
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        22
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        18
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        17
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        11,
+        17
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        27
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        36
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        30
+      ]
+    ],
+    "bits": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "factor": {
+      "edge_count": 37,
+      "degree_histogram": {
+        "2": 37
+      },
+      "is_2factor": true,
+      "duplicate_unordered_edges": 0,
+      "loops": 0
+    },
+    "clauses": 436,
+    "complement_pairs": 218,
+    "missing_complements": 0,
+    "independent_clause_violations": 14,
+    "line_key_geometry": {
+      "point_count": 148,
+      "distinct_point_count": 148,
+      "bad_triples": 56,
+      "bad_line_count": 56,
+      "max_points_on_line": 3
+    },
+    "bruteforce_bad_triples": 56,
+    "bad_triples_per_clause_violation": 4.0,
+    "repeat_exact_solve": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 0.348,
+      "optimal": true,
+      "best_bound": 14.0,
+      "bits": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "violations": 14
+    }
+  },
+  {
+    "name": "joint_v14_2",
+    "source_file": "joint_plateau_lns.json",
+    "parent": "seed_rank6",
+    "edges": [
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        22
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        17
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        27
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "bits": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "factor": {
+      "edge_count": 37,
+      "degree_histogram": {
+        "2": 37
+      },
+      "is_2factor": true,
+      "duplicate_unordered_edges": 0,
+      "loops": 0
+    },
+    "clauses": 556,
+    "complement_pairs": 278,
+    "missing_complements": 0,
+    "independent_clause_violations": 14,
+    "line_key_geometry": {
+      "point_count": 148,
+      "distinct_point_count": 148,
+      "bad_triples": 56,
+      "bad_line_count": 56,
+      "max_points_on_line": 3
+    },
+    "bruteforce_bad_triples": 56,
+    "bad_triples_per_clause_violation": 4.0,
+    "repeat_exact_solve": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 1.178,
+      "optimal": true,
+      "best_bound": 14.0,
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "violations": 14
+    }
+  },
+  {
+    "name": "joint_v14_3",
+    "source_file": "joint_plateau_v14_deep.json",
+    "parent": "layer2_beam3",
+    "edges": [
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        17
+      ],
+      [
+        22,
+        28
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        27
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "bits": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "factor": {
+      "edge_count": 37,
+      "degree_histogram": {
+        "2": 37
+      },
+      "is_2factor": true,
+      "duplicate_unordered_edges": 0,
+      "loops": 0
+    },
+    "clauses": 590,
+    "complement_pairs": 295,
+    "missing_complements": 0,
+    "independent_clause_violations": 14,
+    "line_key_geometry": {
+      "point_count": 148,
+      "distinct_point_count": 148,
+      "bad_triples": 56,
+      "bad_line_count": 56,
+      "max_points_on_line": 3
+    },
+    "bruteforce_bad_triples": 56,
+    "bad_triples_per_clause_violation": 4.0,
+    "repeat_exact_solve": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 0.893,
+      "optimal": true,
+      "best_bound": 14.0,
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "violations": 14
+    }
+  },
+  {
+    "name": "joint_v14_4",
+    "source_file": "exhaustive_v14_neighbors.json",
+    "parent": "exhaustive_v14_neighbors.json",
+    "edges": [
+      [
+        0,
+        36
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        34
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        22
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        18
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        17
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        11,
+        17
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        27
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        36
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        30
+      ]
+    ],
+    "bits": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "factor": {
+      "edge_count": 37,
+      "degree_histogram": {
+        "2": 37
+      },
+      "is_2factor": true,
+      "duplicate_unordered_edges": 0,
+      "loops": 0
+    },
+    "clauses": 426,
+    "complement_pairs": 213,
+    "missing_complements": 0,
+    "independent_clause_violations": 14,
+    "line_key_geometry": {
+      "point_count": 148,
+      "distinct_point_count": 148,
+      "bad_triples": 56,
+      "bad_line_count": 56,
+      "max_points_on_line": 3
+    },
+    "bruteforce_bad_triples": 56,
+    "bad_triples_per_clause_violation": 4.0,
+    "repeat_exact_solve": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 1.111,
+      "optimal": true,
+      "best_bound": 14.0,
+      "bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "violations": 14
+    }
+  },
+  {
+    "name": "joint_v14_5",
+    "source_file": "exhaustive_v14_neighbors.json",
+    "parent": "exhaustive_v14_neighbors.json",
+    "edges": [
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        22
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        29
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        17
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        27
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "bits": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "factor": {
+      "edge_count": 37,
+      "degree_histogram": {
+        "2": 37
+      },
+      "is_2factor": true,
+      "duplicate_unordered_edges": 0,
+      "loops": 0
+    },
+    "clauses": 684,
+    "complement_pairs": 342,
+    "missing_complements": 0,
+    "independent_clause_violations": 14,
+    "line_key_geometry": {
+      "point_count": 148,
+      "distinct_point_count": 148,
+      "bad_triples": 56,
+      "bad_line_count": 56,
+      "max_points_on_line": 3
+    },
+    "bruteforce_bad_triples": 56,
+    "bad_triples_per_clause_violation": 4.0,
+    "repeat_exact_solve": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 1.155,
+      "optimal": true,
+      "best_bound": 14.0,
+      "bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "violations": 14
+    }
+  },
+  {
+    "name": "joint_v14_6",
+    "source_file": "exhaustive_v14_neighbors.json",
+    "parent": "exhaustive_v14_neighbors.json",
+    "edges": [
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        17,
+        22
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        27
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "bits": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "factor": {
+      "edge_count": 37,
+      "degree_histogram": {
+        "2": 37
+      },
+      "is_2factor": true,
+      "duplicate_unordered_edges": 0,
+      "loops": 0
+    },
+    "clauses": 564,
+    "complement_pairs": 282,
+    "missing_complements": 0,
+    "independent_clause_violations": 14,
+    "line_key_geometry": {
+      "point_count": 148,
+      "distinct_point_count": 148,
+      "bad_triples": 56,
+      "bad_line_count": 56,
+      "max_points_on_line": 3
+    },
+    "bruteforce_bad_triples": 56,
+    "bad_triples_per_clause_violation": 4.0,
+    "repeat_exact_solve": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 0.642,
+      "optimal": true,
+      "best_bound": 14.0,
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "violations": 14
+    }
+  },
+  {
+    "name": "joint_v14_7",
+    "source_file": "exhaustive_v14_neighbors.json",
+    "parent": "exhaustive_v14_neighbors.json",
+    "edges": [
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        17
+      ],
+      [
+        22,
+        28
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        7,
+        27
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "bits": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "factor": {
+      "edge_count": 37,
+      "degree_histogram": {
+        "2": 37
+      },
+      "is_2factor": true,
+      "duplicate_unordered_edges": 0,
+      "loops": 0
+    },
+    "clauses": 584,
+    "complement_pairs": 292,
+    "missing_complements": 0,
+    "independent_clause_violations": 14,
+    "line_key_geometry": {
+      "point_count": 148,
+      "distinct_point_count": 148,
+      "bad_triples": 60,
+      "bad_line_count": 60,
+      "max_points_on_line": 3
+    },
+    "bruteforce_bad_triples": 60,
+    "bad_triples_per_clause_violation": 4.285714285714286,
+    "repeat_exact_solve": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 0.57,
+      "optimal": true,
+      "best_bound": 14.0,
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "violations": 14
+    }
+  },
+  {
+    "name": "joint_v14_8",
+    "source_file": "exhaustive_v14_neighbors.json",
+    "parent": "exhaustive_v14_neighbors.json",
+    "edges": [
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        22,
+        28
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        27
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "bits": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "factor": {
+      "edge_count": 37,
+      "degree_histogram": {
+        "2": 37
+      },
+      "is_2factor": true,
+      "duplicate_unordered_edges": 0,
+      "loops": 0
+    },
+    "clauses": 598,
+    "complement_pairs": 299,
+    "missing_complements": 0,
+    "independent_clause_violations": 14,
+    "line_key_geometry": {
+      "point_count": 148,
+      "distinct_point_count": 148,
+      "bad_triples": 56,
+      "bad_line_count": 56,
+      "max_points_on_line": 3
+    },
+    "bruteforce_bad_triples": 56,
+    "bad_triples_per_clause_violation": 4.0,
+    "repeat_exact_solve": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 0.794,
+      "optimal": true,
+      "best_bound": 14.0,
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "violations": 14
+    }
+  },
+  {
+    "name": "joint_v14_9",
+    "source_file": "exhaustive_v14_neighbors.json",
+    "parent": "exhaustive_v14_neighbors.json",
+    "edges": [
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        27
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        17
+      ],
+      [
+        22,
+        28
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "bits": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "factor": {
+      "edge_count": 37,
+      "degree_histogram": {
+        "2": 37
+      },
+      "is_2factor": true,
+      "duplicate_unordered_edges": 0,
+      "loops": 0
+    },
+    "clauses": 756,
+    "complement_pairs": 378,
+    "missing_complements": 0,
+    "independent_clause_violations": 14,
+    "line_key_geometry": {
+      "point_count": 148,
+      "distinct_point_count": 148,
+      "bad_triples": 56,
+      "bad_line_count": 56,
+      "max_points_on_line": 3
+    },
+    "bruteforce_bad_triples": 56,
+    "bad_triples_per_clause_violation": 4.0,
+    "repeat_exact_solve": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 0.241,
+      "optimal": true,
+      "best_bound": 14.0,
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "violations": 14
+    }
+  }
+]

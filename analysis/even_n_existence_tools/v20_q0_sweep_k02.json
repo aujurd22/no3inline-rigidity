@@ -1,0 +1,283 @@
+{
+  "method": "corrected direct fixed-(k,A) multigraph q=0 enumeration; cycle length one is the base loop and contributes A=1 when removed",
+  "archive": "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\v20_basin_archive.json",
+  "k": 2,
+  "A_values": [
+    0,
+    1,
+    2
+  ],
+  "bases": [
+    "v20_01",
+    "v20_02",
+    "v20_03",
+    "v20_04",
+    "v20_05",
+    "v20_06"
+  ],
+  "workers": 4,
+  "records": [
+    {
+      "base": "v20_01",
+      "A": 0,
+      "distinct_shape_masks": 594,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.576,
+      "certificate": "v20_multigraph_factor_v20_01_k2_a0_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_01",
+      "A": 1,
+      "distinct_shape_masks": 72,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.674,
+      "certificate": "v20_multigraph_factor_v20_01_k2_a1_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_01",
+      "A": 2,
+      "distinct_shape_masks": 0,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.621,
+      "certificate": "v20_multigraph_factor_v20_01_k2_a2_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_02",
+      "A": 0,
+      "distinct_shape_masks": 594,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.955,
+      "certificate": "v20_multigraph_factor_v20_02_k2_a0_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_02",
+      "A": 1,
+      "distinct_shape_masks": 72,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.712,
+      "certificate": "v20_multigraph_factor_v20_02_k2_a1_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_02",
+      "A": 2,
+      "distinct_shape_masks": 0,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.632,
+      "certificate": "v20_multigraph_factor_v20_02_k2_a2_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_03",
+      "A": 0,
+      "distinct_shape_masks": 594,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.582,
+      "certificate": "v20_multigraph_factor_v20_03_k2_a0_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_03",
+      "A": 1,
+      "distinct_shape_masks": 72,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.824,
+      "certificate": "v20_multigraph_factor_v20_03_k2_a1_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_03",
+      "A": 2,
+      "distinct_shape_masks": 0,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.614,
+      "certificate": "v20_multigraph_factor_v20_03_k2_a2_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_04",
+      "A": 0,
+      "distinct_shape_masks": 594,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.639,
+      "certificate": "v20_multigraph_factor_v20_04_k2_a0_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_04",
+      "A": 1,
+      "distinct_shape_masks": 72,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.816,
+      "certificate": "v20_multigraph_factor_v20_04_k2_a1_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_04",
+      "A": 2,
+      "distinct_shape_masks": 0,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.726,
+      "certificate": "v20_multigraph_factor_v20_04_k2_a2_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_05",
+      "A": 0,
+      "distinct_shape_masks": 594,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.666,
+      "certificate": "v20_multigraph_factor_v20_05_k2_a0_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_05",
+      "A": 1,
+      "distinct_shape_masks": 72,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.864,
+      "certificate": "v20_multigraph_factor_v20_05_k2_a1_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_05",
+      "A": 2,
+      "distinct_shape_masks": 0,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.598,
+      "certificate": "v20_multigraph_factor_v20_05_k2_a2_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_06",
+      "A": 0,
+      "distinct_shape_masks": 594,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.655,
+      "certificate": "v20_multigraph_factor_v20_06_k2_a0_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_06",
+      "A": 1,
+      "distinct_shape_masks": 72,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.755,
+      "certificate": "v20_multigraph_factor_v20_06_k2_a1_q0.json",
+      "stderr_tail": []
+    },
+    {
+      "base": "v20_06",
+      "A": 2,
+      "distinct_shape_masks": 0,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.579,
+      "certificate": "v20_multigraph_factor_v20_06_k2_a2_q0.json",
+      "stderr_tail": []
+    }
+  ],
+  "per_base": {
+    "v20_01": {
+      "distinct_shape_masks": 666,
+      "expected_masks": 666,
+      "partition_complete": true,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0
+    },
+    "v20_02": {
+      "distinct_shape_masks": 666,
+      "expected_masks": 666,
+      "partition_complete": true,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0
+    },
+    "v20_03": {
+      "distinct_shape_masks": 666,
+      "expected_masks": 666,
+      "partition_complete": true,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0
+    },
+    "v20_04": {
+      "distinct_shape_masks": 666,
+      "expected_masks": 666,
+      "partition_complete": true,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0
+    },
+    "v20_05": {
+      "distinct_shape_masks": 666,
+      "expected_masks": 666,
+      "partition_complete": true,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0
+    },
+    "v20_06": {
+      "distinct_shape_masks": 666,
+      "expected_masks": 666,
+      "partition_complete": true,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0
+    }
+  },
+  "all_partitions_complete": true,
+  "elapsed_s": 3.966
+}

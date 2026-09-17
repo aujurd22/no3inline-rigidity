@@ -1,0 +1,23 @@
+{
+  "n": 10,
+  "p": 11,
+  "point_count": 20,
+  "modular_collinear_triples": 76,
+  "universal_lower_bound": 30,
+  "ratio_to_lower_bound": 2.533333333333333,
+  "ordinary_collinear_triples": 0,
+  "distinct_signed_carries": 8,
+  "minimum_carry": -4,
+  "maximum_carry": 4,
+  "mean_absolute_carry": 1.7894736842105263,
+  "carry_histogram": {
+    "-4": 4,
+    "-3": 2,
+    "-2": 14,
+    "-1": 18,
+    "1": 18,
+    "2": 14,
+    "3": 2,
+    "4": 4
+  }
+}

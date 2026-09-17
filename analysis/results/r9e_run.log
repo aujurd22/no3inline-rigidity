@@ -1,0 +1,11 @@
+[dens] m=6 K=600 mean_bad=29.51 std=21.50 total_triples=2024 collision_rate=1.458e-02 (0.2s)
+[dens] m=8 K=600 mean_bad=49.31 std=24.82 total_triples=4960 collision_rate=9.941e-03 (0.4s)
+[dens] m=10 K=600 mean_bad=67.62 std=26.96 total_triples=9880 collision_rate=6.844e-03 (0.6s)
+[dens] m=12 K=600 mean_bad=89.21 std=31.30 total_triples=17296 collision_rate=5.158e-03 (0.9s)
+[dens] m=14 K=600 mean_bad=113.81 std=40.28 total_triples=27720 collision_rate=4.106e-03 (1.3s)
+[orient] m=14 K=1500 axial=82896 oblique=88884 oblique_frac=0.517
+[dens] m=16 K=600 mean_bad=138.76 std=41.59 total_triples=41664 collision_rate=3.330e-03 (1.7s)
+[dens] m=18 K=600 mean_bad=163.10 std=44.18 total_triples=59640 collision_rate=2.735e-03 (2.2s)
+[dens] m=20 K=600 mean_bad=192.11 std=47.03 total_triples=82160 collision_rate=2.338e-03 (2.8s)
+[dens] m=22 K=600 mean_bad=219.11 std=50.33 total_triples=109736 collision_rate=1.997e-03 (3.4s)
+[done] wrote D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\r9e_density.csv and r9e_density.json

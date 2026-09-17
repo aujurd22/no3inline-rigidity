@@ -1,0 +1,327 @@
+[
+  {
+    "p": 3,
+    "n": 2,
+    "slope_pairs": 1,
+    "solutions": [
+      [
+        1,
+        2
+      ]
+    ],
+    "best": {
+      "slopes": [
+        1,
+        2
+      ],
+      "bad_lines": 0,
+      "maximum_line_size": 2,
+      "first_bad_line": null
+    }
+  },
+  {
+    "p": 5,
+    "n": 4,
+    "slope_pairs": 6,
+    "solutions": [
+      [
+        2,
+        3
+      ]
+    ],
+    "best": {
+      "slopes": [
+        2,
+        3
+      ],
+      "bad_lines": 0,
+      "maximum_line_size": 2,
+      "first_bad_line": null
+    }
+  },
+  {
+    "p": 7,
+    "n": 6,
+    "slope_pairs": 15,
+    "solutions": [],
+    "best": {
+      "slopes": [
+        1,
+        6
+      ],
+      "bad_lines": 2,
+      "maximum_line_size": 6,
+      "first_bad_line": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "p": 11,
+    "n": 10,
+    "slope_pairs": 45,
+    "solutions": [],
+    "best": {
+      "slopes": [
+        1,
+        10
+      ],
+      "bad_lines": 2,
+      "maximum_line_size": 10,
+      "first_bad_line": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "p": 13,
+    "n": 12,
+    "slope_pairs": 66,
+    "solutions": [],
+    "best": {
+      "slopes": [
+        1,
+        12
+      ],
+      "bad_lines": 2,
+      "maximum_line_size": 12,
+      "first_bad_line": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "p": 17,
+    "n": 16,
+    "slope_pairs": 120,
+    "solutions": [],
+    "best": {
+      "slopes": [
+        1,
+        16
+      ],
+      "bad_lines": 2,
+      "maximum_line_size": 16,
+      "first_bad_line": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "p": 19,
+    "n": 18,
+    "slope_pairs": 153,
+    "solutions": [],
+    "best": {
+      "slopes": [
+        1,
+        18
+      ],
+      "bad_lines": 2,
+      "maximum_line_size": 18,
+      "first_bad_line": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "p": 23,
+    "n": 22,
+    "slope_pairs": 231,
+    "solutions": [],
+    "best": {
+      "slopes": [
+        1,
+        22
+      ],
+      "bad_lines": 2,
+      "maximum_line_size": 22,
+      "first_bad_line": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "p": 29,
+    "n": 28,
+    "slope_pairs": 378,
+    "solutions": [],
+    "best": {
+      "slopes": [
+        1,
+        28
+      ],
+      "bad_lines": 2,
+      "maximum_line_size": 28,
+      "first_bad_line": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "p": 31,
+    "n": 30,
+    "slope_pairs": 435,
+    "solutions": [],
+    "best": {
+      "slopes": [
+        1,
+        30
+      ],
+      "bad_lines": 2,
+      "maximum_line_size": 30,
+      "first_bad_line": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "p": 37,
+    "n": 36,
+    "slope_pairs": 630,
+    "solutions": [],
+    "best": {
+      "slopes": [
+        1,
+        36
+      ],
+      "bad_lines": 2,
+      "maximum_line_size": 36,
+      "first_bad_line": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "p": 41,
+    "n": 40,
+    "slope_pairs": 780,
+    "solutions": [],
+    "best": {
+      "slopes": [
+        1,
+        40
+      ],
+      "bad_lines": 2,
+      "maximum_line_size": 40,
+      "first_bad_line": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "p": 43,
+    "n": 42,
+    "slope_pairs": 861,
+    "solutions": [],
+    "best": {
+      "slopes": [
+        1,
+        42
+      ],
+      "bad_lines": 2,
+      "maximum_line_size": 42,
+      "first_bad_line": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "p": 47,
+    "n": 46,
+    "slope_pairs": 1035,
+    "solutions": [],
+    "best": {
+      "slopes": [
+        1,
+        46
+      ],
+      "bad_lines": 2,
+      "maximum_line_size": 46,
+      "first_bad_line": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "p": 53,
+    "n": 52,
+    "slope_pairs": 1326,
+    "solutions": [],
+    "best": {
+      "slopes": [
+        1,
+        52
+      ],
+      "bad_lines": 2,
+      "maximum_line_size": 52,
+      "first_bad_line": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "p": 59,
+    "n": 58,
+    "slope_pairs": 1653,
+    "solutions": [],
+    "best": {
+      "slopes": [
+        1,
+        58
+      ],
+      "bad_lines": 2,
+      "maximum_line_size": 58,
+      "first_bad_line": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "p": 61,
+    "n": 60,
+    "slope_pairs": 1770,
+    "solutions": [],
+    "best": {
+      "slopes": [
+        1,
+        60
+      ],
+      "bad_lines": 2,
+      "maximum_line_size": 60,
+      "first_bad_line": [
+        1,
+        -1,
+        0
+      ]
+    }
+  }
+]

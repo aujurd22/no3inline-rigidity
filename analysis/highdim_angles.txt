@@ -1,0 +1,39 @@
+==============================================================================
+PART B+ -- SAME-n SOLUTIONS AS PROJECTIONS OF A SHARED HIGH-D SOURCE
+==============================================================================
+
+######################################################################
+# n=14  (D=n^2=196, K solutions)
+######################################################################
+  loaded 1284 solutions
+  SVD in 0.1s  | r=min(K,D)=196  total var=29494.2
+  [A] intrinsic dim k90 = 110  (= 7.86*n,  k90/D = 0.5612)
+      -> only 110 shared directions reconstruct 90% of ALL 1284 solutions
+  [B] corr(PC1, ring-count) = -0.034  (>0.3 => one angle orders solutions by hidden param)
+  [C] ring-bucket silhouette:  SVD-top2 = -0.027   random-angle max = -0.011 (seed 54)   mean = -0.024
+      -> random angles do NOT exceed the optimal SVD angle (structure is concentrated in top SVD dirs)
+  saved: figs/angles_latent_14.png, figs/angles_basis_14.png
+
+######################################################################
+# n=16  (D=n^2=256, K solutions)
+######################################################################
+  loaded 5683 solutions
+  SVD in 0.8s  | r=min(K,D)=256  total var=153271.9
+  [A] intrinsic dim k90 = 154  (= 9.62*n,  k90/D = 0.6016)
+      -> only 154 shared directions reconstruct 90% of ALL 5683 solutions
+  [B] corr(PC1, ring-count) = +0.050  (>0.3 => one angle orders solutions by hidden param)
+  [C] ring-bucket silhouette:  SVD-top2 = -0.016   random-angle max = -0.014 (seed 29)   mean = -0.027
+      -> random angles do NOT exceed the optimal SVD angle (structure is concentrated in top SVD dirs)
+  saved: figs/angles_latent_16.png, figs/angles_basis_16.png
+
+######################################################################
+# n=18  (D=n^2=324, K solutions)
+######################################################################
+  loaded 4000 solutions
+  SVD in 2.7s  | r=min(K,D)=324  total var=124864.8
+  [A] intrinsic dim k90 = 200  (= 11.11*n,  k90/D = 0.6173)
+      -> only 200 shared directions reconstruct 90% of ALL 4000 solutions
+  [B] corr(PC1, ring-count) = -0.110  (>0.3 => one angle orders solutions by hidden param)
+  [C] ring-bucket silhouette:  SVD-top2 = -0.024   random-angle max = -0.013 (seed 4)   mean = -0.022
+      -> random angles do NOT exceed the optimal SVD angle (structure is concentrated in top SVD dirs)
+  saved: figs/angles_latent_18.png, figs/angles_basis_18.png

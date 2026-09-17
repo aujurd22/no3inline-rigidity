@@ -1,0 +1,123 @@
+{
+  "k": 12,
+  "A": 4,
+  "run_count": 8,
+  "profile_count_per_base": 5,
+  "bases": [
+    "v40_01"
+  ],
+  "records": [
+    {
+      "base": "v40_01",
+      "profile": [
+        5,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "B": 3,
+      "C": 2,
+      "distinct_shape_masks": 12805848,
+      "defect_hitting_masks": 343573,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 6,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a4_b3_c2_r5-1-1-1-1-1-1-1_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        4,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "B": 2,
+      "C": 1,
+      "distinct_shape_masks": 89640936,
+      "defect_hitting_masks": 1833748,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 8,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a4_b2_c1_r4-2-1-1-1-1-1-1_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "B": 2,
+      "C": 0,
+      "distinct_shape_masks": 44820468,
+      "defect_hitting_masks": 988092,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 9,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a4_b2_c0_r3-3-1-1-1-1-1-1_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        3,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "B": 1,
+      "C": 0,
+      "distinct_shape_masks": 268922808,
+      "defect_hitting_masks": 5673634,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 7,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a4_b1_c0_r3-2-2-1-1-1-1-1_q0.json"
+    },
+    {
+      "base": "v40_01",
+      "profile": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "B": 0,
+      "C": 0,
+      "distinct_shape_masks": 112051170,
+      "defect_hitting_masks": 2234393,
+      "q0_factor_feasible_masks": 0,
+      "first_feasible_removed_indices": [],
+      "maximum_factor_search_nodes": 10,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_01_k12_a4_b0_c0_r2-2-2-2-1-1-1-1_q0.json"
+    }
+  ],
+  "totals": {
+    "base_profile_cases": 5,
+    "distinct_shape_masks": 528241230,
+    "defect_hitting_masks": 11073440,
+    "q0_factor_feasible_masks": 0
+  },
+  "elapsed_s": 318.408
+}

@@ -1,0 +1,9 @@
+best index=0 objective=88 matching_count=1
+best index=17 objective=80 matching_count=18
+best index=27 objective=76 matching_count=28
+count=100 best=76 elapsed=15.935s
+best index=132 objective=72 matching_count=133
+count=200 best=72 elapsed=32.753s
+count=300 best=72 elapsed=50.806s
+done count=322 closed=True status=INFEASIBLE elapsed=54.992s
+C:\Users\djr82\Documents\Codex\2026-07-13\d-djr82-documents-workbuddy-2026-07-2\work\ising_m37\outputs\matching_master_distance6_p8_b4.json

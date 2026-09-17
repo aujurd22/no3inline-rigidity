@@ -1,0 +1,132 @@
+[邻域探针] 盆地数=6  margin=20  topk=20  subproblem=开
+  盆地 v20_01: 起点缺陷(316,79)  邻域数=578  ≤起点+20 的邻域=255  邻域最低缺陷(272,68)
+  盆地 v20_02: 起点缺陷(236,59)  邻域数=578  ≤起点+20 的邻域=211  邻域最低缺陷(204,51)
+  盆地 v20_03: 起点缺陷(264,66)  邻域数=578  ≤起点+20 的邻域=210  邻域最低缺陷(232,58)
+  盆地 v20_04: 起点缺陷(328,82)  邻域数=576  ≤起点+20 的邻域=318  邻域最低缺陷(280,70)
+  盆地 v20_05: 起点缺陷(336,84)  邻域数=578  ≤起点+20 的邻域=302  邻域最低缺陷(288,72)
+  盆地 v20_06: 起点缺陷(240,60)  邻域数=580  ≤起点+20 的邻域=182  邻域最低缺陷(212,53)
+
+=== 子问题判定 120 个近盆地低缺陷邻域 ===
+  来自 v20_02 缺陷(204,51): unsat  clauses=1410
+  来自 v20_02 缺陷(212,53): unsat  clauses=1380
+  来自 v20_06 缺陷(212,53): unsat  clauses=1404
+  来自 v20_02 缺陷(220,55): unsat  clauses=1374
+  来自 v20_02 缺陷(224,56): unsat  clauses=1434
+  来自 v20_02 缺陷(224,56): unsat  clauses=1458
+  来自 v20_02 缺陷(224,56): unsat  clauses=1458
+  来自 v20_02 缺陷(224,56): unsat  clauses=1524
+  来自 v20_02 缺陷(224,56): unsat  clauses=1398
+  来自 v20_06 缺陷(224,56): unsat  clauses=1386
+  来自 v20_06 缺陷(224,56): unsat  clauses=1386
+  来自 v20_02 缺陷(228,57): unsat  clauses=1470
+  来自 v20_02 缺陷(228,57): unsat  clauses=1488
+  来自 v20_02 缺陷(228,57): unsat  clauses=1446
+  来自 v20_02 缺陷(228,57): unsat  clauses=1344
+  来自 v20_02 缺陷(228,57): unsat  clauses=1356
+  来自 v20_02 缺陷(228,57): unsat  clauses=1416
+  来自 v20_02 缺陷(228,57): unsat  clauses=1398
+  来自 v20_02 缺陷(228,57): unsat  clauses=1428
+  来自 v20_02 缺陷(228,57): unsat  clauses=1422
+  来自 v20_02 缺陷(228,57): unsat  clauses=1410
+  来自 v20_02 缺陷(228,57): unsat  clauses=1458
+  来自 v20_02 缺陷(228,57): unsat  clauses=1398
+  来自 v20_06 缺陷(228,57): unsat  clauses=1392
+  来自 v20_06 缺陷(228,57): unsat  clauses=1470
+  来自 v20_06 缺陷(228,57): unsat  clauses=1506
+  来自 v20_06 缺陷(228,57): unsat  clauses=1404
+  来自 v20_03 缺陷(232,58): unsat  clauses=1452
+  来自 v20_03 缺陷(232,58): unsat  clauses=1434
+  来自 v20_06 缺陷(232,58): unsat  clauses=1428
+  来自 v20_06 缺陷(232,58): unsat  clauses=1428
+  来自 v20_06 缺陷(232,58): unsat  clauses=1452
+  来自 v20_06 缺陷(232,58): unsat  clauses=1416
+  来自 v20_06 缺陷(232,58): unsat  clauses=1374
+  来自 v20_06 缺陷(232,58): unsat  clauses=1392
+  来自 v20_06 缺陷(232,58): unsat  clauses=1500
+  来自 v20_06 缺陷(232,58): unsat  clauses=1434
+  来自 v20_06 缺陷(232,58): unsat  clauses=1488
+  来自 v20_06 缺陷(236,59): unsat  clauses=1518
+  来自 v20_06 缺陷(236,59): unsat  clauses=1482
+  来自 v20_06 缺陷(236,59): unsat  clauses=1476
+  来自 v20_06 缺陷(236,59): unsat  clauses=1440
+  来自 v20_03 缺陷(240,60): unsat  clauses=1584
+  来自 v20_03 缺陷(244,61): unsat  clauses=1470
+  来自 v20_03 缺陷(248,62): unsat  clauses=1440
+  来自 v20_03 缺陷(248,62): unsat  clauses=1374
+  来自 v20_03 缺陷(248,62): unsat  clauses=1452
+  来自 v20_03 缺陷(248,62): unsat  clauses=1404
+  来自 v20_03 缺陷(248,62): unsat  clauses=1404
+  来自 v20_03 缺陷(252,63): unsat  clauses=1398
+  来自 v20_03 缺陷(252,63): unsat  clauses=1392
+  来自 v20_03 缺陷(252,63): unsat  clauses=1440
+  来自 v20_03 缺陷(256,64): unsat  clauses=1422
+  来自 v20_03 缺陷(256,64): unsat  clauses=1434
+  来自 v20_03 缺陷(256,64): unsat  clauses=1416
+  来自 v20_03 缺陷(256,64): unsat  clauses=1470
+  来自 v20_03 缺陷(256,64): unsat  clauses=1554
+  来自 v20_03 缺陷(256,64): unsat  clauses=1482
+  来自 v20_03 缺陷(256,64): unsat  clauses=1470
+  来自 v20_03 缺陷(256,64): unsat  clauses=1374
+  来自 v20_01 缺陷(272,68): unsat  clauses=1308
+  来自 v20_01 缺陷(272,68): unsat  clauses=1278
+  来自 v20_01 缺陷(280,70): unsat  clauses=1326
+  来自 v20_01 缺陷(280,70): unsat  clauses=1296
+  来自 v20_01 缺陷(280,70): unsat  clauses=1326
+  来自 v20_04 缺陷(280,70): unsat  clauses=1380
+  来自 v20_01 缺陷(284,71): unsat  clauses=1362
+  来自 v20_01 缺陷(288,72): unsat  clauses=1416
+  来自 v20_01 缺陷(288,72): unsat  clauses=1302
+  来自 v20_01 缺陷(288,72): unsat  clauses=1362
+  来自 v20_01 缺陷(288,72): unsat  clauses=1248
+  来自 v20_04 缺陷(288,72): unsat  clauses=1404
+  来自 v20_04 缺陷(288,72): unsat  clauses=1338
+  来自 v20_05 缺陷(288,72): unsat  clauses=1344
+  来自 v20_01 缺陷(292,73): unsat  clauses=1326
+  来自 v20_01 缺陷(292,73): unsat  clauses=1452
+  来自 v20_01 缺陷(292,73): unsat  clauses=1404
+  来自 v20_01 缺陷(292,73): unsat  clauses=1308
+  来自 v20_01 缺陷(292,73): unsat  clauses=1380
+  来自 v20_04 缺陷(292,73): unsat  clauses=1356
+  来自 v20_04 缺陷(292,73): unsat  clauses=1356
+  来自 v20_04 缺陷(292,73): unsat  clauses=1398
+  来自 v20_01 缺陷(296,74): unsat  clauses=1356
+  来自 v20_01 缺陷(296,74): unsat  clauses=1314
+  来自 v20_01 缺陷(296,74): unsat  clauses=1428
+  来自 v20_01 缺陷(296,74): unsat  clauses=1326
+  来自 v20_01 缺陷(296,74): unsat  clauses=1434
+  来自 v20_04 缺陷(296,74): unsat  clauses=1332
+  来自 v20_04 缺陷(296,74): unsat  clauses=1446
+  来自 v20_04 缺陷(296,74): unsat  clauses=1362
+  来自 v20_04 缺陷(296,74): unsat  clauses=1326
+  来自 v20_04 缺陷(296,74): unsat  clauses=1344
+  来自 v20_05 缺陷(296,74): unsat  clauses=1410
+  来自 v20_05 缺陷(296,74): unsat  clauses=1506
+  来自 v20_05 缺陷(296,74): unsat  clauses=1380
+  来自 v20_04 缺陷(300,75): unsat  clauses=1404
+  来自 v20_04 缺陷(300,75): unsat  clauses=1422
+  来自 v20_04 缺陷(300,75): unsat  clauses=1362
+  来自 v20_05 缺陷(300,75): unsat  clauses=1500
+  来自 v20_05 缺陷(300,75): unsat  clauses=1404
+  来自 v20_04 缺陷(304,76): unsat  clauses=1410
+  来自 v20_05 缺陷(304,76): unsat  clauses=1470
+  来自 v20_04 缺陷(308,77): unsat  clauses=1416
+  来自 v20_04 缺陷(308,77): unsat  clauses=1452
+  来自 v20_04 缺陷(308,77): unsat  clauses=1404
+  来自 v20_04 缺陷(308,77): unsat  clauses=1440
+  来自 v20_04 缺陷(308,77): unsat  clauses=1422
+  来自 v20_05 缺陷(308,77): unsat  clauses=1422
+  来自 v20_05 缺陷(308,77): unsat  clauses=1494
+  来自 v20_05 缺陷(308,77): unsat  clauses=1422
+  来自 v20_05 缺陷(308,77): unsat  clauses=1500
+  来自 v20_05 缺陷(308,77): unsat  clauses=1428
+  来自 v20_05 缺陷(308,77): unsat  clauses=1404
+  来自 v20_05 缺陷(312,78): unsat  clauses=1446
+  来自 v20_05 缺陷(312,78): unsat  clauses=1554
+  来自 v20_05 缺陷(312,78): unsat  clauses=1404
+  来自 v20_05 缺陷(312,78): unsat  clauses=1398
+  来自 v20_05 缺陷(312,78): unsat  clauses=1446
+  来自 v20_05 缺陷(312,78): unsat  clauses=1488
+  来自 v20_05 缺陷(312,78): unsat  clauses=1470
+
+写入 switch_walk_results.json  耗时 243s
+未找到解：近盆地低缺陷邻域全 UNSAT（局部穷尽性证据）

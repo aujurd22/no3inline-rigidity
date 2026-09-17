@@ -1,0 +1,30 @@
+{
+  "base": "v40_04",
+  "distance": 3,
+  "idx": 0,
+  "parts": 1,
+  "indices": [
+    0,
+    2,
+    4,
+    7,
+    8,
+    10,
+    12,
+    15,
+    17,
+    19,
+    22,
+    24,
+    27
+  ],
+  "closed": true,
+  "status": "INFEASIBLE",
+  "count": 91,
+  "best_objective": 52
+}
+CURRENT {
+  "base": "v40_04",
+  "min_objective": 52,
+  "all_closed": true
+}

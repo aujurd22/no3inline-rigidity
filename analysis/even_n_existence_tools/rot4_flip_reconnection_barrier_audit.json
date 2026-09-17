@@ -1,0 +1,109 @@
+{
+  "scope": {
+    "distance": 12,
+    "normalized_exact_reselection_forbidden": true,
+    "corridor_A": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "uses_only": [
+      "deletion size and adjacency shape",
+      "all old-defect hitting constraints",
+      "single-orbit blockers of reversed old cells"
+    ],
+    "does_not_use": [
+      "replacement f-factor",
+      "line capacities",
+      "multi-direction resource graphs"
+    ]
+  },
+  "corridor": {
+    "v40_01": {
+      "maximum_eligible_flips_by_A": {
+        "3": 6,
+        "4": 6,
+        "5": 6,
+        "6": 6
+      },
+      "corridor_maximum_eligible_flips": 6,
+      "minimum_genuine_reconnections": 6
+    },
+    "v40_02": {
+      "maximum_eligible_flips_by_A": {
+        "3": 7,
+        "4": 7,
+        "5": 6,
+        "6": 6
+      },
+      "corridor_maximum_eligible_flips": 7,
+      "minimum_genuine_reconnections": 5
+    },
+    "v40_03": {
+      "maximum_eligible_flips_by_A": {
+        "3": 7,
+        "4": 7,
+        "5": 7,
+        "6": 7
+      },
+      "corridor_maximum_eligible_flips": 7,
+      "minimum_genuine_reconnections": 5
+    },
+    "v40_04": {
+      "maximum_eligible_flips_by_A": {
+        "3": 5,
+        "4": 5,
+        "5": 5,
+        "6": 5
+      },
+      "corridor_maximum_eligible_flips": 5,
+      "minimum_genuine_reconnections": 7
+    }
+  },
+  "A6_B1_C0_exhaustive": {
+    "v40_01": {
+      "distinct_shape_masks": 7863240,
+      "defect_hitting_masks": 166617,
+      "maximum_eligible_flips": 5,
+      "minimum_genuine_reconnections": 7,
+      "maximizer_count": 11
+    },
+    "v40_02": {
+      "distinct_shape_masks": 7863240,
+      "defect_hitting_masks": 83634,
+      "maximum_eligible_flips": 5,
+      "minimum_genuine_reconnections": 7,
+      "maximizer_count": 31
+    },
+    "v40_03": {
+      "distinct_shape_masks": 8379360,
+      "defect_hitting_masks": 188640,
+      "maximum_eligible_flips": 6,
+      "minimum_genuine_reconnections": 6,
+      "maximizer_count": 3
+    },
+    "v40_04": {
+      "distinct_shape_masks": 8379360,
+      "defect_hitting_masks": 187234,
+      "maximum_eligible_flips": 4,
+      "minimum_genuine_reconnections": 8,
+      "maximizer_count": 20
+    }
+  },
+  "claims": {
+    "all_corridor_repairs_require_genuine_reconnections": {
+      "v40_01": 6,
+      "v40_02": 5,
+      "v40_03": 5,
+      "v40_04": 7
+    },
+    "A6_B1_C0_repairs_require_genuine_reconnections": {
+      "v40_01": 7,
+      "v40_02": 7,
+      "v40_03": 6,
+      "v40_04": 8
+    }
+  },
+  "audit_passed": true
+}

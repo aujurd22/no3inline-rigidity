@@ -1,0 +1,190 @@
+==============================================================================
+PART A : absolute count V(n), growth, density decay
+==============================================================================
+  n         V(n) V(n)/V(n-2)   log10 V  classes_present
+  4           13        -       1.114  rot2,dia2,ort1,full
+  5           32       2.46     1.505  iden,dia1
+  6           54       1.69     1.732  iden,rot2,dia2,rot4
+  7          132       2.44     2.121  iden,rot2,dia1
+  8          380       2.88     2.580  iden,rot2,dia1,ort1,rot4
+  9          366       0.96     2.563  iden,rot2,dia1,rct4
+ 10         1137       3.11     3.056  iden,rot2,dia1,dia2,rot4,full
+ 11         1120       0.99     3.049  iden,rot2,dia1
+ 12         4352       3.89     3.639  iden,rot2,dia1,dia2,rot4
+ 13         3624       0.83     3.559  iden,rot2,dia1,dia2
+ 14        10574       2.92     4.024  iden,rot2,dia1,dia2,rot4
+ 15        30636       2.90     4.486  iden,rot2,dia1,dia2
+ 16        46306       1.51     4.666  iden,rot2,dia1,dia2,rot4
+ 17        55574       1.20     4.745  iden,rot2,dia1,rct4
+ 18       152214       2.74     5.182  iden,rot2,dia1,dia2,rot4
+ 19       258172       1.70     5.412  iden,rot2,dia1,rct4
+ 20       941584       3.65     5.974  iden,rot2,dia1,dia2,rot4
+ 21        10838       0.01     4.035  iden,rot2,dia1,rct4
+ 22         5100       0.47     3.708  iden,rot2,dia1,dia2,rot4
+ 23        16010       3.14     4.204  rot2,dia1,dia2,rct4
+ 24        11634       0.73     4.066  rot2,dia1,dia2,rot4
+ 25        36154       3.11     4.558  rot2,dia1,dia2,rct4
+ 26        19724       0.55     4.295  rot2,dia1,ort1,rot4
+ 27        69530       3.53     4.842  iden,rot2,dia1,rct4
+ 28        48696       0.70     4.687  rot2,dia1,ort1,rot4
+ 29       179544       3.69     5.254  rot2,dia1,dia2,rct4
+ 30        99516       0.55     4.998  rot2,dia1,dia2,rot4
+ 31          278       0.00     2.444  dia1,dia2,rct4
+ 32          498       1.79     2.697  dia1,dia2,rot4
+ 33           32       0.06     1.505  rot2,rct4
+ 34          344      10.75     2.537  rot4
+ 35           50       0.15     1.699  dia2,rct4
+ 36          566      11.32     2.753  dia2,rot4
+ 37           42       0.07     1.623  rct4
+ 38          678      16.14     2.831  dia2,rot4
+ 39           66       0.10     1.820  rct4
+ 40         1082      16.39     3.034  rot4
+ 41           70       0.06     1.845  rct4
+ 42         1496      21.37     3.175  dia2,rot4
+ 43          126       0.08     2.100  rct4
+ 44         2036      16.16     3.309  dia2,rot4
+ 45          212       0.10     2.326  rct4
+ 54        15392      72.60     4.187  rot4
+ 56        20882       1.36     4.320  rot4
+ 58           38       0.00     1.580  rot4
+ 60           64       1.68     1.806  rot4
+ 62           10       0.16     1.000  rot4
+ 64           50       5.00     1.699  rot4
+ 66            4       0.08     0.602  rot4
+ 68            4       1.00     0.602  rot4
+ 70            2       0.50     0.301  rot4
+ 72            2       1.00     0.301  rot4
+
+Density among all 2-per-row placements  R(n)=V(n)/C(n,2)^n :
+  n   log10 R(n)   (R = fraction of 2-per-row that are valid)
+  6       -5.324
+  7       -7.135
+  8       -8.997
+  9      -11.443
+ 10      -13.476
+ 11      -16.095
+ 12      -18.196
+ 13      -21.038
+ 14      -23.402
+ 15      -25.832
+ 16      -28.601
+ 17      -31.525
+ 18      -34.142
+ 19      -37.015
+ 20      -39.601
+ 21      -44.732
+ 22      -48.292
+ 23      -51.067
+ 24      -54.516
+ 25      -57.370
+ 26      -61.014
+ 27      -63.881
+ 28      -67.482
+ 29      -70.393
+ 30      -74.157
+ 31      -80.247
+ 32      -83.558
+ 33      -88.342
+ 34      -90.928
+ 35      -95.409
+ 36      -98.023
+ 37     -102.845
+ 38     -105.353
+ 39     -110.103
+ 40     -112.650
+ 41     -117.621
+ 42     -120.095
+ 43     -124.994
+ 44     -127.630
+ 45     -132.477
+ 54     -166.217
+ 56     -174.181
+ 58     -185.080
+ 60     -193.072
+ 62     -202.155
+ 64     -209.788
+ 66     -219.272
+ 68     -227.712
+ 70     -236.503
+ 72     -245.043
+
+Linear fit  log R(n) ~ 24.933 + (-5.7180)*n   over n in 6..20
+  -> R(n) decays like exp(-5.7180 n)  (~0.0033^n)
+  log V(n) fit ~ 0.24 + (0.652)*n  -> V(n) GROWING in window
+  => V(n) still GROWING at n=20; no drop visible -> D(n)=2n robust so far
+
+==============================================================================
+PART B : affine construction  pi_k(y)=a_k*y+b_k (mod n)
+         search for a family valid for ALL n (=> proof of D(n)=2n)
+==============================================================================
+n= 3: 0 affine valid pairs  e.g. []
+n= 4: 2 affine valid pairs  e.g. [(1, 2, 3, 1), (3, 1, 1, 2)]
+n= 5: 0 affine valid pairs  e.g. []
+n= 6: 0 affine valid pairs  e.g. []
+n= 7: 0 affine valid pairs  e.g. []
+n= 8: 0 affine valid pairs  e.g. []
+n= 9: 0 affine valid pairs  e.g. []
+n=10: 0 affine valid pairs  e.g. []
+n=11: 0 affine valid pairs  e.g. []
+n=12: 0 affine valid pairs  e.g. []
+n=13: 0 affine valid pairs  e.g. []
+n=14: 0 affine valid pairs  e.g. []
+n=15: 0 affine valid pairs  e.g. []
+n=16: 0 affine valid pairs  e.g. []
+n=17: 0 affine valid pairs  e.g. []
+n=18: 0 affine valid pairs  e.g. []
+n=19: 0 affine valid pairs  e.g. []
+n=20: 0 affine valid pairs  e.g. []
+n=21: 0 affine valid pairs  e.g. []
+n=22: 0 affine valid pairs  e.g. []
+n=23: 0 affine valid pairs  e.g. []
+n=24: 0 affine valid pairs  e.g. []
+
+Pairs (a1,a2) that succeed for the MOST consecutive/small n:
+  (a1,a2)=(1,3) valid for 1 values of n
+  (a1,a2)=(3,1) valid for 1 values of n
+
+==============================================================================
+PART C : slope spectrum -- slopes that NEVER appear
+==============================================================================
+Checking candidate slopes (dx,dy): 0/1, 1/0, 1/1, -1/1, 1/2, 2/1, 1/3, 3/1, 2/3, 3/2, 1/4, 4/1
+n=10 (sample 132 iden sols): FORBIDDEN slopes = -1/1  (appears count>0 for others)
+n=12 (sample 300 iden sols): FORBIDDEN slopes = -1/1  (appears count>0 for others)
+n=14 (sample 300 iden sols): FORBIDDEN slopes = -1/1  (appears count>0 for others)
+n=16 (sample 300 iden sols): FORBIDDEN slopes = -1/1  (appears count>0 for others)
+n=18 (sample 300 iden sols): FORBIDDEN slopes = -1/1  (appears count>0 for others)
+n=20 (sample 300 iden sols): FORBIDDEN slopes = -1/1  (appears count>0 for others)
+
+==============================================================================
+PART D : modular invariant scan across ALL solutions of fixed n
+==============================================================================
+--- n=10 (sample 132) ---
+  mod 2: entropy=-0.00 bits (max=1.00), top signature share=1.00, top=[(0, 132)]
+  mod 3: entropy=-0.00 bits (max=1.58), top signature share=1.00, top=[(0, 132)]
+  mod 4: entropy=-0.00 bits (max=2.00), top signature share=1.00, top=[(0, 132)]
+  (entropy near log2(p) => signature VARIES => NOT invariant; share near 1.0 => nearly CONSTANT => candidate invariant)
+--- n=12 (sample 400) ---
+  mod 2: entropy=-0.00 bits (max=1.00), top signature share=1.00, top=[(0, 400)]
+  mod 3: entropy=-0.00 bits (max=1.58), top signature share=1.00, top=[(2, 400)]
+  mod 4: entropy=-0.00 bits (max=2.00), top signature share=1.00, top=[(0, 400)]
+  (entropy near log2(p) => signature VARIES => NOT invariant; share near 1.0 => nearly CONSTANT => candidate invariant)
+--- n=14 (sample 400) ---
+  mod 2: entropy=-0.00 bits (max=1.00), top signature share=1.00, top=[(0, 400)]
+  mod 3: entropy=-0.00 bits (max=1.58), top signature share=1.00, top=[(0, 400)]
+  mod 4: entropy=-0.00 bits (max=2.00), top signature share=1.00, top=[(0, 400)]
+  (entropy near log2(p) => signature VARIES => NOT invariant; share near 1.0 => nearly CONSTANT => candidate invariant)
+--- n=16 (sample 400) ---
+  mod 2: entropy=-0.00 bits (max=1.00), top signature share=1.00, top=[(0, 400)]
+  mod 3: entropy=-0.00 bits (max=1.58), top signature share=1.00, top=[(1, 400)]
+  mod 4: entropy=-0.00 bits (max=2.00), top signature share=1.00, top=[(0, 400)]
+  (entropy near log2(p) => signature VARIES => NOT invariant; share near 1.0 => nearly CONSTANT => candidate invariant)
+--- n=18 (sample 400) ---
+  mod 2: entropy=-0.00 bits (max=1.00), top signature share=1.00, top=[(0, 400)]
+  mod 3: entropy=-0.00 bits (max=1.58), top signature share=1.00, top=[(0, 400)]
+  mod 4: entropy=-0.00 bits (max=2.00), top signature share=1.00, top=[(0, 400)]
+  (entropy near log2(p) => signature VARIES => NOT invariant; share near 1.0 => nearly CONSTANT => candidate invariant)
+--- n=20 (sample 400) ---
+  mod 2: entropy=-0.00 bits (max=1.00), top signature share=1.00, top=[(0, 400)]
+  mod 3: entropy=-0.00 bits (max=1.58), top signature share=1.00, top=[(1, 400)]
+  mod 4: entropy=-0.00 bits (max=2.00), top signature share=1.00, top=[(0, 400)]
+  (entropy near log2(p) => signature VARIES => NOT invariant; share near 1.0 => nearly CONSTANT => candidate invariant)

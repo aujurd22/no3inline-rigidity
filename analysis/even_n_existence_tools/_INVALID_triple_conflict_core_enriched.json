@@ -1,0 +1,695 @@
+{
+ "summary": {
+  "n_candidates": 19,
+  "inherited_clause_total": 19,
+  "new_clause_total": 11,
+  "per_basin_mus": {
+   "v20_01": 1,
+   "v20_02": 3,
+   "v20_03": 1,
+   "v20_04": 1,
+   "v20_05": 1
+  }
+ },
+ "candidates": [
+  {
+   "base": "v20_01",
+   "mask": 8929978983,
+   "certified_min_bad": 48,
+   "mus_size": 1,
+   "mus_core_cells": [
+    6,
+    22,
+    26
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      6,
+      22,
+      26
+     ],
+     "n_free": 3,
+     "F_popcount": 16384,
+     "bad_combos": 8,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": []
+  },
+  {
+   "base": "v20_01",
+   "mask": 99346809573,
+   "certified_min_bad": 56,
+   "mus_size": 1,
+   "mus_core_cells": [
+    6,
+    22,
+    26
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      6,
+      22,
+      26
+     ],
+     "n_free": 1,
+     "F_popcount": 16384,
+     "bad_combos": 2,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": []
+  },
+  {
+   "base": "v20_01",
+   "mask": 133433689350,
+   "certified_min_bad": 88,
+   "mus_size": 1,
+   "mus_core_cells": [
+    6,
+    22,
+    26
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      6,
+      22,
+      26
+     ],
+     "n_free": 1,
+     "F_popcount": 16384,
+     "bad_combos": 2,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": []
+  },
+  {
+   "base": "v20_02",
+   "mask": 7198212551,
+   "certified_min_bad": 72,
+   "mus_size": 4,
+   "mus_core_cells": [
+    2,
+    12,
+    14,
+    26,
+    28,
+    31,
+    33,
+    36
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      2,
+      26,
+      31
+     ],
+     "n_free": 3,
+     "F_popcount": 4096,
+     "bad_combos": 2,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": [
+    {
+     "owner_set": [
+      14,
+      28,
+      31
+     ],
+     "n_free": 1,
+     "F_popcount": 8192,
+     "bad_combos": 1,
+     "source": "new",
+     "forbidden_combos": [
+      {
+       "31": 0
+      }
+     ]
+    },
+    {
+     "owner_set": [
+      2,
+      31,
+      36
+     ],
+     "n_free": 2,
+     "F_popcount": 4096,
+     "bad_combos": 1,
+     "source": "new",
+     "forbidden_combos": [
+      {
+       "2": 1,
+       "31": 1
+      }
+     ]
+    },
+    {
+     "owner_set": [
+      12,
+      26,
+      33
+     ],
+     "n_free": 1,
+     "F_popcount": 8192,
+     "bad_combos": 1,
+     "source": "new",
+     "forbidden_combos": [
+      {
+       "26": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "base": "v20_02",
+   "mask": 24092381893,
+   "certified_min_bad": 64,
+   "mus_size": 3,
+   "mus_core_cells": [
+    5,
+    14,
+    25,
+    27,
+    34,
+    35
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      27,
+      34,
+      35
+     ],
+     "n_free": 2,
+     "F_popcount": 4096,
+     "bad_combos": 1,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": [
+    {
+     "owner_set": [
+      5,
+      34,
+      35
+     ],
+     "n_free": 1,
+     "F_popcount": 8192,
+     "bad_combos": 1,
+     "source": "new",
+     "forbidden_combos": [
+      {
+       "34": 0
+      }
+     ]
+    },
+    {
+     "owner_set": [
+      14,
+      25,
+      27
+     ],
+     "n_free": 1,
+     "F_popcount": 8192,
+     "bad_combos": 1,
+     "source": "new",
+     "forbidden_combos": [
+      {
+       "27": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "base": "v20_02",
+   "mask": 24180794948,
+   "certified_min_bad": 48,
+   "mus_size": 3,
+   "mus_core_cells": [
+    13,
+    17,
+    21,
+    27,
+    30,
+    34,
+    35
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      27,
+      34,
+      35
+     ],
+     "n_free": 1,
+     "F_popcount": 8192,
+     "bad_combos": 1,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": [
+    {
+     "owner_set": [
+      13,
+      30,
+      34
+     ],
+     "n_free": 2,
+     "F_popcount": 4096,
+     "bad_combos": 1,
+     "source": "new",
+     "forbidden_combos": [
+      {
+       "13": 1,
+       "34": 0
+      }
+     ]
+    },
+    {
+     "owner_set": [
+      13,
+      17,
+      21
+     ],
+     "n_free": 1,
+     "F_popcount": 8192,
+     "bad_combos": 1,
+     "source": "new",
+     "forbidden_combos": [
+      {
+       "13": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "base": "v20_02",
+   "mask": 75365586955,
+   "certified_min_bad": 84,
+   "mus_size": 3,
+   "mus_core_cells": [
+    15,
+    19,
+    26,
+    29,
+    33,
+    34
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      26,
+      29,
+      34
+     ],
+     "n_free": 1,
+     "F_popcount": 8192,
+     "bad_combos": 1,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": [
+    {
+     "owner_set": [
+      15,
+      33,
+      34
+     ],
+     "n_free": 1,
+     "F_popcount": 8192,
+     "bad_combos": 1,
+     "source": "new",
+     "forbidden_combos": [
+      {
+       "15": 1
+      }
+     ]
+    },
+    {
+     "owner_set": [
+      15,
+      19,
+      26
+     ],
+     "n_free": 2,
+     "F_popcount": 4096,
+     "bad_combos": 1,
+     "source": "new",
+     "forbidden_combos": [
+      {
+       "15": 0,
+       "26": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "base": "v20_03",
+   "mask": 20074551377,
+   "certified_min_bad": 76,
+   "mus_size": 1,
+   "mus_core_cells": [
+    19,
+    25,
+    32
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      19,
+      25,
+      32
+     ],
+     "n_free": 1,
+     "F_popcount": 16384,
+     "bad_combos": 2,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": []
+  },
+  {
+   "base": "v20_03",
+   "mask": 34582927808,
+   "certified_min_bad": 52,
+   "mus_size": 1,
+   "mus_core_cells": [
+    19,
+    25,
+    32
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      19,
+      25,
+      32
+     ],
+     "n_free": 1,
+     "F_popcount": 16384,
+     "bad_combos": 2,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": []
+  },
+  {
+   "base": "v20_03",
+   "mask": 71014781376,
+   "certified_min_bad": 68,
+   "mus_size": 1,
+   "mus_core_cells": [
+    19,
+    25,
+    32
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      19,
+      25,
+      32
+     ],
+     "n_free": 1,
+     "F_popcount": 16384,
+     "bad_combos": 2,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": []
+  },
+  {
+   "base": "v20_03",
+   "mask": 75456365250,
+   "certified_min_bad": 60,
+   "mus_size": 1,
+   "mus_core_cells": [
+    19,
+    25,
+    32
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      19,
+      25,
+      32
+     ],
+     "n_free": 2,
+     "F_popcount": 16384,
+     "bad_combos": 4,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": []
+  },
+  {
+   "base": "v20_03",
+   "mask": 107563581785,
+   "certified_min_bad": 104,
+   "mus_size": 2,
+   "mus_core_cells": [
+    23,
+    24,
+    26,
+    31
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      23,
+      24,
+      31
+     ],
+     "n_free": 1,
+     "F_popcount": 8192,
+     "bad_combos": 1,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": [
+    {
+     "owner_set": [
+      23,
+      24,
+      26
+     ],
+     "n_free": 1,
+     "F_popcount": 8192,
+     "bad_combos": 1,
+     "source": "new",
+     "forbidden_combos": [
+      {
+       "24": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "base": "v20_03",
+   "mask": 122554008000,
+   "certified_min_bad": 60,
+   "mus_size": 1,
+   "mus_core_cells": [
+    19,
+    25,
+    32
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      19,
+      25,
+      32
+     ],
+     "n_free": 1,
+     "F_popcount": 16384,
+     "bad_combos": 2,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": []
+  },
+  {
+   "base": "v20_04",
+   "mask": 60685694241,
+   "certified_min_bad": 60,
+   "mus_size": 1,
+   "mus_core_cells": [
+    23,
+    29,
+    33
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      23,
+      29,
+      33
+     ],
+     "n_free": 2,
+     "F_popcount": 16384,
+     "bad_combos": 4,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": []
+  },
+  {
+   "base": "v20_04",
+   "mask": 69419422345,
+   "certified_min_bad": 68,
+   "mus_size": 1,
+   "mus_core_cells": [
+    23,
+    29,
+    33
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      23,
+      29,
+      33
+     ],
+     "n_free": 2,
+     "F_popcount": 16384,
+     "bad_combos": 4,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": []
+  },
+  {
+   "base": "v20_04",
+   "mask": 69419484185,
+   "certified_min_bad": 80,
+   "mus_size": 2,
+   "mus_core_cells": [
+    2,
+    8,
+    13,
+    24,
+    30
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      8,
+      24,
+      30
+     ],
+     "n_free": 1,
+     "F_popcount": 8192,
+     "bad_combos": 1,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": [
+    {
+     "owner_set": [
+      2,
+      13,
+      24
+     ],
+     "n_free": 1,
+     "F_popcount": 8192,
+     "bad_combos": 1,
+     "source": "new",
+     "forbidden_combos": [
+      {
+       "24": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "base": "v20_04",
+   "mask": 74499532496,
+   "certified_min_bad": 80,
+   "mus_size": 1,
+   "mus_core_cells": [
+    23,
+    29,
+    33
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      23,
+      29,
+      33
+     ],
+     "n_free": 1,
+     "F_popcount": 16384,
+     "bad_combos": 2,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": []
+  },
+  {
+   "base": "v20_05",
+   "mask": 26914261035,
+   "certified_min_bad": 88,
+   "mus_size": 1,
+   "mus_core_cells": [
+    10,
+    27,
+    33
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      10,
+      27,
+      33
+     ],
+     "n_free": 1,
+     "F_popcount": 16384,
+     "bad_combos": 2,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": []
+  },
+  {
+   "base": "v20_05",
+   "mask": 105943968808,
+   "certified_min_bad": 80,
+   "mus_size": 1,
+   "mus_core_cells": [
+    10,
+    27,
+    33
+   ],
+   "inherited_clauses": [
+    {
+     "owner_set": [
+      10,
+      27,
+      33
+     ],
+     "n_free": 2,
+     "F_popcount": 16384,
+     "bad_combos": 4,
+     "source": "inherited"
+    }
+   ],
+   "new_clauses": []
+  }
+ ],
+ "recurring_new_owner_sets": {}
+}

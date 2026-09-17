@@ -1,0 +1,411 @@
+{
+  "n": 36,
+  "q": 6,
+  "meaning": "primitive direction scales strictly below q are protected",
+  "stage": "old2",
+  "required_removed_count": 10,
+  "forced_added_cell": null,
+  "old_point_count": 72,
+  "empty_cell_count": 1224,
+  "hint_removed_count": 0,
+  "old2_secant_constraint_count": 7128,
+  "relevant_secant_incidence_count": 7128,
+  "old1_conditional_line_constraint_count": 0,
+  "old1_direction_count": 0,
+  "old1_encoding": "pairwise",
+  "new3_line_constraint_count": 0,
+  "status": "OPTIMAL",
+  "wall_time_seconds": 27.9269505,
+  "best_removed_count_bound": 0.0,
+  "removed_count": 10,
+  "added_count": 10,
+  "symmetric_difference": 20,
+  "removed": [
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      7,
+      24
+    ],
+    [
+      9,
+      29
+    ],
+    [
+      12,
+      16
+    ],
+    [
+      14,
+      0
+    ],
+    [
+      17,
+      17
+    ],
+    [
+      18,
+      18
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      29,
+      26
+    ]
+  ],
+  "added": [
+    [
+      4,
+      16
+    ],
+    [
+      6,
+      17
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      9,
+      28
+    ],
+    [
+      12,
+      0
+    ],
+    [
+      14,
+      24
+    ],
+    [
+      17,
+      29
+    ],
+    [
+      18,
+      6
+    ],
+    [
+      22,
+      26
+    ],
+    [
+      29,
+      18
+    ]
+  ],
+  "verification": {
+    "point_count": 72,
+    "distinct": true,
+    "rows_saturated": true,
+    "columns_saturated": true,
+    "collinear_triples_by_new_point_count": {
+      "1": 11,
+      "2": 5
+    },
+    "protected_collinear_triples_by_new_point_count": {
+      "2": 2
+    },
+    "collinear_triple_examples": [
+      {
+        "points": [
+          [
+            0,
+            22
+          ],
+          [
+            24,
+            2
+          ],
+          [
+            6,
+            17
+          ]
+        ],
+        "new_point_count": 1,
+        "primitive_scale": 6
+      },
+      {
+        "points": [
+          [
+            2,
+            11
+          ],
+          [
+            22,
+            35
+          ],
+          [
+            17,
+            29
+          ]
+        ],
+        "new_point_count": 1,
+        "primitive_scale": 6
+      },
+      {
+        "points": [
+          [
+            4,
+            30
+          ],
+          [
+            8,
+            15
+          ],
+          [
+            12,
+            0
+          ]
+        ],
+        "new_point_count": 1,
+        "primitive_scale": 15
+      },
+      {
+        "points": [
+          [
+            5,
+            25
+          ],
+          [
+            6,
+            17
+          ],
+          [
+            7,
+            9
+          ]
+        ],
+        "new_point_count": 2,
+        "primitive_scale": 8
+      },
+      {
+        "points": [
+          [
+            6,
+            31
+          ],
+          [
+            30,
+            10
+          ],
+          [
+            14,
+            24
+          ]
+        ],
+        "new_point_count": 1,
+        "primitive_scale": 8
+      },
+      {
+        "points": [
+          [
+            8,
+            15
+          ],
+          [
+            11,
+            33
+          ],
+          [
+            7,
+            9
+          ]
+        ],
+        "new_point_count": 1,
+        "primitive_scale": 6
+      },
+      {
+        "points": [
+          [
+            11,
+            33
+          ],
+          [
+            35,
+            13
+          ],
+          [
+            29,
+            18
+          ]
+        ],
+        "new_point_count": 1,
+        "primitive_scale": 6
+      },
+      {
+        "points": [
+          [
+            13,
+            0
+          ],
+          [
+            33,
+            24
+          ],
+          [
+            18,
+            6
+          ]
+        ],
+        "new_point_count": 1,
+        "primitive_scale": 6
+      },
+      {
+        "points": [
+          [
+            15,
+            27
+          ],
+          [
+            33,
+            24
+          ],
+          [
+            9,
+            28
+          ]
+        ],
+        "new_point_count": 1,
+        "primitive_scale": 6
+      },
+      {
+        "points": [
+          [
+            15,
+            27
+          ],
+          [
+            4,
+            16
+          ],
+          [
+            17,
+            29
+          ]
+        ],
+        "new_point_count": 2,
+        "primitive_scale": 1
+      },
+      {
+        "points": [
+          [
+            15,
+            34
+          ],
+          [
+            22,
+            26
+          ],
+          [
+            29,
+            18
+          ]
+        ],
+        "new_point_count": 2,
+        "primitive_scale": 8
+      },
+      {
+        "points": [
+          [
+            20,
+            8
+          ],
+          [
+            12,
+            0
+          ],
+          [
+            18,
+            6
+          ]
+        ],
+        "new_point_count": 2,
+        "primitive_scale": 1
+      },
+      {
+        "points": [
+          [
+            23,
+            19
+          ],
+          [
+            32,
+            14
+          ],
+          [
+            14,
+            24
+          ]
+        ],
+        "new_point_count": 1,
+        "primitive_scale": 9
+      },
+      {
+        "points": [
+          [
+            25,
+            19
+          ],
+          [
+            31,
+            5
+          ],
+          [
+            22,
+            26
+          ]
+        ],
+        "new_point_count": 1,
+        "primitive_scale": 7
+      },
+      {
+        "points": [
+          [
+            25,
+            30
+          ],
+          [
+            9,
+            28
+          ],
+          [
+            17,
+            29
+          ]
+        ],
+        "new_point_count": 2,
+        "primitive_scale": 8
+      },
+      {
+        "points": [
+          [
+            27,
+            20
+          ],
+          [
+            32,
+            14
+          ],
+          [
+            22,
+            26
+          ]
+        ],
+        "new_point_count": 1,
+        "primitive_scale": 6
+      }
+    ],
+    "is_exact_ntil": false
+  }
+}

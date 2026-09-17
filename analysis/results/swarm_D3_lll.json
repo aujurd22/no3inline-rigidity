@@ -1,0 +1,15 @@
+{
+  "m": 37,
+  "N_X_triples": 2800883,
+  "max_cell_degree": 6819,
+  "mean_cell_degree": 6137.80,
+  "cells_used": 1369,
+  "d_max_dependency": 20454,
+  "E_bad_per_factor": 265.185,
+  "p_event": 9.4679e-05,
+  "LLL_L": 5.2644,
+  "LLL_holds": false,
+  "note": "Symmetric LLL on the UNRESTRICTED cell-selection space (each (X)-triple a bad event). The 2-factor global constraint is NOT modeled; this bounds the intrinsic conflict density.",
+  "interpretation": "The underlying conflict hypergraph is DENSE, not sparse: every fundamental cell participates in ~6138 (X)-triples (mean), max 6819, giving dependency degree d_max=20454. The 'sparsity' cited for m=37 (~0.6 (X)-conflicts per cell PER FACTOR) describes the REALIZED hypergraph on a random 2-factor selection of only 37 of 1369 cells, NOT the underlying potential-conflict structure. Because p=9.5e-5 and d_max=20454, e*p*(d+1)=5.26 >> 1, so the symmetric (and asymptotically the asymmetric) LLL does NOT establish existence of a (X)-free selection. Implication for D3: a naive constructive-LLL existence proof in the cell-selection framing is not viable; the obstacle is the dense underlying conflict geometry (2.8M potential triples), which is why greedy/SA search gets trapped at the 72 residual rather than sailing to 0.",
+  "elapsed_s": 22.2
+}

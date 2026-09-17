@@ -1,0 +1,491 @@
+{
+  "results": [
+    {
+      "n": 12,
+      "legal_three_edge_cycle_switches": 2600,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 2596,
+        "2": 4
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 2600,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 4,
+          "fraction_of_legal": 0.0015384615384615385
+        },
+        "3": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              3
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              10,
+              10
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              6
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              10,
+              3
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 24,
+      "legal_three_edge_cycle_switches": 28256,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 27816,
+        "2": 432,
+        "3": 4,
+        "4": 4
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 28256,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 440,
+          "fraction_of_legal": 0.015571913929784825
+        },
+        "3": {
+          "safe_switches": 8,
+          "fraction_of_legal": 0.00028312570781426955
+        },
+        "4": {
+          "safe_switches": 4,
+          "fraction_of_legal": 0.00014156285390713478
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              13
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              13
+            ],
+            [
+              2,
+              7
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              16,
+              22
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              22
+            ],
+            [
+              16,
+              7
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              13
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "inserted": [
+            [
+              1,
+              13
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              6
+            ]
+          ]
+        },
+        "4": {
+          "removed": [
+            [
+              2,
+              13
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              15,
+              19
+            ]
+          ],
+          "inserted": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              19
+            ],
+            [
+              15,
+              13
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 36,
+      "legal_three_edge_cycle_switches": 104584,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 101048,
+        "2": 3336,
+        "3": 196,
+        "4": 4
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 104584,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 3536,
+          "fraction_of_legal": 0.033810143042912875
+        },
+        "3": {
+          "safe_switches": 200,
+          "fraction_of_legal": 0.0019123384074045742
+        },
+        "4": {
+          "safe_switches": 4,
+          "fraction_of_legal": 3.824676814809149e-05
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              21
+            ],
+            [
+              1,
+              15
+            ],
+            [
+              2,
+              11
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              15
+            ],
+            [
+              1,
+              11
+            ],
+            [
+              2,
+              21
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              21
+            ],
+            [
+              2,
+              11
+            ],
+            [
+              4,
+              30
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              11
+            ],
+            [
+              2,
+              30
+            ],
+            [
+              4,
+              21
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              21
+            ],
+            [
+              2,
+              23
+            ],
+            [
+              4,
+              30
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              23
+            ],
+            [
+              2,
+              30
+            ],
+            [
+              4,
+              21
+            ]
+          ]
+        },
+        "4": {
+          "removed": [
+            [
+              4,
+              6
+            ],
+            [
+              6,
+              31
+            ],
+            [
+              18,
+              17
+            ]
+          ],
+          "inserted": [
+            [
+              4,
+              31
+            ],
+            [
+              6,
+              17
+            ],
+            [
+              18,
+              6
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

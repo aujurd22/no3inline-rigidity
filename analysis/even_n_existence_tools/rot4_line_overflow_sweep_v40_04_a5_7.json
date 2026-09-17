@@ -1,0 +1,63 @@
+{
+  "parameters": {
+    "base": "v40_04",
+    "adjacencies": "5,6,7",
+    "size": 11,
+    "q_max": 4,
+    "time_limit": 1200.0,
+    "workers": 4,
+    "out": "rot4_line_overflow_sweep_v40_04_a5_7.json"
+  },
+  "started_at": "2026-07-19 16:22:10",
+  "layers": [
+    {
+      "adjacency_count": 5,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "OPTIMAL",
+          "objective": 1,
+          "best_bound": 1.0,
+          "wall_s": 208.427,
+          "classification": "CLOSED_OVERFLOW",
+          "evidence": "rot4_line_overflow_v40_04_a5_q1.json"
+        }
+      ],
+      "classification": "CLOSED_OVERFLOW",
+      "closing_q": 1
+    },
+    {
+      "adjacency_count": 6,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "OPTIMAL",
+          "objective": 2,
+          "best_bound": 2.0,
+          "wall_s": 245.325,
+          "classification": "CLOSED_OVERFLOW",
+          "evidence": "rot4_line_overflow_v40_04_a6_q1.json"
+        }
+      ],
+      "classification": "CLOSED_OVERFLOW",
+      "closing_q": 1
+    },
+    {
+      "adjacency_count": 7,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 156.59,
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_04_a7_q1.json"
+        }
+      ],
+      "classification": "CLOSED_F0",
+      "closing_q": 1
+    }
+  ],
+  "finished_at": "2026-07-19 16:32:25"
+}

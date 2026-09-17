@@ -1,0 +1,11 @@
+{
+ "trials": 200,
+ "has1": 200,
+ "unknown": 0,
+ "confirmed_gt1": 0,
+ "random_bad_samples": [
+  732,
+  861,
+  902
+ ]
+}

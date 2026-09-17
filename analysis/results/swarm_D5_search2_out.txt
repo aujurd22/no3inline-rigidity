@@ -1,0 +1,10 @@
+== D5 search2: test beatability of 72 (m=37, 6 restarts x ~242s, flip_frac=0.35, perturb=40) ==
+  restart 0: best_bad=72 time=242s
+  restart 1: best_bad=72 time=242s
+  restart 2: best_bad=72 time=242s
+  restart 3: best_bad=72 time=242s
+  restart 4: best_bad=72 time=242s
+  restart 5: best_bad=72 time=242s
+
+== best_bad=72 verify_total=72 2factor=True rot4set=True found=False ==
+saved D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\swarm_D5_search2.json

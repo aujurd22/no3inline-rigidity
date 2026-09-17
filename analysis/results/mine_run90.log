@@ -1,0 +1,323 @@
+round=10 elapsed=0.4s
+round=20 elapsed=0.8s
+round=30 elapsed=1.2s
+round=40 elapsed=1.5s
+round=50 elapsed=1.9s
+round=60 elapsed=2.3s
+round=70 elapsed=2.7s
+round=80 elapsed=3.1s
+round=90 elapsed=3.4s
+round=100 elapsed=3.8s
+round=110 elapsed=4.2s
+round=120 elapsed=4.6s
+round=130 elapsed=5.0s
+round=140 elapsed=5.3s
+round=150 elapsed=5.7s
+round=160 elapsed=6.1s
+round=170 elapsed=6.5s
+round=180 elapsed=6.9s
+round=190 elapsed=7.2s
+round=200 elapsed=7.6s
+round=210 elapsed=8.0s
+round=220 elapsed=8.4s
+round=230 elapsed=8.8s
+round=240 elapsed=9.1s
+round=250 elapsed=9.5s
+round=260 elapsed=9.9s
+round=270 elapsed=10.3s
+round=280 elapsed=10.7s
+round=290 elapsed=11.0s
+round=300 elapsed=11.4s
+round=310 elapsed=11.8s
+round=320 elapsed=12.2s
+round=330 elapsed=12.6s
+round=340 elapsed=12.9s
+round=350 elapsed=13.3s
+round=360 elapsed=13.7s
+round=370 elapsed=14.1s
+round=380 elapsed=14.5s
+round=390 elapsed=14.8s
+round=400 elapsed=15.2s
+round=410 elapsed=15.6s
+round=420 elapsed=16.0s
+round=430 elapsed=16.4s
+round=440 elapsed=16.7s
+round=450 elapsed=17.1s
+round=460 elapsed=17.5s
+round=470 elapsed=17.9s
+round=480 elapsed=18.3s
+round=490 elapsed=18.6s
+round=500 elapsed=19.0s
+round=510 elapsed=19.4s
+round=520 elapsed=19.8s
+round=530 elapsed=20.2s
+round=540 elapsed=20.6s
+round=550 elapsed=20.9s
+round=560 elapsed=21.3s
+round=570 elapsed=21.7s
+round=580 elapsed=22.1s
+round=590 elapsed=22.5s
+round=600 elapsed=22.8s
+round=610 elapsed=23.2s
+round=620 elapsed=23.6s
+round=630 elapsed=24.0s
+round=640 elapsed=24.4s
+round=650 elapsed=24.7s
+round=660 elapsed=25.1s
+round=670 elapsed=25.5s
+round=680 elapsed=25.9s
+round=690 elapsed=26.3s
+round=700 elapsed=26.6s
+round=710 elapsed=27.0s
+round=720 elapsed=27.4s
+round=730 elapsed=27.8s
+round=740 elapsed=28.2s
+round=750 elapsed=28.6s
+round=760 elapsed=28.9s
+round=770 elapsed=29.3s
+round=780 elapsed=29.7s
+round=790 elapsed=30.1s
+round=800 elapsed=30.5s
+round=810 elapsed=30.8s
+round=820 elapsed=31.2s
+round=830 elapsed=31.6s
+round=840 elapsed=32.0s
+round=850 elapsed=32.4s
+round=860 elapsed=32.7s
+round=870 elapsed=33.1s
+round=880 elapsed=33.5s
+round=890 elapsed=33.9s
+round=900 elapsed=34.3s
+round=910 elapsed=34.7s
+round=920 elapsed=35.0s
+round=930 elapsed=35.4s
+round=940 elapsed=35.8s
+round=950 elapsed=36.2s
+round=960 elapsed=36.6s
+round=970 elapsed=36.9s
+round=980 elapsed=37.3s
+round=990 elapsed=37.7s
+round=1000 elapsed=38.1s
+round=1010 elapsed=38.5s
+round=1020 elapsed=38.8s
+round=1030 elapsed=39.2s
+round=1040 elapsed=39.6s
+round=1050 elapsed=40.0s
+round=1060 elapsed=40.4s
+round=1070 elapsed=40.7s
+round=1080 elapsed=41.1s
+round=1090 elapsed=41.5s
+round=1100 elapsed=41.9s
+round=1110 elapsed=42.3s
+round=1120 elapsed=42.7s
+round=1130 elapsed=43.0s
+round=1140 elapsed=43.4s
+round=1150 elapsed=43.8s
+round=1160 elapsed=44.2s
+round=1170 elapsed=44.6s
+round=1180 elapsed=45.0s
+round=1190 elapsed=45.3s
+round=1200 elapsed=45.7s
+round=1210 elapsed=46.1s
+round=1220 elapsed=46.5s
+round=1230 elapsed=46.9s
+round=1240 elapsed=47.3s
+round=1250 elapsed=47.6s
+round=1260 elapsed=48.0s
+round=1270 elapsed=48.4s
+round=1280 elapsed=48.8s
+round=1290 elapsed=49.2s
+round=1300 elapsed=49.6s
+round=1310 elapsed=49.9s
+round=1320 elapsed=50.3s
+round=1330 elapsed=50.7s
+round=1340 elapsed=51.1s
+round=1350 elapsed=51.5s
+round=1360 elapsed=51.8s
+round=1370 elapsed=52.2s
+round=1380 elapsed=52.6s
+round=1390 elapsed=53.0s
+round=1400 elapsed=53.4s
+round=1410 elapsed=53.8s
+round=1420 elapsed=54.1s
+round=1430 elapsed=54.5s
+round=1440 elapsed=54.9s
+round=1450 elapsed=55.3s
+round=1460 elapsed=55.7s
+round=1470 elapsed=56.1s
+round=1480 elapsed=56.4s
+round=1490 elapsed=56.8s
+round=1500 elapsed=57.2s
+round=1510 elapsed=57.6s
+round=1520 elapsed=58.0s
+round=1530 elapsed=58.3s
+round=1540 elapsed=58.7s
+round=1550 elapsed=59.1s
+round=1560 elapsed=59.5s
+round=1570 elapsed=59.9s
+round=1580 elapsed=60.3s
+round=1590 elapsed=60.6s
+round=1600 elapsed=61.0s
+round=1610 elapsed=61.4s
+round=1620 elapsed=61.8s
+round=1630 elapsed=62.2s
+round=1640 elapsed=62.6s
+round=1650 elapsed=62.9s
+round=1660 elapsed=63.3s
+round=1670 elapsed=63.7s
+round=1680 elapsed=64.1s
+round=1690 elapsed=64.5s
+round=1700 elapsed=64.8s
+round=1710 elapsed=65.2s
+round=1720 elapsed=65.6s
+round=1730 elapsed=66.0s
+round=1740 elapsed=66.4s
+round=1750 elapsed=66.8s
+round=1760 elapsed=67.1s
+round=1770 elapsed=67.5s
+round=1780 elapsed=67.9s
+round=1790 elapsed=68.3s
+round=1800 elapsed=68.7s
+round=1810 elapsed=69.1s
+round=1820 elapsed=69.4s
+round=1830 elapsed=69.8s
+round=1840 elapsed=70.2s
+round=1850 elapsed=70.6s
+round=1860 elapsed=71.0s
+round=1870 elapsed=71.4s
+round=1880 elapsed=71.7s
+round=1890 elapsed=72.1s
+round=1900 elapsed=72.5s
+round=1910 elapsed=72.9s
+round=1920 elapsed=73.3s
+round=1930 elapsed=73.7s
+round=1940 elapsed=74.0s
+round=1950 elapsed=74.4s
+round=1960 elapsed=74.8s
+round=1970 elapsed=75.2s
+round=1980 elapsed=75.6s
+round=1990 elapsed=76.0s
+round=2000 elapsed=76.3s
+round=2010 elapsed=76.7s
+round=2020 elapsed=77.1s
+round=2030 elapsed=77.5s
+round=2040 elapsed=77.9s
+round=2050 elapsed=78.2s
+round=2060 elapsed=78.6s
+round=2070 elapsed=79.0s
+round=2080 elapsed=79.4s
+round=2090 elapsed=79.8s
+round=2100 elapsed=80.2s
+round=2110 elapsed=80.5s
+round=2120 elapsed=80.9s
+round=2130 elapsed=81.3s
+round=2140 elapsed=81.7s
+round=2150 elapsed=82.1s
+round=2160 elapsed=82.5s
+round=2170 elapsed=82.8s
+round=2180 elapsed=83.2s
+round=2190 elapsed=83.6s
+round=2200 elapsed=84.0s
+round=2210 elapsed=84.4s
+round=2220 elapsed=84.7s
+round=2230 elapsed=85.1s
+round=2240 elapsed=85.5s
+round=2250 elapsed=85.9s
+round=2260 elapsed=86.3s
+round=2270 elapsed=86.7s
+round=2280 elapsed=87.0s
+round=2290 elapsed=87.4s
+round=2300 elapsed=87.8s
+round=2310 elapsed=88.2s
+round=2320 elapsed=88.6s
+round=2330 elapsed=89.0s
+round=2340 elapsed=89.3s
+round=2350 elapsed=89.7s
+mode=mine m=37 threads=16384 grid=64 target=90s seed=987654321
+rounds=2358 elapsed=90.0s best_bad=1073741824 found=0 total_configs=38633472
+bad_hist (bin:count [avg_heat, avg_x, avg_s]):
+  264:          1   [0.0278, 244.00, 20.00]
+  272:          1   [0.0417, 240.00, 32.00]
+  276:          1   [0.0602, 256.00, 20.00]
+  280:          6   [0.0262, 245.33, 34.67]
+  284:         10   [0.0343, 245.60, 38.40]
+  288:          8   [0.0318, 257.00, 31.00]
+  292:          9   [0.0273, 266.67, 25.33]
+  296:         21   [0.0331, 262.29, 33.71]
+  300:         26   [0.0308, 264.46, 35.54]
+  304:         50   [0.0336, 268.48, 35.52]
+  308:         83   [0.0292, 274.31, 33.69]
+  312:        109   [0.0314, 278.72, 33.28]
+  316:        143   [0.0307, 279.78, 36.22]
+  320:        206   [0.0300, 284.27, 35.73]
+  324:        305   [0.0311, 287.25, 36.75]
+  328:        455   [0.0309, 290.04, 37.96]
+  332:        633   [0.0306, 293.38, 38.62]
+  336:        837   [0.0315, 297.45, 38.55]
+  340:       1225   [0.0310, 300.64, 39.36]
+  344:       1556   [0.0313, 304.18, 39.82]
+  348:       2189   [0.0310, 307.63, 40.37]
+  352:       2693   [0.0308, 310.78, 41.22]
+  356:       3665   [0.0305, 314.05, 41.95]
+  360:       4773   [0.0310, 317.15, 42.85]
+  364:       5953   [0.0307, 321.02, 42.98]
+  368:       7506   [0.0304, 324.25, 43.75]
+  372:       9504   [0.0307, 327.35, 44.65]
+  376:      11888   [0.0307, 331.17, 44.83]
+  380:      14547   [0.0306, 334.15, 45.85]
+  384:      18034   [0.0306, 337.42, 46.58]
+  388:      22076   [0.0304, 341.06, 46.94]
+  392:      26589   [0.0302, 344.21, 47.79]
+  396:      31831   [0.0303, 347.51, 48.49]
+  400:      37922   [0.0303, 350.86, 49.14]
+  404:      44860   [0.0303, 354.22, 49.78]
+  408:      52781   [0.0303, 357.58, 50.42]
+  412:      61337   [0.0301, 360.79, 51.21]
+  416:      71963   [0.0301, 364.21, 51.79]
+  420:      82707   [0.0300, 367.53, 52.47]
+  424:      94885   [0.0300, 370.87, 53.13]
+  428:     108066   [0.0300, 374.00, 54.00]
+  432:     122534   [0.0299, 377.35, 54.65]
+  436:     137859   [0.0298, 380.60, 55.40]
+  440:     153457   [0.0297, 383.87, 56.13]
+  444:     171403   [0.0296, 387.18, 56.82]
+  448:     190702   [0.0296, 390.45, 57.55]
+  452:     209803   [0.0295, 393.66, 58.34]
+  456:     230088   [0.0295, 396.91, 59.09]
+  460:     251396   [0.0294, 400.15, 59.85]
+  464:     273066   [0.0293, 403.46, 60.54]
+  468:     295784   [0.0293, 406.68, 61.32]
+  472:     319909   [0.0292, 409.88, 62.12]
+  476:     341906   [0.0291, 413.09, 62.91]
+  480:     365771   [0.0290, 416.34, 63.66]
+  484:     390241   [0.0290, 419.52, 64.48]
+  488:     411431   [0.0290, 422.75, 65.25]
+  492:     435548   [0.0288, 425.95, 66.05]
+  496:     458957   [0.0288, 429.21, 66.79]
+  500:     481768   [0.0287, 432.37, 67.63]
+  504:     504061   [0.0287, 435.59, 68.41]
+  508:     523530   [0.0286, 438.73, 69.27]
+  512:     544242   [0.0285, 442.00, 70.00]
+  516:     564581   [0.0284, 445.12, 70.88]
+  520:     581474   [0.0284, 448.31, 71.69]
+  524:     597855   [0.0283, 451.42, 72.58]
+  528:     614701   [0.0282, 454.67, 73.33]
+  532:     627017   [0.0281, 457.78, 74.22]
+  536:     640068   [0.0281, 460.89, 75.11]
+  540:     651154   [0.0280, 464.16, 75.84]
+  544:     660057   [0.0279, 467.26, 76.74]
+  548:     670146   [0.0279, 470.38, 77.62]
+  552:     675320   [0.0278, 473.52, 78.48]
+  556:     679093   [0.0277, 476.73, 79.27]
+  560:     682556   [0.0276, 479.86, 80.14]
+  564:     685487   [0.0275, 482.93, 81.07]
+  568:     684793   [0.0275, 486.05, 81.95]
+  572:     682720   [0.0274, 489.19, 82.81]
+  576:     680602   [0.0273, 492.28, 83.72]
+  580:     676820   [0.0272, 495.40, 84.60]
+  584:     671767   [0.0272, 498.43, 85.57]
+  588:     664284   [0.0271, 501.54, 86.46]
+  592:     657317   [0.0270, 504.70, 87.30]
+  596:     648843   [0.0269, 507.79, 88.21]
+  599:   17401907   [0.0256, 572.73, 109.66]
+best configs (bad, cells):

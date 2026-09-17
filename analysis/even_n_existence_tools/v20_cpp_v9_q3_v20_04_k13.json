@@ -1,0 +1,42 @@
+{
+  "component_count": 2,
+  "enumeration_mode": "explicit_masks",
+  "target_selected": 13,
+  "line_capacity_count": 906,
+  "explicit_mask_count": 4,
+  "distinct_shape_masks": 4,
+  "defect_hitting_masks": 4,
+  "factor_feasible_masks": 0,
+  "all_factor_infeasible": true,
+  "total_factor_search_nodes": 22,
+  "maximum_factor_search_nodes": 8,
+  "root_zero_option_by_deficit": {
+    "1": 0,
+    "2": 0
+  },
+  "search_node_histogram": {
+    "3": 1,
+    "4": 1,
+    "7+": 2
+  },
+  "sample_hitting_masks": [
+    69873001644,
+    71030100100,
+    71030101120,
+    110940160009
+  ],
+  "feasible_masks": [],
+  "first_feasible_mask": 0,
+  "first_feasible_cells": [],
+  "base": "v20_04",
+  "source_certificate": "v20_cpp_v9_q2_v20_04_k13.json",
+  "source_field": "feasible_masks",
+  "source_root_nonzero_by_adjacency": null,
+  "method": {
+    "name": "CUDA exhaustive fixed-weight mask scan and exact root-option filter, followed by C++ exact deficit f-factor DFS",
+    "k": 13,
+    "normalization": "all exact old-orientation reselections forbidden",
+    "line_capacities": "all primitive non-axis directions with q<=3"
+  },
+  "elapsed_s": 0.568
+}

@@ -1,0 +1,482 @@
+{
+  "m": 37,
+  "direction": "D2-heatmap-biased-SA",
+  "seeds": 24,
+  "time_per_seed": 120.0,
+  "gamma0": 10.0,
+  "global_best_bad": 92,
+  "n_escaped_72": 0,
+  "n_found": 0,
+  "best_seed": 987654321,
+  "best_consistent": true,
+  "best_edges": [
+    [
+      6,
+      14
+    ],
+    [
+      27,
+      27
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      6,
+      35
+    ],
+    [
+      21,
+      32
+    ],
+    [
+      1,
+      22
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      20,
+      31
+    ],
+    [
+      0,
+      12
+    ],
+    [
+      8,
+      22
+    ],
+    [
+      14,
+      34
+    ],
+    [
+      2,
+      24
+    ],
+    [
+      3,
+      34
+    ],
+    [
+      24,
+      26
+    ],
+    [
+      15,
+      28
+    ],
+    [
+      10,
+      28
+    ],
+    [
+      29,
+      31
+    ],
+    [
+      4,
+      13
+    ],
+    [
+      10,
+      35
+    ],
+    [
+      9,
+      13
+    ],
+    [
+      18,
+      36
+    ],
+    [
+      5,
+      19
+    ],
+    [
+      17,
+      33
+    ],
+    [
+      4,
+      32
+    ],
+    [
+      2,
+      23
+    ],
+    [
+      9,
+      25
+    ],
+    [
+      7,
+      36
+    ],
+    [
+      16,
+      19
+    ],
+    [
+      16,
+      18
+    ],
+    [
+      5,
+      17
+    ],
+    [
+      26,
+      29
+    ],
+    [
+      3,
+      30
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      0,
+      33
+    ],
+    [
+      15,
+      25
+    ],
+    [
+      1,
+      11
+    ]
+  ],
+  "best_cells": [
+    [
+      14,
+      6
+    ],
+    [
+      27,
+      27
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      6,
+      35
+    ],
+    [
+      32,
+      21
+    ],
+    [
+      22,
+      1
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      20,
+      31
+    ],
+    [
+      0,
+      12
+    ],
+    [
+      8,
+      22
+    ],
+    [
+      34,
+      14
+    ],
+    [
+      24,
+      2
+    ],
+    [
+      3,
+      34
+    ],
+    [
+      24,
+      26
+    ],
+    [
+      15,
+      28
+    ],
+    [
+      10,
+      28
+    ],
+    [
+      29,
+      31
+    ],
+    [
+      4,
+      13
+    ],
+    [
+      35,
+      10
+    ],
+    [
+      13,
+      9
+    ],
+    [
+      18,
+      36
+    ],
+    [
+      19,
+      5
+    ],
+    [
+      17,
+      33
+    ],
+    [
+      32,
+      4
+    ],
+    [
+      23,
+      2
+    ],
+    [
+      9,
+      25
+    ],
+    [
+      36,
+      7
+    ],
+    [
+      19,
+      16
+    ],
+    [
+      18,
+      16
+    ],
+    [
+      17,
+      5
+    ],
+    [
+      29,
+      26
+    ],
+    [
+      3,
+      30
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      33,
+      0
+    ],
+    [
+      25,
+      15
+    ],
+    [
+      1,
+      11
+    ]
+  ],
+  "per_seed": [
+    {
+      "seed": 987654321,
+      "best_bad": 92,
+      "verify_total": 92,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 989254369,
+      "best_bad": 92,
+      "verify_total": 92,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 989754384,
+      "best_bad": 92,
+      "verify_total": 92,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 988054333,
+      "best_bad": 96,
+      "verify_total": 96,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 988454345,
+      "best_bad": 96,
+      "verify_total": 96,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 988354342,
+      "best_bad": 112,
+      "verify_total": 112,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 989154366,
+      "best_bad": 112,
+      "verify_total": 112,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 988854357,
+      "best_bad": 116,
+      "verify_total": 116,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 989954390,
+      "best_bad": 116,
+      "verify_total": 116,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 988154336,
+      "best_bad": 120,
+      "verify_total": 120,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 989054363,
+      "best_bad": 120,
+      "verify_total": 120,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 987854327,
+      "best_bad": 124,
+      "verify_total": 124,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 987954330,
+      "best_bad": 124,
+      "verify_total": 124,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 988554348,
+      "best_bad": 128,
+      "verify_total": 128,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 989654381,
+      "best_bad": 128,
+      "verify_total": 128,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 988254339,
+      "best_bad": 132,
+      "verify_total": 132,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 988754354,
+      "best_bad": 132,
+      "verify_total": 132,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 988954360,
+      "best_bad": 132,
+      "verify_total": 132,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 989354372,
+      "best_bad": 132,
+      "verify_total": 132,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 989554378,
+      "best_bad": 136,
+      "verify_total": 136,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 989854387,
+      "best_bad": 136,
+      "verify_total": 136,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 987754324,
+      "best_bad": 140,
+      "verify_total": 140,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 988654351,
+      "best_bad": 140,
+      "verify_total": 140,
+      "consistent": true,
+      "found": false
+    },
+    {
+      "seed": 989454375,
+      "best_bad": 144,
+      "verify_total": 144,
+      "consistent": true,
+      "found": false
+    }
+  ]
+}

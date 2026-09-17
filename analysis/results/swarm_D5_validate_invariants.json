@@ -1,0 +1,366 @@
+{
+  "partA_validation": [
+    {
+      "m": 5,
+      "verify_total": 0,
+      "two_factor": true,
+      "distinct_4m": true,
+      "rot4": true,
+      "ok": true
+    },
+    {
+      "m": 6,
+      "verify_total": 0,
+      "two_factor": true,
+      "distinct_4m": true,
+      "rot4": true,
+      "ok": true
+    },
+    {
+      "m": 7,
+      "verify_total": 0,
+      "two_factor": true,
+      "distinct_4m": true,
+      "rot4": true,
+      "ok": true
+    },
+    {
+      "m": 8,
+      "verify_total": 0,
+      "two_factor": true,
+      "distinct_4m": true,
+      "rot4": true,
+      "ok": true
+    },
+    {
+      "m": 9,
+      "verify_total": 0,
+      "two_factor": true,
+      "distinct_4m": true,
+      "rot4": true,
+      "ok": true
+    },
+    {
+      "m": 10,
+      "verify_total": 0,
+      "two_factor": true,
+      "distinct_4m": true,
+      "rot4": true,
+      "ok": true
+    },
+    {
+      "m": 11,
+      "verify_total": 0,
+      "two_factor": true,
+      "distinct_4m": true,
+      "rot4": true,
+      "ok": true
+    },
+    {
+      "m": 12,
+      "verify_total": 0,
+      "two_factor": true,
+      "distinct_4m": true,
+      "rot4": true,
+      "ok": true
+    },
+    {
+      "m": 13,
+      "verify_total": 0,
+      "two_factor": true,
+      "distinct_4m": true,
+      "rot4": true,
+      "ok": true
+    },
+    {
+      "m": 14,
+      "verify_total": 0,
+      "two_factor": true,
+      "distinct_4m": true,
+      "rot4": true,
+      "ok": true
+    },
+    {
+      "m": 15,
+      "verify_total": 0,
+      "two_factor": true,
+      "distinct_4m": true,
+      "rot4": true,
+      "ok": true
+    },
+    {
+      "m": 16,
+      "verify_total": 0,
+      "two_factor": true,
+      "distinct_4m": true,
+      "rot4": true,
+      "ok": true
+    },
+    {
+      "m": 17,
+      "verify_total": 0,
+      "two_factor": true,
+      "distinct_4m": true,
+      "rot4": true,
+      "ok": true
+    },
+    {
+      "m": 18,
+      "verify_total": 0,
+      "two_factor": true,
+      "distinct_4m": true,
+      "rot4": true,
+      "ok": true
+    },
+    {
+      "m": 19,
+      "verify_total": 0,
+      "two_factor": true,
+      "distinct_4m": true,
+      "rot4": true,
+      "ok": true
+    },
+    {
+      "m": 36,
+      "verify_total": 0,
+      "two_factor": true,
+      "distinct_4m": true,
+      "rot4": true,
+      "ok": true
+    }
+  ],
+  "partA_all_valid": true,
+  "partB_parity_odd_count": 0,
+  "partB_parity_holds": true,
+  "partC_additive": {
+    "forced37_mod2": {
+      "1,1": 37,
+      "0,1": 37,
+      "0,0": 37,
+      "1,0": 37
+    },
+    "occ72_mod2": {
+      "1,0": 37,
+      "1,1": 37,
+      "0,1": 37,
+      "0,0": 37
+    }
+  },
+  "partD_known": {
+    "5": {
+      "m": 5,
+      "d5a_par": 0,
+      "d5a_perp": 0,
+      "n_loops": 1,
+      "cycles": [
+        1,
+        2,
+        2
+      ],
+      "n_odd_cycles": 1,
+      "n_distinct_dirs": 5,
+      "total_cells": 5
+    },
+    "6": {
+      "m": 6,
+      "d5a_par": 0,
+      "d5a_perp": 0,
+      "n_loops": 1,
+      "cycles": [
+        1,
+        5
+      ],
+      "n_odd_cycles": 2,
+      "n_distinct_dirs": 6,
+      "total_cells": 6
+    },
+    "7": {
+      "m": 7,
+      "d5a_par": 0,
+      "d5a_perp": 0,
+      "n_loops": 0,
+      "cycles": [
+        3,
+        4
+      ],
+      "n_odd_cycles": 1,
+      "n_distinct_dirs": 7,
+      "total_cells": 7
+    },
+    "8": {
+      "m": 8,
+      "d5a_par": 0,
+      "d5a_perp": 0,
+      "n_loops": 0,
+      "cycles": [
+        8
+      ],
+      "n_odd_cycles": 0,
+      "n_distinct_dirs": 8,
+      "total_cells": 8
+    },
+    "9": {
+      "m": 9,
+      "d5a_par": 0,
+      "d5a_perp": 0,
+      "n_loops": 0,
+      "cycles": [
+        9
+      ],
+      "n_odd_cycles": 1,
+      "n_distinct_dirs": 9,
+      "total_cells": 9
+    },
+    "10": {
+      "m": 10,
+      "d5a_par": 0,
+      "d5a_perp": 0,
+      "n_loops": 0,
+      "cycles": [
+        4,
+        6
+      ],
+      "n_odd_cycles": 0,
+      "n_distinct_dirs": 10,
+      "total_cells": 10
+    },
+    "11": {
+      "m": 11,
+      "d5a_par": 0,
+      "d5a_perp": 0,
+      "n_loops": 0,
+      "cycles": [
+        11
+      ],
+      "n_odd_cycles": 1,
+      "n_distinct_dirs": 11,
+      "total_cells": 11
+    },
+    "12": {
+      "m": 12,
+      "d5a_par": 0,
+      "d5a_perp": 0,
+      "n_loops": 1,
+      "cycles": [
+        1,
+        11
+      ],
+      "n_odd_cycles": 2,
+      "n_distinct_dirs": 12,
+      "total_cells": 12
+    },
+    "13": {
+      "m": 13,
+      "d5a_par": 0,
+      "d5a_perp": 0,
+      "n_loops": 1,
+      "cycles": [
+        1,
+        12
+      ],
+      "n_odd_cycles": 1,
+      "n_distinct_dirs": 13,
+      "total_cells": 13
+    },
+    "14": {
+      "m": 14,
+      "d5a_par": 0,
+      "d5a_perp": 0,
+      "n_loops": 0,
+      "cycles": [
+        2,
+        4,
+        8
+      ],
+      "n_odd_cycles": 0,
+      "n_distinct_dirs": 14,
+      "total_cells": 14
+    },
+    "15": {
+      "m": 15,
+      "d5a_par": 0,
+      "d5a_perp": 0,
+      "n_loops": 0,
+      "cycles": [
+        3,
+        12
+      ],
+      "n_odd_cycles": 1,
+      "n_distinct_dirs": 15,
+      "total_cells": 15
+    },
+    "16": {
+      "m": 16,
+      "d5a_par": 0,
+      "d5a_perp": 0,
+      "n_loops": 1,
+      "cycles": [
+        1,
+        15
+      ],
+      "n_odd_cycles": 2,
+      "n_distinct_dirs": 16,
+      "total_cells": 16
+    },
+    "17": {
+      "m": 17,
+      "d5a_par": 0,
+      "d5a_perp": 0,
+      "n_loops": 0,
+      "cycles": [
+        5,
+        6,
+        6
+      ],
+      "n_odd_cycles": 1,
+      "n_distinct_dirs": 17,
+      "total_cells": 17
+    },
+    "18": {
+      "m": 18,
+      "d5a_par": 0,
+      "d5a_perp": 0,
+      "n_loops": 0,
+      "cycles": [
+        18
+      ],
+      "n_odd_cycles": 0,
+      "n_distinct_dirs": 18,
+      "total_cells": 18
+    },
+    "19": {
+      "m": 19,
+      "d5a_par": 0,
+      "d5a_perp": 0,
+      "n_loops": 1,
+      "cycles": [
+        1,
+        5,
+        13
+      ],
+      "n_odd_cycles": 3,
+      "n_distinct_dirs": 19,
+      "total_cells": 19
+    },
+    "36": {
+      "m": 36,
+      "d5a_par": 0,
+      "d5a_perp": 0,
+      "n_loops": 0,
+      "cycles": [
+        36
+      ],
+      "n_odd_cycles": 0,
+      "n_distinct_dirs": 36,
+      "total_cells": 36
+    }
+  },
+  "partD_m37_72config": {
+    "d5a_par": 0,
+    "d5a_perp": 0,
+    "n_loops": 0,
+    "n_odd_cycles": 1,
+    "n_distinct_dirs": 37
+  },
+  "conclusion": "D5-P proven+verified: total_bad always EVEN (orbit-pair grouping). All additive/mod-p invariants are forced constant by rot4 symmetry (cannot obstruct m=37). D5-A (non-parallel/non-perp) holds on all known solutions and is satisfiable at m=37. No candidate invariant rules out m=37; any impossibility proof must be non-additive AND exploit (X)-free beyond D5-A."
+}

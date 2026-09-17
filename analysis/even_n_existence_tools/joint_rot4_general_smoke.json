@@ -1,0 +1,76 @@
+{
+  "parameters": {
+    "bases": "v40_01",
+    "min_size": 6,
+    "max_size": 8,
+    "max_rounds": 100,
+    "per_round_time": 10.0,
+    "total_time": 120.0,
+    "workers": 8,
+    "out": "joint_rot4_general_smoke.json"
+  },
+  "bases": [
+    {
+      "base": "v40_01",
+      "runs": [
+        {
+          "size": 6,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 0.568,
+              "branches": 30631,
+              "conflicts": 396,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 0.693
+        },
+        {
+          "size": 7,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 0.618,
+              "branches": 75472,
+              "conflicts": 2925,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 0.71
+        },
+        {
+          "size": 8,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 1.197,
+              "branches": 66794,
+              "conflicts": 18299,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 1.293
+        }
+      ]
+    }
+  ]
+}

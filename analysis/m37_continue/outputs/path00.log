@@ -1,0 +1,4 @@
+base=v40_02 defects=10 neighborhoods=1
+  run=1/1 k=13 covered=10 indices=(2, 5, 7, 8, 11, 13, 16, 18, 20, 24, 26, 29, 32)
+    status=UNKNOWN objective=None bound=None vars=640 active_lines=67986 build=12.355s solve=240.901s
+C:\Users\djr82\Documents\Codex\2026-07-13\d-djr82-documents-workbuddy-2026-07-2\work\ising_m37\outputs\directed_cell_lns_k13_v40_02_exact36_path00.json

@@ -1,0 +1,195 @@
+{
+  "component_count": 3,
+  "enumeration_mode": "run_profile",
+  "run_lengths": [
+    1,
+    1,
+    1,
+    1,
+    2,
+    3,
+    3
+  ],
+  "distinct_shape_masks": 79842180,
+  "defect_hitting_masks": 1882725,
+  "factor_feasible_masks": 1,
+  "all_factor_infeasible": false,
+  "total_factor_search_nodes": 1882764,
+  "maximum_factor_search_nodes": 12,
+  "root_zero_option_by_deficit": {
+    "1": 956411,
+    "2": 926304
+  },
+  "search_node_histogram": {
+    "1": 1882715,
+    "2": 3,
+    "3": 2,
+    "4": 1,
+    "7+": 4
+  },
+  "sample_hitting_masks": [
+    54761423228,
+    54761423340,
+    54761423736,
+    54761423848,
+    54761427068,
+    54761427180,
+    54761427516,
+    54761427572,
+    54761427628,
+    54761427684
+  ],
+  "feasible_masks": [
+    87021619248
+  ],
+  "first_feasible_mask": 87021619248,
+  "first_feasible_cells": [
+    [
+      9,
+      11
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      20,
+      24
+    ],
+    [
+      22,
+      35
+    ],
+    [
+      36,
+      34
+    ],
+    [
+      35,
+      13
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      29,
+      23
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      11,
+      2
+    ],
+    [
+      26,
+      5
+    ],
+    [
+      14,
+      18
+    ]
+  ],
+  "base": "v40_04",
+  "cycle_edge_orders": [
+    [
+      0,
+      28,
+      27,
+      14,
+      10,
+      11,
+      24,
+      25,
+      31,
+      30,
+      35,
+      36,
+      18,
+      17,
+      32,
+      33,
+      1
+    ],
+    [
+      2,
+      9,
+      8,
+      23,
+      5,
+      4,
+      6,
+      7,
+      16,
+      15,
+      21,
+      22,
+      29,
+      12,
+      13,
+      3
+    ],
+    [
+      19,
+      26,
+      34,
+      20
+    ]
+  ],
+  "first_feasible_removed_indices": [
+    4,
+    5,
+    11,
+    15,
+    18,
+    21,
+    22,
+    23,
+    25,
+    30,
+    34,
+    36
+  ],
+  "method": {
+    "deletion_run_lengths": [
+      3,
+      3,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "normalization": "all exact old-orientation reselections forbidden",
+    "multigraph": "both (u,v) and (v,u) allowed simultaneously",
+    "geometry": "candidate cells filtered by exact retained-base blocker masks",
+    "factor": "exact deficit-0/1/2 f-factor DFS; loops consume 2 and opposite orientations may form a digon",
+    "line_capacities": "none (q=0 shadow factor)"
+  },
+  "stderr_progress_tail": [
+    "hit=1690000 feasible=1 nodes=1690038",
+    "hit=1700000 feasible=1 nodes=1700039",
+    "hit=1710000 feasible=1 nodes=1710039",
+    "hit=1720000 feasible=1 nodes=1720039",
+    "hit=1730000 feasible=1 nodes=1730039",
+    "hit=1740000 feasible=1 nodes=1740039",
+    "hit=1750000 feasible=1 nodes=1750039",
+    "hit=1760000 feasible=1 nodes=1760039",
+    "hit=1770000 feasible=1 nodes=1770039",
+    "hit=1780000 feasible=1 nodes=1780039",
+    "hit=1790000 feasible=1 nodes=1790039",
+    "hit=1800000 feasible=1 nodes=1800039",
+    "hit=1810000 feasible=1 nodes=1810039",
+    "hit=1820000 feasible=1 nodes=1820039",
+    "hit=1830000 feasible=1 nodes=1830039",
+    "hit=1840000 feasible=1 nodes=1840039",
+    "hit=1850000 feasible=1 nodes=1850039",
+    "hit=1860000 feasible=1 nodes=1860039",
+    "hit=1870000 feasible=1 nodes=1870039",
+    "hit=1880000 feasible=1 nodes=1880039"
+  ],
+  "elapsed_s": 9.587
+}

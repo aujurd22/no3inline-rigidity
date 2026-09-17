@@ -1,0 +1,118 @@
+
+--- Trial 1/200 ---
+  edges generated, has_2cycle=True n_2cycles=1
+  enumerated 7770 triples × 8 = 62160 checks → 1908 clauses (3.07%) in 15.9s
+  ** new best clause count: 1908 **
+  ** new best min_violations: 72 (clauses=1908) **
+
+--- Trial 2/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 1414 clauses (2.27%) in 15.5s
+  ** new best clause count: 1414 **
+  ** new best min_violations: 62 (clauses=1414) **
+
+--- Trial 3/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 2268 clauses (3.65%) in 14.2s
+
+--- Trial 4/200 ---
+  edges generated, has_2cycle=True n_2cycles=1
+  enumerated 7770 triples × 8 = 62160 checks → 1550 clauses (2.49%) in 14.7s
+
+--- Trial 5/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 1170 clauses (1.88%) in 14.4s
+  ** new best clause count: 1170 **
+
+--- Trial 6/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 1576 clauses (2.54%) in 14.8s
+
+--- Trial 7/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 1970 clauses (3.17%) in 14.3s
+
+--- Trial 8/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 2096 clauses (3.37%) in 15.2s
+
+--- Trial 9/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 2228 clauses (3.58%) in 14.8s
+
+--- Trial 10/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 1614 clauses (2.60%) in 19.5s
+
+--- Trial 11/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 2098 clauses (3.38%) in 14.9s
+
+--- Trial 12/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 1220 clauses (1.96%) in 15.9s
+  ** new best min_violations: 59 (clauses=1220) **
+
+--- Trial 13/200 ---
+  edges generated, has_2cycle=True n_2cycles=1
+  enumerated 7770 triples × 8 = 62160 checks → 1426 clauses (2.29%) in 17.6s
+
+--- Trial 14/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 1648 clauses (2.65%) in 18.8s
+
+--- Trial 15/200 ---
+  edges generated, has_2cycle=True n_2cycles=1
+  enumerated 7770 triples × 8 = 62160 checks → 2528 clauses (4.07%) in 15.9s
+
+--- Trial 16/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 1242 clauses (2.00%) in 18.3s
+  ** new best min_violations: 50 (clauses=1242) **
+
+--- Trial 17/200 ---
+  edges generated, has_2cycle=True n_2cycles=1
+  enumerated 7770 triples × 8 = 62160 checks → 1912 clauses (3.08%) in 17.9s
+
+--- Trial 18/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 2506 clauses (4.03%) in 18.1s
+
+--- Trial 19/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 2242 clauses (3.61%) in 18.2s
+
+--- Trial 20/200 ---
+  edges generated, has_2cycle=True n_2cycles=3
+  enumerated 7770 triples × 8 = 62160 checks → 1720 clauses (2.77%) in 17.7s
+
+--- Trial 21/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 1290 clauses (2.08%) in 17.8s
+
+--- Trial 22/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 1630 clauses (2.62%) in 18.1s
+
+--- Trial 23/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 3818 clauses (6.14%) in 18.5s
+
+--- Trial 24/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 1206 clauses (1.94%) in 19.0s
+
+--- Trial 25/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 3060 clauses (4.92%) in 18.5s
+
+--- Trial 26/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 1434 clauses (2.31%) in 19.2s
+
+--- Trial 27/200 ---
+  edges generated, has_2cycle=False n_2cycles=0
+  enumerated 7770 triples × 8 = 62160 checks → 1582 clauses (2.55%) in 18.5s
+
+--- Trial 28/200 ---
+  edges generated, has_2cycle=True n_2cycles=1

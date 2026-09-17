@@ -1,0 +1,35 @@
+{
+  "m37_408": {
+    "m": 37,
+    "n_clauses": 408,
+    "closure_missing": 0,
+    "sum_abs_J": 856,
+    "M_sdp": 290.9525526249828,
+    "sdp_status": "optimal",
+    "min_viol_lb_sdp": 12.523723687508607,
+    "sdp_time_s": 0.2,
+    "known_min_viol": 16
+  },
+  "m37_448": {
+    "m": 37,
+    "n_clauses": 448,
+    "closure_missing": 0,
+    "sum_abs_J": 932,
+    "M_sdp": 314.63972614431685,
+    "sdp_status": "optimal",
+    "min_viol_lb_sdp": 15.180136927841573,
+    "sdp_time_s": 0.3,
+    "known_min_viol": 17
+  },
+  "m36": {
+    "m": 36,
+    "n_clauses": 670,
+    "closure_missing": 0,
+    "sum_abs_J": 1162,
+    "M_sdp": 458.0000093145802,
+    "sdp_status": "optimal",
+    "min_viol_lb_sdp": -4.6572901055697e-06,
+    "sdp_time_s": 0.3,
+    "known_min_viol": 0
+  }
+}

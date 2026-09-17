@@ -1,0 +1,162 @@
+{
+  "base": "v40_01",
+  "size": 11,
+  "cycle_type": [
+    37
+  ],
+  "adjacency_range": [
+    0,
+    10
+  ],
+  "coverage_argument": "A proper 11-edge subset of a 37-cycle has s>=1 deletion segments and adjacency count A=11-s, hence 0<=A<=10.",
+  "status": "INFEASIBLE",
+  "consequence": "general deletion escape radius is at least 12",
+  "layers": {
+    "0": {
+      "classification": "CLOSED",
+      "mechanism": "q1_line_capacity",
+      "evidence": "rot4_adjacency_cut_sweep_v40_01.json"
+    },
+    "1": {
+      "classification": "CLOSED",
+      "mechanism": "fixed_short_direction_overflow",
+      "q": 2,
+      "objective": 2,
+      "evidence": "rot4_line_overflow_v40_01_a1_q2.json"
+    },
+    "2": {
+      "classification": "CLOSED",
+      "mechanism": "fixed_short_direction_overflow",
+      "q": 2,
+      "objective": 2,
+      "evidence": "rot4_line_overflow_v40_01_a2_q2.json"
+    },
+    "3": {
+      "classification": "CLOSED",
+      "mechanism": "fixed_short_direction_overflow",
+      "q": 2,
+      "objective": 1,
+      "evidence": "rot4_line_overflow_v40_01_a3_q2.json"
+    },
+    "4": {
+      "classification": "CLOSED",
+      "mechanism": "line_capacity",
+      "evidence": "joint_rot4_general_v40_01_k11_a4_q1.json",
+      "line_cut_count": 72
+    },
+    "7": {
+      "classification": "CLOSED",
+      "mechanism": "q1_line_capacity",
+      "evidence": "rot4_adjacency_cut_sweep_v40_01.json"
+    },
+    "8": {
+      "classification": "CLOSED",
+      "mechanism": "q1_line_capacity",
+      "evidence": "rot4_adjacency_cut_sweep_v40_01.json"
+    },
+    "9": {
+      "classification": "CLOSED",
+      "mechanism": "q1_line_capacity",
+      "evidence": "rot4_adjacency_cut_sweep_v40_01.json"
+    },
+    "10": {
+      "classification": "CLOSED",
+      "mechanism": "q1_line_capacity",
+      "evidence": "rot4_adjacency_cut_sweep_v40_01.json"
+    },
+    "5": {
+      "classification": "CLOSED",
+      "possible_triple_counts": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "triple_layers": {
+        "0": {
+          "classification": "CLOSED",
+          "mechanism": "q1_line_capacity",
+          "evidence": "rot4_runshape_cut_sweep_v40_01.json"
+        },
+        "1": {
+          "classification": "CLOSED",
+          "mechanism": "all_positive_loops_q1_and_loop0_f0",
+          "loop0_objective": null,
+          "evidence": [
+            "rot4_shape_loop_cut_sweep_v40_01.json",
+            "rot4_diagonal_overflow_v40_01_a5_t1_l0.json"
+          ]
+        },
+        "2": {
+          "classification": "CLOSED",
+          "mechanism": "all_positive_loops_q1_and_loop0_q1_overflow",
+          "loop0_objective": 2,
+          "evidence": [
+            "rot4_shape_loop_cut_sweep_v40_01.json",
+            "rot4_diagonal_overflow_v40_01_a5_t2_l0.json"
+          ]
+        },
+        "3": {
+          "classification": "CLOSED",
+          "mechanism": "q1_line_capacity",
+          "evidence": "rot4_runshape_cut_sweep_v40_01.json"
+        },
+        "4": {
+          "classification": "CLOSED",
+          "mechanism": "q1_line_capacity",
+          "evidence": "rot4_runshape_cut_sweep_v40_01.json"
+        }
+      }
+    },
+    "6": {
+      "classification": "CLOSED",
+      "possible_triple_counts": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "triple_layers": {
+        "1": {
+          "classification": "CLOSED",
+          "mechanism": "all_positive_loops_q1_and_loop0_f0",
+          "loop0_objective": null,
+          "evidence": [
+            "rot4_shape_loop_cut_sweep_v40_01.json",
+            "rot4_diagonal_overflow_v40_01_a6_t1_l0.json"
+          ]
+        },
+        "2": {
+          "classification": "CLOSED",
+          "mechanism": "all_positive_loops_q1_and_loop0_f0",
+          "loop0_objective": null,
+          "evidence": [
+            "rot4_shape_loop_cut_sweep_v40_01.json",
+            "rot4_diagonal_overflow_v40_01_a6_t2_l0.json"
+          ]
+        },
+        "3": {
+          "classification": "CLOSED",
+          "mechanism": "all_positive_loops_q1_and_loop0_f0",
+          "loop0_objective": null,
+          "evidence": [
+            "rot4_shape_loop_cut_sweep_v40_01.json",
+            "rot4_diagonal_overflow_v40_01_a6_t3_l0.json"
+          ]
+        },
+        "4": {
+          "classification": "CLOSED",
+          "mechanism": "q1_line_capacity",
+          "evidence": "rot4_runshape_cut_sweep_v40_01.json"
+        },
+        "5": {
+          "classification": "CLOSED",
+          "mechanism": "q1_line_capacity",
+          "evidence": "rot4_runshape_cut_sweep_v40_01.json"
+        }
+      }
+    }
+  }
+}

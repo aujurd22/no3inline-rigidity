@@ -176,3 +176,27 @@ the earlier direction-fibre support-matching view: a direction may be reused,
 but the full pair of modular affine-line labels may not collide.  A useful next
 solver should propagate palette conflicts together with `f`-factor deficits,
 rather than minimize only the current number of bad triples.
+
+
+## 2026-08-14 增补：C4 块分解与谱筛选严格干净性
+
+### A. C4 块分解（PROVED）
+
+偶数 n 棋盘，中心化加倍坐标 X=2x-(n-1), Y=2y-(n-1)。在此坐标下
+ω(a,b) = a_x b_y - a_y b_x 满足 ω(ρa, ρb) = ω(a,b)（ρ 为 90° 旋转）。
+对 rot4 不变配置，K_t 与旋转置换 P 可交换（数值误差 0）。P 的特征空间
+V_j（特征 i^j, j=0..3）各 m=n/2 维。对轨道代表 p_a 定义 m×m 矩阵
+K_t^j(p,q) = Σ_{h=0..3} i^{-jh} ζ^{tω(ρ^h p, q)}，
+则 tr(K_t³) = Σ_j tr((K_t^j)³)（n=8 全验证 1e-13）。展开显示四项相位族：
+det 相位（h=0）、交叉 -（X Y' + Y X'）相位（h=1）、-det（h=2）、内积
+相位（h=3）。
+
+### B. 谱筛选严格干净性（PROVED）
+
+对任意格点三元组 p,q,r 与任意 h1,h2,h3：
+Φ = ω(ρ^{h1}p, q) + ω(ρ^{h2}q, r) + ω(ρ^{h3}r, p) = 2·Area(ρ^{h1}p, ρ^{h2}q, ρ^{h3}r)。
+中心化坐标下 |Area| ≤ 2(n-1)²，故 |Φ| ≤ 4(n-1)² = Q-1
+（40000 随机三元组与 n=8 全枚举确认 max=Q-1 恰达界）。因此
+Φ ≡ 0 (mod Q) ⟺ Φ = 0 ⟺ 三点共线。**混合 h 项不产生准共线伪信号**；
+对 NTIL 解，互异轨道的混合三元组 Φ = 0 的数量为 0。谱恒等式在中心化
+坐标 + Q = 4(n-1)²+1 下是干净的共线筛选。

@@ -1,0 +1,44 @@
+{
+  "parameters": {
+    "bases": "v40_01",
+    "min_size": 11,
+    "max_size": 11,
+    "max_rounds": 100,
+    "per_round_time": 180.0,
+    "total_time": 600.0,
+    "workers": 8,
+    "short_direction_q": 1,
+    "adjacency_count": 4,
+    "out": "joint_rot4_general_v40_01_k11_a4_q1.json"
+  },
+  "bases": [
+    {
+      "base": "v40_01",
+      "runs": [
+        {
+          "size": 11,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 72,
+          "preseeded_line_count": 72,
+          "dynamic_line_cut_count": 0,
+          "short_direction_q": 1,
+          "adjacency_count": 4,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 139.244,
+              "branches": 10103778,
+              "conflicts": 610447,
+              "known_line_cuts_before": 72
+            }
+          ],
+          "elapsed_s": 139.419
+        }
+      ]
+    }
+  ]
+}

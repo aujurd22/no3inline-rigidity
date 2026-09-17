@@ -1,0 +1,55 @@
+[
+  {
+    "file": "alts_best.json",
+    "claimed_clauses": 97,
+    "factor": {
+      "edge_count": 37,
+      "degree_histogram": {
+        "2": 37
+      },
+      "is_2factor": true,
+      "duplicate_unordered_edges": 0,
+      "loops": 0
+    },
+    "independent_clauses": 1096,
+    "claim_matches": false
+  },
+  {
+    "file": "cc_best.json",
+    "claimed_clauses": 990,
+    "factor": {
+      "edge_count": 37,
+      "degree_histogram": {
+        "2": 37
+      },
+      "is_2factor": true,
+      "duplicate_unordered_edges": 0,
+      "loops": 0
+    },
+    "independent_clauses": 990,
+    "claim_matches": true
+  },
+  {
+    "file": "violation_improved_edges.json",
+    "claimed_clauses": 0,
+    "factor": {
+      "edge_count": 37,
+      "degree_histogram": {
+        "2": 37
+      },
+      "is_2factor": true,
+      "duplicate_unordered_edges": 0,
+      "loops": 0
+    },
+    "independent_clauses": 1580,
+    "claim_matches": false,
+    "independent_clause_violations": 177,
+    "independent_geometry": {
+      "point_count": 148,
+      "distinct_point_count": 148,
+      "bad_triples": 316,
+      "bad_line_count": 256,
+      "max_points_on_line": 4
+    }
+  }
+]

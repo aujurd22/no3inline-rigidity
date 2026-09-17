@@ -1,0 +1,13 @@
+==============================================================================
+CONSTRUCTED MISSING-CENTER WITNESSES (classes absent from cache)
+==============================================================================
+
+[dia2] exhaustive permutation search (n=8..16)
+   NO witness found (n<=16)
+
+[ort2] exhaustive permutation search (n=8..16)
+   NO witness found (n<=16)
+
+[ort1] exhaustive (n<=8) + randomized (n<=18)
+   NO witness found (n<=18, 1.5M trials/n)
+==============================================================================

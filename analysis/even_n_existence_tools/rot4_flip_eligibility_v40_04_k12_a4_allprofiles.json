@@ -1,0 +1,40 @@
+{
+  "parameters": {
+    "base": "v40_04",
+    "size": 12,
+    "adjacency_count": 4,
+    "triple_count": null,
+    "quadruple_count": null,
+    "time_limit": 600.0,
+    "workers": 2,
+    "out": "rot4_flip_eligibility_v40_04_k12_a4_allprofiles.json"
+  },
+  "status": "OPTIMAL",
+  "objective": 5,
+  "best_bound": 5.0,
+  "branches": 1308495,
+  "conflicts": 756933,
+  "wall_s": 64.441,
+  "elapsed_s": 64.447,
+  "removed_indices": [
+    6,
+    8,
+    12,
+    15,
+    17,
+    23,
+    27,
+    31,
+    32,
+    33,
+    35,
+    36
+  ],
+  "eligible_flip_indices": [
+    8,
+    17,
+    23,
+    27,
+    32
+  ]
+}

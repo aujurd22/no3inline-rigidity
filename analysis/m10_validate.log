@@ -1,0 +1,3 @@
+[start] m=10 threads=8 hours=0.030000 WX=2
+[DONE] NOTFOUND in 123s best=8
+[start] m=10 threads=8 hours=0.050000 WX=2

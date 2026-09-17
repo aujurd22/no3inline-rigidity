@@ -1,0 +1,80 @@
+{
+  "orbit_theorem_on_72config": {
+    "n_defect_lines": 72,
+    "n_pairs": 36,
+    "n_fixed": 0,
+    "n_unmatched": 0,
+    "unmatched_sample": []
+  },
+  "m36_reverify": {
+    "m": 36,
+    "verify_total": 0,
+    "two_factor": true,
+    "stored_verify": true
+  },
+  "modular_scan_72config": {
+    "2": {
+      "distinct_residue_classes": 4,
+      "max_points_in_one_class": 37,
+      "n_lifts": 148,
+      "sum_x_mod_p": 0,
+      "sum_y_mod_p": 0
+    },
+    "3": {
+      "distinct_residue_classes": 9,
+      "max_points_in_one_class": 17,
+      "n_lifts": 148,
+      "sum_x_mod_p": 2,
+      "sum_y_mod_p": 2
+    },
+    "5": {
+      "distinct_residue_classes": 25,
+      "max_points_in_one_class": 6,
+      "n_lifts": 148,
+      "sum_x_mod_p": 2,
+      "sum_y_mod_p": 2
+    },
+    "7": {
+      "distinct_residue_classes": 48,
+      "max_points_in_one_class": 4,
+      "n_lifts": 148,
+      "sum_x_mod_p": 5,
+      "sum_y_mod_p": 5
+    }
+  },
+  "modular_scan_m36_solution": {
+    "2": {
+      "distinct_residue_classes": 4,
+      "max_points_in_one_class": 36,
+      "n_lifts": 144,
+      "sum_x_mod_p": 0,
+      "sum_y_mod_p": 0
+    },
+    "3": {
+      "distinct_residue_classes": 9,
+      "max_points_in_one_class": 16,
+      "n_lifts": 144,
+      "sum_x_mod_p": 0,
+      "sum_y_mod_p": 0
+    },
+    "5": {
+      "distinct_residue_classes": 25,
+      "max_points_in_one_class": 7,
+      "n_lifts": 144,
+      "sum_x_mod_p": 2,
+      "sum_y_mod_p": 2
+    },
+    "7": {
+      "distinct_residue_classes": 49,
+      "max_points_in_one_class": 4,
+      "n_lifts": 144,
+      "sum_x_mod_p": 2,
+      "sum_y_mod_p": 2
+    }
+  },
+  "notes": [
+    "ORBIT THEOREM: every (X)-defect line belongs to a C4-orbit of size exactly 2 (no fixed points), so the number of defect lines is always even. 72-config has 72 (even) and pairs perfectly.",
+    "Trivial modular invariant: sum of all x-coords = n(n-1) mod p, constant for ALL configs (not just (X)-free) -> no obstruction.",
+    "m=36 solution re-verified (X)-free by independent brute force (verify_total==0); establishes n=72 baseline exists."
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "component_count": 1,
+  "enumeration_mode": "run_profile",
+  "run_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    6
+  ],
+  "distinct_shape_masks": 4980052,
+  "defect_hitting_masks": 66668,
+  "factor_feasible_masks": 0,
+  "all_factor_infeasible": true,
+  "total_factor_search_nodes": 66674,
+  "maximum_factor_search_nodes": 5,
+  "root_zero_option_by_deficit": {
+    "1": 28707,
+    "2": 37959
+  },
+  "search_node_histogram": {
+    "1": 66666,
+    "3": 1,
+    "5": 1
+  },
+  "sample_hitting_masks": [
+    637619541,
+    637619557,
+    637619605,
+    637619621,
+    637623573,
+    637623589,
+    637623621,
+    637623685,
+    637627477,
+    637627478
+  ],
+  "first_feasible_mask": 0,
+  "first_feasible_cells": [],
+  "base": "v40_02",
+  "cycle_edge_orders": [
+    [
+      0,
+      27,
+      24,
+      15,
+      16,
+      34,
+      30,
+      5,
+      4,
+      19,
+      20,
+      33,
+      13,
+      12,
+      3,
+      2,
+      9,
+      8,
+      23,
+      35,
+      26,
+      25,
+      11,
+      10,
+      14,
+      29,
+      28,
+      21,
+      22,
+      6,
+      7,
+      36,
+      18,
+      17,
+      31,
+      32,
+      1
+    ]
+  ],
+  "first_feasible_removed_indices": [],
+  "method": {
+    "deletion_run_lengths": [
+      6,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "normalization": "all exact old-orientation reselections forbidden",
+    "multigraph": "both (u,v) and (v,u) allowed simultaneously",
+    "geometry": "candidate cells filtered by exact retained-base blocker masks",
+    "factor": "exact deficit-0/1/2 f-factor DFS; loops consume 2 and opposite orientations may form a digon",
+    "line_capacities": "none (q=0 shadow factor)"
+  },
+  "stderr_progress_tail": [
+    "hit=10000 feasible=0 nodes=10000",
+    "hit=20000 feasible=0 nodes=20000",
+    "hit=30000 feasible=0 nodes=30000",
+    "hit=40000 feasible=0 nodes=40000",
+    "hit=50000 feasible=0 nodes=50006",
+    "hit=60000 feasible=0 nodes=60006"
+  ],
+  "elapsed_s": 2.519
+}

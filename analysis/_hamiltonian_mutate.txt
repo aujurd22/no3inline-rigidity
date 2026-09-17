@@ -1,0 +1,8 @@
+*** NEW BEST: 466 (trial 54) ***
+*** NEW BEST: 452 (trial 71) ***
+trial 100/500, best=452
+trial 200/500, best=452
+trial 300/500, best=452
+*** NEW BEST: 448 (trial 345) ***
+trial 500/500, best=448
+Done. Best: 448 clauses

@@ -1,0 +1,529 @@
+{
+  "size": 12,
+  "direction_q": 1,
+  "bases": [
+    {
+      "base": "v40_01",
+      "cycle_type": [
+        37
+      ],
+      "possible_adjacencies": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "layers": {
+        "0": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 0.78,
+          "evidence": "rot4_line_overflow_v40_01_k12_a0_q1.json",
+          "bad_line_count": 52
+        },
+        "1": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 0.884,
+          "evidence": "rot4_line_overflow_v40_01_k12_a1_q1.json",
+          "bad_line_count": 64
+        },
+        "2": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 0.789,
+          "evidence": "rot4_line_overflow_v40_01_k12_a2_q1.json",
+          "bad_line_count": 52
+        },
+        "3": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 1.383,
+          "evidence": "rot4_line_overflow_v40_01_k12_a3_q1.json",
+          "bad_line_count": 44
+        },
+        "4": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 1.445,
+          "evidence": "rot4_line_overflow_v40_01_k12_a4_q1.json",
+          "bad_line_count": 68
+        },
+        "5": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 9.264,
+          "evidence": "rot4_line_overflow_v40_01_k12_a5_q1.json",
+          "bad_line_count": 56
+        },
+        "6": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 16.26,
+          "evidence": "rot4_line_overflow_v40_01_k12_a6_q1.json",
+          "bad_line_count": 56
+        },
+        "7": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 11.567,
+          "evidence": "rot4_line_overflow_v40_01_k12_a7_q1.json",
+          "bad_line_count": 56
+        },
+        "8": {
+          "classification": "CLOSED_Q1",
+          "status": "OPTIMAL",
+          "objective": 4,
+          "best_bound": 4.0,
+          "wall_s": 549.765,
+          "evidence": "rot4_line_overflow_v40_01_k12_a8_q1.json",
+          "bad_line_count": 104
+        },
+        "9": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 375.407,
+          "evidence": "rot4_line_overflow_v40_01_k12_a9_q1.json",
+          "bad_line_count": null
+        },
+        "10": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 214.499,
+          "evidence": "rot4_line_overflow_v40_01_k12_a10_q1.json",
+          "bad_line_count": null
+        },
+        "11": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 83.046,
+          "evidence": "rot4_line_overflow_v40_01_k12_a11_q1.json",
+          "bad_line_count": null
+        }
+      }
+    },
+    {
+      "base": "v40_02",
+      "cycle_type": [
+        37
+      ],
+      "possible_adjacencies": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "layers": {
+        "0": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 1.066,
+          "evidence": "rot4_line_overflow_v40_02_k12_a0_q1.json",
+          "bad_line_count": 92
+        },
+        "1": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 2.916,
+          "evidence": "rot4_line_overflow_v40_02_k12_a1_q1.json",
+          "bad_line_count": 60
+        },
+        "2": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 1.541,
+          "evidence": "rot4_line_overflow_v40_02_k12_a2_q1.json",
+          "bad_line_count": 56
+        },
+        "3": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 2.596,
+          "evidence": "rot4_line_overflow_v40_02_k12_a3_q1.json",
+          "bad_line_count": 68
+        },
+        "4": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 18.902,
+          "evidence": "rot4_line_overflow_v40_02_k12_a4_q1.json",
+          "bad_line_count": 84
+        },
+        "5": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 6.09,
+          "evidence": "rot4_line_overflow_v40_02_k12_a5_q1.json",
+          "bad_line_count": 72
+        },
+        "6": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 148.22,
+          "evidence": "rot4_line_overflow_v40_02_k12_a6_q1.json",
+          "bad_line_count": 72
+        },
+        "7": {
+          "classification": "UNRESOLVED",
+          "status": "FEASIBLE",
+          "objective": 2,
+          "best_bound": 0.0,
+          "wall_s": 600.15,
+          "evidence": "rot4_line_overflow_v40_02_k12_a7_q1.json",
+          "bad_line_count": 68
+        },
+        "8": {
+          "classification": "CLOSED_Q1",
+          "status": "OPTIMAL",
+          "objective": 4,
+          "best_bound": 4.0,
+          "wall_s": 312.0,
+          "evidence": "rot4_line_overflow_v40_02_k12_a8_q1.json",
+          "bad_line_count": 80
+        },
+        "9": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 170.565,
+          "evidence": "rot4_line_overflow_v40_02_k12_a9_q1.json",
+          "bad_line_count": null
+        },
+        "10": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 189.813,
+          "evidence": "rot4_line_overflow_v40_02_k12_a10_q1.json",
+          "bad_line_count": null
+        },
+        "11": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 158.738,
+          "evidence": "rot4_line_overflow_v40_02_k12_a11_q1.json",
+          "bad_line_count": null
+        }
+      }
+    },
+    {
+      "base": "v40_03",
+      "cycle_type": [
+        4,
+        33
+      ],
+      "possible_adjacencies": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "layers": {
+        "0": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 1.073,
+          "evidence": "rot4_line_overflow_v40_03_k12_a0_q1.json",
+          "bad_line_count": 84
+        },
+        "1": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 1.567,
+          "evidence": "rot4_line_overflow_v40_03_k12_a1_q1.json",
+          "bad_line_count": 60
+        },
+        "2": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 0.909,
+          "evidence": "rot4_line_overflow_v40_03_k12_a2_q1.json",
+          "bad_line_count": 62
+        },
+        "3": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 1.847,
+          "evidence": "rot4_line_overflow_v40_03_k12_a3_q1.json",
+          "bad_line_count": 60
+        },
+        "4": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 3.858,
+          "evidence": "rot4_line_overflow_v40_03_k12_a4_q1.json",
+          "bad_line_count": 72
+        },
+        "5": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 2.387,
+          "evidence": "rot4_line_overflow_v40_03_k12_a5_q1.json",
+          "bad_line_count": 48
+        },
+        "6": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 1.465,
+          "evidence": "rot4_line_overflow_v40_03_k12_a6_q1.json",
+          "bad_line_count": 60
+        },
+        "7": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 10.592,
+          "evidence": "rot4_line_overflow_v40_03_k12_a7_q1.json",
+          "bad_line_count": 60
+        },
+        "8": {
+          "classification": "UNRESOLVED",
+          "status": "FEASIBLE",
+          "objective": 3,
+          "best_bound": 0.0,
+          "wall_s": 600.215,
+          "evidence": "rot4_line_overflow_v40_03_k12_a8_q1.json",
+          "bad_line_count": 80
+        },
+        "9": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 412.3,
+          "evidence": "rot4_line_overflow_v40_03_k12_a9_q1.json",
+          "bad_line_count": null
+        },
+        "10": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 404.721,
+          "evidence": "rot4_line_overflow_v40_03_k12_a10_q1.json",
+          "bad_line_count": null
+        },
+        "11": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 140.982,
+          "evidence": "rot4_line_overflow_v40_03_k12_a11_q1.json",
+          "bad_line_count": null
+        }
+      }
+    },
+    {
+      "base": "v40_04",
+      "cycle_type": [
+        4,
+        16,
+        17
+      ],
+      "possible_adjacencies": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "layers": {
+        "0": {
+          "classification": "CLOSED_Q1",
+          "status": "OPTIMAL",
+          "objective": 1,
+          "best_bound": 1.0,
+          "wall_s": 2.122,
+          "evidence": "rot4_line_overflow_v40_04_k12_a0_q1.json",
+          "bad_line_count": 88
+        },
+        "1": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 0.557,
+          "evidence": "rot4_line_overflow_v40_04_k12_a1_q1.json",
+          "bad_line_count": 88
+        },
+        "2": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 1.333,
+          "evidence": "rot4_line_overflow_v40_04_k12_a2_q1.json",
+          "bad_line_count": 100
+        },
+        "3": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 1.736,
+          "evidence": "rot4_line_overflow_v40_04_k12_a3_q1.json",
+          "bad_line_count": 60
+        },
+        "4": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 2.028,
+          "evidence": "rot4_line_overflow_v40_04_k12_a4_q1.json",
+          "bad_line_count": 108
+        },
+        "5": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 19.403,
+          "evidence": "rot4_line_overflow_v40_04_k12_a5_q1.json",
+          "bad_line_count": 80
+        },
+        "6": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 78.109,
+          "evidence": "rot4_line_overflow_v40_04_k12_a6_q1.json",
+          "bad_line_count": 88
+        },
+        "7": {
+          "classification": "SURVIVES_Q1",
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 9.585,
+          "evidence": "rot4_line_overflow_v40_04_k12_a7_q1.json",
+          "bad_line_count": 68
+        },
+        "8": {
+          "classification": "UNRESOLVED",
+          "status": "FEASIBLE",
+          "objective": 2,
+          "best_bound": 0.0,
+          "wall_s": 600.13,
+          "evidence": "rot4_line_overflow_v40_04_k12_a8_q1.json",
+          "bad_line_count": 108
+        },
+        "9": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 506.132,
+          "evidence": "rot4_line_overflow_v40_04_k12_a9_q1.json",
+          "bad_line_count": null
+        },
+        "10": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 249.738,
+          "evidence": "rot4_line_overflow_v40_04_k12_a10_q1.json",
+          "bad_line_count": null
+        },
+        "11": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 218.371,
+          "evidence": "rot4_line_overflow_v40_04_k12_a11_q1.json",
+          "bad_line_count": null
+        }
+      }
+    }
+  ]
+}

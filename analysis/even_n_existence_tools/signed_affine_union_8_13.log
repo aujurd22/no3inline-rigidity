@@ -1,0 +1,106 @@
+{
+  "summary": true,
+  "m": 8,
+  "target_n": 16,
+  "source": "n8_rot4",
+  "tested": 64,
+  "status_counts": {
+    "INFEASIBLE": 64
+  },
+  "found": false,
+  "wall_seconds": 12.732522399979644
+}
+{"progress": true, "m": 9, "tested": 100, "status_counts": {"INFEASIBLE": 100}, "wall_seconds": 25.077114299987443}
+{"progress": true, "m": 9, "tested": 200, "status_counts": {"INFEASIBLE": 200}, "wall_seconds": 46.701174599991646}
+{"progress": true, "m": 9, "tested": 300, "status_counts": {"INFEASIBLE": 300}, "wall_seconds": 68.83894200000213}
+{"progress": true, "m": 9, "tested": 400, "status_counts": {"INFEASIBLE": 400}, "wall_seconds": 91.25295110000297}
+{"progress": true, "m": 9, "tested": 500, "status_counts": {"INFEASIBLE": 500}, "wall_seconds": 113.38312339998083}
+{"progress": true, "m": 9, "tested": 600, "status_counts": {"INFEASIBLE": 600}, "wall_seconds": 135.90906669996912}
+{
+  "summary": true,
+  "m": 9,
+  "target_n": 18,
+  "source": "n9_iden",
+  "tested": 648,
+  "status_counts": {
+    "INFEASIBLE": 648
+  },
+  "found": false,
+  "wall_seconds": 146.3654997999547
+}
+{"progress": true, "m": 10, "tested": 100, "status_counts": {"INFEASIBLE": 100}, "wall_seconds": 39.663054500008}
+{"progress": true, "m": 10, "tested": 200, "status_counts": {"INFEASIBLE": 200}, "wall_seconds": 67.6508478000178}
+{
+  "summary": true,
+  "m": 10,
+  "target_n": 20,
+  "source": "n10_rot4",
+  "tested": 200,
+  "status_counts": {
+    "INFEASIBLE": 200
+  },
+  "found": false,
+  "wall_seconds": 67.65524340001866
+}
+{"progress": true, "m": 11, "tested": 100, "status_counts": {"INFEASIBLE": 97, "UNKNOWN": 3}, "wall_seconds": 69.31111750000855}
+{"progress": true, "m": 11, "tested": 200, "status_counts": {"INFEASIBLE": 197, "UNKNOWN": 3}, "wall_seconds": 122.2442109999829}
+{"progress": true, "m": 11, "tested": 300, "status_counts": {"INFEASIBLE": 297, "UNKNOWN": 3}, "wall_seconds": 176.06049529998563}
+{"progress": true, "m": 11, "tested": 400, "status_counts": {"INFEASIBLE": 397, "UNKNOWN": 3}, "wall_seconds": 232.66181010002038}
+{"progress": true, "m": 11, "tested": 500, "status_counts": {"INFEASIBLE": 497, "UNKNOWN": 3}, "wall_seconds": 289.73234519996913}
+{"progress": true, "m": 11, "tested": 600, "status_counts": {"INFEASIBLE": 597, "UNKNOWN": 3}, "wall_seconds": 349.3883645000169}
+{"progress": true, "m": 11, "tested": 700, "status_counts": {"INFEASIBLE": 697, "UNKNOWN": 3}, "wall_seconds": 408.3922756999964}
+{"progress": true, "m": 11, "tested": 800, "status_counts": {"INFEASIBLE": 797, "UNKNOWN": 3}, "wall_seconds": 470.8919645000133}
+{"progress": true, "m": 11, "tested": 900, "status_counts": {"INFEASIBLE": 897, "UNKNOWN": 3}, "wall_seconds": 529.3474169999827}
+{
+  "summary": true,
+  "m": 11,
+  "target_n": 22,
+  "source": "n11_iden",
+  "tested": 968,
+  "status_counts": {
+    "INFEASIBLE": 965,
+    "UNKNOWN": 3
+  },
+  "found": false,
+  "wall_seconds": 568.048416399979
+}
+{"progress": true, "m": 12, "tested": 100, "status_counts": {"INFEASIBLE": 100}, "wall_seconds": 36.716944799991325}
+{"progress": true, "m": 12, "tested": 200, "status_counts": {"INFEASIBLE": 200}, "wall_seconds": 73.41370670002652}
+{
+  "summary": true,
+  "m": 12,
+  "target_n": 24,
+  "source": "n12_rot4",
+  "tested": 288,
+  "status_counts": {
+    "INFEASIBLE": 288
+  },
+  "found": false,
+  "wall_seconds": 108.22594850003952
+}
+{"progress": true, "m": 13, "tested": 100, "status_counts": {"INFEASIBLE": 98, "UNKNOWN": 2}, "wall_seconds": 102.22608720004791}
+{"progress": true, "m": 13, "tested": 200, "status_counts": {"INFEASIBLE": 192, "UNKNOWN": 8}, "wall_seconds": 214.2796816000482}
+{"progress": true, "m": 13, "tested": 300, "status_counts": {"INFEASIBLE": 291, "UNKNOWN": 9}, "wall_seconds": 312.1480936000007}
+{"progress": true, "m": 13, "tested": 400, "status_counts": {"INFEASIBLE": 390, "UNKNOWN": 10}, "wall_seconds": 410.31516170001123}
+{"progress": true, "m": 13, "tested": 500, "status_counts": {"INFEASIBLE": 489, "UNKNOWN": 11}, "wall_seconds": 512.8172007999965}
+{"progress": true, "m": 13, "tested": 600, "status_counts": {"INFEASIBLE": 584, "UNKNOWN": 16}, "wall_seconds": 622.4779750000453}
+{"progress": true, "m": 13, "tested": 700, "status_counts": {"INFEASIBLE": 681, "UNKNOWN": 19}, "wall_seconds": 716.6741516000475}
+{"progress": true, "m": 13, "tested": 800, "status_counts": {"INFEASIBLE": 779, "UNKNOWN": 21}, "wall_seconds": 818.4628312000423}
+{"progress": true, "m": 13, "tested": 900, "status_counts": {"INFEASIBLE": 877, "UNKNOWN": 23}, "wall_seconds": 923.3901416000444}
+{"progress": true, "m": 13, "tested": 1000, "status_counts": {"INFEASIBLE": 975, "UNKNOWN": 25}, "wall_seconds": 1026.3271859000088}
+{"progress": true, "m": 13, "tested": 1100, "status_counts": {"INFEASIBLE": 1073, "UNKNOWN": 27}, "wall_seconds": 1126.6277360999957}
+{"progress": true, "m": 13, "tested": 1200, "status_counts": {"INFEASIBLE": 1172, "UNKNOWN": 28}, "wall_seconds": 1227.0113645000383}
+{"progress": true, "m": 13, "tested": 1300, "status_counts": {"INFEASIBLE": 1270, "UNKNOWN": 30}, "wall_seconds": 1323.3509499000502}
+{
+  "summary": true,
+  "m": 13,
+  "target_n": 26,
+  "source": "n13_iden",
+  "tested": 1352,
+  "status_counts": {
+    "INFEASIBLE": 1320,
+    "UNKNOWN": 32
+  },
+  "found": false,
+  "wall_seconds": 1379.392969300039
+}

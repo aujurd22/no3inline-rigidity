@@ -1,0 +1,10 @@
+{
+  "M": 14,
+  "N": 28,
+  "found_sat_solution": false,
+  "step": null,
+  "edges": null,
+  "bits": null,
+  "final_energy": 16,
+  "elapsed_s": 325.0
+}

@@ -1,0 +1,187 @@
+{
+  "m": 14,
+  "n": 28,
+  "cells": [
+    [
+      5,
+      3
+    ],
+    [
+      3,
+      12
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      7,
+      10
+    ],
+    [
+      10,
+      6
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      13,
+      0
+    ],
+    [
+      11,
+      0
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      13,
+      12
+    ],
+    [
+      11,
+      1
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "initial_energy": 4,
+  "distinct_complete_reconnection_neighbours": 721,
+  "minimum_neighbour_energy": 8,
+  "strictly_reducing_neighbours": 0,
+  "neutral_neighbours": 0,
+  "delta_histogram": {
+    "4": 6,
+    "8": 14,
+    "12": 25,
+    "16": 53,
+    "20": 74,
+    "24": 115,
+    "28": 97,
+    "32": 92,
+    "36": 93,
+    "40": 67,
+    "44": 36,
+    "48": 14,
+    "52": 16,
+    "56": 9,
+    "60": 2,
+    "64": 3,
+    "68": 4,
+    "76": 1
+  },
+  "first_minimizers": [
+    {
+      "indices": [
+        0,
+        7
+      ],
+      "replacement": [
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          9
+        ]
+      ]
+    },
+    {
+      "indices": [
+        0,
+        13
+      ],
+      "replacement": [
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ]
+      ]
+    },
+    {
+      "indices": [
+        5,
+        8
+      ],
+      "replacement": [
+        [
+          7,
+          13
+        ],
+        [
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "indices": [
+        8,
+        10
+      ],
+      "replacement": [
+        [
+          0,
+          4
+        ],
+        [
+          13,
+          8
+        ]
+      ]
+    },
+    {
+      "indices": [
+        10,
+        13
+      ],
+      "replacement": [
+        [
+          4,
+          4
+        ],
+        [
+          8,
+          5
+        ]
+      ]
+    },
+    {
+      "indices": [
+        12,
+        13
+      ],
+      "replacement": [
+        [
+          1,
+          11
+        ],
+        [
+          5,
+          4
+        ]
+      ]
+    }
+  ],
+  "is_strict_local_minimum": true,
+  "is_weak_local_minimum": true
+}

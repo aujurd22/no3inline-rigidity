@@ -1,0 +1,82 @@
+{
+  "method": "corrected direct fixed-(k,A) multigraph q=0 enumeration",
+  "k": 11,
+  "A_values": [
+    10
+  ],
+  "bases": [
+    "v40_01",
+    "v40_02",
+    "v40_03",
+    "v40_04"
+  ],
+  "workers": 4,
+  "records": [
+    {
+      "base": "v40_01",
+      "A": 10,
+      "distinct_shape_masks": 37,
+      "defect_hitting_masks": 1,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.633,
+      "certificate": "rot4_multigraph_factor_direct_v40_01_k11_a10_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_01_k11_a10_q0.json"
+      ]
+    },
+    {
+      "base": "v40_02",
+      "A": 10,
+      "distinct_shape_masks": 37,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 0.634,
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k11_a10_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_02_k11_a10_q0.json"
+      ]
+    },
+    {
+      "base": "v40_03",
+      "A": 10,
+      "distinct_shape_masks": 66,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 0,
+      "elapsed_s": 153.808,
+      "certificate": "rot4_multigraph_factor_direct_v40_03_k11_a10_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_03_k11_a10_q0.json"
+      ]
+    },
+    {
+      "base": "v40_04",
+      "A": 10,
+      "distinct_shape_masks": 66,
+      "defect_hitting_masks": 2,
+      "q0_factor_feasible_masks": 0,
+      "feasible_masks": [],
+      "maximum_factor_search_nodes": 1,
+      "elapsed_s": 0.675,
+      "certificate": "rot4_multigraph_factor_direct_v40_04_k11_a10_q0.json",
+      "stdout_tail": [
+        "}",
+        "C:\\Users\\djr82\\Documents\\Codex\\2026-07-13\\d-djr82-documents-workbuddy-2026-07-2\\work\\even_n_existence\\rot4_multigraph_factor_direct_v40_04_k11_a10_q0.json"
+      ]
+    }
+  ],
+  "totals": {
+    "distinct_shape_masks": 206,
+    "defect_hitting_masks": 3,
+    "q0_factor_feasible_masks": 0
+  },
+  "elapsed_s": 153.907
+}

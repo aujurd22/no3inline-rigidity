@@ -1,0 +1,50 @@
+{
+  "tag": "PRIOR",
+  "m": 37,
+  "best": null,
+  "found": false,
+  "workers": [
+    {
+      "seed": 1,
+      "init": "results/ai_prior\\seed00.txt",
+      "found": false,
+      "best": null,
+      "cells": null
+    },
+    {
+      "seed": 2,
+      "init": "results/ai_prior\\seed01.txt",
+      "found": false,
+      "best": null,
+      "cells": null
+    },
+    {
+      "seed": 3,
+      "init": "results/ai_prior\\seed02.txt",
+      "found": false,
+      "best": null,
+      "cells": null
+    },
+    {
+      "seed": 4,
+      "init": "results/ai_prior\\seed03.txt",
+      "found": false,
+      "best": null,
+      "cells": null
+    },
+    {
+      "seed": 5,
+      "init": "results/ai_prior\\seed04.txt",
+      "found": false,
+      "best": null,
+      "cells": null
+    },
+    {
+      "seed": 6,
+      "init": "results/ai_prior\\seed05.txt",
+      "found": false,
+      "best": null,
+      "cells": null
+    }
+  ]
+}

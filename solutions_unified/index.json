@@ -1,0 +1,1375 @@
+{
+  "description": "NTIL 解统一缓存（由 consolidate_solutions.py 生成）",
+  "format": "每解一个块：# 头注释 + 每行 'x y' 一个点",
+  "out_dir": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\solutions_unified",
+  "flammenkamp_total_lines": 349833,
+  "total_solutions_written": 349840,
+  "cross_source_duplicates": 423,
+  "files": [
+    {
+      "source": "mvr_cache/*.out",
+      "note": "RLE位图(图示)解码",
+      "files": 26,
+      "new_added": 1,
+      "verdict": "与flammenkamp已收录解等价，仅补入缺失对称类/朝向"
+    },
+    {
+      "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\results\\solution_m14_sat.json",
+      "note": "cells_expanded",
+      "m_claimed": 14,
+      "n_actual": 28,
+      "verify": true,
+      "status": "verified"
+    },
+    {
+      "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\results\\solution_m37_sat.json",
+      "note": "cells_expanded",
+      "m_claimed": 14,
+      "n_actual": 28,
+      "verify": true,
+      "status": "verified"
+    },
+    {
+      "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\results\\solution_m37_biased.json",
+      "note": "full_points",
+      "n_actual": 74,
+      "valid_flag": false,
+      "RETRACTED": true,
+      "status": "false-positive"
+    },
+    {
+      "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\results\\solution_m37_unbiased.json",
+      "note": "full_points",
+      "n_actual": 74,
+      "valid_flag": false,
+      "RETRACTED": true,
+      "status": "false-positive"
+    },
+    {
+      "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\results\\m37_surgery_result_FALSEPOSITIVE.json",
+      "note": "FALSEPOSITIVE_included",
+      "n_actual": 74,
+      "status": "false-positive"
+    },
+    {
+      "file": "n2_full.txt",
+      "n": 2,
+      "sym": "full",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n3_dia2.txt",
+      "n": 3,
+      "sym": "dia2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n4_dia2.txt",
+      "n": 4,
+      "sym": "dia2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n4_full.txt",
+      "n": 4,
+      "sym": "full",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n4_ort1.txt",
+      "n": 4,
+      "sym": "ort1",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n4_rot2.txt",
+      "n": 4,
+      "sym": "rot2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n5_dia1.txt",
+      "n": 5,
+      "sym": "dia1",
+      "count": 2,
+      "verified": 2,
+      "status": "verified"
+    },
+    {
+      "file": "n5_iden.txt",
+      "n": 5,
+      "sym": "iden",
+      "count": 3,
+      "verified": 3,
+      "status": "verified"
+    },
+    {
+      "file": "n6_dia2.txt",
+      "n": 6,
+      "sym": "dia2",
+      "count": 2,
+      "verified": 2,
+      "status": "verified"
+    },
+    {
+      "file": "n6_iden.txt",
+      "n": 6,
+      "sym": "iden",
+      "count": 4,
+      "verified": 4,
+      "status": "verified"
+    },
+    {
+      "file": "n6_rot2.txt",
+      "n": 6,
+      "sym": "rot2",
+      "count": 2,
+      "verified": 2,
+      "status": "verified"
+    },
+    {
+      "file": "n6_rot4.txt",
+      "n": 6,
+      "sym": "rot4",
+      "count": 3,
+      "verified": 3,
+      "status": "verified"
+    },
+    {
+      "file": "n7_dia1.txt",
+      "n": 7,
+      "sym": "dia1",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n7_iden.txt",
+      "n": 7,
+      "sym": "iden",
+      "count": 11,
+      "verified": 11,
+      "status": "verified"
+    },
+    {
+      "file": "n7_rot2.txt",
+      "n": 7,
+      "sym": "rot2",
+      "count": 10,
+      "verified": 10,
+      "status": "verified"
+    },
+    {
+      "file": "n8_dia1.txt",
+      "n": 8,
+      "sym": "dia1",
+      "count": 5,
+      "verified": 5,
+      "status": "verified"
+    },
+    {
+      "file": "n8_iden.txt",
+      "n": 8,
+      "sym": "iden",
+      "count": 40,
+      "verified": 40,
+      "status": "verified"
+    },
+    {
+      "file": "n8_ort1.txt",
+      "n": 8,
+      "sym": "ort1",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n8_rot2.txt",
+      "n": 8,
+      "sym": "rot2",
+      "count": 7,
+      "verified": 7,
+      "status": "verified"
+    },
+    {
+      "file": "n8_rot4.txt",
+      "n": 8,
+      "sym": "rot4",
+      "count": 4,
+      "verified": 4,
+      "status": "verified"
+    },
+    {
+      "file": "n9_dia1.txt",
+      "n": 9,
+      "sym": "dia1",
+      "count": 3,
+      "verified": 3,
+      "status": "verified"
+    },
+    {
+      "file": "n9_iden.txt",
+      "n": 9,
+      "sym": "iden",
+      "count": 41,
+      "verified": 41,
+      "status": "verified"
+    },
+    {
+      "file": "n9_rct4.txt",
+      "n": 9,
+      "sym": "rct4",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n9_rot2.txt",
+      "n": 9,
+      "sym": "rot2",
+      "count": 6,
+      "verified": 6,
+      "status": "verified"
+    },
+    {
+      "file": "n10_dia1.txt",
+      "n": 10,
+      "sym": "dia1",
+      "count": 3,
+      "verified": 3,
+      "status": "verified"
+    },
+    {
+      "file": "n10_dia2.txt",
+      "n": 10,
+      "sym": "dia2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n10_full.txt",
+      "n": 10,
+      "sym": "full",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n10_iden.txt",
+      "n": 10,
+      "sym": "iden",
+      "count": 132,
+      "verified": 132,
+      "status": "verified"
+    },
+    {
+      "file": "n10_rot2.txt",
+      "n": 10,
+      "sym": "rot2",
+      "count": 13,
+      "verified": 13,
+      "status": "verified"
+    },
+    {
+      "file": "n10_rot4.txt",
+      "n": 10,
+      "sym": "rot4",
+      "count": 6,
+      "verified": 6,
+      "status": "verified"
+    },
+    {
+      "file": "n11_dia1.txt",
+      "n": 11,
+      "sym": "dia1",
+      "count": 6,
+      "verified": 6,
+      "status": "verified"
+    },
+    {
+      "file": "n11_iden.txt",
+      "n": 11,
+      "sym": "iden",
+      "count": 122,
+      "verified": 122,
+      "status": "verified"
+    },
+    {
+      "file": "n11_rot2.txt",
+      "n": 11,
+      "sym": "rot2",
+      "count": 30,
+      "verified": 30,
+      "status": "verified"
+    },
+    {
+      "file": "n12_dia1.txt",
+      "n": 12,
+      "sym": "dia1",
+      "count": 3,
+      "verified": 3,
+      "status": "verified"
+    },
+    {
+      "file": "n12_dia2.txt",
+      "n": 12,
+      "sym": "dia2",
+      "count": 2,
+      "verified": 2,
+      "status": "verified"
+    },
+    {
+      "file": "n12_iden.txt",
+      "n": 12,
+      "sym": "iden",
+      "count": 524,
+      "verified": 524,
+      "status": "verified"
+    },
+    {
+      "file": "n12_rot2.txt",
+      "n": 12,
+      "sym": "rot2",
+      "count": 33,
+      "verified": 33,
+      "status": "verified"
+    },
+    {
+      "file": "n12_rot4.txt",
+      "n": 12,
+      "sym": "rot4",
+      "count": 4,
+      "verified": 4,
+      "status": "verified"
+    },
+    {
+      "file": "n13_dia1.txt",
+      "n": 13,
+      "sym": "dia1",
+      "count": 9,
+      "verified": 9,
+      "status": "verified"
+    },
+    {
+      "file": "n13_dia2.txt",
+      "n": 13,
+      "sym": "dia2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n13_iden.txt",
+      "n": 13,
+      "sym": "iden",
+      "count": 407,
+      "verified": 407,
+      "status": "verified"
+    },
+    {
+      "file": "n13_rot2.txt",
+      "n": 13,
+      "sym": "rot2",
+      "count": 82,
+      "verified": 82,
+      "status": "verified"
+    },
+    {
+      "file": "n14_dia1.txt",
+      "n": 14,
+      "sym": "dia1",
+      "count": 5,
+      "verified": 5,
+      "status": "verified"
+    },
+    {
+      "file": "n14_dia2.txt",
+      "n": 14,
+      "sym": "dia2",
+      "count": 3,
+      "verified": 3,
+      "status": "verified"
+    },
+    {
+      "file": "n14_iden.txt",
+      "n": 14,
+      "sym": "iden",
+      "count": 1284,
+      "verified": 1284,
+      "status": "verified"
+    },
+    {
+      "file": "n14_rot2.txt",
+      "n": 14,
+      "sym": "rot2",
+      "count": 61,
+      "verified": 61,
+      "status": "verified"
+    },
+    {
+      "file": "n14_rot4.txt",
+      "n": 14,
+      "sym": "rot4",
+      "count": 13,
+      "verified": 13,
+      "status": "verified"
+    },
+    {
+      "file": "n15_dia1.txt",
+      "n": 15,
+      "sym": "dia1",
+      "count": 13,
+      "verified": 13,
+      "status": "verified"
+    },
+    {
+      "file": "n15_dia2.txt",
+      "n": 15,
+      "sym": "dia2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n15_iden.txt",
+      "n": 15,
+      "sym": "iden",
+      "count": 3681,
+      "verified": 3681,
+      "status": "verified"
+    },
+    {
+      "file": "n15_rot2.txt",
+      "n": 15,
+      "sym": "rot2",
+      "count": 283,
+      "verified": 283,
+      "status": "verified"
+    },
+    {
+      "file": "n16_dia1.txt",
+      "n": 16,
+      "sym": "dia1",
+      "count": 14,
+      "verified": 14,
+      "status": "verified"
+    },
+    {
+      "file": "n16_dia2.txt",
+      "n": 16,
+      "sym": "dia2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n16_iden.txt",
+      "n": 16,
+      "sym": "iden",
+      "count": 5683,
+      "verified": 5683,
+      "status": "verified"
+    },
+    {
+      "file": "n16_rot2.txt",
+      "n": 16,
+      "sym": "rot2",
+      "count": 189,
+      "verified": 189,
+      "status": "verified"
+    },
+    {
+      "file": "n16_rot4.txt",
+      "n": 16,
+      "sym": "rot4",
+      "count": 13,
+      "verified": 13,
+      "status": "verified"
+    },
+    {
+      "file": "n17_dia1.txt",
+      "n": 17,
+      "sym": "dia1",
+      "count": 12,
+      "verified": 12,
+      "status": "verified"
+    },
+    {
+      "file": "n17_iden.txt",
+      "n": 17,
+      "sym": "iden",
+      "count": 6800,
+      "verified": 6800,
+      "status": "verified"
+    },
+    {
+      "file": "n17_rct4.txt",
+      "n": 17,
+      "sym": "rct4",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n17_rot2.txt",
+      "n": 17,
+      "sym": "rot2",
+      "count": 281,
+      "verified": 281,
+      "status": "verified"
+    },
+    {
+      "file": "n18_dia1.txt",
+      "n": 18,
+      "sym": "dia1",
+      "count": 14,
+      "verified": 14,
+      "status": "verified"
+    },
+    {
+      "file": "n18_dia2.txt",
+      "n": 18,
+      "sym": "dia2",
+      "count": 2,
+      "verified": 2,
+      "status": "verified"
+    },
+    {
+      "file": "n18_iden.txt",
+      "n": 18,
+      "sym": "iden",
+      "count": 18853,
+      "verified": 18853,
+      "status": "verified"
+    },
+    {
+      "file": "n18_rot2.txt",
+      "n": 18,
+      "sym": "rot2",
+      "count": 328,
+      "verified": 328,
+      "status": "verified"
+    },
+    {
+      "file": "n18_rot4.txt",
+      "n": 18,
+      "sym": "rot4",
+      "count": 7,
+      "verified": 7,
+      "status": "verified"
+    },
+    {
+      "file": "n19_dia1.txt",
+      "n": 19,
+      "sym": "dia1",
+      "count": 16,
+      "verified": 16,
+      "status": "verified"
+    },
+    {
+      "file": "n19_iden.txt",
+      "n": 19,
+      "sym": "iden",
+      "count": 31967,
+      "verified": 31967,
+      "status": "verified"
+    },
+    {
+      "file": "n19_rct4.txt",
+      "n": 19,
+      "sym": "rct4",
+      "count": 2,
+      "verified": 2,
+      "status": "verified"
+    },
+    {
+      "file": "n19_rot2.txt",
+      "n": 19,
+      "sym": "rot2",
+      "count": 592,
+      "verified": 592,
+      "status": "verified"
+    },
+    {
+      "file": "n20_dia1.txt",
+      "n": 20,
+      "sym": "dia1",
+      "count": 17,
+      "verified": 17,
+      "status": "verified"
+    },
+    {
+      "file": "n20_dia2.txt",
+      "n": 20,
+      "sym": "dia2",
+      "count": 2,
+      "verified": 2,
+      "status": "verified"
+    },
+    {
+      "file": "n20_iden.txt",
+      "n": 20,
+      "sym": "iden",
+      "count": 117347,
+      "verified": 117347,
+      "status": "verified"
+    },
+    {
+      "file": "n20_rot2.txt",
+      "n": 20,
+      "sym": "rot2",
+      "count": 675,
+      "verified": 675,
+      "status": "verified"
+    },
+    {
+      "file": "n20_rot4.txt",
+      "n": 20,
+      "sym": "rot4",
+      "count": 16,
+      "verified": 16,
+      "status": "verified"
+    },
+    {
+      "file": "n21_dia1.txt",
+      "n": 21,
+      "sym": "dia1",
+      "count": 13,
+      "verified": 13,
+      "status": "verified"
+    },
+    {
+      "file": "n21_iden.txt",
+      "n": 21,
+      "sym": "iden",
+      "count": 142,
+      "verified": 142,
+      "status": "verified"
+    },
+    {
+      "file": "n21_rct4.txt",
+      "n": 21,
+      "sym": "rct4",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n21_rot2.txt",
+      "n": 21,
+      "sym": "rot2",
+      "count": 2412,
+      "verified": 2412,
+      "status": "verified"
+    },
+    {
+      "file": "n22_dia1.txt",
+      "n": 22,
+      "sym": "dia1",
+      "count": 18,
+      "verified": 18,
+      "status": "verified"
+    },
+    {
+      "file": "n22_dia2.txt",
+      "n": 22,
+      "sym": "dia2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n22_iden.txt",
+      "n": 22,
+      "sym": "iden",
+      "count": 2,
+      "verified": 2,
+      "status": "verified"
+    },
+    {
+      "file": "n22_rot2.txt",
+      "n": 22,
+      "sym": "rot2",
+      "count": 1248,
+      "verified": 1248,
+      "status": "verified"
+    },
+    {
+      "file": "n22_rot4.txt",
+      "n": 22,
+      "sym": "rot4",
+      "count": 8,
+      "verified": 8,
+      "status": "verified"
+    },
+    {
+      "file": "n23_dia1.txt",
+      "n": 23,
+      "sym": "dia1",
+      "count": 34,
+      "verified": 34,
+      "status": "verified"
+    },
+    {
+      "file": "n23_dia2.txt",
+      "n": 23,
+      "sym": "dia2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n23_rct4.txt",
+      "n": 23,
+      "sym": "rct4",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n23_rot2.txt",
+      "n": 23,
+      "sym": "rot2",
+      "count": 3967,
+      "verified": 3967,
+      "status": "verified"
+    },
+    {
+      "file": "n24_dia1.txt",
+      "n": 24,
+      "sym": "dia1",
+      "count": 43,
+      "verified": 43,
+      "status": "verified"
+    },
+    {
+      "file": "n24_dia2.txt",
+      "n": 24,
+      "sym": "dia2",
+      "count": 2,
+      "verified": 2,
+      "status": "verified"
+    },
+    {
+      "file": "n24_rot2.txt",
+      "n": 24,
+      "sym": "rot2",
+      "count": 2852,
+      "verified": 2852,
+      "status": "verified"
+    },
+    {
+      "file": "n24_rot4.txt",
+      "n": 24,
+      "sym": "rot4",
+      "count": 23,
+      "verified": 23,
+      "status": "verified"
+    },
+    {
+      "file": "n25_dia1.txt",
+      "n": 25,
+      "sym": "dia1",
+      "count": 55,
+      "verified": 55,
+      "status": "verified"
+    },
+    {
+      "file": "n25_dia2.txt",
+      "n": 25,
+      "sym": "dia2",
+      "count": 2,
+      "verified": 2,
+      "status": "verified"
+    },
+    {
+      "file": "n25_rct4.txt",
+      "n": 25,
+      "sym": "rct4",
+      "count": 3,
+      "verified": 3,
+      "status": "verified"
+    },
+    {
+      "file": "n25_rot2.txt",
+      "n": 25,
+      "sym": "rot2",
+      "count": 8980,
+      "verified": 8980,
+      "status": "verified"
+    },
+    {
+      "file": "n26_dia1.txt",
+      "n": 26,
+      "sym": "dia1",
+      "count": 42,
+      "verified": 42,
+      "status": "verified"
+    },
+    {
+      "file": "n26_ort1.txt",
+      "n": 26,
+      "sym": "ort1",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n26_rot2.txt",
+      "n": 26,
+      "sym": "rot2",
+      "count": 4870,
+      "verified": 4870,
+      "status": "verified"
+    },
+    {
+      "file": "n26_rot4.txt",
+      "n": 26,
+      "sym": "rot4",
+      "count": 36,
+      "verified": 36,
+      "status": "verified"
+    },
+    {
+      "file": "n27_dia1.txt",
+      "n": 27,
+      "sym": "dia1",
+      "count": 44,
+      "verified": 44,
+      "status": "verified"
+    },
+    {
+      "file": "n27_iden.txt",
+      "n": 27,
+      "sym": "iden",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n27_rct4.txt",
+      "n": 27,
+      "sym": "rct4",
+      "count": 9,
+      "verified": 9,
+      "status": "verified"
+    },
+    {
+      "file": "n27_rot2.txt",
+      "n": 27,
+      "sym": "rot2",
+      "count": 17332,
+      "verified": 17332,
+      "status": "verified"
+    },
+    {
+      "file": "n28_dia1.txt",
+      "n": 28,
+      "sym": "dia1",
+      "count": 59,
+      "verified": 59,
+      "status": "verified"
+    },
+    {
+      "file": "n28_ort1.txt",
+      "n": 28,
+      "sym": "ort1",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n28_rot2.txt",
+      "n": 28,
+      "sym": "rot2",
+      "count": 12085,
+      "verified": 12085,
+      "status": "verified"
+    },
+    {
+      "file": "n28_rot4.txt",
+      "n": 28,
+      "sym": "rot4",
+      "count": 60,
+      "verified": 60,
+      "status": "verified"
+    },
+    {
+      "file": "n29_dia1.txt",
+      "n": 29,
+      "sym": "dia1",
+      "count": 53,
+      "verified": 53,
+      "status": "verified"
+    },
+    {
+      "file": "n29_dia2.txt",
+      "n": 29,
+      "sym": "dia2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n29_rct4.txt",
+      "n": 29,
+      "sym": "rct4",
+      "count": 8,
+      "verified": 8,
+      "status": "verified"
+    },
+    {
+      "file": "n29_rot2.txt",
+      "n": 29,
+      "sym": "rot2",
+      "count": 44828,
+      "verified": 44828,
+      "status": "verified"
+    },
+    {
+      "file": "n30_dia1.txt",
+      "n": 30,
+      "sym": "dia1",
+      "count": 88,
+      "verified": 88,
+      "status": "verified"
+    },
+    {
+      "file": "n30_dia2.txt",
+      "n": 30,
+      "sym": "dia2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n30_rot2.txt",
+      "n": 30,
+      "sym": "rot2",
+      "count": 24744,
+      "verified": 24744,
+      "status": "verified"
+    },
+    {
+      "file": "n30_rot4.txt",
+      "n": 30,
+      "sym": "rot4",
+      "count": 92,
+      "verified": 92,
+      "status": "verified"
+    },
+    {
+      "file": "n31_dia1.txt",
+      "n": 31,
+      "sym": "dia1",
+      "count": 65,
+      "verified": 65,
+      "status": "verified"
+    },
+    {
+      "file": "n31_dia2.txt",
+      "n": 31,
+      "sym": "dia2",
+      "count": 2,
+      "verified": 2,
+      "status": "verified"
+    },
+    {
+      "file": "n31_rct4.txt",
+      "n": 31,
+      "sym": "rct4",
+      "count": 5,
+      "verified": 5,
+      "status": "verified"
+    },
+    {
+      "file": "n32_dia1.txt",
+      "n": 32,
+      "sym": "dia1",
+      "count": 73,
+      "verified": 73,
+      "status": "verified"
+    },
+    {
+      "file": "n32_dia2.txt",
+      "n": 32,
+      "sym": "dia2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n32_rot4.txt",
+      "n": 32,
+      "sym": "rot4",
+      "count": 101,
+      "verified": 101,
+      "status": "verified"
+    },
+    {
+      "file": "n33_rct4.txt",
+      "n": 33,
+      "sym": "rct4",
+      "count": 14,
+      "verified": 14,
+      "status": "verified"
+    },
+    {
+      "file": "n33_rot2.txt",
+      "n": 33,
+      "sym": "rot2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n34_rot4.txt",
+      "n": 34,
+      "sym": "rot4",
+      "count": 172,
+      "verified": 172,
+      "status": "verified"
+    },
+    {
+      "file": "n35_dia2.txt",
+      "n": 35,
+      "sym": "dia2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n35_rct4.txt",
+      "n": 35,
+      "sym": "rct4",
+      "count": 23,
+      "verified": 23,
+      "status": "verified"
+    },
+    {
+      "file": "n36_dia2.txt",
+      "n": 36,
+      "sym": "dia2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n36_rot4.txt",
+      "n": 36,
+      "sym": "rot4",
+      "count": 281,
+      "verified": 281,
+      "status": "verified"
+    },
+    {
+      "file": "n37_rct4.txt",
+      "n": 37,
+      "sym": "rct4",
+      "count": 21,
+      "verified": 21,
+      "status": "verified"
+    },
+    {
+      "file": "n38_dia2.txt",
+      "n": 38,
+      "sym": "dia2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n38_rot4.txt",
+      "n": 38,
+      "sym": "rot4",
+      "count": 337,
+      "verified": 337,
+      "status": "verified"
+    },
+    {
+      "file": "n39_rct4.txt",
+      "n": 39,
+      "sym": "rct4",
+      "count": 33,
+      "verified": 33,
+      "status": "verified"
+    },
+    {
+      "file": "n40_rot4.txt",
+      "n": 40,
+      "sym": "rot4",
+      "count": 541,
+      "verified": 541,
+      "status": "verified"
+    },
+    {
+      "file": "n41_rct4.txt",
+      "n": 41,
+      "sym": "rct4",
+      "count": 70,
+      "verified": 70,
+      "status": "verified"
+    },
+    {
+      "file": "n42_dia2.txt",
+      "n": 42,
+      "sym": "dia2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n42_rot4.txt",
+      "n": 42,
+      "sym": "rot4",
+      "count": 746,
+      "verified": 746,
+      "status": "verified"
+    },
+    {
+      "file": "n43_rct4.txt",
+      "n": 43,
+      "sym": "rct4",
+      "count": 126,
+      "verified": 126,
+      "status": "verified"
+    },
+    {
+      "file": "n44_dia2.txt",
+      "n": 44,
+      "sym": "dia2",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n44_rot4.txt",
+      "n": 44,
+      "sym": "rot4",
+      "count": 2032,
+      "verified": 2032,
+      "status": "verified"
+    },
+    {
+      "file": "n45_rct4.txt",
+      "n": 45,
+      "sym": "rct4",
+      "count": 212,
+      "verified": 212,
+      "status": "verified"
+    },
+    {
+      "file": "n46_rot4.txt",
+      "n": 46,
+      "sym": "rot4",
+      "count": 1366,
+      "verified": 1366,
+      "status": "verified"
+    },
+    {
+      "file": "n47_dia4_odd.txt",
+      "n": 47,
+      "sym": "dia4_odd",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n47_rct4.txt",
+      "n": 47,
+      "sym": "rct4",
+      "count": 105,
+      "verified": 105,
+      "status": "verified"
+    },
+    {
+      "file": "n48_rot4.txt",
+      "n": 48,
+      "sym": "rot4",
+      "count": 2124,
+      "verified": 2124,
+      "status": "verified"
+    },
+    {
+      "file": "n49_rct4.txt",
+      "n": 49,
+      "sym": "rct4",
+      "count": 196,
+      "verified": 196,
+      "status": "verified"
+    },
+    {
+      "file": "n50_rot4.txt",
+      "n": 50,
+      "sym": "rot4",
+      "count": 3381,
+      "verified": 3381,
+      "status": "verified"
+    },
+    {
+      "file": "n51_rct4.txt",
+      "n": 51,
+      "sym": "rct4",
+      "count": 264,
+      "verified": 264,
+      "status": "verified"
+    },
+    {
+      "file": "n52_rot4.txt",
+      "n": 52,
+      "sym": "rot4",
+      "count": 5062,
+      "verified": 5062,
+      "status": "verified"
+    },
+    {
+      "file": "n53_rct4.txt",
+      "n": 53,
+      "sym": "rct4",
+      "count": 377,
+      "verified": 377,
+      "status": "verified"
+    },
+    {
+      "file": "n54_rot4.txt",
+      "n": 54,
+      "sym": "rot4",
+      "count": 7696,
+      "verified": 7696,
+      "status": "verified"
+    },
+    {
+      "file": "n56_rot4.txt",
+      "n": 56,
+      "sym": "rot4",
+      "count": 10441,
+      "verified": 10441,
+      "status": "verified"
+    },
+    {
+      "file": "n58_rot4.txt",
+      "n": 58,
+      "sym": "rot4",
+      "count": 19,
+      "verified": 19,
+      "status": "verified"
+    },
+    {
+      "file": "n60_rot4.txt",
+      "n": 60,
+      "sym": "rot4",
+      "count": 32,
+      "verified": 32,
+      "status": "verified"
+    },
+    {
+      "file": "n61_sporadic.txt",
+      "n": 61,
+      "sym": "sporadic",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n62_rot4.txt",
+      "n": 62,
+      "sym": "rot4",
+      "count": 5,
+      "verified": 5,
+      "status": "verified"
+    },
+    {
+      "file": "n63_sporadic.txt",
+      "n": 63,
+      "sym": "sporadic",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n64_rot4.txt",
+      "n": 64,
+      "sym": "rot4",
+      "count": 25,
+      "verified": 25,
+      "status": "verified"
+    },
+    {
+      "file": "n64_sporadic.txt",
+      "n": 64,
+      "sym": "sporadic",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n66_rot4.txt",
+      "n": 66,
+      "sym": "rot4",
+      "count": 2,
+      "verified": 2,
+      "status": "verified"
+    },
+    {
+      "file": "n66_sporadic.txt",
+      "n": 66,
+      "sym": "sporadic",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n68_rot4.txt",
+      "n": 68,
+      "sym": "rot4",
+      "count": 2,
+      "verified": 2,
+      "status": "verified"
+    },
+    {
+      "file": "n68_sporadic.txt",
+      "n": 68,
+      "sym": "sporadic",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n70_rot4.txt",
+      "n": 70,
+      "sym": "rot4",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n72_rot4.txt",
+      "n": 72,
+      "sym": "rot4",
+      "count": 1,
+      "verified": 1,
+      "status": "verified"
+    },
+    {
+      "file": "n74_rot4.txt",
+      "n": 74,
+      "sym": "rot4",
+      "count": 4,
+      "verified": 1,
+      "status": "mixed"
+    }
+  ]
+}

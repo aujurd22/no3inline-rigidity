@@ -1,0 +1,123 @@
+{
+  "k": 12,
+  "A": 3,
+  "run_count": 9,
+  "profile_count_per_base": 3,
+  "bases": [
+    "v40_03"
+  ],
+  "records": [
+    {
+      "base": "v40_03",
+      "profile": [
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "B": 2,
+      "C": 1,
+      "distinct_shape_masks": 24430428,
+      "defect_hitting_masks": 502152,
+      "q0_factor_feasible_masks": 3,
+      "first_feasible_removed_indices": [
+        4,
+        9,
+        10,
+        11,
+        12,
+        14,
+        17,
+        23,
+        27,
+        33,
+        34,
+        36
+      ],
+      "maximum_factor_search_nodes": 13,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a3_b2_c1_r4-1-1-1-1-1-1-1-1_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "B": 1,
+      "C": 0,
+      "distinct_shape_masks": 225118080,
+      "defect_hitting_masks": 6204381,
+      "q0_factor_feasible_masks": 16,
+      "first_feasible_removed_indices": [
+        2,
+        4,
+        10,
+        12,
+        14,
+        16,
+        18,
+        19,
+        21,
+        27,
+        33,
+        34
+      ],
+      "maximum_factor_search_nodes": 13,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a3_b1_c0_r3-2-1-1-1-1-1-1-1_q0.json"
+    },
+    {
+      "base": "v40_03",
+      "profile": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "B": 0,
+      "C": 0,
+      "distinct_shape_masks": 249655098,
+      "defect_hitting_masks": 7012683,
+      "q0_factor_feasible_masks": 13,
+      "first_feasible_removed_indices": [
+        1,
+        4,
+        7,
+        11,
+        13,
+        14,
+        19,
+        23,
+        27,
+        30,
+        33,
+        36
+      ],
+      "maximum_factor_search_nodes": 13,
+      "certificate": "rot4_multigraph_factor_exhaustive_v40_03_k12_a3_b0_c0_r2-2-2-1-1-1-1-1-1_q0.json"
+    }
+  ],
+  "totals": {
+    "base_profile_cases": 3,
+    "distinct_shape_masks": 499203606,
+    "defect_hitting_masks": 13719216,
+    "q0_factor_feasible_masks": 32
+  },
+  "elapsed_s": 210.861
+}

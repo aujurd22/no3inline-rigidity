@@ -1,0 +1,116 @@
+{
+  "m": 16,
+  "n_points": 64,
+  "n_layers": 15,
+  "layer_radii": [
+    3.536,
+    5.523,
+    7.106,
+    8.515,
+    11.597,
+    12.104,
+    12.903,
+    12.981,
+    14.916,
+    14.983,
+    15.116,
+    15.572,
+    15.89,
+    16.14,
+    16.508
+  ],
+  "layer_info": {
+    "0": {
+      "count": 4,
+      "mean_radius": 3.5355339059327378,
+      "radius_spread": 0.0
+    },
+    "1": {
+      "count": 4,
+      "mean_radius": 5.522680508593631,
+      "radius_spread": 0.0
+    },
+    "2": {
+      "count": 4,
+      "mean_radius": 7.106335201775948,
+      "radius_spread": 0.0
+    },
+    "3": {
+      "count": 4,
+      "mean_radius": 8.514693182963201,
+      "radius_spread": 0.0
+    },
+    "4": {
+      "count": 4,
+      "mean_radius": 11.597413504743201,
+      "radius_spread": 0.0
+    },
+    "5": {
+      "count": 4,
+      "mean_radius": 12.103718436910205,
+      "radius_spread": 0.0
+    },
+    "6": {
+      "count": 4,
+      "mean_radius": 12.90348790056394,
+      "radius_spread": 0.0
+    },
+    "7": {
+      "count": 4,
+      "mean_radius": 12.98075498574717,
+      "radius_spread": 0.0
+    },
+    "8": {
+      "count": 4,
+      "mean_radius": 14.916433890176299,
+      "radius_spread": 0.0
+    },
+    "9": {
+      "count": 4,
+      "mean_radius": 14.983324063771697,
+      "radius_spread": 0.0
+    },
+    "10": {
+      "count": 4,
+      "mean_radius": 15.116216457830975,
+      "radius_spread": 0.0
+    },
+    "11": {
+      "count": 8,
+      "mean_radius": 15.572411502397436,
+      "radius_spread": 0.0
+    },
+    "12": {
+      "count": 4,
+      "mean_radius": 15.890248582070704,
+      "radius_spread": 0.0
+    },
+    "13": {
+      "count": 4,
+      "mean_radius": 16.140012391568973,
+      "radius_spread": 0.0
+    },
+    "14": {
+      "count": 4,
+      "mean_radius": 16.507574019219177,
+      "radius_spread": 0.0
+    }
+  },
+  "base_3d_collinear": 0,
+  "mod_min": 3.5355339059327378,
+  "mod_max": 21.644860821913362,
+  "scramble_3d": {
+    "2": {
+      "base_3d_collinear": 0,
+      "mean_delta_after_scramble": 0.0
+    },
+    "4": {
+      "base_3d_collinear": 0,
+      "mean_delta_after_scramble": 0.5
+    },
+    "8": {
+      "base_3d_collinear": 0,
+      "mean_delta_after_scramble": 2.0
+    }
+  }
+}

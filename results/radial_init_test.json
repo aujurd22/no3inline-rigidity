@@ -1,0 +1,62 @@
+{
+  "8": {
+    "random": {
+      "success": 1,
+      "rate": 0.05,
+      "minbad_avg": 3.8
+    },
+    "concentric": {
+      "success": 5,
+      "rate": 0.25,
+      "minbad_avg": 3.2
+    }
+  },
+  "10": {
+    "random": {
+      "success": 0,
+      "rate": 0.0,
+      "minbad_avg": 4.8
+    },
+    "concentric": {
+      "success": 1,
+      "rate": 0.05,
+      "minbad_avg": 6.2
+    }
+  },
+  "12": {
+    "random": {
+      "success": 0,
+      "rate": 0.0,
+      "minbad_avg": 8.8
+    },
+    "concentric": {
+      "success": 0,
+      "rate": 0.0,
+      "minbad_avg": 9.6
+    }
+  },
+  "14": {
+    "random": {
+      "success": 0,
+      "rate": 0.0,
+      "minbad_avg": 12.4
+    },
+    "concentric": {
+      "success": 0,
+      "rate": 0.0,
+      "minbad_avg": 14.4
+    }
+  },
+  "16": {
+    "random": {
+      "success": 0,
+      "rate": 0.0,
+      "minbad_avg": 16.6
+    },
+    "concentric": {
+      "success": 0,
+      "rate": 0.0,
+      "minbad_avg": 17.4
+    }
+  }
+}

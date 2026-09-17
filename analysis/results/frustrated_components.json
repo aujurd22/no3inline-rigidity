@@ -1,0 +1,130 @@
+{
+  "m37_408": {
+    "label": "m37-408 (best, 16 viol)",
+    "m": 37,
+    "n_clauses": 408,
+    "n_components": 1,
+    "component_sizes": [
+      37
+    ],
+    "sum_component_min_viol": 16,
+    "frustrated_components": [
+      {
+        "comp_id": 0,
+        "n_nodes": 37,
+        "min_viol": 16,
+        "nodes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "n_violated_clauses": 16
+      }
+    ],
+    "time_s": 21.0
+  },
+  "m37_448": {
+    "label": "m37-448 (proven 17 viol)",
+    "m": 37,
+    "n_clauses": 448,
+    "n_components": 1,
+    "component_sizes": [
+      37
+    ],
+    "sum_component_min_viol": 17,
+    "frustrated_components": [
+      {
+        "comp_id": 0,
+        "n_nodes": 37,
+        "min_viol": 17,
+        "nodes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "n_violated_clauses": 17
+      }
+    ],
+    "time_s": 22.1
+  },
+  "m36": {
+    "label": "m36-solution (SAT)",
+    "m": 36,
+    "n_clauses": 670,
+    "n_components": 1,
+    "component_sizes": [
+      36
+    ],
+    "sum_component_min_viol": 0,
+    "frustrated_components": [],
+    "time_s": 16.2
+  }
+}

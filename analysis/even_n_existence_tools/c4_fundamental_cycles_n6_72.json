@@ -1,0 +1,2142 @@
+[
+  {
+    "n": 6,
+    "m": 3,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n6_rot4",
+    "cycle_lengths": [
+      3
+    ],
+    "cycle_count": 1,
+    "loop_count": 0,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+++"
+    ],
+    "cycles": [
+      {
+        "length": 3,
+        "vertices": [
+          0,
+          1,
+          2
+        ],
+        "edge_ids": [
+          0,
+          1,
+          2
+        ],
+        "orientation_word": "+++"
+      }
+    ]
+  },
+  {
+    "n": 8,
+    "m": 4,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n8_rot4",
+    "cycle_lengths": [
+      4
+    ],
+    "cycle_count": 1,
+    "loop_count": 0,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+-++"
+    ],
+    "cycles": [
+      {
+        "length": 4,
+        "vertices": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "edge_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "orientation_word": "+-++"
+      }
+    ]
+  },
+  {
+    "n": 10,
+    "m": 5,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n10_rot4",
+    "cycle_lengths": [
+      4,
+      1
+    ],
+    "cycle_count": 2,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+-++",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 4,
+        "vertices": [
+          1,
+          3,
+          2,
+          4
+        ],
+        "edge_ids": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "orientation_word": "+-++"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          0
+        ],
+        "edge_ids": [
+          0
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 12,
+    "m": 6,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n12_rot4",
+    "cycle_lengths": [
+      5,
+      1
+    ],
+    "cycle_count": 2,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+-+-+",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 5,
+        "vertices": [
+          0,
+          3,
+          4,
+          5,
+          2
+        ],
+        "edge_ids": [
+          0,
+          4,
+          5,
+          3,
+          2
+        ],
+        "orientation_word": "+-+-+"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          1
+        ],
+        "edge_ids": [
+          1
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 14,
+    "m": 7,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n14_rot4",
+    "cycle_lengths": [
+      6,
+      1
+    ],
+    "cycle_count": 2,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+-++-+",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 6,
+        "vertices": [
+          0,
+          4,
+          2,
+          3,
+          1,
+          5
+        ],
+        "edge_ids": [
+          0,
+          2,
+          1,
+          3,
+          5,
+          4
+        ],
+        "orientation_word": "+-++-+"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          6
+        ],
+        "edge_ids": [
+          6
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 16,
+    "m": 8,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n16_rot4",
+    "cycle_lengths": [
+      8
+    ],
+    "cycle_count": 1,
+    "loop_count": 0,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "++---+--"
+    ],
+    "cycles": [
+      {
+        "length": 8,
+        "vertices": [
+          1,
+          3,
+          0,
+          4,
+          5,
+          2,
+          7,
+          6
+        ],
+        "edge_ids": [
+          0,
+          4,
+          5,
+          6,
+          2,
+          3,
+          7,
+          1
+        ],
+        "orientation_word": "++---+--"
+      }
+    ]
+  },
+  {
+    "n": 18,
+    "m": 9,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n18_rot4",
+    "cycle_lengths": [
+      5,
+      4
+    ],
+    "cycle_count": 2,
+    "loop_count": 0,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+-+-+",
+      "+-+-"
+    ],
+    "cycles": [
+      {
+        "length": 5,
+        "vertices": [
+          0,
+          6,
+          2,
+          8,
+          7
+        ],
+        "edge_ids": [
+          0,
+          1,
+          2,
+          8,
+          7
+        ],
+        "orientation_word": "+-+-+"
+      },
+      {
+        "length": 4,
+        "vertices": [
+          4,
+          1,
+          5,
+          3
+        ],
+        "edge_ids": [
+          3,
+          5,
+          6,
+          4
+        ],
+        "orientation_word": "+-+-"
+      }
+    ]
+  },
+  {
+    "n": 20,
+    "m": 10,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n20_rot4",
+    "cycle_lengths": [
+      9,
+      1
+    ],
+    "cycle_count": 2,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+-+-+++++",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 9,
+        "vertices": [
+          0,
+          5,
+          6,
+          9,
+          7,
+          1,
+          3,
+          4,
+          8
+        ],
+        "edge_ids": [
+          0,
+          5,
+          6,
+          8,
+          7,
+          1,
+          3,
+          4,
+          9
+        ],
+        "orientation_word": "+-+-+++++"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          2
+        ],
+        "edge_ids": [
+          2
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 22,
+    "m": 11,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n22_rot4",
+    "cycle_lengths": [
+      10,
+      1
+    ],
+    "cycle_count": 2,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "++-+--+-+-",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 10,
+        "vertices": [
+          1,
+          8,
+          0,
+          6,
+          2,
+          4,
+          5,
+          7,
+          3,
+          9
+        ],
+        "edge_ids": [
+          0,
+          9,
+          7,
+          8,
+          4,
+          5,
+          6,
+          2,
+          3,
+          1
+        ],
+        "orientation_word": "++-+--+-+-"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          10
+        ],
+        "edge_ids": [
+          10
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 24,
+    "m": 12,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n24_rot4",
+    "cycle_lengths": [
+      12
+    ],
+    "cycle_count": 1,
+    "loop_count": 0,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+++---+--+--"
+    ],
+    "cycles": [
+      {
+        "length": 12,
+        "vertices": [
+          0,
+          7,
+          1,
+          6,
+          3,
+          5,
+          9,
+          11,
+          4,
+          8,
+          2,
+          10
+        ],
+        "edge_ids": [
+          0,
+          6,
+          2,
+          3,
+          5,
+          9,
+          10,
+          4,
+          8,
+          7,
+          11,
+          1
+        ],
+        "orientation_word": "+++---+--+--"
+      }
+    ]
+  },
+  {
+    "n": 26,
+    "m": 13,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n26_rot4",
+    "cycle_lengths": [
+      8,
+      5
+    ],
+    "cycle_count": 2,
+    "loop_count": 0,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "++-+-+-+",
+      "+-++-"
+    ],
+    "cycles": [
+      {
+        "length": 8,
+        "vertices": [
+          1,
+          9,
+          10,
+          6,
+          3,
+          8,
+          0,
+          4
+        ],
+        "edge_ids": [
+          0,
+          11,
+          8,
+          7,
+          10,
+          9,
+          3,
+          4
+        ],
+        "orientation_word": "++-+-+-+"
+      },
+      {
+        "length": 5,
+        "vertices": [
+          2,
+          7,
+          5,
+          11,
+          12
+        ],
+        "edge_ids": [
+          1,
+          5,
+          6,
+          12,
+          2
+        ],
+        "orientation_word": "+-++-"
+      }
+    ]
+  },
+  {
+    "n": 28,
+    "m": 14,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n28_rot4",
+    "cycle_lengths": [
+      13,
+      1
+    ],
+    "cycle_count": 2,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "++-++--+-++++",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 13,
+        "vertices": [
+          0,
+          8,
+          3,
+          6,
+          1,
+          5,
+          4,
+          11,
+          7,
+          9,
+          12,
+          2,
+          10
+        ],
+        "edge_ids": [
+          0,
+          6,
+          5,
+          4,
+          1,
+          3,
+          10,
+          11,
+          7,
+          8,
+          12,
+          2,
+          9
+        ],
+        "orientation_word": "++-++--+-++++"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          13
+        ],
+        "edge_ids": [
+          13
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 30,
+    "m": 15,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n30_rot4",
+    "cycle_lengths": [
+      10,
+      4,
+      1
+    ],
+    "cycle_count": 3,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "++--+-+-+-",
+      "+-+-",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 10,
+        "vertices": [
+          1,
+          12,
+          4,
+          7,
+          2,
+          8,
+          10,
+          11,
+          6,
+          13
+        ],
+        "edge_ids": [
+          0,
+          13,
+          8,
+          2,
+          3,
+          11,
+          12,
+          6,
+          7,
+          1
+        ],
+        "orientation_word": "++--+-+-+-"
+      },
+      {
+        "length": 4,
+        "vertices": [
+          3,
+          0,
+          9,
+          5
+        ],
+        "edge_ids": [
+          4,
+          9,
+          10,
+          5
+        ],
+        "orientation_word": "+-+-"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          14
+        ],
+        "edge_ids": [
+          14
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 32,
+    "m": 16,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n32_rot4",
+    "cycle_lengths": [
+      8,
+      7,
+      1
+    ],
+    "cycle_count": 3,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "++++-+--",
+      "++++-++",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 8,
+        "vertices": [
+          1,
+          5,
+          9,
+          14,
+          4,
+          13,
+          2,
+          8
+        ],
+        "edge_ids": [
+          1,
+          5,
+          9,
+          14,
+          13,
+          12,
+          8,
+          2
+        ],
+        "orientation_word": "++++-+--"
+      },
+      {
+        "length": 7,
+        "vertices": [
+          0,
+          12,
+          6,
+          7,
+          10,
+          3,
+          11
+        ],
+        "edge_ids": [
+          0,
+          11,
+          6,
+          7,
+          3,
+          4,
+          10
+        ],
+        "orientation_word": "++++-++"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          15
+        ],
+        "edge_ids": [
+          15
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 34,
+    "m": 17,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n34_rot4",
+    "cycle_lengths": [
+      10,
+      6,
+      1
+    ],
+    "cycle_count": 3,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "++-+---+++",
+      "++++--",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 10,
+        "vertices": [
+          1,
+          6,
+          0,
+          9,
+          7,
+          4,
+          8,
+          12,
+          5,
+          14
+        ],
+        "edge_ids": [
+          0,
+          6,
+          8,
+          9,
+          4,
+          7,
+          13,
+          12,
+          5,
+          15
+        ],
+        "orientation_word": "++-+---+++"
+      },
+      {
+        "length": 6,
+        "vertices": [
+          2,
+          10,
+          11,
+          3,
+          15,
+          13
+        ],
+        "edge_ids": [
+          1,
+          10,
+          11,
+          3,
+          14,
+          2
+        ],
+        "orientation_word": "++++--"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          16
+        ],
+        "edge_ids": [
+          16
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 36,
+    "m": 18,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n36_rot4",
+    "cycle_lengths": [
+      17,
+      1
+    ],
+    "cycle_count": 2,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+-+-+-+---+-+++++",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 17,
+        "vertices": [
+          1,
+          15,
+          8,
+          3,
+          14,
+          0,
+          13,
+          7,
+          11,
+          2,
+          12,
+          16,
+          10,
+          5,
+          4,
+          6,
+          9
+        ],
+        "edge_ids": [
+          0,
+          6,
+          5,
+          16,
+          15,
+          13,
+          14,
+          10,
+          1,
+          11,
+          12,
+          9,
+          8,
+          3,
+          2,
+          4,
+          7
+        ],
+        "orientation_word": "+-+-+-+---+-+++++"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          17
+        ],
+        "edge_ids": [
+          17
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 38,
+    "m": 19,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n38_rot4",
+    "cycle_lengths": [
+      9,
+      6,
+      3,
+      1
+    ],
+    "cycle_count": 4,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+----+-++",
+      "+-+-++",
+      "+-+",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 9,
+        "vertices": [
+          2,
+          6,
+          8,
+          16,
+          4,
+          11,
+          7,
+          14,
+          17
+        ],
+        "edge_ids": [
+          3,
+          6,
+          16,
+          4,
+          10,
+          11,
+          14,
+          15,
+          17
+        ],
+        "orientation_word": "+----+-++"
+      },
+      {
+        "length": 6,
+        "vertices": [
+          0,
+          15,
+          1,
+          12,
+          9,
+          10
+        ],
+        "edge_ids": [
+          0,
+          2,
+          1,
+          8,
+          7,
+          9
+        ],
+        "orientation_word": "+-+-++"
+      },
+      {
+        "length": 3,
+        "vertices": [
+          5,
+          3,
+          13
+        ],
+        "edge_ids": [
+          5,
+          12,
+          13
+        ],
+        "orientation_word": "+-+"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          18
+        ],
+        "edge_ids": [
+          18
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 40,
+    "m": 20,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n40_rot4",
+    "cycle_lengths": [
+      19,
+      1
+    ],
+    "cycle_count": 2,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+---+--+-----++++-+",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 19,
+        "vertices": [
+          0,
+          18,
+          15,
+          7,
+          16,
+          1,
+          10,
+          3,
+          8,
+          12,
+          9,
+          17,
+          5,
+          11,
+          6,
+          4,
+          2,
+          13,
+          14
+        ],
+        "edge_ids": [
+          0,
+          15,
+          7,
+          17,
+          16,
+          9,
+          3,
+          2,
+          12,
+          8,
+          18,
+          5,
+          10,
+          11,
+          6,
+          4,
+          1,
+          14,
+          13
+        ],
+        "orientation_word": "+---+--+-----++++-+"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          19
+        ],
+        "edge_ids": [
+          19
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 42,
+    "m": 21,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n42_rot4",
+    "cycle_lengths": [
+      17,
+      3,
+      1
+    ],
+    "cycle_count": 3,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "++-+-++++----+-++",
+      "+--",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 17,
+        "vertices": [
+          0,
+          11,
+          2,
+          16,
+          6,
+          8,
+          3,
+          10,
+          4,
+          17,
+          7,
+          5,
+          14,
+          1,
+          19,
+          15,
+          18
+        ],
+        "edge_ids": [
+          0,
+          12,
+          17,
+          18,
+          8,
+          7,
+          3,
+          11,
+          4,
+          6,
+          5,
+          14,
+          1,
+          2,
+          16,
+          15,
+          19
+        ],
+        "orientation_word": "++-+-++++----+-++"
+      },
+      {
+        "length": 3,
+        "vertices": [
+          9,
+          12,
+          13
+        ],
+        "edge_ids": [
+          9,
+          13,
+          10
+        ],
+        "orientation_word": "+--"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          20
+        ],
+        "edge_ids": [
+          20
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 44,
+    "m": 22,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n44_rot4",
+    "cycle_lengths": [
+      21,
+      1
+    ],
+    "cycle_count": 2,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+----+++---+++-++++-+",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 21,
+        "vertices": [
+          0,
+          17,
+          3,
+          13,
+          8,
+          15,
+          11,
+          10,
+          20,
+          5,
+          4,
+          6,
+          12,
+          18,
+          21,
+          19,
+          1,
+          9,
+          2,
+          7,
+          16
+        ],
+        "edge_ids": [
+          0,
+          3,
+          13,
+          8,
+          15,
+          16,
+          11,
+          10,
+          5,
+          4,
+          6,
+          7,
+          12,
+          19,
+          21,
+          20,
+          1,
+          9,
+          2,
+          18,
+          17
+        ],
+        "orientation_word": "+----+++---+++-++++-+"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          14
+        ],
+        "edge_ids": [
+          14
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 54,
+    "m": 27,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n54_rot4",
+    "cycle_lengths": [
+      27
+    ],
+    "cycle_count": 1,
+    "loop_count": 0,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "++-+-+--++----+----+++-+-+-"
+    ],
+    "cycles": [
+      {
+        "length": 27,
+        "vertices": [
+          0,
+          22,
+          1,
+          19,
+          10,
+          18,
+          16,
+          2,
+          12,
+          13,
+          21,
+          26,
+          25,
+          8,
+          20,
+          15,
+          4,
+          17,
+          6,
+          9,
+          5,
+          11,
+          14,
+          23,
+          7,
+          3,
+          24
+        ],
+        "edge_ids": [
+          0,
+          22,
+          18,
+          19,
+          16,
+          17,
+          2,
+          12,
+          13,
+          14,
+          26,
+          25,
+          8,
+          20,
+          21,
+          5,
+          15,
+          7,
+          10,
+          9,
+          6,
+          11,
+          24,
+          23,
+          3,
+          4,
+          1
+        ],
+        "orientation_word": "++-+-+--++----+----+++-+-+-"
+      }
+    ]
+  },
+  {
+    "n": 56,
+    "m": 28,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n56_rot4",
+    "cycle_lengths": [
+      28
+    ],
+    "cycle_count": 1,
+    "loop_count": 0,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+++--+-+--+++-+++++---+-+--+"
+    ],
+    "cycles": [
+      {
+        "length": 28,
+        "vertices": [
+          1,
+          5,
+          26,
+          13,
+          2,
+          22,
+          4,
+          18,
+          11,
+          14,
+          9,
+          10,
+          19,
+          15,
+          25,
+          8,
+          20,
+          7,
+          23,
+          24,
+          17,
+          6,
+          16,
+          21,
+          12,
+          0,
+          27,
+          3
+        ],
+        "edge_ids": [
+          0,
+          4,
+          26,
+          1,
+          21,
+          22,
+          17,
+          18,
+          13,
+          9,
+          8,
+          10,
+          19,
+          25,
+          24,
+          7,
+          20,
+          6,
+          23,
+          16,
+          5,
+          14,
+          15,
+          12,
+          11,
+          27,
+          3,
+          2
+        ],
+        "orientation_word": "+++--+-+--+++-+++++---+-+--+"
+      }
+    ]
+  },
+  {
+    "n": 58,
+    "m": 29,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n58_rot4.few",
+    "cycle_lengths": [
+      28,
+      1
+    ],
+    "cycle_count": 2,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+++++-++--++-+++-+--+++-++--",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 28,
+        "vertices": [
+          0,
+          21,
+          16,
+          22,
+          14,
+          1,
+          19,
+          2,
+          17,
+          8,
+          4,
+          11,
+          13,
+          18,
+          7,
+          10,
+          25,
+          9,
+          28,
+          12,
+          15,
+          5,
+          6,
+          20,
+          24,
+          26,
+          3,
+          27
+        ],
+        "edge_ids": [
+          0,
+          22,
+          17,
+          23,
+          14,
+          20,
+          21,
+          2,
+          8,
+          3,
+          4,
+          12,
+          19,
+          18,
+          7,
+          11,
+          9,
+          10,
+          13,
+          16,
+          15,
+          5,
+          6,
+          25,
+          26,
+          27,
+          28,
+          1
+        ],
+        "orientation_word": "+++++-++--++-+++-+--+++-++--"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          23
+        ],
+        "edge_ids": [
+          24
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 60,
+    "m": 30,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n60_rot4.few",
+    "cycle_lengths": [
+      29,
+      1
+    ],
+    "cycle_count": 2,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "++----+-+++------+-++--++---+",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 29,
+        "vertices": [
+          0,
+          20,
+          1,
+          24,
+          21,
+          11,
+          17,
+          2,
+          28,
+          10,
+          5,
+          9,
+          22,
+          26,
+          4,
+          18,
+          8,
+          6,
+          23,
+          16,
+          25,
+          27,
+          15,
+          3,
+          19,
+          14,
+          29,
+          7,
+          13
+        ],
+        "edge_ids": [
+          0,
+          21,
+          24,
+          22,
+          10,
+          18,
+          17,
+          27,
+          28,
+          9,
+          4,
+          23,
+          26,
+          3,
+          19,
+          8,
+          5,
+          6,
+          15,
+          16,
+          25,
+          14,
+          1,
+          2,
+          20,
+          29,
+          7,
+          13,
+          12
+        ],
+        "orientation_word": "++----+-+++------+-++--++---+"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          12
+        ],
+        "edge_ids": [
+          11
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 62,
+    "m": 31,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n62_rot4.few",
+    "cycle_lengths": [
+      31
+    ],
+    "cycle_count": 1,
+    "loop_count": 0,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "++----++--++++-++-++-+++++--+--"
+    ],
+    "cycles": [
+      {
+        "length": 31,
+        "vertices": [
+          0,
+          8,
+          28,
+          4,
+          6,
+          15,
+          13,
+          17,
+          27,
+          14,
+          24,
+          3,
+          22,
+          16,
+          10,
+          11,
+          20,
+          19,
+          7,
+          23,
+          9,
+          30,
+          18,
+          1,
+          12,
+          5,
+          2,
+          26,
+          21,
+          29,
+          25
+        ],
+        "edge_ids": [
+          0,
+          9,
+          4,
+          6,
+          16,
+          13,
+          14,
+          18,
+          15,
+          26,
+          25,
+          3,
+          23,
+          17,
+          10,
+          11,
+          20,
+          7,
+          8,
+          24,
+          29,
+          30,
+          19,
+          2,
+          12,
+          5,
+          28,
+          21,
+          22,
+          27,
+          1
+        ],
+        "orientation_word": "++----++--++++-++-++-+++++--+--"
+      }
+    ]
+  },
+  {
+    "n": 64,
+    "m": 32,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n64_rot4.few",
+    "cycle_lengths": [
+      27,
+      5
+    ],
+    "cycle_count": 2,
+    "loop_count": 0,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+-++-+-+++---++-+++++-+----",
+      "+-+--"
+    ],
+    "cycles": [
+      {
+        "length": 27,
+        "vertices": [
+          0,
+          14,
+          12,
+          6,
+          28,
+          8,
+          11,
+          4,
+          25,
+          26,
+          2,
+          24,
+          19,
+          27,
+          18,
+          30,
+          15,
+          20,
+          9,
+          16,
+          3,
+          29,
+          1,
+          22,
+          5,
+          7,
+          31
+        ],
+        "edge_ids": [
+          0,
+          14,
+          13,
+          8,
+          11,
+          10,
+          5,
+          6,
+          27,
+          28,
+          26,
+          21,
+          30,
+          29,
+          20,
+          18,
+          17,
+          22,
+          12,
+          19,
+          4,
+          3,
+          2,
+          7,
+          9,
+          31,
+          1
+        ],
+        "orientation_word": "+-++-+-+++---++-+++++-+----"
+      },
+      {
+        "length": 5,
+        "vertices": [
+          13,
+          17,
+          23,
+          10,
+          21
+        ],
+        "edge_ids": [
+          15,
+          25,
+          24,
+          23,
+          16
+        ],
+        "orientation_word": "+-+--"
+      }
+    ]
+  },
+  {
+    "n": 66,
+    "m": 33,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n66_rot4.few",
+    "cycle_lengths": [
+      32,
+      1
+    ],
+    "cycle_count": 2,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+-++--+++----+++----++---++-++-+",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 32,
+        "vertices": [
+          0,
+          31,
+          28,
+          7,
+          8,
+          20,
+          3,
+          23,
+          18,
+          24,
+          9,
+          13,
+          6,
+          26,
+          30,
+          5,
+          15,
+          4,
+          25,
+          17,
+          22,
+          10,
+          21,
+          12,
+          11,
+          27,
+          19,
+          32,
+          16,
+          14,
+          1,
+          29
+        ],
+        "edge_ids": [
+          0,
+          29,
+          28,
+          7,
+          19,
+          2,
+          3,
+          22,
+          17,
+          8,
+          12,
+          6,
+          24,
+          25,
+          32,
+          5,
+          4,
+          23,
+          16,
+          21,
+          20,
+          9,
+          11,
+          10,
+          26,
+          27,
+          18,
+          15,
+          14,
+          13,
+          31,
+          30
+        ],
+        "orientation_word": "+-++--+++----+++----++---++-++-+"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          2
+        ],
+        "edge_ids": [
+          1
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 68,
+    "m": 34,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n68_rot4.few",
+    "cycle_lengths": [
+      27,
+      6,
+      1
+    ],
+    "cycle_count": 3,
+    "loop_count": 1,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+-++-+-+---+-+--+--++-+--+-",
+      "+---+-",
+      "L"
+    ],
+    "cycles": [
+      {
+        "length": 27,
+        "vertices": [
+          0,
+          12,
+          15,
+          13,
+          7,
+          23,
+          6,
+          27,
+          18,
+          5,
+          19,
+          9,
+          11,
+          22,
+          26,
+          1,
+          29,
+          3,
+          31,
+          16,
+          24,
+          20,
+          21,
+          2,
+          32,
+          8,
+          14
+        ],
+        "edge_ids": [
+          0,
+          12,
+          13,
+          11,
+          24,
+          23,
+          26,
+          27,
+          5,
+          18,
+          9,
+          8,
+          21,
+          22,
+          2,
+          29,
+          30,
+          32,
+          15,
+          14,
+          25,
+          20,
+          19,
+          33,
+          7,
+          6,
+          1
+        ],
+        "orientation_word": "+-++-+-+---+-+--+--++-+--+-"
+      },
+      {
+        "length": 6,
+        "vertices": [
+          4,
+          25,
+          10,
+          28,
+          17,
+          33
+        ],
+        "edge_ids": [
+          3,
+          10,
+          28,
+          16,
+          17,
+          4
+        ],
+        "orientation_word": "+---+-"
+      },
+      {
+        "length": 1,
+        "vertices": [
+          30
+        ],
+        "edge_ids": [
+          31
+        ],
+        "orientation_word": "L"
+      }
+    ]
+  },
+  {
+    "n": 70,
+    "m": 35,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n70_rot4.few",
+    "cycle_lengths": [
+      24,
+      11
+    ],
+    "cycle_count": 2,
+    "loop_count": 0,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+--++---+--+--+--+--+-++",
+      "+-+--+-+--+"
+    ],
+    "cycles": [
+      {
+        "length": 24,
+        "vertices": [
+          1,
+          21,
+          9,
+          8,
+          15,
+          11,
+          32,
+          10,
+          6,
+          4,
+          23,
+          33,
+          27,
+          28,
+          3,
+          26,
+          7,
+          31,
+          2,
+          30,
+          24,
+          14,
+          25,
+          18
+        ],
+        "edge_ids": [
+          0,
+          9,
+          7,
+          8,
+          13,
+          30,
+          10,
+          5,
+          4,
+          19,
+          31,
+          32,
+          24,
+          2,
+          1,
+          6,
+          29,
+          28,
+          27,
+          21,
+          20,
+          22,
+          23,
+          15
+        ],
+        "orientation_word": "+--++---+--+--+--+--+-++"
+      },
+      {
+        "length": 11,
+        "vertices": [
+          5,
+          13,
+          34,
+          0,
+          16,
+          29,
+          20,
+          12,
+          17,
+          19,
+          22
+        ],
+        "edge_ids": [
+          3,
+          34,
+          33,
+          14,
+          25,
+          26,
+          12,
+          11,
+          16,
+          18,
+          17
+        ],
+        "orientation_word": "+-+--+-+--+"
+      }
+    ]
+  },
+  {
+    "n": 72,
+    "m": 36,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n72_rot4.few",
+    "cycle_lengths": [
+      36
+    ],
+    "cycle_count": 1,
+    "loop_count": 0,
+    "two_cycle_count": 0,
+    "orientation_words": [
+      "+++++-+----+++-++++-+++-+-+-+---++++"
+    ],
+    "cycles": [
+      {
+        "length": 36,
+        "vertices": [
+          0,
+          34,
+          19,
+          9,
+          5,
+          28,
+          2,
+          22,
+          35,
+          17,
+          8,
+          23,
+          12,
+          24,
+          3,
+          30,
+          11,
+          27,
+          4,
+          20,
+          6,
+          10,
+          31,
+          14,
+          7,
+          16,
+          13,
+          15,
+          21,
+          33,
+          1,
+          29,
+          18,
+          25,
+          26,
+          32
+        ],
+        "edge_ids": [
+          0,
+          34,
+          20,
+          11,
+          5,
+          3,
+          2,
+          35,
+          17,
+          10,
+          23,
+          24,
+          14,
+          25,
+          30,
+          31,
+          13,
+          28,
+          4,
+          7,
+          6,
+          12,
+          32,
+          8,
+          9,
+          16,
+          15,
+          21,
+          22,
+          1,
+          29,
+          19,
+          18,
+          26,
+          27,
+          33
+        ],
+        "orientation_word": "+++++-+----+++-++++-+++-+-+-+---++++"
+      }
+    ]
+  }
+]

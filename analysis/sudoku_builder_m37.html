@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>rot4-NTIL 手动构造器 (数独式) · m=37</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --panel:#ffffff; --ink:#1f2733; --sub:#6b7684;
+    --line:#e3e7ec; --grid:#e9edf2; --quad:#eef4ff; --center:#b9c4d4;
+    --dot-base:#1652d6; --dot-mirror:#7aa0ec; --cand:#f4b400;
+    --hit:#e5342b; --band:rgba(229,52,43,.12); --ok:#1a9d55; --warn:#e5342b;
+    --btn:#1652d6; --btnink:#fff; --chip:#f0f3f7;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,"Segoe UI",Roboto,"Microsoft YaHei",sans-serif;}
+  .wrap{display:flex;gap:16px;padding:16px;align-items:flex-start;flex-wrap:wrap}
+  .left{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:12px;box-shadow:0 1px 3px rgba(20,30,50,.05)}
+  canvas{display:block;cursor:crosshair;border-radius:6px}
+  .side{width:300px;display:flex;flex-direction:column;gap:12px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:14px;box-shadow:0 1px 3px rgba(20,30,50,.05)}
+  h1{font-size:16px;margin:0 0 2px}
+  .muted{color:var(--sub);font-size:12px;line-height:1.6}
+  .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+  button{background:var(--btn);color:var(--btnink);border:0;border-radius:8px;
+    padding:8px 12px;font-size:13px;cursor:pointer;transition:.15s}
+  button.ghost{background:var(--chip);color:var(--ink)}
+  button:hover{filter:brightness(1.06)}
+  button:active{transform:translateY(1px)}
+  .stat{display:flex;justify-content:space-between;align-items:baseline;
+    padding:6px 0;border-bottom:1px dashed var(--line);font-size:13px}
+  .stat:last-child{border-bottom:0}
+  .big{font-size:20px;font-weight:700}
+  .g{color:var(--ok)} .r{color:var(--warn)}
+  .legend div{display:flex;align-items:center;gap:8px;font-size:12px;margin:5px 0}
+  .sw{width:14px;height:14px;border-radius:3px;flex:0 0 auto}
+  label.chk{display:flex;align-items:center;gap:8px;font-size:13px;margin:6px 0;cursor:pointer}
+  input[type=range]{width:130px}
+  .kbd{background:var(--chip);border:1px solid var(--line);border-radius:5px;
+    padding:1px 6px;font-size:11px;font-family:monospace}
+  #hover{font-family:monospace;font-size:12px;color:var(--sub);min-height:16px}
+  .banner{font-size:13px;padding:8px 10px;border-radius:8px;margin-top:8px;display:none}
+  .banner.ok{background:#e7f7ee;color:#0f7a3d;display:block}
+  .banner.bad{background:#fdecea;color:#b5241c;display:block}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="left">
+    <canvas id="cv"></canvas>
+    <div id="hover" style="margin-top:6px"></div>
+  </div>
+
+  <div class="side">
+    <div class="card">
+      <h1>rot4-NTIL 手动构造器</h1>
+      <div class="muted">m=37 · 全盘 74×74 · C4 对称。<br>
+        左上 37×37 象限是<b>基本域</b>，你在任意位置点一下，系统自动落 4 个对称点。</div>
+      <div class="row">
+        <button class="ghost" id="btnUndo">撤销 (Ctrl+Z)</button>
+        <button class="ghost" id="btnClear">清空</button>
+      </div>
+      <div class="row">
+        <button id="btnSave">保存进度</button>
+        <button class="ghost" id="btnLoad">载入</button>
+        <input type="file" id="file" accept=".json" style="display:none">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="stat"><span>已落轨道 (cell)</span><span><b id="nCell" class="big">0</b> / 37</span></div>
+      <div class="stat"><span>全盘落点</span><span id="nPt">0</span> / 148</div>
+      <div class="stat"><span>共线冲突点</span><span id="nHit" class="big g">0</span></div>
+      <div class="stat"><span>3+ 行 / 列</span><span id="nBand">0 / 0</span></div>
+      <div class="stat"><span>2-因子违规索引</span><span id="n2f">—</span></div>
+      <div id="banner" class="banner"></div>
+    </div>
+
+    <div class="card">
+      <label class="chk"><input type="checkbox" id="ckHeat" checked> 显示建议热图（m≤36 外推）</label>
+      <label class="chk"><input type="checkbox" id="ckDiag" checked> 检测斜线共线（真·NTIL）</label>
+      <label class="chk"><input type="checkbox" id="ck2f"> 显示 2-因子侧栏 (row+col)</label>
+      <label class="chk">建议阈值
+        <input type="range" id="thr" min="0" max="1" step="0.05" value="0.5">
+        <span id="thrv" class="muted">0.50</span></label>
+      <div class="muted">阈值以上的空 cell 会以淡橙圈提示为“热点候选”。</div>
+    </div>
+
+    <div class="card legend">
+      <div><span class="sw" style="background:var(--dot-base)"></span> 基本域落点（你点的）</div>
+      <div><span class="sw" style="background:var(--dot-mirror)"></span> C4 自动镜像点</div>
+      <div><span class="sw" style="background:var(--cand)"></span> 候选记号（右键）</div>
+      <div><span class="sw" style="background:var(--hit);border-radius:50%"></span> 共线冲突（红环）</div>
+      <div><span class="sw" style="background:var(--band)"></span> 3+ 行/列浅色带</div>
+      <div class="muted" style="margin-top:6px">操作：<span class="kbd">左键</span> 落/取消 · <span class="kbd">右键</span> 候选 · <span class="kbd">Ctrl+Z</span> 撤销</div>
+    </div>
+  </div>
+</div>
+
+<script src="hint_data.js"></script>
+<script>
+const M=37, N=2*M;                 // fundamental m; board n=74
+const CS=11, PADL=30, PADT=30, PADR=8, PADB=8;
+const cv=document.getElementById('cv'), ctx=cv.getContext('2d');
+cv.width = PADL+N*CS+PADR;
+cv.height= PADT+N*CS+PADB;
+
+const HINT = (window.HINT_M37)|| Array.from({length:M},()=>Array(M).fill(0));
+
+// ---------- state ----------
+let cells = new Set();       // "x,y" basic-domain cells (x,y in 0..M-1)
+let cands = new Set();       // candidate marks (basic-domain cells)
+let history = [];            // for undo: {type,key}
+let showHeat=true, showDiag=true, show2f=false, thr=0.5;
+
+// ---------- geometry ----------
+function c4(x,y){ return [N-1-y, x]; }          // 90° about center
+function orbit(x,y){                            // 4 lifted points
+  let p=[[x,y]]; for(let i=0;i<3;i++){let [a,b]=p[p.length-1]; p.push(c4(a,b));} return p;
+}
+function baseRep(X,Y){                           // any board cell -> its basic-domain cell
+  let p=[[X,Y]]; for(let i=0;i<3;i++){let [a,b]=p[p.length-1]; p.push(c4(a,b));}
+  for(const [a,b] of p) if(a<M && b<M) return [a,b];
+  return null;
+}
+function gcd(a,b){a=Math.abs(a);b=Math.abs(b);while(b){[a,b]=[b,a%b];}return a||1;}
+
+// ---------- all lifted points from cells ----------
+function allPoints(){
+  const pts=[];
+  for(const k of cells){const [x,y]=k.split(',').map(Number);
+    for(const p of orbit(x,y)) pts.push(p);}
+  return pts;
+}
+
+// ---------- conflict detection: rows/cols always + diagonals if enabled ----------
+function analyze(){
+  const pts=allPoints(), Np=pts.length;
+  const hit=new Set();               // indices of conflicting points
+  const rowMap=new Map(), colMap=new Map();
+  for(let i=0;i<Np;i++){const [x,y]=pts[i];
+    (rowMap.get(y)||rowMap.set(y,[]).get(y)).push(i);
+    (colMap.get(x)||colMap.set(x,[]).get(x)).push(i);
+  }
+  const badRows=[], badCols=[];
+  for(const [y,arr] of rowMap) if(arr.length>=3){badRows.push(y); arr.forEach(i=>hit.add(i));}
+  for(const [x,arr] of colMap) if(arr.length>=3){badCols.push(x); arr.forEach(i=>hit.add(i));}
+  if(showDiag){
+    for(let i=0;i<Np;i++){
+      const dir=new Map();
+      for(let j=0;j<Np;j++){ if(i===j)continue;
+        let dx=pts[j][0]-pts[i][0], dy=pts[j][1]-pts[i][1];
+        const g=gcd(dx,dy); dx/=g; dy/=g;
+        if(dx<0||(dx===0&&dy<0)){dx=-dx;dy=-dy;}
+        const key=dx+','+dy;
+        (dir.get(key)||dir.set(key,[]).get(key)).push(j);
+      }
+      for(const [,arr] of dir) if(arr.length>=2){hit.add(i); arr.forEach(j=>hit.add(j));}
+    }
+  }
+  // 2-factor: for each index i, (#x==i)+(#y==i) over basic cells
+  let bad2f=0, done2f=0;
+  const cx=Array(M).fill(0), cy=Array(M).fill(0);
+  for(const k of cells){const [x,y]=k.split(',').map(Number); cx[x]++; cy[y]++;}
+  const sum2=[];
+  for(let i=0;i<M;i++){const s=cx[i]+cy[i]; sum2.push(s); if(s>2)bad2f++; if(s===2)done2f++;}
+  return {pts,hit,badRows,badCols,sum2,bad2f,done2f};
+}
+
+// ---------- drawing ----------
+function gx(g){return PADL+g*CS;} function gc(g){return PADL+g*CS+CS/2;}
+function draw(){
+  const A=analyze();
+  ctx.clearRect(0,0,cv.width,cv.height);
+  // basic-domain background
+  ctx.fillStyle=getCss('--quad');
+  ctx.fillRect(gx(0),PADT+0*CS, M*CS, M*CS);
+  // heat
+  if(showHeat){
+    for(let x=0;x<M;x++)for(let y=0;y<M;y++){const h=HINT[x][y];
+      if(h>0){ctx.fillStyle=`rgba(244,160,0,${0.10+0.55*h})`;
+        ctx.fillRect(gx(x)+1,PADT+y*CS+1,CS-2,CS-2);}}
+  }
+  // grid
+  ctx.strokeStyle=getCss('--grid'); ctx.lineWidth=1;
+  ctx.beginPath();
+  for(let i=0;i<=N;i++){const p=gx(i);
+    ctx.moveTo(p,PADT); ctx.lineTo(p,PADT+N*CS);
+    ctx.moveTo(PADL,PADT+i*CS); ctx.lineTo(PADL+N*CS,PADT+i*CS);}
+  ctx.stroke();
+  // quadrant divider (center cross)
+  ctx.strokeStyle=getCss('--center'); ctx.lineWidth=1.5; ctx.setLineDash([5,4]);
+  const midc=PADL+M*CS, midr=PADT+M*CS;
+  ctx.beginPath();
+  ctx.moveTo(midc,PADT); ctx.lineTo(midc,PADT+N*CS);
+  ctx.moveTo(PADL,midr); ctx.lineTo(PADL+N*CS,midr);
+  ctx.stroke(); ctx.setLineDash([]);
+  // 3+ bands (light)
+  ctx.fillStyle=getCss('--band');
+  for(const y of A.badRows) ctx.fillRect(PADL,PADT+y*CS,N*CS,CS);
+  for(const x of A.badCols) ctx.fillRect(gx(x),PADT,CS,N*CS);
+  // candidate hotspots by threshold
+  if(showHeat){
+    for(let x=0;x<M;x++)for(let y=0;y<M;y++){
+      if(HINT[x][y]>=thr && !cells.has(x+','+y)){
+        ctx.strokeStyle='rgba(244,160,0,.9)'; ctx.lineWidth=1.5;
+        ctx.beginPath(); ctx.arc(gc(x),PADT+y*CS+CS/2,CS*0.32,0,7); ctx.stroke();
+      }
+    }
+  }
+  // candidate marks
+  ctx.fillStyle=getCss('--cand');
+  for(const k of cands){const [x,y]=k.split(',').map(Number);
+    ctx.fillRect(gc(x)-2,PADT+y*CS+CS/2-2,4,4);}
+  // points
+  const pts=A.pts, base=new Set();
+  for(const k of cells) base.add(k);
+  for(let i=0;i<pts.length;i++){const [x,y]=pts[i];
+    const isBase=(x<M&&y<M)&&base.has(x+','+y);
+    ctx.fillStyle=isBase?getCss('--dot-base'):getCss('--dot-mirror');
+    ctx.beginPath(); ctx.arc(PADL+x*CS+CS/2,PADT+y*CS+CS/2,CS*0.34,0,7); ctx.fill();
+  }
+  // conflict rings
+  ctx.strokeStyle=getCss('--hit'); ctx.lineWidth=2;
+  for(const i of A.hit){const [x,y]=pts[i];
+    ctx.beginPath(); ctx.arc(PADL+x*CS+CS/2,PADT+y*CS+CS/2,CS*0.46,0,7); ctx.stroke();}
+  // axis ticks (every 10)
+  ctx.fillStyle=getCss('--sub'); ctx.font='9px monospace'; ctx.textAlign='center';
+  for(let i=0;i<N;i+=10){ctx.fillText(i,gc(i),PADT-8);
+    ctx.textAlign='right'; ctx.fillText(i,PADL-6,PADT+i*CS+CS/2+3); ctx.textAlign='center';}
+  // 2-factor sidebar overlay
+  if(show2f){
+    for(let i=0;i<M;i++){const s=A.sum2[i];
+      ctx.fillStyle = s>2?'rgba(229,52,43,.85)': s===2?'rgba(26,157,85,.85)':'rgba(150,160,175,.5)';
+      ctx.fillRect(PADL+N*CS-14, PADT+i*CS+2, 12, CS-3);
+      ctx.fillStyle='#fff'; ctx.font='8px monospace';
+      if(s>0)ctx.fillText(s, PADL+N*CS-8, PADT+i*CS+CS/2+3);}
+  }
+  updateStats(A);
+}
+function getCss(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim();}
+
+function updateStats(A){
+  document.getElementById('nCell').textContent=cells.size;
+  document.getElementById('nPt').textContent=A.pts.length;
+  const nh=document.getElementById('nHit'); nh.textContent=A.hit.size;
+  nh.className='big '+(A.hit.size===0?'g':'r');
+  document.getElementById('nBand').textContent=A.badRows.length+' / '+A.badCols.length;
+  document.getElementById('n2f').textContent=
+    (A.bad2f>0?('超2: '+A.bad2f+' 个'):('=2: '+A.done2f+'/37'));
+  const b=document.getElementById('banner');
+  if(cells.size===M && A.hit.size===0 && A.bad2f===0 && A.done2f===M){
+    b.className='banner ok'; b.textContent='🎉 37 轨道全落、无共线、2-因子全满足 —— 这是一个有效的 m=37 rot4-NTIL 解！记得保存。';
+  }else if(A.hit.size>0){
+    b.className='banner bad'; b.textContent='存在 '+A.hit.size+' 个共线冲突点，需要调整。';
+  }else{b.className='banner'; b.textContent='';}
+}
+
+// ---------- interaction ----------
+function pick(ev){
+  const r=cv.getBoundingClientRect();
+  const px=ev.clientX-r.left-PADL, py=ev.clientY-r.top-PADT;
+  const X=Math.floor(px/CS), Y=Math.floor(py/CS);
+  if(X<0||Y<0||X>=N||Y>=N) return null;
+  return baseRep(X,Y);
+}
+cv.addEventListener('click',ev=>{
+  const c=pick(ev); if(!c)return; const k=c[0]+','+c[1];
+  if(cells.has(k)){cells.delete(k); history.push({t:'del',k});}
+  else{cells.add(k); cands.delete(k); history.push({t:'add',k});}
+  draw();
+});
+cv.addEventListener('contextmenu',ev=>{
+  ev.preventDefault(); const c=pick(ev); if(!c)return; const k=c[0]+','+c[1];
+  if(cells.has(k))return;
+  if(cands.has(k))cands.delete(k); else cands.add(k);
+  draw();
+});
+cv.addEventListener('mousemove',ev=>{
+  const c=pick(ev);
+  document.getElementById('hover').textContent = c?
+    `基本域 cell (${c[0]},${c[1]})  建议热度 ${HINT[c[0]][c[1]].toFixed(2)}  · 该 cell 的 4 个 C4 点已高亮`:'';
+});
+window.addEventListener('keydown',ev=>{
+  if((ev.ctrlKey||ev.metaKey)&&ev.key.toLowerCase()==='z'){ev.preventDefault();
+    const h=history.pop(); if(!h)return;
+    if(h.t==='add')cells.delete(h.k); else cells.add(h.k); draw();}
+});
+
+// ---------- controls ----------
+document.getElementById('btnUndo').onclick=()=>{const h=history.pop();if(!h)return;
+  if(h.t==='add')cells.delete(h.k);else cells.add(h.k);draw();};
+document.getElementById('btnClear').onclick=()=>{
+  if(cells.size&&!confirm('清空所有落点？'))return; cells.clear();cands.clear();history=[];draw();};
+document.getElementById('btnSave').onclick=()=>{
+  const data={m:M,n:N,cells:[...cells].map(k=>k.split(',').map(Number)),
+    candidates:[...cands].map(k=>k.split(',').map(Number)),ts:new Date().toISOString()};
+  const blob=new Blob([JSON.stringify(data)],{type:'application/json'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
+  a.download='m37_manual_'+Date.now()+'.json'; a.click();};
+document.getElementById('btnLoad').onclick=()=>document.getElementById('file').click();
+document.getElementById('file').onchange=e=>{
+  const f=e.target.files[0]; if(!f)return; const rd=new FileReader();
+  rd.onload=()=>{try{const d=JSON.parse(rd.result);
+    cells=new Set((d.cells||[]).map(p=>p[0]+','+p[1]));
+    cands=new Set((d.candidates||[]).map(p=>p[0]+','+p[1]));
+    history=[]; draw();}catch(err){alert('文件解析失败: '+err);}};
+  rd.readAsText(f);};
+document.getElementById('ckHeat').onchange=e=>{showHeat=e.target.checked;draw();};
+document.getElementById('ckDiag').onchange=e=>{showDiag=e.target.checked;draw();};
+document.getElementById('ck2f').onchange=e=>{show2f=e.target.checked;draw();};
+document.getElementById('thr').oninput=e=>{thr=+e.target.value;
+  document.getElementById('thrv').textContent=thr.toFixed(2);draw();};
+
+draw();
+</script>
+</body>
+</html>

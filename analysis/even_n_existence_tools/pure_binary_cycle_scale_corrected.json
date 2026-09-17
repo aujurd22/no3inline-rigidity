@@ -1,0 +1,2413 @@
+{
+  "k14": {
+    "tag": "k14",
+    "n_completions": 23,
+    "type_distribution": {
+      "pure_binary": 23
+    },
+    "n_trap": 0,
+    "n_pure_binary": 23,
+    "n_sat": 0,
+    "pure_cycle_edge_dist": {
+      "5": 21,
+      "6": 2
+    },
+    "pure_cycle_var_dist": {
+      "2": 7,
+      "3": 14,
+      "4": 2
+    },
+    "pure_exact_vars_dist": {
+      "2": 7,
+      "3": 16
+    },
+    "trap_cycle_edge_dist": {},
+    "trap_cycle_var_dist": {},
+    "rows": [
+      {
+        "bid": "v20_01",
+        "mask": 8929978983,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 30,
+        "n_binary": 64,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              2,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 2,
+          "cycle": [
+            [
+              9,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              9,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 2
+      },
+      {
+        "bid": "v20_01",
+        "mask": 99346809573,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 42,
+        "n_binary": 77,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              4,
+              0
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_01",
+        "mask": 133433689350,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 26,
+        "n_binary": 83,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              5,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 2,
+          "cycle": [
+            [
+              1,
+              0
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 2
+      },
+      {
+        "bid": "v20_01",
+        "mask": 133433689350,
+        "comp_idx": 1,
+        "W": 14,
+        "n_unary": 26,
+        "n_binary": 83,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              5,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 2,
+          "cycle": [
+            [
+              1,
+              0
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 2
+      },
+      {
+        "bid": "v20_02",
+        "mask": 7198212551,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 28,
+        "n_binary": 84,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_02",
+        "mask": 24092381893,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 38,
+        "n_binary": 63,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              10,
+              0
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              10,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_02",
+        "mask": 24180794948,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 24,
+        "n_binary": 69,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_02",
+        "mask": 24180794948,
+        "comp_idx": 1,
+        "W": 14,
+        "n_unary": 24,
+        "n_binary": 69,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_02",
+        "mask": 75365586955,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 30,
+        "n_binary": 80,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              3,
+              0
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              3,
+              0
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_03",
+        "mask": 20074551377,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 37,
+        "n_binary": 82,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 2
+      },
+      {
+        "bid": "v20_03",
+        "mask": 34582927808,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 24,
+        "n_binary": 71,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 6,
+          "vars": 4,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_03",
+        "mask": 71014781376,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 25,
+        "n_binary": 74,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_03",
+        "mask": 71014781376,
+        "comp_idx": 1,
+        "W": 14,
+        "n_unary": 25,
+        "n_binary": 74,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_03",
+        "mask": 75456365250,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 32,
+        "n_binary": 72,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              1,
+              0
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 6,
+          "vars": 4,
+          "cycle": [
+            [
+              1,
+              0
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_03",
+        "mask": 107563581785,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 27,
+        "n_binary": 91,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              3,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              3,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_03",
+        "mask": 122554008000,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 28,
+        "n_binary": 77,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_04",
+        "mask": 60685694241,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 27,
+        "n_binary": 86,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              2,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 2,
+          "cycle": [
+            [
+              7,
+              0
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              7,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 2
+      },
+      {
+        "bid": "v20_04",
+        "mask": 69419422345,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 38,
+        "n_binary": 86,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_04",
+        "mask": 69419484185,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 25,
+        "n_binary": 93,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 2,
+          "cycle": [
+            [
+              8,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 2
+      },
+      {
+        "bid": "v20_04",
+        "mask": 74499532496,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 25,
+        "n_binary": 87,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              1,
+              0
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 2,
+          "cycle": [
+            [
+              9,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              9,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 2
+      },
+      {
+        "bid": "v20_05",
+        "mask": 26914261035,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 32,
+        "n_binary": 74,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              8,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              8,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_05",
+        "mask": 105943968808,
+        "comp_idx": 0,
+        "W": 14,
+        "n_unary": 24,
+        "n_binary": 76,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_05",
+        "mask": 105943968808,
+        "comp_idx": 1,
+        "W": 14,
+        "n_unary": 24,
+        "n_binary": 76,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      }
+    ]
+  },
+  "k15": {
+    "tag": "k15",
+    "n_completions": 16,
+    "type_distribution": {
+      "pure_binary": 16
+    },
+    "n_trap": 0,
+    "n_pure_binary": 16,
+    "n_sat": 0,
+    "pure_cycle_edge_dist": {
+      "5": 14,
+      "6": 2
+    },
+    "pure_cycle_var_dist": {
+      "2": 3,
+      "3": 11,
+      "4": 2
+    },
+    "pure_exact_vars_dist": {
+      "2": 3,
+      "3": 11,
+      "4": 2
+    },
+    "trap_cycle_edge_dist": {},
+    "trap_cycle_var_dist": {},
+    "rows": [
+      {
+        "bid": "v20_02",
+        "mask": 75365587979,
+        "comp_idx": 0,
+        "W": 15,
+        "n_unary": 33,
+        "n_binary": 92,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              1,
+              0
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              1,
+              0
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_02",
+        "mask": 75365586959,
+        "comp_idx": 0,
+        "W": 15,
+        "n_unary": 32,
+        "n_binary": 88,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              3,
+              0
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              3,
+              0
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_02",
+        "mask": 75365587019,
+        "comp_idx": 0,
+        "W": 15,
+        "n_unary": 25,
+        "n_binary": 87,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_02",
+        "mask": 24092382917,
+        "comp_idx": 0,
+        "W": 15,
+        "n_unary": 37,
+        "n_binary": 68,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              4,
+              0
+            ],
+            [
+              14,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_03",
+        "mask": 20074551409,
+        "comp_idx": 0,
+        "W": 15,
+        "n_unary": 35,
+        "n_binary": 82,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 2
+      },
+      {
+        "bid": "v20_03",
+        "mask": 75456367298,
+        "comp_idx": 0,
+        "W": 15,
+        "n_unary": 26,
+        "n_binary": 76,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              1,
+              0
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 6,
+          "vars": 4,
+          "cycle": [
+            [
+              1,
+              0
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 4
+      },
+      {
+        "bid": "v20_03",
+        "mask": 107563647321,
+        "comp_idx": 0,
+        "W": 15,
+        "n_unary": 26,
+        "n_binary": 97,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_03",
+        "mask": 20074551633,
+        "comp_idx": 0,
+        "W": 15,
+        "n_unary": 35,
+        "n_binary": 87,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 2,
+          "cycle": [
+            [
+              4,
+              0
+            ],
+            [
+              14,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              14,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 2
+      },
+      {
+        "bid": "v20_03",
+        "mask": 107563583833,
+        "comp_idx": 0,
+        "W": 15,
+        "n_unary": 33,
+        "n_binary": 99,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 2,
+          "cycle": [
+            [
+              13,
+              0
+            ],
+            [
+              10,
+              0
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              10,
+              0
+            ],
+            [
+              13,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 2
+      },
+      {
+        "bid": "v20_04",
+        "mask": 69423616649,
+        "comp_idx": 0,
+        "W": 15,
+        "n_unary": 36,
+        "n_binary": 93,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_04",
+        "mask": 69423678489,
+        "comp_idx": 0,
+        "W": 15,
+        "n_unary": 23,
+        "n_binary": 98,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              2,
+              0
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              14,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_04",
+        "mask": 103779160713,
+        "comp_idx": 0,
+        "W": 15,
+        "n_unary": 34,
+        "n_binary": 89,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_05",
+        "mask": 27048478763,
+        "comp_idx": 0,
+        "W": 15,
+        "n_unary": 27,
+        "n_binary": 79,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              6,
+              0
+            ],
+            [
+              13,
+              0
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_05",
+        "mask": 26914261291,
+        "comp_idx": 0,
+        "W": 15,
+        "n_unary": 32,
+        "n_binary": 73,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 6,
+          "vars": 4,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 4
+      },
+      {
+        "bid": "v20_05",
+        "mask": 105943969064,
+        "comp_idx": 0,
+        "W": 15,
+        "n_unary": 24,
+        "n_binary": 76,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              13,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              13,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      },
+      {
+        "bid": "v20_05",
+        "mask": 105943969064,
+        "comp_idx": 1,
+        "W": 15,
+        "n_unary": 24,
+        "n_binary": 76,
+        "type": "pure_binary",
+        "full_unsat": true,
+        "pure_unsat": true,
+        "full_cycle": {
+          "edges": 4,
+          "vars": 2,
+          "cycle": [
+            [
+              0,
+              0
+            ],
+            [
+              13,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "pure_cycle": {
+          "edges": 5,
+          "vars": 3,
+          "cycle": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              13,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "pure_exact_vars": 3
+      }
+    ]
+  }
+}

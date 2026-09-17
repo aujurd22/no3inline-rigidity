@@ -1,0 +1,5468 @@
+{
+  "results": [
+    {
+      "n": 6,
+      "legal_general_rectangle_switches": 42,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 38,
+        "2": 4
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 42,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 4,
+          "fraction_of_legal": 0.09523809523809523
+        },
+        "3": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 8,
+      "legal_general_rectangle_switches": 88,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 72,
+        "2": 16
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 88,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 16,
+          "fraction_of_legal": 0.18181818181818182
+        },
+        "3": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              6
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              4
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 10,
+      "legal_general_rectangle_switches": 152,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 152
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 152,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "3": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 12,
+      "legal_general_rectangle_switches": 230,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 230
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 230,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "3": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 14,
+      "legal_general_rectangle_switches": 324,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 316,
+        "2": 8
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 324,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 8,
+          "fraction_of_legal": 0.024691358024691357
+        },
+        "3": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              10
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              8
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              3
+            ],
+            [
+              2,
+              8
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 16,
+      "legal_general_rectangle_switches": 432,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 416,
+        "2": 16
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 432,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 16,
+          "fraction_of_legal": 0.037037037037037035
+        },
+        "3": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              11
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              11
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              11
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 18,
+      "legal_general_rectangle_switches": 566,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 544,
+        "2": 16,
+        "3": 4,
+        "4": 2
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 566,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 22,
+          "fraction_of_legal": 0.038869257950530034
+        },
+        "3": {
+          "safe_switches": 6,
+          "fraction_of_legal": 0.01060070671378092
+        },
+        "4": {
+          "safe_switches": 2,
+          "fraction_of_legal": 0.0035335689045936395
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              12
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              12
+            ],
+            [
+              1,
+              6
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              6
+            ],
+            [
+              3,
+              12
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              12
+            ],
+            [
+              3,
+              6
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              6
+            ],
+            [
+              14,
+              5
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              5
+            ],
+            [
+              14,
+              6
+            ]
+          ]
+        },
+        "4": {
+          "removed": [
+            [
+              1,
+              13
+            ],
+            [
+              16,
+              4
+            ]
+          ],
+          "inserted": [
+            [
+              1,
+              4
+            ],
+            [
+              16,
+              13
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 20,
+      "legal_general_rectangle_switches": 702,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 688,
+        "2": 12,
+        "3": 2
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 702,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 14,
+          "fraction_of_legal": 0.019943019943019943
+        },
+        "3": {
+          "safe_switches": 2,
+          "fraction_of_legal": 0.002849002849002849
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              5
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              5
+            ],
+            [
+              19,
+              14
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              14
+            ],
+            [
+              19,
+              5
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              11
+            ],
+            [
+              18,
+              7
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              7
+            ],
+            [
+              18,
+              11
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 22,
+      "legal_general_rectangle_switches": 860,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 828,
+        "2": 32
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 860,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 32,
+          "fraction_of_legal": 0.037209302325581395
+        },
+        "3": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              13
+            ],
+            [
+              1,
+              8
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              8
+            ],
+            [
+              1,
+              13
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              13
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              7
+            ],
+            [
+              3,
+              13
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 24,
+      "legal_general_rectangle_switches": 1032,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 964,
+        "2": 60,
+        "3": 8
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 1032,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 68,
+          "fraction_of_legal": 0.06589147286821706
+        },
+        "3": {
+          "safe_switches": 8,
+          "fraction_of_legal": 0.007751937984496124
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              7
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              7
+            ],
+            [
+              6,
+              22
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              22
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              1,
+              16
+            ],
+            [
+              2,
+              13
+            ]
+          ],
+          "inserted": [
+            [
+              1,
+              13
+            ],
+            [
+              2,
+              16
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 26,
+      "legal_general_rectangle_switches": 1222,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 1164,
+        "2": 54,
+        "3": 4
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 1222,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 58,
+          "fraction_of_legal": 0.04746317512274959
+        },
+        "3": {
+          "safe_switches": 4,
+          "fraction_of_legal": 0.0032733224222585926
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              17
+            ],
+            [
+              1,
+              9
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              9
+            ],
+            [
+              1,
+              17
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              21
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              21
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              21
+            ],
+            [
+              11,
+              12
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              12
+            ],
+            [
+              11,
+              21
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 28,
+      "legal_general_rectangle_switches": 1430,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 1334,
+        "2": 78,
+        "3": 18
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 1430,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 96,
+          "fraction_of_legal": 0.06713286713286713
+        },
+        "3": {
+          "safe_switches": 18,
+          "fraction_of_legal": 0.012587412587412588
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              8
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              8
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              8
+            ],
+            [
+              2,
+              15
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              15
+            ],
+            [
+              2,
+              8
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              8
+            ],
+            [
+              10,
+              25
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              25
+            ],
+            [
+              10,
+              8
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 30,
+      "legal_general_rectangle_switches": 1660,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 1572,
+        "2": 88
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 1660,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 88,
+          "fraction_of_legal": 0.05301204819277108
+        },
+        "3": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              20
+            ],
+            [
+              1,
+              12
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              12
+            ],
+            [
+              1,
+              20
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              20
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              7
+            ],
+            [
+              2,
+              20
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 32,
+      "legal_general_rectangle_switches": 1890,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 1708,
+        "2": 162,
+        "3": 20
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 1890,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 182,
+          "fraction_of_legal": 0.0962962962962963
+        },
+        "3": {
+          "safe_switches": 20,
+          "fraction_of_legal": 0.010582010582010581
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              12
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              12
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              12
+            ],
+            [
+              3,
+              10
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              10
+            ],
+            [
+              3,
+              12
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              12
+            ],
+            [
+              22,
+              5
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              5
+            ],
+            [
+              22,
+              12
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 34,
+      "legal_general_rectangle_switches": 2144,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 1966,
+        "2": 158,
+        "3": 20
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 2144,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 178,
+          "fraction_of_legal": 0.0830223880597015
+        },
+        "3": {
+          "safe_switches": 20,
+          "fraction_of_legal": 0.009328358208955223
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              24
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              24
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              24
+            ],
+            [
+              2,
+              10
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              10
+            ],
+            [
+              2,
+              24
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              27
+            ],
+            [
+              33,
+              6
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              6
+            ],
+            [
+              33,
+              27
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 36,
+      "legal_general_rectangle_switches": 2414,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 2200,
+        "2": 180,
+        "3": 24,
+        "4": 6,
+        "5": 4
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 2414,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 214,
+          "fraction_of_legal": 0.08864954432477216
+        },
+        "3": {
+          "safe_switches": 34,
+          "fraction_of_legal": 0.014084507042253521
+        },
+        "4": {
+          "safe_switches": 10,
+          "fraction_of_legal": 0.004142502071251036
+        },
+        "5": {
+          "safe_switches": 4,
+          "fraction_of_legal": 0.0016570008285004142
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              21
+            ],
+            [
+              1,
+              15
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              15
+            ],
+            [
+              1,
+              21
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              21
+            ],
+            [
+              2,
+              11
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              11
+            ],
+            [
+              2,
+              21
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              1,
+              15
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "inserted": [
+            [
+              1,
+              4
+            ],
+            [
+              5,
+              15
+            ]
+          ]
+        },
+        "4": {
+          "removed": [
+            [
+              1,
+              15
+            ],
+            [
+              28,
+              11
+            ]
+          ],
+          "inserted": [
+            [
+              1,
+              11
+            ],
+            [
+              28,
+              15
+            ]
+          ]
+        },
+        "5": {
+          "removed": [
+            [
+              1,
+              26
+            ],
+            [
+              28,
+              11
+            ]
+          ],
+          "inserted": [
+            [
+              1,
+              11
+            ],
+            [
+              28,
+              26
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 38,
+      "legal_general_rectangle_switches": 2700,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 2572,
+        "2": 110,
+        "3": 14,
+        "4": 4
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 2700,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 128,
+          "fraction_of_legal": 0.047407407407407405
+        },
+        "3": {
+          "safe_switches": 18,
+          "fraction_of_legal": 0.006666666666666667
+        },
+        "4": {
+          "safe_switches": 4,
+          "fraction_of_legal": 0.0014814814814814814
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "3": {
+          "removed": [
+            [
+              0,
+              15
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              6
+            ],
+            [
+              2,
+              15
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              15
+            ],
+            [
+              2,
+              20
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              20
+            ],
+            [
+              2,
+              15
+            ]
+          ]
+        },
+        "1": {
+          "removed": [
+            [
+              0,
+              15
+            ],
+            [
+              3,
+              24
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              24
+            ],
+            [
+              3,
+              15
+            ]
+          ]
+        },
+        "4": {
+          "removed": [
+            [
+              0,
+              27
+            ],
+            [
+              33,
+              11
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              11
+            ],
+            [
+              33,
+              27
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 40,
+      "legal_general_rectangle_switches": 3002,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 2782,
+        "2": 182,
+        "3": 38
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 3002,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 220,
+          "fraction_of_legal": 0.07328447701532312
+        },
+        "3": {
+          "safe_switches": 38,
+          "fraction_of_legal": 0.012658227848101266
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              18
+            ],
+            [
+              1,
+              23
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              23
+            ],
+            [
+              1,
+              18
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              18
+            ],
+            [
+              2,
+              13
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              13
+            ],
+            [
+              2,
+              18
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              18
+            ],
+            [
+              2,
+              35
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              35
+            ],
+            [
+              2,
+              18
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 42,
+      "legal_general_rectangle_switches": 3320,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 3128,
+        "2": 176,
+        "3": 16
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 3320,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 192,
+          "fraction_of_legal": 0.05783132530120482
+        },
+        "3": {
+          "safe_switches": 16,
+          "fraction_of_legal": 0.004819277108433735
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "21": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              11
+            ],
+            [
+              1,
+              14
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              14
+            ],
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              11
+            ],
+            [
+              6,
+              25
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              25
+            ],
+            [
+              6,
+              11
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              11
+            ],
+            [
+              6,
+              33
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              33
+            ],
+            [
+              6,
+              11
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 44,
+      "legal_general_rectangle_switches": 3654,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 3570,
+        "2": 84
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 3654,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 84,
+          "fraction_of_legal": 0.022988505747126436
+        },
+        "3": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "21": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "22": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              17
+            ],
+            [
+              1,
+              9
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              9
+            ],
+            [
+              1,
+              17
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              17
+            ],
+            [
+              1,
+              24
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              24
+            ],
+            [
+              1,
+              17
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 46,
+      "legal_general_rectangle_switches": 4004,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 3782,
+        "2": 200,
+        "3": 20,
+        "5": 2
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 4004,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 222,
+          "fraction_of_legal": 0.05544455544455545
+        },
+        "3": {
+          "safe_switches": 22,
+          "fraction_of_legal": 0.005494505494505495
+        },
+        "4": {
+          "safe_switches": 2,
+          "fraction_of_legal": 0.0004995004995004995
+        },
+        "5": {
+          "safe_switches": 2,
+          "fraction_of_legal": 0.0004995004995004995
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "21": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "22": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "23": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "2": {
+          "removed": [
+            [
+              0,
+              12
+            ],
+            [
+              1,
+              15
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              15
+            ],
+            [
+              1,
+              12
+            ]
+          ]
+        },
+        "1": {
+          "removed": [
+            [
+              0,
+              12
+            ],
+            [
+              1,
+              42
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              42
+            ],
+            [
+              1,
+              12
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              12
+            ],
+            [
+              27,
+              4
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              4
+            ],
+            [
+              27,
+              12
+            ]
+          ]
+        },
+        "5": {
+          "removed": [
+            [
+              7,
+              32
+            ],
+            [
+              38,
+              13
+            ]
+          ],
+          "inserted": [
+            [
+              7,
+              13
+            ],
+            [
+              38,
+              32
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 48,
+      "legal_general_rectangle_switches": 4370,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 3924,
+        "2": 380,
+        "3": 66
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 4370,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 446,
+          "fraction_of_legal": 0.10205949656750572
+        },
+        "3": {
+          "safe_switches": 66,
+          "fraction_of_legal": 0.015102974828375287
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "21": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "22": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "23": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "24": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              35
+            ],
+            [
+              1,
+              23
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              23
+            ],
+            [
+              1,
+              35
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              35
+            ],
+            [
+              4,
+              25
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              25
+            ],
+            [
+              4,
+              35
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              35
+            ],
+            [
+              4,
+              28
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              28
+            ],
+            [
+              4,
+              35
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 50,
+      "legal_general_rectangle_switches": 4752,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 4338,
+        "2": 362,
+        "3": 44,
+        "4": 8
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 4752,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 414,
+          "fraction_of_legal": 0.08712121212121213
+        },
+        "3": {
+          "safe_switches": 52,
+          "fraction_of_legal": 0.010942760942760943
+        },
+        "4": {
+          "safe_switches": 8,
+          "fraction_of_legal": 0.0016835016835016834
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "21": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "22": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "23": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "24": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "25": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "2": {
+          "removed": [
+            [
+              0,
+              22
+            ],
+            [
+              2,
+              25
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              25
+            ],
+            [
+              2,
+              22
+            ]
+          ]
+        },
+        "4": {
+          "removed": [
+            [
+              0,
+              22
+            ],
+            [
+              2,
+              40
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              40
+            ],
+            [
+              2,
+              22
+            ]
+          ]
+        },
+        "1": {
+          "removed": [
+            [
+              0,
+              22
+            ],
+            [
+              3,
+              44
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              44
+            ],
+            [
+              3,
+              22
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              22
+            ],
+            [
+              13,
+              3
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              3
+            ],
+            [
+              13,
+              22
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 52,
+      "legal_general_rectangle_switches": 5150,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 4902,
+        "2": 236,
+        "3": 12
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 5150,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 248,
+          "fraction_of_legal": 0.048155339805825245
+        },
+        "3": {
+          "safe_switches": 12,
+          "fraction_of_legal": 0.002330097087378641
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "21": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "22": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "23": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "24": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "25": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "26": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              23
+            ],
+            [
+              1,
+              25
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              25
+            ],
+            [
+              1,
+              23
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              23
+            ],
+            [
+              11,
+              39
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              39
+            ],
+            [
+              11,
+              23
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              1,
+              36
+            ],
+            [
+              41,
+              18
+            ]
+          ],
+          "inserted": [
+            [
+              1,
+              18
+            ],
+            [
+              41,
+              36
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 54,
+      "legal_general_rectangle_switches": 5562,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 5226,
+        "2": 306,
+        "3": 22,
+        "5": 8
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 5562,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 336,
+          "fraction_of_legal": 0.06040992448759439
+        },
+        "3": {
+          "safe_switches": 30,
+          "fraction_of_legal": 0.005393743257820928
+        },
+        "4": {
+          "safe_switches": 8,
+          "fraction_of_legal": 0.001438331535418914
+        },
+        "5": {
+          "safe_switches": 8,
+          "fraction_of_legal": 0.001438331535418914
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "21": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "22": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "23": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "24": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "25": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "26": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "27": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              22
+            ],
+            [
+              1,
+              31
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              31
+            ],
+            [
+              1,
+              22
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              22
+            ],
+            [
+              2,
+              41
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              41
+            ],
+            [
+              2,
+              22
+            ]
+          ]
+        },
+        "5": {
+          "removed": [
+            [
+              0,
+              22
+            ],
+            [
+              51,
+              12
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              12
+            ],
+            [
+              51,
+              22
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              2,
+              16
+            ],
+            [
+              51,
+              37
+            ]
+          ],
+          "inserted": [
+            [
+              2,
+              37
+            ],
+            [
+              51,
+              16
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 56,
+      "legal_general_rectangle_switches": 5992,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 5714,
+        "2": 228,
+        "3": 50
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 5992,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 278,
+          "fraction_of_legal": 0.046395193591455275
+        },
+        "3": {
+          "safe_switches": 50,
+          "fraction_of_legal": 0.008344459279038718
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "21": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "22": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "23": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "24": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "25": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "26": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "27": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "28": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              28
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              28
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              28
+            ],
+            [
+              25,
+              8
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              8
+            ],
+            [
+              25,
+              28
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              28
+            ],
+            [
+              47,
+              35
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              35
+            ],
+            [
+              47,
+              28
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 58,
+      "legal_general_rectangle_switches": 6440,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 6116,
+        "2": 282,
+        "3": 42
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 6440,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 324,
+          "fraction_of_legal": 0.05031055900621118
+        },
+        "3": {
+          "safe_switches": 42,
+          "fraction_of_legal": 0.006521739130434782
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "21": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "22": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "23": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "24": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "25": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "26": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "27": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "28": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "29": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              21
+            ],
+            [
+              1,
+              38
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              38
+            ],
+            [
+              1,
+              21
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              21
+            ],
+            [
+              3,
+              31
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              31
+            ],
+            [
+              3,
+              21
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              21
+            ],
+            [
+              50,
+              47
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              47
+            ],
+            [
+              50,
+              21
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 60,
+      "legal_general_rectangle_switches": 6902,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 6520,
+        "2": 338,
+        "3": 36,
+        "4": 8
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 6902,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 382,
+          "fraction_of_legal": 0.05534627644161113
+        },
+        "3": {
+          "safe_switches": 44,
+          "fraction_of_legal": 0.006374963778614894
+        },
+        "4": {
+          "safe_switches": 8,
+          "fraction_of_legal": 0.0011590843233845263
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "21": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "22": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "23": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "24": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "25": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "26": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "27": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "28": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "29": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "30": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "2": {
+          "removed": [
+            [
+              0,
+              20
+            ],
+            [
+              1,
+              35
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              35
+            ],
+            [
+              1,
+              20
+            ]
+          ]
+        },
+        "1": {
+          "removed": [
+            [
+              0,
+              20
+            ],
+            [
+              1,
+              39
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              39
+            ],
+            [
+              1,
+              20
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              20
+            ],
+            [
+              48,
+              38
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              38
+            ],
+            [
+              48,
+              20
+            ]
+          ]
+        },
+        "4": {
+          "removed": [
+            [
+              1,
+              35
+            ],
+            [
+              5,
+              9
+            ]
+          ],
+          "inserted": [
+            [
+              1,
+              9
+            ],
+            [
+              5,
+              35
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 62,
+      "legal_general_rectangle_switches": 7378,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 7188,
+        "2": 172,
+        "3": 16,
+        "4": 2
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 7378,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 190,
+          "fraction_of_legal": 0.025752236378422336
+        },
+        "3": {
+          "safe_switches": 18,
+          "fraction_of_legal": 0.002439685551640011
+        },
+        "4": {
+          "safe_switches": 2,
+          "fraction_of_legal": 0.0002710761724044456
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "21": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "22": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "23": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "24": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "25": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "26": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "27": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "28": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "29": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "30": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "31": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              8
+            ],
+            [
+              1,
+              12
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              12
+            ],
+            [
+              1,
+              8
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              8
+            ],
+            [
+              8,
+              61
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              61
+            ],
+            [
+              8,
+              8
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              1,
+              43
+            ],
+            [
+              13,
+              17
+            ]
+          ],
+          "inserted": [
+            [
+              1,
+              17
+            ],
+            [
+              13,
+              43
+            ]
+          ]
+        },
+        "4": {
+          "removed": [
+            [
+              2,
+              56
+            ],
+            [
+              59,
+              5
+            ]
+          ],
+          "inserted": [
+            [
+              2,
+              5
+            ],
+            [
+              59,
+              56
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 64,
+      "legal_general_rectangle_switches": 7872,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 7334,
+        "2": 492,
+        "3": 46
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 7872,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 538,
+          "fraction_of_legal": 0.06834349593495935
+        },
+        "3": {
+          "safe_switches": 46,
+          "fraction_of_legal": 0.005843495934959349
+        },
+        "4": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "21": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "22": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "23": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "24": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "25": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "26": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "27": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "28": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "29": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "30": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "31": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "32": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              14
+            ],
+            [
+              1,
+              22
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              22
+            ],
+            [
+              1,
+              14
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              14
+            ],
+            [
+              4,
+              25
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              25
+            ],
+            [
+              4,
+              14
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              14
+            ],
+            [
+              11,
+              59
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              59
+            ],
+            [
+              11,
+              14
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 66,
+      "legal_general_rectangle_switches": 8384,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 7878,
+        "2": 454,
+        "3": 32,
+        "4": 16,
+        "5": 4
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 8384,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 506,
+          "fraction_of_legal": 0.060353053435114504
+        },
+        "3": {
+          "safe_switches": 52,
+          "fraction_of_legal": 0.006202290076335878
+        },
+        "4": {
+          "safe_switches": 20,
+          "fraction_of_legal": 0.002385496183206107
+        },
+        "5": {
+          "safe_switches": 4,
+          "fraction_of_legal": 0.00047709923664122136
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "21": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "22": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "23": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "24": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "25": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "26": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "27": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "28": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "29": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "30": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "31": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "32": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "33": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              31
+            ],
+            [
+              1,
+              51
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              51
+            ],
+            [
+              1,
+              31
+            ]
+          ]
+        },
+        "4": {
+          "removed": [
+            [
+              0,
+              31
+            ],
+            [
+              6,
+              39
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              39
+            ],
+            [
+              6,
+              31
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              31
+            ],
+            [
+              7,
+              37
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              37
+            ],
+            [
+              7,
+              31
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              36
+            ],
+            [
+              43,
+              55
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              55
+            ],
+            [
+              43,
+              36
+            ]
+          ]
+        },
+        "5": {
+          "removed": [
+            [
+              9,
+              52
+            ],
+            [
+              54,
+              53
+            ]
+          ],
+          "inserted": [
+            [
+              9,
+              53
+            ],
+            [
+              54,
+              52
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 68,
+      "legal_general_rectangle_switches": 8910,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 8228,
+        "2": 612,
+        "3": 66,
+        "6": 4
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 8910,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 682,
+          "fraction_of_legal": 0.07654320987654321
+        },
+        "3": {
+          "safe_switches": 70,
+          "fraction_of_legal": 0.007856341189674524
+        },
+        "4": {
+          "safe_switches": 4,
+          "fraction_of_legal": 0.0004489337822671156
+        },
+        "5": {
+          "safe_switches": 4,
+          "fraction_of_legal": 0.0004489337822671156
+        },
+        "6": {
+          "safe_switches": 4,
+          "fraction_of_legal": 0.0004489337822671156
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "21": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "22": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "23": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "24": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "25": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "26": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "27": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "28": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "29": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "30": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "31": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "32": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "33": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "34": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              12
+            ],
+            [
+              1,
+              26
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              26
+            ],
+            [
+              1,
+              12
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              12
+            ],
+            [
+              2,
+              35
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              35
+            ],
+            [
+              2,
+              12
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              12
+            ],
+            [
+              3,
+              36
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              36
+            ],
+            [
+              3,
+              12
+            ]
+          ]
+        },
+        "6": {
+          "removed": [
+            [
+              3,
+              36
+            ],
+            [
+              24,
+              51
+            ]
+          ],
+          "inserted": [
+            [
+              3,
+              51
+            ],
+            [
+              24,
+              36
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 70,
+      "legal_general_rectangle_switches": 9450,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 8758,
+        "2": 560,
+        "3": 118,
+        "4": 10,
+        "5": 4
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 9450,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 692,
+          "fraction_of_legal": 0.07322751322751322
+        },
+        "3": {
+          "safe_switches": 132,
+          "fraction_of_legal": 0.013968253968253968
+        },
+        "4": {
+          "safe_switches": 14,
+          "fraction_of_legal": 0.0014814814814814814
+        },
+        "5": {
+          "safe_switches": 4,
+          "fraction_of_legal": 0.0004232804232804233
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "21": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "22": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "23": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "24": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "25": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "26": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "27": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "28": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "29": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "30": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "31": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "32": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "33": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "34": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "35": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              35
+            ],
+            [
+              1,
+              21
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              21
+            ],
+            [
+              1,
+              35
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              35
+            ],
+            [
+              1,
+              51
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              51
+            ],
+            [
+              1,
+              35
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              35
+            ],
+            [
+              2,
+              39
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              39
+            ],
+            [
+              2,
+              35
+            ]
+          ]
+        },
+        "5": {
+          "removed": [
+            [
+              0,
+              53
+            ],
+            [
+              4,
+              46
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              46
+            ],
+            [
+              4,
+              53
+            ]
+          ]
+        },
+        "4": {
+          "removed": [
+            [
+              6,
+              10
+            ],
+            [
+              10,
+              63
+            ]
+          ],
+          "inserted": [
+            [
+              6,
+              63
+            ],
+            [
+              10,
+              10
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "n": 72,
+      "legal_general_rectangle_switches": 10008,
+      "full_solution_neighbors": 0,
+      "minimum_new_scale_histogram": {
+        "1": 9490,
+        "2": 468,
+        "3": 42,
+        "4": 8
+      },
+      "safe_by_threshold": {
+        "1": {
+          "safe_switches": 10008,
+          "fraction_of_legal": 1.0
+        },
+        "2": {
+          "safe_switches": 518,
+          "fraction_of_legal": 0.0517585931254996
+        },
+        "3": {
+          "safe_switches": 50,
+          "fraction_of_legal": 0.004996003197442046
+        },
+        "4": {
+          "safe_switches": 8,
+          "fraction_of_legal": 0.0007993605115907274
+        },
+        "5": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "6": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "7": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "8": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "9": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "10": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "11": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "12": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "13": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "14": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "15": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "16": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "17": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "18": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "19": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "20": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "21": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "22": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "23": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "24": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "25": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "26": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "27": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "28": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "29": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "30": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "31": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "32": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "33": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "34": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "35": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        },
+        "36": {
+          "safe_switches": 0,
+          "fraction_of_legal": 0.0
+        }
+      },
+      "one_witness_by_exact_minimum_scale": {
+        "1": {
+          "removed": [
+            [
+              0,
+              34
+            ],
+            [
+              1,
+              33
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              33
+            ],
+            [
+              1,
+              34
+            ]
+          ]
+        },
+        "2": {
+          "removed": [
+            [
+              0,
+              34
+            ],
+            [
+              1,
+              42
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              42
+            ],
+            [
+              1,
+              34
+            ]
+          ]
+        },
+        "3": {
+          "removed": [
+            [
+              0,
+              34
+            ],
+            [
+              35,
+              22
+            ]
+          ],
+          "inserted": [
+            [
+              0,
+              22
+            ],
+            [
+              35,
+              34
+            ]
+          ]
+        },
+        "4": {
+          "removed": [
+            [
+              5,
+              62
+            ],
+            [
+              60,
+              30
+            ]
+          ],
+          "inserted": [
+            [
+              5,
+              30
+            ],
+            [
+              60,
+              62
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

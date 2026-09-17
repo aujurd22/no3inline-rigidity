@@ -1,0 +1,12 @@
+== D5 search3: fresh-start defect-directed SA, m=37, 8 x 150.0s ==
+  rs0: best_bad=100 found=False
+  rs1: best_bad=112 found=False
+  rs2: best_bad=124 found=False
+  rs3: best_bad=112 found=False
+  rs4: best_bad=116 found=False
+  rs5: best_bad=96 found=False
+  rs6: best_bad=168 found=False
+  rs7: best_bad=120 found=False
+
+== best_bad=96 verify_total=96 2factor=True found=False ==
+saved D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\swarm_D5_search3.json

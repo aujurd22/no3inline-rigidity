@@ -1,0 +1,125 @@
+{
+  "parameters": {
+    "bases": "v40_03",
+    "k": 5,
+    "iterations": 1,
+    "target": 40,
+    "target_exact": true,
+    "time_limit": 30.0,
+    "solver_workers": 8,
+    "branch_parts": 4,
+    "branch_index": 0,
+    "branch_path": "0,0",
+    "modes": "4",
+    "out": "directed_cell_lns_branch_path_smoke.json"
+  },
+  "runs": [
+    {
+      "base": "v40_03",
+      "base_sources": [
+        "weighted_40_verified",
+        "partial_hitting_repair_slack1.json:exact1",
+        "safe_path_relink_d2.json:exact1",
+        "joint_factor_sa_12x6000.json:exact4"
+      ],
+      "covered_defects": 9,
+      "solve": {
+        "status": "INFEASIBLE",
+        "removed_indices": [
+          4,
+          19,
+          33,
+          34,
+          35
+        ],
+        "removed_edges": [
+          [
+            2,
+            20
+          ],
+          [
+            10,
+            15
+          ],
+          [
+            24,
+            34
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            27,
+            36
+          ]
+        ],
+        "affected_vertices": [
+          2,
+          10,
+          15,
+          20,
+          24,
+          25,
+          26,
+          27,
+          34,
+          36
+        ],
+        "residual_degree_histogram": {
+          "1": 10
+        },
+        "directed_cell_variables": 84,
+        "fixed_point_count": 128,
+        "potential_point_count": 464,
+        "raw_line_keys": 85490,
+        "active_line_costs": 1418,
+        "fixed_line_constant": 4,
+        "diagonal_constraints": 220,
+        "branch": null,
+        "branches": [
+          {
+            "vertex": 2,
+            "parts": 4,
+            "index": 0,
+            "partner_edges": [
+              [
+                2,
+                10
+              ],
+              [
+                2,
+                25
+              ],
+              [
+                2,
+                36
+              ]
+            ]
+          },
+          {
+            "vertex": 10,
+            "parts": 4,
+            "index": 0,
+            "partner_edges": [
+              [
+                2,
+                10
+              ],
+              [
+                10,
+                26
+              ]
+            ]
+          }
+        ],
+        "target": 40,
+        "target_exact": true,
+        "build_s": 0.365,
+        "solve_s": 0.023,
+        "best_bound": null
+      }
+    }
+  ],
+  "best_candidate": null
+}

@@ -1,0 +1,54 @@
+{
+  "basin": {
+    "8": {
+      "1": {
+        "mv1_all": {
+          "success": 0,
+          "rate": 0.0,
+          "mean_iters_when_solved": null,
+          "min_bad_mean": 12.666666666666666,
+          "example_traj": null
+        },
+        "mv1_scrambled": {
+          "success": 3,
+          "rate": 1.0,
+          "mean_iters_when_solved": 400.0,
+          "min_bad_mean": 0.0,
+          "example_traj": [
+            8,
+            8
+          ]
+        }
+      },
+      "2": {
+        "mv1_all": {
+          "success": 0,
+          "rate": 0.0,
+          "mean_iters_when_solved": null,
+          "min_bad_mean": 12.666666666666666,
+          "example_traj": null
+        },
+        "mv1_scrambled": {
+          "success": 0,
+          "rate": 0.0,
+          "mean_iters_when_solved": null,
+          "min_bad_mean": 5.666666666666667,
+          "example_traj": null
+        }
+      }
+    }
+  },
+  "meta": {
+    "args": {
+      "ms": "8",
+      "ks": "1,2",
+      "move_sizes": "1",
+      "restarts": 3,
+      "iters": 1500,
+      "seed": 7,
+      "m37_warm": false,
+      "out": "results/_smoke_recovery.json"
+    },
+    "elapsed_sec": 9.554296970367432
+  }
+}

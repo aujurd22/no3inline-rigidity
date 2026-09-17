@@ -1,0 +1,9629 @@
+[
+  {
+    "n": 6,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n6_rot4",
+    "fundamental_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 4,
+    "best": {
+      "p": 3,
+      "exact_orbits": 2,
+      "exact_points": 8,
+      "tail_probability": 1.0,
+      "histogram": {
+        "2": 5000
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 3,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 5000
+        }
+      },
+      {
+        "p": 5,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 5000
+        }
+      },
+      {
+        "p": 7,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 5000
+        }
+      },
+      {
+        "p": 11,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 5000
+        }
+      }
+    ]
+  },
+  {
+    "n": 8,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n8_rot4",
+    "fundamental_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 4,
+    "best": {
+      "p": 5,
+      "exact_orbits": 1,
+      "exact_points": 4,
+      "tail_probability": 1.0,
+      "histogram": {
+        "1": 3309,
+        "2": 1691
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 5,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 3309,
+          "2": 1691
+        }
+      },
+      {
+        "p": 7,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 5000
+        }
+      },
+      {
+        "p": 11,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 5000
+        }
+      },
+      {
+        "p": 13,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 5000
+        }
+      }
+    ]
+  },
+  {
+    "n": 10,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n10_rot4",
+    "fundamental_edges": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 6,
+    "best": {
+      "p": 17,
+      "exact_orbits": 2,
+      "exact_points": 8,
+      "tail_probability": 0.2712,
+      "histogram": {
+        "1": 3644,
+        "2": 1356
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 17,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.2712,
+        "histogram": {
+          "1": 3644,
+          "2": 1356
+        }
+      },
+      {
+        "p": 13,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.5404,
+        "histogram": {
+          "1": 2298,
+          "2": 2702
+        }
+      },
+      {
+        "p": 7,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.7274,
+        "histogram": {
+          "1": 1363,
+          "2": 3302,
+          "3": 335
+        }
+      },
+      {
+        "p": 5,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 2652,
+          "2": 1345,
+          "3": 708,
+          "5": 295
+        }
+      },
+      {
+        "p": 11,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 1688,
+          "2": 3312
+        }
+      },
+      {
+        "p": 19,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 3630,
+          "2": 1370
+        }
+      }
+    ]
+  },
+  {
+    "n": 12,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n12_rot4",
+    "fundamental_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 6,
+    "best": {
+      "p": 19,
+      "exact_orbits": 2,
+      "exact_points": 8,
+      "tail_probability": 0.4946,
+      "histogram": {
+        "1": 2527,
+        "2": 2206,
+        "3": 267
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 19,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.4946,
+        "histogram": {
+          "1": 2527,
+          "2": 2206,
+          "3": 267
+        }
+      },
+      {
+        "p": 17,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.4982,
+        "histogram": {
+          "1": 2509,
+          "2": 2491
+        }
+      },
+      {
+        "p": 7,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9498,
+        "histogram": {
+          "1": 251,
+          "2": 3610,
+          "3": 1139
+        }
+      },
+      {
+        "p": 11,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 1460,
+          "2": 3540
+        }
+      },
+      {
+        "p": 13,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 1698,
+          "2": 3302
+        }
+      },
+      {
+        "p": 23,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 3310,
+          "2": 1690
+        }
+      }
+    ]
+  },
+  {
+    "n": 14,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n14_rot4",
+    "fundamental_edges": [
+      [
+        0,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        6,
+        6
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 6,
+    "best": {
+      "p": 23,
+      "exact_orbits": 2,
+      "exact_points": 8,
+      "tail_probability": 0.5076,
+      "histogram": {
+        "1": 2462,
+        "2": 2538
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 23,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.5076,
+        "histogram": {
+          "1": 2462,
+          "2": 2538
+        }
+      },
+      {
+        "p": 19,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.5774,
+        "histogram": {
+          "1": 2113,
+          "2": 2606,
+          "3": 281
+        }
+      },
+      {
+        "p": 17,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.6658,
+        "histogram": {
+          "1": 1671,
+          "2": 3247,
+          "3": 82
+        }
+      },
+      {
+        "p": 13,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.8324,
+        "histogram": {
+          "1": 838,
+          "2": 3905,
+          "3": 146,
+          "4": 111
+        }
+      },
+      {
+        "p": 11,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.879,
+        "histogram": {
+          "1": 605,
+          "2": 3948,
+          "3": 447
+        }
+      },
+      {
+        "p": 7,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9804,
+        "histogram": {
+          "1": 98,
+          "2": 3315,
+          "3": 1587
+        }
+      }
+    ]
+  },
+  {
+    "n": 16,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n16_rot4",
+    "fundamental_edges": [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 7,
+    "best": {
+      "p": 29,
+      "exact_orbits": 2,
+      "exact_points": 8,
+      "tail_probability": 0.4152,
+      "histogram": {
+        "1": 2924,
+        "2": 2076
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 29,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.4152,
+        "histogram": {
+          "1": 2924,
+          "2": 2076
+        }
+      },
+      {
+        "p": 23,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.6904,
+        "histogram": {
+          "1": 1548,
+          "2": 3452
+        }
+      },
+      {
+        "p": 19,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.7024,
+        "histogram": {
+          "1": 1488,
+          "2": 3512
+        }
+      },
+      {
+        "p": 17,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.783,
+        "histogram": {
+          "1": 1085,
+          "2": 3427,
+          "3": 388,
+          "4": 100
+        }
+      },
+      {
+        "p": 13,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.8894,
+        "histogram": {
+          "1": 553,
+          "2": 3753,
+          "3": 650,
+          "4": 44
+        }
+      },
+      {
+        "p": 11,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.969,
+        "histogram": {
+          "1": 155,
+          "2": 3619,
+          "3": 1109,
+          "4": 117
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 2629,
+          "2": 2371
+        }
+      }
+    ]
+  },
+  {
+    "n": 18,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n18_rot4",
+    "fundamental_edges": [
+      [
+        0,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 7,
+    "best": {
+      "p": 17,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.0664,
+      "histogram": {
+        "1": 616,
+        "2": 4052,
+        "3": 277,
+        "4": 55
+      }
+    },
+    "bonferroni_bound": 0.4648,
+    "records": [
+      {
+        "p": 17,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.0664,
+        "histogram": {
+          "1": 616,
+          "2": 4052,
+          "3": 277,
+          "4": 55
+        }
+      },
+      {
+        "p": 13,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2224,
+        "histogram": {
+          "1": 177,
+          "2": 3711,
+          "3": 995,
+          "4": 109,
+          "5": 8
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.5644,
+        "histogram": {
+          "1": 2178,
+          "2": 2822
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.615,
+        "histogram": {
+          "1": 1925,
+          "2": 2970,
+          "3": 105
+        }
+      },
+      {
+        "p": 23,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.7824,
+        "histogram": {
+          "1": 1088,
+          "2": 3551,
+          "3": 361
+        }
+      },
+      {
+        "p": 19,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.8446,
+        "histogram": {
+          "1": 777,
+          "2": 4223
+        }
+      },
+      {
+        "p": 11,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.997,
+        "histogram": {
+          "1": 15,
+          "2": 3442,
+          "3": 1412,
+          "4": 117,
+          "5": 14
+        }
+      }
+    ]
+  },
+  {
+    "n": 20,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n20_rot4",
+    "fundamental_edges": [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        0
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 8,
+    "best": {
+      "p": 13,
+      "exact_orbits": 4,
+      "exact_points": 16,
+      "tail_probability": 0.0604,
+      "histogram": {
+        "1": 55,
+        "2": 3123,
+        "3": 1520,
+        "4": 256,
+        "5": 41,
+        "6": 5
+      }
+    },
+    "bonferroni_bound": 0.4832,
+    "records": [
+      {
+        "p": 13,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.0604,
+        "histogram": {
+          "1": 55,
+          "2": 3123,
+          "3": 1520,
+          "4": 256,
+          "5": 41,
+          "6": 5
+        }
+      },
+      {
+        "p": 23,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.092,
+        "histogram": {
+          "1": 679,
+          "2": 3861,
+          "3": 460
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.666,
+        "histogram": {
+          "1": 1670,
+          "2": 3164,
+          "3": 166
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.7244,
+        "histogram": {
+          "1": 1378,
+          "2": 3353,
+          "3": 254,
+          "4": 15
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.751,
+        "histogram": {
+          "1": 1245,
+          "2": 3413,
+          "3": 332,
+          "4": 10
+        }
+      },
+      {
+        "p": 19,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.921,
+        "histogram": {
+          "1": 395,
+          "2": 3864,
+          "3": 741
+        }
+      },
+      {
+        "p": 17,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9468,
+        "histogram": {
+          "1": 266,
+          "2": 3649,
+          "3": 991,
+          "4": 86,
+          "5": 8
+        }
+      },
+      {
+        "p": 11,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9998,
+        "histogram": {
+          "1": 1,
+          "2": 2697,
+          "3": 2061,
+          "4": 230,
+          "5": 11
+        }
+      }
+    ]
+  },
+  {
+    "n": 22,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n22_rot4",
+    "fundamental_edges": [
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 10,
+    "best": {
+      "p": 29,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.0926,
+      "histogram": {
+        "1": 883,
+        "2": 3654,
+        "3": 439,
+        "4": 24
+      }
+    },
+    "bonferroni_bound": 0.926,
+    "records": [
+      {
+        "p": 29,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.0926,
+        "histogram": {
+          "1": 883,
+          "2": 3654,
+          "3": 439,
+          "4": 24
+        }
+      },
+      {
+        "p": 23,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1252,
+        "histogram": {
+          "1": 363,
+          "2": 4011,
+          "3": 626
+        }
+      },
+      {
+        "p": 19,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2156,
+        "histogram": {
+          "1": 184,
+          "2": 3738,
+          "3": 1029,
+          "4": 49
+        }
+      },
+      {
+        "p": 17,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3024,
+        "histogram": {
+          "1": 113,
+          "2": 3375,
+          "3": 1367,
+          "4": 134,
+          "5": 11
+        }
+      },
+      {
+        "p": 11,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.5808,
+        "histogram": {
+          "1": 13,
+          "2": 2083,
+          "3": 2568,
+          "4": 330,
+          "5": 6
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.6564,
+        "histogram": {
+          "1": 1718,
+          "2": 3125,
+          "3": 157
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.6704,
+        "histogram": {
+          "1": 1648,
+          "2": 3162,
+          "3": 188,
+          "4": 2
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.7394,
+        "histogram": {
+          "1": 1303,
+          "2": 3309,
+          "3": 372,
+          "4": 16
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.828,
+        "histogram": {
+          "1": 860,
+          "2": 3751,
+          "3": 381,
+          "4": 8
+        }
+      },
+      {
+        "p": 13,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9972,
+        "histogram": {
+          "1": 14,
+          "2": 2826,
+          "3": 1787,
+          "4": 300,
+          "5": 61,
+          "6": 11,
+          "7": 1
+        }
+      }
+    ]
+  },
+  {
+    "n": 24,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n24_rot4",
+    "fundamental_edges": [
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        10,
+        2
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 10,
+    "best": {
+      "p": 31,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.1138,
+      "histogram": {
+        "1": 605,
+        "2": 3826,
+        "3": 554,
+        "4": 15
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 31,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1138,
+        "histogram": {
+          "1": 605,
+          "2": 3826,
+          "3": 554,
+          "4": 15
+        }
+      },
+      {
+        "p": 23,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1734,
+        "histogram": {
+          "1": 198,
+          "2": 3935,
+          "3": 867
+        }
+      },
+      {
+        "p": 19,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2992,
+        "histogram": {
+          "1": 68,
+          "2": 3436,
+          "3": 1393,
+          "4": 99,
+          "5": 4
+        }
+      },
+      {
+        "p": 17,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3532,
+        "histogram": {
+          "1": 33,
+          "2": 3201,
+          "3": 1556,
+          "4": 180,
+          "5": 29,
+          "6": 1
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.7264,
+        "histogram": {
+          "1": 1368,
+          "2": 3426,
+          "3": 206
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.7384,
+        "histogram": {
+          "1": 1308,
+          "2": 3494,
+          "3": 198
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.764,
+        "histogram": {
+          "1": 1180,
+          "2": 3552,
+          "3": 268
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.796,
+        "histogram": {
+          "1": 1020,
+          "2": 3571,
+          "3": 397,
+          "4": 12
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.891,
+        "histogram": {
+          "1": 545,
+          "2": 3875,
+          "3": 541,
+          "4": 34,
+          "5": 5
+        }
+      },
+      {
+        "p": 13,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9996,
+        "histogram": {
+          "1": 2,
+          "2": 2233,
+          "3": 2173,
+          "4": 475,
+          "5": 96,
+          "6": 21
+        }
+      }
+    ]
+  },
+  {
+    "n": 26,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n26_rot4",
+    "fundamental_edges": [
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        11,
+        12
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 10,
+    "best": {
+      "p": 47,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.0692,
+      "histogram": {
+        "1": 1115,
+        "2": 3539,
+        "3": 333,
+        "4": 13
+      }
+    },
+    "bonferroni_bound": 0.692,
+    "records": [
+      {
+        "p": 47,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.0692,
+        "histogram": {
+          "1": 1115,
+          "2": 3539,
+          "3": 333,
+          "4": 13
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1356,
+        "histogram": {
+          "1": 331,
+          "2": 3991,
+          "3": 662,
+          "4": 16
+        }
+      },
+      {
+        "p": 23,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2478,
+        "histogram": {
+          "1": 89,
+          "2": 3672,
+          "3": 1194,
+          "4": 45
+        }
+      },
+      {
+        "p": 17,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.4548,
+        "histogram": {
+          "1": 12,
+          "2": 2714,
+          "3": 1896,
+          "4": 333,
+          "5": 42,
+          "6": 3
+        }
+      },
+      {
+        "p": 13,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.6492,
+        "histogram": {
+          "1": 1,
+          "2": 1753,
+          "3": 2444,
+          "4": 627,
+          "5": 133,
+          "6": 36,
+          "7": 6
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.8038,
+        "histogram": {
+          "1": 981,
+          "2": 3695,
+          "3": 312,
+          "4": 12
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.8228,
+        "histogram": {
+          "1": 886,
+          "2": 3736,
+          "3": 372,
+          "4": 6
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.8564,
+        "histogram": {
+          "1": 718,
+          "2": 3873,
+          "3": 394,
+          "4": 15
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9388,
+        "histogram": {
+          "1": 306,
+          "2": 3889,
+          "3": 751,
+          "4": 45,
+          "5": 8,
+          "6": 1
+        }
+      },
+      {
+        "p": 19,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9968,
+        "histogram": {
+          "1": 16,
+          "2": 3051,
+          "3": 1771,
+          "4": 157,
+          "5": 5
+        }
+      }
+    ]
+  },
+  {
+    "n": 28,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n28_rot4",
+    "fundamental_edges": [
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        11,
+        7
+      ],
+      [
+        12,
+        2
+      ],
+      [
+        13,
+        13
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 10,
+    "best": {
+      "p": 53,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.0662,
+      "histogram": {
+        "1": 1010,
+        "2": 3659,
+        "3": 324,
+        "4": 7
+      }
+    },
+    "bonferroni_bound": 0.6619999999999999,
+    "records": [
+      {
+        "p": 53,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.0662,
+        "histogram": {
+          "1": 1010,
+          "2": 3659,
+          "3": 324,
+          "4": 7
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1176,
+        "histogram": {
+          "1": 526,
+          "2": 3886,
+          "3": 557,
+          "4": 31
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2258,
+        "histogram": {
+          "1": 176,
+          "2": 3695,
+          "3": 1042,
+          "4": 82,
+          "5": 5
+        }
+      },
+      {
+        "p": 23,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3436,
+        "histogram": {
+          "1": 42,
+          "2": 3240,
+          "3": 1564,
+          "4": 150,
+          "5": 4
+        }
+      },
+      {
+        "p": 19,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.4774,
+        "histogram": {
+          "1": 7,
+          "2": 2606,
+          "3": 2108,
+          "4": 260,
+          "5": 19
+        }
+      },
+      {
+        "p": 17,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.5708,
+        "histogram": {
+          "1": 7,
+          "2": 2139,
+          "3": 2303,
+          "4": 467,
+          "5": 70,
+          "6": 12,
+          "7": 2
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.836,
+        "histogram": {
+          "1": 820,
+          "2": 3782,
+          "3": 385,
+          "4": 13
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.8732,
+        "histogram": {
+          "1": 634,
+          "2": 3852,
+          "3": 494,
+          "4": 20
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.914,
+        "histogram": {
+          "1": 430,
+          "2": 3827,
+          "3": 706,
+          "4": 36,
+          "5": 1
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9582,
+        "histogram": {
+          "1": 209,
+          "2": 3769,
+          "3": 974,
+          "4": 48
+        }
+      }
+    ]
+  },
+  {
+    "n": 30,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n30_rot4",
+    "fundamental_edges": [
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        12,
+        4
+      ],
+      [
+        14,
+        14
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 11,
+    "best": {
+      "p": 23,
+      "exact_orbits": 4,
+      "exact_points": 16,
+      "tail_probability": 0.0424,
+      "histogram": {
+        "1": 20,
+        "2": 2871,
+        "3": 1897,
+        "4": 199,
+        "5": 12,
+        "6": 1
+      }
+    },
+    "bonferroni_bound": 0.4664,
+    "records": [
+      {
+        "p": 23,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.0424,
+        "histogram": {
+          "1": 20,
+          "2": 2871,
+          "3": 1897,
+          "4": 199,
+          "5": 12,
+          "6": 1
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.18,
+        "histogram": {
+          "1": 234,
+          "2": 3866,
+          "3": 838,
+          "4": 60,
+          "5": 2
+        }
+      },
+      {
+        "p": 19,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.5512,
+        "histogram": {
+          "1": 3,
+          "2": 2241,
+          "3": 2373,
+          "4": 353,
+          "5": 27,
+          "6": 3
+        }
+      },
+      {
+        "p": 17,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.649,
+        "histogram": {
+          "2": 1755,
+          "3": 2561,
+          "4": 547,
+          "5": 118,
+          "6": 18,
+          "7": 1
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.848,
+        "histogram": {
+          "1": 760,
+          "2": 3839,
+          "3": 386,
+          "4": 15
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.89,
+        "histogram": {
+          "1": 550,
+          "2": 3953,
+          "3": 478,
+          "4": 19
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9178,
+        "histogram": {
+          "1": 411,
+          "2": 3941,
+          "3": 628,
+          "4": 20
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.928,
+        "histogram": {
+          "1": 360,
+          "2": 3857,
+          "3": 741,
+          "4": 41,
+          "5": 1
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9698,
+        "histogram": {
+          "1": 151,
+          "2": 3677,
+          "3": 1101,
+          "4": 71
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.984,
+        "histogram": {
+          "1": 80,
+          "2": 3465,
+          "3": 1308,
+          "4": 138,
+          "5": 8,
+          "6": 1
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 917,
+          "2": 3798,
+          "3": 281,
+          "4": 4
+        }
+      }
+    ]
+  },
+  {
+    "n": 32,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n32_rot4",
+    "fundamental_edges": [
+      [
+        0,
+        12
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        11,
+        0
+      ],
+      [
+        12,
+        6
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        15,
+        15
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 12,
+    "best": {
+      "p": 43,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.1692,
+      "histogram": {
+        "1": 278,
+        "2": 3876,
+        "3": 803,
+        "4": 41,
+        "5": 2
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 43,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1692,
+        "histogram": {
+          "1": 278,
+          "2": 3876,
+          "3": 803,
+          "4": 41,
+          "5": 2
+        }
+      },
+      {
+        "p": 17,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.182,
+        "histogram": {
+          "2": 1412,
+          "3": 2678,
+          "4": 748,
+          "5": 134,
+          "6": 26,
+          "8": 2
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1866,
+        "histogram": {
+          "1": 246,
+          "2": 3821,
+          "3": 862,
+          "4": 68,
+          "5": 3
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2238,
+        "histogram": {
+          "1": 151,
+          "2": 3730,
+          "3": 1029,
+          "4": 84,
+          "5": 6
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3406,
+        "histogram": {
+          "1": 50,
+          "2": 3247,
+          "3": 1547,
+          "4": 138,
+          "5": 16,
+          "6": 1,
+          "7": 1
+        }
+      },
+      {
+        "p": 19,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.6468,
+        "histogram": {
+          "1": 1,
+          "2": 1765,
+          "3": 2696,
+          "4": 494,
+          "5": 43,
+          "6": 1
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.8406,
+        "histogram": {
+          "1": 797,
+          "2": 3764,
+          "3": 418,
+          "4": 21
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.8588,
+        "histogram": {
+          "1": 706,
+          "2": 3870,
+          "3": 414,
+          "4": 10
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.895,
+        "histogram": {
+          "1": 525,
+          "2": 3908,
+          "3": 541,
+          "4": 26
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9264,
+        "histogram": {
+          "1": 368,
+          "2": 3910,
+          "3": 687,
+          "4": 35
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9886,
+        "histogram": {
+          "1": 57,
+          "2": 3435,
+          "3": 1387,
+          "4": 116,
+          "5": 5
+        }
+      },
+      {
+        "p": 23,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9992,
+        "histogram": {
+          "1": 4,
+          "2": 2456,
+          "3": 2228,
+          "4": 291,
+          "5": 21
+        }
+      }
+    ]
+  },
+  {
+    "n": 34,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n34_rot4",
+    "fundamental_edges": [
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        14
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        12,
+        5
+      ],
+      [
+        12,
+        8
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        16,
+        16
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 13,
+    "best": {
+      "p": 41,
+      "exact_orbits": 4,
+      "exact_points": 16,
+      "tail_probability": 0.0146,
+      "histogram": {
+        "1": 154,
+        "2": 3753,
+        "3": 1020,
+        "4": 70,
+        "5": 3
+      }
+    },
+    "bonferroni_bound": 0.1898,
+    "records": [
+      {
+        "p": 41,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.0146,
+        "histogram": {
+          "1": 154,
+          "2": 3753,
+          "3": 1020,
+          "4": 70,
+          "5": 3
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.0518,
+        "histogram": {
+          "1": 18,
+          "2": 2939,
+          "3": 1784,
+          "4": 237,
+          "5": 20,
+          "6": 1,
+          "7": 1
+        }
+      },
+      {
+        "p": 23,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.0828,
+        "histogram": {
+          "1": 1,
+          "2": 2055,
+          "3": 2530,
+          "4": 383,
+          "5": 29,
+          "6": 2
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.166,
+        "histogram": {
+          "1": 258,
+          "2": 3912,
+          "3": 794,
+          "4": 36
+        }
+      },
+      {
+        "p": 17,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.21,
+        "histogram": {
+          "2": 1035,
+          "3": 2915,
+          "4": 853,
+          "5": 159,
+          "6": 35,
+          "7": 3
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3592,
+        "histogram": {
+          "1": 25,
+          "2": 3179,
+          "3": 1663,
+          "4": 133
+        }
+      },
+      {
+        "p": 19,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.7078,
+        "histogram": {
+          "2": 1461,
+          "3": 2887,
+          "4": 595,
+          "5": 52,
+          "6": 5
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.8642,
+        "histogram": {
+          "1": 679,
+          "2": 3897,
+          "3": 411,
+          "4": 13
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.888,
+        "histogram": {
+          "1": 560,
+          "2": 3939,
+          "3": 488,
+          "4": 13
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.8882,
+        "histogram": {
+          "1": 559,
+          "2": 3919,
+          "3": 499,
+          "4": 23
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9224,
+        "histogram": {
+          "1": 388,
+          "2": 3903,
+          "3": 685,
+          "4": 24
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9652,
+        "histogram": {
+          "1": 174,
+          "2": 3872,
+          "3": 900,
+          "4": 53,
+          "5": 1
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9794,
+        "histogram": {
+          "1": 103,
+          "2": 3563,
+          "3": 1216,
+          "4": 106,
+          "5": 12
+        }
+      }
+    ]
+  },
+  {
+    "n": 36,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n36_rot4",
+    "fundamental_edges": [
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        1
+      ],
+      [
+        10,
+        5
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        11,
+        7
+      ],
+      [
+        12,
+        2
+      ],
+      [
+        12,
+        16
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        13,
+        7
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        17,
+        17
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 13,
+    "best": {
+      "p": 53,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.163,
+      "histogram": {
+        "1": 278,
+        "2": 3907,
+        "3": 772,
+        "4": 43
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 53,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.163,
+        "histogram": {
+          "1": 278,
+          "2": 3907,
+          "3": 772,
+          "4": 43
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.32,
+        "histogram": {
+          "1": 50,
+          "2": 3350,
+          "3": 1453,
+          "4": 137,
+          "5": 10
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.4166,
+        "histogram": {
+          "1": 11,
+          "2": 2906,
+          "3": 1856,
+          "4": 219,
+          "5": 8
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.4722,
+        "histogram": {
+          "1": 15,
+          "2": 2624,
+          "3": 2050,
+          "4": 283,
+          "5": 21,
+          "6": 7
+        }
+      },
+      {
+        "p": 23,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.6534,
+        "histogram": {
+          "2": 1733,
+          "3": 2724,
+          "4": 495,
+          "5": 46,
+          "6": 2
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.885,
+        "histogram": {
+          "1": 575,
+          "2": 3932,
+          "3": 480,
+          "4": 13
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9154,
+        "histogram": {
+          "1": 423,
+          "2": 3867,
+          "3": 672,
+          "4": 38
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9298,
+        "histogram": {
+          "1": 351,
+          "2": 3982,
+          "3": 636,
+          "4": 29,
+          "5": 2
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9704,
+        "histogram": {
+          "1": 148,
+          "2": 3838,
+          "3": 956,
+          "4": 57,
+          "5": 1
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9796,
+        "histogram": {
+          "1": 102,
+          "2": 3695,
+          "3": 1129,
+          "4": 70,
+          "5": 4
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9842,
+        "histogram": {
+          "1": 79,
+          "2": 3607,
+          "3": 1204,
+          "4": 105,
+          "5": 4,
+          "7": 1
+        }
+      },
+      {
+        "p": 19,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 1111,
+          "3": 3060,
+          "4": 767,
+          "5": 57,
+          "6": 5
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 668,
+          "2": 3898,
+          "3": 419,
+          "4": 15
+        }
+      }
+    ]
+  },
+  {
+    "n": 38,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n38_rot4",
+    "fundamental_edges": [
+      [
+        0,
+        15
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        11,
+        7
+      ],
+      [
+        13,
+        3
+      ],
+      [
+        13,
+        5
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        18,
+        18
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 14,
+    "best": {
+      "p": 67,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.1308,
+      "histogram": {
+        "1": 411,
+        "2": 3935,
+        "3": 620,
+        "4": 33,
+        "5": 1
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 67,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1308,
+        "histogram": {
+          "1": 411,
+          "2": 3935,
+          "3": 620,
+          "4": 33,
+          "5": 1
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1564,
+        "histogram": {
+          "1": 293,
+          "2": 3925,
+          "3": 744,
+          "4": 37,
+          "5": 1
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2048,
+        "histogram": {
+          "1": 149,
+          "2": 3827,
+          "3": 969,
+          "4": 53,
+          "5": 2
+        }
+      },
+      {
+        "p": 19,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.2102,
+        "histogram": {
+          "2": 791,
+          "3": 3158,
+          "4": 942,
+          "5": 104,
+          "6": 4,
+          "7": 1
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3156,
+        "histogram": {
+          "1": 47,
+          "2": 3375,
+          "3": 1441,
+          "4": 129,
+          "5": 8
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.361,
+        "histogram": {
+          "1": 26,
+          "2": 3169,
+          "3": 1633,
+          "4": 166,
+          "5": 6
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.528,
+        "histogram": {
+          "1": 4,
+          "2": 2356,
+          "3": 2243,
+          "4": 365,
+          "5": 29,
+          "6": 2,
+          "7": 1
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9018,
+        "histogram": {
+          "1": 491,
+          "2": 3941,
+          "3": 550,
+          "4": 18
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9078,
+        "histogram": {
+          "1": 461,
+          "2": 3989,
+          "3": 525,
+          "4": 24,
+          "5": 1
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9542,
+        "histogram": {
+          "1": 229,
+          "2": 3942,
+          "3": 791,
+          "4": 37,
+          "5": 1
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9804,
+        "histogram": {
+          "1": 98,
+          "2": 3671,
+          "3": 1164,
+          "4": 65,
+          "5": 2
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9892,
+        "histogram": {
+          "1": 54,
+          "2": 3545,
+          "3": 1325,
+          "4": 74,
+          "5": 2
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9992,
+        "histogram": {
+          "1": 4,
+          "2": 2619,
+          "3": 2125,
+          "4": 237,
+          "5": 15
+        }
+      },
+      {
+        "p": 23,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 1449,
+          "3": 2872,
+          "4": 610,
+          "5": 61,
+          "6": 8
+        }
+      }
+    ]
+  },
+  {
+    "n": 40,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n40_rot4",
+    "fundamental_edges": [
+      [
+        0,
+        18
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        17
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        11,
+        6
+      ],
+      [
+        12,
+        8
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        16,
+        1
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        17,
+        9
+      ],
+      [
+        19,
+        19
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 14,
+    "best": {
+      "p": 47,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.2894,
+      "histogram": {
+        "1": 62,
+        "2": 3491,
+        "3": 1352,
+        "4": 91,
+        "5": 2,
+        "6": 2
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 47,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2894,
+        "histogram": {
+          "1": 62,
+          "2": 3491,
+          "3": 1352,
+          "4": 91,
+          "5": 2,
+          "6": 2
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.6006,
+        "histogram": {
+          "1": 1,
+          "2": 1996,
+          "3": 2498,
+          "4": 428,
+          "5": 72,
+          "6": 5
+        }
+      },
+      {
+        "p": 79,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.8962,
+        "histogram": {
+          "1": 519,
+          "2": 3965,
+          "3": 504,
+          "4": 12
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.922,
+        "histogram": {
+          "1": 390,
+          "2": 3930,
+          "3": 648,
+          "4": 31,
+          "5": 1
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9362,
+        "histogram": {
+          "1": 319,
+          "2": 4012,
+          "3": 639,
+          "4": 30
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.96,
+        "histogram": {
+          "1": 200,
+          "2": 3890,
+          "3": 864,
+          "4": 45,
+          "5": 1
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9604,
+        "histogram": {
+          "1": 198,
+          "2": 3925,
+          "3": 835,
+          "4": 41,
+          "5": 1
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9782,
+        "histogram": {
+          "1": 109,
+          "2": 3685,
+          "3": 1140,
+          "4": 62,
+          "5": 4
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9926,
+        "histogram": {
+          "1": 37,
+          "2": 3289,
+          "3": 1545,
+          "4": 122,
+          "5": 7
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9936,
+        "histogram": {
+          "1": 32,
+          "2": 3121,
+          "3": 1673,
+          "4": 158,
+          "5": 13,
+          "6": 3
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9972,
+        "histogram": {
+          "1": 14,
+          "2": 2880,
+          "3": 1855,
+          "4": 229,
+          "5": 22
+        }
+      },
+      {
+        "p": 23,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 1132,
+          "3": 3077,
+          "4": 722,
+          "5": 66,
+          "6": 2,
+          "7": 1
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 2277,
+          "3": 2358,
+          "4": 336,
+          "5": 27,
+          "6": 2
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 244,
+          "2": 3998,
+          "3": 732,
+          "4": 26
+        }
+      }
+    ]
+  },
+  {
+    "n": 42,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n42_rot4",
+    "fundamental_edges": [
+      [
+        0,
+        11
+      ],
+      [
+        1,
+        14
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        17
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        17
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        13
+      ],
+      [
+        10,
+        4
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        14,
+        5
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        16,
+        2
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        18,
+        0
+      ],
+      [
+        20,
+        20
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 15,
+    "best": {
+      "p": 79,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.1274,
+      "histogram": {
+        "1": 337,
+        "2": 4026,
+        "3": 606,
+        "4": 28,
+        "5": 3
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 79,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1274,
+        "histogram": {
+          "1": 337,
+          "2": 4026,
+          "3": 606,
+          "4": 28,
+          "5": 3
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1476,
+        "histogram": {
+          "1": 258,
+          "2": 4004,
+          "3": 716,
+          "4": 21,
+          "5": 1
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3266,
+        "histogram": {
+          "1": 33,
+          "2": 3334,
+          "3": 1509,
+          "4": 120,
+          "5": 4
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3766,
+        "histogram": {
+          "1": 13,
+          "2": 3104,
+          "3": 1732,
+          "4": 146,
+          "5": 5
+        }
+      },
+      {
+        "p": 23,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8094,
+        "histogram": {
+          "2": 953,
+          "3": 3087,
+          "4": 858,
+          "5": 95,
+          "6": 7
+        }
+      },
+      {
+        "p": 83,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.916,
+        "histogram": {
+          "1": 420,
+          "2": 4069,
+          "3": 492,
+          "4": 19
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.945,
+        "histogram": {
+          "1": 275,
+          "2": 3993,
+          "3": 703,
+          "4": 28,
+          "5": 1
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9612,
+        "histogram": {
+          "1": 194,
+          "2": 3924,
+          "3": 837,
+          "4": 41,
+          "5": 4
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9668,
+        "histogram": {
+          "1": 166,
+          "2": 3846,
+          "3": 927,
+          "4": 58,
+          "5": 3
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9768,
+        "histogram": {
+          "1": 116,
+          "2": 3763,
+          "3": 1048,
+          "4": 71,
+          "5": 2
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9858,
+        "histogram": {
+          "1": 71,
+          "2": 3554,
+          "3": 1279,
+          "4": 91,
+          "5": 5
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9982,
+        "histogram": {
+          "1": 9,
+          "2": 2942,
+          "3": 1816,
+          "4": 216,
+          "5": 16,
+          "6": 1
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.999,
+        "histogram": {
+          "1": 5,
+          "2": 2607,
+          "3": 2100,
+          "4": 262,
+          "5": 23,
+          "6": 2,
+          "7": 1
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9998,
+        "histogram": {
+          "1": 1,
+          "2": 1949,
+          "3": 2592,
+          "4": 432,
+          "5": 23,
+          "6": 3
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 1729,
+          "3": 2683,
+          "4": 519,
+          "5": 59,
+          "6": 7,
+          "7": 3
+        }
+      }
+    ]
+  },
+  {
+    "n": 44,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n44_rot4",
+    "fundamental_edges": [
+      [
+        0,
+        17
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        20
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        10,
+        20
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        18
+      ],
+      [
+        13,
+        3
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        8
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        0
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        18,
+        21
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        21
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 15,
+    "best": {
+      "p": 73,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.1728,
+      "histogram": {
+        "1": 197,
+        "2": 3939,
+        "3": 815,
+        "4": 46,
+        "5": 3
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 73,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1728,
+        "histogram": {
+          "1": 197,
+          "2": 3939,
+          "3": 815,
+          "4": 46,
+          "5": 3
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2424,
+        "histogram": {
+          "1": 69,
+          "2": 3719,
+          "3": 1141,
+          "4": 69,
+          "5": 2
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2952,
+        "histogram": {
+          "1": 45,
+          "2": 3479,
+          "3": 1351,
+          "4": 119,
+          "5": 6
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3766,
+        "histogram": {
+          "1": 14,
+          "2": 3103,
+          "3": 1730,
+          "4": 148,
+          "5": 5
+        }
+      },
+      {
+        "p": 23,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.865,
+        "histogram": {
+          "2": 675,
+          "3": 3177,
+          "4": 1024,
+          "5": 119,
+          "6": 5
+        }
+      },
+      {
+        "p": 79,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9438,
+        "histogram": {
+          "1": 281,
+          "2": 4024,
+          "3": 668,
+          "4": 27
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9602,
+        "histogram": {
+          "1": 199,
+          "2": 3922,
+          "3": 850,
+          "4": 27,
+          "5": 2
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9704,
+        "histogram": {
+          "1": 148,
+          "2": 3863,
+          "3": 932,
+          "4": 55,
+          "5": 2
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9892,
+        "histogram": {
+          "1": 54,
+          "2": 3674,
+          "3": 1186,
+          "4": 82,
+          "5": 4
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9966,
+        "histogram": {
+          "1": 17,
+          "2": 2821,
+          "3": 1972,
+          "4": 186,
+          "5": 4
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9986,
+        "histogram": {
+          "1": 7,
+          "2": 2354,
+          "3": 2255,
+          "4": 349,
+          "5": 34,
+          "6": 1
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9986,
+        "histogram": {
+          "1": 7,
+          "2": 2701,
+          "3": 2036,
+          "4": 233,
+          "5": 20,
+          "6": 2,
+          "7": 1
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 1385,
+          "3": 2838,
+          "4": 654,
+          "5": 110,
+          "6": 13
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 1701,
+          "3": 2742,
+          "4": 513,
+          "5": 40,
+          "6": 4
+        }
+      },
+      {
+        "p": 83,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 298,
+          "2": 4030,
+          "3": 652,
+          "4": 20
+        }
+      }
+    ]
+  },
+  {
+    "n": 46,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n46_rot4.mvr",
+    "fundamental_edges": [
+      [
+        0,
+        12
+      ],
+      [
+        0,
+        19
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        18
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        6,
+        19
+      ],
+      [
+        9,
+        18
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        12,
+        21
+      ],
+      [
+        13,
+        7
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        14,
+        10
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        17,
+        7
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        21,
+        2
+      ],
+      [
+        22,
+        5
+      ],
+      [
+        22,
+        15
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 16,
+    "best": {
+      "p": 83,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.1544,
+      "histogram": {
+        "1": 238,
+        "2": 3990,
+        "3": 729,
+        "4": 42,
+        "6": 1
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 83,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1544,
+        "histogram": {
+          "1": 238,
+          "2": 3990,
+          "3": 729,
+          "4": 42,
+          "6": 1
+        }
+      },
+      {
+        "p": 79,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1642,
+        "histogram": {
+          "1": 194,
+          "2": 3985,
+          "3": 788,
+          "4": 33
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.1722,
+        "histogram": {
+          "2": 1202,
+          "3": 2937,
+          "4": 734,
+          "5": 114,
+          "6": 11,
+          "7": 2
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2058,
+        "histogram": {
+          "1": 151,
+          "2": 3820,
+          "3": 964,
+          "4": 62,
+          "5": 3
+        }
+      },
+      {
+        "p": 23,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.2724,
+        "histogram": {
+          "2": 508,
+          "3": 3130,
+          "4": 1163,
+          "5": 185,
+          "6": 13,
+          "7": 1
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.34,
+        "histogram": {
+          "1": 22,
+          "2": 3278,
+          "3": 1554,
+          "4": 135,
+          "5": 11
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.4126,
+        "histogram": {
+          "1": 7,
+          "2": 2930,
+          "3": 1853,
+          "4": 200,
+          "5": 8,
+          "6": 2
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.5146,
+        "histogram": {
+          "1": 3,
+          "2": 2424,
+          "3": 2253,
+          "4": 288,
+          "5": 31,
+          "6": 1
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.7194,
+        "histogram": {
+          "2": 1403,
+          "3": 2884,
+          "4": 644,
+          "5": 66,
+          "6": 3
+        }
+      },
+      {
+        "p": 89,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9394,
+        "histogram": {
+          "1": 303,
+          "2": 4013,
+          "3": 657,
+          "4": 26,
+          "5": 1
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9782,
+        "histogram": {
+          "1": 109,
+          "2": 3847,
+          "3": 980,
+          "4": 63,
+          "5": 1
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9812,
+        "histogram": {
+          "1": 94,
+          "2": 3785,
+          "3": 1052,
+          "4": 65,
+          "5": 4
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9862,
+        "histogram": {
+          "1": 69,
+          "2": 3559,
+          "3": 1267,
+          "4": 98,
+          "5": 7
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9894,
+        "histogram": {
+          "1": 53,
+          "2": 3497,
+          "3": 1328,
+          "4": 118,
+          "5": 4
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9994,
+        "histogram": {
+          "1": 3,
+          "2": 2574,
+          "3": 2154,
+          "4": 255,
+          "5": 14
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 2015,
+          "3": 2512,
+          "4": 427,
+          "5": 44,
+          "6": 2
+        }
+      }
+    ]
+  },
+  {
+    "n": 48,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n48_rot4.mvr",
+    "fundamental_edges": [
+      [
+        1,
+        23
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        3,
+        14
+      ],
+      [
+        5,
+        16
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        7,
+        20
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        9,
+        13
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        12,
+        6
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        18,
+        2
+      ],
+      [
+        18,
+        15
+      ],
+      [
+        19,
+        4
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        22,
+        1
+      ],
+      [
+        22,
+        4
+      ],
+      [
+        23,
+        5
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 15,
+    "best": {
+      "p": 71,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.2376,
+      "histogram": {
+        "1": 69,
+        "2": 3743,
+        "3": 1124,
+        "4": 61,
+        "5": 3
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 71,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2376,
+        "histogram": {
+          "1": 69,
+          "2": 3743,
+          "3": 1124,
+          "4": 61,
+          "5": 3
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.453,
+        "histogram": {
+          "1": 9,
+          "2": 2726,
+          "3": 2035,
+          "4": 217,
+          "5": 12,
+          "7": 1
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.5566,
+        "histogram": {
+          "1": 2,
+          "2": 2215,
+          "3": 2392,
+          "4": 363,
+          "5": 25,
+          "6": 2,
+          "7": 1
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.7692,
+        "histogram": {
+          "2": 1154,
+          "3": 3021,
+          "4": 728,
+          "5": 90,
+          "6": 6,
+          "7": 1
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8048,
+        "histogram": {
+          "2": 976,
+          "3": 2919,
+          "4": 933,
+          "5": 147,
+          "6": 24,
+          "7": 1
+        }
+      },
+      {
+        "p": 89,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9572,
+        "histogram": {
+          "1": 214,
+          "2": 4008,
+          "3": 743,
+          "4": 34,
+          "5": 1
+        }
+      },
+      {
+        "p": 83,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9646,
+        "histogram": {
+          "1": 177,
+          "2": 3901,
+          "3": 876,
+          "4": 45,
+          "5": 1
+        }
+      },
+      {
+        "p": 79,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.975,
+        "histogram": {
+          "1": 125,
+          "2": 3831,
+          "3": 981,
+          "4": 61,
+          "5": 2
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9838,
+        "histogram": {
+          "1": 81,
+          "2": 3709,
+          "3": 1127,
+          "4": 77,
+          "5": 6
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9884,
+        "histogram": {
+          "1": 58,
+          "2": 3601,
+          "3": 1259,
+          "4": 79,
+          "5": 3
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9934,
+        "histogram": {
+          "1": 33,
+          "2": 3326,
+          "3": 1519,
+          "4": 116,
+          "5": 6
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.995,
+        "histogram": {
+          "1": 25,
+          "2": 3389,
+          "3": 1449,
+          "4": 125,
+          "5": 11,
+          "6": 1
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9976,
+        "histogram": {
+          "1": 12,
+          "2": 2953,
+          "3": 1832,
+          "4": 189,
+          "5": 12,
+          "6": 2
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9992,
+        "histogram": {
+          "1": 4,
+          "2": 2425,
+          "3": 2256,
+          "4": 297,
+          "5": 18
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 1821,
+          "3": 2605,
+          "4": 516,
+          "5": 56,
+          "6": 2
+        }
+      }
+    ]
+  },
+  {
+    "n": 50,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n50_rot4.mvr",
+    "fundamental_edges": [
+      [
+        0,
+        22
+      ],
+      [
+        1,
+        18
+      ],
+      [
+        1,
+        22
+      ],
+      [
+        4,
+        14
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        6,
+        18
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        11,
+        17
+      ],
+      [
+        12,
+        8
+      ],
+      [
+        12,
+        23
+      ],
+      [
+        13,
+        3
+      ],
+      [
+        14,
+        19
+      ],
+      [
+        15,
+        6
+      ],
+      [
+        15,
+        7
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        20,
+        5
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        23,
+        8
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        24,
+        20
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 16,
+    "best": {
+      "p": 97,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.1432,
+      "histogram": {
+        "1": 244,
+        "2": 4040,
+        "3": 681,
+        "4": 33,
+        "5": 2
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 97,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1432,
+        "histogram": {
+          "1": 244,
+          "2": 4040,
+          "3": 681,
+          "4": 33,
+          "5": 2
+        }
+      },
+      {
+        "p": 89,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1666,
+        "histogram": {
+          "1": 191,
+          "2": 3976,
+          "3": 801,
+          "4": 32
+        }
+      },
+      {
+        "p": 83,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2012,
+        "histogram": {
+          "1": 116,
+          "2": 3878,
+          "3": 956,
+          "4": 46,
+          "5": 4
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.254,
+        "histogram": {
+          "1": 54,
+          "2": 3676,
+          "3": 1175,
+          "4": 91,
+          "5": 3,
+          "7": 1
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2698,
+        "histogram": {
+          "1": 64,
+          "2": 3587,
+          "3": 1271,
+          "4": 73,
+          "5": 5
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.291,
+        "histogram": {
+          "1": 47,
+          "2": 3498,
+          "3": 1344,
+          "4": 110,
+          "5": 1
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3458,
+        "histogram": {
+          "1": 22,
+          "2": 3249,
+          "3": 1576,
+          "4": 137,
+          "5": 16
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3582,
+        "histogram": {
+          "1": 23,
+          "2": 3186,
+          "3": 1644,
+          "4": 142,
+          "5": 5
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.6244,
+        "histogram": {
+          "2": 1878,
+          "3": 2617,
+          "4": 466,
+          "5": 36,
+          "6": 3
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8052,
+        "histogram": {
+          "2": 974,
+          "3": 3046,
+          "4": 870,
+          "5": 102,
+          "6": 8
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8484,
+        "histogram": {
+          "2": 758,
+          "3": 3008,
+          "4": 1012,
+          "5": 193,
+          "6": 27,
+          "7": 2
+        }
+      },
+      {
+        "p": 79,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9864,
+        "histogram": {
+          "1": 68,
+          "2": 3821,
+          "3": 1044,
+          "4": 65,
+          "5": 2
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9986,
+        "histogram": {
+          "1": 7,
+          "2": 2840,
+          "3": 1916,
+          "4": 213,
+          "5": 22,
+          "6": 2
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9996,
+        "histogram": {
+          "1": 2,
+          "2": 2463,
+          "3": 2267,
+          "4": 256,
+          "5": 11,
+          "6": 1
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 1609,
+          "3": 2720,
+          "4": 593,
+          "5": 66,
+          "6": 11,
+          "7": 1
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 2176,
+          "3": 2434,
+          "4": 357,
+          "5": 31,
+          "6": 2
+        }
+      }
+    ]
+  },
+  {
+    "n": 52,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n52_rot4.mvr",
+    "fundamental_edges": [
+      [
+        0,
+        23
+      ],
+      [
+        1,
+        25
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        4,
+        14
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        8,
+        17
+      ],
+      [
+        9,
+        6
+      ],
+      [
+        10,
+        20
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        12,
+        11
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        15,
+        1
+      ],
+      [
+        15,
+        6
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        22
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        20,
+        12
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        3
+      ],
+      [
+        22,
+        7
+      ],
+      [
+        23,
+        16
+      ],
+      [
+        24,
+        8
+      ],
+      [
+        25,
+        24
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 18,
+    "best": {
+      "p": 83,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.223,
+      "histogram": {
+        "1": 82,
+        "2": 3803,
+        "3": 1063,
+        "4": 50,
+        "5": 2
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 83,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.223,
+        "histogram": {
+          "1": 82,
+          "2": 3803,
+          "3": 1063,
+          "4": 50,
+          "5": 2
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.337,
+        "histogram": {
+          "1": 22,
+          "2": 3293,
+          "3": 1534,
+          "4": 146,
+          "5": 5
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.5546,
+        "histogram": {
+          "1": 1,
+          "2": 2226,
+          "3": 2438,
+          "4": 312,
+          "5": 23
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.6246,
+        "histogram": {
+          "2": 1877,
+          "3": 2654,
+          "4": 432,
+          "5": 36,
+          "6": 1
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.6642,
+        "histogram": {
+          "2": 1679,
+          "3": 2749,
+          "4": 500,
+          "5": 64,
+          "6": 7,
+          "8": 1
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.7324,
+        "histogram": {
+          "2": 1338,
+          "3": 2872,
+          "4": 687,
+          "5": 93,
+          "6": 9,
+          "7": 1
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8774,
+        "histogram": {
+          "2": 613,
+          "3": 2979,
+          "4": 1175,
+          "5": 206,
+          "6": 20,
+          "7": 5,
+          "8": 1,
+          "9": 1
+        }
+      },
+      {
+        "p": 103,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.949,
+        "histogram": {
+          "1": 255,
+          "2": 4002,
+          "3": 712,
+          "4": 30,
+          "5": 1
+        }
+      },
+      {
+        "p": 101,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.963,
+        "histogram": {
+          "1": 185,
+          "2": 4032,
+          "3": 745,
+          "4": 35,
+          "5": 3
+        }
+      },
+      {
+        "p": 97,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9646,
+        "histogram": {
+          "1": 177,
+          "2": 4025,
+          "3": 755,
+          "4": 42,
+          "5": 1
+        }
+      },
+      {
+        "p": 89,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9746,
+        "histogram": {
+          "1": 127,
+          "2": 3909,
+          "3": 922,
+          "4": 40,
+          "5": 2
+        }
+      },
+      {
+        "p": 79,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9874,
+        "histogram": {
+          "1": 63,
+          "2": 3722,
+          "3": 1146,
+          "4": 67,
+          "5": 2
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9912,
+        "histogram": {
+          "1": 44,
+          "2": 3492,
+          "3": 1354,
+          "4": 107,
+          "5": 3
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9922,
+        "histogram": {
+          "1": 39,
+          "2": 3491,
+          "3": 1380,
+          "4": 83,
+          "5": 7
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9974,
+        "histogram": {
+          "1": 13,
+          "2": 3109,
+          "3": 1728,
+          "4": 135,
+          "5": 13,
+          "6": 2
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.998,
+        "histogram": {
+          "1": 10,
+          "2": 2667,
+          "3": 2052,
+          "4": 247,
+          "5": 22,
+          "6": 2
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9982,
+        "histogram": {
+          "1": 9,
+          "2": 2978,
+          "3": 1840,
+          "4": 161,
+          "5": 12
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 734,
+          "3": 3167,
+          "4": 969,
+          "5": 114,
+          "6": 16
+        }
+      }
+    ]
+  },
+  {
+    "n": 54,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n54_rot4",
+    "fundamental_edges": [
+      [
+        0,
+        22
+      ],
+      [
+        0,
+        24
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        24
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        6,
+        17
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        9,
+        6
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        12,
+        2
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        21
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        18,
+        16
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        10
+      ],
+      [
+        20,
+        8
+      ],
+      [
+        20,
+        15
+      ],
+      [
+        22,
+        1
+      ],
+      [
+        23,
+        7
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        26,
+        21
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 19,
+    "best": {
+      "p": 107,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.1422,
+      "histogram": {
+        "1": 182,
+        "2": 4107,
+        "3": 682,
+        "4": 29
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 107,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1422,
+        "histogram": {
+          "1": 182,
+          "2": 4107,
+          "3": 682,
+          "4": 29
+        }
+      },
+      {
+        "p": 83,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2514,
+        "histogram": {
+          "1": 56,
+          "2": 3687,
+          "3": 1192,
+          "4": 63,
+          "5": 2
+        }
+      },
+      {
+        "p": 79,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2726,
+        "histogram": {
+          "1": 44,
+          "2": 3593,
+          "3": 1253,
+          "4": 106,
+          "5": 4
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.4116,
+        "histogram": {
+          "1": 6,
+          "2": 2936,
+          "3": 1850,
+          "4": 187,
+          "5": 18,
+          "6": 3
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.4406,
+        "histogram": {
+          "1": 7,
+          "2": 2790,
+          "3": 2002,
+          "4": 194,
+          "5": 7
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.5122,
+        "histogram": {
+          "1": 3,
+          "2": 2436,
+          "3": 2227,
+          "4": 315,
+          "5": 17,
+          "6": 2
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.5784,
+        "histogram": {
+          "2": 2108,
+          "3": 2521,
+          "4": 341,
+          "5": 28,
+          "6": 2
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.6718,
+        "histogram": {
+          "2": 1641,
+          "3": 2824,
+          "4": 492,
+          "5": 43
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.7036,
+        "histogram": {
+          "2": 1482,
+          "3": 2866,
+          "4": 587,
+          "5": 55,
+          "6": 7,
+          "7": 3
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8728,
+        "histogram": {
+          "2": 636,
+          "3": 3137,
+          "4": 1094,
+          "5": 126,
+          "6": 7
+        }
+      },
+      {
+        "p": 103,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9676,
+        "histogram": {
+          "1": 162,
+          "2": 3989,
+          "3": 808,
+          "4": 39,
+          "5": 2
+        }
+      },
+      {
+        "p": 101,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9678,
+        "histogram": {
+          "1": 161,
+          "2": 3957,
+          "3": 834,
+          "4": 47,
+          "5": 1
+        }
+      },
+      {
+        "p": 97,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9734,
+        "histogram": {
+          "1": 133,
+          "2": 3921,
+          "3": 916,
+          "4": 30
+        }
+      },
+      {
+        "p": 89,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9808,
+        "histogram": {
+          "1": 96,
+          "2": 3811,
+          "3": 1038,
+          "4": 54,
+          "5": 1
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9946,
+        "histogram": {
+          "1": 27,
+          "2": 3332,
+          "3": 1514,
+          "4": 121,
+          "5": 6
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9948,
+        "histogram": {
+          "1": 26,
+          "2": 3414,
+          "3": 1425,
+          "4": 129,
+          "5": 5,
+          "6": 1
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9956,
+        "histogram": {
+          "1": 22,
+          "2": 3218,
+          "3": 1632,
+          "4": 122,
+          "5": 6
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 476,
+          "3": 3008,
+          "4": 1244,
+          "5": 223,
+          "6": 37,
+          "7": 10,
+          "8": 2
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 1103,
+          "3": 3045,
+          "4": 734,
+          "5": 102,
+          "6": 14,
+          "7": 1,
+          "9": 1
+        }
+      }
+    ]
+  },
+  {
+    "n": 56,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n56_rot4",
+    "fundamental_edges": [
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        27
+      ],
+      [
+        5,
+        26
+      ],
+      [
+        6,
+        17
+      ],
+      [
+        7,
+        23
+      ],
+      [
+        8,
+        20
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        10,
+        19
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        12,
+        21
+      ],
+      [
+        14,
+        11
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        21
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        18,
+        11
+      ],
+      [
+        19,
+        15
+      ],
+      [
+        20,
+        7
+      ],
+      [
+        22,
+        2
+      ],
+      [
+        22,
+        4
+      ],
+      [
+        23,
+        24
+      ],
+      [
+        25,
+        8
+      ],
+      [
+        25,
+        15
+      ],
+      [
+        26,
+        13
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 20,
+    "best": {
+      "p": 59,
+      "exact_orbits": 4,
+      "exact_points": 16,
+      "tail_probability": 0.0462,
+      "histogram": {
+        "1": 6,
+        "2": 2669,
+        "3": 2094,
+        "4": 216,
+        "5": 15
+      }
+    },
+    "bonferroni_bound": 0.9239999999999999,
+    "records": [
+      {
+        "p": 59,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.0462,
+        "histogram": {
+          "1": 6,
+          "2": 2669,
+          "3": 2094,
+          "4": 216,
+          "5": 15
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.0876,
+        "histogram": {
+          "2": 1826,
+          "3": 2736,
+          "4": 403,
+          "5": 33,
+          "6": 2
+        }
+      },
+      {
+        "p": 109,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.1614,
+        "histogram": {
+          "1": 154,
+          "2": 4039,
+          "3": 768,
+          "4": 39
+        }
+      },
+      {
+        "p": 83,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.28,
+        "histogram": {
+          "1": 46,
+          "2": 3554,
+          "3": 1327,
+          "4": 70,
+          "5": 3
+        }
+      },
+      {
+        "p": 79,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2964,
+        "histogram": {
+          "1": 20,
+          "2": 3498,
+          "3": 1389,
+          "4": 91,
+          "5": 2
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3452,
+        "histogram": {
+          "1": 21,
+          "2": 3253,
+          "3": 1585,
+          "4": 135,
+          "5": 6
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3602,
+        "histogram": {
+          "1": 14,
+          "2": 3185,
+          "3": 1663,
+          "4": 133,
+          "5": 5
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.4536,
+        "histogram": {
+          "1": 4,
+          "2": 2728,
+          "3": 2026,
+          "4": 221,
+          "5": 17,
+          "6": 4
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.5574,
+        "histogram": {
+          "2": 2213,
+          "3": 2412,
+          "4": 343,
+          "5": 29,
+          "6": 3
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.712,
+        "histogram": {
+          "1": 1,
+          "2": 1439,
+          "3": 2975,
+          "4": 532,
+          "5": 50,
+          "6": 3
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8088,
+        "histogram": {
+          "2": 956,
+          "3": 3023,
+          "4": 887,
+          "5": 122,
+          "6": 11,
+          "7": 1
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.9018,
+        "histogram": {
+          "2": 491,
+          "3": 3123,
+          "4": 1210,
+          "5": 166,
+          "6": 9,
+          "7": 1
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.9292,
+        "histogram": {
+          "2": 354,
+          "3": 2914,
+          "4": 1399,
+          "5": 257,
+          "6": 64,
+          "7": 10,
+          "8": 2
+        }
+      },
+      {
+        "p": 107,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9704,
+        "histogram": {
+          "1": 148,
+          "2": 4018,
+          "3": 796,
+          "4": 37,
+          "5": 1
+        }
+      },
+      {
+        "p": 103,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9718,
+        "histogram": {
+          "1": 141,
+          "2": 3953,
+          "3": 863,
+          "4": 42,
+          "5": 1
+        }
+      },
+      {
+        "p": 101,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9742,
+        "histogram": {
+          "1": 129,
+          "2": 3840,
+          "3": 970,
+          "4": 59,
+          "5": 2
+        }
+      },
+      {
+        "p": 97,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9804,
+        "histogram": {
+          "1": 98,
+          "2": 3799,
+          "3": 1047,
+          "4": 53,
+          "5": 3
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9986,
+        "histogram": {
+          "1": 7,
+          "2": 3078,
+          "3": 1754,
+          "4": 154,
+          "5": 7
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 1279,
+          "3": 2904,
+          "4": 710,
+          "5": 94,
+          "6": 10,
+          "7": 3
+        }
+      },
+      {
+        "p": 89,
+        "exact_orbits": 1,
+        "exact_points": 4,
+        "tail_probability": 1.0,
+        "histogram": {
+          "1": 50,
+          "2": 3671,
+          "3": 1192,
+          "4": 83,
+          "5": 4
+        }
+      }
+    ]
+  },
+  {
+    "n": 58,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n58_rot4.few",
+    "fundamental_edges": [
+      [
+        0,
+        21
+      ],
+      [
+        0,
+        27
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        20
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        17
+      ],
+      [
+        9,
+        25
+      ],
+      [
+        9,
+        28
+      ],
+      [
+        10,
+        25
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        12,
+        28
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        15,
+        5
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        16,
+        22
+      ],
+      [
+        18,
+        7
+      ],
+      [
+        18,
+        13
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        21,
+        16
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        23,
+        23
+      ],
+      [
+        24,
+        20
+      ],
+      [
+        24,
+        26
+      ],
+      [
+        26,
+        3
+      ],
+      [
+        27,
+        3
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 21,
+    "best": {
+      "p": 41,
+      "exact_orbits": 4,
+      "exact_points": 16,
+      "tail_probability": 0.1848,
+      "histogram": {
+        "2": 1060,
+        "3": 3016,
+        "4": 829,
+        "5": 80,
+        "6": 15
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 41,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.1848,
+        "histogram": {
+          "2": 1060,
+          "3": 3016,
+          "4": 829,
+          "5": 80,
+          "6": 15
+        }
+      },
+      {
+        "p": 101,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2208,
+        "histogram": {
+          "1": 63,
+          "2": 3833,
+          "3": 1034,
+          "4": 69,
+          "5": 1
+        }
+      },
+      {
+        "p": 29,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.3822,
+        "histogram": {
+          "2": 292,
+          "3": 2797,
+          "4": 1542,
+          "5": 294,
+          "6": 60,
+          "7": 14,
+          "8": 1
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.443,
+        "histogram": {
+          "1": 6,
+          "2": 2779,
+          "3": 2022,
+          "4": 189,
+          "5": 4
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.5118,
+        "histogram": {
+          "1": 4,
+          "2": 2437,
+          "3": 2280,
+          "4": 267,
+          "5": 12
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.59,
+        "histogram": {
+          "2": 2050,
+          "3": 2494,
+          "4": 410,
+          "5": 45,
+          "6": 1
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.732,
+        "histogram": {
+          "2": 1340,
+          "3": 2963,
+          "4": 638,
+          "5": 53,
+          "6": 6
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8368,
+        "histogram": {
+          "2": 816,
+          "3": 3108,
+          "4": 916,
+          "5": 143,
+          "6": 11,
+          "7": 6
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.9246,
+        "histogram": {
+          "2": 377,
+          "3": 3037,
+          "4": 1359,
+          "5": 214,
+          "6": 10,
+          "7": 3
+        }
+      },
+      {
+        "p": 109,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9746,
+        "histogram": {
+          "1": 127,
+          "2": 3881,
+          "3": 937,
+          "4": 54,
+          "5": 1
+        }
+      },
+      {
+        "p": 113,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9774,
+        "histogram": {
+          "1": 113,
+          "2": 3995,
+          "3": 858,
+          "4": 31,
+          "5": 3
+        }
+      },
+      {
+        "p": 107,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9804,
+        "histogram": {
+          "1": 98,
+          "2": 3967,
+          "3": 892,
+          "4": 43
+        }
+      },
+      {
+        "p": 103,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.985,
+        "histogram": {
+          "1": 75,
+          "2": 3864,
+          "3": 1001,
+          "4": 59,
+          "5": 1
+        }
+      },
+      {
+        "p": 97,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9868,
+        "histogram": {
+          "1": 66,
+          "2": 3725,
+          "3": 1138,
+          "4": 68,
+          "5": 3
+        }
+      },
+      {
+        "p": 89,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9928,
+        "histogram": {
+          "1": 36,
+          "2": 3635,
+          "3": 1241,
+          "4": 83,
+          "5": 5
+        }
+      },
+      {
+        "p": 83,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9952,
+        "histogram": {
+          "1": 24,
+          "2": 3436,
+          "3": 1422,
+          "4": 114,
+          "5": 4
+        }
+      },
+      {
+        "p": 79,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9956,
+        "histogram": {
+          "1": 22,
+          "2": 3315,
+          "3": 1548,
+          "4": 111,
+          "5": 3,
+          "6": 1
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.998,
+        "histogram": {
+          "1": 10,
+          "2": 3020,
+          "3": 1797,
+          "4": 159,
+          "5": 14
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.999,
+        "histogram": {
+          "1": 5,
+          "2": 2509,
+          "3": 2212,
+          "4": 248,
+          "5": 26
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.999,
+        "histogram": {
+          "1": 5,
+          "2": 3026,
+          "3": 1802,
+          "4": 158,
+          "5": 8,
+          "6": 1
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 1562,
+          "3": 2856,
+          "4": 536,
+          "5": 42,
+          "6": 4
+        }
+      }
+    ]
+  },
+  {
+    "n": 60,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n60_rot4.few",
+    "fundamental_edges": [
+      [
+        0,
+        20
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        3,
+        19
+      ],
+      [
+        4,
+        26
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        23
+      ],
+      [
+        7,
+        29
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        10,
+        5
+      ],
+      [
+        11,
+        21
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        13,
+        7
+      ],
+      [
+        15,
+        27
+      ],
+      [
+        16,
+        23
+      ],
+      [
+        16,
+        25
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        20,
+        1
+      ],
+      [
+        21,
+        24
+      ],
+      [
+        22,
+        9
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        25,
+        27
+      ],
+      [
+        26,
+        22
+      ],
+      [
+        28,
+        2
+      ],
+      [
+        28,
+        10
+      ],
+      [
+        29,
+        14
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 20,
+    "best": {
+      "p": 53,
+      "exact_orbits": 5,
+      "exact_points": 20,
+      "tail_probability": 0.0078,
+      "histogram": {
+        "1": 1,
+        "2": 1860,
+        "3": 2648,
+        "4": 452,
+        "5": 33,
+        "6": 6
+      }
+    },
+    "bonferroni_bound": 0.156,
+    "records": [
+      {
+        "p": 53,
+        "exact_orbits": 5,
+        "exact_points": 20,
+        "tail_probability": 0.0078,
+        "histogram": {
+          "1": 1,
+          "2": 1860,
+          "3": 2648,
+          "4": 452,
+          "5": 33,
+          "6": 6
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 5,
+        "exact_points": 20,
+        "tail_probability": 0.0198,
+        "histogram": {
+          "2": 1033,
+          "3": 3145,
+          "4": 723,
+          "5": 92,
+          "6": 6,
+          "7": 1
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.0424,
+        "histogram": {
+          "1": 5,
+          "2": 2877,
+          "3": 1906,
+          "4": 203,
+          "5": 9
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.0646,
+        "histogram": {
+          "2": 2230,
+          "3": 2447,
+          "4": 297,
+          "5": 26
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.0692,
+        "histogram": {
+          "2": 2302,
+          "3": 2352,
+          "4": 324,
+          "5": 22
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.2098,
+        "histogram": {
+          "2": 903,
+          "3": 3048,
+          "4": 897,
+          "5": 134,
+          "6": 15,
+          "7": 2,
+          "8": 1
+        }
+      },
+      {
+        "p": 109,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2144,
+        "histogram": {
+          "1": 80,
+          "2": 3848,
+          "3": 1017,
+          "4": 53,
+          "5": 1,
+          "6": 1
+        }
+      },
+      {
+        "p": 83,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3428,
+        "histogram": {
+          "1": 16,
+          "2": 3270,
+          "3": 1576,
+          "4": 129,
+          "5": 9
+        }
+      },
+      {
+        "p": 79,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3764,
+        "histogram": {
+          "1": 12,
+          "2": 3106,
+          "3": 1735,
+          "4": 143,
+          "5": 4
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.478,
+        "histogram": {
+          "1": 4,
+          "2": 2606,
+          "3": 2127,
+          "4": 249,
+          "5": 14
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.7162,
+        "histogram": {
+          "2": 1419,
+          "3": 2977,
+          "4": 547,
+          "5": 52,
+          "6": 4,
+          "7": 1
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8696,
+        "histogram": {
+          "2": 652,
+          "3": 3075,
+          "4": 1073,
+          "5": 163,
+          "6": 35,
+          "7": 2
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.948,
+        "histogram": {
+          "2": 260,
+          "3": 2982,
+          "4": 1503,
+          "5": 231,
+          "6": 21,
+          "7": 3
+        }
+      },
+      {
+        "p": 113,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9798,
+        "histogram": {
+          "1": 101,
+          "2": 3954,
+          "3": 904,
+          "4": 39,
+          "5": 2
+        }
+      },
+      {
+        "p": 107,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9852,
+        "histogram": {
+          "1": 74,
+          "2": 3889,
+          "3": 995,
+          "4": 42
+        }
+      },
+      {
+        "p": 103,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.987,
+        "histogram": {
+          "1": 65,
+          "2": 3778,
+          "3": 1102,
+          "4": 55
+        }
+      },
+      {
+        "p": 101,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9894,
+        "histogram": {
+          "1": 53,
+          "2": 3727,
+          "3": 1155,
+          "4": 61,
+          "5": 4
+        }
+      },
+      {
+        "p": 97,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9926,
+        "histogram": {
+          "1": 37,
+          "2": 3652,
+          "3": 1212,
+          "4": 92,
+          "5": 7
+        }
+      },
+      {
+        "p": 89,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9942,
+        "histogram": {
+          "1": 29,
+          "2": 3400,
+          "3": 1481,
+          "4": 87,
+          "5": 3
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.998,
+        "histogram": {
+          "1": 10,
+          "2": 2918,
+          "3": 1893,
+          "4": 168,
+          "5": 10,
+          "6": 1
+        }
+      }
+    ]
+  },
+  {
+    "n": 62,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n62_rot4.few",
+    "fundamental_edges": [
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        25
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        3,
+        22
+      ],
+      [
+        4,
+        28
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        7,
+        19
+      ],
+      [
+        7,
+        23
+      ],
+      [
+        8,
+        28
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        11,
+        20
+      ],
+      [
+        12,
+        5
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        13,
+        17
+      ],
+      [
+        14,
+        27
+      ],
+      [
+        15,
+        6
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        17,
+        27
+      ],
+      [
+        18,
+        1
+      ],
+      [
+        20,
+        19
+      ],
+      [
+        21,
+        26
+      ],
+      [
+        21,
+        29
+      ],
+      [
+        22,
+        16
+      ],
+      [
+        23,
+        9
+      ],
+      [
+        24,
+        3
+      ],
+      [
+        24,
+        14
+      ],
+      [
+        25,
+        29
+      ],
+      [
+        26,
+        2
+      ],
+      [
+        30,
+        9
+      ],
+      [
+        30,
+        18
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 20,
+    "best": {
+      "p": 37,
+      "exact_orbits": 5,
+      "exact_points": 20,
+      "tail_probability": 0.0456,
+      "histogram": {
+        "2": 505,
+        "3": 3109,
+        "4": 1158,
+        "5": 187,
+        "6": 38,
+        "7": 2,
+        "8": 1
+      }
+    },
+    "bonferroni_bound": 0.912,
+    "records": [
+      {
+        "p": 37,
+        "exact_orbits": 5,
+        "exact_points": 20,
+        "tail_probability": 0.0456,
+        "histogram": {
+          "2": 505,
+          "3": 3109,
+          "4": 1158,
+          "5": 187,
+          "6": 38,
+          "7": 2,
+          "8": 1
+        }
+      },
+      {
+        "p": 97,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.299,
+        "histogram": {
+          "1": 29,
+          "2": 3476,
+          "3": 1400,
+          "4": 89,
+          "5": 6
+        }
+      },
+      {
+        "p": 31,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.3828,
+        "histogram": {
+          "2": 199,
+          "3": 2887,
+          "4": 1651,
+          "5": 237,
+          "6": 26
+        }
+      },
+      {
+        "p": 79,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3996,
+        "histogram": {
+          "1": 5,
+          "2": 2997,
+          "3": 1809,
+          "4": 185,
+          "5": 3,
+          "6": 1
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.474,
+        "histogram": {
+          "1": 1,
+          "2": 2629,
+          "3": 2157,
+          "4": 202,
+          "5": 11
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.5654,
+        "histogram": {
+          "2": 2173,
+          "3": 2438,
+          "4": 358,
+          "5": 30,
+          "6": 1
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.6024,
+        "histogram": {
+          "1": 1,
+          "2": 1987,
+          "3": 2619,
+          "4": 365,
+          "5": 26,
+          "6": 2
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.6838,
+        "histogram": {
+          "2": 1581,
+          "3": 2835,
+          "4": 524,
+          "5": 55,
+          "6": 5
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.82,
+        "histogram": {
+          "2": 900,
+          "3": 3197,
+          "4": 820,
+          "5": 76,
+          "6": 7
+        }
+      },
+      {
+        "p": 113,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9854,
+        "histogram": {
+          "1": 73,
+          "2": 3856,
+          "3": 1013,
+          "4": 55,
+          "5": 3
+        }
+      },
+      {
+        "p": 109,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9868,
+        "histogram": {
+          "1": 66,
+          "2": 3753,
+          "3": 1119,
+          "4": 57,
+          "5": 5
+        }
+      },
+      {
+        "p": 107,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9898,
+        "histogram": {
+          "1": 51,
+          "2": 3769,
+          "3": 1133,
+          "4": 45,
+          "5": 1,
+          "6": 1
+        }
+      },
+      {
+        "p": 103,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.99,
+        "histogram": {
+          "1": 50,
+          "2": 3671,
+          "3": 1205,
+          "4": 73,
+          "5": 1
+        }
+      },
+      {
+        "p": 101,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9914,
+        "histogram": {
+          "1": 43,
+          "2": 3596,
+          "3": 1271,
+          "4": 89,
+          "5": 1
+        }
+      },
+      {
+        "p": 89,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9968,
+        "histogram": {
+          "1": 16,
+          "2": 3260,
+          "3": 1577,
+          "4": 141,
+          "5": 6
+        }
+      },
+      {
+        "p": 83,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9972,
+        "histogram": {
+          "1": 14,
+          "2": 3136,
+          "3": 1708,
+          "4": 138,
+          "5": 4
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9994,
+        "histogram": {
+          "1": 3,
+          "2": 2698,
+          "3": 2090,
+          "4": 189,
+          "5": 19,
+          "6": 1
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9996,
+        "histogram": {
+          "1": 2,
+          "2": 2556,
+          "3": 2169,
+          "4": 257,
+          "5": 16
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 749,
+          "3": 3083,
+          "4": 982,
+          "5": 161,
+          "6": 23,
+          "7": 2
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 1227,
+          "3": 3046,
+          "4": 664,
+          "5": 55,
+          "6": 7,
+          "8": 1
+        }
+      }
+    ]
+  },
+  {
+    "n": 64,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n64_rot4.few",
+    "fundamental_edges": [
+      [
+        0,
+        14
+      ],
+      [
+        0,
+        31
+      ],
+      [
+        1,
+        22
+      ],
+      [
+        1,
+        29
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        4,
+        25
+      ],
+      [
+        5,
+        22
+      ],
+      [
+        6,
+        28
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        8,
+        28
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        12,
+        6
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        13,
+        17
+      ],
+      [
+        13,
+        21
+      ],
+      [
+        15,
+        20
+      ],
+      [
+        15,
+        30
+      ],
+      [
+        16,
+        3
+      ],
+      [
+        18,
+        30
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        20,
+        9
+      ],
+      [
+        21,
+        10
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        23,
+        17
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        26,
+        2
+      ],
+      [
+        27,
+        18
+      ],
+      [
+        27,
+        19
+      ],
+      [
+        31,
+        7
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 20,
+    "best": {
+      "p": 101,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.2868,
+      "histogram": {
+        "1": 22,
+        "2": 3544,
+        "3": 1335,
+        "4": 96,
+        "5": 3
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 101,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2868,
+        "histogram": {
+          "1": 22,
+          "2": 3544,
+          "3": 1335,
+          "4": 96,
+          "5": 3
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.616,
+        "histogram": {
+          "2": 1920,
+          "3": 2648,
+          "4": 399,
+          "5": 30,
+          "6": 3
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.7044,
+        "histogram": {
+          "2": 1478,
+          "3": 2892,
+          "4": 567,
+          "5": 55,
+          "6": 8
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.7924,
+        "histogram": {
+          "2": 1038,
+          "3": 3125,
+          "4": 752,
+          "5": 78,
+          "6": 7
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8562,
+        "histogram": {
+          "2": 719,
+          "3": 3231,
+          "4": 923,
+          "5": 118,
+          "6": 9
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8726,
+        "histogram": {
+          "2": 637,
+          "3": 3147,
+          "4": 1023,
+          "5": 165,
+          "6": 24,
+          "7": 4
+        }
+      },
+      {
+        "p": 127,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9812,
+        "histogram": {
+          "1": 94,
+          "2": 3942,
+          "3": 907,
+          "4": 54,
+          "5": 3
+        }
+      },
+      {
+        "p": 113,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9872,
+        "histogram": {
+          "1": 64,
+          "2": 3699,
+          "3": 1167,
+          "4": 68,
+          "5": 2
+        }
+      },
+      {
+        "p": 109,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9892,
+        "histogram": {
+          "1": 54,
+          "2": 3759,
+          "3": 1115,
+          "4": 67,
+          "5": 5
+        }
+      },
+      {
+        "p": 107,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9924,
+        "histogram": {
+          "1": 38,
+          "2": 3679,
+          "3": 1199,
+          "4": 80,
+          "5": 4
+        }
+      },
+      {
+        "p": 103,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.993,
+        "histogram": {
+          "1": 35,
+          "2": 3612,
+          "3": 1261,
+          "4": 89,
+          "5": 3
+        }
+      },
+      {
+        "p": 97,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.996,
+        "histogram": {
+          "1": 20,
+          "2": 3433,
+          "3": 1442,
+          "4": 100,
+          "5": 5
+        }
+      },
+      {
+        "p": 89,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9982,
+        "histogram": {
+          "1": 9,
+          "2": 3189,
+          "3": 1657,
+          "4": 138,
+          "5": 7
+        }
+      },
+      {
+        "p": 79,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.999,
+        "histogram": {
+          "1": 5,
+          "2": 2894,
+          "3": 1916,
+          "4": 181,
+          "5": 4
+        }
+      },
+      {
+        "p": 83,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9992,
+        "histogram": {
+          "1": 4,
+          "2": 2976,
+          "3": 1873,
+          "4": 137,
+          "5": 10
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9996,
+        "histogram": {
+          "1": 2,
+          "2": 2552,
+          "3": 2204,
+          "4": 233,
+          "5": 8,
+          "7": 1
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9996,
+        "histogram": {
+          "1": 2,
+          "2": 2552,
+          "3": 2204,
+          "4": 216,
+          "5": 26
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 372,
+          "3": 3042,
+          "4": 1302,
+          "5": 243,
+          "6": 35,
+          "7": 5,
+          "8": 1
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 1768,
+          "3": 2778,
+          "4": 417,
+          "5": 36,
+          "6": 1
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 2306,
+          "3": 2398,
+          "4": 280,
+          "5": 14,
+          "6": 2
+        }
+      }
+    ]
+  },
+  {
+    "n": 66,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n66_rot4.few",
+    "fundamental_edges": [
+      [
+        0,
+        31
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        20
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        24
+      ],
+      [
+        10,
+        21
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        12,
+        21
+      ],
+      [
+        13,
+        9
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        32
+      ],
+      [
+        17,
+        25
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        19,
+        32
+      ],
+      [
+        20,
+        8
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        22,
+        17
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        25,
+        4
+      ],
+      [
+        26,
+        6
+      ],
+      [
+        26,
+        30
+      ],
+      [
+        27,
+        11
+      ],
+      [
+        27,
+        19
+      ],
+      [
+        28,
+        7
+      ],
+      [
+        28,
+        31
+      ],
+      [
+        29,
+        0
+      ],
+      [
+        29,
+        1
+      ],
+      [
+        30,
+        5
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 21,
+    "best": {
+      "p": 61,
+      "exact_orbits": 4,
+      "exact_points": 16,
+      "tail_probability": 0.0982,
+      "histogram": {
+        "2": 1742,
+        "3": 2767,
+        "4": 437,
+        "5": 52,
+        "6": 2
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 61,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.0982,
+        "histogram": {
+          "2": 1742,
+          "3": 2767,
+          "4": 437,
+          "5": 52,
+          "6": 2
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.1404,
+        "histogram": {
+          "2": 1271,
+          "3": 3027,
+          "4": 632,
+          "5": 62,
+          "6": 6,
+          "7": 2
+        }
+      },
+      {
+        "p": 103,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3256,
+        "histogram": {
+          "1": 17,
+          "2": 3355,
+          "3": 1509,
+          "4": 117,
+          "5": 2
+        }
+      },
+      {
+        "p": 97,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3412,
+        "histogram": {
+          "1": 12,
+          "2": 3282,
+          "3": 1559,
+          "4": 144,
+          "5": 3
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.3556,
+        "histogram": {
+          "2": 306,
+          "3": 2916,
+          "4": 1428,
+          "5": 277,
+          "6": 58,
+          "7": 15
+        }
+      },
+      {
+        "p": 89,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.39,
+        "histogram": {
+          "1": 10,
+          "2": 3040,
+          "3": 1784,
+          "4": 159,
+          "5": 7
+        }
+      },
+      {
+        "p": 79,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.466,
+        "histogram": {
+          "1": 4,
+          "2": 2666,
+          "3": 2098,
+          "4": 219,
+          "5": 12,
+          "6": 1
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.5782,
+        "histogram": {
+          "2": 2109,
+          "3": 2542,
+          "4": 324,
+          "5": 24,
+          "6": 1
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.674,
+        "histogram": {
+          "2": 1630,
+          "3": 2865,
+          "4": 465,
+          "5": 35,
+          "6": 3,
+          "7": 2
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8208,
+        "histogram": {
+          "2": 896,
+          "3": 3126,
+          "4": 879,
+          "5": 94,
+          "6": 4,
+          "7": 1
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8774,
+        "histogram": {
+          "2": 613,
+          "3": 3239,
+          "4": 1029,
+          "5": 111,
+          "6": 8
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8968,
+        "histogram": {
+          "2": 516,
+          "3": 3133,
+          "4": 1140,
+          "5": 184,
+          "6": 22,
+          "7": 3,
+          "8": 2
+        }
+      },
+      {
+        "p": 131,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9824,
+        "histogram": {
+          "1": 88,
+          "2": 3858,
+          "3": 1001,
+          "4": 52,
+          "5": 1
+        }
+      },
+      {
+        "p": 127,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9844,
+        "histogram": {
+          "1": 78,
+          "2": 3842,
+          "3": 1031,
+          "4": 47,
+          "5": 2
+        }
+      },
+      {
+        "p": 113,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.993,
+        "histogram": {
+          "1": 35,
+          "2": 3601,
+          "3": 1289,
+          "4": 72,
+          "5": 3
+        }
+      },
+      {
+        "p": 107,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.995,
+        "histogram": {
+          "1": 25,
+          "2": 3552,
+          "3": 1350,
+          "4": 66,
+          "5": 7
+        }
+      },
+      {
+        "p": 109,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.996,
+        "histogram": {
+          "1": 20,
+          "2": 3576,
+          "3": 1327,
+          "4": 74,
+          "5": 3
+        }
+      },
+      {
+        "p": 101,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9966,
+        "histogram": {
+          "1": 17,
+          "2": 3353,
+          "3": 1516,
+          "4": 109,
+          "5": 5
+        }
+      },
+      {
+        "p": 83,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9994,
+        "histogram": {
+          "1": 3,
+          "2": 2823,
+          "3": 1977,
+          "4": 183,
+          "5": 14
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9996,
+        "histogram": {
+          "1": 2,
+          "2": 2368,
+          "3": 2343,
+          "4": 269,
+          "5": 18
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9998,
+        "histogram": {
+          "1": 1,
+          "2": 2412,
+          "3": 2314,
+          "4": 251,
+          "5": 19,
+          "6": 3
+        }
+      }
+    ]
+  },
+  {
+    "n": 68,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n68_rot4.few",
+    "fundamental_edges": [
+      [
+        0,
+        12
+      ],
+      [
+        0,
+        14
+      ],
+      [
+        1,
+        26
+      ],
+      [
+        4,
+        25
+      ],
+      [
+        4,
+        33
+      ],
+      [
+        5,
+        18
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        8,
+        32
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        9,
+        19
+      ],
+      [
+        10,
+        25
+      ],
+      [
+        13,
+        7
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        16,
+        31
+      ],
+      [
+        17,
+        28
+      ],
+      [
+        17,
+        33
+      ],
+      [
+        19,
+        5
+      ],
+      [
+        21,
+        2
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        22,
+        11
+      ],
+      [
+        22,
+        26
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        23,
+        7
+      ],
+      [
+        24,
+        20
+      ],
+      [
+        27,
+        6
+      ],
+      [
+        27,
+        18
+      ],
+      [
+        28,
+        10
+      ],
+      [
+        29,
+        1
+      ],
+      [
+        29,
+        3
+      ],
+      [
+        30,
+        30
+      ],
+      [
+        31,
+        3
+      ],
+      [
+        32,
+        2
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 21,
+    "best": {
+      "p": 67,
+      "exact_orbits": 4,
+      "exact_points": 16,
+      "tail_probability": 0.08,
+      "histogram": {
+        "1": 1,
+        "2": 1968,
+        "3": 2631,
+        "4": 372,
+        "5": 28
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 67,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.08,
+        "histogram": {
+          "1": 1,
+          "2": 1968,
+          "3": 2631,
+          "4": 372,
+          "5": 28
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.205,
+        "histogram": {
+          "2": 760,
+          "3": 3215,
+          "4": 909,
+          "5": 109,
+          "6": 6,
+          "7": 1
+        }
+      },
+      {
+        "p": 113,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2746,
+        "histogram": {
+          "1": 29,
+          "2": 3598,
+          "3": 1265,
+          "4": 105,
+          "5": 2,
+          "6": 1
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.301,
+        "histogram": {
+          "2": 441,
+          "3": 3054,
+          "4": 1237,
+          "5": 236,
+          "6": 27,
+          "7": 5
+        }
+      },
+      {
+        "p": 89,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.427,
+        "histogram": {
+          "1": 7,
+          "2": 2858,
+          "3": 1951,
+          "4": 173,
+          "5": 10,
+          "6": 1
+        }
+      },
+      {
+        "p": 83,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.452,
+        "histogram": {
+          "1": 2,
+          "2": 2738,
+          "3": 2040,
+          "4": 209,
+          "5": 11
+        }
+      },
+      {
+        "p": 79,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.4904,
+        "histogram": {
+          "1": 2,
+          "2": 2546,
+          "3": 2197,
+          "4": 234,
+          "5": 20,
+          "6": 1
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.5566,
+        "histogram": {
+          "2": 2217,
+          "3": 2435,
+          "4": 319,
+          "5": 25,
+          "6": 4
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.6778,
+        "histogram": {
+          "2": 1611,
+          "3": 2829,
+          "4": 492,
+          "5": 63,
+          "6": 4,
+          "7": 1
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.7086,
+        "histogram": {
+          "2": 1457,
+          "3": 2979,
+          "4": 516,
+          "5": 46,
+          "6": 2
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8902,
+        "histogram": {
+          "2": 549,
+          "3": 3104,
+          "4": 1172,
+          "5": 164,
+          "6": 11
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.951,
+        "histogram": {
+          "2": 245,
+          "3": 2931,
+          "4": 1471,
+          "5": 296,
+          "6": 51,
+          "7": 5,
+          "9": 1
+        }
+      },
+      {
+        "p": 131,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9874,
+        "histogram": {
+          "1": 63,
+          "2": 3863,
+          "3": 1027,
+          "4": 47
+        }
+      },
+      {
+        "p": 127,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.989,
+        "histogram": {
+          "1": 55,
+          "2": 3732,
+          "3": 1132,
+          "4": 80,
+          "5": 1
+        }
+      },
+      {
+        "p": 107,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9946,
+        "histogram": {
+          "1": 27,
+          "2": 3416,
+          "3": 1472,
+          "4": 80,
+          "5": 5
+        }
+      },
+      {
+        "p": 109,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9958,
+        "histogram": {
+          "1": 21,
+          "2": 3425,
+          "3": 1460,
+          "4": 88,
+          "5": 5,
+          "6": 1
+        }
+      },
+      {
+        "p": 103,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9964,
+        "histogram": {
+          "1": 18,
+          "2": 3304,
+          "3": 1566,
+          "4": 106,
+          "5": 6
+        }
+      },
+      {
+        "p": 101,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.998,
+        "histogram": {
+          "1": 10,
+          "2": 3292,
+          "3": 1578,
+          "4": 118,
+          "5": 2
+        }
+      },
+      {
+        "p": 97,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9982,
+        "histogram": {
+          "1": 9,
+          "2": 3139,
+          "3": 1699,
+          "4": 146,
+          "5": 7
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 1134,
+          "3": 3083,
+          "4": 694,
+          "5": 82,
+          "6": 7
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 2184,
+          "3": 2505,
+          "4": 289,
+          "5": 21,
+          "6": 1
+        }
+      }
+    ]
+  },
+  {
+    "n": 70,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n70_rot4.few",
+    "fundamental_edges": [
+      [
+        1,
+        21
+      ],
+      [
+        3,
+        26
+      ],
+      [
+        3,
+        28
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        26
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        21
+      ],
+      [
+        10,
+        32
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        12,
+        20
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        16,
+        0
+      ],
+      [
+        18,
+        1
+      ],
+      [
+        19,
+        17
+      ],
+      [
+        22,
+        5
+      ],
+      [
+        22,
+        19
+      ],
+      [
+        23,
+        4
+      ],
+      [
+        24,
+        14
+      ],
+      [
+        24,
+        30
+      ],
+      [
+        25,
+        14
+      ],
+      [
+        25,
+        18
+      ],
+      [
+        28,
+        27
+      ],
+      [
+        29,
+        16
+      ],
+      [
+        29,
+        20
+      ],
+      [
+        30,
+        2
+      ],
+      [
+        31,
+        2
+      ],
+      [
+        31,
+        7
+      ],
+      [
+        32,
+        11
+      ],
+      [
+        33,
+        23
+      ],
+      [
+        33,
+        27
+      ],
+      [
+        34,
+        0
+      ],
+      [
+        34,
+        13
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 23,
+    "best": {
+      "p": 137,
+      "exact_orbits": 3,
+      "exact_points": 12,
+      "tail_probability": 0.2258,
+      "histogram": {
+        "1": 63,
+        "2": 3808,
+        "3": 1078,
+        "4": 51
+      }
+    },
+    "bonferroni_bound": 1.0,
+    "records": [
+      {
+        "p": 137,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2258,
+        "histogram": {
+          "1": 63,
+          "2": 3808,
+          "3": 1078,
+          "4": 51
+        }
+      },
+      {
+        "p": 103,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3552,
+        "histogram": {
+          "1": 10,
+          "2": 3214,
+          "3": 1654,
+          "4": 120,
+          "5": 2
+        }
+      },
+      {
+        "p": 101,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3702,
+        "histogram": {
+          "1": 6,
+          "2": 3143,
+          "3": 1692,
+          "4": 151,
+          "5": 7,
+          "6": 1
+        }
+      },
+      {
+        "p": 79,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.5316,
+        "histogram": {
+          "2": 2342,
+          "3": 2355,
+          "4": 285,
+          "5": 18
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.585,
+        "histogram": {
+          "1": 1,
+          "2": 2074,
+          "3": 2541,
+          "4": 349,
+          "5": 31,
+          "6": 4
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.6504,
+        "histogram": {
+          "2": 1748,
+          "3": 2791,
+          "4": 431,
+          "5": 30
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.7072,
+        "histogram": {
+          "2": 1464,
+          "3": 2915,
+          "4": 556,
+          "5": 57,
+          "6": 7,
+          "7": 1
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.733,
+        "histogram": {
+          "2": 1335,
+          "3": 3030,
+          "4": 582,
+          "5": 50,
+          "6": 3
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8178,
+        "histogram": {
+          "2": 911,
+          "3": 3176,
+          "4": 801,
+          "5": 93,
+          "6": 17,
+          "7": 2
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.8734,
+        "histogram": {
+          "2": 633,
+          "3": 3208,
+          "4": 1032,
+          "5": 116,
+          "6": 11
+        }
+      },
+      {
+        "p": 43,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.9172,
+        "histogram": {
+          "2": 414,
+          "3": 3087,
+          "4": 1301,
+          "5": 175,
+          "6": 23
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.9632,
+        "histogram": {
+          "2": 184,
+          "3": 2749,
+          "4": 1609,
+          "5": 381,
+          "6": 62,
+          "7": 9,
+          "8": 5,
+          "9": 1
+        }
+      },
+      {
+        "p": 139,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9886,
+        "histogram": {
+          "1": 57,
+          "2": 3932,
+          "3": 960,
+          "4": 49,
+          "5": 2
+        }
+      },
+      {
+        "p": 131,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9918,
+        "histogram": {
+          "1": 41,
+          "2": 3798,
+          "3": 1106,
+          "4": 53,
+          "5": 2
+        }
+      },
+      {
+        "p": 127,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9932,
+        "histogram": {
+          "1": 34,
+          "2": 3664,
+          "3": 1240,
+          "4": 60,
+          "5": 2
+        }
+      },
+      {
+        "p": 113,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9962,
+        "histogram": {
+          "1": 19,
+          "2": 3412,
+          "3": 1470,
+          "4": 93,
+          "5": 6
+        }
+      },
+      {
+        "p": 107,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9972,
+        "histogram": {
+          "1": 14,
+          "2": 3311,
+          "3": 1555,
+          "4": 115,
+          "5": 5
+        }
+      },
+      {
+        "p": 109,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9974,
+        "histogram": {
+          "1": 13,
+          "2": 3363,
+          "3": 1505,
+          "4": 112,
+          "5": 7
+        }
+      },
+      {
+        "p": 89,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.999,
+        "histogram": {
+          "1": 5,
+          "2": 2670,
+          "3": 2098,
+          "4": 213,
+          "5": 13,
+          "6": 1
+        }
+      },
+      {
+        "p": 97,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9994,
+        "histogram": {
+          "1": 3,
+          "2": 3009,
+          "3": 1831,
+          "4": 147,
+          "5": 8,
+          "6": 2
+        }
+      },
+      {
+        "p": 83,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9996,
+        "histogram": {
+          "1": 2,
+          "2": 2530,
+          "3": 2217,
+          "4": 236,
+          "5": 15
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 334,
+          "3": 3025,
+          "4": 1367,
+          "5": 237,
+          "6": 30,
+          "7": 5,
+          "8": 2
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 2099,
+          "3": 2553,
+          "4": 322,
+          "5": 26
+        }
+      }
+    ]
+  },
+  {
+    "n": 72,
+    "source": "D:\\djr82\\Documents\\workbuddy\\2026-07-03-16-29-36\\no3inline-rigidity\\analysis\\flammenkamp_cache\\n72_rot4.few",
+    "fundamental_edges": [
+      [
+        0,
+        34
+      ],
+      [
+        1,
+        33
+      ],
+      [
+        2,
+        22
+      ],
+      [
+        2,
+        28
+      ],
+      [
+        4,
+        20
+      ],
+      [
+        5,
+        28
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        6,
+        20
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        8,
+        17
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        10,
+        31
+      ],
+      [
+        11,
+        27
+      ],
+      [
+        12,
+        24
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        13,
+        16
+      ],
+      [
+        17,
+        35
+      ],
+      [
+        18,
+        25
+      ],
+      [
+        18,
+        29
+      ],
+      [
+        19,
+        9
+      ],
+      [
+        21,
+        15
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        23,
+        8
+      ],
+      [
+        23,
+        12
+      ],
+      [
+        24,
+        3
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        26,
+        32
+      ],
+      [
+        27,
+        4
+      ],
+      [
+        29,
+        1
+      ],
+      [
+        30,
+        3
+      ],
+      [
+        30,
+        11
+      ],
+      [
+        31,
+        14
+      ],
+      [
+        32,
+        0
+      ],
+      [
+        34,
+        19
+      ],
+      [
+        35,
+        22
+      ]
+    ],
+    "samples": 5000,
+    "prime_interval": [
+      0.5,
+      2.0
+    ],
+    "primes_tested": 23,
+    "best": {
+      "p": 43,
+      "exact_orbits": 6,
+      "exact_points": 24,
+      "tail_probability": 0.0044,
+      "histogram": {
+        "2": 317,
+        "3": 3084,
+        "4": 1374,
+        "5": 203,
+        "6": 21,
+        "7": 1
+      }
+    },
+    "bonferroni_bound": 0.10120000000000001,
+    "records": [
+      {
+        "p": 43,
+        "exact_orbits": 6,
+        "exact_points": 24,
+        "tail_probability": 0.0044,
+        "histogram": {
+          "2": 317,
+          "3": 3084,
+          "4": 1374,
+          "5": 203,
+          "6": 21,
+          "7": 1
+        }
+      },
+      {
+        "p": 89,
+        "exact_orbits": 5,
+        "exact_points": 20,
+        "tail_probability": 0.0052,
+        "histogram": {
+          "1": 5,
+          "2": 2573,
+          "3": 2181,
+          "4": 215,
+          "5": 25,
+          "6": 1
+        }
+      },
+      {
+        "p": 107,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.025,
+        "histogram": {
+          "1": 5,
+          "2": 3203,
+          "3": 1667,
+          "4": 118,
+          "5": 7
+        }
+      },
+      {
+        "p": 137,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.238,
+        "histogram": {
+          "1": 41,
+          "2": 3769,
+          "3": 1128,
+          "4": 61,
+          "5": 1
+        }
+      },
+      {
+        "p": 47,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.2538,
+        "histogram": {
+          "2": 501,
+          "3": 3230,
+          "4": 1097,
+          "5": 156,
+          "6": 15,
+          "7": 1
+        }
+      },
+      {
+        "p": 131,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2538,
+        "histogram": {
+          "1": 31,
+          "2": 3700,
+          "3": 1197,
+          "4": 70,
+          "5": 2
+        }
+      },
+      {
+        "p": 127,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.2636,
+        "histogram": {
+          "1": 27,
+          "2": 3655,
+          "3": 1237,
+          "4": 79,
+          "5": 2
+        }
+      },
+      {
+        "p": 113,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3426,
+        "histogram": {
+          "1": 12,
+          "2": 3275,
+          "3": 1597,
+          "4": 112,
+          "5": 4
+        }
+      },
+      {
+        "p": 109,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.346,
+        "histogram": {
+          "1": 11,
+          "2": 3259,
+          "3": 1590,
+          "4": 129,
+          "5": 11
+        }
+      },
+      {
+        "p": 41,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.3776,
+        "histogram": {
+          "2": 259,
+          "3": 2853,
+          "4": 1557,
+          "5": 277,
+          "6": 43,
+          "7": 10,
+          "8": 1
+        }
+      },
+      {
+        "p": 103,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.3862,
+        "histogram": {
+          "1": 13,
+          "2": 3056,
+          "3": 1776,
+          "4": 147,
+          "5": 8
+        }
+      },
+      {
+        "p": 101,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.4052,
+        "histogram": {
+          "1": 9,
+          "2": 2965,
+          "3": 1861,
+          "4": 153,
+          "5": 12
+        }
+      },
+      {
+        "p": 37,
+        "exact_orbits": 4,
+        "exact_points": 16,
+        "tail_probability": 0.4404,
+        "histogram": {
+          "2": 127,
+          "3": 2671,
+          "4": 1752,
+          "5": 352,
+          "6": 81,
+          "7": 15,
+          "8": 2
+        }
+      },
+      {
+        "p": 83,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.5296,
+        "histogram": {
+          "2": 2352,
+          "3": 2373,
+          "4": 256,
+          "5": 19
+        }
+      },
+      {
+        "p": 79,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.5506,
+        "histogram": {
+          "2": 2247,
+          "3": 2456,
+          "4": 283,
+          "5": 14
+        }
+      },
+      {
+        "p": 73,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.6246,
+        "histogram": {
+          "2": 1877,
+          "3": 2675,
+          "4": 401,
+          "5": 43,
+          "6": 4
+        }
+      },
+      {
+        "p": 67,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.6652,
+        "histogram": {
+          "2": 1674,
+          "3": 2817,
+          "4": 463,
+          "5": 44,
+          "6": 2
+        }
+      },
+      {
+        "p": 61,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.7536,
+        "histogram": {
+          "2": 1232,
+          "3": 3067,
+          "4": 641,
+          "5": 54,
+          "6": 6
+        }
+      },
+      {
+        "p": 59,
+        "exact_orbits": 3,
+        "exact_points": 12,
+        "tail_probability": 0.7686,
+        "histogram": {
+          "2": 1157,
+          "3": 3145,
+          "4": 630,
+          "5": 64,
+          "6": 4
+        }
+      },
+      {
+        "p": 139,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9866,
+        "histogram": {
+          "1": 67,
+          "2": 3803,
+          "3": 1070,
+          "4": 58,
+          "5": 2
+        }
+      },
+      {
+        "p": 97,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 0.9988,
+        "histogram": {
+          "1": 6,
+          "2": 2877,
+          "3": 1923,
+          "4": 182,
+          "5": 12
+        }
+      },
+      {
+        "p": 53,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 817,
+          "3": 3134,
+          "4": 926,
+          "5": 102,
+          "6": 19,
+          "7": 2
+        }
+      },
+      {
+        "p": 71,
+        "exact_orbits": 2,
+        "exact_points": 8,
+        "tail_probability": 1.0,
+        "histogram": {
+          "2": 1883,
+          "3": 2735,
+          "4": 354,
+          "5": 28
+        }
+      }
+    ]
+  }
+]

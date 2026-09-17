@@ -1,0 +1,149 @@
+{
+  "unit": [
+    {
+      "name": "空子句→SAT",
+      "z3": false,
+      "pysat": false,
+      "dpll": false,
+      "expect": false,
+      "ok": true
+    },
+    {
+      "name": "x0=0∧x0=1→UNSAT",
+      "z3": true,
+      "pysat": true,
+      "dpll": true,
+      "expect": true,
+      "ok": true
+    },
+    {
+      "name": "(x0∨x1)∧(¬x0∨¬x1)→SAT",
+      "z3": false,
+      "pysat": false,
+      "dpll": false,
+      "expect": false,
+      "ok": true
+    },
+    {
+      "name": "三变量单子句→SAT",
+      "z3": false,
+      "pysat": false,
+      "dpll": false,
+      "expect": false,
+      "ok": true
+    }
+  ],
+  "negatives": [
+    {
+      "id": "v20_01",
+      "ncells": 37,
+      "n_clauses": 1272,
+      "z3": true,
+      "pysat": true,
+      "dpll": true,
+      "ok": true
+    },
+    {
+      "id": "v20_02",
+      "ncells": 37,
+      "n_clauses": 1398,
+      "z3": true,
+      "pysat": true,
+      "dpll": true,
+      "ok": true
+    },
+    {
+      "id": "v20_03",
+      "ncells": 37,
+      "n_clauses": 1398,
+      "z3": true,
+      "pysat": true,
+      "dpll": true,
+      "ok": true
+    },
+    {
+      "id": "v20_04",
+      "ncells": 37,
+      "n_clauses": 1338,
+      "z3": true,
+      "pysat": true,
+      "dpll": true,
+      "ok": true
+    },
+    {
+      "id": "v20_05",
+      "ncells": 37,
+      "n_clauses": 1386,
+      "z3": true,
+      "pysat": true,
+      "dpll": true,
+      "ok": true
+    },
+    {
+      "id": "v20_06",
+      "ncells": 37,
+      "n_clauses": 1344,
+      "z3": true,
+      "pysat": true,
+      "dpll": true,
+      "ok": true
+    }
+  ],
+  "positives": [
+    {
+      "m": 5,
+      "ncells": 5,
+      "n_clauses": 72,
+      "z3": false,
+      "pysat": false,
+      "dpll": false,
+      "n_points": 20,
+      "bad_triples": 0,
+      "source": "balanced_cpsat_m5_m6.run0",
+      "ok": true
+    },
+    {
+      "m": 10,
+      "ncells": 10,
+      "n_clauses": 162,
+      "z3": false,
+      "pysat": false,
+      "dpll": false,
+      "n_points": 40,
+      "bad_triples": 0,
+      "source": "rot4_loader.load_rot4(n=20)",
+      "ok": true
+    },
+    {
+      "m": 14,
+      "ncells": 14,
+      "n_clauses": 282,
+      "z3": false,
+      "pysat": false,
+      "dpll": false,
+      "n_points": 56,
+      "bad_triples": 0,
+      "source": "rot4_loader.load_rot4(n=28)",
+      "ok": true
+    },
+    {
+      "m": 36,
+      "ncells": 36,
+      "n_clauses": 1194,
+      "z3": false,
+      "pysat": false,
+      "dpll": false,
+      "n_points": 144,
+      "bad_triples": 0,
+      "source": "n72_new_sol_1.json",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "unit_ok": true,
+    "negatives_ok": true,
+    "positives_ok": true,
+    "all_ok": true,
+    "verdict": "SOLVER_CHAIN_TRUSTWORTHY"
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "n": 24,
+  "q": 24,
+  "meaning": "primitive direction scales strictly below q are protected",
+  "stage": "full",
+  "required_removed_count": null,
+  "forced_added_cell": null,
+  "old_point_count": 48,
+  "empty_cell_count": 528,
+  "hint_removed_count": 32,
+  "old2_secant_constraint_count": 3124,
+  "relevant_secant_incidence_count": 3124,
+  "old1_conditional_line_constraint_count": 27976,
+  "old1_direction_count": 166,
+  "old1_encoding": "pairwise",
+  "new3_line_constraint_count": 11774,
+  "status": "FEASIBLE",
+  "wall_time_seconds": 180.0126442,
+  "best_removed_count_bound": 0.0,
+  "removed_count": 32,
+  "added_count": 32,
+  "symmetric_difference": 64,
+  "removed": [
+    [
+      0,
+      7
+    ],
+    [
+      1,
+      16
+    ],
+    [
+      2,
+      13
+    ],
+    [
+      2,
+      15
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      18
+    ],
+    [
+      4,
+      15
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      6,
+      20
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      7,
+      23
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      10,
+      2
+    ],
+    [
+      11,
+      14
+    ],
+    [
+      12,
+      9
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      14,
+      12
+    ],
+    [
+      15,
+      19
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      0
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      17,
+      3
+    ],
+    [
+      18,
+      20
+    ],
+    [
+      19,
+      8
+    ],
+    [
+      20,
+      5
+    ],
+    [
+      20,
+      17
+    ],
+    [
+      21,
+      8
+    ],
+    [
+      21,
+      10
+    ],
+    [
+      22,
+      7
+    ],
+    [
+      23,
+      16
+    ]
+  ],
+  "added": [
+    [
+      0,
+      15
+    ],
+    [
+      1,
+      11
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      17
+    ],
+    [
+      3,
+      21
+    ],
+    [
+      4,
+      21
+    ],
+    [
+      5,
+      16
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      7,
+      10
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      11,
+      22
+    ],
+    [
+      12,
+      1
+    ],
+    [
+      13,
+      7
+    ],
+    [
+      14,
+      8
+    ],
+    [
+      15,
+      14
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      16,
+      13
+    ],
+    [
+      16,
+      18
+    ],
+    [
+      17,
+      20
+    ],
+    [
+      18,
+      7
+    ],
+    [
+      19,
+      2
+    ],
+    [
+      20,
+      2
+    ],
+    [
+      20,
+      6
+    ],
+    [
+      21,
+      19
+    ],
+    [
+      21,
+      20
+    ],
+    [
+      22,
+      12
+    ],
+    [
+      23,
+      8
+    ]
+  ],
+  "verification": {
+    "point_count": 48,
+    "distinct": true,
+    "rows_saturated": true,
+    "columns_saturated": true,
+    "collinear_triples_by_new_point_count": {},
+    "protected_collinear_triples_by_new_point_count": {},
+    "collinear_triple_examples": [],
+    "is_exact_ntil": true
+  }
+}

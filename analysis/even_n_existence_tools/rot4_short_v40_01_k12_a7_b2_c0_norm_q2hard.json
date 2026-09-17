@@ -1,0 +1,21 @@
+{
+  "parameters": {
+    "base": "v40_01",
+    "size": 12,
+    "adjacency_count": 7,
+    "triple_count": 2,
+    "quadruple_count": 0,
+    "loop_count": null,
+    "direction_q": 2,
+    "allow_exact_reselection": false,
+    "time_limit": 300.0,
+    "workers": 4,
+    "out": "rot4_short_v40_01_k12_a7_b2_c0_norm_q2hard.json"
+  },
+  "status": "INFEASIBLE",
+  "short_line_count": 284,
+  "branches": 5241236,
+  "conflicts": 1955335,
+  "wall_s": 207.513,
+  "elapsed_s": 207.519
+}

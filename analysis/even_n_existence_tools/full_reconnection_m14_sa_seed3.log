@@ -1,0 +1,131 @@
+RESTART 0 initial_energy=100
+SA_BEST move=9 energy=60
+SA_BEST move=138 energy=40
+SA_BEST move=1424 energy=20
+POST_SA restart=0 energy=12
+LOCAL_MIN step=0 energy=12 candidates=889
+RESTART 1 initial_energy=84
+SA_BEST move=4 energy=60
+SA_BEST move=701 energy=20
+POST_SA restart=1 energy=12
+LOCAL_MIN step=0 energy=12 candidates=822
+RESTART 2 initial_energy=72
+SA_BEST move=731 energy=20
+SA_BEST move=13666 energy=8
+POST_SA restart=2 energy=8
+LOCAL_MIN step=0 energy=8 candidates=889
+RESTART 3 initial_energy=120
+SA_BEST move=2 energy=100
+SA_BEST move=6 energy=80
+SA_BEST move=63 energy=40
+SA_BEST move=1287 energy=20
+POST_SA restart=3 energy=12
+LOCAL_MIN step=0 energy=12 candidates=889
+RESTART 4 initial_energy=112
+SA_BEST move=49 energy=40
+SA_BEST move=609 energy=20
+SA_BEST move=18788 energy=8
+POST_SA restart=4 energy=8
+LOCAL_MIN step=0 energy=8 candidates=819
+RESTART 5 initial_energy=96
+SA_BEST move=35 energy=40
+SA_BEST move=1063 energy=20
+SA_BEST move=10650 energy=8
+POST_SA restart=5 energy=8
+LOCAL_MIN step=0 energy=8 candidates=819
+RESTART 6 initial_energy=116
+SA_BEST move=3 energy=100
+SA_BEST move=6 energy=80
+SA_BEST move=33 energy=40
+SA_BEST move=2585 energy=20
+SA_BEST move=20763 energy=8
+POST_SA restart=6 energy=8
+LOCAL_MIN step=0 energy=8 candidates=819
+RESTART 7 initial_energy=92
+SA_BEST move=4 energy=80
+SA_BEST move=97 energy=40
+SA_BEST move=3836 energy=20
+SA_BEST move=20638 energy=8
+POST_SA restart=7 energy=8
+LOCAL_MIN step=0 energy=8 candidates=889
+RESTART 8 initial_energy=188
+SA_BEST move=4 energy=120
+SA_BEST move=5 energy=100
+SA_BEST move=14 energy=80
+SA_BEST move=89 energy=40
+SA_BEST move=1082 energy=20
+SA_BEST move=21232 energy=8
+POST_SA restart=8 energy=8
+LOCAL_MIN step=0 energy=8 candidates=821
+RESTART 9 initial_energy=80
+SA_BEST move=85 energy=40
+SA_BEST move=907 energy=20
+SA_BEST move=95053 energy=8
+POST_SA restart=9 energy=8
+LOCAL_MIN step=0 energy=8 candidates=889
+RESTART 10 initial_energy=72
+SA_BEST move=4 energy=60
+SA_BEST move=8 energy=40
+SA_BEST move=13146 energy=8
+POST_SA restart=10 energy=8
+LOCAL_MIN step=0 energy=8 candidates=889
+RESTART 11 initial_energy=124
+SA_BEST move=745 energy=20
+SA_BEST move=1982 energy=8
+POST_SA restart=11 energy=8
+LOCAL_MIN step=0 energy=8 candidates=889
+RESTART 12 initial_energy=100
+SA_BEST move=11 energy=80
+SA_BEST move=31 energy=60
+SA_BEST move=2239 energy=20
+SA_BEST move=16048 energy=8
+POST_SA restart=12 energy=8
+LOCAL_MIN step=0 energy=8 candidates=822
+RESTART 13 initial_energy=88
+SA_BEST move=5 energy=80
+SA_BEST move=47 energy=40
+SA_BEST move=3630 energy=20
+SA_BEST move=22400 energy=8
+SA_BEST move=23581 energy=4
+POST_SA restart=13 energy=4
+LOCAL_MIN step=0 energy=4 candidates=822
+RESTART 14 initial_energy=68
+SA_BEST move=29 energy=40
+SA_BEST move=2023 energy=20
+SA_BEST move=20449 energy=8
+POST_SA restart=14 energy=8
+LOCAL_MIN step=0 energy=8 candidates=894
+RESTART 15 initial_energy=108
+SA_BEST move=0 energy=80
+SA_BEST move=10 energy=40
+SA_BEST move=450 energy=20
+SA_BEST move=15332 energy=8
+POST_SA restart=15 energy=8
+LOCAL_MIN step=0 energy=8 candidates=819
+RESTART 16 initial_energy=92
+SA_BEST move=6 energy=60
+SA_BEST move=59 energy=40
+SA_BEST move=3737 energy=20
+SA_BEST move=23541 energy=8
+SA_BEST move=23674 energy=4
+POST_SA restart=16 energy=4
+LOCAL_MIN step=0 energy=4 candidates=889
+RESTART 17 initial_energy=72
+SA_BEST move=138 energy=20
+SA_BEST move=26753 energy=8
+POST_SA restart=17 energy=8
+LOCAL_MIN step=0 energy=8 candidates=889
+RESTART 18 initial_energy=76
+SA_BEST move=5 energy=40
+SA_BEST move=476 energy=20
+SA_BEST move=12879 energy=8
+POST_SA restart=18 energy=8
+LOCAL_MIN step=0 energy=8 candidates=889
+RESTART 19 initial_energy=68
+SA_BEST move=61 energy=40
+SA_BEST move=15883 energy=8
+POST_SA restart=19 energy=8
+LOCAL_MIN step=0 energy=8 candidates=892
+NOT_FOUND best_energy=4 elapsed_seconds=170.563871
+SOLUTION m=14 n=28 energy=4 cells=(10,5)(1,7)(5,13)(10,13)(4,2)(12,12)(9,2)(8,6)(3,7)(11,1)(0,6)(4,3)(9,8)(0,11)
+points=(10,5)(22,10)(17,22)(5,17)(1,7)(20,1)(26,20)(7,26)(5,13)(14,5)(22,14)(13,22)(10,13)(14,10)(17,14)(13,17)(4,2)(25,4)(23,25)(2,23)(12,12)(15,12)(15,15)(12,15)(9,2)(25,9)(18,25)(2,18)(8,6)(21,8)(19,21)(6,19)(3,7)(20,3)(24,20)(7,24)(11,1)(26,11)(16,26)(1,16)(0,6)(21,0)(27,21)(6,27)(4,3)(24,4)(23,24)(3,23)(9,8)(19,9)(18,19)(8,18)(0,11)(16,0)(27,16)(11,27)

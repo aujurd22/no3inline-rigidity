@@ -1,0 +1,75 @@
+v40_02: precomputing blockers
+  pass=1 unresolved=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] shared_lines=0
+    adjacency=0 starting with 0 shared lines
+      status=INFEASIBLE rounds=1 new_dynamic=0 shared_now=72 best_bad=None
+    adjacency=1 starting with 72 shared lines
+      round=1 bad_lines=72 new=18 cuts=90 best=72
+      status=INFEASIBLE rounds=2 new_dynamic=18 shared_now=90 best_bad=72
+    adjacency=2 starting with 90 shared lines
+      status=INFEASIBLE rounds=1 new_dynamic=0 shared_now=90 best_bad=None
+    adjacency=3 starting with 90 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=90 best_bad=None
+    adjacency=4 starting with 90 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=90 best_bad=None
+    adjacency=5 starting with 90 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=90 best_bad=None
+    adjacency=6 starting with 90 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=90 best_bad=None
+    adjacency=7 starting with 90 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=90 best_bad=None
+    adjacency=8 starting with 90 shared lines
+      status=INFEASIBLE rounds=1 new_dynamic=0 shared_now=90 best_bad=None
+    adjacency=9 starting with 90 shared lines
+      status=INFEASIBLE rounds=1 new_dynamic=0 shared_now=90 best_bad=None
+    adjacency=10 starting with 90 shared lines
+      status=INFEASIBLE rounds=1 new_dynamic=0 shared_now=90 best_bad=None
+v40_03: precomputing blockers
+  pass=1 unresolved=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] shared_lines=90
+    adjacency=0 starting with 90 shared lines
+      status=INFEASIBLE rounds=1 new_dynamic=0 shared_now=90 best_bad=None
+    adjacency=1 starting with 90 shared lines
+      round=1 bad_lines=56 new=14 cuts=104 best=56
+      status=INFEASIBLE rounds=2 new_dynamic=14 shared_now=104 best_bad=56
+    adjacency=2 starting with 104 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=3 starting with 104 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=4 starting with 104 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=5 starting with 104 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=6 starting with 104 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=7 starting with 104 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=8 starting with 104 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=9 starting with 104 shared lines
+      status=INFEASIBLE rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=10 starting with 104 shared lines
+      status=INFEASIBLE rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+v40_04: precomputing blockers
+  pass=1 unresolved=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] shared_lines=104
+    adjacency=0 starting with 104 shared lines
+      status=INFEASIBLE rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=1 starting with 104 shared lines
+      status=INFEASIBLE rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=2 starting with 104 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=3 starting with 104 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=4 starting with 104 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=5 starting with 104 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=6 starting with 104 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=7 starting with 104 shared lines
+      status=UNKNOWN rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=8 starting with 104 shared lines
+      status=INFEASIBLE rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=9 starting with 104 shared lines
+      status=INFEASIBLE rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+    adjacency=10 starting with 104 shared lines
+      status=INFEASIBLE rounds=1 new_dynamic=0 shared_now=104 best_bad=None
+C:\Users\djr82\Documents\Codex\2026-07-13\d-djr82-documents-workbuddy-2026-07-2\work\even_n_existence\rot4_adjacency_cut_sweep_v40_02_04_q1.json

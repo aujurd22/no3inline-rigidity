@@ -1,0 +1,35 @@
+[
+  {
+    "n": 6,
+    "success": false,
+    "n_int": 4,
+    "time": 0.3808021545410156,
+    "stats": {
+      "iterations": 1007,
+      "eps_total": 74.02411024571515,
+      "rollbacks": 7999
+    }
+  },
+  {
+    "n": 8,
+    "success": false,
+    "n_int": 14,
+    "time": 0.8850972652435303,
+    "stats": {
+      "iterations": 696,
+      "eps_total": 56.691054974553474,
+      "rollbacks": 8628
+    }
+  },
+  {
+    "n": 10,
+    "success": false,
+    "n_int": 15,
+    "time": 2.0582058429718018,
+    "stats": {
+      "iterations": 984,
+      "eps_total": 81.85302271870151,
+      "rollbacks": 8073
+    }
+  }
+]

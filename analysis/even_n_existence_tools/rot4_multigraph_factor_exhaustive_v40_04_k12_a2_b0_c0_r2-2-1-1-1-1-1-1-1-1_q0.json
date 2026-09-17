@@ -1,0 +1,239 @@
+{
+  "component_count": 3,
+  "enumeration_mode": "run_profile",
+  "run_lengths": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2
+  ],
+  "distinct_shape_masks": 213990084,
+  "defect_hitting_masks": 5537611,
+  "factor_feasible_masks": 37,
+  "all_factor_infeasible": false,
+  "total_factor_search_nodes": 5539674,
+  "maximum_factor_search_nodes": 40,
+  "root_zero_option_by_deficit": {
+    "1": 4245352,
+    "2": 1291626
+  },
+  "search_node_histogram": {
+    "1": 5536978,
+    "2": 200,
+    "3": 157,
+    "4": 83,
+    "5": 66,
+    "6": 26,
+    "7+": 101
+  },
+  "sample_hitting_masks": [
+    20401692004,
+    20401692008,
+    20401692264,
+    20401696100,
+    3291487848,
+    3291487912,
+    20403785060,
+    20403785064,
+    20403785320,
+    20403788900
+  ],
+  "feasible_masks": [
+    2367772772,
+    3424737380,
+    51601035396,
+    7653109024,
+    7653109280,
+    10897939008,
+    11168389264,
+    11168454672,
+    89259052328,
+    131042710544,
+    2904561765,
+    3290716848,
+    52921827620,
+    36710733988,
+    70957165152,
+    76640491560,
+    34601256996,
+    43397218944,
+    45242472576,
+    89122756657,
+    93686143024,
+    94223013920,
+    36711175396,
+    36727951588,
+    70433384996,
+    39563308544,
+    41828229152,
+    87281437220,
+    34740126228,
+    34740126276,
+    34740126340,
+    34399939120,
+    36513868576,
+    39026699776,
+    39160915456,
+    39026697732,
+    39030892032
+  ],
+  "first_feasible_mask": 2367772772,
+  "first_feasible_cells": [
+    [
+      14,
+      7
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      5,
+      28
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      6,
+      27
+    ],
+    [
+      28,
+      2
+    ],
+    [
+      36,
+      8
+    ],
+    [
+      23,
+      1
+    ],
+    [
+      34,
+      11
+    ],
+    [
+      3,
+      16
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      22,
+      13
+    ]
+  ],
+  "base": "v40_04",
+  "cycle_edge_orders": [
+    [
+      0,
+      28,
+      27,
+      14,
+      10,
+      11,
+      24,
+      25,
+      31,
+      30,
+      35,
+      36,
+      18,
+      17,
+      32,
+      33,
+      1
+    ],
+    [
+      2,
+      9,
+      8,
+      23,
+      5,
+      4,
+      6,
+      7,
+      16,
+      15,
+      21,
+      22,
+      29,
+      12,
+      13,
+      3
+    ],
+    [
+      19,
+      26,
+      34,
+      20
+    ]
+  ],
+  "first_feasible_removed_indices": [
+    2,
+    5,
+    6,
+    11,
+    12,
+    14,
+    16,
+    21,
+    24,
+    26,
+    27,
+    31
+  ],
+  "method": {
+    "deletion_run_lengths": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "normalization": "all exact old-orientation reselections forbidden",
+    "multigraph": "both (u,v) and (v,u) allowed simultaneously",
+    "geometry": "candidate cells filtered by exact retained-base blocker masks",
+    "factor": "exact deficit-0/1/2 f-factor DFS; loops consume 2 and opposite orientations may form a digon",
+    "line_capacities": "none (q=0 shadow factor)"
+  },
+  "stderr_progress_tail": [
+    "hit=5340000 feasible=35 nodes=5342010",
+    "hit=5350000 feasible=35 nodes=5352010",
+    "hit=5360000 feasible=35 nodes=5362010",
+    "hit=5370000 feasible=35 nodes=5372010",
+    "hit=5380000 feasible=35 nodes=5382010",
+    "hit=5390000 feasible=35 nodes=5392010",
+    "hit=5400000 feasible=35 nodes=5402021",
+    "hit=5410000 feasible=35 nodes=5412021",
+    "hit=5420000 feasible=35 nodes=5422024",
+    "hit=5430000 feasible=35 nodes=5432024",
+    "hit=5440000 feasible=37 nodes=5442050",
+    "hit=5450000 feasible=37 nodes=5452050",
+    "hit=5460000 feasible=37 nodes=5462050",
+    "hit=5470000 feasible=37 nodes=5472050",
+    "hit=5480000 feasible=37 nodes=5482058",
+    "hit=5490000 feasible=37 nodes=5492058",
+    "hit=5500000 feasible=37 nodes=5502058",
+    "hit=5510000 feasible=37 nodes=5512058",
+    "hit=5520000 feasible=37 nodes=5522060",
+    "hit=5530000 feasible=37 nodes=5532062"
+  ],
+  "elapsed_s": 33.425
+}

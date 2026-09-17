@@ -1,0 +1,95 @@
+{
+  "component_count": 2,
+  "enumeration_mode": "fixed_adjacency_with_required_full_cycle",
+  "target_adjacency": 8,
+  "required_full_cycle_length": 4,
+  "distinct_shape_masks": 584430,
+  "defect_hitting_masks": 36839,
+  "factor_feasible_masks": 0,
+  "all_factor_infeasible": true,
+  "total_factor_search_nodes": 36839,
+  "maximum_factor_search_nodes": 1,
+  "root_zero_option_by_deficit": {
+    "1": 13116,
+    "2": 23723
+  },
+  "search_node_histogram": {
+    "1": 36839
+  },
+  "sample_hitting_masks": [
+    8826670083,
+    8826670092,
+    8826670128,
+    8826670176,
+    8826670272,
+    8826670596,
+    8826670848,
+    8826678280,
+    8826682368,
+    8826768384
+  ],
+  "first_feasible_mask": 0,
+  "first_feasible_cells": [],
+  "base": "v40_03",
+  "cycle_edge_orders": [
+    [
+      0,
+      28,
+      27,
+      14,
+      10,
+      11,
+      24,
+      25,
+      35,
+      23,
+      8,
+      9,
+      2,
+      3,
+      13,
+      12,
+      29,
+      22,
+      21,
+      15,
+      16,
+      34,
+      30,
+      4,
+      5,
+      6,
+      7,
+      36,
+      18,
+      17,
+      31,
+      32,
+      1
+    ],
+    [
+      19,
+      26,
+      33,
+      20
+    ]
+  ],
+  "first_feasible_removed_indices": [],
+  "method": {
+    "k": 12,
+    "A": 8,
+    "required_full_cycle_length": 4,
+    "cycle_handling": "direct local (selected-edge-count, adjacency-count) generation; empty, partially selected, and fully selected cycles are distinct",
+    "normalization": "all exact old-orientation reselections forbidden",
+    "multigraph": "both (u,v) and (v,u) allowed simultaneously",
+    "geometry": "candidate cells filtered by exact retained-base blocker masks",
+    "factor": "exact deficit-0/1/2 f-factor DFS; loops consume 2 and opposite orientations may form a digon",
+    "line_capacities": "none (q=0 shadow factor)"
+  },
+  "stderr_progress_tail": [
+    "hit=10000 feasible=0 nodes=10000",
+    "hit=20000 feasible=0 nodes=20000",
+    "hit=30000 feasible=0 nodes=30000"
+  ],
+  "elapsed_s": 6.607
+}

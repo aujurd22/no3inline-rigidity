@@ -1,0 +1,23 @@
+[
+  {
+    "id": "v44_01",
+    "archived": 44,
+    "geo_stored": 44,
+    "correct_optimal": 44,
+    "consistent": true
+  },
+  {
+    "id": "v52_01",
+    "archived": 52,
+    "geo_stored": 52,
+    "correct_optimal": 52,
+    "consistent": true
+  },
+  {
+    "id": "v60_01",
+    "archived": 60,
+    "geo_stored": 60,
+    "correct_optimal": 60,
+    "consistent": true
+  }
+]

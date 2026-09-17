@@ -1,0 +1,33 @@
+{
+  "p": 17,
+  "n": 16,
+  "layer_count": 8,
+  "multipliers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "status": "UNKNOWN",
+  "candidate_points": 128,
+  "rich_lines": 666,
+  "rich_line_size_histogram": {
+    "3": 426,
+    "4": 152,
+    "5": 22,
+    "6": 20,
+    "7": 4,
+    "8": 38,
+    "9": 2,
+    "11": 2
+  },
+  "line_build_seconds": 0.005912500026170164,
+  "solve_wall_seconds": 600.0041978,
+  "branches": 16083825,
+  "conflicts": 273428,
+  "best_objective_bound": 0.0
+}

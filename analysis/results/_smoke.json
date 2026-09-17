@@ -1,0 +1,38 @@
+{
+  "args": {
+    "m": 6,
+    "mode": "sa",
+    "init": "highprob",
+    "anchors": 0.4,
+    "iters": 2000,
+    "restarts": 3,
+    "seed": 1,
+    "sidon_filter": false,
+    "out": "results/_smoke.json"
+  },
+  "results": {
+    "6": {
+      "solved": false,
+      "verified": false,
+      "final_bad": 4,
+      "iters": 2000,
+      "anchors": 0.4,
+      "init": "highprob",
+      "mode": "sa",
+      "sidon_filter": false,
+      "traj": [
+        60,
+        32,
+        24,
+        12,
+        16,
+        8,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  }
+}

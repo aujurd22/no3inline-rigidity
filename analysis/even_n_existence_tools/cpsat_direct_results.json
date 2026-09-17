@@ -1,0 +1,24 @@
+[
+  {
+    "n": 16,
+    "status": "UNKNOWN",
+    "time": 120.0,
+    "build_time": 0.1,
+    "lines": 29480,
+    "constraints": 5128,
+    "wall_time": 120.00335190000001,
+    "ntil_ok": false,
+    "total_time": 120.2
+  },
+  {
+    "n": 20,
+    "status": "UNKNOWN",
+    "time": 180.0,
+    "build_time": 0.3,
+    "lines": 70152,
+    "constraints": 12424,
+    "wall_time": 180.00595460000002,
+    "ntil_ok": false,
+    "total_time": 180.4
+  }
+]

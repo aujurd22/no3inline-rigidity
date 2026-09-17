@@ -1,0 +1,32 @@
+{
+  "m": 16,
+  "n_points": 64,
+  "n_layers": 15,
+  "views": {
+    "top": {
+      "total_collinear": 0,
+      "horizontal_band": 0,
+      "other_diag": 0
+    },
+    "front": {
+      "total_collinear": 466,
+      "horizontal_band": 112,
+      "other_diag": 354
+    },
+    "back": {
+      "total_collinear": 466,
+      "horizontal_band": 112,
+      "other_diag": 354
+    },
+    "left": {
+      "total_collinear": 466,
+      "horizontal_band": 112,
+      "other_diag": 354
+    },
+    "right": {
+      "total_collinear": 466,
+      "horizontal_band": 112,
+      "other_diag": 354
+    }
+  }
+}

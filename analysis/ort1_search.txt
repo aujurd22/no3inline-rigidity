@@ -1,0 +1,6 @@
+[ort1] n=10: no witness (search budget 0s)
+[ort1] n=12: no witness (search budget 0s)
+[ort1] n=14: no witness (search budget 3s)
+[ort1] n=16: no witness (search budget 47s)
+[ort1] n=18: no witness (search budget 170s)
+[ort1] n=20: no witness (search budget 0s)

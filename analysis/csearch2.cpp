@@ -188,41 +188,59 @@ bool sa_restart(LL max_moves,double T0,double Tend,LL& best_out,vector<int>& bxs
 // ---- Greedy restart (scans all 3 move types) ----
 bool greedy_restart(LL max_steps,LL& best_out,vector<int>& bxs,vector<int>& bys,bool keep_init=false){
     if(!keep_init)init_random();
-    LL cur=total_bad;best_out=cur;bxs=xs;bys=ys;int eje=0;
-    for(LL step=0;step<max_steps;step++){
-        int bi=-1,bj=-1;MoveType bt=YSWAP;LL best_d=0;
-        // Scan all pairs x all move types
-        for(int ii=0;ii<m;ii++)for(int jj=ii+1;jj<m;jj++){
-            if(tabu_chk(ii,jj))continue;
-            for(int tt=0;tt<NUM_MOVES;tt++){
-                LL d=meas_move(ii,jj,(MoveType)tt);
-                if(d<best_d){best_d=d;bi=ii;bj=jj;bt=(MoveType)tt;}
+    LL cur=total_bad;best_out=cur;bxs=xs;bys=ys;
+    for(LL step=0;step<max_steps&&cur>0;step++){
+        bool found=false;
+        for(int ii=0;ii<m&&!found;ii++)for(int jj=ii+1;jj<m&&!found;jj++)
+            for(int tt=0;tt<NUM_MOVES&&!found;tt++)
+                if(meas_move(ii,jj,(MoveType)tt)<0){
+                    commit_move(ii,jj,(MoveType)tt);cur=total_bad;found=true;
+                    if(cur<best_out){best_out=cur;bxs=xs;bys=ys;}
+                    if(cur==0)return true;
+                }
+        if(!found){// Possibly state drift vs theory mismatch. Rebuild to verify.
+            LL vfy=0;unordered_map<LK,unordered_set<int>>lp;
+            for(int a=0;a<4*m;a++)for(int b=a+1;b<4*m;b++){
+                if(pts[a].x==pts[b].x&&pts[a].y==pts[b].y)continue;
+                LK k=line_of(pts[a],pts[b]);lp[k].insert(a);lp[k].insert(b);
             }
-        }
-        if(best_d<0){
-            commit_move(bi,bj,bt); cur=total_bad;
-            if(cur<best_out){best_out=cur;bxs=xs;bys=ys;} if(cur==0)return true;
-            tabu_add(bi,bj); eje=0;
-        }else if(best_d==0&&eje<3&&bi>=0){
-            commit_move(bi,bj,bt); cur=total_bad; eje++;
-        }else{
-            int ii=rng()%m,jj=rng()%m;if(ii!=jj){commit_move(ii,jj,(MoveType)(rng()%NUM_MOVES));cur=total_bad;
-                if(cur<best_out){best_out=cur;bxs=xs;bys=ys;} if(cur==0)return true;}
-            tabu_add(ii,jj); eje=0;
-        }
+            for(auto&kv:lp){LL c=kv.second.size();if(c>=3)vfy+=c*(c-1)*(c-2)/6;}
+            if(vfy!=total_bad){// state drift — rebuild and retry
+                build_map();cur=total_bad;if(cur<best_out){best_out=cur;bxs=xs;bys=ys;}
+                if(cur==0)return true;step--;continue;
+            }else break;// genuinely stuck
+        } // stuck (should not happen per Theorem 1 for m>=14)
     }
     best_out=cur;return false;
 }
 
+static bool load_init(const string&path, vector<int>& oxs, vector<int>& oys, int m){
+    ifstream f(path); if(!f) return false;
+    oxs.assign(m,0); oys.assign(m,0); int cnt=0; string line;
+    while(getline(f,line)){
+        size_t p=line.find("cells:"); if(p!=string::npos) line=line.substr(p+6);
+        vector<int> nums; size_t i=0;
+        while(i<line.size()){
+            if(isdigit((unsigned char)line[i])||line[i]=='-'){
+                long v=strtol(line.c_str()+i,nullptr,10); nums.push_back((int)v);
+                while(i<line.size()&&(isdigit((unsigned char)line[i])||line[i]=='-')) i++;
+            } else i++;
+        }
+        if(nums.size()>=2){ oxs[cnt]=nums[0]; oys[cnt]=nums[1]; cnt++; if(cnt>=m) break; }
+    }
+    return cnt==m;
+}
+
 // ---- Main ----
 int main(int argc,char**argv){
-    m=10;int restarts=100;LL max_moves=5000000LL;int seed=1;bool greedy=false,selftest=false;int pos=0;
+    m=10;int restarts=100;LL max_moves=5000000LL;int seed=1;bool greedy=false,selftest=false;int pos=0;string init_path;
     for(int a=1;a<argc;a++){
         string s=argv[a];
         if(s=="--m"&&a+1<argc)m=atoi(argv[++a]);
         else if(s=="--restarts"&&a+1<argc)restarts=atoi(argv[++a]);
         else if(s=="--moves"&&a+1<argc)max_moves=atoll(argv[++a]);
         else if(s=="--seed"&&a+1<argc)seed=atoi(argv[++a]);
+        else if(s=="--init"&&a+1<argc)init_path=argv[++a];
         else if(s=="--greedy")greedy=true;
         else if(s=="--selftest")selftest=true;
         else if(!s.empty()&&s[0]!='-'){if(pos==0)m=atoi(s.c_str());else if(pos==1)restarts=atoi(s.c_str());
@@ -250,15 +268,27 @@ int main(int argc,char**argv){
     // ---- Search ----
     auto t0=chrono::high_resolution_clock::now(); bool found=false; LL best_overall=1e18;
     vector<int>bxs,bys;
-    for(int rs=0;rs<restarts&&!found;rs++){
-        LL best=0;vector<int>rsx,rsy;bool ok;
-        if(greedy)ok=greedy_restart(max_moves,best,rsx,rsy);
-        else ok=sa_restart(max_moves,3.0,0.005,best,rsx,rsy);
-        if(best<best_overall){best_overall=best;bxs=rsx;bys=rsy;}
-        if(ok){found=true;break;}
-        if(rs%10==0)fprintf(stderr,"rs=%d best=%lld\n",rs,best);
+    // progress log: flushed every step so a timeout-kill (SIGTERM) does not lose it
+    FILE* pf=fopen("csearch2_progress.log","w");
+    if(pf){fprintf(pf,"start m=%d restarts=%d\n",m,restarts); fflush(pf);}
+    if(!init_path.empty()){
+        vector<int> ixs,iys;
+        if(!load_init(init_path,ixs,iys,m)){ fprintf(stderr,"INIT LOAD FAILED: %s\n",init_path.c_str()); return 2; }
+        xs=ixs; ys=iys; build_points(); build_map();
+        LL best=0; vector<int>rsx,rsy; bool ok=sa_restart(max_moves,3.0,0.005,best,rsx,rsy,true);
+        best_overall=best; bxs=rsx;bys=rsy; found=ok;
+    } else {
+        for(int rs=0;rs<restarts&&!found;rs++){
+            LL best=0;vector<int>rsx,rsy;bool ok;
+            if(greedy)ok=greedy_restart(max_moves,best,rsx,rsy);
+            else ok=sa_restart(max_moves,3.0,0.005,best,rsx,rsy);
+            if(best<best_overall){best_overall=best;bxs=rsx;bys=rsy;}
+            if(ok){found=true;break;}
+            if(rs%10==0){fprintf(stderr,"rs=%d best=%lld\n",rs,best); if(pf){fprintf(pf,"rs=%d best=%lld\n",rs,best); fflush(pf);}}
+        }
     }
     auto t1=chrono::high_resolution_clock::now();double secs=chrono::duration<double>(t1-t0).count();
+    if(pf){fprintf(pf,"DONE best_overall=%lld found=%d time=%.2f\n",best_overall,(int)found,secs); fflush(pf); fclose(pf);}
     if(found){
         xs=bxs;ys=bys;build_points();build_map();
         printf("verify_bad=%lld\n",total_bad);

@@ -1,0 +1,10 @@
+=== Part A: named single-cycle families for m=37 ===
+family,validSingleCycle,sidonOK,totalViol,xViol,sViol,NTILpass
+primitive_root,1,0,21876,21876,0,0
+qr_order,1,0,28576,28572,4,0
+alt_starter,0,0,NA,NA,NA,0   (construction is NOT a valid single 37-cycle permutation)
+skolem,0,0,NA,NA,NA,0   (construction is NOT a valid single 37-cycle permutation)
+
+=== Part B: randomized Sidon single-cycle search (T trials) ===
+trials=300000 singleCycles=300000 sidonSingleCycles=221 zeroViolationFound=0 bestViolations=272 (seed=10145)
+bestPi=11 36 9 26 18 4 24 6 32 15 14 19 34 20 13 31 22 28 33 12 25 17 8 10 29 2 1 16 3 35 5 30 0 7 23 21 27 

@@ -1,0 +1,40 @@
+{
+  "summary": {
+    "v20_01": {
+      "n_cells": 37,
+      "n_clauses": 1272,
+      "verdict": "UNSAT",
+      "nodes_avg": 11
+    },
+    "v20_02": {
+      "n_cells": 37,
+      "n_clauses": 1398,
+      "verdict": "UNSAT",
+      "nodes_avg": 7
+    },
+    "v20_03": {
+      "n_cells": 37,
+      "n_clauses": 1398,
+      "verdict": "UNSAT",
+      "nodes_avg": 7
+    },
+    "v20_04": {
+      "n_cells": 37,
+      "n_clauses": 1338,
+      "verdict": "UNSAT",
+      "nodes_avg": 11
+    },
+    "v20_05": {
+      "n_cells": 37,
+      "n_clauses": 1386,
+      "verdict": "UNSAT",
+      "nodes_avg": 11
+    },
+    "v20_06": {
+      "n_cells": 37,
+      "n_clauses": 1344,
+      "verdict": "UNSAT",
+      "nodes_avg": 15
+    }
+  }
+}

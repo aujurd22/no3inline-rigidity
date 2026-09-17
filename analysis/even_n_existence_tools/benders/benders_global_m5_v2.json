@@ -1,0 +1,68 @@
+{
+  "summary": {
+    "m": 5,
+    "N": 10,
+    "budget_s": 30,
+    "per_solve_s": 10,
+    "init_cuts": 4,
+    "iterations": 1,
+    "unsat": 0,
+    "sat_blocked": 0,
+    "sat_solution": 1,
+    "incremental_unsat": 0,
+    "sat_blocked_no_blocks": 0,
+    "incremental_unknown": 0,
+    "incremental_max_iter": 0,
+    "invalid": 0,
+    "master_infeasible": false,
+    "core_cut_sizes": [],
+    "elapsed_s": 0.0,
+    "known_confirmed": true,
+    "total_cuts": 4
+  },
+  "results": [
+    {
+      "iter": 0,
+      "kind": "known_injection",
+      "verdict": "sat_solution",
+      "source": "balanced_cpsat_m5_m6.run0",
+      "n_points": 20,
+      "bad_triples": 0
+    }
+  ],
+  "breakthrough": {
+    "iter": 1,
+    "edges": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "verdict": "sat_solution",
+    "bits": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "n_points": 20,
+    "bad_triples": 0
+  }
+}

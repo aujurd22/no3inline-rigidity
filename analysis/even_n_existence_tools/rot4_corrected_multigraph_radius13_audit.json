@@ -1,0 +1,157 @@
+{
+  "theorem": "In the corrected rot4 multigraph model, for each of the four V40 bases, no exact NTIL lies at normalized deletion distance k<=12. Hence any exact NTIL reachable from one of these bases has normalized distance at least 13.",
+  "scope_limit": "This is a local rigidity theorem around four V40 bases, not a global nonexistence theorem for m=37 and not an exact solution.",
+  "normalization": "k is the number of old C4 orbits removed after cancelling redundant same-orientation delete-and-reselect pairs; exactly k genuinely new C4 orbits are added.",
+  "corrected_multigraph_semantics": "Opposite orientations (u,v) and (v,u) are distinct parallel edges and may coexist; exact old-orientation reselection is forbidden only by normalization.",
+  "minimum_defect_hitting_sizes": {
+    "v40_01": 6,
+    "v40_02": 6,
+    "v40_03": 6,
+    "v40_04": 5
+  },
+  "per_k": [
+    {
+      "k": 0,
+      "all_deletion_masks": 4,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "q1_feasible_masks": 0,
+      "q2_feasible_masks": 0,
+      "closure_stage": "minimum defect-hitting-set lower bound"
+    },
+    {
+      "k": 1,
+      "all_deletion_masks": 148,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "q1_feasible_masks": 0,
+      "q2_feasible_masks": 0,
+      "closure_stage": "minimum defect-hitting-set lower bound"
+    },
+    {
+      "k": 2,
+      "all_deletion_masks": 2664,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "q1_feasible_masks": 0,
+      "q2_feasible_masks": 0,
+      "closure_stage": "minimum defect-hitting-set lower bound"
+    },
+    {
+      "k": 3,
+      "all_deletion_masks": 31080,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "q1_feasible_masks": 0,
+      "q2_feasible_masks": 0,
+      "closure_stage": "minimum defect-hitting-set lower bound"
+    },
+    {
+      "k": 4,
+      "all_deletion_masks": 264180,
+      "defect_hitting_masks": 0,
+      "q0_factor_feasible_masks": 0,
+      "q1_feasible_masks": 0,
+      "q2_feasible_masks": 0,
+      "closure_stage": "minimum defect-hitting-set lower bound"
+    },
+    {
+      "k": 5,
+      "all_deletion_masks": 1743588,
+      "defect_hitting_masks": 3,
+      "q0_factor_feasible_masks": 0,
+      "q1_feasible_masks": 0,
+      "q2_feasible_masks": 0,
+      "closure_stage": "corrected q=0 multigraph deficit factor"
+    },
+    {
+      "k": 6,
+      "all_deletion_masks": 9299136,
+      "defect_hitting_masks": 330,
+      "q0_factor_feasible_masks": 0,
+      "q1_feasible_masks": 0,
+      "q2_feasible_masks": 0,
+      "closure_stage": "corrected q=0 multigraph deficit factor"
+    },
+    {
+      "k": 7,
+      "all_deletion_masks": 41181888,
+      "defect_hitting_masks": 8914,
+      "q0_factor_feasible_masks": 0,
+      "q1_feasible_masks": 0,
+      "q2_feasible_masks": 0,
+      "closure_stage": "corrected q=0 multigraph deficit factor"
+    },
+    {
+      "k": 8,
+      "all_deletion_masks": 154432080,
+      "defect_hitting_masks": 126193,
+      "q0_factor_feasible_masks": 0,
+      "q1_feasible_masks": 0,
+      "q2_feasible_masks": 0,
+      "closure_stage": "corrected q=0 multigraph deficit factor"
+    },
+    {
+      "k": 9,
+      "all_deletion_masks": 497614480,
+      "defect_hitting_masks": 1161333,
+      "q0_factor_feasible_masks": 0,
+      "q1_feasible_masks": 0,
+      "q2_feasible_masks": 0,
+      "closure_stage": "corrected q=0 multigraph deficit factor"
+    },
+    {
+      "k": 10,
+      "all_deletion_masks": 1393320544,
+      "defect_hitting_masks": 7695676,
+      "q0_factor_feasible_masks": 0,
+      "q1_feasible_masks": 0,
+      "q2_feasible_masks": 0,
+      "closure_stage": "corrected q=0 multigraph deficit factor"
+    },
+    {
+      "k": 11,
+      "all_deletion_masks": 3419968608,
+      "defect_hitting_masks": 38964728,
+      "q0_factor_feasible_masks": 2,
+      "q1_feasible_masks": 0,
+      "q2_feasible_masks": 0,
+      "closure_stage": "two q=0 exceptions both q=1 infeasible"
+    },
+    {
+      "k": 12,
+      "all_deletion_masks": 7409931984,
+      "defect_hitting_masks": 156647210,
+      "q0_factor_feasible_masks": 285,
+      "q1_feasible_masks": 4,
+      "q2_feasible_masks": 0,
+      "closure_stage": "four q=1 exceptions all q=2 infeasible"
+    }
+  ],
+  "global_filter_funnel_k0_k12": {
+    "all_deletion_masks": 12927790384,
+    "defect_hitting_masks": 204604387,
+    "q0_factor_feasible_masks": 287,
+    "q1_feasible_masks": 4,
+    "q2_feasible_masks": 0
+  },
+  "independent_crosschecks": {
+    "antiparallel_geometry_pairs": 666,
+    "antiparallel_geometry_failures": 0,
+    "k5_k11_cpp_negative_cp_sat_samples": 50,
+    "k5_k11_cpp_positive_cp_sat_samples": 2,
+    "k12_cpp_negative_cp_sat_samples": 20,
+    "crosschecks_passed": true
+  },
+  "certificate_sha256": {
+    "rot4_k5_k10_corrected_multigraph_full_q0_sweep.json": "f352079f5db5f58fc11444cebce6cfe5873f8eb1a40b6a367356020aa57b538c",
+    "rot4_k11_corrected_multigraph_full_q0_sweep.json": "4c14758c4d21b4fcc41057a2a890b9321899b50c75ab519bc2df2c1a3a8cc5c7",
+    "rot4_k11_corrected_multigraph_q0_exceptions_q1_audit.json": "d9c35ad70da76137ce6fe958e279fcc9de2fc55fae85be12f344c7e3b1b74abd",
+    "rot4_k12_corrected_multigraph_full_closure_audit.json": "4e82932c7b1c9914f3773e13581fef7797198d7cfb965a16ce0aead7136cfe82",
+    "rot4_k5_k11_corrected_multigraph_crosscheck.json": "885ebe9aabc3e876eaa9566877e6baae94200096072f376829a21d26a689bf37",
+    "rot4_multigraph_factor_exhaustive_crosscheck.json": "ac3de3dfd968763385b85c07f78d291ab0dce022dc8a6b5f6fafdc8370eeb388",
+    "rot4_antiparallel_pair_model_audit.json": "bc27f711877429b43fddf85e560880570d05d2a5c86440389d33a5e015724868"
+  },
+  "all_k0_k12_closed": true,
+  "normalized_escape_radius_lower_bound": 13
+}

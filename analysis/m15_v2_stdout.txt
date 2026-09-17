@@ -1,0 +1,14 @@
+[start] m=15 n=30 threads=8 hours=0.100 WX_def=2 WS=1 moves/restart=300000 T0=6.000 Tend=0.0100
+[t=   30s] best=1000000000000000000 badX=0 badS=0
+[t=   60s] best=34 badX=30 badS=4
+[t=   90s] best=28 badX=20 badS=8
+[t=  120s] best=28 badX=20 badS=8
+[t=  150s] best=28 badX=20 badS=8
+[t=  180s] best=28 badX=20 badS=8
+[t=  210s] best=28 badX=20 badS=8
+[t=  240s] best=28 badX=20 badS=8
+[t=  270s] best=16 badX=12 badS=4
+[t=  300s] best=16 badX=12 badS=4
+[t=  330s] best=16 badX=12 badS=4
+[t=  360s] best=16 badX=12 badS=4
+[DONE] no solution in 364.8s; best_bad=16 (badX=12 badS=4) ckpt=m15_v2_ckpt.txt

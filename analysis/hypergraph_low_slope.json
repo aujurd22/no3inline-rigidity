@@ -1,0 +1,83 @@
+{
+  "results": [
+    {
+      "n": 12,
+      "ok": true,
+      "violations": 0,
+      "time": 0.0
+    },
+    {
+      "n": 16,
+      "ok": true,
+      "violations": 0,
+      "time": 0.0
+    },
+    {
+      "n": 20,
+      "ok": true,
+      "violations": 0,
+      "time": 0.0
+    },
+    {
+      "n": 24,
+      "ok": true,
+      "violations": 0,
+      "time": 0.0
+    },
+    {
+      "n": 28,
+      "ok": true,
+      "violations": 0,
+      "time": 0.0
+    },
+    {
+      "n": 32,
+      "ok": true,
+      "violations": 0,
+      "time": 0.0
+    },
+    {
+      "n": 36,
+      "ok": true,
+      "violations": 0,
+      "time": 0.0
+    },
+    {
+      "n": 40,
+      "ok": true,
+      "violations": 0,
+      "time": 0.0
+    },
+    {
+      "n": 44,
+      "ok": true,
+      "violations": 0,
+      "time": 0.0
+    },
+    {
+      "n": 48,
+      "ok": true,
+      "violations": 0,
+      "time": 0.0
+    },
+    {
+      "n": 52,
+      "ok": true,
+      "violations": 0,
+      "time": 0.0
+    },
+    {
+      "n": 56,
+      "ok": true,
+      "violations": 0,
+      "time": 0.0
+    },
+    {
+      "n": 60,
+      "ok": true,
+      "violations": 0,
+      "time": 0.0
+    }
+  ],
+  "all_ok": true
+}

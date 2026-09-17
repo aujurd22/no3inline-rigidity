@@ -1,0 +1,89 @@
+{
+  "n": 6,
+  "q": 6,
+  "meaning": "primitive direction scales strictly below q are protected",
+  "stage": "old2",
+  "required_removed_count": null,
+  "forced_added_cell": null,
+  "old_point_count": 12,
+  "empty_cell_count": 24,
+  "old2_secant_constraint_count": 80,
+  "relevant_secant_incidence_count": 80,
+  "old1_conditional_line_constraint_count": 0,
+  "old1_direction_count": 0,
+  "status": "OPTIMAL",
+  "wall_time_seconds": 0.0072602000000000005,
+  "best_removed_count_bound": 4.0,
+  "removed_count": 4,
+  "added_count": 4,
+  "symmetric_difference": 8,
+  "removed": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      0
+    ]
+  ],
+  "added": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      4,
+      1
+    ]
+  ],
+  "verification": {
+    "point_count": 12,
+    "distinct": true,
+    "rows_saturated": true,
+    "columns_saturated": true,
+    "collinear_triples_by_new_point_count": {
+      "2": 1
+    },
+    "protected_collinear_triples_by_new_point_count": {
+      "2": 1
+    },
+    "collinear_triple_examples": [
+      {
+        "points": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "new_point_count": 2,
+        "primitive_scale": 2
+      }
+    ],
+    "is_exact_ntil": false
+  }
+}

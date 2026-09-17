@@ -1,0 +1,57 @@
+loaded 16 known solutions: m=[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 36]
+=== Part A: independent verification of known solutions ===
+  m= 5: verify_total=0 2factor=True distinct=True rot4=True -> OK
+  m= 6: verify_total=0 2factor=True distinct=True rot4=True -> OK
+  m= 7: verify_total=0 2factor=True distinct=True rot4=True -> OK
+  m= 8: verify_total=0 2factor=True distinct=True rot4=True -> OK
+  m= 9: verify_total=0 2factor=True distinct=True rot4=True -> OK
+  m=10: verify_total=0 2factor=True distinct=True rot4=True -> OK
+  m=11: verify_total=0 2factor=True distinct=True rot4=True -> OK
+  m=12: verify_total=0 2factor=True distinct=True rot4=True -> OK
+  m=13: verify_total=0 2factor=True distinct=True rot4=True -> OK
+  m=14: verify_total=0 2factor=True distinct=True rot4=True -> OK
+  m=15: verify_total=0 2factor=True distinct=True rot4=True -> OK
+  m=16: verify_total=0 2factor=True distinct=True rot4=True -> OK
+  m=17: verify_total=0 2factor=True distinct=True rot4=True -> OK
+  m=18: verify_total=0 2factor=True distinct=True rot4=True -> OK
+  m=19: verify_total=0 2factor=True distinct=True rot4=True -> OK
+  m=36: verify_total=0 2factor=True distinct=True rot4=True -> OK
+  ALL KNOWN SOLUTIONS VALID: True
+
+=== Part B: D5-P parity invariant (empirical, 10000 random m=37) ===
+  random configs with ODD total_bad: 0/10000
+  => D5-P holds (total_bad always even): True
+
+=== Part C: additive invariants are forced constant (mod-p residue occupancy) ===
+  p=2 forced occupancy (each of 4 classes): m=37 -> 37 each
+  p=2 occupancy of 72-config: [37, 37, 37, 37]
+  -> matches forced? True
+  (Any additive/mod-p invariant equals its m-dependent forced value for
+   ALL configs, (X)-free or not -> cannot obstruct m=37.)
+
+=== Part D: non-additive candidate invariants on known solutions ===
+  m= 5: D5-A(par=0,perp=0) loops=1 odd_cycles=1 n_distinct_dirs=5/5 cycles=[1, 2, 2]
+  m= 6: D5-A(par=0,perp=0) loops=1 odd_cycles=2 n_distinct_dirs=6/6 cycles=[1, 5]
+  m= 7: D5-A(par=0,perp=0) loops=0 odd_cycles=1 n_distinct_dirs=7/7 cycles=[3, 4]
+  m= 8: D5-A(par=0,perp=0) loops=0 odd_cycles=0 n_distinct_dirs=8/8 cycles=[8]
+  m= 9: D5-A(par=0,perp=0) loops=0 odd_cycles=1 n_distinct_dirs=9/9 cycles=[9]
+  m=10: D5-A(par=0,perp=0) loops=0 odd_cycles=0 n_distinct_dirs=10/10 cycles=[4, 6]
+  m=11: D5-A(par=0,perp=0) loops=0 odd_cycles=1 n_distinct_dirs=11/11 cycles=[11]
+  m=12: D5-A(par=0,perp=0) loops=1 odd_cycles=2 n_distinct_dirs=12/12 cycles=[1, 11]
+  m=13: D5-A(par=0,perp=0) loops=1 odd_cycles=1 n_distinct_dirs=13/13 cycles=[1, 12]
+  m=14: D5-A(par=0,perp=0) loops=0 odd_cycles=0 n_distinct_dirs=14/14 cycles=[2, 4, 8]
+  m=15: D5-A(par=0,perp=0) loops=0 odd_cycles=1 n_distinct_dirs=15/15 cycles=[3, 12]
+  m=16: D5-A(par=0,perp=0) loops=1 odd_cycles=2 n_distinct_dirs=16/16 cycles=[1, 15]
+  m=17: D5-A(par=0,perp=0) loops=0 odd_cycles=1 n_distinct_dirs=17/17 cycles=[5, 6, 6]
+  m=18: D5-A(par=0,perp=0) loops=0 odd_cycles=0 n_distinct_dirs=18/18 cycles=[18]
+  m=19: D5-A(par=0,perp=0) loops=1 odd_cycles=3 n_distinct_dirs=19/19 cycles=[1, 5, 13]
+  m=36: D5-A(par=0,perp=0) loops=0 odd_cycles=0 n_distinct_dirs=36/36 cycles=[36]
+  m=37(72cfg): D5-A(par=0,perp=0) loops=0 odd_cycles=1 n_distinct_dirs=37/37 cycles=[37]
+
+  Constancy of candidate invariants across known (X)-free solutions:
+    d5a_par       : known_values=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] constant=True m37_value=0
+    d5a_perp      : known_values=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] constant=True m37_value=0
+    n_loops       : known_values=[1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0] constant=False m37_value=0
+    n_odd_cycles  : known_values=[1, 2, 1, 0, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 3, 0] constant=False m37_value=1
+
+saved D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\analysis\results\swarm_D5_validate_invariants.json

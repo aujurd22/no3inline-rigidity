@@ -1,0 +1,1723 @@
+{
+  "parameters": {
+    "bases": "all",
+    "min_size": 5,
+    "max_size": 13,
+    "max_rounds": 300,
+    "per_round_time": 12.0,
+    "total_time": 180.0,
+    "workers": 8,
+    "out": "joint_rot4_general_all_k5_13.json"
+  },
+  "bases": [
+    {
+      "base": "v40_01",
+      "runs": [
+        {
+          "size": 6,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 0.525,
+              "branches": 30673,
+              "conflicts": 428,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 0.627
+        },
+        {
+          "size": 7,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 0.664,
+              "branches": 36420,
+              "conflicts": 2758,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 0.756
+        },
+        {
+          "size": 8,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 1.179,
+              "branches": 63882,
+              "conflicts": 19176,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 1.277
+        },
+        {
+          "size": 9,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 6.144,
+              "branches": 390964,
+              "conflicts": 118543,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 6.241
+        },
+        {
+          "size": 10,
+          "status": "UNKNOWN",
+          "round_count": 2,
+          "line_cut_count": 68,
+          "best_bad_line_count": 68,
+          "best_solution": {
+            "removed_indices": [
+              2,
+              13,
+              15,
+              17,
+              22,
+              26,
+              27,
+              29,
+              32,
+              36
+            ],
+            "removed_edges": [
+              [
+                1,
+                14
+              ],
+              [
+                6,
+                34
+              ],
+              [
+                8,
+                13
+              ],
+              [
+                9,
+                32
+              ],
+              [
+                11,
+                23
+              ],
+              [
+                15,
+                22
+              ],
+              [
+                16,
+                30
+              ],
+              [
+                17,
+                28
+              ],
+              [
+                21,
+                33
+              ],
+              [
+                29,
+                35
+              ]
+            ],
+            "chosen_cells": [
+              [
+                1,
+                23
+              ],
+              [
+                6,
+                14
+              ],
+              [
+                8,
+                13
+              ],
+              [
+                32,
+                9
+              ],
+              [
+                11,
+                29
+              ],
+              [
+                15,
+                22
+              ],
+              [
+                30,
+                16
+              ],
+              [
+                28,
+                17
+              ],
+              [
+                34,
+                21
+              ],
+              [
+                35,
+                33
+              ]
+            ],
+            "bad_line_count": 68,
+            "bad_lines": [
+              [
+                1,
+                -8,
+                -328
+              ],
+              [
+                1,
+                -8,
+                -183
+              ],
+              [
+                1,
+                -5,
+                -235
+              ],
+              [
+                1,
+                -5,
+                -57
+              ],
+              [
+                1,
+                -1,
+                -18
+              ],
+              [
+                1,
+                -1,
+                -5
+              ],
+              [
+                1,
+                -1,
+                5
+              ],
+              [
+                1,
+                -1,
+                18
+              ],
+              [
+                1,
+                1,
+                55
+              ],
+              [
+                1,
+                1,
+                68
+              ],
+              [
+                1,
+                1,
+                78
+              ],
+              [
+                1,
+                1,
+                91
+              ],
+              [
+                1,
+                2,
+                76
+              ],
+              [
+                1,
+                2,
+                143
+              ],
+              [
+                1,
+                8,
+                320
+              ],
+              [
+                1,
+                8,
+                337
+              ],
+              [
+                2,
+                -1,
+                3
+              ],
+              [
+                2,
+                -1,
+                70
+              ],
+              [
+                2,
+                3,
+                169
+              ],
+              [
+                2,
+                3,
+                196
+              ],
+              [
+                2,
+                9,
+                209
+              ],
+              [
+                2,
+                9,
+                594
+              ],
+              [
+                3,
+                -2,
+                23
+              ],
+              [
+                3,
+                -2,
+                50
+              ],
+              [
+                3,
+                7,
+                236
+              ],
+              [
+                3,
+                7,
+                336
+              ],
+              [
+                3,
+                7,
+                394
+              ],
+              [
+                3,
+                7,
+                494
+              ],
+              [
+                4,
+                -13,
+                -520
+              ],
+              [
+                4,
+                -13,
+                -362
+              ],
+              [
+                4,
+                -13,
+                -295
+              ],
+              [
+                4,
+                -13,
+                -137
+              ],
+              [
+                4,
+                5,
+                279
+              ],
+              [
+                4,
+                5,
+                378
+              ],
+              [
+                5,
+                -4,
+                -13
+              ],
+              [
+                5,
+                -4,
+                86
+              ],
+              [
+                5,
+                1,
+                130
+              ],
+              [
+                5,
+                1,
+                308
+              ],
+              [
+                6,
+                7,
+                341
+              ],
+              [
+                6,
+                7,
+                608
+              ],
+              [
+                6,
+                17,
+                561
+              ],
+              [
+                6,
+                17,
+                1118
+              ],
+              [
+                7,
+                -6,
+                -97
+              ],
+              [
+                7,
+                -6,
+                170
+              ],
+              [
+                7,
+                -3,
+                17
+              ],
+              [
+                7,
+                -3,
+                117
+              ],
+              [
+                7,
+                -3,
+                175
+              ],
+              [
+                7,
+                -3,
+                275
+              ],
+              [
+                8,
+                -9,
+                -78
+              ],
+              [
+                8,
+                -9,
+                5
+              ],
+              [
+                8,
+                -1,
+                247
+              ],
+              [
+                8,
+                -1,
+                264
+              ],
+              [
+                8,
+                1,
+                256
+              ],
+              [
+                8,
+                1,
+                401
+              ],
+              [
+                9,
+                -2,
+                63
+              ],
+              [
+                9,
+                -2,
+                448
+              ],
+              [
+                9,
+                8,
+                579
+              ],
+              [
+                9,
+                8,
+                662
+              ],
+              [
+                13,
+                -25,
+                -521
+              ],
+              [
+                13,
+                -25,
+                -355
+              ],
+              [
+                13,
+                4,
+                429
+              ],
+              [
+                13,
+                4,
+                587
+              ],
+              [
+                13,
+                4,
+                654
+              ],
+              [
+                13,
+                4,
+                812
+              ],
+              [
+                17,
+                -6,
+                123
+              ],
+              [
+                17,
+                -6,
+                680
+              ],
+              [
+                25,
+                13,
+                1304
+              ],
+              [
+                25,
+                13,
+                1470
+              ]
+            ],
+            "exact": false,
+            "points": null
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "status": "OPTIMAL",
+              "wall_s": 2.872,
+              "branches": 148254,
+              "conflicts": 49034,
+              "known_line_cuts_before": 0,
+              "bad_line_count": 68,
+              "new_line_cuts": 68,
+              "known_line_cuts_after": 68
+            },
+            {
+              "round": 2,
+              "status": "UNKNOWN",
+              "wall_s": 12.059,
+              "branches": 125369,
+              "conflicts": 23145,
+              "known_line_cuts_before": 68
+            }
+          ],
+          "elapsed_s": 15.132
+        }
+      ]
+    },
+    {
+      "base": "v40_02",
+      "runs": [
+        {
+          "size": 6,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 0.551,
+              "branches": 30642,
+              "conflicts": 254,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 0.648
+        },
+        {
+          "size": 7,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 0.61,
+              "branches": 34154,
+              "conflicts": 1458,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 0.722
+        },
+        {
+          "size": 8,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 0.86,
+              "branches": 45780,
+              "conflicts": 8163,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 0.961
+        },
+        {
+          "size": 9,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 3.693,
+              "branches": 233451,
+              "conflicts": 64420,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 3.79
+        },
+        {
+          "size": 10,
+          "status": "UNKNOWN",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "UNKNOWN",
+              "wall_s": 12.251,
+              "branches": 3320,
+              "conflicts": 0,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 12.358
+        }
+      ]
+    },
+    {
+      "base": "v40_03",
+      "runs": [
+        {
+          "size": 6,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 0.545,
+              "branches": 31863,
+              "conflicts": 734,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 0.65
+        },
+        {
+          "size": 7,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 0.644,
+              "branches": 36107,
+              "conflicts": 3431,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 0.751
+        },
+        {
+          "size": 8,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 1.158,
+              "branches": 60246,
+              "conflicts": 18780,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 1.251
+        },
+        {
+          "size": 9,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 5.27,
+              "branches": 343703,
+              "conflicts": 111532,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 5.363
+        },
+        {
+          "size": 10,
+          "status": "UNKNOWN",
+          "round_count": 3,
+          "line_cut_count": 112,
+          "best_bad_line_count": 56,
+          "best_solution": {
+            "removed_indices": [
+              0,
+              11,
+              12,
+              21,
+              26,
+              27,
+              28,
+              33,
+              34,
+              36
+            ],
+            "removed_edges": [
+              [
+                0,
+                30
+              ],
+              [
+                5,
+                22
+              ],
+              [
+                6,
+                17
+              ],
+              [
+                11,
+                13
+              ],
+              [
+                15,
+                34
+              ],
+              [
+                16,
+                28
+              ],
+              [
+                16,
+                30
+              ],
+              [
+                24,
+                34
+              ],
+              [
+                25,
+                26
+              ],
+              [
+                29,
+                35
+              ]
+            ],
+            "chosen_cells": [
+              [
+                0,
+                30
+              ],
+              [
+                17,
+                5
+              ],
+              [
+                34,
+                6
+              ],
+              [
+                25,
+                11
+              ],
+              [
+                13,
+                26
+              ],
+              [
+                15,
+                22
+              ],
+              [
+                16,
+                28
+              ],
+              [
+                30,
+                16
+              ],
+              [
+                24,
+                34
+              ],
+              [
+                35,
+                29
+              ]
+            ],
+            "bad_line_count": 56,
+            "bad_lines": [
+              [
+                1,
+                -2,
+                -94
+              ],
+              [
+                1,
+                -2,
+                21
+              ],
+              [
+                1,
+                -1,
+                -14
+              ],
+              [
+                1,
+                -1,
+                -12
+              ],
+              [
+                1,
+                -1,
+                12
+              ],
+              [
+                1,
+                -1,
+                14
+              ],
+              [
+                1,
+                1,
+                59
+              ],
+              [
+                1,
+                1,
+                61
+              ],
+              [
+                1,
+                1,
+                85
+              ],
+              [
+                1,
+                1,
+                87
+              ],
+              [
+                1,
+                2,
+                102
+              ],
+              [
+                1,
+                2,
+                117
+              ],
+              [
+                1,
+                6,
+                141
+              ],
+              [
+                1,
+                6,
+                370
+              ],
+              [
+                2,
+                -1,
+                29
+              ],
+              [
+                2,
+                -1,
+                44
+              ],
+              [
+                2,
+                1,
+                52
+              ],
+              [
+                2,
+                1,
+                167
+              ],
+              [
+                3,
+                -4,
+                -64
+              ],
+              [
+                3,
+                -4,
+                -9
+              ],
+              [
+                4,
+                -15,
+                -796
+              ],
+              [
+                4,
+                -15,
+                -7
+              ],
+              [
+                4,
+                3,
+                228
+              ],
+              [
+                4,
+                3,
+                283
+              ],
+              [
+                5,
+                -8,
+                -264
+              ],
+              [
+                5,
+                -8,
+                45
+              ],
+              [
+                5,
+                9,
+                487
+              ],
+              [
+                5,
+                9,
+                535
+              ],
+              [
+                6,
+                -1,
+                68
+              ],
+              [
+                6,
+                -1,
+                297
+              ],
+              [
+                7,
+                8,
+                477
+              ],
+              [
+                7,
+                8,
+                618
+              ],
+              [
+                8,
+                -11,
+                -180
+              ],
+              [
+                8,
+                -11,
+                -39
+              ],
+              [
+                8,
+                -7,
+                -34
+              ],
+              [
+                8,
+                -7,
+                107
+              ],
+              [
+                8,
+                5,
+                320
+              ],
+              [
+                8,
+                5,
+                629
+              ],
+              [
+                9,
+                -17,
+                -717
+              ],
+              [
+                9,
+                -17,
+                133
+              ],
+              [
+                9,
+                -5,
+                122
+              ],
+              [
+                9,
+                -5,
+                170
+              ],
+              [
+                9,
+                10,
+                605
+              ],
+              [
+                9,
+                10,
+                782
+              ],
+              [
+                10,
+                -9,
+                -52
+              ],
+              [
+                10,
+                -9,
+                125
+              ],
+              [
+                11,
+                8,
+                623
+              ],
+              [
+                11,
+                8,
+                764
+              ],
+              [
+                12,
+                17,
+                510
+              ],
+              [
+                12,
+                17,
+                1607
+              ],
+              [
+                15,
+                4,
+                299
+              ],
+              [
+                15,
+                4,
+                1088
+              ],
+              [
+                17,
+                -12,
+                -366
+              ],
+              [
+                17,
+                -12,
+                731
+              ],
+              [
+                17,
+                9,
+                524
+              ],
+              [
+                17,
+                9,
+                1374
+              ]
+            ],
+            "exact": false,
+            "points": null
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "status": "OPTIMAL",
+              "wall_s": 0.719,
+              "branches": 38931,
+              "conflicts": 3320,
+              "known_line_cuts_before": 0,
+              "bad_line_count": 56,
+              "new_line_cuts": 56,
+              "known_line_cuts_after": 56
+            },
+            {
+              "round": 2,
+              "status": "OPTIMAL",
+              "wall_s": 1.054,
+              "branches": 55233,
+              "conflicts": 14326,
+              "known_line_cuts_before": 56,
+              "bad_line_count": 56,
+              "new_line_cuts": 56,
+              "known_line_cuts_after": 112
+            },
+            {
+              "round": 3,
+              "status": "UNKNOWN",
+              "wall_s": 12.034,
+              "branches": 3052,
+              "conflicts": 0,
+              "known_line_cuts_before": 112
+            }
+          ],
+          "elapsed_s": 14.038
+        }
+      ]
+    },
+    {
+      "base": "v40_04",
+      "runs": [
+        {
+          "size": 5,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 0.539,
+              "branches": 30601,
+              "conflicts": 66,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 0.637
+        },
+        {
+          "size": 6,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 0.626,
+              "branches": 31286,
+              "conflicts": 558,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 0.726
+        },
+        {
+          "size": 7,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 0.673,
+              "branches": 40347,
+              "conflicts": 4555,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 0.778
+        },
+        {
+          "size": 8,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 1.418,
+              "branches": 81451,
+              "conflicts": 25049,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 1.521
+        },
+        {
+          "size": 9,
+          "status": "INFEASIBLE",
+          "round_count": 1,
+          "line_cut_count": 0,
+          "best_bad_line_count": null,
+          "best_solution": null,
+          "rounds": [
+            {
+              "round": 1,
+              "status": "INFEASIBLE",
+              "wall_s": 5.593,
+              "branches": 353322,
+              "conflicts": 113595,
+              "known_line_cuts_before": 0
+            }
+          ],
+          "elapsed_s": 5.689
+        },
+        {
+          "size": 10,
+          "status": "UNKNOWN",
+          "round_count": 2,
+          "line_cut_count": 64,
+          "best_bad_line_count": 64,
+          "best_solution": {
+            "removed_indices": [
+              2,
+              5,
+              8,
+              10,
+              16,
+              21,
+              22,
+              25,
+              34,
+              35
+            ],
+            "removed_edges": [
+              [
+                1,
+                19
+              ],
+              [
+                2,
+                36
+              ],
+              [
+                4,
+                12
+              ],
+              [
+                5,
+                7
+              ],
+              [
+                8,
+                25
+              ],
+              [
+                11,
+                13
+              ],
+              [
+                11,
+                18
+              ],
+              [
+                14,
+                27
+              ],
+              [
+                24,
+                34
+              ],
+              [
+                26,
+                29
+              ]
+            ],
+            "chosen_cells": [
+              [
+                19,
+                1
+              ],
+              [
+                24,
+                2
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                14,
+                7
+              ],
+              [
+                12,
+                8
+              ],
+              [
+                13,
+                11
+              ],
+              [
+                18,
+                11
+              ],
+              [
+                25,
+                26
+              ],
+              [
+                27,
+                29
+              ],
+              [
+                34,
+                36
+              ]
+            ],
+            "bad_line_count": 64,
+            "bad_lines": [
+              [
+                1,
+                -7,
+                -374
+              ],
+              [
+                1,
+                -7,
+                -64
+              ],
+              [
+                1,
+                -1,
+                -22
+              ],
+              [
+                1,
+                -1,
+                -7
+              ],
+              [
+                1,
+                -1,
+                -2
+              ],
+              [
+                1,
+                -1,
+                -1
+              ],
+              [
+                1,
+                -1,
+                1
+              ],
+              [
+                1,
+                -1,
+                2
+              ],
+              [
+                1,
+                -1,
+                7
+              ],
+              [
+                1,
+                -1,
+                22
+              ],
+              [
+                1,
+                1,
+                51
+              ],
+              [
+                1,
+                1,
+                66
+              ],
+              [
+                1,
+                1,
+                71
+              ],
+              [
+                1,
+                1,
+                72
+              ],
+              [
+                1,
+                1,
+                74
+              ],
+              [
+                1,
+                1,
+                75
+              ],
+              [
+                1,
+                1,
+                80
+              ],
+              [
+                1,
+                1,
+                95
+              ],
+              [
+                1,
+                2,
+                28
+              ],
+              [
+                1,
+                2,
+                191
+              ],
+              [
+                1,
+                3,
+                101
+              ],
+              [
+                1,
+                3,
+                191
+              ],
+              [
+                2,
+                -3,
+                -143
+              ],
+              [
+                2,
+                -3,
+                70
+              ],
+              [
+                2,
+                -1,
+                -45
+              ],
+              [
+                2,
+                -1,
+                118
+              ],
+              [
+                3,
+                -1,
+                28
+              ],
+              [
+                3,
+                -1,
+                118
+              ],
+              [
+                3,
+                2,
+                76
+              ],
+              [
+                3,
+                2,
+                289
+              ],
+              [
+                3,
+                7,
+                349
+              ],
+              [
+                3,
+                7,
+                381
+              ],
+              [
+                4,
+                5,
+                253
+              ],
+              [
+                4,
+                5,
+                404
+              ],
+              [
+                5,
+                -6,
+                -319
+              ],
+              [
+                5,
+                -6,
+                246
+              ],
+              [
+                5,
+                -4,
+                -39
+              ],
+              [
+                5,
+                -4,
+                112
+              ],
+              [
+                5,
+                9,
+                491
+              ],
+              [
+                5,
+                9,
+                531
+              ],
+              [
+                6,
+                -7,
+                -180
+              ],
+              [
+                6,
+                -7,
+                107
+              ],
+              [
+                6,
+                5,
+                119
+              ],
+              [
+                6,
+                5,
+                684
+              ],
+              [
+                7,
+                -17,
+                -634
+              ],
+              [
+                7,
+                -17,
+                -96
+              ],
+              [
+                7,
+                -3,
+                130
+              ],
+              [
+                7,
+                -3,
+                162
+              ],
+              [
+                7,
+                1,
+                137
+              ],
+              [
+                7,
+                1,
+                447
+              ],
+              [
+                7,
+                6,
+                331
+              ],
+              [
+                7,
+                6,
+                618
+              ],
+              [
+                9,
+                -5,
+                126
+              ],
+              [
+                9,
+                -5,
+                166
+              ],
+              [
+                11,
+                -20,
+                -601
+              ],
+              [
+                11,
+                -20,
+                -56
+              ],
+              [
+                13,
+                18,
+                1061
+              ],
+              [
+                13,
+                18,
+                1202
+              ],
+              [
+                17,
+                7,
+                607
+              ],
+              [
+                17,
+                7,
+                1145
+              ],
+              [
+                18,
+                -13,
+                112
+              ],
+              [
+                18,
+                -13,
+                253
+              ],
+              [
+                20,
+                11,
+                859
+              ],
+              [
+                20,
+                11,
+                1404
+              ]
+            ],
+            "exact": false,
+            "points": null
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "status": "OPTIMAL",
+              "wall_s": 3.243,
+              "branches": 149108,
+              "conflicts": 59403,
+              "known_line_cuts_before": 0,
+              "bad_line_count": 64,
+              "new_line_cuts": 64,
+              "known_line_cuts_after": 64
+            },
+            {
+              "round": 2,
+              "status": "UNKNOWN",
+              "wall_s": 12.138,
+              "branches": 113365,
+              "conflicts": 10808,
+              "known_line_cuts_before": 64
+            }
+          ],
+          "elapsed_s": 15.573
+        }
+      ]
+    }
+  ]
+}

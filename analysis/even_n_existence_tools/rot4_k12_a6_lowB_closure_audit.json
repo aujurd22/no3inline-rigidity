@@ -1,0 +1,122 @@
+{
+  "scope": {
+    "distance": 12,
+    "adjacency_count_A": 6,
+    "normalization": "exact old-cell reselection forbidden",
+    "profiles": [
+      {
+        "B": 0,
+        "C": 0,
+        "run_multiset": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "B": 1,
+        "C": 0,
+        "run_multiset": [
+          3,
+          2,
+          2,
+          2,
+          2,
+          1
+        ]
+      }
+    ],
+    "loop_partition_complete_because": "q=1 resource d=0 has capacity 2 and every loop has weight 2, so at most one replacement loop is possible"
+  },
+  "bases": {
+    "v40_01": {
+      "B0_C0": {
+        "file": "rot4_short_v40_01_k12_a6_b0_c0_norm_q3hard.json",
+        "direction_q": 3,
+        "wall_s": 81.762
+      },
+      "B1_C0_by_loop_count": {
+        "0": {
+          "file": "rot4_short_v40_01_k12_a6_b1_c0_l0_fmax5_norm_q4hard.json",
+          "direction_q": 4,
+          "flip_max": 5,
+          "wall_s": 960.85
+        },
+        "1": {
+          "file": "rot4_short_v40_01_k12_a6_b1_c0_l1_norm_q3hard.json",
+          "direction_q": 3,
+          "flip_max": null,
+          "wall_s": 150.78
+        }
+      }
+    },
+    "v40_02": {
+      "B0_C0": {
+        "file": "rot4_short_v40_02_k12_a6_b0_c0_norm_q3hard.json",
+        "direction_q": 3,
+        "wall_s": 63.874
+      },
+      "B1_C0_by_loop_count": {
+        "0": {
+          "file": "rot4_short_v40_02_k12_a6_b1_c0_l0_norm_q4hard.json",
+          "direction_q": 4,
+          "flip_max": null,
+          "wall_s": 498.96
+        },
+        "1": {
+          "file": "rot4_short_v40_02_k12_a6_b1_c0_l1_norm_q3hard.json",
+          "direction_q": 3,
+          "flip_max": null,
+          "wall_s": 116.376
+        }
+      }
+    },
+    "v40_03": {
+      "B0_C0": {
+        "file": "rot4_short_v40_03_k12_a6_b0_c0_norm_q3hard.json",
+        "direction_q": 3,
+        "wall_s": 87.521
+      },
+      "B1_C0_by_loop_count": {
+        "0": {
+          "file": "rot4_short_v40_03_k12_a6_b1_c0_l0_fmax6_norm_q4hard.json",
+          "direction_q": 4,
+          "flip_max": 6,
+          "wall_s": 1081.958
+        },
+        "1": {
+          "file": "rot4_short_v40_03_k12_a6_b1_c0_l1_fmax6_norm_q4hard.json",
+          "direction_q": 4,
+          "flip_max": 6,
+          "wall_s": 502.665
+        }
+      }
+    },
+    "v40_04": {
+      "B0_C0": {
+        "file": "rot4_short_v40_04_k12_a6_b0_c0_norm_q3hard.json",
+        "direction_q": 3,
+        "wall_s": 66.97
+      },
+      "B1_C0_by_loop_count": {
+        "0": {
+          "file": "rot4_short_v40_04_k12_a6_b1_c0_l0_fmax4_norm_q4hard.json",
+          "direction_q": 4,
+          "flip_max": 4,
+          "wall_s": 937.42
+        },
+        "1": {
+          "file": "rot4_short_v40_04_k12_a6_b1_c0_l1_norm_q3hard.json",
+          "direction_q": 3,
+          "flip_max": null,
+          "wall_s": 190.738
+        }
+      }
+    }
+  },
+  "claim": "Any exact normalized k=12 repair from any of the four V=40 basins with A=6 must have B>=2.",
+  "audit_passed": true
+}

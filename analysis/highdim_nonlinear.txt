@@ -1,0 +1,12 @@
+==============================================================================
+PART B++ -- NON-LINEAR / ALT-LABEL FAIRNESS TEST (n=16)
+==============================================================================
+  K=5683 solutions; latent dim r=256
+  [labels] ring-count range 11..26  slope-diversity range 142..192
+  corr(PC1, slope-diversity) = +0.056
+  LINEAR  (SVD top2) silhouette:  ring=-0.017   slope=-0.024
+  NONLIN  (t-SNE latent) silhouette: ring=-0.021   slope=-0.017   (t-SNE 6.2s)
+  -> if ~0 for both labels & both views: the latent cloud is a
+     fairly homogeneous blob with NO obvious hidden stratification
+     (linear or non-linear) by these geometric parameters.
+  saved figs/tsne_latent_n16_nonlin.png

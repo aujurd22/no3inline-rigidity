@@ -1,0 +1,185 @@
+{
+  "parameters": {
+    "q": 1,
+    "time_limit": 60.0,
+    "workers": 2,
+    "enforce_cell_moments": true,
+    "out": "rot4_direction_moment_q1_factor.json"
+  },
+  "status": "OPTIMAL",
+  "branches": 21345,
+  "conflicts": 2215,
+  "wall_s": 4.002,
+  "cell_second_constant": 135050,
+  "cell_fourth_constant": 443531210,
+  "directions": [
+    {
+      "normal": [
+        1,
+        -1
+      ],
+      "resource_count": 74,
+      "capacity_two_resources": 73,
+      "capacity_one_resources": 1,
+      "fourth_Q_coefficient": 48,
+      "fourth_T_coefficient": 0
+    }
+  ],
+  "shared_moments": {
+    "Q": 64847909,
+    "T": -21583680
+  },
+  "occupied_resource_counts": {
+    "1,-1": 39
+  },
+  "moment_factor_cells": [
+    [
+      15,
+      15
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      33,
+      0
+    ],
+    [
+      1,
+      33
+    ],
+    [
+      36,
+      1
+    ],
+    [
+      10,
+      2
+    ],
+    [
+      35,
+      2
+    ],
+    [
+      34,
+      3
+    ],
+    [
+      35,
+      3
+    ],
+    [
+      4,
+      30
+    ],
+    [
+      32,
+      4
+    ],
+    [
+      32,
+      5
+    ],
+    [
+      6,
+      28
+    ],
+    [
+      29,
+      6
+    ],
+    [
+      29,
+      7
+    ],
+    [
+      31,
+      7
+    ],
+    [
+      8,
+      27
+    ],
+    [
+      36,
+      8
+    ],
+    [
+      9,
+      27
+    ],
+    [
+      9,
+      31
+    ],
+    [
+      10,
+      28
+    ],
+    [
+      25,
+      11
+    ],
+    [
+      34,
+      11
+    ],
+    [
+      24,
+      12
+    ],
+    [
+      25,
+      12
+    ],
+    [
+      13,
+      24
+    ],
+    [
+      13,
+      26
+    ],
+    [
+      26,
+      14
+    ],
+    [
+      30,
+      14
+    ],
+    [
+      22,
+      16
+    ],
+    [
+      23,
+      16
+    ],
+    [
+      20,
+      17
+    ],
+    [
+      17,
+      21
+    ],
+    [
+      20,
+      18
+    ],
+    [
+      18,
+      23
+    ],
+    [
+      19,
+      21
+    ],
+    [
+      22,
+      19
+    ]
+  ]
+}

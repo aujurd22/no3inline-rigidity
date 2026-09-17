@@ -1,0 +1,35 @@
+[
+  {
+    "n": 8,
+    "base": 12,
+    "final": 0,
+    "c1": 0,
+    "ntil": true,
+    "degen": false,
+    "consistent": true,
+    "unique_pts": 16,
+    "time": 0.008723258972167969
+  },
+  {
+    "n": 16,
+    "base": 156,
+    "final": 6,
+    "c1": 6,
+    "ntil": false,
+    "degen": false,
+    "consistent": true,
+    "unique_pts": 0,
+    "time": 4.317174911499023
+  },
+  {
+    "n": 32,
+    "base": 400,
+    "final": 36,
+    "c1": 36,
+    "ntil": false,
+    "degen": false,
+    "consistent": true,
+    "unique_pts": 0,
+    "time": 7.431417465209961
+  }
+]

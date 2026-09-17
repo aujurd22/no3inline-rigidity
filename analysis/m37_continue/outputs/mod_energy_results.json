@@ -1,0 +1,326 @@
+[
+  {
+    "name": "m36_verified_solution",
+    "clauses": 670,
+    "pairs": 335,
+    "nonzero_couplings": 338,
+    "coupling_gcd": 1,
+    "all_couplings_even": false,
+    "row_sums_even": true,
+    "energy_lattice_gcd": 1,
+    "odd_coupling_matrix_gf2_rank": 32,
+    "all_plus_energy": 66,
+    "sampled_residues": {
+      "2": [
+        0,
+        1
+      ],
+      "4": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "8": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "sample_min": 18,
+    "known_energy": 0
+  },
+  {
+    "name": "m37_408_optimal16",
+    "clauses": 408,
+    "pairs": 204,
+    "nonzero_couplings": 329,
+    "coupling_gcd": 1,
+    "all_couplings_even": false,
+    "row_sums_even": true,
+    "energy_lattice_gcd": 1,
+    "odd_coupling_matrix_gf2_rank": 34,
+    "all_plus_energy": 70,
+    "sampled_residues": {
+      "2": [
+        0,
+        1
+      ],
+      "4": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "8": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "sample_min": 31,
+    "known_energy": 16
+  },
+  {
+    "name": "m37_404_latest",
+    "clauses": 404,
+    "pairs": 202,
+    "nonzero_couplings": 329,
+    "coupling_gcd": 1,
+    "all_couplings_even": false,
+    "row_sums_even": true,
+    "energy_lattice_gcd": 1,
+    "odd_coupling_matrix_gf2_rank": 34,
+    "all_plus_energy": 71,
+    "sampled_residues": {
+      "2": [
+        0,
+        1
+      ],
+      "4": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "8": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "sample_min": 26,
+    "known_energy": 17
+  },
+  {
+    "name": "m37_plateau_rank1",
+    "clauses": 410,
+    "pairs": 205,
+    "nonzero_couplings": 347,
+    "coupling_gcd": 1,
+    "all_couplings_even": false,
+    "row_sums_even": true,
+    "energy_lattice_gcd": 1,
+    "odd_coupling_matrix_gf2_rank": 34,
+    "all_plus_energy": 72,
+    "sampled_residues": {
+      "2": [
+        0,
+        1
+      ],
+      "4": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "8": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "sample_min": 30,
+    "known_energy": 16
+  },
+  {
+    "name": "m37_plateau_rank2",
+    "clauses": 426,
+    "pairs": 213,
+    "nonzero_couplings": 324,
+    "coupling_gcd": 1,
+    "all_couplings_even": false,
+    "row_sums_even": true,
+    "energy_lattice_gcd": 1,
+    "odd_coupling_matrix_gf2_rank": 34,
+    "all_plus_energy": 73,
+    "sampled_residues": {
+      "2": [
+        0,
+        1
+      ],
+      "4": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "8": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "sample_min": 31,
+    "known_energy": 16
+  },
+  {
+    "name": "m37_plateau_rank3",
+    "clauses": 428,
+    "pairs": 214,
+    "nonzero_couplings": 342,
+    "coupling_gcd": 1,
+    "all_couplings_even": false,
+    "row_sums_even": true,
+    "energy_lattice_gcd": 1,
+    "odd_coupling_matrix_gf2_rank": 36,
+    "all_plus_energy": 76,
+    "sampled_residues": {
+      "2": [
+        0,
+        1
+      ],
+      "4": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "8": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "sample_min": 30,
+    "known_energy": 16
+  },
+  {
+    "name": "m37_plateau_rank4",
+    "clauses": 436,
+    "pairs": 218,
+    "nonzero_couplings": 333,
+    "coupling_gcd": 1,
+    "all_couplings_even": false,
+    "row_sums_even": true,
+    "energy_lattice_gcd": 1,
+    "odd_coupling_matrix_gf2_rank": 34,
+    "all_plus_energy": 76,
+    "sampled_residues": {
+      "2": [
+        0,
+        1
+      ],
+      "4": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "8": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "sample_min": 35,
+    "known_energy": 16
+  },
+  {
+    "name": "m37_plateau_rank5",
+    "clauses": 558,
+    "pairs": 279,
+    "nonzero_couplings": 328,
+    "coupling_gcd": 1,
+    "all_couplings_even": false,
+    "row_sums_even": true,
+    "energy_lattice_gcd": 1,
+    "odd_coupling_matrix_gf2_rank": 36,
+    "all_plus_energy": 68,
+    "sampled_residues": {
+      "2": [
+        0,
+        1
+      ],
+      "4": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "8": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "sample_min": 30,
+    "known_energy": 16
+  },
+  {
+    "name": "m37_plateau_rank6",
+    "clauses": 564,
+    "pairs": 282,
+    "nonzero_couplings": 337,
+    "coupling_gcd": 1,
+    "all_couplings_even": false,
+    "row_sums_even": true,
+    "energy_lattice_gcd": 1,
+    "odd_coupling_matrix_gf2_rank": 34,
+    "all_plus_energy": 75,
+    "sampled_residues": {
+      "2": [
+        0,
+        1
+      ],
+      "4": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "8": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "sample_min": 31,
+    "known_energy": 16
+  }
+]

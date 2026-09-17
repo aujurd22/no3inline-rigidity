@@ -1,0 +1,8 @@
+v40_04 (2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1): hit=1980933 q0=15
+{
+  "base_profile_cases": 1,
+  "distinct_shape_masks": 72566472,
+  "defect_hitting_masks": 1980933,
+  "q0_factor_feasible_masks": 15
+}
+C:\Users\djr82\Documents\Codex\2026-07-13\d-djr82-documents-workbuddy-2026-07-2\work\even_n_existence\rot4_k12_a1_v40_04_corrected_multigraph_q0_sweep.json

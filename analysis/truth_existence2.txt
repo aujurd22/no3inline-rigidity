@@ -1,0 +1,27 @@
+==============================================================================
+TRUTH B (refined): the scaling that kills the naive LLL proof
+==============================================================================
+
+p_consec(n) = Pr(consecutive rows 0,1,2 contain a collinear triple)
+If p_consec ~ c/n, then LLL product e*p*d ~ e*(c/n)*(1.5 n^2) = O(n) -> inf.
+
+--- p_consec(n) at large n (Monte Carlo) ---
+        n     p_consec        p*n   interpretation
+       50 7.825750e-02      3.913   -> p ~ 3.91/n
+      100 3.972250e-02      3.972   -> p ~ 3.97/n
+      300 1.337250e-02      4.012   -> p ~ 4.01/n
+     1000 4.085000e-03      4.085   -> p ~ 4.08/n
+     3000 1.330000e-03      3.990   -> p ~ 3.99/n
+    10000 4.650000e-04      4.650   -> p ~ 4.65/n
+
+--- average p over RANDOM row-triples, and E[#bad] per random config ---
+      n        p_avg     E_bad=C(n,3)*p_avg
+     20 7.000500e-02                  79.81
+     40 2.253500e-02                 222.65
+     80 7.265000e-03                 596.89
+    160 2.200000e-03                1473.82
+    320 6.450000e-04                3489.60
+
+If E_bad grows with n (not shrinks), random configs are ALWAYS bad ->
+the probabilistic method cannot certify a zero-collinearity config.
+==============================================================================

@@ -1,0 +1,541 @@
+{
+  "parameters": {
+    "bases": "v40_03",
+    "k": 5,
+    "iterations": 1,
+    "target": 40,
+    "time_limit": 60.0,
+    "modes": "0",
+    "out": "directed_cell_lns_orbit_smoke.json"
+  },
+  "runs": [
+    {
+      "base": "v40_03",
+      "base_sources": [
+        "weighted_40_verified",
+        "partial_hitting_repair_slack1.json:exact1",
+        "safe_path_relink_d2.json:exact1",
+        "joint_factor_sa_12x6000.json:exact4"
+      ],
+      "covered_defects": 9,
+      "solve": {
+        "status": "OPTIMAL",
+        "removed_indices": [
+          11,
+          26,
+          33,
+          34,
+          35
+        ],
+        "removed_edges": [
+          [
+            5,
+            22
+          ],
+          [
+            15,
+            34
+          ],
+          [
+            24,
+            34
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            27,
+            36
+          ]
+        ],
+        "affected_vertices": [
+          5,
+          15,
+          22,
+          24,
+          25,
+          26,
+          27,
+          34,
+          36
+        ],
+        "residual_degree_histogram": {
+          "1": 8,
+          "2": 1
+        },
+        "directed_cell_variables": 72,
+        "fixed_point_count": 128,
+        "potential_point_count": 416,
+        "raw_line_keys": 68446,
+        "active_line_costs": 1147,
+        "fixed_line_constant": 4,
+        "diagonal_constraints": 204,
+        "build_s": 0.282,
+        "solve_s": 0.046,
+        "best_bound": 40,
+        "objective": 40,
+        "edges": [
+          [
+            0,
+            30
+          ],
+          [
+            0,
+            33
+          ],
+          [
+            1,
+            19
+          ],
+          [
+            1,
+            31
+          ],
+          [
+            2,
+            20
+          ],
+          [
+            2,
+            23
+          ],
+          [
+            3,
+            23
+          ],
+          [
+            3,
+            29
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            4,
+            19
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            6,
+            17
+          ],
+          [
+            6,
+            31
+          ],
+          [
+            7,
+            28
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            8,
+            25
+          ],
+          [
+            9,
+            32
+          ],
+          [
+            9,
+            35
+          ],
+          [
+            10,
+            15
+          ],
+          [
+            10,
+            24
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            11,
+            18
+          ],
+          [
+            12,
+            36
+          ],
+          [
+            14,
+            22
+          ],
+          [
+            14,
+            27
+          ],
+          [
+            15,
+            34
+          ],
+          [
+            16,
+            28
+          ],
+          [
+            16,
+            30
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            20,
+            26
+          ],
+          [
+            21,
+            32
+          ],
+          [
+            21,
+            33
+          ],
+          [
+            24,
+            34
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            27,
+            36
+          ],
+          [
+            29,
+            35
+          ]
+        ],
+        "bits": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "geometry": {
+          "point_count": 148,
+          "distinct_point_count": 148,
+          "bad_triples": 40,
+          "bad_line_count": 40,
+          "max_points_on_line": 3
+        }
+      }
+    }
+  ],
+  "best_candidate": {
+    "base": "v40_03",
+    "base_sources": [
+      "weighted_40_verified",
+      "partial_hitting_repair_slack1.json:exact1",
+      "safe_path_relink_d2.json:exact1",
+      "joint_factor_sa_12x6000.json:exact4"
+    ],
+    "covered_defects": 9,
+    "solve": {
+      "status": "OPTIMAL",
+      "removed_indices": [
+        11,
+        26,
+        33,
+        34,
+        35
+      ],
+      "removed_edges": [
+        [
+          5,
+          22
+        ],
+        [
+          15,
+          34
+        ],
+        [
+          24,
+          34
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          27,
+          36
+        ]
+      ],
+      "affected_vertices": [
+        5,
+        15,
+        22,
+        24,
+        25,
+        26,
+        27,
+        34,
+        36
+      ],
+      "residual_degree_histogram": {
+        "1": 8,
+        "2": 1
+      },
+      "directed_cell_variables": 72,
+      "fixed_point_count": 128,
+      "potential_point_count": 416,
+      "raw_line_keys": 68446,
+      "active_line_costs": 1147,
+      "fixed_line_constant": 4,
+      "diagonal_constraints": 204,
+      "build_s": 0.282,
+      "solve_s": 0.046,
+      "best_bound": 40,
+      "objective": 40,
+      "edges": [
+        [
+          0,
+          30
+        ],
+        [
+          0,
+          33
+        ],
+        [
+          1,
+          19
+        ],
+        [
+          1,
+          31
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          2,
+          23
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          22
+        ],
+        [
+          6,
+          17
+        ],
+        [
+          6,
+          31
+        ],
+        [
+          7,
+          28
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          8,
+          25
+        ],
+        [
+          9,
+          32
+        ],
+        [
+          9,
+          35
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          10,
+          24
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          12,
+          36
+        ],
+        [
+          14,
+          22
+        ],
+        [
+          14,
+          27
+        ],
+        [
+          15,
+          34
+        ],
+        [
+          16,
+          28
+        ],
+        [
+          16,
+          30
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          20,
+          26
+        ],
+        [
+          21,
+          32
+        ],
+        [
+          21,
+          33
+        ],
+        [
+          24,
+          34
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          27,
+          36
+        ],
+        [
+          29,
+          35
+        ]
+      ],
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "geometry": {
+        "point_count": 148,
+        "distinct_point_count": 148,
+        "bad_triples": 40,
+        "bad_line_count": 40,
+        "max_points_on_line": 3
+      }
+    }
+  }
+}

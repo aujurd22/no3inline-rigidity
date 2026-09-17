@@ -1,0 +1,264 @@
+{
+  "size": 11,
+  "bases": [
+    {
+      "base": "v40_02",
+      "cycle_type": [
+        37
+      ],
+      "possible_adjacencies": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "INFEASIBLE",
+      "consequence": "general deletion escape radius is at least 12",
+      "layers": {
+        "0": {
+          "classification": "CLOSED_EXISTING_CUTS",
+          "evidence": "rot4_adjacency_cut_sweep_v40_02_04_q1.json"
+        },
+        "1": {
+          "classification": "CLOSED_EXISTING_CUTS",
+          "evidence": "rot4_adjacency_cut_sweep_v40_02_04_q1.json"
+        },
+        "2": {
+          "classification": "CLOSED_EXISTING_CUTS",
+          "evidence": "rot4_adjacency_cut_sweep_v40_02_04_q1.json"
+        },
+        "3": {
+          "classification": "CLOSED_OVERFLOW",
+          "status": "OPTIMAL",
+          "objective": 1,
+          "q": 1,
+          "evidence": "rot4_diagonal_overflow_v40_02_a3.json"
+        },
+        "4": {
+          "classification": "CLOSED_OVERFLOW",
+          "status": "OPTIMAL",
+          "objective": 1,
+          "q": 1,
+          "evidence": "rot4_line_overflow_v40_02_a4_q1.json"
+        },
+        "5": {
+          "classification": "CLOSED_OVERFLOW",
+          "status": "OPTIMAL",
+          "objective": 3,
+          "q": 1,
+          "evidence": "rot4_line_overflow_v40_02_a5_q1.json"
+        },
+        "6": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "q": 1,
+          "evidence": "rot4_line_overflow_v40_02_a6_q1.json"
+        },
+        "7": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "q": 1,
+          "evidence": "rot4_line_overflow_v40_02_a7_q1.json"
+        },
+        "8": {
+          "classification": "CLOSED_EXISTING_CUTS",
+          "evidence": "rot4_adjacency_cut_sweep_v40_02_04_q1.json"
+        },
+        "9": {
+          "classification": "CLOSED_EXISTING_CUTS",
+          "evidence": "rot4_adjacency_cut_sweep_v40_02_04_q1.json"
+        },
+        "10": {
+          "classification": "CLOSED_EXISTING_CUTS",
+          "evidence": "rot4_adjacency_cut_sweep_v40_02_04_q1.json"
+        }
+      }
+    },
+    {
+      "base": "v40_03",
+      "cycle_type": [
+        4,
+        33
+      ],
+      "possible_adjacencies": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "INFEASIBLE",
+      "consequence": "general deletion escape radius is at least 12",
+      "layers": {
+        "0": {
+          "classification": "CLOSED_EXISTING_CUTS",
+          "evidence": "rot4_adjacency_cut_sweep_v40_02_04_q1.json"
+        },
+        "1": {
+          "classification": "CLOSED_EXISTING_CUTS",
+          "evidence": "rot4_adjacency_cut_sweep_v40_02_04_q1.json"
+        },
+        "2": {
+          "classification": "CLOSED_OVERFLOW",
+          "status": "OPTIMAL",
+          "objective": 1,
+          "q": 3,
+          "evidence": "rot4_line_overflow_v40_03_a2_q3.json"
+        },
+        "3": {
+          "classification": "CLOSED_OVERFLOW",
+          "status": "OPTIMAL",
+          "objective": 1,
+          "q": 3,
+          "evidence": "rot4_line_overflow_v40_03_a3_q3.json"
+        },
+        "4": {
+          "classification": "CLOSED_OVERFLOW",
+          "status": "OPTIMAL",
+          "objective": 1,
+          "q": 3,
+          "evidence": "rot4_line_overflow_v40_03_a4_q3.json"
+        },
+        "5": {
+          "classification": "CLOSED_OVERFLOW",
+          "status": "OPTIMAL",
+          "objective": 1,
+          "q": 2,
+          "evidence": "rot4_line_overflow_v40_03_a5_q2.json"
+        },
+        "6": {
+          "classification": "CLOSED_OVERFLOW",
+          "status": "OPTIMAL",
+          "objective": 4,
+          "q": 3,
+          "evidence": "rot4_line_overflow_v40_03_a6_q3.json"
+        },
+        "7": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "q": 1,
+          "evidence": "rot4_line_overflow_v40_03_a7_q1.json"
+        },
+        "8": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "q": 1,
+          "evidence": "rot4_line_overflow_v40_03_a8_q1.json"
+        },
+        "9": {
+          "classification": "CLOSED_EXISTING_CUTS",
+          "evidence": "rot4_adjacency_cut_sweep_v40_02_04_q1.json"
+        },
+        "10": {
+          "classification": "CLOSED_EXISTING_CUTS",
+          "evidence": "rot4_adjacency_cut_sweep_v40_02_04_q1.json"
+        }
+      }
+    },
+    {
+      "base": "v40_04",
+      "cycle_type": [
+        4,
+        16,
+        17
+      ],
+      "possible_adjacencies": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "INFEASIBLE",
+      "consequence": "general deletion escape radius is at least 12",
+      "layers": {
+        "0": {
+          "classification": "CLOSED_EXISTING_CUTS",
+          "evidence": "rot4_adjacency_cut_sweep_v40_02_04_q1.json"
+        },
+        "1": {
+          "classification": "CLOSED_EXISTING_CUTS",
+          "evidence": "rot4_adjacency_cut_sweep_v40_02_04_q1.json"
+        },
+        "2": {
+          "classification": "CLOSED_OVERFLOW",
+          "status": "OPTIMAL",
+          "objective": 2,
+          "q": 2,
+          "evidence": "rot4_line_overflow_v40_04_a2_q2.json"
+        },
+        "3": {
+          "classification": "CLOSED_OVERFLOW",
+          "status": "OPTIMAL",
+          "objective": 1,
+          "q": 1,
+          "evidence": "rot4_line_overflow_v40_04_a3_q1.json"
+        },
+        "4": {
+          "classification": "CLOSED_OVERFLOW",
+          "status": "OPTIMAL",
+          "objective": 1,
+          "q": 2,
+          "evidence": "rot4_line_overflow_v40_04_a4_q2.json"
+        },
+        "5": {
+          "classification": "CLOSED_OVERFLOW",
+          "status": "OPTIMAL",
+          "objective": 1,
+          "q": 1,
+          "evidence": "rot4_line_overflow_v40_04_a5_q1.json"
+        },
+        "6": {
+          "classification": "CLOSED_OVERFLOW",
+          "status": "OPTIMAL",
+          "objective": 2,
+          "q": 1,
+          "evidence": "rot4_line_overflow_v40_04_a6_q1.json"
+        },
+        "7": {
+          "classification": "CLOSED_F0",
+          "status": "INFEASIBLE",
+          "objective": null,
+          "q": 1,
+          "evidence": "rot4_line_overflow_v40_04_a7_q1.json"
+        },
+        "8": {
+          "classification": "CLOSED_EXISTING_CUTS",
+          "evidence": "rot4_adjacency_cut_sweep_v40_02_04_q1.json"
+        },
+        "9": {
+          "classification": "CLOSED_EXISTING_CUTS",
+          "evidence": "rot4_adjacency_cut_sweep_v40_02_04_q1.json"
+        },
+        "10": {
+          "classification": "CLOSED_EXISTING_CUTS",
+          "evidence": "rot4_adjacency_cut_sweep_v40_02_04_q1.json"
+        }
+      }
+    }
+  ],
+  "status": "INFEASIBLE"
+}

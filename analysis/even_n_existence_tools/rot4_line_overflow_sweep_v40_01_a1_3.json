@@ -1,0 +1,90 @@
+{
+  "parameters": {
+    "base": "v40_01",
+    "adjacencies": "1,2,3",
+    "size": 11,
+    "q_max": 4,
+    "time_limit": 1200.0,
+    "workers": 4,
+    "out": "rot4_line_overflow_sweep_v40_01_a1_3.json"
+  },
+  "started_at": "2026-07-19 16:23:54",
+  "layers": [
+    {
+      "adjacency_count": 1,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 1.309,
+          "classification": "SURVIVES",
+          "evidence": "rot4_line_overflow_v40_01_a1_q1.json"
+        },
+        {
+          "q": 2,
+          "status": "OPTIMAL",
+          "objective": 2,
+          "best_bound": 2.0,
+          "wall_s": 16.475,
+          "classification": "CLOSED_OVERFLOW",
+          "evidence": "rot4_line_overflow_v40_01_a1_q2.json"
+        }
+      ],
+      "classification": "CLOSED_OVERFLOW",
+      "closing_q": 2
+    },
+    {
+      "adjacency_count": 2,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 6.928,
+          "classification": "SURVIVES",
+          "evidence": "rot4_line_overflow_v40_01_a2_q1.json"
+        },
+        {
+          "q": 2,
+          "status": "OPTIMAL",
+          "objective": 2,
+          "best_bound": 2.0,
+          "wall_s": 104.996,
+          "classification": "CLOSED_OVERFLOW",
+          "evidence": "rot4_line_overflow_v40_01_a2_q2.json"
+        }
+      ],
+      "classification": "CLOSED_OVERFLOW",
+      "closing_q": 2
+    },
+    {
+      "adjacency_count": 3,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "OPTIMAL",
+          "objective": 0,
+          "best_bound": 0.0,
+          "wall_s": 8.326,
+          "classification": "SURVIVES",
+          "evidence": "rot4_line_overflow_v40_01_a3_q1.json"
+        },
+        {
+          "q": 2,
+          "status": "OPTIMAL",
+          "objective": 1,
+          "best_bound": 1.0,
+          "wall_s": 181.013,
+          "classification": "CLOSED_OVERFLOW",
+          "evidence": "rot4_line_overflow_v40_01_a3_q2.json"
+        }
+      ],
+      "classification": "CLOSED_OVERFLOW",
+      "closing_q": 2
+    }
+  ],
+  "finished_at": "2026-07-19 16:29:25"
+}

@@ -1,0 +1,96 @@
+# solution 1
+# n=14 sym=dia2 status=verified source=flammenkamp_cache/n14_dia2
+# code=x457A45AC02026C17BDBD13893689
+0 4
+0 5
+1 7
+1 10
+2 4
+2 5
+3 10
+3 12
+4 0
+4 2
+5 0
+5 2
+6 6
+6 12
+7 1
+7 7
+8 11
+8 13
+9 11
+9 13
+10 1
+10 3
+11 8
+11 9
+12 3
+12 6
+13 8
+13 9
+
+# solution 2
+# n=14 sym=dia2 status=verified source=flammenkamp_cache/n14_dia2
+# code=x6929155ACD23067DAB01388C4B47
+0 6
+0 9
+1 2
+1 9
+2 1
+2 5
+3 5
+3 10
+4 12
+4 13
+5 2
+5 3
+6 0
+6 6
+7 7
+7 13
+8 10
+8 11
+9 0
+9 1
+10 3
+10 8
+11 8
+11 12
+12 4
+12 11
+13 4
+13 7
+
+# solution 3
+# n=14 sym=dia2 status=verified source=flammenkamp_cache/n14_dia2
+# code=x37AC470C2859BD02485B1D69136A
+0 3
+0 7
+1 10
+1 12
+2 4
+2 7
+3 0
+3 12
+4 2
+4 8
+5 5
+5 9
+6 11
+6 13
+7 0
+7 2
+8 4
+8 8
+9 5
+9 11
+10 1
+10 13
+11 6
+11 9
+12 1
+12 3
+13 6
+13 10
+

@@ -1,0 +1,214 @@
+{
+  "results": [
+    {
+      "n": 6,
+      "point_count": 12,
+      "row_cube_count": 20,
+      "determinants_in_row_cubes": 160,
+      "ordinary_collinear_row_triples": 0,
+      "medium_primes": {
+        "threshold": 3,
+        "cube_count": 20,
+        "rough_vertex_count_histogram": {
+          "3": 2,
+          "4": 6,
+          "5": 6,
+          "6": 4,
+          "8": 2
+        },
+        "mean_rough_vertices_per_cube": 5.0,
+        "prime_cube_occupancy_histogram": {
+          "1": 48,
+          "2": 22,
+          "4": 2
+        },
+        "prime_cube_incidence_count": 72,
+        "prime_vertex_incidence_count": 100,
+        "mean_occupancy_conditioned_on_prime_cube_incidence": 1.3888888888888888,
+        "increment_degenerate_prime_cube_incidences": 16,
+        "maximum_occupancy_with_all_three_increments_nonzero_mod_p": 2,
+        "nondegenerate_occupancy_above_three_examples": [],
+        "multi_vertex_mask_histogram": {
+          "000,010": 3,
+          "101,111": 3,
+          "000,010,101,111": 2,
+          "011,111": 2,
+          "000,001": 2,
+          "010,101": 2,
+          "100,101": 1,
+          "000,110": 1,
+          "010,100": 1,
+          "100,111": 1,
+          "101,110": 1,
+          "000,100": 1,
+          "011,100": 1,
+          "001,110": 1,
+          "010,110": 1,
+          "110,111": 1
+        },
+        "three_vertex_supporting_normal_histogram": {}
+      },
+      "large_primes": {
+        "threshold": 6,
+        "cube_count": 20,
+        "rough_vertex_count_histogram": {
+          "0": 2,
+          "1": 6,
+          "2": 4,
+          "3": 6,
+          "6": 2
+        },
+        "mean_rough_vertices_per_cube": 2.2,
+        "prime_cube_occupancy_histogram": {
+          "1": 36,
+          "2": 4
+        },
+        "prime_cube_incidence_count": 40,
+        "prime_vertex_incidence_count": 44,
+        "mean_occupancy_conditioned_on_prime_cube_incidence": 1.1,
+        "increment_degenerate_prime_cube_incidences": 0,
+        "maximum_occupancy_with_all_three_increments_nonzero_mod_p": 2,
+        "nondegenerate_occupancy_above_three_examples": [],
+        "multi_vertex_mask_histogram": {
+          "000,110": 1,
+          "010,100": 1,
+          "100,111": 1,
+          "101,110": 1
+        },
+        "three_vertex_supporting_normal_histogram": {}
+      }
+    },
+    {
+      "n": 12,
+      "point_count": 24,
+      "row_cube_count": 220,
+      "determinants_in_row_cubes": 1760,
+      "ordinary_collinear_row_triples": 0,
+      "medium_primes": {
+        "threshold": 4,
+        "cube_count": 220,
+        "rough_vertex_count_histogram": {
+          "0": 6,
+          "1": 16,
+          "2": 14,
+          "3": 18,
+          "4": 32,
+          "5": 32,
+          "6": 44,
+          "7": 30,
+          "8": 28
+        },
+        "mean_rough_vertices_per_cube": 4.927272727272728,
+        "prime_cube_occupancy_histogram": {
+          "1": 578,
+          "2": 216,
+          "3": 14,
+          "4": 12,
+          "8": 2
+        },
+        "prime_cube_incidence_count": 822,
+        "prime_vertex_incidence_count": 1116,
+        "mean_occupancy_conditioned_on_prime_cube_incidence": 1.3576642335766422,
+        "increment_degenerate_prime_cube_incidences": 60,
+        "maximum_occupancy_with_all_three_increments_nonzero_mod_p": 3,
+        "nondegenerate_occupancy_above_three_examples": [],
+        "multi_vertex_mask_histogram": {
+          "010,101": 20,
+          "001,110": 17,
+          "011,100": 17,
+          "000,111": 14,
+          "010,111": 13,
+          "000,101": 13,
+          "101,110": 10,
+          "010,100": 10,
+          "011,110": 9,
+          "001,100": 9,
+          "000,110": 8,
+          "100,111": 8,
+          "110,111": 7,
+          "000,100": 7,
+          "101,111": 6,
+          "001,111": 6,
+          "000,011": 6,
+          "000,010": 6,
+          "011,101": 5,
+          "001,010": 5,
+          "010,011": 4,
+          "001,011,100,110": 4,
+          "001,101": 4,
+          "001,010,100": 3,
+          "011,101,110": 3,
+          "001,011": 2,
+          "100,110": 2,
+          "000,001,010,011,100,101,110,111": 2,
+          "100,101": 2,
+          "000,101,110": 2,
+          "000,010,101,111": 2,
+          "010,100,111": 2,
+          "000,001": 2,
+          "011,111": 2,
+          "010,110": 2,
+          "100,101,110,111": 1,
+          "001,100,111": 1,
+          "000,011,101": 1,
+          "001,010,101,110": 1,
+          "010,011,110,111": 1,
+          "000,001,100,101": 1,
+          "001,010,111": 1,
+          "000,010,100,110": 1,
+          "010,011,100,101": 1,
+          "000,011,110": 1
+        },
+        "three_vertex_supporting_normal_histogram": {
+          "(1, 1, 1)": 6,
+          "(1, 1, -1)": 3,
+          "(1, -1, -1)": 3,
+          "(1, -1, 1)": 2
+        }
+      },
+      "large_primes": {
+        "threshold": 12,
+        "cube_count": 220,
+        "rough_vertex_count_histogram": {
+          "0": 52,
+          "1": 34,
+          "2": 40,
+          "3": 40,
+          "4": 16,
+          "5": 18,
+          "6": 20
+        },
+        "mean_rough_vertices_per_cube": 2.309090909090909,
+        "prime_cube_occupancy_histogram": {
+          "1": 396,
+          "2": 56
+        },
+        "prime_cube_incidence_count": 452,
+        "prime_vertex_incidence_count": 508,
+        "mean_occupancy_conditioned_on_prime_cube_incidence": 1.1238938053097345,
+        "increment_degenerate_prime_cube_incidences": 0,
+        "maximum_occupancy_with_all_three_increments_nonzero_mod_p": 2,
+        "nondegenerate_occupancy_above_three_examples": [],
+        "multi_vertex_mask_histogram": {
+          "010,101": 12,
+          "011,100": 6,
+          "001,110": 6,
+          "000,101": 5,
+          "010,111": 5,
+          "000,111": 4,
+          "011,110": 3,
+          "001,100": 3,
+          "011,101": 2,
+          "000,110": 2,
+          "001,010": 2,
+          "100,111": 2,
+          "001,111": 1,
+          "010,100": 1,
+          "101,110": 1,
+          "000,011": 1
+        },
+        "three_vertex_supporting_normal_histogram": {}
+      }
+    }
+  ]
+}

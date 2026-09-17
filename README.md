@@ -1,6 +1,6 @@
 # No-Three-In-Line: Audited C4 Structure, a Verified `n=74` Solution, and the All-Even Question
 
-> **Research status: 2026-07-29.** This is an AI-assisted computational
+> **Research status: 2026-08-13.** This is an AI-assisted computational
 > research notebook. It contains elementary proofs, exact finite encodings,
 > machine-checked local certificates, empirical laws, conjectures, and historical
 > failed approaches. Those categories are kept separate below.
@@ -14,6 +14,10 @@
 > five C4 defect orbits. No `n=76` solution has been found here.
 > The latest update adds an exact cubic spectral identity, an equivalent CRT
 > anti-Ramsey formulation, and an exact audit of a small V20 neutral plateau.
+> **2026-08-13 update:** a verified survey of the consolidated solution cache
+> (all even `n <= 74` have rot4 solutions), a proved self-duality of the
+> diagonal word under quarter-turn symmetry (Section 4.7), and a proved corner
+> lift lemma for `n -> n+2` with exact liftability counts (Section 4.8).
 >
 > The main theoretical question studied here is now: **does every even `n`
 > admit `2n` grid points with no three collinear?** The data through `n=74`
@@ -194,6 +198,60 @@ These Type-1/Type-2 obstructions are proved in
 [`allbad_triple_theorem.md`](analysis/results/allbad_triple_theorem.md). They are
 useful clauses and preprocessing rules. They do not characterize every conflict.
 
+**2026-08-13 update (Corollary D retracted; corrected audit).** An earlier
+attempt to prove Corollary D by MILP was invalid: the model used undirected
+edges with a two-sided MTZ and per-pair multiplicity rows, silently forbidding
+legitimate cycles. With the correct directed model (out-degree = in-degree = 1,
+directed MTZ, Type-1/2 as fixed-sum constraints over undirected indicators), a
+Type-1/2-free `(m-1)+1` factor exists for every `m=6,...,38`, each explicitly
+constructed and verified clean. Corollary D is therefore FALSE, not a theorem;
+the historical 23/23 random-sample observation reflects sampling bias. The
+archived `m=38` candidates' Type-1/2 content is a property of those specific
+factors, not of the `(m-1)+1` class, and `n=76` rot4 solutions are not excluded
+by Type-1/2. Details: [allbad_triple_theorem.md](analysis/results/allbad_triple_theorem.md)
+
+**2026-08-14 correction (E=9 candidate data unreliable).** The archived
+`cpu_e9_multiseed_10h_status.json` cell list contains 39 entries and expands to
+156 points, i.e. it is not a standard m=38 factor (expected 38 cells / 152
+points). Claims based on that list (bad-line counts, the window-repair
+infeasibility, orientation-independent bad-line lower bounds) are RETRACTED
+until a verified 38-cell factor is obtained. The cell-list-level Type-1/2
+multiplicity check (a+b=35,51 at multiplicity 3) is a property of the listed
+cells only and carries no factor-level meaning.
+.
+
+
+**2026-08-14 addition (signature scan with important caveats, later corrected).**
+A directed-cell MILP (per-part rooted MTZ, Type-1/2 fixed-sum caps 2) was run for
+two-component signatures [a, m-a], m=29..38, with vertices fixed in contiguous
+blocks. Results (trustworthy only for THIS fixed assignment): for every tested m
+the balanced side a <= m/2+4 is INFEASIBLE while a >= m/2+5 is FEASIBLE
+(e.g. m=38: a in {19..23} infeasible, {24..37} feasible). For three-component
+signatures of m=38, [28,7,3] and [20,10,8] and [16,12,10] were INFEASIBLE and
+[32,5,1], [24,13,1] FEASIBLE under the same fixed assignment. CAVEATS:
+(a) an earlier version with an unrooted MTZ wrongly forbade digons; corrected
+here; (b) fixed contiguous vertex blocks do not represent all factors of a
+given signature, so signature-level exclusion claims are NOT established;
+only direct factor checks are valid (the archived m=38 cpu E=9 candidate
+indeed carries Type-1/2 content, verified directly; the E=5 candidate factor
+was not directly checked). The balanced-side infeasibility under fixed blocks
+is a finite fact, not a signature theorem.
+
+**2026-08-14 addition (balanced contiguous-block theorem, PROVED).** Split
+vertices [0, m-1] into contiguous blocks A = [0, a-1] and B = [a, m-1] with
+a >= b = m-a. Suppose a 2-regular digon/loop-free factor with all arcs inside
+A or inside B is Type-1/2-free. Count Type-2 (difference) capacity: B has b
+arcs with differences in [1, b-1]; A has a arcs with differences in [1, a-1],
+of which at most 2(a-b) can lie in [b, a-1]. Hence at least 2b - a arcs of A
+plus all b arcs of B use differences in [1, b-1], total >= 3b - a, but
+capacity there is 2(b-1). Thus 3b - a <= 2(b-1), i.e. b <= a - 2. For the
+balanced case b >= a - 1 this is impossible. So contiguous balanced
+two-component factors are never Type-1/2-free (matches the exact scans
+m=29..38 where a <= m/2+4 was INFEASIBLE under the fixed-block model). The
+caveat matters: with free vertex assignment the balanced signature (14,14)
+occurs among real n=56 solutions, so this is a block-specific theorem, not a
+signature theorem.
+
 ### 4.5 A cubic spectral trace identity — **PROVED**
 
 Let $S=(r_i)_{i=1}^{N}$, with $r_i=(x_i,y_i)$, lie on an $n\times n$
@@ -251,6 +309,123 @@ symmetry, or a suitable random two-factor measure without reconstructing that
 histogram.  The full derivation and checks are in
 [`cubic_spectrum_crt_rainbow_2026-07-29.md`](analysis/results/cubic_spectrum_crt_rainbow_2026-07-29.md).
 
+
+**2026-08-13/14 addition (C4 block decomposition of the cubic trace).** For a
+quarter-turn-invariant configuration on an even board, work in centred doubled
+coordinates X=2x-(n-1), Y=2y-(n-1); there omega is invariant under the
+90-degree rotation rho. Let O_1,...,O_m be the m = n/2 four-point orbits and
+p_a the representative of O_a. For each j in {0,1,2,3} define the m x m
+matrix
+K_t^j(p,q) = sum_{h=0..3} i^{-jh} zeta^{t omega(rho^h p, q)}.
+Then K_t commutes with the rotation permutation and
+tr(K_t^3) = sum_j tr((K_t^j)^3)
+(verified to machine precision for n=8, n=10 and n=74). Expanding in h, the
+four phase families are exactly (in centred doubled coordinates)
+zeta^{t det(p,q)} (h=0), zeta^{-t<p,q>} (h=1, inner product
+<p,q>=XX'+YY'), zeta^{-t det(p,q)} (h=2), and zeta^{t<p,q>} (h=3).
+[An earlier note listed a "cross term zeta^{-t(xy'+yx')}" here; that form
+does not occur as one of the four h-families, and the h=1 family is the
+negative inner-product phase.]
+
+**Correct four-matrix expansion (2026-08-14, PROVED + VERIFIED).** With
+a(p,q)=zeta^{t det(p,q)} and c(p,q)=zeta^{-t<p,q>}, each block equals
+K_t^j = a + i^{-j} c + i^{-2j} conj(a) + i^{-3j} conj(c). Cubing and summing
+over j selects h1+h2+h3 ≡ 0 (mod 4), giving the exact identity
+tr(K_t^3) = 4·[ tr(a^3) + 3·tr(conj(a) c^2) + 3·tr(a conj(a)^2)
+              + 3·tr(conj(a) conj(c)^2) + 3·tr(a c conj(c))
+              + 3·tr(a conj(c) c) ].
+A previously attempted simplification to 16·tr(A^3) + 48·tr(A B^2) is wrong
+(mixed h terms do not reduce to a single A/B product; verified numerically).
+
+**Six-class census identity (2026-08-14, PROVED + VERIFIED).** Averaging over
+t (root-of-unity filter) turns each of the six classes into an exact zero
+count of a trilinear form on representative triples, for any prime
+Q > 6(n-1)^2:
+N1 = # {det(p,q)+det(q,r)+det(r,p) ≡ 0},
+N2 = # {<p,q>+<q,r>+det(r,p) ≡ 0},
+N3 = # {det(p,q)-det(q,r)-det(r,p) ≡ 0},
+N4 = # {<p,q>+<q,r>-det(r,p) ≡ 0},
+N5 = # {det(p,q)-<q,r>+<r,p> ≡ 0},
+N6 = # {det(p,q)+<q,r>-<r,p> ≡ 0}.
+Then, for any C4-invariant point set with N = 4M points,
+4·( N1 + 3(N2+N3+N4+N5+N6) ) = 6·C_col + 3N^2 - 2N;
+for a 2n-point configuration (M = m = n/2) the right side is
+6·C_col + 12 n^2 - 4 n.
+
+**Rigidity at diagonal floors (2026-08-14, PROVED + VERIFIED).** The counts
+have configuration-independent lower bounds N1 >= 3m^2-2m (p=q, q=r, r=p
+slices), N3 >= m^2, N5 >= m^2, N6 >= m^2 (p=q slice), N2, N4 >= 0. Hence
+6·C_col = 4·[ (N1-3m^2+2m) + 3(N2 + (N3-m^2) + N4 + (N5-m^2) + (N6-m^2)) ],
+and a C4-symmetric 2n-point configuration is NTIL if and only if all six
+counts equal their floors: N1 = 3m^2-2m, N2 = N4 = 0, N3 = N5 = N6 = m^2.
+Verified exactly on 21 rot4 solutions (n=6..20), on the n=74 solution
+(N1=4033, N2=N4=0, N3=N5=N6=1369), on random C4 non-solutions (excess
+equals (3/2)·C_col), and on the full 8x8 board stress test
+(4·weighted = 21424 = 6·1544 + 3·64^2 - 2·64). The six classes have a
+geometric reading: F1, F3, F5, F6 are collinearity of (p,q,r), (p,q,rho^2 r),
+(p,q,rho^3 r), (p,q,rho r) respectively; F4 is (p,rho^2 q,rho^3 r); F2 is a
+perpendicular-line condition on q. A parity lemma (for odd-odd centred doubled
+coordinates, every class value is ≡ 0 (mod 4); proven via F1 = det(q-p, r-p),
+F3 = F1 - 2 det(q-p, r), and an exhaustive check of all 64 mod-4 residue
+patterns) forces nonzero margins to be at least 4; on known solutions
+(n=14..74) every class attains min = 4 ("4-tight"), matching the observed
+exchange-gap isolation. Details: analysis/even_n_existence_tools/
+FOUR_MATRIX_CENSUS_THEOREM_2026-08-14.md.
+
+### 4.6a Half-turn (central symmetry) census — **PROVED + VERIFIED**
+
+**2026-08-14.** For a centrally symmetric configuration of 2n points on the
+even n x n board (n orbits of size two under (x,y) -> (n-1-x, n-1-y)), take
+one representative r_1..r_n from each pair in the lower half (y <= (n-2)/2).
+In centred doubled coordinates define
+F1 = det(p,q)+det(q,r)+det(r,p) and F2 = det(p,q)-det(q,r)-det(r,p).
+The Fourier decomposition of the cubic trace into the two half-turn blocks
+gives the exact identity (any prime Q > 6(n-1)^2):
+
+    2*N1 + 6*N2 = 6*C_col + 12 n^2 - 4 n,
+    N1 = #{(p,q,r): F1 ≡ 0 mod Q},   N2 = #{(p,q,r): F2 ≡ 0 mod Q}.
+
+The universal floors are N1 >= 3n^2-2n (three diagonal slices) and
+N2 >= n^2 (p=q slice), so
+
+    C_col = [ (N1-3n^2+2n) + 3(N2-n^2) ] / 3
+
+and a half-turn configuration is NTIL if and only if N1 = 3n^2-2n and
+N2 = n^2.  Geometrically F2 = 0 means p, q, -r are collinear (antipodal
+triples), so the condition is: no three representatives collinear, no
+{p,q,-r} collinear, and no two representatives collinear with the centre
+(the last is implied by NTIL).  Verified on all rot2 solutions for
+n = 6..16 and on the n=74 solution.  The n=74 rot4 solution, shifted by
+(+1,+1) into the 76-board, is itself a valid half-turn NTIL configuration
+with 74 representatives (E=0); the remaining problem for n=76 is adding two
+antipodal pairs.  Exact scans (insertion deltas with double-occurrence
+corrections, verified against brute force) show: the four corners are the
+only 2-per-row/column extension of the embedded configuration and fail with
+28 collinear triples; the best two-cell insertion has E=24 (C_col = 8), and
+single/paired/local-improvement/ILS searches from the n=74 core, the E=5 C4
+seed, and the corner extension all converge to the same E=24 wall (rows and
+columns 34 and 41 with three points, rows and columns 0 and 75 with one).
+Whether E=24 is the true minimum for n=76 half-turn configurations (which
+would rule out a centrally symmetric D(76)=152) remains open; see
+analysis/even_n_existence_tools/HALF_TURN_CENSUS_AND_N76_WALL_2026-08-14.md
+and the scripts ht_sa_search.py / ht_repair.py / ht_ils.py / ht_sa2.py.
+
+**2026-08-14 update (exact finite theorems).** (A) An exhaustive scan of all
+3,957,891 pairs of free lower-half cells of the 76-board shows that every
+two-orbit insertion into the embedded n=74 core has E >= 24 (C_col >= 8),
+with equality at (0,34)+(41,0); the insertion deltas were verified against
+brute force. (B) A valid half-turn NTIL configuration must have exactly two
+representatives in every lower-half row and column-pair balance
+#{x} + #{75-x} = 2 (from two points per row/column); the E=24 wall violates
+this, and the best balanced configurations found have E >= 60. (C) Board
+slack landscape: inserting into the embedded core adds E = 12 per
+representative on tight boards (n=76..86), while at n>=96 the first
+insertion is locally repairable back to E=0; the clean-growth capacity is at
+most about six insertions, so embedded growth cannot reach m = n. Priority E
+(local n->n+2 absorption) is closed by these data together with the linear
+cross-layer edit distance. Details:
+analysis/even_n_existence_tools/N76_EXACT_THEOREMS_2026-08-14.md.
+
 ### 4.6 CRT pair colours and the rainbow-clique equivalence — **PROVED**
 
 Choose distinct primes $p,q\geq n$ with
@@ -298,6 +473,71 @@ finite-plane bucket implementation was only about as fast as direct integer
 line hashing; its main value is structural and incremental rather than an
 asymptotic speedup.
 
+
+### 4.7 The q=1 word of a quarter-turn-symmetric configuration — **PROVED**
+
+Let $L(d)=|\{(r,c)\in S: c-r=d\}|$ for $d\in[-(n-1),n-1]$ and
+$M(s)=|\{(r,c)\in S: r+c=s\}|$ for $s\in[0,2n-2]$. For **any** subset $S$ of the
+even board invariant under $\rho:(x,y)\mapsto(y,n-1-x)$ (the NTIL assumption is
+not needed), the two words coincide as sequences,
+
+$$
+L(d)=M(d+n-1)\qquad(d\in[-(n-1),n-1]),
+$$
+
+and rotation invariance gives $L(d)=M(n-1-d)$, so both words are palindromes.
+
+Proof: expanding one four-point orbit, the multisets
+$\{c-r\}$ and $\{r+c-(n-1)\}$ contributed by its points are identical, and
+rotation maps the diagonal $d$ onto the anti-diagonal $n-1-d$.
+
+Verification: every cached rot4 solution for even $n=6,\ldots,74$, including all
+10,441 solutions at $n=56$, satisfies the identity. It is therefore a free
+correctness check: a rot4 candidate whose word is not self-dual cannot be a
+rot4 solution. Full data in
+[`corner_lift_and_word_selfduality_2026-08-13.md`](analysis/results/corner_lift_and_word_selfduality_2026-08-13.md).
+
+### 4.8 Corner lift lemma — **PROVED / VERIFIED DATA**
+
+For a valid NTIL set $S\subset\{0,\ldots,n-1\}^2$ with two points per row and
+column, define
+
+$$
+T=\{(r+1,c+1):(r,c)\in S\}\cup\{(0,0),(0,n+1),(n+1,0),(n+1,n+1)\}.
+$$
+
+Then $T$ is a valid NTIL set on the $(n+2)\times(n+2)$ board **if and only if**
+$S$ satisfies
+
+1. $L(0)=0$ — no point on the main diagonal;
+2. $M(n-1)=0$ — no point on the anti-diagonal $r+c=n-1$;
+3. no corner secant — from each corner of the larger board the embedded points
+   have pairwise distinct directions.
+
+Row and column saturation of $T$ is automatic; every collinear triple of $T$
+either lies inside the embedded $S$ or involves a corner, and the three
+conditions exclude exactly those cases. For a quarter-turn-symmetric $S$,
+conditions 1 and 2 are equivalent (rotation maps the main diagonal onto
+$r+c=n-1$).
+
+Exact finite survey (full NTIL validation of every constructed lift, over the
+cached rot4 enumerations):
+
+| $n$ | liftable / total | $n$ | liftable / total |
+|---:|---:|---:|---:|
+| 8 | 1/4 | 48 | 4/2124 |
+| 40 | 1/541 | 50 | 10/3381 |
+| 42 | 2/746 | 52 | 4/5062 |
+| 44 | 8/2032 | 54 | 28/7696 |
+| 46 | 2/1366 | 56 | 16/10441 |
+
+No rot4 solution for $n=10,\ldots,38$ lifts (complete enumerations), none of the
+more than 143,000 unsymmetric cached solutions for $n\le20$ lifts (checked
+through all D4 transforms), and the alternative 2x2-corner-block lift never
+succeeds on any cached solution. The lifts for $n=8\to10$ and $n=40\to42$
+reproduce cached solutions; the other lifts produce new solutions. A lifted
+configuration occupies the main diagonal, so the corner lift cannot be
+iterated.
 ## 5. Audited repository results beyond the basic model
 
 | result | status | reliable conclusion | research value |
@@ -454,6 +694,29 @@ Ordered insertion into the true `m=37` factor produced an independently
 checked `m=38` candidate with cycle type `32+5+1`, 20 bad triples, and exactly
 five C4 defect orbits (`E=5`). This improves the repository's previous
 `m=38` near-miss from `E=9` to `E=5`; it is **not** an `n=76` solution.
+Re-verified independently on 2026-08-14: the stored cells expand to 152 unique
+points, every row and column has degree two, the configuration is
+quarter-turn invariant, exactly 20 lines carry a third point (20 bad triples,
+5 defect orbits), and every bad line touches an added orbit
+(`even_n_existence_tools/census_sweep_rot4_20260814.json` records the
+concurrent six-class census; the direct line-level check is reproduced by
+`verify_direct_lift_m38.py` on `direct_truth_lift_m38_best.json`).
+
+**2026-08-14 improved near-miss (E=2).** Embedding the verified `n=74` rot4
+solution into the 76-board by (+1,+1) and inserting the two cells (0,34) and
+(41,0) gives a C4-symmetric `m=38` candidate with exactly eight bad triples
+on two defect orbits (`E=2`). **Caveat:** it is NOT a valid two-per-line
+configuration: rows and columns 34 and 41 carry three points while rows and
+columns 0 and 75 carry one (four of its eight bad lines are axis lines), so
+it is a lower-energy but structurally infeasible search state, not an
+improvement of the valid `E=5` two-per-line record. Its six-class C4 census
+is (4256, 0, 1446, 0, 1444, 1446) against floors (4256, 0, 1444, 0, 1444,
+1444): excess only in the antipodal class N3 (+2) and the rotated class
+N6 (+2). Exhaustive checks: all 3,957,891 two-cell insertions into the
+embedded core have E >= 24 (half-turn excess, i.e., C_col >= 8); no single
+cell, swap, two-cell joint move, C4-level cell move, or iterated local search
+improves it; the balanced (two-per-row/column) search finds no better state.
+Candidate file: analysis/even_n_existence_tools/n76_e2_candidate.json.
 
 Exact CP-SAT searches exclude every zero-defect state at replacement radii
 zero through eight around this seed. Radius eight was split into 46 exhaustive
@@ -750,6 +1013,12 @@ logarithmically, sublinearly, or linearly across a larger archive. If it grows
 proportionally to `n`, abandon local induction and return to the probabilistic
 programme.
 
+The corner-lift lemma (Section 4.8) characterizes the unique boundary extension
+that preserves all interior points; across complete cached enumerations it is
+satisfiable only at `n=8` and in 0.1--0.4% of the rot4 solutions for
+`n=40,...,56`, never for `n=10,...,38` or among unsymmetric solutions, and
+it cannot be iterated. This is independent finite evidence that a constant-size
+`n -> n+2` insertion absorber is disfavoured.
 ### Priority F — Couple CRT palette propagation to macro trades
 
 Maintain the exact pair-colour palette of the retained point set during a
@@ -792,9 +1061,15 @@ It should not displace Priorities B and C if the goal is a general theorem.
 | [`analysis/verify_crt_rainbow.py`](analysis/verify_crt_rainbow.py) | exact, dependency-free CRT palette verifier cross-checked against integer line hashing |
 | [`analysis/results/pair_codegree_37/`](analysis/results/pair_codegree_37/) | pair-codegree experiments, score60 certificate, Hamming balls, small-`m` exact data |
 | [`analysis/even_n_existence_tools/`](analysis/even_n_existence_tools/) | all-even structural lemmas, corrected C4 model, finite obstruction tools |
+| [`analysis/even_n_existence_tools/FOUR_MATRIX_CENSUS_THEOREM_2026-08-14.md`](analysis/even_n_existence_tools/FOUR_MATRIX_CENSUS_THEOREM_2026-08-14.md) | correct four-matrix expansion of `tr(K_t^3)`, six-class census identity, and the rigidity-at-diagonal-floors theorem (with verifier scripts) |
+| [`analysis/even_n_existence_tools/HALF_TURN_CENSUS_AND_N76_WALL_2026-08-14.md`](analysis/even_n_existence_tools/HALF_TURN_CENSUS_AND_N76_WALL_2026-08-14.md) | two-class census identity for centrally symmetric configurations; embedding of the `n=74` solution into the 76-board; exact insertion scans and the E=24 wall for `n=76` |
+| [`analysis/even_n_existence_tools/AUDIT_AND_PLAN_2026-08-15.md`](analysis/even_n_existence_tools/AUDIT_AND_PLAN_2026-08-15.md) | 2026-08-15 independent audit of all census identities, parity lemma, E=24 wall, E=2 candidate, and corner forcing (all re-verified), plus the prioritised proof/disproof execution plan (P0-P4) |
 | [`analysis/results/score60_reduced_lns_frontier_2026-07-22.md`](analysis/results/score60_reduced_lns_frontier_2026-07-22.md) | final scoped report on the historical score60 basin |
 | [`verify_solution.py`](verify_solution.py) | independent point-set checker |
 | [`visualization/overview.html`](visualization/overview.html) | interactive visual guide; descriptive, not proof evidence |
+| [solutions_unified/](solutions_unified/) | consolidated, individually verified solution cache: all even 
+<=74 rot4 solutions, odd solutions through 
+=63, plus sporadic files; sources Flammenkamp, Prellberg, and the .few extended-alphabet decodes |
 | [`main.tex`](main.tex) | manuscript source; may lag this README's audit status |
 
 Build helpers are provided in [`Makefile`](Makefile) and

@@ -1,0 +1,7799 @@
+{
+  "method": {
+    "m": 37,
+    "deletion_class": "all minimum independent defect-hitting edge sets",
+    "F0": "one-new-orbit shadow followed by perfect matching",
+    "F1": "F0 plus pairwise compatibility of selected oriented C4 orbits",
+    "F2": "complete no-three-collinear C4 repair"
+  },
+  "bases": [
+    {
+      "base": "v40_01",
+      "minimum_independent_hitting_size": 6,
+      "deletion_set_count": 39,
+      "stage_feasible_counts": {
+        "F0_shadow_factor": 0,
+        "F1_pairwise_oriented_factor": 0,
+        "F2_exact_completion": 0
+      },
+      "records": [
+        {
+          "removed_indices": [
+            0,
+            10,
+            15,
+            22,
+            26,
+            36
+          ],
+          "removed_edges": [
+            [
+              0,
+              30
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            0,
+            5,
+            7,
+            8,
+            11,
+            13,
+            15,
+            22,
+            23,
+            29,
+            30,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 65
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                0
+              ],
+              [
+                5
+              ],
+              [
+                7
+              ],
+              [
+                8
+              ],
+              [
+                11
+              ],
+              [
+                13
+              ],
+              [
+                15
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            0,
+            10,
+            20,
+            22,
+            26,
+            36
+          ],
+          "removed_edges": [
+            [
+              0,
+              30
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              10,
+              24
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            0,
+            5,
+            7,
+            10,
+            11,
+            15,
+            22,
+            23,
+            24,
+            29,
+            30,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 128,
+          "orientation_count_histogram": {
+            "0": 64
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                0
+              ],
+              [
+                5
+              ],
+              [
+                7
+              ],
+              [
+                10
+              ],
+              [
+                11
+              ],
+              [
+                15
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                24
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            0,
+            10,
+            22,
+            26,
+            29,
+            36
+          ],
+          "removed_edges": [
+            [
+              0,
+              30
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            0,
+            5,
+            7,
+            11,
+            15,
+            17,
+            22,
+            23,
+            28,
+            29,
+            30,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 128,
+          "orientation_count_histogram": {
+            "0": 64
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                0
+              ],
+              [
+                5
+              ],
+              [
+                7
+              ],
+              [
+                11
+              ],
+              [
+                15
+              ],
+              [
+                17
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                28
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            0,
+            15,
+            22,
+            26,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              0,
+              30
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            0,
+            8,
+            11,
+            13,
+            15,
+            21,
+            22,
+            23,
+            29,
+            30,
+            33,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 65
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                0
+              ],
+              [
+                8
+              ],
+              [
+                11
+              ],
+              [
+                13
+              ],
+              [
+                15
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                33
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            0,
+            15,
+            22,
+            26,
+            33,
+            36
+          ],
+          "removed_edges": [
+            [
+              0,
+              30
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            0,
+            8,
+            11,
+            13,
+            15,
+            22,
+            23,
+            24,
+            29,
+            30,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 132,
+          "orientation_count_histogram": {
+            "0": 66
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                0
+              ],
+              [
+                8
+              ],
+              [
+                11
+              ],
+              [
+                13
+              ],
+              [
+                15
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                24
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            0,
+            20,
+            22,
+            26,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              0,
+              30
+            ],
+            [
+              10,
+              24
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            0,
+            10,
+            11,
+            15,
+            21,
+            22,
+            23,
+            24,
+            29,
+            30,
+            33,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 128,
+          "orientation_count_histogram": {
+            "0": 64
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                0
+              ],
+              [
+                10
+              ],
+              [
+                11
+              ],
+              [
+                15
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                24
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                33
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            0,
+            22,
+            26,
+            29,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              0,
+              30
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            0,
+            11,
+            15,
+            17,
+            21,
+            22,
+            23,
+            28,
+            29,
+            30,
+            33,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 65
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                0
+              ],
+              [
+                11
+              ],
+              [
+                15
+              ],
+              [
+                17
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                28
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                33
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            0,
+            22,
+            26,
+            29,
+            33,
+            36
+          ],
+          "removed_edges": [
+            [
+              0,
+              30
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            0,
+            11,
+            15,
+            17,
+            22,
+            23,
+            24,
+            28,
+            29,
+            30,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 132,
+          "orientation_count_histogram": {
+            "0": 66
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                0
+              ],
+              [
+                11
+              ],
+              [
+                15
+              ],
+              [
+                17
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                24
+              ],
+              [
+                28
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            10,
+            13,
+            15,
+            17,
+            26,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              34
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              9,
+              32
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            13,
+            15,
+            22,
+            29,
+            32,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 1,
+          "allowed_orientation_count": 1,
+          "rejected_orientation_count": 127,
+          "orientation_count_histogram": {
+            "0": 63,
+            "1": 1
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                7
+              ],
+              [
+                9
+              ],
+              [
+                13
+              ],
+              [
+                15
+              ],
+              [
+                22
+              ],
+              [
+                29
+              ],
+              [
+                32
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            10,
+            13,
+            15,
+            22,
+            26,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              34
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            7,
+            8,
+            11,
+            13,
+            15,
+            22,
+            23,
+            29,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 1,
+          "allowed_orientation_count": 1,
+          "rejected_orientation_count": 129,
+          "orientation_count_histogram": {
+            "0": 64,
+            "1": 1
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                7
+              ],
+              [
+                11
+              ],
+              [
+                13
+              ],
+              [
+                15
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            10,
+            13,
+            16,
+            20,
+            26,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              34
+            ],
+            [
+              8,
+              25
+            ],
+            [
+              10,
+              24
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            7,
+            8,
+            10,
+            15,
+            22,
+            24,
+            25,
+            29,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 63,
+          "allowed_edge_count": 1,
+          "allowed_orientation_count": 1,
+          "rejected_orientation_count": 125,
+          "orientation_count_histogram": {
+            "0": 62,
+            "1": 1
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                7
+              ],
+              [
+                10
+              ],
+              [
+                15
+              ],
+              [
+                22
+              ],
+              [
+                24
+              ],
+              [
+                25
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            10,
+            13,
+            16,
+            26,
+            29,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              34
+            ],
+            [
+              8,
+              25
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            7,
+            8,
+            15,
+            17,
+            22,
+            25,
+            28,
+            29,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 1,
+          "allowed_orientation_count": 1,
+          "rejected_orientation_count": 127,
+          "orientation_count_histogram": {
+            "0": 63,
+            "1": 1
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                7
+              ],
+              [
+                15
+              ],
+              [
+                17
+              ],
+              [
+                22
+              ],
+              [
+                25
+              ],
+              [
+                28
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            10,
+            13,
+            17,
+            20,
+            26,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              34
+            ],
+            [
+              9,
+              32
+            ],
+            [
+              10,
+              24
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            7,
+            9,
+            10,
+            15,
+            22,
+            24,
+            29,
+            32,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 62,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 124,
+          "orientation_count_histogram": {
+            "0": 62
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                7
+              ],
+              [
+                9
+              ],
+              [
+                10
+              ],
+              [
+                15
+              ],
+              [
+                22
+              ],
+              [
+                24
+              ],
+              [
+                29
+              ],
+              [
+                32
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            10,
+            13,
+            17,
+            26,
+            29,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              34
+            ],
+            [
+              9,
+              32
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            7,
+            9,
+            15,
+            17,
+            22,
+            28,
+            29,
+            32,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 63,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 126,
+          "orientation_count_histogram": {
+            "0": 63
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                7
+              ],
+              [
+                9
+              ],
+              [
+                15
+              ],
+              [
+                17
+              ],
+              [
+                22
+              ],
+              [
+                28
+              ],
+              [
+                29
+              ],
+              [
+                32
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            10,
+            13,
+            20,
+            22,
+            26,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              34
+            ],
+            [
+              10,
+              24
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            7,
+            10,
+            11,
+            15,
+            22,
+            23,
+            24,
+            29,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 63,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 126,
+          "orientation_count_histogram": {
+            "0": 63
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                7
+              ],
+              [
+                10
+              ],
+              [
+                11
+              ],
+              [
+                15
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                24
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            10,
+            13,
+            22,
+            26,
+            29,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              34
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            7,
+            11,
+            15,
+            17,
+            22,
+            23,
+            28,
+            29,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 128,
+          "orientation_count_histogram": {
+            "0": 64
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                7
+              ],
+              [
+                11
+              ],
+              [
+                15
+              ],
+              [
+                17
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                28
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            10,
+            15,
+            22,
+            26,
+            28,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              17,
+              18
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            7,
+            8,
+            11,
+            13,
+            15,
+            17,
+            18,
+            22,
+            23,
+            29,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 128,
+          "orientation_count_histogram": {
+            "0": 64
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                7
+              ],
+              [
+                8
+              ],
+              [
+                11
+              ],
+              [
+                13
+              ],
+              [
+                15
+              ],
+              [
+                17
+              ],
+              [
+                18
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                29
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            10,
+            20,
+            22,
+            26,
+            28,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              7
+            ],
+            [
+              10,
+              24
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              17,
+              18
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            7,
+            10,
+            11,
+            15,
+            17,
+            18,
+            22,
+            23,
+            24,
+            29,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 63,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 126,
+          "orientation_count_histogram": {
+            "0": 63
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                7
+              ],
+              [
+                10
+              ],
+              [
+                11
+              ],
+              [
+                15
+              ],
+              [
+                17
+              ],
+              [
+                18
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                24
+              ],
+              [
+                29
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            15,
+            17,
+            26,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              9,
+              32
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            8,
+            9,
+            13,
+            15,
+            21,
+            22,
+            29,
+            32,
+            33,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 128,
+          "orientation_count_histogram": {
+            "0": 64
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                8
+              ],
+              [
+                9
+              ],
+              [
+                13
+              ],
+              [
+                15
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                29
+              ],
+              [
+                32
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            15,
+            17,
+            27,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              9,
+              32
+            ],
+            [
+              16,
+              30
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            8,
+            9,
+            13,
+            16,
+            21,
+            29,
+            30,
+            32,
+            33,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 63,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 126,
+          "orientation_count_histogram": {
+            "0": 63
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                8
+              ],
+              [
+                9
+              ],
+              [
+                13
+              ],
+              [
+                16
+              ],
+              [
+                21
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                32
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            15,
+            22,
+            26,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            8,
+            11,
+            13,
+            15,
+            21,
+            22,
+            23,
+            29,
+            33,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 132,
+          "orientation_count_histogram": {
+            "0": 66
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                8
+              ],
+              [
+                11
+              ],
+              [
+                13
+              ],
+              [
+                15
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                29
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            15,
+            22,
+            27,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              16,
+              30
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            8,
+            11,
+            13,
+            16,
+            21,
+            23,
+            29,
+            30,
+            33,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 65
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                8
+              ],
+              [
+                11
+              ],
+              [
+                13
+              ],
+              [
+                16
+              ],
+              [
+                21
+              ],
+              [
+                23
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            16,
+            20,
+            26,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              8,
+              25
+            ],
+            [
+              10,
+              24
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            8,
+            10,
+            15,
+            21,
+            22,
+            24,
+            25,
+            29,
+            33,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 128,
+          "orientation_count_histogram": {
+            "0": 64
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                8
+              ],
+              [
+                10
+              ],
+              [
+                15
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                24
+              ],
+              [
+                25
+              ],
+              [
+                29
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            16,
+            20,
+            27,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              8,
+              25
+            ],
+            [
+              10,
+              24
+            ],
+            [
+              16,
+              30
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            8,
+            10,
+            16,
+            21,
+            24,
+            25,
+            29,
+            30,
+            33,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 65
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                8
+              ],
+              [
+                10
+              ],
+              [
+                16
+              ],
+              [
+                21
+              ],
+              [
+                24
+              ],
+              [
+                25
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            16,
+            26,
+            29,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              8,
+              25
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            8,
+            15,
+            17,
+            21,
+            22,
+            25,
+            28,
+            29,
+            33,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 132,
+          "orientation_count_histogram": {
+            "0": 66
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                8
+              ],
+              [
+                15
+              ],
+              [
+                17
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                25
+              ],
+              [
+                28
+              ],
+              [
+                29
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            16,
+            27,
+            29,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              8,
+              25
+            ],
+            [
+              16,
+              30
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            8,
+            16,
+            17,
+            21,
+            25,
+            28,
+            29,
+            30,
+            33,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 132,
+          "orientation_count_histogram": {
+            "0": 66
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                8
+              ],
+              [
+                16
+              ],
+              [
+                17
+              ],
+              [
+                21
+              ],
+              [
+                25
+              ],
+              [
+                28
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            17,
+            20,
+            26,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              9,
+              32
+            ],
+            [
+              10,
+              24
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            9,
+            10,
+            15,
+            21,
+            22,
+            24,
+            29,
+            32,
+            33,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 62,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 124,
+          "orientation_count_histogram": {
+            "0": 62
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                9
+              ],
+              [
+                10
+              ],
+              [
+                15
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                24
+              ],
+              [
+                29
+              ],
+              [
+                32
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            17,
+            20,
+            27,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              9,
+              32
+            ],
+            [
+              10,
+              24
+            ],
+            [
+              16,
+              30
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            9,
+            10,
+            16,
+            21,
+            24,
+            29,
+            30,
+            32,
+            33,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 63,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 126,
+          "orientation_count_histogram": {
+            "0": 63
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                9
+              ],
+              [
+                10
+              ],
+              [
+                16
+              ],
+              [
+                21
+              ],
+              [
+                24
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                32
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            17,
+            26,
+            29,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              9,
+              32
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            9,
+            15,
+            17,
+            21,
+            22,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 128,
+          "orientation_count_histogram": {
+            "0": 64
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                9
+              ],
+              [
+                15
+              ],
+              [
+                17
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                28
+              ],
+              [
+                29
+              ],
+              [
+                32
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            17,
+            27,
+            29,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              9,
+              32
+            ],
+            [
+              16,
+              30
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            9,
+            16,
+            17,
+            21,
+            28,
+            29,
+            30,
+            32,
+            33,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 128,
+          "orientation_count_histogram": {
+            "0": 64
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                9
+              ],
+              [
+                16
+              ],
+              [
+                17
+              ],
+              [
+                21
+              ],
+              [
+                28
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                32
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            20,
+            22,
+            26,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              10,
+              24
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            10,
+            11,
+            15,
+            21,
+            22,
+            23,
+            24,
+            29,
+            33,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 128,
+          "orientation_count_histogram": {
+            "0": 64
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                10
+              ],
+              [
+                11
+              ],
+              [
+                15
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                24
+              ],
+              [
+                29
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            20,
+            22,
+            27,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              10,
+              24
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              16,
+              30
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            10,
+            11,
+            16,
+            21,
+            23,
+            24,
+            29,
+            30,
+            33,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 65
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                10
+              ],
+              [
+                11
+              ],
+              [
+                16
+              ],
+              [
+                21
+              ],
+              [
+                23
+              ],
+              [
+                24
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            22,
+            26,
+            29,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            11,
+            15,
+            17,
+            21,
+            22,
+            23,
+            28,
+            29,
+            33,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 132,
+          "orientation_count_histogram": {
+            "0": 66
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                11
+              ],
+              [
+                15
+              ],
+              [
+                17
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                28
+              ],
+              [
+                29
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            22,
+            27,
+            29,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              16,
+              30
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            11,
+            16,
+            17,
+            21,
+            23,
+            28,
+            29,
+            30,
+            33,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 132,
+          "orientation_count_histogram": {
+            "0": 66
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                11
+              ],
+              [
+                16
+              ],
+              [
+                17
+              ],
+              [
+                21
+              ],
+              [
+                23
+              ],
+              [
+                28
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            15,
+            22,
+            26,
+            28,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              17,
+              18
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            8,
+            11,
+            13,
+            15,
+            17,
+            18,
+            21,
+            22,
+            23,
+            29,
+            33,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 65
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                8
+              ],
+              [
+                11
+              ],
+              [
+                13
+              ],
+              [
+                15
+              ],
+              [
+                17
+              ],
+              [
+                18
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                29
+              ],
+              [
+                33
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            15,
+            22,
+            26,
+            28,
+            33,
+            36
+          ],
+          "removed_edges": [
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              17,
+              18
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            8,
+            11,
+            13,
+            15,
+            17,
+            18,
+            22,
+            23,
+            24,
+            29,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 65
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                8
+              ],
+              [
+                11
+              ],
+              [
+                13
+              ],
+              [
+                15
+              ],
+              [
+                17
+              ],
+              [
+                18
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                24
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            15,
+            22,
+            27,
+            28,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              8,
+              13
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              16,
+              30
+            ],
+            [
+              17,
+              18
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            8,
+            11,
+            13,
+            16,
+            17,
+            18,
+            21,
+            23,
+            29,
+            30,
+            33,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 128,
+          "orientation_count_histogram": {
+            "0": 64
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                8
+              ],
+              [
+                11
+              ],
+              [
+                13
+              ],
+              [
+                16
+              ],
+              [
+                17
+              ],
+              [
+                18
+              ],
+              [
+                21
+              ],
+              [
+                23
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                33
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            20,
+            22,
+            26,
+            28,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              10,
+              24
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              15,
+              22
+            ],
+            [
+              17,
+              18
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            10,
+            11,
+            15,
+            17,
+            18,
+            21,
+            22,
+            23,
+            24,
+            29,
+            33,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 128,
+          "orientation_count_histogram": {
+            "0": 64
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                10
+              ],
+              [
+                11
+              ],
+              [
+                15
+              ],
+              [
+                17
+              ],
+              [
+                18
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                24
+              ],
+              [
+                29
+              ],
+              [
+                33
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            20,
+            22,
+            27,
+            28,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              10,
+              24
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              16,
+              30
+            ],
+            [
+              17,
+              18
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            10,
+            11,
+            16,
+            17,
+            18,
+            21,
+            23,
+            24,
+            29,
+            30,
+            33,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 65
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                10
+              ],
+              [
+                11
+              ],
+              [
+                16
+              ],
+              [
+                17
+              ],
+              [
+                18
+              ],
+              [
+                21
+              ],
+              [
+                23
+              ],
+              [
+                24
+              ],
+              [
+                29
+              ],
+              [
+                30
+              ],
+              [
+                33
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        }
+      ]
+    },
+    {
+      "base": "v40_02",
+      "minimum_independent_hitting_size": 6,
+      "deletion_set_count": 9,
+      "stage_feasible_counts": {
+        "F0_shadow_factor": 0,
+        "F1_pairwise_oriented_factor": 0,
+        "F2_exact_completion": 0
+      },
+      "records": [
+        {
+          "removed_indices": [
+            0,
+            2,
+            11,
+            22,
+            29,
+            32
+          ],
+          "removed_edges": [
+            [
+              0,
+              30
+            ],
+            [
+              1,
+              19
+            ],
+            [
+              5,
+              22
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              21,
+              33
+            ]
+          ],
+          "affected_vertices": [
+            0,
+            1,
+            5,
+            11,
+            17,
+            19,
+            21,
+            22,
+            23,
+            28,
+            30,
+            33
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 65
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                0
+              ],
+              [
+                1
+              ],
+              [
+                5
+              ],
+              [
+                11
+              ],
+              [
+                17
+              ],
+              [
+                19
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                28
+              ],
+              [
+                30
+              ],
+              [
+                33
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            0,
+            2,
+            11,
+            22,
+            29,
+            33
+          ],
+          "removed_edges": [
+            [
+              0,
+              30
+            ],
+            [
+              1,
+              19
+            ],
+            [
+              5,
+              22
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              24,
+              34
+            ]
+          ],
+          "affected_vertices": [
+            0,
+            1,
+            5,
+            11,
+            17,
+            19,
+            22,
+            23,
+            24,
+            28,
+            30,
+            34
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 132,
+          "orientation_count_histogram": {
+            "0": 66
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                0
+              ],
+              [
+                1
+              ],
+              [
+                5
+              ],
+              [
+                11
+              ],
+              [
+                17
+              ],
+              [
+                19
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                24
+              ],
+              [
+                28
+              ],
+              [
+                30
+              ],
+              [
+                34
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            2,
+            11,
+            13,
+            16,
+            29,
+            32
+          ],
+          "removed_edges": [
+            [
+              1,
+              19
+            ],
+            [
+              5,
+              22
+            ],
+            [
+              6,
+              34
+            ],
+            [
+              8,
+              25
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              21,
+              33
+            ]
+          ],
+          "affected_vertices": [
+            1,
+            5,
+            6,
+            8,
+            17,
+            19,
+            21,
+            22,
+            25,
+            28,
+            33,
+            34
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 1,
+          "allowed_orientation_count": 1,
+          "rejected_orientation_count": 131,
+          "orientation_count_histogram": {
+            "0": 65,
+            "1": 1
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                17
+              ],
+              [
+                19
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                25
+              ],
+              [
+                28
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            2,
+            11,
+            13,
+            17,
+            29,
+            32
+          ],
+          "removed_edges": [
+            [
+              1,
+              19
+            ],
+            [
+              5,
+              22
+            ],
+            [
+              6,
+              34
+            ],
+            [
+              9,
+              32
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              21,
+              33
+            ]
+          ],
+          "affected_vertices": [
+            1,
+            5,
+            6,
+            9,
+            17,
+            19,
+            21,
+            22,
+            28,
+            32,
+            33,
+            34
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 65
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                1
+              ],
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                9
+              ],
+              [
+                17
+              ],
+              [
+                19
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                28
+              ],
+              [
+                32
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            2,
+            11,
+            13,
+            22,
+            29,
+            32
+          ],
+          "removed_edges": [
+            [
+              1,
+              19
+            ],
+            [
+              5,
+              22
+            ],
+            [
+              6,
+              34
+            ],
+            [
+              11,
+              23
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              21,
+              33
+            ]
+          ],
+          "affected_vertices": [
+            1,
+            5,
+            6,
+            11,
+            17,
+            19,
+            21,
+            22,
+            23,
+            28,
+            33,
+            34
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 132,
+          "orientation_count_histogram": {
+            "0": 66
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                1
+              ],
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                11
+              ],
+              [
+                17
+              ],
+              [
+                19
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                23
+              ],
+              [
+                28
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            10,
+            13,
+            17,
+            23,
+            29,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              34
+            ],
+            [
+              9,
+              32
+            ],
+            [
+              12,
+              36
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            7,
+            9,
+            12,
+            17,
+            28,
+            29,
+            32,
+            34,
+            35,
+            36
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 1,
+          "allowed_orientation_count": 1,
+          "rejected_orientation_count": 127,
+          "orientation_count_histogram": {
+            "0": 63,
+            "1": 1
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                12
+              ],
+              [
+                17
+              ],
+              [
+                28
+              ],
+              [
+                29
+              ],
+              [
+                32
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            13,
+            17,
+            23,
+            29,
+            32
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              6,
+              34
+            ],
+            [
+              9,
+              32
+            ],
+            [
+              12,
+              36
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              21,
+              33
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            9,
+            12,
+            17,
+            21,
+            22,
+            28,
+            32,
+            33,
+            34,
+            36
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 65
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                9
+              ],
+              [
+                12
+              ],
+              [
+                17
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                28
+              ],
+              [
+                32
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            13,
+            17,
+            29,
+            32,
+            34
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              6,
+              34
+            ],
+            [
+              9,
+              32
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            9,
+            17,
+            21,
+            22,
+            25,
+            26,
+            28,
+            32,
+            33,
+            34
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 65
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                9
+              ],
+              [
+                17
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                25
+              ],
+              [
+                26
+              ],
+              [
+                28
+              ],
+              [
+                32
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            13,
+            17,
+            23,
+            29,
+            32,
+            36
+          ],
+          "removed_edges": [
+            [
+              6,
+              34
+            ],
+            [
+              9,
+              32
+            ],
+            [
+              12,
+              36
+            ],
+            [
+              17,
+              28
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            9,
+            12,
+            17,
+            21,
+            28,
+            29,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 128,
+          "orientation_count_histogram": {
+            "0": 64
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                9
+              ],
+              [
+                12
+              ],
+              [
+                17
+              ],
+              [
+                21
+              ],
+              [
+                28
+              ],
+              [
+                29
+              ],
+              [
+                32
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        }
+      ]
+    },
+    {
+      "base": "v40_03",
+      "minimum_independent_hitting_size": 6,
+      "deletion_set_count": 21,
+      "stage_feasible_counts": {
+        "F0_shadow_factor": 0,
+        "F1_pairwise_oriented_factor": 0,
+        "F2_exact_completion": 0
+      },
+      "records": [
+        {
+          "removed_indices": [
+            2,
+            12,
+            21,
+            26,
+            27,
+            34
+          ],
+          "removed_edges": [
+            [
+              1,
+              19
+            ],
+            [
+              6,
+              17
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              15,
+              34
+            ],
+            [
+              16,
+              28
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "affected_vertices": [
+            1,
+            6,
+            11,
+            13,
+            15,
+            16,
+            17,
+            19,
+            25,
+            26,
+            28,
+            34
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 1,
+          "allowed_orientation_count": 1,
+          "rejected_orientation_count": 131,
+          "orientation_count_histogram": {
+            "0": 65,
+            "1": 1
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                1
+              ],
+              [
+                6
+              ],
+              [
+                11
+              ],
+              [
+                15
+              ],
+              [
+                16
+              ],
+              [
+                17
+              ],
+              [
+                19
+              ],
+              [
+                25
+              ],
+              [
+                28
+              ],
+              [
+                34
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            9,
+            12,
+            21,
+            26,
+            34,
+            35
+          ],
+          "removed_edges": [
+            [
+              4,
+              19
+            ],
+            [
+              6,
+              17
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              15,
+              34
+            ],
+            [
+              25,
+              26
+            ],
+            [
+              27,
+              36
+            ]
+          ],
+          "affected_vertices": [
+            4,
+            6,
+            11,
+            13,
+            15,
+            17,
+            19,
+            25,
+            26,
+            27,
+            34,
+            36
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 1,
+          "allowed_orientation_count": 1,
+          "rejected_orientation_count": 131,
+          "orientation_count_histogram": {
+            "0": 65,
+            "1": 1
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                11
+              ],
+              [
+                13
+              ],
+              [
+                17
+              ],
+              [
+                19
+              ],
+              [
+                25
+              ],
+              [
+                26
+              ],
+              [
+                27
+              ],
+              [
+                34
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            12,
+            16,
+            25,
+            33,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              6,
+              17
+            ],
+            [
+              8,
+              25
+            ],
+            [
+              14,
+              27
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            8,
+            14,
+            17,
+            22,
+            24,
+            25,
+            27,
+            29,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 1,
+          "allowed_orientation_count": 1,
+          "rejected_orientation_count": 129,
+          "orientation_count_histogram": {
+            "0": 64,
+            "1": 1
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                17
+              ],
+              [
+                22
+              ],
+              [
+                24
+              ],
+              [
+                25
+              ],
+              [
+                27
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            12,
+            16,
+            30,
+            33,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              6,
+              17
+            ],
+            [
+              8,
+              25
+            ],
+            [
+              20,
+              26
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            8,
+            17,
+            20,
+            22,
+            24,
+            25,
+            26,
+            29,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 65
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                8
+              ],
+              [
+                17
+              ],
+              [
+                20
+              ],
+              [
+                22
+              ],
+              [
+                24
+              ],
+              [
+                25
+              ],
+              [
+                26
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            12,
+            21,
+            26,
+            27,
+            34
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              6,
+              17
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              15,
+              34
+            ],
+            [
+              16,
+              28
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            11,
+            13,
+            15,
+            16,
+            17,
+            22,
+            25,
+            26,
+            28,
+            34
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 1,
+          "allowed_orientation_count": 1,
+          "rejected_orientation_count": 131,
+          "orientation_count_histogram": {
+            "0": 65,
+            "1": 1
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                11
+              ],
+              [
+                15
+              ],
+              [
+                16
+              ],
+              [
+                17
+              ],
+              [
+                22
+              ],
+              [
+                25
+              ],
+              [
+                28
+              ],
+              [
+                34
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            12,
+            23,
+            25,
+            33,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              6,
+              17
+            ],
+            [
+              12,
+              36
+            ],
+            [
+              14,
+              27
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            12,
+            14,
+            17,
+            22,
+            24,
+            27,
+            29,
+            34,
+            35,
+            36
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 1,
+          "allowed_orientation_count": 1,
+          "rejected_orientation_count": 127,
+          "orientation_count_histogram": {
+            "0": 63,
+            "1": 1
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                12
+              ],
+              [
+                14
+              ],
+              [
+                17
+              ],
+              [
+                24
+              ],
+              [
+                27
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            12,
+            23,
+            30,
+            33,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              6,
+              17
+            ],
+            [
+              12,
+              36
+            ],
+            [
+              20,
+              26
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            12,
+            17,
+            20,
+            22,
+            24,
+            26,
+            29,
+            34,
+            35,
+            36
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 2,
+          "allowed_orientation_count": 2,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 64,
+            "1": 2
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5,
+                22,
+                35
+              ],
+              [
+                6
+              ],
+              [
+                12
+              ],
+              [
+                17
+              ],
+              [
+                20
+              ],
+              [
+                24
+              ],
+              [
+                26
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            12,
+            23,
+            33,
+            34,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              6,
+              17
+            ],
+            [
+              12,
+              36
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              25,
+              26
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            12,
+            17,
+            22,
+            24,
+            25,
+            26,
+            29,
+            34,
+            35,
+            36
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 1,
+          "allowed_orientation_count": 1,
+          "rejected_orientation_count": 131,
+          "orientation_count_histogram": {
+            "0": 65,
+            "1": 1
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                12
+              ],
+              [
+                17
+              ],
+              [
+                24
+              ],
+              [
+                25
+              ],
+              [
+                26
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            12,
+            26,
+            27,
+            32,
+            34
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              6,
+              17
+            ],
+            [
+              15,
+              34
+            ],
+            [
+              16,
+              28
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            6,
+            15,
+            16,
+            17,
+            21,
+            22,
+            25,
+            26,
+            28,
+            33,
+            34
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 132,
+          "orientation_count_histogram": {
+            "0": 66
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                6
+              ],
+              [
+                15
+              ],
+              [
+                16
+              ],
+              [
+                17
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                25
+              ],
+              [
+                26
+              ],
+              [
+                28
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            16,
+            19,
+            25,
+            33,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              8,
+              25
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              14,
+              27
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            8,
+            10,
+            14,
+            15,
+            22,
+            24,
+            25,
+            27,
+            29,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 63,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 126,
+          "orientation_count_histogram": {
+            "0": 63
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                8
+              ],
+              [
+                10
+              ],
+              [
+                14
+              ],
+              [
+                15
+              ],
+              [
+                22
+              ],
+              [
+                24
+              ],
+              [
+                25
+              ],
+              [
+                27
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            16,
+            19,
+            30,
+            33,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              8,
+              25
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              20,
+              26
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            8,
+            10,
+            15,
+            20,
+            22,
+            24,
+            25,
+            26,
+            29,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 63,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 126,
+          "orientation_count_histogram": {
+            "0": 63
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                8
+              ],
+              [
+                10
+              ],
+              [
+                15
+              ],
+              [
+                20
+              ],
+              [
+                22
+              ],
+              [
+                24
+              ],
+              [
+                25
+              ],
+              [
+                26
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            16,
+            22,
+            25,
+            33,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              8,
+              25
+            ],
+            [
+              11,
+              18
+            ],
+            [
+              14,
+              27
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            8,
+            11,
+            14,
+            18,
+            22,
+            24,
+            25,
+            27,
+            29,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 65
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                8
+              ],
+              [
+                11
+              ],
+              [
+                14
+              ],
+              [
+                18
+              ],
+              [
+                22
+              ],
+              [
+                24
+              ],
+              [
+                25
+              ],
+              [
+                27
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            16,
+            22,
+            30,
+            33,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              8,
+              25
+            ],
+            [
+              11,
+              18
+            ],
+            [
+              20,
+              26
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            8,
+            11,
+            18,
+            20,
+            22,
+            24,
+            25,
+            26,
+            29,
+            34,
+            35
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 65,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 130,
+          "orientation_count_histogram": {
+            "0": 65
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                8
+              ],
+              [
+                11
+              ],
+              [
+                18
+              ],
+              [
+                20
+              ],
+              [
+                22
+              ],
+              [
+                24
+              ],
+              [
+                25
+              ],
+              [
+                26
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            19,
+            23,
+            25,
+            33,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              12,
+              36
+            ],
+            [
+              14,
+              27
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            10,
+            12,
+            14,
+            15,
+            22,
+            24,
+            27,
+            29,
+            34,
+            35,
+            36
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 62,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 124,
+          "orientation_count_histogram": {
+            "0": 62
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                10
+              ],
+              [
+                12
+              ],
+              [
+                14
+              ],
+              [
+                15
+              ],
+              [
+                22
+              ],
+              [
+                24
+              ],
+              [
+                27
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            19,
+            23,
+            30,
+            33,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              12,
+              36
+            ],
+            [
+              20,
+              26
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            10,
+            12,
+            15,
+            20,
+            22,
+            24,
+            26,
+            29,
+            34,
+            35,
+            36
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 1,
+          "allowed_orientation_count": 1,
+          "rejected_orientation_count": 127,
+          "orientation_count_histogram": {
+            "0": 63,
+            "1": 1
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                10
+              ],
+              [
+                12
+              ],
+              [
+                15
+              ],
+              [
+                20
+              ],
+              [
+                24
+              ],
+              [
+                26
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            19,
+            23,
+            33,
+            34,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              12,
+              36
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              25,
+              26
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            10,
+            12,
+            15,
+            22,
+            24,
+            25,
+            26,
+            29,
+            34,
+            35,
+            36
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 128,
+          "orientation_count_histogram": {
+            "0": 64
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                10
+              ],
+              [
+                12
+              ],
+              [
+                15
+              ],
+              [
+                22
+              ],
+              [
+                24
+              ],
+              [
+                25
+              ],
+              [
+                26
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            22,
+            23,
+            25,
+            33,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              11,
+              18
+            ],
+            [
+              12,
+              36
+            ],
+            [
+              14,
+              27
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            11,
+            12,
+            14,
+            18,
+            22,
+            24,
+            27,
+            29,
+            34,
+            35,
+            36
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 64,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 128,
+          "orientation_count_histogram": {
+            "0": 64
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                11
+              ],
+              [
+                12
+              ],
+              [
+                14
+              ],
+              [
+                18
+              ],
+              [
+                22
+              ],
+              [
+                24
+              ],
+              [
+                27
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            22,
+            23,
+            30,
+            33,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              11,
+              18
+            ],
+            [
+              12,
+              36
+            ],
+            [
+              20,
+              26
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            11,
+            12,
+            18,
+            20,
+            22,
+            24,
+            26,
+            29,
+            34,
+            35,
+            36
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 1,
+          "allowed_orientation_count": 1,
+          "rejected_orientation_count": 131,
+          "orientation_count_histogram": {
+            "0": 65,
+            "1": 1
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                11
+              ],
+              [
+                12
+              ],
+              [
+                18
+              ],
+              [
+                20
+              ],
+              [
+                24
+              ],
+              [
+                26
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            22,
+            23,
+            33,
+            34,
+            36
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              11,
+              18
+            ],
+            [
+              12,
+              36
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              25,
+              26
+            ],
+            [
+              29,
+              35
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            11,
+            12,
+            18,
+            22,
+            24,
+            25,
+            26,
+            29,
+            34,
+            35,
+            36
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 1,
+          "allowed_orientation_count": 1,
+          "rejected_orientation_count": 131,
+          "orientation_count_histogram": {
+            "0": 65,
+            "1": 1
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                12
+              ],
+              [
+                18
+              ],
+              [
+                22
+              ],
+              [
+                24
+              ],
+              [
+                25
+              ],
+              [
+                26
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                35
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            11,
+            22,
+            26,
+            27,
+            32,
+            34
+          ],
+          "removed_edges": [
+            [
+              5,
+              22
+            ],
+            [
+              11,
+              18
+            ],
+            [
+              15,
+              34
+            ],
+            [
+              16,
+              28
+            ],
+            [
+              21,
+              33
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "affected_vertices": [
+            5,
+            11,
+            15,
+            16,
+            18,
+            21,
+            22,
+            25,
+            26,
+            28,
+            33,
+            34
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 132,
+          "orientation_count_histogram": {
+            "0": 66
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                5
+              ],
+              [
+                11
+              ],
+              [
+                15
+              ],
+              [
+                16
+              ],
+              [
+                18
+              ],
+              [
+                21
+              ],
+              [
+                22
+              ],
+              [
+                25
+              ],
+              [
+                26
+              ],
+              [
+                28
+              ],
+              [
+                33
+              ],
+              [
+                34
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            12,
+            21,
+            26,
+            27,
+            34,
+            35
+          ],
+          "removed_edges": [
+            [
+              6,
+              17
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              15,
+              34
+            ],
+            [
+              16,
+              28
+            ],
+            [
+              25,
+              26
+            ],
+            [
+              27,
+              36
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            11,
+            13,
+            15,
+            16,
+            17,
+            25,
+            26,
+            27,
+            28,
+            34,
+            36
+          ],
+          "retained_point_count": 124,
+          "candidate_edge_count": 66,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 132,
+          "orientation_count_histogram": {
+            "0": 66
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                11
+              ],
+              [
+                13
+              ],
+              [
+                15
+              ],
+              [
+                16
+              ],
+              [
+                17
+              ],
+              [
+                25
+              ],
+              [
+                26
+              ],
+              [
+                27
+              ],
+              [
+                28
+              ],
+              [
+                34
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 12,
+            "deficiency": 12
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        }
+      ]
+    },
+    {
+      "base": "v40_04",
+      "minimum_independent_hitting_size": 5,
+      "deletion_set_count": 3,
+      "stage_feasible_counts": {
+        "F0_shadow_factor": 0,
+        "F1_pairwise_oriented_factor": 0,
+        "F2_exact_completion": 0
+      },
+      "records": [
+        {
+          "removed_indices": [
+            12,
+            23,
+            25,
+            34,
+            35
+          ],
+          "removed_edges": [
+            [
+              6,
+              17
+            ],
+            [
+              12,
+              36
+            ],
+            [
+              14,
+              27
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              26,
+              29
+            ]
+          ],
+          "affected_vertices": [
+            6,
+            12,
+            14,
+            17,
+            24,
+            26,
+            27,
+            29,
+            34,
+            36
+          ],
+          "retained_point_count": 128,
+          "candidate_edge_count": 45,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 90,
+          "orientation_count_histogram": {
+            "0": 45
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                6
+              ],
+              [
+                12
+              ],
+              [
+                14
+              ],
+              [
+                17
+              ],
+              [
+                24
+              ],
+              [
+                26
+              ],
+              [
+                27
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            19,
+            23,
+            25,
+            34,
+            35
+          ],
+          "removed_edges": [
+            [
+              10,
+              15
+            ],
+            [
+              12,
+              36
+            ],
+            [
+              14,
+              27
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              26,
+              29
+            ]
+          ],
+          "affected_vertices": [
+            10,
+            12,
+            14,
+            15,
+            24,
+            26,
+            27,
+            29,
+            34,
+            36
+          ],
+          "retained_point_count": 128,
+          "candidate_edge_count": 43,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 86,
+          "orientation_count_histogram": {
+            "0": 43
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                10
+              ],
+              [
+                12
+              ],
+              [
+                14
+              ],
+              [
+                15
+              ],
+              [
+                24
+              ],
+              [
+                26
+              ],
+              [
+                27
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        },
+        {
+          "removed_indices": [
+            22,
+            23,
+            25,
+            34,
+            35
+          ],
+          "removed_edges": [
+            [
+              11,
+              18
+            ],
+            [
+              12,
+              36
+            ],
+            [
+              14,
+              27
+            ],
+            [
+              24,
+              34
+            ],
+            [
+              26,
+              29
+            ]
+          ],
+          "affected_vertices": [
+            11,
+            12,
+            14,
+            18,
+            24,
+            26,
+            27,
+            29,
+            34,
+            36
+          ],
+          "retained_point_count": 128,
+          "candidate_edge_count": 45,
+          "allowed_edge_count": 0,
+          "allowed_orientation_count": 0,
+          "rejected_orientation_count": 90,
+          "orientation_count_histogram": {
+            "0": 45
+          },
+          "F0_shadow_factor": false,
+          "F0_matching": null,
+          "F0_tutte_witness": {
+            "X": [],
+            "odd_components": [
+              [
+                11
+              ],
+              [
+                12
+              ],
+              [
+                14
+              ],
+              [
+                18
+              ],
+              [
+                24
+              ],
+              [
+                26
+              ],
+              [
+                27
+              ],
+              [
+                29
+              ],
+              [
+                34
+              ],
+              [
+                36
+              ]
+            ],
+            "odd_component_count": 10,
+            "deficiency": 10
+          },
+          "F1_pairwise_oriented_factor": false,
+          "F1_cells": null,
+          "F1_nodes": 0,
+          "F2_exact_completion": false,
+          "F2_cells": null,
+          "F2_nodes": 0
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "deletion_set_count": 72,
+    "stage_feasible_counts": {
+      "F0_shadow_factor": 0,
+      "F1_pairwise_oriented_factor": 0,
+      "F2_exact_completion": 0
+    },
+    "elapsed_s": 5.527
+  }
+}

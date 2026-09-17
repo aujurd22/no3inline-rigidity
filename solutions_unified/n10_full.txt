@@ -1,0 +1,24 @@
+# solution 1
+# n=10 sym=full status=verified source=flammenkamp_cache/n10_full
+# code=*45271836090936182745
+0 4
+0 5
+1 2
+1 7
+2 1
+2 8
+3 3
+3 6
+4 0
+4 9
+5 0
+5 9
+6 3
+6 6
+7 1
+7 8
+8 2
+8 7
+9 4
+9 5
+

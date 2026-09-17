@@ -1,0 +1,120 @@
+{
+  "component_count": 3,
+  "enumeration_mode": "explicit_masks",
+  "target_selected": 12,
+  "line_capacity_count": 72,
+  "explicit_mask_count": 898,
+  "distinct_shape_masks": 898,
+  "defect_hitting_masks": 898,
+  "factor_feasible_masks": 18,
+  "all_factor_infeasible": false,
+  "total_factor_search_nodes": 3358,
+  "maximum_factor_search_nodes": 13,
+  "root_zero_option_by_deficit": {
+    "1": 0,
+    "2": 0
+  },
+  "search_node_histogram": {
+    "1": 1,
+    "2": 293,
+    "3": 226,
+    "4": 165,
+    "5": 75,
+    "6": 63,
+    "7+": 75
+  },
+  "sample_hitting_masks": [
+    203720590,
+    220497182,
+    671455542,
+    673548756,
+    673552724,
+    673677622,
+    673679700,
+    673681685,
+    673813270,
+    673814678
+  ],
+  "feasible_masks": [
+    740692359,
+    757891350,
+    2821423382,
+    2886042009,
+    2888176005,
+    3171422982,
+    4968452549,
+    4985585991,
+    4993974535,
+    7166100038,
+    7200047436,
+    9330364807,
+    9330889091,
+    9330889094,
+    9346224661,
+    9349632278,
+    24245174725,
+    127391563794
+  ],
+  "first_feasible_mask": 740692359,
+  "first_feasible_cells": [
+    [
+      11,
+      0
+    ],
+    [
+      16,
+      18
+    ],
+    [
+      19,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      17,
+      10
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      9,
+      33
+    ],
+    [
+      27,
+      24
+    ],
+    [
+      28,
+      3
+    ],
+    [
+      23,
+      0
+    ],
+    [
+      1,
+      36
+    ]
+  ],
+  "base": "v20_02",
+  "source_certificate": "v20_gpu_hybrid_q0_v20_02_k12.json",
+  "source_field": "feasible_masks",
+  "source_root_nonzero_by_adjacency": null,
+  "method": {
+    "name": "CUDA exhaustive fixed-weight mask scan and exact root-option filter, followed by C++ exact deficit f-factor DFS",
+    "k": 12,
+    "normalization": "all exact old-orientation reselections forbidden",
+    "line_capacities": "all primitive non-axis directions with q<=1"
+  },
+  "elapsed_s": 0.4997
+}

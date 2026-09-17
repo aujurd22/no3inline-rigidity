@@ -1,0 +1,66 @@
+{
+  "A_values": [
+    1
+  ],
+  "k": 11,
+  "q1_line_orbit_count": 72,
+  "q0_source_records": [
+    {
+      "certificate": "rot4_multigraph_factor_direct_v40_02_k11_a1_q0.json",
+      "base": "v40_02",
+      "A": 1,
+      "profile": null,
+      "q0_factor_feasible_masks": 2,
+      "recorded_mask_count": 2
+    }
+  ],
+  "unique_q0_exception_mask_count": 2,
+  "q1_status_histogram": {
+    "INFEASIBLE": 2
+  },
+  "all_q0_exceptions_q1_infeasible": true,
+  "records": [
+    {
+      "base": "v40_02",
+      "mask": 69321434128,
+      "removed_indices": [
+        4,
+        10,
+        13,
+        16,
+        21,
+        22,
+        23,
+        24,
+        25,
+        29,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0277,
+      "branches": 0,
+      "conflicts": 0
+    },
+    {
+      "base": "v40_02",
+      "mask": 69588747270,
+      "removed_indices": [
+        1,
+        2,
+        10,
+        20,
+        22,
+        23,
+        24,
+        25,
+        28,
+        29,
+        36
+      ],
+      "q1_status": "INFEASIBLE",
+      "wall_s": 0.0339,
+      "branches": 0,
+      "conflicts": 0
+    }
+  ]
+}

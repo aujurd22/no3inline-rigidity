@@ -1,0 +1,12 @@
+# solution 1
+# n=4 sym=ort1 status=verified source=flammenkamp_cache/n4_ort1
+# code=-02131302
+0 0
+0 2
+1 1
+1 3
+2 1
+2 3
+3 0
+3 2
+

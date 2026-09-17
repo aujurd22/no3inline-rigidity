@@ -1,0 +1,1957 @@
+[
+  {
+    "name": "joint_v14_1",
+    "edges": [
+      [
+        0,
+        36
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        34
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        22
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        18
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        17
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        11,
+        17
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        27
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        36
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        30
+      ]
+    ],
+    "unweighted_clauses": 436,
+    "unweighted_optimum": 14,
+    "input_orientation_bad_triples": 56,
+    "weighted_patterns": 436,
+    "weighted_pair_patterns": 0,
+    "pattern_multiplicity_histogram": {
+      "4": 436
+    },
+    "constant_pair_weight": 872,
+    "random_geometry_identity_checks": 100,
+    "weighted_exact": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 3.591,
+      "optimal": true,
+      "bits": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "violations": 56,
+      "pair_energy": -648,
+      "geometry": {
+        "point_count": 148,
+        "distinct_point_count": 148,
+        "bad_triples": 56,
+        "bad_line_count": 56,
+        "max_points_on_line": 3
+      }
+    }
+  },
+  {
+    "name": "joint_v14_2",
+    "edges": [
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        22
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        17
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        27
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "unweighted_clauses": 556,
+    "unweighted_optimum": 14,
+    "input_orientation_bad_triples": 56,
+    "weighted_patterns": 416,
+    "weighted_pair_patterns": 2,
+    "pattern_multiplicity_histogram": {
+      "4": 416
+    },
+    "constant_pair_weight": 840,
+    "random_geometry_identity_checks": 100,
+    "weighted_exact": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 38.786,
+      "optimal": true,
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "violations": 56,
+      "pair_energy": -616,
+      "geometry": {
+        "point_count": 148,
+        "distinct_point_count": 148,
+        "bad_triples": 56,
+        "bad_line_count": 56,
+        "max_points_on_line": 3
+      }
+    }
+  },
+  {
+    "name": "joint_v14_3",
+    "edges": [
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        17
+      ],
+      [
+        22,
+        28
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        27
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "unweighted_clauses": 590,
+    "unweighted_optimum": 14,
+    "input_orientation_bad_triples": 56,
+    "weighted_patterns": 450,
+    "weighted_pair_patterns": 2,
+    "pattern_multiplicity_histogram": {
+      "4": 450
+    },
+    "constant_pair_weight": 908,
+    "random_geometry_identity_checks": 100,
+    "weighted_exact": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 8.565,
+      "optimal": true,
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "violations": 56,
+      "pair_energy": -684,
+      "geometry": {
+        "point_count": 148,
+        "distinct_point_count": 148,
+        "bad_triples": 56,
+        "bad_line_count": 56,
+        "max_points_on_line": 3
+      }
+    }
+  },
+  {
+    "name": "joint_v14_4",
+    "edges": [
+      [
+        0,
+        36
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        34
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        22
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        18
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        17
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        11,
+        17
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        27
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        36
+      ],
+      [
+        15,
+        19
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        30
+      ]
+    ],
+    "unweighted_clauses": 426,
+    "unweighted_optimum": 14,
+    "input_orientation_bad_triples": 56,
+    "weighted_patterns": 426,
+    "weighted_pair_patterns": 0,
+    "pattern_multiplicity_histogram": {
+      "4": 426
+    },
+    "constant_pair_weight": 852,
+    "random_geometry_identity_checks": 100,
+    "weighted_exact": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 2.914,
+      "optimal": true,
+      "bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "violations": 56,
+      "pair_energy": -628,
+      "geometry": {
+        "point_count": 148,
+        "distinct_point_count": 148,
+        "bad_triples": 56,
+        "bad_line_count": 56,
+        "max_points_on_line": 3
+      }
+    }
+  },
+  {
+    "name": "joint_v14_5",
+    "edges": [
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        22
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        29
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        17
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        14,
+        27
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "unweighted_clauses": 684,
+    "unweighted_optimum": 14,
+    "input_orientation_bad_triples": 56,
+    "weighted_patterns": 404,
+    "weighted_pair_patterns": 4,
+    "pattern_multiplicity_histogram": {
+      "4": 402,
+      "8": 2
+    },
+    "constant_pair_weight": 828,
+    "random_geometry_identity_checks": 100,
+    "weighted_exact": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 58.58,
+      "optimal": true,
+      "bits": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "violations": 56,
+      "pair_energy": -604,
+      "geometry": {
+        "point_count": 148,
+        "distinct_point_count": 148,
+        "bad_triples": 56,
+        "bad_line_count": 56,
+        "max_points_on_line": 3
+      }
+    }
+  },
+  {
+    "name": "joint_v14_6",
+    "edges": [
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        28
+      ],
+      [
+        17,
+        22
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        27
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "unweighted_clauses": 564,
+    "unweighted_optimum": 14,
+    "input_orientation_bad_triples": 56,
+    "weighted_patterns": 424,
+    "weighted_pair_patterns": 2,
+    "pattern_multiplicity_histogram": {
+      "4": 424
+    },
+    "constant_pair_weight": 856,
+    "random_geometry_identity_checks": 100,
+    "weighted_exact": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 13.456,
+      "optimal": true,
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "violations": 56,
+      "pair_energy": -632,
+      "geometry": {
+        "point_count": 148,
+        "distinct_point_count": 148,
+        "bad_triples": 56,
+        "bad_line_count": 56,
+        "max_points_on_line": 3
+      }
+    }
+  },
+  {
+    "name": "joint_v14_7",
+    "edges": [
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        17
+      ],
+      [
+        22,
+        28
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        7,
+        27
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "unweighted_clauses": 584,
+    "unweighted_optimum": 14,
+    "input_orientation_bad_triples": 60,
+    "weighted_patterns": 444,
+    "weighted_pair_patterns": 2,
+    "pattern_multiplicity_histogram": {
+      "4": 442,
+      "8": 2
+    },
+    "constant_pair_weight": 900,
+    "random_geometry_identity_checks": 100,
+    "weighted_exact": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 14.708,
+      "optimal": true,
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "violations": 60,
+      "pair_energy": -660,
+      "geometry": {
+        "point_count": 148,
+        "distinct_point_count": 148,
+        "bad_triples": 60,
+        "bad_line_count": 60,
+        "max_points_on_line": 3
+      }
+    }
+  },
+  {
+    "name": "joint_v14_8",
+    "edges": [
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        17,
+        19
+      ],
+      [
+        22,
+        28
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        27
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "unweighted_clauses": 598,
+    "unweighted_optimum": 14,
+    "input_orientation_bad_triples": 56,
+    "weighted_patterns": 458,
+    "weighted_pair_patterns": 2,
+    "pattern_multiplicity_histogram": {
+      "4": 458
+    },
+    "constant_pair_weight": 924,
+    "random_geometry_identity_checks": 100,
+    "weighted_exact": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 6.43,
+      "optimal": true,
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "violations": 56,
+      "pair_energy": -700,
+      "geometry": {
+        "point_count": 148,
+        "distinct_point_count": 148,
+        "bad_triples": 56,
+        "bad_line_count": 56,
+        "max_points_on_line": 3
+      }
+    }
+  },
+  {
+    "name": "joint_v14_9",
+    "edges": [
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        1,
+        19
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        2,
+        20
+      ],
+      [
+        2,
+        23
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        19
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        6,
+        27
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        7,
+        17
+      ],
+      [
+        22,
+        28
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        25
+      ],
+      [
+        9,
+        32
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        22
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        32
+      ],
+      [
+        21,
+        33
+      ],
+      [
+        24,
+        34
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        27,
+        36
+      ]
+    ],
+    "unweighted_clauses": 756,
+    "unweighted_optimum": 14,
+    "input_orientation_bad_triples": 56,
+    "weighted_patterns": 476,
+    "weighted_pair_patterns": 4,
+    "pattern_multiplicity_histogram": {
+      "4": 476
+    },
+    "constant_pair_weight": 968,
+    "random_geometry_identity_checks": 100,
+    "weighted_exact": {
+      "available": true,
+      "status": "OPTIMAL",
+      "elapsed_s": 1.71,
+      "optimal": true,
+      "bits": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "violations": 56,
+      "pair_energy": -744,
+      "geometry": {
+        "point_count": 148,
+        "distinct_point_count": 148,
+        "bad_triples": 56,
+        "bad_line_count": 56,
+        "max_points_on_line": 3
+      }
+    }
+  }
+]

@@ -1,0 +1,70 @@
+==============================================================================
+DIRECTION 1 -- C4 EXISTENCE (SOUND).  Naive patterns debunked;
+searching for a true constructive family + random-2-factor evidence.
+==============================================================================
+   m    n |  full (1,m-1) | #skip-k ok | rand 100 ok
+------------------------------------------------------------------------------
+   3    6 |  True   False |          1 |  39/100
+   4    8 | False   False |          0 |   7/100
+   5   10 | False   False |          0 |   0/100
+   6   12 | False   False |          0 |   0/100
+   7   14 | False   False |          0 |   0/100
+   8   16 | False   False |          0 |   0/100
+   9   18 | False   False |          0 |   0/100
+  10   20 | False   False |          0 |   0/100
+  11   22 | False   False |          0 |   0/100
+  12   24 | False   False |          0 |   0/100
+  13   26 | False   False |          0 |   0/100
+  14   28 | False   False |          0 |   0/100
+  15   30 | False   False |          0 |   0/100
+  16   32 | False   False |          0 |   0/100
+  17   34 | False   False |          0 |   0/100
+  18   36 | False   False |          0 |   0/100
+  19   38 | False   False |          0 |   0/100
+  20   40 | False   False |          0 |   0/100
+  21   42 | False   False |          0 |   0/100
+  22   44 | False   False |          0 |   0/100
+  23   46 | False   False |          0 |   0/100
+  24   48 | False   False |          0 |   0/100
+  25   50 | False   False |          0 |   0/100
+  26   52 | False   False |          0 |   0/100
+  27   54 | False   False |          0 |   0/100
+  28   56 | False   False |          0 |   0/100
+  29   58 | False   False |          0 |   0/100
+  30   60 | False   False |          0 |   0/100
+  31   62 | False   False |          0 |   0/100
+  32   64 | False   False |          0 |   0/100
+  33   66 | False   False |          0 |   0/100
+  34   68 | False   False |          0 |   0/100
+  35   70 | False   False |          0 |   0/100
+  36   72 | False   False |          0 |   0/100
+  37   74 | False   False |          0 |   0/100
+  38   76 | False   False |          0 |   0/100
+  39   78 | False   False |          0 |   0/100
+  40   80 | False   False |          0 |   0/100
+  41   82 | False   False |          0 |   0/100
+  42   84 | False   False |          0 |   0/100
+  43   86 | False   False |          0 |   0/100
+  44   88 | False   False |          0 |   0/100
+  45   90 | False   False |          0 |   0/100
+  46   92 | False   False |          0 |   0/100
+  47   94 | False   False |          0 |   0/100
+  48   96 | False   False |          0 |   0/100
+  49   98 | False   False |          0 |   0/100
+  50  100 | False   False |          0 |   0/100
+  51  102 | False   False |          0 |   0/100
+  52  104 | False   False |          0 |   0/100
+  53  106 | False   False |          0 |   0/100
+  54  108 | False   False |          0 |   0/100
+  55  110 | False   False |          0 |   0/100
+  56  112 | False   False |          0 |   0/100
+  57  114 | False   False |          0 |   0/100
+  58  116 | False   False |          0 |   0/100
+  59  118 | False   False |          0 |   0/100
+  60  120 | False   False |          0 |   0/100
+------------------------------------------------------------------------------
+full m-cycle FAILS for all m>=4 : True
+(1,m-1)       FAILS for all m>=4 : False
+skip-k single cycles that work for EVERY tested m : []
+m with >=1 valid RANDOM 2-factor (evidence for existence) : 2/58  (m in [3, 4])
+==============================================================================

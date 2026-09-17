@@ -1,0 +1,9 @@
+{
+  "n_trials": 50000,
+  "total_valid_2factors": 50000,
+  "elapsed_seconds": 422.79640531539917,
+  "top_candidates": [],
+  "minimum_V": null,
+  "V20_baseline": 20,
+  "is_better_than_V20": null
+}

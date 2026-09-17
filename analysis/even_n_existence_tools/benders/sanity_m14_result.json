@@ -1,0 +1,11 @@
+{
+  "M": 14,
+  "N": 28,
+  "trials_run": 4000,
+  "verdicts": {
+    "unsat": 4000
+  },
+  "found_sat_solution": false,
+  "first_sat_solution_trial": null,
+  "elapsed_s": 271.4
+}

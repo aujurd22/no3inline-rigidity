@@ -1,0 +1,34 @@
+{"n": 6, "best": {"p": 3, "exact_orbits": 2, "exact_points": 8, "tail_probability": 1.0, "histogram": {"2": 5000}}, "bonferroni_bound": 1.0}
+{"n": 8, "best": {"p": 5, "exact_orbits": 1, "exact_points": 4, "tail_probability": 1.0, "histogram": {"1": 3309, "2": 1691}}, "bonferroni_bound": 1.0}
+{"n": 10, "best": {"p": 17, "exact_orbits": 2, "exact_points": 8, "tail_probability": 0.2712, "histogram": {"1": 3644, "2": 1356}}, "bonferroni_bound": 1.0}
+{"n": 12, "best": {"p": 19, "exact_orbits": 2, "exact_points": 8, "tail_probability": 0.4946, "histogram": {"1": 2527, "2": 2206, "3": 267}}, "bonferroni_bound": 1.0}
+{"n": 14, "best": {"p": 23, "exact_orbits": 2, "exact_points": 8, "tail_probability": 0.5076, "histogram": {"1": 2462, "2": 2538}}, "bonferroni_bound": 1.0}
+{"n": 16, "best": {"p": 29, "exact_orbits": 2, "exact_points": 8, "tail_probability": 0.4152, "histogram": {"1": 2924, "2": 2076}}, "bonferroni_bound": 1.0}
+{"n": 18, "best": {"p": 17, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.0664, "histogram": {"1": 616, "2": 4052, "3": 277, "4": 55}}, "bonferroni_bound": 0.4648}
+{"n": 20, "best": {"p": 13, "exact_orbits": 4, "exact_points": 16, "tail_probability": 0.0604, "histogram": {"1": 55, "2": 3123, "3": 1520, "4": 256, "5": 41, "6": 5}}, "bonferroni_bound": 0.4832}
+{"n": 22, "best": {"p": 29, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.0926, "histogram": {"1": 883, "2": 3654, "3": 439, "4": 24}}, "bonferroni_bound": 0.926}
+{"n": 24, "best": {"p": 31, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.1138, "histogram": {"1": 605, "2": 3826, "3": 554, "4": 15}}, "bonferroni_bound": 1.0}
+{"n": 26, "best": {"p": 47, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.0692, "histogram": {"1": 1115, "2": 3539, "3": 333, "4": 13}}, "bonferroni_bound": 0.692}
+{"n": 28, "best": {"p": 53, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.0662, "histogram": {"1": 1010, "2": 3659, "3": 324, "4": 7}}, "bonferroni_bound": 0.6619999999999999}
+{"n": 30, "best": {"p": 23, "exact_orbits": 4, "exact_points": 16, "tail_probability": 0.0424, "histogram": {"1": 20, "2": 2871, "3": 1897, "4": 199, "5": 12, "6": 1}}, "bonferroni_bound": 0.4664}
+{"n": 32, "best": {"p": 43, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.1692, "histogram": {"1": 278, "2": 3876, "3": 803, "4": 41, "5": 2}}, "bonferroni_bound": 1.0}
+{"n": 34, "best": {"p": 41, "exact_orbits": 4, "exact_points": 16, "tail_probability": 0.0146, "histogram": {"1": 154, "2": 3753, "3": 1020, "4": 70, "5": 3}}, "bonferroni_bound": 0.1898}
+{"n": 36, "best": {"p": 53, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.163, "histogram": {"1": 278, "2": 3907, "3": 772, "4": 43}}, "bonferroni_bound": 1.0}
+{"n": 38, "best": {"p": 67, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.1308, "histogram": {"1": 411, "2": 3935, "3": 620, "4": 33, "5": 1}}, "bonferroni_bound": 1.0}
+{"n": 40, "best": {"p": 47, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.2894, "histogram": {"1": 62, "2": 3491, "3": 1352, "4": 91, "5": 2, "6": 2}}, "bonferroni_bound": 1.0}
+{"n": 42, "best": {"p": 79, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.1274, "histogram": {"1": 337, "2": 4026, "3": 606, "4": 28, "5": 3}}, "bonferroni_bound": 1.0}
+{"n": 44, "best": {"p": 73, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.1728, "histogram": {"1": 197, "2": 3939, "3": 815, "4": 46, "5": 3}}, "bonferroni_bound": 1.0}
+{"n": 46, "best": {"p": 83, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.1544, "histogram": {"1": 238, "2": 3990, "3": 729, "4": 42, "6": 1}}, "bonferroni_bound": 1.0}
+{"n": 48, "best": {"p": 71, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.2376, "histogram": {"1": 69, "2": 3743, "3": 1124, "4": 61, "5": 3}}, "bonferroni_bound": 1.0}
+{"n": 50, "best": {"p": 97, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.1432, "histogram": {"1": 244, "2": 4040, "3": 681, "4": 33, "5": 2}}, "bonferroni_bound": 1.0}
+{"n": 52, "best": {"p": 83, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.223, "histogram": {"1": 82, "2": 3803, "3": 1063, "4": 50, "5": 2}}, "bonferroni_bound": 1.0}
+{"n": 54, "best": {"p": 107, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.1422, "histogram": {"1": 182, "2": 4107, "3": 682, "4": 29}}, "bonferroni_bound": 1.0}
+{"n": 56, "best": {"p": 59, "exact_orbits": 4, "exact_points": 16, "tail_probability": 0.0462, "histogram": {"1": 6, "2": 2669, "3": 2094, "4": 216, "5": 15}}, "bonferroni_bound": 0.9239999999999999}
+{"n": 58, "best": {"p": 41, "exact_orbits": 4, "exact_points": 16, "tail_probability": 0.1848, "histogram": {"2": 1060, "3": 3016, "4": 829, "5": 80, "6": 15}}, "bonferroni_bound": 1.0}
+{"n": 60, "best": {"p": 53, "exact_orbits": 5, "exact_points": 20, "tail_probability": 0.0078, "histogram": {"1": 1, "2": 1860, "3": 2648, "4": 452, "5": 33, "6": 6}}, "bonferroni_bound": 0.156}
+{"n": 62, "best": {"p": 37, "exact_orbits": 5, "exact_points": 20, "tail_probability": 0.0456, "histogram": {"2": 505, "3": 3109, "4": 1158, "5": 187, "6": 38, "7": 2, "8": 1}}, "bonferroni_bound": 0.912}
+{"n": 64, "best": {"p": 101, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.2868, "histogram": {"1": 22, "2": 3544, "3": 1335, "4": 96, "5": 3}}, "bonferroni_bound": 1.0}
+{"n": 66, "best": {"p": 61, "exact_orbits": 4, "exact_points": 16, "tail_probability": 0.0982, "histogram": {"2": 1742, "3": 2767, "4": 437, "5": 52, "6": 2}}, "bonferroni_bound": 1.0}
+{"n": 68, "best": {"p": 67, "exact_orbits": 4, "exact_points": 16, "tail_probability": 0.08, "histogram": {"1": 1, "2": 1968, "3": 2631, "4": 372, "5": 28}}, "bonferroni_bound": 1.0}
+{"n": 70, "best": {"p": 137, "exact_orbits": 3, "exact_points": 12, "tail_probability": 0.2258, "histogram": {"1": 63, "2": 3808, "3": 1078, "4": 51}}, "bonferroni_bound": 1.0}
+{"n": 72, "best": {"p": 43, "exact_orbits": 6, "exact_points": 24, "tail_probability": 0.0044, "histogram": {"2": 317, "3": 3084, "4": 1374, "5": 203, "6": 21, "7": 1}}, "bonferroni_bound": 0.10120000000000001}

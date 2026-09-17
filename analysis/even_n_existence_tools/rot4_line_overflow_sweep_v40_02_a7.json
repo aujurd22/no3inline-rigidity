@@ -1,0 +1,31 @@
+{
+  "parameters": {
+    "base": "v40_02",
+    "adjacencies": "7",
+    "size": 11,
+    "q_max": 4,
+    "time_limit": 1200.0,
+    "workers": 4,
+    "out": "rot4_line_overflow_sweep_v40_02_a7.json"
+  },
+  "started_at": "2026-07-19 16:20:37",
+  "layers": [
+    {
+      "adjacency_count": 7,
+      "attempts": [
+        {
+          "q": 1,
+          "status": "INFEASIBLE",
+          "objective": null,
+          "best_bound": 0.0,
+          "wall_s": 83.922,
+          "classification": "CLOSED_F0",
+          "evidence": "rot4_line_overflow_v40_02_a7_q1.json"
+        }
+      ],
+      "classification": "CLOSED_F0",
+      "closing_q": 1
+    }
+  ],
+  "finished_at": "2026-07-19 16:22:03"
+}
