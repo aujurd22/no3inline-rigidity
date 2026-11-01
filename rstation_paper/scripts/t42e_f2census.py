@@ -7,11 +7,11 @@ rep in row n-2-y  (det = 1 via ey=1).
 Census: per-solution count, certificate types by rep-pair difference vector,
 layer-1 coverage, adjacent-pair availability.
 """
-import sys, glob, os
+import sys, os, glob, os
 from collections import Counter
 from itertools import combinations
 
-LIB = r"D:\djr82\Documents\workbuddy\2026-07-03-16-29-36\no3inline-rigidity\solutions_unified"
+LIB = os.environ.get("NTIL_LIB", ".")
 
 def load_rot2(path, cap=None):
     sols = []

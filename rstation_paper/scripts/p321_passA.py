@@ -10,7 +10,7 @@ from math import gcd
 from collections import defaultdict, Counter
 import numpy as np
 
-DB = r"D:\djr82\Documents\workbuddy\night_research_20260904\outputs\T46_full_DB\all_known_solutions.txt"
+DB = sys.argv[1] if len(sys.argv) > 1 else "all_known_solutions.txt"
 ALPHABET = ("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
             "abcdefghijklmnopqrstuvwxyz#$%&@?!()[]<>{}=*+|-/~^_:;,.")
 SYM = {'.': 'iden', 'o': 'rot4', ':': 'rot2', 'c': 'rct4'}

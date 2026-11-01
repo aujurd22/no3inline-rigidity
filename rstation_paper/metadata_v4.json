@@ -1,0 +1,15 @@
+{
+ "problem_name": "no_three_in_line",
+ "statement_version": 2,
+ "title": "Certificate architecture for the confinement program and the isolation of no-three-collinearity in the no-three-in-line system",
+ "abstract": "The no-three-in-line problem on even orders splits by symmetry: a confined configuration (all representatives in rows of one parity) has a coarse shadow whose arithmetic conditions - regularity, cent-freeness, and avoidance of linear-family kills - can be studied independently of no-three-collinearity. We prove an isolation theorem: for every even m >= 6, an explicit two-diagonal family satisfies the entire arithmetic shadow, so no-three-collinearity is the only condition not captured by arithmetic avoidance. We further prove a correspondence theorem: the mixed collinear triples of any confined lift correspond bijectively to family kills of its coarse shadow, for every primitive normal at once, via a kernel-parallelism argument of three lines. Together these give a four-layer certificate architecture (capacity counting, line-pair certificates with retained solver statuses, row splitting, corner kernels with a 29-constraint irreducible kernel and a complete 37-case refutation) that decides the confinement question exactly for all coarse orders m = 5..11, with m = 12 partially decided (1,990/2,510 closed, 520 undetermined, zero survivors among the decided). Every structural claim is validated against the complete Flammenkamp database: all 431,017 configurations re-verified; census rigidity exact for 100% of 33,668 rot4 solutions; no F2-free configuration among 208,944 half-turn-class solutions; row confinement exactly at n = 4 and n = 8. All scripts, certificates and the database snapshot are at github.com/aujurd22/no3inline-rigidity.",
+ "tags": [
+  "no-three-in-line",
+  "combinatorial geometry",
+  "certificate architecture",
+  "correspondence theorem",
+  "residue-class obstruction"
+ ],
+ "previous_submission_id": "NegelyCI2BX6Lc8v",
+ "change_summary": "Corrected the sign of the normal in Proposition 4.1(3) ((alpha,beta) = +-(dy,dx)/g, both signs defining the same family) and replaced 'exactly one normal'. Repaired Proposition 4.2 by reducing non-primitive directions ((2,1) counterexample addressed; the capacity conclusion survives via the reduced normal). Made the supplement self-contained: per-order 4-tightness and census-rigidity tables, the m=5 irreducibility certificate with per-deletion solver statuses, the portable F2 census driver covering both classes, and the shared model-builder module. Added Appendix A (the 29-constraint kernel) and Appendix B (the 37-case corner refutation) to the manuscript body. Scoped the Prellberg comparison precisely (single-colour requirement vs row confinement). Fixed all hard-coded paths in the reproduction scripts."
+}
