@@ -1,0 +1,15 @@
+{
+ "problem_name": "no_three_in_line",
+ "statement_version": 2,
+ "title": "Certificate architecture for the confinement program and the isolation of no-three-collinearity in the no-three-in-line system",
+ "abstract": "The no-three-in-line problem on even orders splits by symmetry: a confined configuration (all representatives in rows of one parity) has a coarse shadow whose arithmetic conditions - regularity, cent-freeness, and avoidance of linear-family kills - can be studied independently of no-three-collinearity. We prove an isolation theorem: for every even m >= 6, an explicit two-diagonal family satisfies the entire arithmetic shadow, so no-three-collinearity is the only condition not captured by arithmetic avoidance. We further prove a correspondence theorem: the mixed collinear triples of any confined lift correspond bijectively to family kills of its coarse shadow, for every primitive normal at once, via a kernel-parallelism argument of three lines. Together these give a four-layer certificate architecture (capacity counting, line-pair certificates with retained solver statuses, row splitting, corner kernels with a 29-constraint irreducible kernel and a complete 37-case refutation) that decides the confinement question exactly for all coarse orders m = 5..11, with m = 12 partially decided (1,990/2,510 closed, 520 undetermined, zero survivors among the decided). Every structural claim is validated against the complete Flammenkamp database: all 431,017 configurations re-verified; census rigidity exact for 100% of 33,668 rot4 solutions; no F2-free configuration among 208,944 half-turn-class solutions; row confinement exactly at n = 4 and n = 8. All scripts, certificates and the database snapshot are at github.com/aujurd22/no3inline-rigidity.",
+ "tags": [
+  "no-three-in-line",
+  "combinatorial geometry",
+  "certificate architecture",
+  "correspondence theorem",
+  "residue-class obstruction"
+ ],
+ "previous_submission_id": "YUv0t6yvhoT35saY",
+ "change_summary": "New: Proposition 4.1 upgraded to a correspondence theorem valid for every primitive normal, with a kernel-parallelism proof (the mixed collinear triples of a confined lift correspond bijectively to family kills of the coarse shadow, for all normals at once - Theorem and Corollary 4.1.1). New Proposition 4.2 (cap redundancy) repairs the logical direction of revision 2 - the family-value capacity caps are implied by coarse no-three-collinearity, so the System-B certificates decide System A. New Remark 3.2 characterising the odd-order boundary. New Section 6 definitions for every reported statistical object (census classes, determinant forms, F2 conventions, orbit graph) with reconciled rot2/combined statistics. The Layer-B claims rescoped as status-labelled diagnostics; reproducibility improved (portable full-DB driver, both classes, all orders). Retained: the corrected isolation-theorem proof, the m=5..12 results table, the related-work scoping."
+}
