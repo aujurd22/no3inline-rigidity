@@ -1,0 +1,13 @@
+{
+ "problem_name": "no_three_in_line",
+ "statement_version": 2,
+ "title": "Certificate architecture for the confinement program and the isolation of no-three-collinearity in the no-three-in-line system",
+ "abstract": "Every even-order no-three-in-line configuration splits into an arithmetic shadow (row/column regularity, cent-freeness, and avoidance of five linear-family kills) and the no-three-collinearity condition itself. We prove an isolation theorem: for every even m >= 6, an explicit two-diagonal family satisfies the entire arithmetic shadow, so no-three-collinearity is the unique obstruction not captured by arithmetic avoidance - any impossibility proof must consume it essentially. Around this theorem we build a four-layer certificate architecture (capacity counting, line-pair duals, row splitting, corner kernels) for the confinement program - the question of which configurations survive the halving map - and verify it for all coarse orders m = 5..12: zero confined lifts beyond the known n = 4 and n = 8 solutions, with a 29-constraint irreducible kernel and a complete 37-case human-readable refutation at m = 5. The certificate types are stable across m = 7..9 (six classes, no new ones), while kernel sizes and critical pairs drift - separating a stable layer from a drifting layer. Finally we validate every structural claim against the complete Flammenkamp database: all 431,017 configurations re-verified; census rigidity holds for 100% of 33,668 rot4 solutions; the F2-tightness conjecture holds without exception on all 208,944 half-turn-class solutions; and row confinement occurs exactly at n = 4 and n = 8. Reproduction scripts and the full database snapshot are available at github.com/aujurd22/no3inline-rigidity.",
+ "tags": [
+  "no-three-in-line",
+  "combinatorial geometry",
+  "certificate architecture",
+  "residue-class obstruction",
+  "SAT"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "problem_name": "no_three_in_line",
+ "statement_version": 2,
+ "title": "Certificate architecture for the confinement program and the isolation of no-three-collinearity in the no-three-in-line system",
+ "abstract": "Every even-order no-three-in-line configuration splits into an arithmetic shadow (two per row and column, cent-freeness, avoidance of five linear-family kills) and the no-three-collinearity condition itself. We prove an isolation theorem: for every even m >= 6, an explicit two-diagonal family satisfies the entire arithmetic shadow with a complete case analysis, so the arithmetic conditions alone do not constrain the problem - any confinement-impossibility proof must consume no-three-collinearity essentially. For the confinement program we build a four-layer certificate architecture (capacity counting, line-pair duals with retained solver statuses, row splitting, corner kernels) and decide the question for all coarse orders m = 5..11 exactly: zero confined lifts, with a 29-constraint irreducible kernel and a complete 37-case refutation at m = 5; at m = 12 1,990 of 2,510 patterns close and 520 remain undetermined with zero survivors among the decided. We further validate all structural claims against the complete Flammenkamp database: all 431,017 configurations re-verified; census rigidity exact for 100% of 33,668 rot4 solutions; no F2-free configuration among 208,944 half-turn-class solutions; and row confinement exactly at n = 4 and n = 8. Reproduction scripts, the database snapshot and all certificates are at github.com/aujurd22/no3inline-rigidity.",
+ "tags": [
+  "no-three-in-line",
+  "combinatorial geometry",
+  "certificate architecture",
+  "residue-class obstruction",
+  "SAT"
+ ],
+ "previous_submission_id": "y-kZ917lPTMlVEvg",
+ "change_summary": "Corrected the isolation-theorem proof (three algebra errors fixed; every displayed identity machine-verified with computer algebra). Separated System A (stated family avoidance) from System B (bounded CP-SAT encoding) and re-scoped all relaxation claims accordingly, with a concrete System-A-valid/System-B-rejected example. Stated and proved the reduction proposition previously invoked without proof. Included the m=5 29-constraint irreducible kernel and the complete 37-case corner refutation in the supplement. Restricted all non-existence claims to decided orders (m=5..11 certified; m=12: 1,990/2,510 closed, 520 disclosed as undetermined). Defined the census classes, determinant forms and F2 counting conventions before first use; reconciled the rot2-only and combined statistics (max 92 vs 107, means 36.6/64.7/36.9). Replaced the Layer-B 'exact dual' claims by status-labelled slack diagnostics with retained solver statuses. Made the F2 census driver portable and covering both classes. Fixed reference [3]; rescoped the Prellberg and GGKKP comparisons as contextual; converted all formulas to LaTeX."
+}
