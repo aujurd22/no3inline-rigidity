@@ -1,0 +1,22 @@
+{
+ "rot2": {
+  "n_sols": 206259,
+  "verified_bad": 0,
+  "f2_free": 0,
+  "confined": 2,
+  "collinear_viol": 0,
+  "f2_min": 3,
+  "f2_max": 92,
+  "f2_sum": 7545787
+ },
+ "rct4": {
+  "n_sols": 2685,
+  "verified_bad": 0,
+  "f2_free": 0,
+  "confined": 0,
+  "collinear_viol": 0,
+  "f2_min": 12,
+  "f2_max": 107,
+  "f2_sum": 173729
+ }
+}
